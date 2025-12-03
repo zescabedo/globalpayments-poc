@@ -1,0 +1,173 @@
+﻿---
+ID: "2b8c91dc-b0f0-4f13-9336-67ad4296bb01"
+Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+Template: "4d2b49e6-1130-444a-b22c-5c7e25d01b56"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Tables"
+SharedFields:
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: modern tables, minimalist furniture, coffee table, side table, dining table, oak table, nesting tables, contemporary design, sustainable furniture, luxury interior
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{555B5EC4-EEAD-4C28-B733-663B9A4A9747}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3d379c35-3498-4d6d-80f7-a2898bdc3a7f"
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="318" dam-content-type="Image" alt="Ein Foto eines Naturholztisches, der in der Mitte eines Wohnzimmers steht" width="418" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66629/thumbnail" dam-id="WbWnSyg5QeqH6xIYgTPsPw" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/06f5eb69347a4580bbbb5fd7f612a02e?v=9761decf" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Die Tischkollektion zeigt raffinierte Handwerkskunst und vielseitiges Design. Mit natürlichen Materialien und minimalistischen Silhouetten fügt jedes Stück dem modernen Zuhause Balance und Funktion hinzu und steht gleichzeitig als Kunstwerk für sich.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251023T011530Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tische
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: moderne Tische, minimalistische Möbel, Couchtisch, Beistelltisch, Esstisch, Eichentisch, Satztische, zeitgenössisches Design, nachhaltige Möbel, luxuriöse Inneneinrichtung
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d23ef16-7d8a-4f3c-a5cd-fb3ea9cb23e7"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Moderne Tische
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072748Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Entdecken Sie zeitgenössische Tische, die für modernes Wohnen entworfen wurden. Klare Linien, natürliche Materialien und zeitlose Proportionen schaffen vielseitige Stücke, die jeden Raum aufwerten.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Tische
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/06f5eb69347a4580bbbb5fd7f612a02e?v=9761decf" dam-id="WbWnSyg5QeqH6xIYgTPsPw" width="418" height="318" alt="A photo of a natural wood table sitting in the middle of a living room" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66629/thumbnail" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: The table collection showcases refined craftsmanship and versatile design. With natural materials and minimalist silhouettes, each piece adds balance and function to the modern home while standing as a work of art in its own right.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251023T011530Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tables
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: modern tables, minimalist furniture, coffee table, side table, dining table, oak table, nesting tables, contemporary design, sustainable furniture, luxury interior
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "10dd1433-1458-44db-9a62-728e69c6fb81"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Modern Tables
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251023T234921Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Shop contemporary tables designed for modern living. Clean lines, natural materials, and timeless proportions create versatile pieces that elevate every room.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Tables
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="318" dam-content-type="Image" alt="Une photo d'une table en bois naturel au milieu d'un salon" width="418" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66629/thumbnail" dam-id="WbWnSyg5QeqH6xIYgTPsPw" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/06f5eb69347a4580bbbb5fd7f612a02e?v=9761decf" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: La collection de tables met en valeur un artisanat raffiné et un design polyvalent. Avec des matériaux naturels et des silhouettes minimalistes, chaque pièce ajoute équilibre et fonctionnalité à la maison moderne tout en se présentant comme une œuvre d'art à part entière.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251023T011530Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Tables
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: tables modernes, mobilier minimaliste, table basse, table d'appoint, table à manger, table en chêne, tables gigognes, design contemporain, mobilier durable, intérieur de luxe
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c3c2319-69ec-4f3a-97eb-f56a081fe4bb"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Tables modernes
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070223Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Découvrez nos tables contemporaines conçues pour la vie moderne. Des lignes épurées, des matériaux naturels et des proportions intemporelles créent des pièces polyvalentes qui rehaussent chaque pièce.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Tables

@@ -1,0 +1,270 @@
+﻿---
+ID: "e6aea3ad-12aa-465b-8361-dde6cc398591"
+Parent: "078d4751-d125-408a-9ff2-f5417844b877"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Sofa/Copenhagen Sofa"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 662
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="2048d46c-43df-4214-a80d-d821ed9fc115" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{ADF83F57-1D97-4F76-9468-59903EE35215}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "25d1e2fd-5294-4347-8633-6018d0fa4a7c"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{52C48962-860A-4B9E-B11C-65FDFE2F1E97}"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-productcontent/related-products-1" />
+      </d>
+    </r>
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130812Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Kopenhagen Sofa | Forma Lux – Skandinavischer Dreisitzer mit Eichenholzgestell
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "Ein Dreisitzer-Sofa mit klaren skandinavischen Linien."
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {FD74A159-FC1F-48F8-88C8-5703D830E00D}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Kopenhagen Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: SOF0003
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+        {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{2048D46C-43DF-4214-A80D-D821ED9FC115}" alt="kopenhagen-sofa-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f73a9c9-3bf2-48c2-a509-5e9d89102f79"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Kopenhagen Sofa
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: "Kopenhagen Sofa, skandinavisches Sofa, Dreisitzer-Couch, Leinenbezug, Eichenholzgestell Möbel, modernes Sofadesign, Forma Lux Shop, minimalistische Möbel"
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Das Kopenhagen Sofa von Forma Lux zeichnet sich durch klare skandinavische Linien, weichen Leinenbezug und ein solides Eichenholzgestell aus – ein zeitloser Dreisitzer, der Komfort und modernes Design vereint.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072809Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Das Kopenhagen Sofa ist mit weichem Leinenstoff bezogen und hat ein solides Eichenholzgestell. Sein minimalistisches Design und die weichen Kissen machen es zu einem vielseitigen Stück für moderne Wohnzimmer.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Unaufdringlich und mühelos elegant verkörpert das Kopenhagen Sofa die Harmonie des skandinavischen Designs und die Handwerkskunst von Forma Lux. Sein solides Eichenholzgestell verankert eine Silhouette, die durch Balance und Proportion definiert ist, während weiche Leinenkissen zum täglichen Komfort einladen. Perfekt für moderne Wohnzimmer, bietet Kopenhagen Wärme, Einfachheit und natürliche Textur in gleichem Maße. Erhältlich in Schwarz und Weiß, ist dieses Dreisitzer-Sofa eine Feier der stillen Eleganz – entworfen, um mit dem Zuhause, das es vervollständigt, würdevoll zu altern."
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130812Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: "Copenhagen Sofa | Forma Lux – Scandinavian Three-Seater with Oak Base"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "A three-seater sofa with clean Scandinavian lines."
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {FD74A159-FC1F-48F8-88C8-5703D830E00D}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Copenhagen Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: SOF0003
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+        {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{2048D46C-43DF-4214-A80D-D821ED9FC115}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0661512d-fba1-4a4f-a617-c44def0202ef"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Copenhagen Sofa
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: "Copenhagen Sofa, Scandinavian sofa, three-seater couch, linen upholstery, oak base furniture, modern sofa design, Forma Lux shop, minimalist furniture"
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: "The Copenhagen Sofa by Forma Lux features clean Scandinavian lines, soft linen upholstery, and a solid oak base — a timeless three-seater that blends comfort and modern design."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251022T175714Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>The Copenhagen Sofa is upholstered in soft linen fabric with a solid oak base. Its minimalist design and plush cushions make it a versatile piece for modern living rooms.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Understated and effortlessly elegant, the Copenhagen Sofa embodies the harmony of Scandinavian design and Forma Lux craftsmanship. Its solid oak base anchors a silhouette defined by balance and proportion, while plush linen cushions invite everyday comfort. Perfect for modern living rooms, Copenhagen delivers warmth, simplicity, and natural texture in equal measure. Available in Black and White, this three-seater sofa is a celebration of quiet luxury — designed to age gracefully with the home it completes."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T130812Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Sofa de Copenhague | Forma Lux – Canapé trois places scandinave avec base en chêne
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un canapé trois places avec des lignes scandinaves épurées.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {FD74A159-FC1F-48F8-88C8-5703D830E00D}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 899
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofa de Copenhague
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: SOF0003
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+        {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{2048D46C-43DF-4214-A80D-D821ED9FC115}" alt="sofa-de-copenhague-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "77148dba-63fd-4f4c-97cd-125f7b14305d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Sofa de Copenhague
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Sofa de Copenhague, canapé scandinave, canapé trois places, revêtement en lin, meuble base en chêne, design de canapé moderne, boutique Forma Lux, mobilier minimaliste
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Le Sofa de Copenhague par Forma Lux présente des lignes scandinaves épurées, un revêtement en lin doux et une base en chêne massif — un trois places intemporel qui allie confort et design moderne.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070245Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Le Sofa de Copenhague est recouvert d'un tissu en lin doux avec une base en chêne massif. Son design minimaliste et ses coussins moelleux en font une pièce polyvalente pour les salons modernes.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: Discret et élégamment simple, le Sofa de Copenhague incarne l'harmonie du design scandinave et l'artisanat de Forma Lux. Sa base en chêne massif ancre une silhouette définie par l'équilibre et la proportion, tandis que les coussins en lin moelleux invitent au confort quotidien. Parfait pour les salons modernes, Copenhague offre chaleur, simplicité et texture naturelle en parts égales. Disponible en noir et blanc, ce canapé trois places est une célébration du luxe discret — conçu pour vieillir gracieusement avec la maison qu'il complète.

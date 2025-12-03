@@ -1,0 +1,176 @@
+﻿---
+ID: "078d4751-d125-408a-9ff2-f5417844b877"
+Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+Template: "4d2b49e6-1130-444a-b22c-5c7e25d01b56"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Sofa"
+SharedFields:
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: modern sofas, modular seating, sectional sofa, minimalist sofa, contemporary living room, sustainable furniture, luxury seating, neutral sofa, timeless design, comfort design
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{514861C4-F46A-4937-B8F5-0882C7AEB5C7}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "31bcfd1d-aeac-497e-b83c-5b79587a09c9"
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="733" dam-content-type="Image" alt="Ein Showroom-Stil Layout von Sofas" width="1100" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66628/thumbnail" dam-id="TFN69Z3STU-6fDH0gyhxtA" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/034624fa99674451aed91ade60c245aa?v=5abffdd1" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Diese Sofakollektion vereint Form und Funktion, um lebendige Stücke zu schaffen, die für das Leben gebaut sind. Jedes Design zeichnet sich durch klare Linien, tiefen Komfort und anpassungsfähige Modularität aus – eine perfekte Balance aus Raffinesse und alltäglicher Leichtigkeit.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T154824Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: moderne Sofas, modulare Sitzmöbel, Ecksofa, minimalistisches Sofa, zeitgenössisches Wohnzimmer, nachhaltige Möbel, luxuriöse Sitzmöbel, neutrales Sofa, zeitloses Design, Komfortdesign
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c9acf31-ae10-4d62-86c6-9eb39f8c2a64"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Designersofas
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072748Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Entdecken Sie moderne Sofas, die für Komfort und Langlebigkeit gefertigt sind. Modulare Designs, weiche Texturen und raffinierte Silhouetten bringen Eleganz und Entspannung in zeitgenössische Innenräume.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Sofa
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/034624fa99674451aed91ade60c245aa?v=5abffdd1" dam-id="TFN69Z3STU-6fDH0gyhxtA" width="1100" height="733" alt="A showroom style layout of sofa's" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66628/thumbnail" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: This sofa collection blends form and function to create living pieces built for life. Each design features clean lines, deep comfort, and adaptable modularity — a perfect balance of sophistication and everyday ease.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T154824Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: modern sofas, modular seating, sectional sofa, minimalist sofa, contemporary living room, sustainable furniture, luxury seating, neutral sofa, timeless design, comfort design
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b0c7d07d-d649-4608-b046-47ad94279cf6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Designer Sofas
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251023T235017Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Explore modern sofas crafted for comfort and longevity. Modular designs, soft textures, and refined silhouettes bring elegance and relaxation to contemporary interiors.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Sofa
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="733" dam-content-type="Image" alt="Un agencement de style showroom de canapés" width="1100" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66628/thumbnail" dam-id="TFN69Z3STU-6fDH0gyhxtA" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/034624fa99674451aed91ade60c245aa?v=5abffdd1" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Cette collection de canapés allie forme et fonction pour créer des pièces vivantes conçues pour la vie. Chaque design présente des lignes épurées, un confort profond et une modularité adaptable — un équilibre parfait entre sophistication et facilité quotidienne.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T154824Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Canapé
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: canapés modernes, sièges modulaires, canapé sectionnel, canapé minimaliste, salon contemporain, meubles durables, sièges de luxe, canapé neutre, design intemporel, design confortable
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b480d5aa-2bcf-487c-8cba-c95ac47bea1b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Canapés design
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070223Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Découvrez des canapés modernes conçus pour le confort et la longévité. Des designs modulaires, des textures douces et des silhouettes raffinées apportent élégance et relaxation aux intérieurs contemporains.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Canapé

@@ -1,0 +1,258 @@
+﻿---
+ID: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+Parent: "4e869961-efef-4b47-bb69-170a251d689b"
+Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
+Path: "/sitecore/content/retail/forma-lux/Home/Products"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{4D2B49E6-1130-444A-B22C-5C7E25D01B56}"
+- ID: "1fbc6a49-6281-48ee-87e9-a3970b145adb"
+  Hint: NavigationFilter
+  Value: "{D063E9D1-C7B5-4B1E-B31E-69886C9C59F5}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{072CD27A-6AC9-457E-9649-37051EFC336C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "fab2380a-c203-4037-888f-1f375d9dcab7"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{3447123F-7CA9-4350-9085-20C4F632B7EE}"
+          s:id="{613A3675-953D-4AD1-877A-48D24A28977D}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+      </d>
+    </r>
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03fc223a-9983-4cc1-b51f-db969bfcb89c"
+      Hint: thumbnailImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4890859dfc494cb7916f45104a36de45?v=9c45837a" dam-id="Cdg45KIVRlaoImMxQ0-cJA" width="1024" height="950" alt="ModernVibe.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66670/thumbnail" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091044Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: Entdecken Sie das gesamte Sortiment an nachhaltigen Möbelkollektionen von Forma Lux – zeitlose Sofas, Stühle und Tische, die mit Präzision, natürlichen Materialien und dauerhafter Eleganz gefertigt werden. Entworfen, um jedem Raum Wärme, Balance und Raffinesse zu verleihen.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Produkte
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Produkte
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4890859dfc494cb7916f45104a36de45?v=9c45837a" dam-id="Cdg45KIVRlaoImMxQ0-cJA" width="1024" height="950" alt="ModernVibe.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66670/thumbnail" />
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Produkte | Durchsuchen Sie alle unsere Produkte
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8de1c090-bdbe-407f-ba30-f080137cdfc8"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
+      Hint: pageSummary
+      Value: Forma Lux bietet eine kuratierte Auswahl an nachhaltigen Luxusmöbeln, die das moderne Leben bereichern sollen. Jede Kollektion – von modularen Sofas bis hin zu skulpturalen Tischen – spiegelt ein Engagement für Handwerkskunst, Qualität und durchdachtes Design wider. Jedes Stück ist darauf ausgelegt, zu bestehen und bringt raffinierte Einfachheit und dauerhafte Schönheit in die Räume, die Menschen ihr Zuhause nennen.
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: Forma Lux, Luxusmöbel, nachhaltige Möbel, moderne Möbelkollektionen, handgefertigte Sofas, minimalistische Stühle, Eichentische, zeitloses Design, umweltfreundliche Möbel, modulare Sitzmöbel
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072743Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03fc223a-9983-4cc1-b51f-db969bfcb89c"
+      Hint: thumbnailImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4890859dfc494cb7916f45104a36de45?v=9c45837a" dam-id="Cdg45KIVRlaoImMxQ0-cJA" width="1024" height="950" alt="ModernVibe.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66670/thumbnail" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091044Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: Explore Forma Lux’s full range of sustainable furniture collections — timeless sofas, chairs, and tables crafted with precision, natural materials, and enduring elegance. Designed to bring warmth, balance, and sophistication to every space.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Products
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Products
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4890859dfc494cb7916f45104a36de45?v=9c45837a" dam-id="Cdg45KIVRlaoImMxQ0-cJA" width="1024" height="950" alt="ModernVibe.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66670/thumbnail" />
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Products | Browse all of our products
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "18bb551d-43e6-49ed-a63d-63ce9bf22765"
+    - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
+      Hint: pageSummary
+      Value: Forma Lux offers a curated selection of sustainable luxury furniture designed to elevate modern living. Each collection — from modular sofas to sculptural tables — reflects a commitment to craftsmanship, quality, and intentional design. Every piece is made to endure, bringing refined simplicity and lasting beauty to the spaces people call home.
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: "Forma Lux, luxury furniture, sustainable furniture, modern furniture collections, handcrafted sofas, minimalist chairs, oak tables, timeless design, eco-friendly furniture, modular seating"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251023T215151Z
+- Language: "es-ES"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250925T123933Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fa9adf99-e33b-484a-b979-1661d7eae9db"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250925T123933Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03fc223a-9983-4cc1-b51f-db969bfcb89c"
+      Hint: thumbnailImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4890859dfc494cb7916f45104a36de45?v=9c45837a" dam-id="Cdg45KIVRlaoImMxQ0-cJA" width="1024" height="950" alt="ModernVibe.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66670/thumbnail" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T091044Z
+    - ID: "417e1261-140b-4a2c-b087-e6b3a62d8b74"
+      Hint: metadataDescription
+      Value: Explorez la gamme complète de collections de meubles durables de Forma Lux — canapés, chaises et tables intemporels fabriqués avec précision, matériaux naturels et élégance durable. Conçus pour apporter chaleur, équilibre et sophistication à chaque espace.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Produits
+    - ID: "4ff91248-33ab-4254-b6f7-2618fd0aebae"
+      Hint: Title
+      Value: Produits
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ranula.gamage@sitecore.com
+    - ID: "76c41e77-4f4a-4eb2-8161-cb8dc6ad164b"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4890859dfc494cb7916f45104a36de45?v=9c45837a" dam-id="Cdg45KIVRlaoImMxQ0-cJA" width="1024" height="950" alt="ModernVibe.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66670/thumbnail" />
+    - ID: "8c96882b-717c-49af-97c1-55f4405932b5"
+      Hint: metadataTitle
+      Value: Produits | Parcourez tous nos produits
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "caa9145e-499c-41a2-9d6e-d3ba338bb43b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99fa84f7-dcae-4dba-ac6d-05c532c43887"
+      Hint: pageSummary
+      Value: Forma Lux propose une sélection de meubles de luxe durables conçus pour rehausser le mode de vie moderne. Chaque collection — des canapés modulaires aux tables sculpturales — reflète un engagement envers l'artisanat, la qualité et le design intentionnel. Chaque pièce est faite pour durer, apportant une simplicité raffinée et une beauté durable aux espaces que les gens appellent chez eux.
+    - ID: "acfdfba8-15b5-468f-9993-823469e3f252"
+      Hint: metadataKeywords
+      Value: Forma Lux, meubles de luxe, meubles durables, collections de meubles modernes, canapés faits à la main, chaises minimalistes, tables en chêne, design intemporel, meubles écologiques, sièges modulaires
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070216Z
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250925T123832Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "16687898-31d0-499b-8f79-5e906646518f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250925T123832Z

@@ -1,0 +1,123 @@
+﻿---
+ID: "68790ef8-3286-4cdc-9a99-518b1ad9a570"
+Parent: "7839c247-03eb-40cd-bd5c-3d0003e0f150"
+Template: "52446af9-12db-46ed-9d04-8f43cb1640f0"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/OfferBlocks/Default"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T173935Z
+    - ID: "345089d2-d0b1-467f-93d3-dc8da50e0f89"
+      Hint: Title
+      Value: Special Offers
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "58002ec4-bdbd-4b3d-a088-f651eca34869"
+      Hint: Subtitle
+      Value: "Don't miss out on these limited-time deals"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "785388bc-0622-43f1-a564-23ccf9cce978"
+      Hint: SpecialOffers
+      Value: |
+        {330F573D-21C9-4239-BB8C-097E54F2966B}
+        {F03FD11C-32FF-4C9D-BDA7-93725ABCEBFB}
+        {9BF848CF-C8B0-4A82-BAA3-DD20E1AA94C2}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4070211-b478-49e1-aeef-461b7c6faa65"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T173949Z
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T173935Z
+    - ID: "345089d2-d0b1-467f-93d3-dc8da50e0f89"
+      Hint: Title
+      Value: Offerte speciali
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "58002ec4-bdbd-4b3d-a088-f651eca34869"
+      Hint: Subtitle
+      Value: Non perdere queste offerte a tempo limitato
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "785388bc-0622-43f1-a564-23ccf9cce978"
+      Hint: SpecialOffers
+      Value: |
+        {330F573D-21C9-4239-BB8C-097E54F2966B}
+        {F03FD11C-32FF-4C9D-BDA7-93725ABCEBFB}
+        {9BF848CF-C8B0-4A82-BAA3-DD20E1AA94C2}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d059faf8-d74b-4416-9187-614f0cd75b84"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025653Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T173935Z
+    - ID: "345089d2-d0b1-467f-93d3-dc8da50e0f89"
+      Hint: Title
+      Value: 特別オファー
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "58002ec4-bdbd-4b3d-a088-f651eca34869"
+      Hint: Subtitle
+      Value: これらの期間限定のお得な情報をお見逃しなく
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "785388bc-0622-43f1-a564-23ccf9cce978"
+      Hint: SpecialOffers
+      Value: |
+        {330F573D-21C9-4239-BB8C-097E54F2966B}
+        {F03FD11C-32FF-4C9D-BDA7-93725ABCEBFB}
+        {9BF848CF-C8B0-4A82-BAA3-DD20E1AA94C2}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8479c900-6ac1-416f-bfa1-576d0e4a99f1"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024320Z

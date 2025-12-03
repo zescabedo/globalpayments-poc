@@ -1,0 +1,36 @@
+﻿---
+ID: "6a33a217-e1f6-46bc-a942-3bb5f5824e14"
+Parent: "889c297c-a638-4813-bc70-f69e32650d81"
+Template: "889c297c-a638-4813-bc70-f69e32650d81"
+Path: /sitecore/templates/Project/manufacturing/Article/Tags/Tag Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {121FF042-8E7E-48E2-961D-D38D81E8EDC6}
+    {F99C9D96-9B5D-4F08-9FA5-B278225F17AF}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6b19f952-efd5-4b37-bd8a-ddbe4b37036b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "415a309d-2620-4bd6-b7a0-a18863c6439e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251028T161303Z

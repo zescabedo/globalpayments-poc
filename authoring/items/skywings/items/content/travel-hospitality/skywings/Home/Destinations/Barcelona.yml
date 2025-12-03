@@ -1,0 +1,87 @@
+﻿---
+ID: "fc3d74a1-869e-4455-ae9b-e7da587301ed"
+Parent: "00a15dda-fce8-4b25-ad18-7c34ef15036f"
+Template: "0d71cb45-0e21-42fa-aabd-c8caca561163"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Destinations/Barcelona"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C78B5704-78E1-4FF7-B0F9-F223D4922EA0}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Barcelona, Spain city break, Gaudi, Mediterranean
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: From $1050
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251102T183503Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.6
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: "A vibrant cultural city with sunshine, beaches, and world-class cuisine."
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{FBBCFC90-A113-42D6-A972-A755F1993A99}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "April-June, September-October"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Barcelona
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Barcelona Trips – SkyWings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4859b064-e91c-4e0a-ae42-d6f4f2ae02fb"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Barcelona
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <p>Barcelona thrives with warmth, art, and effortless Mediterranean rhythm. Streets are filled with bright architecture, café tables spill into sunlit plazas, and the sea sits always within reach. The city feels colorful and expressive — alive with creativity and conversation.</p>
+        <p>Gaudí’s masterpieces shape the skyline, while neighborhood markets fill the air with the scent of fresh fruit, olive oil, and bread just pulled from the oven. Wander through Gothic alleyways to discover hidden courtyards, quiet cathedrals, and vibrant local life happening just out of view.</p>
+        <p>Evenings stretch long in Barcelona — rooftop dinners, seaside walks, and music echoing through historic streets. The city encourages intimacy and inspiration, whether you’re exploring with others or simply enjoying the pleasure of being somewhere full of beauty and movement.</p>
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: A city of art, sunshine, and Mediterranean rhythm.
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: 5
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2e364f0e0d045e2916b8462bb203ec2?v=b7bedaf4" dam-id="gIT5_e5NRkS9TVtvJ2_FIw" width="1344" height="768" alt="barcelona.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71321/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Discover Barcelona’s color, creativity, and coastal spirit with SkyWings.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251102T195532Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c2e364f0e0d045e2916b8462bb203ec2?v=b7bedaf4" dam-id="gIT5_e5NRkS9TVtvJ2_FIw" width="1344" height="768" alt="barcelona.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71321/thumbnail" />
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "18-30"

@@ -1,0 +1,41 @@
+﻿---
+ID: "639cf894-f678-42c6-a1b0-e2c09c76b17e"
+Parent: "7afec98b-2240-4400-a7e2-020b8fb22015"
+Template: "cd28d38d-9dbb-48c1-a862-64c464a094e7"
+Path: "/sitecore/content/energy-utilities/gridwell/Data/Actions/TEXNS"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2279feaf-3c8d-4a70-a988-c9b3cd532005"
+      Hint: Text
+      Value: Stay informed with Texas Advisory and Notification System alerts.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250920T230946Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "86372909-f80f-46bb-b065-07dda89993a8"
+      Hint: Title
+      Value: TXANS Alerts
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a2dad9c-aca8-4920-bd18-f129a8217516"
+    - ID: "a474b14e-5620-46f2-8fe1-85cdbd3f4e0f"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{31E5D564-9285-4A17-A7B0-F12751715D7A}" anchor="" target="_blank" title="" linktype="internal" text="Sign Up" url="/energy-utilities/gridwell/Home/Alerts/TEXNS" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250922T204151Z

@@ -1,0 +1,34 @@
+﻿---
+ID: "cf4453c8-8afc-46e4-85fb-6b1f284a5eb7"
+Parent: "38533092-c1b4-42d1-945f-9f48aba9b831"
+Template: "e43add4c-eea3-47a1-8271-e64a9fd0a209"
+Path: "/sitecore/content/energy-utilities/gridwell/Home/Alerts"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C581BE53-2CA7-42AE-9474-3184067B24A8}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250919T211129Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Alerts
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "54507ef3-3a65-4b1d-9846-bffacff19978"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250919T211129Z
+    - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
+      Hint: Title
+      Value: Alerts

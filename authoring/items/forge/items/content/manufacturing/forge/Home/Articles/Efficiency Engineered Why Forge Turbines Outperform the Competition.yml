@@ -1,0 +1,101 @@
+﻿---
+ID: "18121bbd-1ac0-494a-b3cd-f439cea859da"
+Parent: "9090dc55-3375-4f95-bcd9-70dc164279dc"
+Template: "783afc68-f107-4c79-9425-2ee6b6d70f32"
+Path: /sitecore/content/manufacturing/forge/Home/Articles/Efficiency Engineered Why Forge Turbines Outperform the Competition
+SharedFields:
+- ID: "05843f89-7822-4bc4-a7d6-ca721d33a874"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69667-LandingPageHero-2000x600?v=511f2785" dam-id="VCaJ9lwNSIS2v-6JrD2P2w" width="2000" height="600" alt="sander-weeteling-iGDg_f_mlWo-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69667/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{973EC57A-9181-433A-824A-A0BC5430D085}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7afc251c-b940-4bb1-937d-8c81950e4e06"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "0c9204d1-1148-406e-9d5e-0efb48df98ee"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Efficiency Engineered: Why Forge Turbines Outperform the Competition"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "07a605e9-a2c1-427d-8cab-858b2e7e378d"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69667-LandingPageHero-2000x600?v=511f2785" dam-id="VCaJ9lwNSIS2v-6JrD2P2w" width="2000" height="600" alt="sander-weeteling-iGDg_f_mlWo-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69667/thumbnail" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251028T162958Z
+    - ID: "2d53b9bc-4a0e-4cd9-9c23-0ebb3e5c3ed1"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69667-LandingPageHero-2000x600?v=511f2785" dam-id="VCaJ9lwNSIS2v-6JrD2P2w" width="2000" height="600" alt="sander-weeteling-iGDg_f_mlWo-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69667/thumbnail" />
+    - ID: "3e122dba-8fca-4f4e-8fac-9f7dc6095716"
+      Hint: Author
+      Value: "{3DD08CDF-F51C-4A24-8D6A-C209D4DB018D}"
+    - ID: "490a84b4-f232-4e47-873c-3e9b10c83077"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p data-start="5417" data-end="5499">Designed for endurance. Built for precision. Proven by performance.</p><p data-start="5501" data-end="5742">Every turbine looks powerful from the outside. But inside, it’s the invisible details that determine whether it’s built to last. At Forge, we engineer for performance at every level — from aerodynamic modeling to microstructural integrity.</p><h3 data-start="5744" data-end="5770"><strong data-start="5748" data-end="5768">Material Mastery</strong></h3><p data-start="5771" data-end="5983">Our turbines are forged from alloys and composites that withstand extreme thermal and mechanical stresses. This means less wear, greater heat tolerance, and consistent power delivery under high-load conditions.</p><h3 data-start="5985" data-end="6020"><strong data-start="5989" data-end="6018">Precision You Can Measure</strong></h3><p data-start="6021" data-end="6278">Through advanced computational fluid dynamics (CFD), we optimize every blade for aerodynamic efficiency, reducing drag and maximizing rotational energy. The result? Measurable gains in output and fuel efficiency, backed by independent third-party testing.</p><h3 data-start="6280" data-end="6316"><strong data-start="6284" data-end="6314">Reliability that Compounds</strong></h3><p data-start="6317" data-end="6554">Reliability is more than a selling point — it’s a strategic differentiator. Forge turbines require less maintenance over their lifespan, translating into tangible ROI: fewer shutdowns, lower parts costs, and uninterrupted productivity.</p><p data-start="6556" data-end="6632">When power meets precision, performance isn’t a metric — it’s a guarantee.</p></div>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Green Energy
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5aadf620-30a6-4314-ab9a-7d9a812df6fe"
+      Hint: metadataTitle
+      Value: "Efficiency Engineered: Why Forge Turbines Outperform the Competition"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "8255aeef-3c4b-4067-a8bd-f15a982efe1b"
+      Hint: pageSummary
+      Value: See how Forge turbine design delivers superior durability, precision, and energy efficiency.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a631cb8b-aa02-453b-9596-264ce9e51fde"
+    - ID: "94c0bc2c-b094-4962-b262-7265c708ef89"
+      Hint: metadataDescription
+      Value: See how Forge turbine design delivers superior durability, precision, and energy efficiency.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "bb0ac56c-0d1d-4489-b296-05be5ac8ec01"
+      Hint: Title
+      Value: "Efficiency Engineered: Why Forge Turbines Outperform the Competition"
+    - ID: "d1ca547d-3884-48d5-a9d8-81e62c56320b"
+      Hint: pageSummary
+      Value: See how Forge turbine design delivers superior durability, precision, and energy efficiency.
+    - ID: "d2078453-6a7d-427e-aa88-f7162f34a01d"
+      Hint: metadataKeywords
+      Value: "turbine performance, high-efficiency turbines, turbine reliability, industrial engineering"
+    - ID: "d8f88823-2f50-4cb2-ae33-f05e2ba44d60"
+      Hint: metadataKeywords
+      Value: "turbine performance, high-efficiency turbines, turbine reliability, industrial engineering"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251028T204214Z
+    - ID: "e5d47b24-fe77-4d18-95d1-659d333e4885"
+      Hint: metadataDescription
+      Value: See how Forge turbine design delivers superior durability, precision, and energy efficiency.
+    - ID: "f3dc4f0c-1541-4248-b395-d68d817e5939"
+      Hint: metadataTitle
+      Value: "Efficiency Engineered: Why Forge Turbines Outperform the Competition"

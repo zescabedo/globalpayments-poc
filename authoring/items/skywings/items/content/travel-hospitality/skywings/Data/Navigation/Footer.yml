@@ -1,0 +1,467 @@
+﻿---
+ID: "54886f75-18b8-462c-a2f2-1cbff5b110e9"
+Parent: "f772d92b-7ee8-46fc-bd21-7d9a6f6bf063"
+Template: "4dc88d14-f1ca-48bd-808b-94a69555a9ff"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Navigation/Footer"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{4DC88D14-F1CA-48BD-808B-94A69555A9FF}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f0b94306-871e-468a-bda5-3d2602e961fe"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: 24/7 Customer Service
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: Your trusted partner for comfortable and safe air travel worldwide.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9c77645-90e0-474e-8c82-a40052552c74"
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250728T215427Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: Contact Info
+- Language: "is-IS"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: Þjónusta við viðskiptavini allan sólarhringinn
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: Traustur félagi þinn fyrir þægilegar og öruggar flugferðir um allan heim.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "51925125-694a-4060-832b-613ed7e6f6f2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025211Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: Hafðu samband
+  - Version: 2
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: Þjónusta við viðskiptavini allan sólarhringinn
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: Traustur félagi þinn fyrir þægilegar og öruggar flugferðir um allan heim.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fa8d7dc1-606c-43ee-8e62-7b258d069726"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025546Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: Hafðu samband
+  - Version: 3
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: Þjónusta við viðskiptavini allan sólarhringinn
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: Traustur félagi þinn fyrir þægilegar og öruggar flugferðir um allan heim.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3fbe125-cbb3-4c50-bf45-f81770226ff9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T032216Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: Hafðu samband
+  - Version: 4
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: Þjónusta við viðskiptavini allan sólarhringinn
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: Traustur félagi þinn fyrir þægileg og örugg flug um allan heim.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "013f5d1b-4db1-4e38-8c13-ab9bd7b7d648"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T032711Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: Hafðu samband
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: Servizio clienti 24/7
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: Il tuo partner fidato per viaggi aerei confortevoli e sicuri in tutto il mondo.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "98ee603e-77aa-4fe3-af69-9def7f4f4797"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025653Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: Informazioni di contatto
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: 24時間年中無休のカスタマーサービス
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: 快適で安全な世界中の空の旅の信頼できるパートナー。
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "07a43ede-def3-4860-a45d-2192dc0d4f1a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024319Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: 連絡先情報
+- Language: "th-TH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: บริการลูกค้าตลอด 24 ชั่วโมง
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: พันธมิตรที่คุณไว้วางใจสำหรับการเดินทางทางอากาศที่สะดวกสบายและปลอดภัยทั่วโลก
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a29900a5-2217-44eb-832d-50da454627f6"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T023751Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: ข้อมูลติดต่อ
+  - Version: 2
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: บริการลูกค้าตลอด 24 ชั่วโมง
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: พันธมิตรที่คุณไว้วางใจสำหรับการเดินทางทางอากาศที่สะดวกสบายและปลอดภัยทั่วโลก
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d164716-61e2-423d-accb-971975a6460a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024219Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: ข้อมูลติดต่อ
+  - Version: 3
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Skywings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215247Z
+    - ID: "3db94971-8141-4db0-9a38-6011288d996d"
+      Hint: Additional
+      Value: บริการลูกค้าตลอด 24 ชั่วโมง
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "80af1205-1d81-4de5-a1de-0fcc34b3a01d"
+      Hint: Subtitle
+      Value: พันธมิตรที่คุณไว้วางใจสำหรับการเดินทางทางอากาศที่สะดวกสบายและปลอดภัยทั่วโลก
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "05a61fa1-7aa4-468f-864e-3fe8f0737fbc"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b2c67769-08f9-4b84-937c-2b23a7791bfd"
+      Hint: Email
+      Value: support@skywings.com
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d625923f-8920-4c87-b092-a26c2a3739fe"
+      Hint: Phone Number
+      Value: "+1 (555) 123-4567"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T032418Z
+    - ID: "deb7eda9-02ce-4de4-a612-0fb0826c8f50"
+      Hint: Contact Header
+      Value: ข้อมูลติดต่อ

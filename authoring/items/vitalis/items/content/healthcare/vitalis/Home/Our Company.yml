@@ -1,0 +1,53 @@
+﻿---
+ID: "24e529fa-416d-4a32-ab07-2269d9f781f8"
+Parent: "e2282aa0-af68-4033-ac38-14b16ca6ae62"
+Template: "38183f6a-c7aa-47bd-83d6-935f2383bc5d"
+Path: /sitecore/content/healthcare/vitalis/Home/Our Company
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B2A1C0E9-A833-4F58-A9DF-36F5E4D64746}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251113T201937Z
+    - ID: "2c6f31e6-beda-4374-9d2b-6a4fdb6d5c15"
+      Hint: metadataKeywords
+      Value: About Vitalis, healthcare technology company, payer solutions, healthcare innovation, Vitalis leadership, healthcare data transformation
+    - ID: "48005244-445f-4d3b-b5c2-c7f1b235ff60"
+      Hint: metadataTitle
+      Value: About Vitalis | Mission, Leadership, and Healthcare Innovation
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Our Company
+    - ID: "5000eb1d-4834-4c41-8106-ecb127701b47"
+      Hint: metadataDescription
+      Value: Learn about Vitalis—our mission, values, team, and commitment to transforming quality measurement, healthcare data interoperability, and operational performance for health plans.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "836698b8-9eb4-447a-ae2e-b7c50d9a6883"
+    - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/e3b5850e7bb84b44aa11c0f0cfefdc0a?v=9625bf52" dam-id="ke84FRdiTX-jF5scIGHfDg" width="350" height="350" alt="V6.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74664/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d70b853d-e180-45ef-a71f-f1cfedbfd7db"
+      Hint: pageSummary
+      Value: The Vitalis Company page provides background on the organization’s mission, leadership, and role in healthcare data transformation. It explains how Vitalis supports health plans with quality measurement, automation, and interoperable data solutions.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T165455Z
+    - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
+      Hint: Title
+      Value: Our Company

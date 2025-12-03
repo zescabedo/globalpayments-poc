@@ -1,0 +1,85 @@
+﻿---
+ID: "acf672d8-7fa9-4d77-93c0-66710421b68f"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/retail/forma-lux/Home/Articles/Dining Design Done Right Modern Furniture for the Heart of Your Home"
+SharedFields:
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69210-LandingPageHero-2000x600?v=82ca84d5" dam-id="dm0wrujJQ1e_uSKLhI8s8w" width="2000" height="600" alt="zac-gudakov-nhfggqH6J6A-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69210/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E1142E17-F6C4-4B48-A0FF-FCEBC7F041ED}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bcac7ac9-5454-4129-8055-97cdf00eadff"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "89a95bff-0fb9-4f9b-b520-a8c97978bd3a"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Dining Design Done: Right Modern Furniture for the Heart of Your Home"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251027T164526Z
+    - ID: "33928fed-fdda-4120-a93b-4b524ceb8d33"
+      Hint: metadataDescription
+      Value: "Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69210-LandingPageHero-2000x600?v=82ca84d5" dam-id="dm0wrujJQ1e_uSKLhI8s8w" width="2000" height="600" alt="zac-gudakov-nhfggqH6J6A-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69210/thumbnail" />
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: |
+        Transform your dining area into a sleek, inviting stage for everyday and entertaining.
+        Body:
+        
+    - ID: "6d9af895-a80c-4b62-834d-a2922764d453"
+      Hint: metadataTitle
+      Value: Dining Design Done Right Modern Furniture for the Heart of Your Home
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ddde43f-7ca2-41dd-bb44-e6c7d8d4d087"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Dining Design Done Right: Modern Furniture for the Heart of Your Home"
+    - ID: "a4ca1438-853a-4850-8eee-76eb8c0c645f"
+      Hint: pageSummary
+      Value: "Dining is more than meals—it’s shaping memories. Start with a table that suits your space: clean lines, durable material, room for expansion. Pair with chairs that are comfortable but defined—slim profiles, quality upholstery or shell material. Lighting should hover at 30-36” above the table for optimal ambiance. Add a rug to anchor the area and soften acoustics. For accessories: keep it minimal—a sculptural bowl, a simple runner, a piece of art—but meaningful. The goal: a modern dining space that says “come together” whether it’s family pizza night or dinner for six with friends."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T170059Z
+    - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
+      Hint: metadataKeywords
+      Value: modern dining space, dining room design tips, dining table ideas, clean lines dining table, durable dining furniture, expandable dining table, comfortable dining chairs, slim profile chairs, quality upholstery chairs, shell material chairs, dining lighting height, dining room ambiance, dining rug ideas, acoustic softening rug, minimal dining accessories, sculptural bowl decor, simple table runner, dining room art, modern dining decor, come together dining concept, family dining ideas, dinner party dining space

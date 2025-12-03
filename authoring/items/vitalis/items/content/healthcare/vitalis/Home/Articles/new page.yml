@@ -1,0 +1,92 @@
+﻿---
+ID: "b2ce042e-019e-4154-af0a-99d5ec367fd3"
+Parent: "75154406-99b2-4230-9f1a-9b09f6bf7ea3"
+Template: "0e9264df-c757-46ff-919d-cc434213740d"
+Path: /sitecore/content/healthcare/vitalis/Home/Articles/new page
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{5F09AE55-E2B3-40FC-AF6C-94087CCAF922}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c7344d9b-9a0c-42be-8a54-1889f26e241d"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Driving Revenue Growth Through Data-Driven Marketing"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C730EA24-99E0-45BB-B202-6419606F2F2A}"
+              s:ds="1caedb3a-6191-4429-9d4b-50bde5ad58fb"
+              s:id="{D203BAA3-339A-4C44-A41C-63DD3E053376}"
+              s:par="CSSStyles"
+              s:ph="/headless-main/sxa-article/article-detail-{FC59C943-73E1-4C01-9DC2-97DA103DD8B9}-0" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T154208Z
+    - ID: "2c6f31e6-beda-4374-9d2b-6a4fdb6d5c15"
+      Hint: metadataKeywords
+      Value: "AI-driven insights, personalized outreach, campaign automation, predictive analytics, omnichannel engagement, Vitalis healthcare data solutions, marketing strategies, conversion rate optimization, ROI maximization, pipeline growth, qualified leads generation"
+    - ID: "48005244-445f-4d3b-b5c2-c7f1b235ff60"
+      Hint: metadataTitle
+      Value: Driving Revenue Through Innovative Healthcare Data Solutions | Vitalis
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Reducing Administrative Burden
+    - ID: "5000eb1d-4834-4c41-8106-ecb127701b47"
+      Hint: metadataDescription
+      Value: "In today's competitive healthcare technology landscape, Vitalis does more than create awareness; we deliver measurable revenue impact. Discover how healthcare organizations reduce administrative burden and strengthen performance using Vitalis’ intelligent data automation platform. Our strategic approach generates qualified leads and accelerates pipeline growth through effective campaigns and advanced analytics. By leveraging proprietary datasets and AI-driven insights, we empower marketing strategies that personalize outreach, optimize conversion rates, and maximize ROI. Expect continued innovation in campaign automation, predictive analytics, and omnichannel engagement, designed to keep Vitalis at the forefront of healthcare data solutions, aligning marketing efforts with organizational growth priorities."
+    - ID: "5fc89920-e39e-4602-9b03-98e98ad5a842"
+      Hint: PublishDate
+      Value: 20250226T000000Z
+    - ID: "7cf9f373-5e3b-4677-8e52-8445d688be45"
+      Hint: Category
+      Value: "{91FDED2E-A612-4C99-8AF0-AA8AA32CC6C4}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b512f97d-9060-4af5-bab9-d7f4660e31da"
+    - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>n today’s competitive healthcare technology landscape, marketing teams must do more than create awareness—they must deliver measurable revenue impact. At <strong>Vitalis</strong>, our primary revenue goal is clear: <strong>generate qualified leads and accelerate pipeline growth through effective campaigns and advanced analytics</strong>.<br />&nbsp;</p><p>By leveraging proprietary datasets and AI-driven insights, we empower marketing strategies that personalize outreach, optimize conversion rates, and maximize ROI. This approach ensures every campaign contributes directly to revenue objectives, aligning marketing efforts with organizational growth priorities.<br />&nbsp;</p><p>As we look ahead, expect continued innovation in campaign automation, predictive analytics, and omnichannel engagement—all designed to keep <strong>Vitalis</strong> at the forefront of healthcare data solutions.</p></div>
+    - ID: "ad04c5bb-bc6a-4988-8922-8fc127d28330"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/74662-HomepagePromoCTAs-1100x740?v=969c21ce" dam-id="41j-nZWsT7CC1bmi81LrXw" width="1100" height="740" alt="V4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74662/thumbnail" />
+    - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/74662-HomepagePromoCTAs-1100x740?v=969c21ce" dam-id="41j-nZWsT7CC1bmi81LrXw" width="1100" height="740" alt="V4.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74662/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\david.berkovits@sitecore.com
+    - ID: "d3405e07-721f-4582-ae8c-81b9f1cfd954"
+      Hint: Excerpt
+      Value: Healthcare teams are overwhelmed by manual workflows, fragmented data, and rising reporting demands—but intelligent automation is transforming the way they operate. Vitalis helps organizations centralize and automate complex processes, reducing administrative burden while improving accuracy and efficie
+    - ID: "d70b853d-e180-45ef-a71f-f1cfedbfd7db"
+      Hint: pageSummary
+      Value: "Vitalis empowers healthcare payers and providers to streamline operations while generating measurable revenue impact. Through cutting-edge data automation, we enhance workflow efficiency, improve data accuracy, and foster cross-team collaboration, benefiting Stars, HEDIS, and value-based care programs. By integrating advanced analytics and AI-driven insights, Vitalis not only reduces administrative burdens but also aligns marketing strategies with growth priorities, optimizing pipeline growth and maximizing ROI in the competitive healthcare technology landscape."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T225108Z
+    - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
+      Hint: Title
+      Value: "Driving Revenue Growth Through Data-Driven Marketing"

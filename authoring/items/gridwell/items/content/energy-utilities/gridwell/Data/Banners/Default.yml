@@ -1,0 +1,52 @@
+﻿---
+ID: "e83a9610-786d-4385-8788-ea85795a0ad1"
+Parent: "cf1b8bf4-f879-4afa-b6bc-3fa1c9e4e913"
+Template: "b8b8c334-d73d-4aed-bcbd-be3dd4bce045"
+Path: "/sitecore/content/energy-utilities/gridwell/Data/Banners/Default"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "20d63af7-2f8c-4fd9-bce9-96ef7505b3c0"
+      Hint: Title
+      Value: Texas Grid Operations Simplified
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250920T215050Z
+    - ID: "3aac1162-a43b-4fbe-945a-e84eab40cb17"
+      Hint: CTA2
+      Value: |
+        <link linktype="internal" id="{92967256-3DD0-4E67-A731-17A2739431B5}" anchor="" querystring="" target="" class="" text="Learn More" title=""/>
+    - ID: "4915a80c-2085-4958-b625-728abdc7b5b5"
+      Hint: Subtitle
+      Value: "Real-time grid monitoring, intelligent forecasting, and proactive energy management."
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6c63af46-7888-44a3-98ad-cd684b800050"
+      Hint: CTA1
+      Value: |
+        <link text="View Grid Status" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{D1CA9231-F346-4FF4-9234-76EF531D822B}" />
+    - ID: "78db0dbe-17fc-467d-b86d-e94598fb1931"
+      Hint: Image
+      Value: |
+        <image mediaid="{43EE4A98-24EB-4BBE-AFFF-97AC0EB5F7F6}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "064e34a9-304d-46a0-86b5-967f13831ab3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\abaid.rehman@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250924T063611Z

@@ -1,0 +1,34 @@
+﻿---
+ID: "28915cd3-e6b5-4240-b70a-62c872dcedde"
+Parent: "803f8c56-5f72-402f-ab04-51b685d6dbbd"
+Template: "29ea0438-233c-4fd0-b6a0-ae3573b3f9bb"
+Path: /sitecore/content/healthcare/vitalis/Data/Taxonomies/Article Categories/Guide
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T144513Z
+    - ID: "41056a3c-7795-498c-ade8-1636b01f78b9"
+      Hint: Name
+      Value: Guide
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f572c853-49e5-45de-99e2-7b370e0476d5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T144645Z

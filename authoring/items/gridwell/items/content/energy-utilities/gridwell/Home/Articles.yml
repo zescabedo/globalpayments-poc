@@ -1,0 +1,119 @@
+﻿---
+ID: "92967256-3dd0-4e67-a731-17a2739431b5"
+Parent: "38533092-c1b4-42d1-945f-9f48aba9b831"
+Template: "e43add4c-eea3-47a1-8271-e64a9fd0a209"
+Path: "/sitecore/content/energy-utilities/gridwell/Home/Articles"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{3B3034DF-1E66-45DD-AF2D-B3578D9095E9}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3E167582-2450-46BC-B0DB-C12E926275CD}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "54fc1fef-5535-465f-aaeb-ca82dadc81ab"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{2C79F648-637B-415F-A572-29CB8EAA59B1}"
+              p:before="*"
+              s:ds="62abd601-8d7c-401b-a31a-910e198c05e6"
+              s:id="{2017AF40-88A3-47AB-80E8-54E6E4739DD8}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{5E3128F2-9678-4951-9761-605BE37A28FF}"
+              p:after="r[@uid='{2C79F648-637B-415F-A572-29CB8EAA59B1}']"
+              s:ds="0d905ed2-c304-4e01-9a42-85d1f80282e6"
+              s:id="{4CAE9CF0-3AED-435E-BED5-F787D49CEA30}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{6C60701C-8150-4317-A011-F670BB23EC83}"
+              p:after="*[1=2]"
+              s:ds="92967256-3dd0-4e67-a731-17a2739431b5"
+              s:id="{307B2603-8681-42D6-A773-51B3275BDEE0}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250919T211117Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Articles
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e925776b-d98d-4517-ab6a-157482b65f63"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250922T164855Z
+    - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
+      Hint: Title
+      Value: Articles
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{CA60EA02-3BF7-4BC2-9BA6-6014EF0A0769}"
+              s:ds="62abd601-8d7c-401b-a31a-910e198c05e6"
+              s:id="{2017AF40-88A3-47AB-80E8-54E6E4739DD8}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250923T130018Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "748c11cd-6ecb-4e91-be7d-4e8e81e50145"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250923T130059Z

@@ -1,0 +1,69 @@
+﻿---
+ID: "7bf5c6b8-a931-488c-b44b-f7f8e6e824fa"
+Parent: "58c58f38-b6c7-4730-b1f3-7a798f3be00e"
+Template: "33724dcb-6159-4d19-9ba7-04b604fc05b6"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Blogs/Bali in Summer"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{68B8E5CB-348F-43CF-AC5C-272046F2A35F}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Bali summer, warm weather travel, beaches in Bali, tropical holidays, SkyWings
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251102T230841Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: A warm and inviting look at summer in Bali, focusing on ocean calm, golden evenings, and effortless outdoor living.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Bali in Summer
+    - ID: "4ec388d5-31a2-44ac-b1ac-7809ee8b2ebd"
+      Hint: Excerpt
+      Value: Summer in Bali is warm, bright, and unhurried &mdash; perfect for ocean days, outdoor dining, and meaningful time with the people you travel with.
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Bali Summer Travel Inspiration | SkyWings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57037a0d-8775-48c1-a3a7-aba151ec4e8f"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: "Bali in Summer: Long Days, Warm Evenings, and Ocean Calm"
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: |
+        <p>Summer in Bali brings warm air, long daylight hours, and a gentle coastal breeze that encourages slow movement and open-air living. The ocean is calm and inviting, its warm shallows perfect for early-morning swims and late-afternoon wading. Sunlight glows across the water, creating a peaceful rhythm that carries effortlessly through each day.</p>
+        <p>Coastal cafés and beachside restaurants extend into the evening, where the horizon turns shades of amber and lavender. Meals are shared outdoors beneath soft lights strung overhead, with music drifting from nearby terraces. The feeling in summer is simple and uplifting — days are spacious, and nights are warm and social.</p>
+        <p>For travelers seeking balance, summer in Bali offers both energy and ease. Surf lessons at sunrise, slow bike rides through rice fields, quiet beaches away from the crowds, and time spent simply walking, talking, and breathing in the warm ocean air. It’s a season that invites joy without rush.</p>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/24bb96c3a6b64e8d8e498c7357cba5b6?v=88fcdb25" dam-id="VrpMf5-NTSCe7XCH76U1iA" width="1100" height="733" alt="GettyImages-545857793.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/41164/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "Experience the warmth, light, and ease of Bali in summer — from ocean days to open-air dining and coastal exploration."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251102T231149Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/24bb96c3a6b64e8d8e498c7357cba5b6?v=88fcdb25" dam-id="VrpMf5-NTSCe7XCH76U1iA" width="1100" height="733" alt="GettyImages-545857793.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/41164/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20250924T000000Z

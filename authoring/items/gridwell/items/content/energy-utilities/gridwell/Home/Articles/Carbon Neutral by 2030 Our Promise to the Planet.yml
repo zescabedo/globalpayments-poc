@@ -1,0 +1,76 @@
+﻿---
+ID: "4518c869-1035-42ff-a0bb-c86e1b337136"
+Parent: "92967256-3dd0-4e67-a731-17a2739431b5"
+Template: "3b3034df-1e66-45dd-af2d-b3578d9095e9"
+Path: "/sitecore/content/energy-utilities/gridwell/Home/Articles/Carbon Neutral by 2030 Our Promise to the Planet"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{90CFB2EA-6C51-40AF-8C38-6720ADDDB4E3}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "21bcbb01-ec7e-493a-aabb-e065f687f92c"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Carbon Neutral by 2030: Our Promise to the Planet"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "09658d47-362f-410e-b105-3e209c699032"
+      Hint: pageSummary
+      Value: Gridwell is committed to becoming carbon neutral by 2030 through renewable energy innovation, smart operations, and sustainable partnerships.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251028T201328Z
+    - ID: "3ea35676-87aa-4fb4-8b19-ab47efd870f6"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/70020-LandingPageHero-2000x600?v=ba326582" dam-id="FczZZT2ETVCgOaa142v0cw" width="2000" height="600" alt="federico-beccari-ahi73ZN5P0Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70020/thumbnail" />
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/70020-LandingPageHero-2000x600?v=ba326582" dam-id="FczZZT2ETVCgOaa142v0cw" width="2000" height="600" alt="federico-beccari-ahi73ZN5P0Y-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/70020/thumbnail" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p data-start="5188" data-end="5440">At Gridwell, we’re not waiting for change—we’re making it happen. Our goal is to achieve full carbon neutrality by 2030 through a combination of renewable energy generation, carbon capture innovation, and energy-efficient operations.</p><p data-start="5442" data-end="5804">This commitment is more than a target; it’s a reflection of our values. We’re partnering with local suppliers who share our vision, investing in next-generation clean tech, and helping customers reduce emissions through smarter energy use. Every milestone brings us closer to a world powered entirely by sustainable energy—and we’re proud to lead that journey.</p></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39e8c595-3789-411e-8743-f6f2913c00c3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "c8f5c199-4125-4d7a-9764-1cb4495dfd9f"
+      Hint: metadataKeywords
+      Value: carbon neutral company, corporate sustainability goals, clean energy pledge, zero emissions future
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251028T201533Z
+    - ID: "ebaca119-9ba6-4669-9c95-9636c512ff0d"
+      Hint: metadataTitle
+      Value: A bold goal. A clear plan. A better future for all.
+    - ID: "f36e79aa-1a19-431b-8173-f5218760940c"
+      Hint: metadataDescription
+      Value: Gridwell is committed to becoming carbon neutral by 2030 through renewable energy innovation, smart operations, and sustainable partnerships.
+    - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
+      Hint: Title
+      Value: Gridwell is committed to becoming carbon neutral by 2030 through renewable energy innovation, smart operations, and sustainable partnerships.A bold goal. A clear plan. A better future for all.

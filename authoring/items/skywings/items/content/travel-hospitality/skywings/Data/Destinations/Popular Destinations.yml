@@ -1,0 +1,126 @@
+﻿---
+ID: "4e52d367-47c3-4099-afb1-06dc19f5f951"
+Parent: "148a4435-a6f1-4e36-828c-3b3c7cc3a72d"
+Template: "49e1e817-273e-40ad-a811-ac80e89be327"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Destinations/Popular Destinations"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1045cf68-51a1-4ac1-a79a-272648bc5311"
+      Hint: Title
+      Value: Popular Destinations
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T154841Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "7fa8f691-82a8-4ef6-8fb4-e183eeed9619"
+      Hint: Subtitle
+      Value: Explore our most loved destinations around the world
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f9a98ab8-ddfc-4e50-ba63-0d660e3c5fb7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T161132Z
+    - ID: "f0b4952d-022f-4da0-8213-ac978965b169"
+      Hint: SelectedDestinations
+      Value: |
+        {08F5F1A7-348A-47C6-B6B1-EF92D9139D30}
+        {EE8061F3-8BFC-4E99-9758-B6021084B388}
+        {338FF7B1-EFB3-4F37-B771-C6ADEF90A7C1}
+        {4B9056F0-E73E-4551-B058-5969D40B51D2}
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1045cf68-51a1-4ac1-a79a-272648bc5311"
+      Hint: Title
+      Value: Destinazioni popolari
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T154841Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "7fa8f691-82a8-4ef6-8fb4-e183eeed9619"
+      Hint: Subtitle
+      Value: Esplora le nostre destinazioni più amate in tutto il mondo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b250fb77-51c0-4a11-a2e4-9c5de47e79e5"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025649Z
+    - ID: "f0b4952d-022f-4da0-8213-ac978965b169"
+      Hint: SelectedDestinations
+      Value: |
+        {08F5F1A7-348A-47C6-B6B1-EF92D9139D30}
+        {EE8061F3-8BFC-4E99-9758-B6021084B388}
+        {338FF7B1-EFB3-4F37-B771-C6ADEF90A7C1}
+        {4B9056F0-E73E-4551-B058-5969D40B51D2}
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1045cf68-51a1-4ac1-a79a-272648bc5311"
+      Hint: Title
+      Value: 人気の目的地
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T154841Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "7fa8f691-82a8-4ef6-8fb4-e183eeed9619"
+      Hint: Subtitle
+      Value: 世界中で最も愛されている目的地を探索する
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85863e03-2ef5-478e-b946-4df29341ae69"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024315Z
+    - ID: "f0b4952d-022f-4da0-8213-ac978965b169"
+      Hint: SelectedDestinations
+      Value: |
+        {08F5F1A7-348A-47C6-B6B1-EF92D9139D30}
+        {EE8061F3-8BFC-4E99-9758-B6021084B388}
+        {338FF7B1-EFB3-4F37-B771-C6ADEF90A7C1}
+        {4B9056F0-E73E-4551-B058-5969D40B51D2}

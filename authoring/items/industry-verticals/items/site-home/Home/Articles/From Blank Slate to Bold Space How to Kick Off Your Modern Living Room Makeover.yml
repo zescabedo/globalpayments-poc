@@ -1,0 +1,82 @@
+﻿---
+ID: "e5c4734b-3d57-41be-a58a-d2869d66d03f"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/retail/forma-lux/Home/Articles/From Blank Slate to Bold Space How to Kick Off Your Modern Living Room Makeover"
+SharedFields:
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69019-LandingPageHero-2000x600?v=8b2bc564" dam-id="IDmiap0IQb6NMaJCrpTmJg" width="2000" height="600" alt="ChatGPT Image Oct 27, 2025, 10_29_38 AM.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69019/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1AB91E23-B768-45C3-AA5C-C8DCD80FFFC6}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f65de629-a890-40ac-8d72-dfddb5535b61"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "719c153c-0121-4e62-a6d8-ebe470ae6a0f"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251027T154358Z
+    - ID: "33928fed-fdda-4120-a93b-4b524ceb8d33"
+      Hint: metadataDescription
+      Value: "So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you feel modern."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you <em data-start="1248" data-end="1254"><em>feel</em></em> modern.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69019-LandingPageHero-2000x600?v=8b2bc564" dam-id="IDmiap0IQb6NMaJCrpTmJg" width="2000" height="600" alt="ChatGPT Image Oct 27, 2025, 10_29_38 AM.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69019/thumbnail" />
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Transform a tired, neutral room into a curated modern haven with just a few smart moves.
+    - ID: "6d9af895-a80c-4b62-834d-a2922764d453"
+      Hint: metadataTitle
+      Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe049d57-3095-4b71-9e61-b6a810ee2b71"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "From Blank Slate to Bold Space: How to Kick-Off Your Modern Living Room Makeover"
+    - ID: "a4ca1438-853a-4850-8eee-76eb8c0c645f"
+      Hint: pageSummary
+      Value: "So you’ve got a living room that works—but doesn’t inspire. That changes today. Start by choosing one standout piece—maybe a sleek sectional in a bold color or an architectural coffee table with clean lines. Let that piece drive your palette. Then layer in contrast: soft textiles, sculptural accessories, a geometric rug. Balance is key: pair warm wood tones with cool metal finishes; mix high gloss with matte surfaces. And don’t forget scale—large furniture invites comfort, but open space keeps things airy. Finally, personalize: add a meaningful object, an unusual art piece, or a plant with character. The result? A living space that reflects your style and makes you feel modern."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T154701Z
+    - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
+      Hint: metadataKeywords
+      Value: modern living room, modern furniture, living room design, home décor, interior design inspiration, sleek sectional, bold color palette, architectural coffee table, clean lines, geometric rug, sculptural accessories, soft textiles, warm wood tones, cool metal finishes, high gloss surfaces, matte surfaces, furniture balance, layering textures, statement décor, personalized home style, contemporary living space, airy room design

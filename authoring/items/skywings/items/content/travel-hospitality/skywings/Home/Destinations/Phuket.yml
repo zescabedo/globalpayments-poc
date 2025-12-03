@@ -1,0 +1,87 @@
+﻿---
+ID: "00e6bbcc-0d61-4f8b-b549-b039fff98630"
+Parent: "00a15dda-fce8-4b25-ad18-7c34ef15036f"
+Template: "0d71cb45-0e21-42fa-aabd-c8caca561163"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Destinations/Phuket"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{98CB15E0-2FE0-4422-89C5-50164C051664}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Phuket, Thailand beach, island vacation
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: From $1120
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251102T182141Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.4
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: A warm, energetic beach escape with culture and coastal charm.
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{BE20DAEA-7CA2-493D-915E-AAECC680C052}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "December-March"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Phuket
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{817D29AE-2CED-4ECE-906A-C8E7A1656F0C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Phuket Travel – SkyWings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "40efddad-6c2a-4e0b-8069-a735182f22c0"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Phuket Coastal Escape
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <p>Phuket balances relaxation with adventure, offering lively beaches, quiet coves, and warm hospitality. Sunlight glows across the coastline, where long-tail boats drift between limestone cliffs and open sea. The island’s energy is inviting — colorful markets, casual beachfront cafés, and the scent of lemongrass and grilled seafood fill the air.</p>
+        <p>Step inland to discover temples set among lush hillsides and walking streets where artisans display their craft. Every corner has something to explore, whether it’s learning to prepare traditional Thai dishes or visiting century-old shrines. The island encourages curiosity — the kind that turns a simple walk into a small adventure.</p>
+        <p>Out on the water, Phuket becomes even more memorable. Island-hopping reveals hidden lagoons and bright coral reefs, while sunset catamaran sails offer open-air views of the sky melting into the ocean. Phuket welcomes travelers who want to feel connected — to new flavors, new scenery, and new stories shared under warm coastal light.</p>
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: A lively blend of beaches, culture, and warm hospitality.
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: 6
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/f0ad7802326f4e728e76bb2eac645132?v=631dcb40" dam-id="IwuVeVJTRwSXz9ow_E_tFQ" width="1344" height="768" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71351/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Experience the vibrant coastal beauty of Phuket with SkyWings.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251102T200636Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/f0ad7802326f4e728e76bb2eac645132?v=631dcb40" dam-id="IwuVeVJTRwSXz9ow_E_tFQ" width="1344" height="768" alt="Phuket.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71351/thumbnail" />
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "28-32"

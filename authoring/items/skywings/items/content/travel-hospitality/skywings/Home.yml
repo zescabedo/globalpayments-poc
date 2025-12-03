@@ -1,0 +1,305 @@
+﻿---
+ID: "57fdf201-2d56-4f6e-9085-6056c5f1f8f5"
+Parent: "31c7d9d3-fd68-4208-996a-ae5bfc8ffd0d"
+Template: "cb9ed0fb-3fed-4701-ad64-2ac447c52370"
+Path: "/sitecore/content/travel-hospitality/skywings/Home"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1BE4C3F3-D540-4096-8814-F240013D8237}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5b2be5eb-7771-4e49-8d6b-0b53e98e1632"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F558BEC9-C602-4D7A-B9A1-D0411C946EA4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Skywings, travel, book flights, travel destinations, cultural travel, trip planning, explore the world, travel experiences
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{55544397-7689-4476-ADD3-96C4ACDEE983}"
+              p:before="*"
+              s:ds="8700c7d7-b539-4aca-af0e-9abadb7ab2ec"
+              s:id="{0E1C0E59-8430-4FE9-8ECF-624BAB2DBFAF}"
+              s:par="CSSStyles&amp;Styles"
+              s:ph="headless-main" />
+            <r
+              uid="{1C7FFDC7-B067-48B3-8733-2EE89245A566}"
+              p:after="r[@uid='{55544397-7689-4476-ADD3-96C4ACDEE983}']"
+              s:id="{04A0ADDC-882A-4A4B-838B-4328D0360C3B}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{BCC6AD9D-B29B-4780-87CE-6006A67054FE}"
+              p:after="r[@uid='{1C7FFDC7-B067-48B3-8733-2EE89245A566}']"
+              s:ds="4e52d367-47c3-4099-afb1-06dc19f5f951"
+              s:id="{B428F62F-7269-4119-B345-C8BDFDD7F6BD}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{51F1FCDF-0325-42A2-B348-E665F7BA5FA2}"
+              p:after="r[@uid='{BCC6AD9D-B29B-4780-87CE-6006A67054FE}']"
+              s:ds="2c0a3b0c-f117-472b-93b6-13c943ca212e"
+              s:id="{0A03531F-6C2F-4FA4-9CD6-C3667664D8F2}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{D61B981D-48F4-4692-88FE-F4C18ACAA71E}"
+              p:after="r[@uid='{51F1FCDF-0325-42A2-B348-E665F7BA5FA2}']"
+              s:ds="9ddab83c-850d-46e6-b849-efd4e366acc1"
+              s:id="{F3773278-F48A-4516-807D-BE3348744C53}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{28B04483-C9F8-468D-9066-79EB894DD719}"
+              p:after="r[@uid='{D61B981D-48F4-4692-88FE-F4C18ACAA71E}']"
+              s:ds="68790ef8-3286-4cdc-9a99-518b1ad9a570"
+              s:id="{349B487B-A90E-4006-BD1F-853E08C4FF47}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{0687257D-CF4A-46B9-81C0-F102F53610F1}"
+              p:after="*[1=2]"
+              s:ds="58c58f38-b6c7-4730-b1f3-7a798f3be00e"
+              s:id="{E1B5C21C-6AFF-4732-B9CE-EFAC481E04BC}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T140847Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: skywings
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Skywings | Explore the World with Meaningful Journeys
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "70e47ebd-be8c-4bc5-9e2b-cfc4b163b803"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Skywings
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Discover destinations, plan trips, and experience cultural travel with Skywings. Explore inspiring locations, manage your journeys, and embrace travel that connects you to the world.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251102T175304Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68408-HomepagePromoCTAs-1100x740?v=ab1a30d7" dam-id="kb2BGgO6T26fAjX0xjlaDw" width="1100" height="740" alt="skywings-ogo.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68408/thumbnail" />
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{55544397-7689-4476-ADD3-96C4ACDEE983}"
+              p:before="*"
+              s:ds="8700c7d7-b539-4aca-af0e-9abadb7ab2ec"
+              s:id="{0E1C0E59-8430-4FE9-8ECF-624BAB2DBFAF}"
+              s:par="CSSStyles&amp;Styles"
+              s:ph="headless-main" />
+            <r
+              uid="{BCC6AD9D-B29B-4780-87CE-6006A67054FE}"
+              p:after="r[@uid='{55544397-7689-4476-ADD3-96C4ACDEE983}']"
+              s:ds="4e52d367-47c3-4099-afb1-06dc19f5f951"
+              s:id="{B428F62F-7269-4119-B345-C8BDFDD7F6BD}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{51F1FCDF-0325-42A2-B348-E665F7BA5FA2}"
+              p:after="r[@uid='{BCC6AD9D-B29B-4780-87CE-6006A67054FE}']"
+              s:ds="2c0a3b0c-f117-472b-93b6-13c943ca212e"
+              s:id="{0A03531F-6C2F-4FA4-9CD6-C3667664D8F2}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{D61B981D-48F4-4692-88FE-F4C18ACAA71E}"
+              p:after="r[@uid='{51F1FCDF-0325-42A2-B348-E665F7BA5FA2}']"
+              s:ds="9ddab83c-850d-46e6-b849-efd4e366acc1"
+              s:id="{F3773278-F48A-4516-807D-BE3348744C53}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{28B04483-C9F8-468D-9066-79EB894DD719}"
+              p:after="r[@uid='{D61B981D-48F4-4692-88FE-F4C18ACAA71E}']"
+              s:ds="68790ef8-3286-4cdc-9a99-518b1ad9a570"
+              s:id="{349B487B-A90E-4006-BD1F-853E08C4FF47}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{0687257D-CF4A-46B9-81C0-F102F53610F1}"
+              p:after="*[1=2]"
+              s:ds="58c58f38-b6c7-4730-b1f3-7a798f3be00e"
+              s:id="{E1B5C21C-6AFF-4732-B9CE-EFAC481E04BC}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T140847Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: skywings
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f4d673c-5132-472f-8b28-4a241cf8a243"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: skywings
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025553Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "686f20cb-0b31-4006-af9f-5f5ca2938351"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{55544397-7689-4476-ADD3-96C4ACDEE983}"
+              p:before="*"
+              s:ds="8700c7d7-b539-4aca-af0e-9abadb7ab2ec"
+              s:id="{0E1C0E59-8430-4FE9-8ECF-624BAB2DBFAF}"
+              s:par="CSSStyles&amp;Styles"
+              s:ph="headless-main" />
+            <r
+              uid="{BCC6AD9D-B29B-4780-87CE-6006A67054FE}"
+              p:after="r[@uid='{55544397-7689-4476-ADD3-96C4ACDEE983}']"
+              s:ds="4e52d367-47c3-4099-afb1-06dc19f5f951"
+              s:id="{B428F62F-7269-4119-B345-C8BDFDD7F6BD}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{51F1FCDF-0325-42A2-B348-E665F7BA5FA2}"
+              p:after="r[@uid='{BCC6AD9D-B29B-4780-87CE-6006A67054FE}']"
+              s:ds="2c0a3b0c-f117-472b-93b6-13c943ca212e"
+              s:id="{0A03531F-6C2F-4FA4-9CD6-C3667664D8F2}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{D61B981D-48F4-4692-88FE-F4C18ACAA71E}"
+              p:after="r[@uid='{51F1FCDF-0325-42A2-B348-E665F7BA5FA2}']"
+              s:ds="9ddab83c-850d-46e6-b849-efd4e366acc1"
+              s:id="{F3773278-F48A-4516-807D-BE3348744C53}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{28B04483-C9F8-468D-9066-79EB894DD719}"
+              p:after="r[@uid='{D61B981D-48F4-4692-88FE-F4C18ACAA71E}']"
+              s:ds="68790ef8-3286-4cdc-9a99-518b1ad9a570"
+              s:id="{349B487B-A90E-4006-BD1F-853E08C4FF47}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{0687257D-CF4A-46B9-81C0-F102F53610F1}"
+              p:after="*[1=2]"
+              s:ds="58c58f38-b6c7-4730-b1f3-7a798f3be00e"
+              s:id="{E1B5C21C-6AFF-4732-B9CE-EFAC481E04BC}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T140847Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: スカイウィングス
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d840a748-9bdc-4e38-8a01-566e0a70e899"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: スカイウィングス
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024209Z

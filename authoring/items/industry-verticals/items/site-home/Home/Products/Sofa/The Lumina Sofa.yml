@@ -1,0 +1,243 @@
+﻿---
+ID: "595b3b53-9a83-40d3-ac02-5d73d63e52a9"
+Parent: "078d4751-d125-408a-9ff2-f5417844b877"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Sofa/The Lumina Sofa"
+SharedFields:
+- ID: "74707399-0e90-4a4c-bc13-dde7ec849507"
+  Hint: Image2
+  Value: |
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c3cbf50210d94ff594ca13dd95f6a917?v=4d93eeaf" dam-id="fIGW0YgPSpyimDa20I6XCw" width="1024" height="1024" alt="The Lumina Sofa" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68171/thumbnail" />
+- ID: "9a62ea92-04df-49e2-ab37-00d251d0cc22"
+  Hint: Image4
+  Value: |
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5ea75437f4794ed4aade351169d4dcfc?v=5ac22ce7" dam-id="6j9rvqKQR4ig63SxxYr-Mg" width="992" height="910" alt="Close up of the linen material" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68168/thumbnail" />
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/0c5a5218ec714d1393be10b1eed1db72?v=e9e028e4" dam-id="-Xst0beLTAWkJpetsFv5XQ" width="1024" height="1024" alt="The Lumina Sofa with a transparent background" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68722/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{270E5979-2BE6-4780-A407-51715D3D26AF}" />
+- ID: "d9c8ae87-80fc-460b-9140-3db7358b1c8e"
+  Hint: Image3
+  Value: |
+    <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/d5f08cd5db1b4852ae1a7c7475f509eb?v=21f5e432" dam-id="Sib5AQyjRM6kHfTwzABMWA" width="968" height="936" alt="close up of the leg of the lumina sofa" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68170/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "93ffa671-3182-4246-90fa-23c04ed9da6b"
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251023T012952Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Das Lumina Sofa | Modulares nachhaltiges Sofa von Forma Lux
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "Das charakteristische Stück der Lumina-Kollektion, dieses modulare Sofa verkörpert zeitloses Design und nachhaltige Handwerkskunst – eine raffinierte Balance aus Form, Komfort und Anpassungsfähigkeit."
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: "{FD74A159-FC1F-48F8-88C8-5703D830E00D}"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1500
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Das Lumina Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: "FL-LS-1001"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image height="1024" dam-content-type="Image" alt="Das charakteristische Sofa in einem modernen Wohnzimmer" width="1024" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68171/thumbnail" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4944d71554034b85b7d7287647b67230?v=121fadde" dam-id="fIGW0YgPSpyimDa20I6XCw" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "89fa8aeb-226f-4149-95c6-520adcbb39a2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Das Lumina Sofa
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: "Forma Lux, Lumina-Kollektion, Lumina Sofa, modulares Sofa, nachhaltiges Sofa, Luxusmöbel, modernes Wohnzimmer, zeitloses Design, handgefertigte Möbel, modulares Ecksofa"
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Erleben Sie das Lumina Sofa von Forma Lux – ein charakteristisches modulares Stück, das modernen Komfort durch zeitloses Design und nachhaltige Handwerkskunst neu definiert. Handgefertigt aus natürlichen Materialien, gebaut um zu bestehen und darauf ausgelegt, sich mit Ihrem Raum zu entwickeln.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072809Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p data-start="566" data-end="1109">Das Lumina Sofa fängt die Essenz des modernen Wohnens ein – elegant, einladend und darauf ausgelegt, sich mit Ihrem Raum zu entwickeln. Gefertigt mit einem verantwortungsvoll bezogenen Hartholzrahmen und weicher, langlebiger Polsterung, bringt es sowohl Wärme als auch Struktur in jedes Interieur. Sein modulares Design ermöglicht endlose Konfigurationen, die sich an wechselnde Bedürfnisse anpassen, während es eine nahtlose, skulpturale Präsenz bewahrt. Jedes Detail, von der klaren Silhouette bis zur präzisen Tischlerei, spiegelt Forma Lux' Überzeugung wider, dass Luxus in Einfachheit und Langlebigkeit liegt.</p><p data-start="1111" data-end="1140">&nbsp;</p></div>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Das Lumina Sofa ist das Herzstück der Lumina-Kollektion – ein Ausdruck von Balance, Handwerkskunst und dauerhaftem Komfort. Auf einem soliden Hartholzrahmen gebaut und mit weichem, langlebigem Stoff bezogen, ermöglicht sein modulares Design flexible Konfigurationen, die sich jedem Wohnraum anpassen. Jede Linie und jedes Detail spiegelt Forma Lux' Überzeugung wider, dass Luxus absichtlich, nachhaltig und darauf ausgelegt sein sollte, zu bestehen."
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251023T012952Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: The Lumina Sofa | Modular Sustainable Sofa by Forma Lux
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: The signature piece of the Lumina Collection, this modular sofa embodies timeless design and sustainable craftsmanship — a refined balance of form, comfort, and adaptability.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: "{FD74A159-FC1F-48F8-88C8-5703D830E00D}"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1500
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: The Lumina Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: "FL-LS-1001"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image width="1024" height="1024" dam-id="fIGW0YgPSpyimDa20I6XCw" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4944d71554034b85b7d7287647b67230?v=121fadde" alt="The signature sofa in a modern living room" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68171/thumbnail" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b6b9893-49f3-441b-88eb-fb7a4790291c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: The Lumina Sofa
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Forma Lux, Lumina Collection, Lumina Sofa, modular sofa, sustainable sofa, luxury furniture, modern living room, timeless design, handcrafted furniture, modular sectional
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Experience The Lumina Sofa from Forma Lux — a signature modular piece that redefines modern comfort through timeless design and sustainable craftsmanship. Handcrafted from natural materials, built to endure, and designed to evolve with your space.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251024T011813Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p data-start="566" data-end="1109">The Lumina Sofa captures the essence of modern living — elegant, inviting, and designed to evolve with your space. Crafted with a responsibly sourced hardwood frame and soft, durable upholstery, it brings both warmth and structure to any interior. Its modular design allows for endless configurations, adapting to changing needs while maintaining a seamless, sculptural presence. Every detail, from the clean silhouette to the precise joinery, reflects Forma Lux’s belief that luxury lies in simplicity and longevity.</p><p data-start="1111" data-end="1140">&nbsp;</p></div>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: The Lumina Sofa is the centerpiece of the Lumina Collection — an expression of balance, craftsmanship, and enduring comfort. Built on a solid hardwood frame and upholstered in soft, durable fabric, its modular design allows for flexible configurations that adapt to any living space. Every line and detail reflects Forma Lux’s belief that luxury should be intentional, sustainable, and designed to last.
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251023T012952Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Le canapé Lumina | Canapé modulaire durable par Forma Lux
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "La pièce maîtresse de la collection Lumina, ce canapé modulaire incarne un design intemporel et un savoir-faire durable — un équilibre raffiné entre forme, confort et adaptabilité."
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: "{FD74A159-FC1F-48F8-88C8-5703D830E00D}"
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1500
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Le canapé Lumina
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: "FL-LS-1001"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image height="1024" dam-content-type="Image" alt="Le canapé signature dans un salon moderne" width="1024" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68171/thumbnail" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/4944d71554034b85b7d7287647b67230?v=121fadde" dam-id="fIGW0YgPSpyimDa20I6XCw" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ac17d48-e06f-4aa8-a6c3-7e96306f1c5f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Le canapé Lumina
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Forma Lux, collection Lumina, canapé Lumina, canapé modulaire, canapé durable, mobilier de luxe, salon moderne, design intemporel, mobilier fait main, section modulaire
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: "Découvrez le canapé Lumina de Forma Lux — une pièce modulaire emblématique qui redéfinit le confort moderne grâce à un design intemporel et un savoir-faire durable. Fabriqué à la main à partir de matériaux naturels, conçu pour durer et évoluer avec votre espace."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070244Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: |
+        <div class="ck-content"><p data-start="566" data-end="1109">Le canapé Lumina capture l'essence de la vie moderne — élégant, accueillant et conçu pour évoluer avec votre espace. Fabriqué avec un cadre en bois dur provenant de sources responsables et un revêtement doux et durable, il apporte chaleur et structure à tout intérieur. Son design modulaire permet des configurations infinies, s'adaptant aux besoins changeants tout en maintenant une présence sculpturale et homogène. Chaque détail, de la silhouette épurée à l'assemblage précis, reflète la conviction de Forma Lux que le luxe réside dans la simplicité et la longévité.</p><p data-start="1111" data-end="1140">&nbsp;</p></div>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Le canapé Lumina est la pièce maîtresse de la collection Lumina — une expression d'équilibre, de savoir-faire et de confort durable. Construit sur un cadre en bois dur solide et recouvert d'un tissu doux et durable, son design modulaire permet des configurations flexibles qui s'adaptent à tout espace de vie. Chaque ligne et détail reflète la conviction de Forma Lux que le luxe doit être intentionnel, durable et conçu pour durer."

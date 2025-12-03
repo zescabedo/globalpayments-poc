@@ -1,0 +1,104 @@
+﻿---
+ID: "f72cdbd4-6577-406f-b6ee-9693209376dd"
+Parent: "92967256-3dd0-4e67-a731-17a2739431b5"
+Template: "3b3034df-1e66-45dd-af2d-b3578d9095e9"
+Path: "/sitecore/content/energy-utilities/gridwell/Home/Articles/What to Do When an Energy Emergency Alert Is Issued"
+SharedFields:
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: "{E00C1ACE-987B-48BF-B19E-2D8D4A8C450C}|{00441477-93B9-4545-8117-ADC2A5125EDB}|{12879D12-35F6-4FE3-BCC5-7BBB71B361F7}|{84B66166-2B6C-4D42-B108-3546500FF8DB}|{16644A81-5992-4783-965C-F95C21DB7950}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EE6227AE-575F-4754-B008-8D3AF9D1E9E7}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a6499bd0-ac44-4453-b3ae-5403f7307f0e"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{B91A1458-E2CF-4E95-9AA3-7753D4335EAB}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{792640F8-DE57-4B5A-9F82-ACC90FFFD450}"
+                    s:name="a7add525594b4cdfbb571149cb4781c8">
+                    <conditions>
+                      <condition
+                        uid="6DAADC36FA1F439392AE0AA5AAA279A2"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="a7add525594b4cdfbb571149cb4781c8" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="F5EF4C580E114F93B4B4036D6BE81BF4"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "1df1ce3d-5905-4c91-8826-ee573c9f4c00"
+      Hint: Author
+      Value: Dr Amanda Foster
+    - ID: "1fe3dd19-aa3b-472e-9b42-23e4ebf653a4"
+      Hint: PublishDate
+      Value: 20250703T000000Z
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250922T155308Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: What to Do When an Energy Emergency Alert Is Issued
+    - ID: "510535d3-5db4-4d5b-b743-a2eadd190e1a"
+      Hint: Image
+      Value: |
+        <image mediaid="2a658609-50f5-4a9e-8a40-6747e97fe392" />
+    - ID: "5741d8ad-1a09-42d0-863c-577815ea3fc5"
+      Hint: Excerpt
+      Value: An Energy Emergency Alert (EEA) signals that the Texas grid is in critical condition and requires immediate conservation. Many residents are unsure of what steps to take when these alerts are issued, leading to panic or inaction. By following simple guidance, Texans can help prevent controlled outages and protect their communities. This article outlines the exact steps to follow during an EEA.
+    - ID: "72bb7b51-9198-4eaf-b9f3-aa8f2c434bf3"
+      Hint: Content
+      Value: |
+        <p>When Gridwell issues an Energy Emergency Alert, the grid is already under serious stress. These alerts are not advisories but calls to action. Texans must quickly reduce electricity use to help balance supply and demand in real time.</p>
+        <p>The most effective actions include raising thermostats by a few degrees, turning off unnecessary lights, and avoiding the use of heavy appliances such as washers, dryers, and ovens. Businesses can also contribute by adjusting operations to reduce consumption. These conservation efforts buy valuable time and keep the system stable.</p>
+        <p>By responding to an EEA quickly and decisively, communities can help prevent rolling outages. The collective effort of Texans plays a huge role in reliability. Signing up for both TXANS and EEA notifications ensures that households are always ready and equipped with the right information.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e36af75f-6a68-4043-beb6-c9be7d556e66"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "bd9b2294-dd46-4071-902b-7be6ecfe0e28"
+      Hint: Category
+      Value: "{1B6F5294-2AA1-4238-9D7B-7D42DB329371}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250924T004822Z
+    - ID: "fec597dd-3b38-4232-a472-83d725de4d8e"
+      Hint: Title
+      Value: What to Do When an Energy Emergency Alert Is Issued

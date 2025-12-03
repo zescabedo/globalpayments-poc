@@ -1,0 +1,291 @@
+﻿---
+ID: "e8548689-5ae6-43d5-937a-32df7ff1c05d"
+Parent: "8dd59d14-31a7-4b85-a547-77b03c68ac32"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Chair/Kyoto Accent Chair"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1037
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="dd3eaa5d-fe59-4c73-844a-6d77304c3b05" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D7BB2EE1-BC4B-4038-8CD9-496745B5FC3A}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e71bdfb8-4538-476c-9d65-eeacf8ca9ccb"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{7C37058D-F29A-4DD0-A56A-82EEEB8D9A24}"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-productcontent/related-products-1" />
+      </d>
+    </r>
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T125259Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Kyoto Akzentstuhl | Forma Lux – Japanisch inspirierter Stuhl mit natürlichem Holzdesign
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Ein von Japan inspirierter Akzentstuhl mit klaren Linien und natürlichen Holztönen.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 289
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Kyoto Akzentstuhl
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: CHR0002
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {D5D801B9-21CD-426C-8573-0FFF36FE3317}
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+        {75E874D3-C7B4-466B-B9F1-F305D5B67E85}
+        {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{DD3EAA5D-FE59-4C73-844A-6D77304C3B05}" alt="kyoto-akzentstuhl-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97c332a7-61da-42a3-9953-636e8700e85a"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: |
+        {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
+        {B8B93775-E47C-46F2-9157-293AA8904883}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Kyoto Akzentstuhl
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Kyoto Akzentstuhl, japanische Möbel, Akzentstuhl, minimalistisches Design, natürliche Holztöne, Baumwollbezug, Forma Lux Shop, Lesestuhl
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Der Kyoto Akzentstuhl von Forma Lux greift auf japanische Designprinzipien zurück mit seinem niedrigen Profil, abgewinkelten Beinen und weichem Baumwollbezug – ein minimalistisches Stück für ruhige, moderne Räume.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072810Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Inspiriert von traditioneller japanischer Ästhetik, verfügt der Kyoto Akzentstuhl über ein niedriges Design mit einem breiten Sitz und abgewinkelten Beinen. Bezogen mit weichem Baumwollstoff, ist er perfekt für Leseecken oder minimalistische Innenräume.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Ruhe trifft auf Designpräzision im Kyoto Akzentstuhl. Beeinflusst von japanischer Handwerkskunst, verfügt Kyoto über abgewinkelte Holzbeine, ein niedriges, erdendes Profil und weichen Baumwollbezug, der zur stillen Reflexion einlädt. Ideal für Leseecken oder minimalistische Innenräume, bringt er Balance und Harmonie in jede Umgebung. Erhältlich in Gold, Schwarz, Indigo und Weiß, und in mittlerer oder großer Größe, drückt dieses Stück die Philosophie von Forma Lux aus: wo absichtliches Design und zeitlose Materialien Räume des Friedens und der Schönheit schaffen."
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T125259Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: "Kyoto Accent Chair | Forma Lux – Japanese-Inspired Chair with Natural Wood Design"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: "A Japanese-inspired accent chair with clean lines and natural wood tones."
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 289
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Kyoto Accent Chair
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: CHR0002
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {D5D801B9-21CD-426C-8573-0FFF36FE3317}
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+        {75E874D3-C7B4-466B-B9F1-F305D5B67E85}
+        {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{DD3EAA5D-FE59-4C73-844A-6D77304C3B05}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b805a108-1c07-4b1b-8362-47a57eb782a6"
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: |
+        {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
+        {B8B93775-E47C-46F2-9157-293AA8904883}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Kyoto Accent Chair
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Kyoto Accent Chair, Japanese furniture, accent chair, minimalist design, natural wood tones, cotton upholstery, Forma Lux shop, reading chair
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: The Kyoto Accent Chair by Forma Lux draws on Japanese design principles with its low profile, angled legs, and soft cotton upholstery — a minimalist piece for serene, modern spaces.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251022T180729Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>Inspired by traditional Japanese aesthetics, the Kyoto Accent Chair features a low-profile design with a wide seat and angled legs. Upholstered in soft cotton fabric, it’s perfect for reading nooks or minimalist interiors.</p>"
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Tranquility meets design precision in the Kyoto Accent Chair. Influenced by Japanese craftsmanship, Kyoto features angled wooden legs, a low, grounding profile, and soft cotton upholstery that invites quiet reflection. Ideal for reading nooks or minimalist interiors, it brings balance and harmony to any setting. Available in Gold, Black, Indigo, and White, and in Medium or Large sizes, this piece expresses Forma Lux’s philosophy: where intentional design and timeless materials create spaces of peace and beauty."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T125259Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Fauteuil d'accent Kyoto | Forma Lux – Fauteuil inspiré du Japon avec design en bois naturel
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un fauteuil d'accent inspiré du Japon avec des lignes épurées et des tons de bois naturels.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {AA1D2DC7-47CB-41BE-952D-F19B07B47154}
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 289
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Fauteuil d'accent Kyoto
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: CHR0002
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: |
+        {D5D801B9-21CD-426C-8573-0FFF36FE3317}
+        {4644FE16-10A7-44F1-8172-CA03C35A688D}
+        {75E874D3-C7B4-466B-B9F1-F305D5B67E85}
+        {12BF3FA0-8034-4629-814C-3E34BEE11474}
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{DD3EAA5D-FE59-4C73-844A-6D77304C3B05}" alt="fauteuil-d'accent-kyoto-1" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "70621ca2-7b26-404e-b5e3-0d983e641fb8"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: |
+        {C593AA0B-B143-4FD4-B8F6-C8950FB744B0}
+        {B8B93775-E47C-46F2-9157-293AA8904883}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Fauteuil d'accent Kyoto
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{8DD59D14-31A7-4B85-A547-77B03C68AC32}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Fauteuil d'accent Kyoto, mobilier japonais, fauteuil d'accent, design minimaliste, tons de bois naturels, revêtement en coton, boutique Forma Lux, fauteuil de lecture
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Le fauteuil d'accent Kyoto par Forma Lux s'inspire des principes de design japonais avec son profil bas, ses pieds inclinés et son revêtement en coton doux — une pièce minimaliste pour des espaces sereins et modernes.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070246Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Inspiré par l'esthétique japonaise traditionnelle, le fauteuil d'accent Kyoto présente un design à profil bas avec un siège large et des pieds inclinés. Revêtu de tissu en coton doux, il est parfait pour les coins lecture ou les intérieurs minimalistes.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "La tranquillité rencontre la précision du design dans le fauteuil d'accent Kyoto. Influencé par l'artisanat japonais, Kyoto présente des pieds en bois inclinés, un profil bas et ancré, et un revêtement en coton doux qui invite à la réflexion tranquille. Idéal pour les coins lecture ou les intérieurs minimalistes, il apporte équilibre et harmonie à tout environnement. Disponible en or, noir, indigo et blanc, et en tailles moyenne ou grande, cette pièce exprime la philosophie de Forma Lux : où le design intentionnel et les matériaux intemporels créent des espaces de paix et de beauté."

@@ -1,0 +1,72 @@
+﻿---
+ID: "4d43c00c-37fb-44d6-8411-f3d6db4d17da"
+Parent: "75154406-99b2-4230-9f1a-9b09f6bf7ea3"
+Template: "0e9264df-c757-46ff-919d-cc434213740d"
+Path: /sitecore/content/healthcare/vitalis/Home/Articles/Preparing for Digital Quality Measures in 2025
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{56B12613-5345-4C75-A41C-28CC2C301D0E}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251124T185656Z
+    - ID: "2c6f31e6-beda-4374-9d2b-6a4fdb6d5c15"
+      Hint: metadataKeywords
+      Value: digital quality measures, dQMs, FHIR, ECDS, healthcare quality, Vitalis
+    - ID: "48005244-445f-4d3b-b5c2-c7f1b235ff60"
+      Hint: metadataTitle
+      Value: Preparing for Digital Quality Measures in 2025 | Vitalis
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Preparing for Digital Quality Measures in 2025
+    - ID: "5000eb1d-4834-4c41-8106-ecb127701b47"
+      Hint: metadataDescription
+      Value: "Learn how health plans can prepare for digital quality measures with Vitalis’ automated, FHIR-powered quality platform."
+    - ID: "5fc89920-e39e-4602-9b03-98e98ad5a842"
+      Hint: PublishDate
+      Value: 20250110T000000Z
+    - ID: "7cf9f373-5e3b-4677-8e52-8445d688be45"
+      Hint: Category
+      Value: "{28915CD3-E6B5-4240-B70A-62C872DCEDDE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "be51b793-72dd-45f9-8bac-e408e3524dd8"
+    - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
+      Hint: Content
+      Value: |
+        <p>The shift toward fully digital quality measures marks one of the most significant transformations in healthcare measurement. Health plans that proactively prepare for dQMs can reduce administrative burden, improve accuracy, and act earlier on performance insights. Vitalis helps organizations accelerate this transition with automated ingestion, machine-readable logic, and seamless FHIR-based workflows.</p>
+        <p>One of the primary challenges of dQMs is aligning diverse data sources into a unified structure. Vitalis centralizes EHR, HIE, registry, and claims data into a single platform, enabling real-time interoperability and consistent measurement logic. This approach eliminates manual review cycles and provides teams with dependable measure outputs earlier in the reporting year.</p>
+        <p>With digital quality becoming the new standard, health plans need modern platforms that scale and adapt quickly. Vitalis supports the full lifecycle of digital measurement—from ingestion to measurement calculation, workflow orchestration, and quality reporting—ensuring teams stay ahead of regulatory expectations.</p>
+    - ID: "ad04c5bb-bc6a-4988-8922-8fc127d28330"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/669e48208d2a4fa7b9e9b26b5544087b?v=7e2e1d9f" dam-id="waOslvnXQlSJSQzPy7cM7g" width="1024" height="1024" alt="HEDIS regulatory changes.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74913/thumbnail" />
+    - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a26e994be2084c1bb5434a4548ae0bf6?v=d2336eeb" dam-id="waOslvnXQlSJSQzPy7cM7g" width="200" height="200" alt="HEDIS regulatory changes.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74913/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3405e07-721f-4582-ae8c-81b9f1cfd954"
+      Hint: Excerpt
+      Value: Digital quality measures require unified data and automated workflows to support accurate, timely reporting. Vitalis helps health plans modernize their infrastructure and meet dQM expectations with confidence.
+    - ID: "d70b853d-e180-45ef-a71f-f1cfedbfd7db"
+      Hint: pageSummary
+      Value: This guide explains how Vitalis helps health plans prepare for digital quality measures using automation, FHIR interoperability, and unified data.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T190424Z
+    - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
+      Hint: Title
+      Value: Preparing for Digital Quality Measures (dQMs) in 2025

@@ -1,0 +1,87 @@
+﻿---
+ID: "f9fd15e9-4f30-451f-80c2-3382fce51fe4"
+Parent: "00a15dda-fce8-4b25-ad18-7c34ef15036f"
+Template: "0d71cb45-0e21-42fa-aabd-c8caca561163"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Destinations/Cape Town"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3E02E869-A86B-4943-8CAD-AB1986CAF9D8}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Cape Town, South Africa city travel, wine tours
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: From $1260
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251102T184307Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.4
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: A striking city framed by sea and mountain beauty.
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{51AD5473-A641-450A-9B3E-26E55A65D422}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "November-March"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cape Town
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Cape Town Trip – SkyWings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9956049-f194-4a3f-a8e7-f64ca0628dad"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Cape Town
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <p>Cape Town is dramatic and vibrant, where ocean and mountain meet in a single sweeping view. Sunlight catches the cliffs, waves roll in softly, and the energy of the city feels bold and expressive. It’s a place where scenery shapes experience at every turn.</p>
+        <p>The city’s cultural stories are layered and dynamic — art, music, and cuisine reflect a deep sense of identity and connection. Markets, promenades, and mountain trails offer unique ways to explore, learn, and engage with the community.</p>
+        <p>Days here feel full — vineyard tours, seaside cafés, scenic drives, and quiet lookouts. Cape Town inspires movement and curiosity while also offering space to simply sit and take in the beauty of the world around you.</p>
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: A coastal metropolis of dramatic landscapes and culture.
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: 6
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/fb1d37b7d98a429494ecaba5e62951dc?v=9fb00e05" dam-id="cgf58pzyT9OrEgV5_7j_9Q" width="1344" height="768" alt="cape town.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71325/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Discover Cape Town’s scenic beauty and cultural depth.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251102T195916Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/fb1d37b7d98a429494ecaba5e62951dc?v=9fb00e05" dam-id="cgf58pzyT9OrEgV5_7j_9Q" width="1344" height="768" alt="cape town.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71325/thumbnail" />
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "17-27"

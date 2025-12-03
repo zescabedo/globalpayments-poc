@@ -1,0 +1,273 @@
+﻿---
+ID: "ade52c7c-162b-49cc-937f-1e5149233e9a"
+Parent: "078d4751-d125-408a-9ff2-f5417844b877"
+Template: "f6e44a9e-074a-4865-987e-0c2dc00b7af5"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Sofa/Brooklyn Sleeper Sofa"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 425
+- ID: "bf3fd6d5-2930-40a0-9c22-b4fe37f6717f"
+  Hint: Image1
+  Value: |
+    <image mediaid="7143ce2d-5fa6-4c30-bcd3-ac5375185602" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{77493FA8-0C77-45E8-AB03-165FE4833B21}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c1e546e5-a0db-4aad-952c-caea8d8d2c5d"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{54622116-B193-4882-BCB3-6654BE84287F}"
+          s:ds="381203f0-6ee1-4675-b043-c8d4ddbd6b86"
+          s:id="{E874A406-4977-443B-8AFE-690812AFB5EF}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Autoplay&amp;Loop&amp;HideAccentLine&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/sxa-productcontent/related-products-1" />
+      </d>
+    </r>
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131324Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: "Brooklyn Schlafsofa | Forma Lux – Umwandelbares Sofa-Bett für modernes Wohnen"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Ein umwandelbares Sofa, das auch als Bett dient.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {FD74A159-FC1F-48F8-88C8-5703D830E00D}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1099
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Brooklyn Schlafsofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: SOF0002
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: "{75E874D3-C7B4-466B-B9F1-F305D5B67E85}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{7143CE2D-5FA6-4C30-BCD3-AC5375185602}" alt="brooklyn-schlafsofa" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ffcc8cb0-99a3-43f0-a6bf-5cce39544a37"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: "{C593AA0B-B143-4FD4-B8F6-C8950FB744B0}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Brooklyn Schlafsofa
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: "Brooklyn Schlafsofa, umwandelbares Sofa-Bett, Schlafsofa, moderne Möbel, kompaktes Wohnen, strapazierfähige Polsterung, Forma Lux Shop, multifunktionale Möbel"
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: Das Brooklyn Schlafsofa von Forma Lux vereint Komfort und Vielseitigkeit. Sein einfacher Ausziehmechanismus verwandelt es von einem stilvollen Sofa in ein gemütliches Bett – perfekt für Übernachtungsgäste und kompakte Räume.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072809Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: <p>Das Brooklyn Schlafsofa ist perfekt für kleine Räume. Mit einem einfachen Ausziehmechanismus verwandelt es sich in ein bequemes Bett. Bezogen mit strapazierfähigem Stoff, ist es ideal für Übernachtungsgäste.</p>
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Entworfen für Flexibilität ohne Kompromisse, spiegelt das Brooklyn Schlafsofa die Philosophie von Forma Lux wider: zweckmäßiges Design. Mit einem sanften Ausziehmechanismus und weicher, strapazierfähiger Polsterung wechselt es mühelos von Tageslounge zu Nachtkomfort. Ideal für Wohnungen und Gästezimmer, vereint Brooklyn Praktikabilität mit raffinierter Ästhetik. Erhältlich in Indigo und großer Größe, ist es die perfekte Verbindung von Form, Funktion und stiller Eleganz – ein wahres Zeugnis dafür, wie moderne Möbel sich schön an zeitgenössisches Wohnen anpassen können."
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131324Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: Brooklyn Sleeper Sofa | Forma Lux – Convertible Sofa Bed for Modern Living
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: A convertible sofa that doubles as a bed.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {FD74A159-FC1F-48F8-88C8-5703D830E00D}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1099
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Brooklyn Sleeper Sofa
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: SOF0002
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: "{75E874D3-C7B4-466B-B9F1-F305D5B67E85}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{7143CE2D-5FA6-4C30-BCD3-AC5375185602}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1cfe0706-e784-40d5-82bf-66f9486761bb"
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: "{C593AA0B-B143-4FD4-B8F6-C8950FB744B0}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: Brooklyn Sleeper Sofa
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: Brooklyn Sleeper Sofa, convertible sofa bed, sleeper sofa, modern furniture, compact living, durable upholstery, Forma Lux shop, multifunctional furniture
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: "The Brooklyn Sleeper Sofa by Forma Lux combines comfort and versatility. Its simple pull-out design transforms from a stylish sofa into a cozy bed — perfect for overnight guests and compact spaces."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251022T175613Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>The Brooklyn Sleeper Sofa is perfect for small spaces. With a simple pull-out mechanism, it transforms into a comfortable bed. Upholstered in durable fabric, it’s ideal for overnight guests.</p>"
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Designed for flexibility without compromise, the Brooklyn Sleeper Sofa reflects Forma Lux’s philosophy of purposeful design. With a smooth pull-out mechanism and soft, durable upholstery, it transitions effortlessly from daytime lounging to nighttime comfort. Ideal for apartments and guest rooms, Brooklyn balances practicality with refined aesthetics. Available in Indigo and Large size, it’s the perfect union of form, function, and quiet luxury — a true testament to how modern furniture can adapt beautifully to contemporary living."
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T131324Z
+    - ID: "2a216048-d4c9-41b3-8050-d67ec332b5ae"
+      Hint: metadataTitle
+      Value: "Canapé-lit Brooklyn | Forma Lux – Canapé-lit convertible pour un mode de vie moderne"
+    - ID: "30b20e46-ce60-4993-a2d3-778a61e77331"
+      Hint: ShortDescription
+      Value: Un canapé convertible qui se transforme en lit.
+    - ID: "4194f0b1-8aac-49c1-8e93-129877fe4c79"
+      Hint: Tags
+      Value: |
+        {831305F5-99B0-4746-B09A-42C67FE37EC5}
+        {AC473CFD-491E-4EB1-9D3D-AF5A1F63F10B}
+        {FD74A159-FC1F-48F8-88C8-5703D830E00D}
+    - ID: "4d1068af-ad2e-485a-8e61-031ea8464425"
+      Hint: Price
+      Value: 1099
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Canapé-lit Brooklyn"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "58d111ab-b286-42ab-bb35-8daadd6ab480"
+      Hint: SKU
+      Value: SOF0002
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "6d624193-14b5-4076-b1d6-b6cac9888298"
+      Hint: Color
+      Value: "{75E874D3-C7B4-466B-B9F1-F305D5B67E85}"
+    - ID: "727ca1d3-6d5c-426c-b9b2-d07e890ea33c"
+      Hint: ogImage
+      Value: |
+        <image mediaid="{7143CE2D-5FA6-4C30-BCD3-AC5375185602}" alt="canapé-lit-brooklyn" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d617af69-8405-49b5-b39c-ee5075ec80f9"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "998ad31d-a023-4c69-8654-9b70de07a7f3"
+      Hint: Size
+      Value: "{C593AA0B-B143-4FD4-B8F6-C8950FB744B0}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c97b8c3c-2801-4b14-9bf8-f11ec7ab1d11"
+      Hint: Title
+      Value: "Canapé-lit Brooklyn"
+    - ID: "cef30aa1-3383-482a-9e55-9226ee7116bd"
+      Hint: Category
+      Value: "{078D4751-D125-408A-9FF2-F5417844B877}"
+    - ID: "d185773c-4e19-4ee9-86ab-f3026b3ff621"
+      Hint: metadataKeywords
+      Value: "Canapé-lit Brooklyn, canapé-lit convertible, canapé-lit, mobilier moderne, vie compacte, tissu durable, boutique Forma Lux, mobilier multifonctionnel"
+    - ID: "d939b33a-da22-41b3-96e8-d55e0124d591"
+      Hint: metadataDescription
+      Value: "Le canapé-lit Brooklyn de Forma Lux combine confort et polyvalence. Son design simple à déploiement se transforme d'un canapé élégant en un lit douillet — parfait pour les invités de nuit et les espaces compacts."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070245Z
+    - ID: "e35644f6-b680-4f40-9c7a-def95adfedda"
+      Hint: LongDescription
+      Value: "<p>Le canapé-lit Brooklyn est parfait pour les petits espaces. Avec un mécanisme de déploiement simple, il se transforme en un lit confortable. Revêtu d'un tissu durable, il est idéal pour les invités de nuit.</p>"
+    - ID: "e6a97696-9b5c-4d0f-93cb-ac92283c7690"
+      Hint: pageSummary
+      Value: "Conçu pour la flexibilité sans compromis, le canapé-lit Brooklyn reflète la philosophie de Forma Lux de design réfléchi. Avec un mécanisme de déploiement fluide et un tissu doux et durable, il passe sans effort du confort de jour au confort de nuit. Idéal pour les appartements et les chambres d'amis, Brooklyn équilibre la praticité avec une esthétique raffinée. Disponible en Indigo et en grande taille, c'est l'union parfaite de la forme, de la fonction et du luxe discret — un véritable témoignage de la façon dont le mobilier moderne peut s'adapter magnifiquement à la vie contemporaine."

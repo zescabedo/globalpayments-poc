@@ -1,0 +1,50 @@
+﻿---
+ID: "0da149c6-de0a-48ad-8360-7c4aa9ebe8c8"
+Parent: "d7b0bdf8-2b91-472e-9fef-31773576643a"
+Template: "9093490e-63f1-4f96-93c3-0cf47848c8ce"
+Path: /sitecore/content/healthcare/vitalis/Home/Products/Data Platform
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{63C8ED54-7722-4F93-B896-F5B9E79CF69C}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f7f771c-4120-4ac5-a9e9-6233fbb4af5a"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/74525-HomepagePromoCTAs-1100x740?v=d1272146" dam-id="3Aq4GeCXRqysVbIkuyvUng" width="1100" height="740" alt="care-management-platform-interface-TLqUJrHn9Td4uwWAbh3eEx1EzDqX6E.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74525/thumbnail" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251114T162745Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Data Platform
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0059f17-022f-40b6-b066-9a38e5586f97"
+    - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
+      Hint: Content
+      Value: |
+        <p>Unified healthcare data integration and management</p>
+        <ul>
+            <li>Real-time data synchronization</li>
+            <li>Multi-source aggregation</li>
+            <li>Data quality monitoring</li>
+        </ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251114T173911Z
+    - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
+      Hint: Title
+      Value: Data Platform

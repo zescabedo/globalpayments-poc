@@ -1,0 +1,205 @@
+﻿---
+ID: "00a15dda-fce8-4b25-ad18-7c34ef15036f"
+Parent: "57fdf201-2d56-4f6e-9085-6056c5f1f8f5"
+Template: "cb9ed0fb-3fed-4701-ad64-2ac447c52370"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Destinations"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{0D71CB45-0E21-42FA-AABD-C8CACA561163}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B746BBA2-0ACF-4220-BDC8-C5264CF2767C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e7727b4e-ec80-4c15-8e9f-4b41cc2f95ce"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: travel destinations, Skywings destinations, vacation ideas, cultural travel, international travel, trip inspiration, explore the world, travel experiences
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E21245BC-167D-4735-B9A7-18402D889D04}"
+              p:before="*"
+              s:ds="6ce30d09-6fc8-4f4d-a71c-9eb206e3c96c"
+              s:id="{E05626D5-79D0-4466-B42F-E85A027A4E10}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{B9064F5D-88AC-4914-A558-4DE383C7AC00}"
+              p:after="*[1=2]"
+              s:ds="01415524-7d0a-4225-b660-b4814215aa2d"
+              s:id="{0DE36539-39FF-4207-8D10-2BA90B02CD08}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T202906Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: The Destinations page invites travelers to explore locations around the world, each offering unique cultural, scenic, and experiential opportunities. Skywings provides guidance and inspiration to help travelers find and plan meaningful journeys.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Destinations
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Explore Destinations Around the World | Skywings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1dcb05e0-924b-46d2-a18b-922382791bef"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Destinations
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Discover inspiring destinations across the globe with Skywings. Browse cultural cities, scenic landscapes, and immersive travel experiences to plan your next journey.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251101T220923Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/371ccd47f20a4773966cce06de7f57d7?v=8e806e00" dam-id="fHhB-euxS9eDpt3DQQgRiw" width="1800" height="1350" alt="3D-GettyImages-1131654624-300ppi-Teal_conversion1.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/48437/thumbnail" />
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E21245BC-167D-4735-B9A7-18402D889D04}"
+              p:before="*"
+              s:ds="6ce30d09-6fc8-4f4d-a71c-9eb206e3c96c"
+              s:id="{E05626D5-79D0-4466-B42F-E85A027A4E10}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{B9064F5D-88AC-4914-A558-4DE383C7AC00}"
+              p:after="*[1=2]"
+              s:ds="01415524-7d0a-4225-b660-b4814215aa2d"
+              s:id="{0DE36539-39FF-4207-8D10-2BA90B02CD08}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T202906Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Destinazioni
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "695cf194-e357-4f57-8e17-40cf4f9be0c2"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Destinazioni
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025555Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{E21245BC-167D-4735-B9A7-18402D889D04}"
+              p:before="*"
+              s:ds="6ce30d09-6fc8-4f4d-a71c-9eb206e3c96c"
+              s:id="{E05626D5-79D0-4466-B42F-E85A027A4E10}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+            <r
+              uid="{B9064F5D-88AC-4914-A558-4DE383C7AC00}"
+              p:after="*[1=2]"
+              s:ds="01415524-7d0a-4225-b660-b4814215aa2d"
+              s:id="{0DE36539-39FF-4207-8D10-2BA90B02CD08}"
+              s:par="CSSStyles"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T202906Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 目的地
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ca04d19-7051-4740-8c25-f4dca18adcb4"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: 目的地
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024212Z

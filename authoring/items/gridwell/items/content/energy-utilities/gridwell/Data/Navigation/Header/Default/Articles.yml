@@ -1,0 +1,35 @@
+﻿---
+ID: "566de191-4610-48d7-be17-3cf60107bd76"
+Parent: "ab3d1748-5d7b-4132-b38d-6cf8cd5ad136"
+Template: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
+Path: "/sitecore/content/energy-utilities/gridwell/Data/Navigation/Header/Default/Articles"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T153848Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{92967256-3DD0-4E67-A731-17A2739431B5}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7333994-c5cc-429b-91ce-3e26d300f9d1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250919T211246Z

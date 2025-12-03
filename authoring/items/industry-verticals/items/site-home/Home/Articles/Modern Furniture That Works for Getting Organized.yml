@@ -1,0 +1,79 @@
+﻿---
+ID: "5d04d5f6-3a00-4b00-b26d-2f61e766f491"
+Parent: "e9a6e6f8-3dd6-4664-a6e0-1923816f94c6"
+Template: "412bf445-b1a6-4aff-8054-0b21a1febc47"
+Path: "/sitecore/content/retail/forma-lux/Home/Articles/Modern Furniture That Works for Getting Organized"
+SharedFields:
+- ID: "7f7ef9d5-f278-4bfe-94fb-c4be7894feb5"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69227-LandingPageHero-2000x600?v=edd20296" dam-id="qcD195UERcWa-VlhzsGbvQ" width="2000" height="600" alt="frames-for-your-heart-zSG-kd-L6vw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69227/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3C0308C3-660E-4EF4-AFB6-1BEB63D34BE8}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3cd8fc43-8ac0-4288-8431-9522a033566d"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "a1f7d351-404c-4067-83ad-10302251b1b1"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Hidden Storage, Visible Style: Modern Furniture That Works for Getting Organized"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251027T171111Z
+    - ID: "33928fed-fdda-4120-a93b-4b524ceb8d33"
+      Hint: metadataDescription
+      Value: "Discover modern storage ideas that keep your space stylish and organized. Explore wall-mounted sideboards, floating shelves, slim media consoles, multifunctional ottomans, and cohesive finishes for a curated look."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "56a52337-177b-46b4-ae72-6b9083bb6700"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Modern living still requires storage—but no one wants bulky, heavy cabinets ruining the look. Seek out pieces that hide items within elegant frames: wall-mounted sideboards, floating shelves, slim media consoles with hidden drawers. Consider multifunctionality: ottomans with storage inside, benches that double as seating and hidden boxes. Choose consistent finishes—say matte black handles, warm walnut wood—so even functional pieces feel cohesive. Keep surfaces free of clutter by having designated homes for items. The result: a space that looks calm and curated, and works hard behind the scenes.</p></div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5de01b21-a9d4-40e1-b241-946e76a4d647"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69227-LandingPageHero-2000x600?v=edd20296" dam-id="qcD195UERcWa-VlhzsGbvQ" width="2000" height="600" alt="frames-for-your-heart-zSG-kd-L6vw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69227/thumbnail" />
+    - ID: "62c99938-d40e-4878-ab77-3464abd79fd5"
+      Hint: ShortDescription
+      Value: Declutter without compromising design—discover storage pieces that are sleek, useful and modern.
+    - ID: "6d9af895-a80c-4b62-834d-a2922764d453"
+      Hint: metadataTitle
+      Value: "Modern Storage Solutions: Sleek, Functional, and Clutter-Free Design Ideas"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00821d0c-6f86-4eed-b50d-bcd141e5f670"
+    - ID: "9c8beb3d-e162-4540-bb7d-9504db078f44"
+      Hint: Title
+      Value: "Hidden Storage, Visible Style: Modern Furniture That Works for Getting Organized"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T171553Z
+    - ID: "f91b1f71-a8ed-463c-bc5f-3ba468ffb63d"
+      Hint: metadataKeywords
+      Value: "modern storage solutions, stylish storage ideas, clutter-free storage design, wall-mounted sideboards, floating shelves storage, slim media consoles, hidden drawer consoles, multifunctional ottomans, storage benches, seating with storage, matte black hardware, warm walnut finish, cohesive furniture finishes, minimal storage accessories, modern home organization, elegant storage furniture, contemporary storage design, space-saving storage tips, curated living space, modern interior storage trends"

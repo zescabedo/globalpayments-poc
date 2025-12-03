@@ -1,0 +1,87 @@
+﻿---
+ID: "bd3776b9-a927-4205-9918-27211d3801d6"
+Parent: "00a15dda-fce8-4b25-ad18-7c34ef15036f"
+Template: "0d71cb45-0e21-42fa-aabd-c8caca561163"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Destinations/Aspen"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D38EC127-EC90-4C8A-92D8-F18FE1EA6FB5}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Aspen, Colorado mountains, ski travel
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: From $1520
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251102T185133Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.6
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: A polished and welcoming mountain escape.
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{6381A818-B69E-488F-8A20-BB982245A8F4}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "June-September, December-February"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Aspen
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{D68521A1-07F0-4619-9E33-E5C73E3E1EF3}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Aspen Travel – SkyWings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a00e6187-bb9b-4cb3-afd0-39ed215b0cdb"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Aspen
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <p>Aspen blends alpine adventure with refined comfort. Streets are lined with warm wood architecture, local shops, and cafés where travelers and locals gather. Whether covered in winter snow or bright summer sun, the mountains remain the heart of the experience.</p>
+        <p>Days here can be active — skiing, hiking, gondola rides, or simply wandering scenic paths. The landscape is stunning, but the community is what gives Aspen its charm: friendly, welcoming, and full of character.</p>
+        <p>Evenings bring soft lighting, mountain air, and calm conversation. Aspen encourages travelers to enjoy both movement and rest — the perfect balance of comfort and adventure.</p>
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: "Refined alpine living with year-round alpine beauty."
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: 5
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/cdd4350e6eed44879bb1f76c7938aa54?v=bae17b9e" dam-id="Yf8iceNPR7SiQ-P20ud9Lw" width="1344" height="768" alt="aspen hero.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71267/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Explore Aspen’s alpine sophistication and outdoor beauty.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251102T193044Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/cdd4350e6eed44879bb1f76c7938aa54?v=bae17b9e" dam-id="Yf8iceNPR7SiQ-P20ud9Lw" width="1344" height="768" alt="aspen hero.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71267/thumbnail" />
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "-10-25"

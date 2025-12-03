@@ -1,0 +1,45 @@
+﻿---
+ID: "fb7b27d6-9d85-403f-a3ed-3a1d00c0e7ba"
+Parent: "ca352bc9-d588-434c-931a-5c0c48360a31"
+Template: "83e683fc-3cce-4424-a0fa-65ee63be7091"
+Path: /sitecore/content/healthcare/vitalis/Data/Banners/Hero Banners/Home Hero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "241195cc-83cc-41a8-9077-fad820223d89"
+      Hint: CTA1
+      Value: |
+        <link text="Explore Solutions" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{F42383B2-CD20-411C-A083-5AF56DDAC3DF}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251113T213215Z
+    - ID: "26497103-92d5-4d6e-a582-7890ed4595c5"
+      Hint: Subtitle
+      Value: "Vitalis empowers payers, providers, life sciences organizations, and pharmacies with cloud-based data, quality, and performance solutions that drive real outcomes."
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed905a78-eed0-44bd-a24d-c5e384740916"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "bfa9e145-f09f-4fd1-8722-29fee3a32b2f"
+      Hint: CTA2
+      Value: |
+        <link class="" id="{75154406-99B2-4230-9F1A-9B09F6BF7EA3}" querystring="" anchor="" target="_blank" title="" linktype="internal" text="Schedule Demo" url="/healthcare/vitalis/Home/Articles" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T145008Z
+    - ID: "df83603b-689f-4a70-86f5-2845225a213e"
+      Hint: Title
+      Value: Transform healthcare data into meaningful action

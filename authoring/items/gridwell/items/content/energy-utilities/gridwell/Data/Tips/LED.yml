@@ -1,0 +1,40 @@
+﻿---
+ID: "f70d9b9d-caf5-4db1-be22-873dc4884acb"
+Parent: "f0fe91b0-1e39-4fdf-9c57-99827616c83d"
+Template: "a9af8776-8b7e-4ace-9e0f-afd5fffb3047"
+Path: "/sitecore/content/energy-utilities/gridwell/Data/Tips/LED"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250921T151625Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "54788069-36cf-4afd-bd11-41aa8f0f155b"
+      Hint: Title
+      Value: Use LED Lighting
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "627694f5-f12d-4f09-9ad8-ffd615fdaa58"
+      Hint: Icon
+      Value: "{601A9A5D-F25B-48DD-BF4C-BD96F5EB0515}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61b1c76e-0302-457c-b183-0676a4fa02e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250921T152353Z
+    - ID: "f9356a49-3d99-480c-aa38-c94beeb9bace"
+      Hint: Text
+      Value: "Switch to energy-efficient LED bulbs to reduce heat and consumption"

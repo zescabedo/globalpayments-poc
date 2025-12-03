@@ -1,0 +1,176 @@
+﻿---
+ID: "8dd59d14-31a7-4b85-a547-77b03c68ac32"
+Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+Template: "4d2b49e6-1130-444a-b22c-5c7e25d01b56"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Chair"
+SharedFields:
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: modern chairs, minimalist seating, accent chair, dining chair, armchair, oak chair, contemporary furniture, luxury design, timeless craftsmanship, sustainable seating
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C71493A5-69AE-423E-8D6F-F38B1CA2A335}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "62381a2a-6875-4b47-a928-618450de75ce"
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="403" dam-content-type="Image" alt="Ein Satz Stühle an einem Esstisch" width="370" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66878/thumbnail" dam-id="k-hmRE27ToCbzJNiVjoqOQ" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6c37c1314d0c46eab0ed75b6a0fe3846?v=80fe73d2" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Diese Stuhlsammlung, die für Balance, Komfort und Eleganz gefertigt wurde, feiert die Einfachheit im Design. Mit durchdachten Details und langlebigen Materialien lädt jedes Stück zum Komfort ein und bewahrt gleichzeitig eine klare, architektonische Präsenz.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T154629Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Stuhl
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: moderne Stühle, minimalistisches Sitzen, Akzentstuhl, Esszimmerstuhl, Sessel, Eichenstuhl, zeitgenössische Möbel, Luxusdesign, zeitlose Handwerkskunst, nachhaltiges Sitzen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0669cc7c-a151-4f93-a4e6-374520a490ff"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Stühle
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072748Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Entdecken Sie Stühle, die skulpturale Form und ergonomischen Komfort vereinen. Mit raffinierten Proportionen und natürlichen Materialien gestaltet, ergänzt jedes Stück moderne Innenräume wunderschön.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Stuhl
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6c37c1314d0c46eab0ed75b6a0fe3846?v=80fe73d2" dam-id="k-hmRE27ToCbzJNiVjoqOQ" width="370" height="403" alt="A set of chairs at a dining table" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66878/thumbnail" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Crafted for balance, comfort, and elegance, this chair collection celebrates simplicity in design. With thoughtful details and enduring materials, each piece invites comfort while maintaining a clean, architectural presence.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T154629Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chair
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: modern chairs, minimalist seating, accent chair, dining chair, armchair, oak chair, contemporary furniture, luxury design, timeless craftsmanship, sustainable seating
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "17077a1e-64e9-42e6-b799-5f8686673b4a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Chairs
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251023T235100Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Discover chairs that combine sculptural form and ergonomic comfort. Designed with refined proportions and natural materials, each piece complements modern interiors beautifully.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Chair
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="403" dam-content-type="Image" alt="Un ensemble de chaises autour d'une table à manger" width="370" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66878/thumbnail" dam-id="k-hmRE27ToCbzJNiVjoqOQ" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6c37c1314d0c46eab0ed75b6a0fe3846?v=80fe73d2" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Conçue pour l'équilibre, le confort et l'élégance, cette collection de chaises célèbre la simplicité du design. Avec des détails réfléchis et des matériaux durables, chaque pièce invite au confort tout en maintenant une présence architecturale épurée.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T154629Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Chaise
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: chaises modernes, sièges minimalistes, chaise d'accent, chaise de salle à manger, fauteuil, chaise en chêne, mobilier contemporain, design de luxe, artisanat intemporel, sièges durables
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abe7f04e-6b00-4488-9c6a-d4755ac2d682"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Chaises
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070223Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Découvrez des chaises qui combinent forme sculpturale et confort ergonomique. Conçue avec des proportions raffinées et des matériaux naturels, chaque pièce complète magnifiquement les intérieurs modernes.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Chaise

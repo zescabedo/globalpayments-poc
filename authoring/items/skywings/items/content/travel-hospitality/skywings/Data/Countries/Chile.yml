@@ -1,0 +1,29 @@
+﻿---
+ID: "d2e976ac-f621-4ec5-a144-b8e9c0771e4c"
+Parent: "408c9bb4-ee1e-4fa4-b094-13ae23a414ee"
+Template: "bec99239-2fa7-4ce6-a53f-1cacf81e564e"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Countries/Chile"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251102T181523Z
+    - ID: "45edf7f0-35a6-4ebf-877d-e7b13fc55992"
+      Hint: Continent
+      Value: "{3C74E3C1-2144-44E7-B6B5-4C047547B01F}"
+    - ID: "7caa2f8c-e386-4813-807d-a3941e46b68c"
+      Hint: Name
+      Value: Chile
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30c0c1ca-e987-48a6-880e-daec851eacba"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251102T181527Z

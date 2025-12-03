@@ -1,0 +1,27 @@
+﻿---
+ID: "3e14cc8d-8ea6-40fd-b3de-45afe45780db"
+Parent: "4c58464d-65c3-44b1-8624-9120d4f86a17"
+Template: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
+Path: /sitecore/content/healthcare/vitalis/Data/Navigation/Footer/Products/Data Platform
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250805T211002Z
+    - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="|Custom" querystring="" id="{D7B0BDF8-2B91-472E-9FEF-31773576643A}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ac32e400-9a07-4f2f-9cbb-1323adb27698"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251113T204820Z

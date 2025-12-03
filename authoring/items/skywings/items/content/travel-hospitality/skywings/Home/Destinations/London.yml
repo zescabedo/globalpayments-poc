@@ -1,0 +1,254 @@
+﻿---
+ID: "4b9056f0-e73e-4551-b058-5969d40b51d2"
+Parent: "00a15dda-fce8-4b25-ad18-7c34ef15036f"
+Template: "0d71cb45-0e21-42fa-aabd-c8caca561163"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Destinations/London"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{EBAAD842-A9ED-4DB3-8F53-10A059C32295}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: London culture, London heritage, British history, Westminster Abbey, The British Museum, West End theatre, royal traditions, London travel, UK landmarks, Skywings
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: from $529
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T160500Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.6
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: London stands as a global crossroads where centuries of heritage meet contemporary creativity. From the storied architecture of Westminster and the majesty of royal ceremonies to the immersive galleries of the British Museum and the electric energy of West End theatre, the city invites travelers to explore culture in every corner. Skywings helps visitors engage deeply with London’s historical and artistic identity, creating journeys that connect past and present.
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{DF3C9D49-5404-4884-AD5D-6C2F094124E2}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "May-Sep"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: London
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: London Cultural Heritage & Iconic Landmarks | Skywings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ab1e438-48fd-4699-913e-599964102878"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: London
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p data-start="323" data-end="768">London stands as one of the world’s most culturally rich cities, where history and modernity coexist in a uniquely dynamic balance. From its regal ceremonies to its groundbreaking creative scene, the city invites travelers to explore a mosaic of traditions, innovations, and everyday expressions of British identity. Every street, gallery, and landmark reflects an ongoing story—one that continues to evolve while honoring centuries of heritage.</p><p data-start="770" data-end="1330">London’s most defining icons echo its long and storied past. The majestic silhouette of Westminster Abbey has borne witness to royal weddings, coronations, and national moments of reflection. Just steps away, the Houses of Parliament and the famed Big Ben clock tower mark the passage of time over a capital that has shaped global culture and governance. Meanwhile, Buckingham Palace remains a living emblem of tradition, where the Changing of the Guard ceremony draws spectators from around the world to experience the pageantry and symbolism of the monarchy.</p><p data-start="1332" data-end="1921">Beyond its monumental architecture, London holds profound cultural treasures within its institutions. The British Museum, one of the world’s most celebrated repositories of human history, offers a journey through civilizations, philosophies, and artistic expression spanning thousands of years. The National Gallery, poised on the edge of Trafalgar Square, brings visitors face-to-face with masterpieces that have influenced artistic thought and vision across continents. Each museum, gallery, and exhibit extends an open invitation to engage with the world through London’s cultural lens.</p><p data-start="1923" data-end="2371">London’s cultural rhythm is equally felt in its creative districts and community spaces. The West End theatre scene pulses with energy, showcasing everything from time-honored productions to groundbreaking contemporary works. Meanwhile, neighborhoods like Shoreditch, Camden, and Southbank serve as dynamic hubs of artistic experimentation—where street art, music, independent markets, and local voices shape the city’s evolving aesthetic identity.</p><p data-start="2373" data-end="2749">To experience London deeply is to engage with both the grand and the intimate: the quiet reflection of a riverside walk along the Thames, a lively debate in a historic pub, the hum of markets weaving together flavors from across the world. London is not only a destination to observe—it is a place to participate, connect, and share in the stories that continue to be written.</p><p data-start="2751" data-end="3153">Skywings supports travelers in reaching and exploring London’s cultural heart, ensuring that each visitor has the opportunity to encounter the city’s historical legacy and contemporary spirit. Through thoughtful travel experiences, individuals from every background can engage with London’s role as a timeless and forward-looking cultural center—creating memories that bridge past, present, and future.</p></div>
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: <span>Rich history meets modern innovation in this cosmopolitan capital with royal heritage.</span>
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: "4-7 days"
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68797-HomePageHero-2000x800?v=adadbf82" dam-id="tCqC8XHbQUuSonHvLojRIA" width="2000" height="800" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
+    - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
+      Hint: Highlights
+      Value: |
+        {E3936C4E-A3DE-481C-A62A-C2EB047779A7}
+        {D4DD86CF-B994-4E22-AC82-2BB8A26B14CF}
+        {D674BDD1-5726-4BF7-B27C-31256D08688A}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d791da19-6daf-41bc-9e22-56d51f14d6d5"
+      Hint: Activities
+      Value: |
+        {55B3B485-AA44-48A7-BA2E-8D5FB100A075}
+        {71833BDE-9DE1-423F-B0BB-624B72753453}
+        {A5B87476-9EE6-45F3-8DC5-00942F244F10}
+        {E92EC975-133D-4A67-8732-B26BBE223CA1}
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: "Experience London’s timeless blend of history and modern culture. Explore world-renowned museums, historic architecture, royal traditions, and vibrant theatre districts with Skywings guiding your journey."
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251101T213317Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/68797-HomePageHero-2000x800?v=adadbf82" dam-id="tCqC8XHbQUuSonHvLojRIA" width="2000" height="800" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "8-22C"
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: da 529 CHF
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T160500Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.6
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{DF3C9D49-5404-4884-AD5D-6C2F094124E2}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "maggio-settembre"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Londra
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "896ca551-c751-4208-b5a9-2b339e9263a4"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Londra
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: <span>La ricca storia incontra l'innovazione moderna in questa capitale cosmopolita con un'eredità reale.</span>
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: "4-7 giorni"
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/09a110c84d3d4763928a477485253c8d?v=3ed8371c" dam-id="tCqC8XHbQUuSonHvLojRIA" width="360" height="270" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
+    - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
+      Hint: Highlights
+      Value: |
+        {E3936C4E-A3DE-481C-A62A-C2EB047779A7}
+        {D4DD86CF-B994-4E22-AC82-2BB8A26B14CF}
+        {D674BDD1-5726-4BF7-B27C-31256D08688A}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d791da19-6daf-41bc-9e22-56d51f14d6d5"
+      Hint: Activities
+      Value: |
+        {55B3B485-AA44-48A7-BA2E-8D5FB100A075}
+        {71833BDE-9DE1-423F-B0BB-624B72753453}
+        {A5B87476-9EE6-45F3-8DC5-00942F244F10}
+        {E92EC975-133D-4A67-8732-B26BBE223CA1}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025637Z
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "8-22°C"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: 529ドルから
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T160500Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.6
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{DF3C9D49-5404-4884-AD5D-6C2F094124E2}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "5月-9月"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: ロンドン
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11518528-0761-444f-8475-9eefbb9cfa4d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: ロンドン
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: <span>豊かな歴史と現代の革新が融合する王室の遺産を持つ国際的な首都。</span>
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: "4-7日間"
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/09a110c84d3d4763928a477485253c8d?v=3ed8371c" dam-id="tCqC8XHbQUuSonHvLojRIA" width="360" height="270" alt="london.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68797/thumbnail" />
+    - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
+      Hint: Highlights
+      Value: |
+        {E3936C4E-A3DE-481C-A62A-C2EB047779A7}
+        {D4DD86CF-B994-4E22-AC82-2BB8A26B14CF}
+        {D674BDD1-5726-4BF7-B27C-31256D08688A}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d791da19-6daf-41bc-9e22-56d51f14d6d5"
+      Hint: Activities
+      Value: |
+        {55B3B485-AA44-48A7-BA2E-8D5FB100A075}
+        {71833BDE-9DE1-423F-B0BB-624B72753453}
+        {A5B87476-9EE6-45F3-8DC5-00942F244F10}
+        {E92EC975-133D-4A67-8732-B26BBE223CA1}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024303Z
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "8-22℃"

@@ -1,0 +1,54 @@
+﻿---
+ID: "7d2c3223-f93d-4887-a6b4-ffbbd843b61c"
+Parent: "8359ab2b-f11c-4765-a7e6-3724dfa048c5"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Promos/Bali Default"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+      Hint: PromoText2
+      Value: |
+        <div class="ck-content"><p><span style="color:rgb(19,19,19);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:&quot;Open Sans&quot;, Arial, sans-serif;font-size:13px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:left;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Escape the dreary winter blues by booking your dream trip to Bali now! Imagine sun-soaked beaches, lush green landscapes, and vibrant culture waiting just for you. But hurry—tickets are selling fast, and you don't want to miss out on an exotic adventure of a lifetime!</span></span></p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251103T010356Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: |
+        <div class="ck-content"><p>Secure your seat to summer</p></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8ae9853-0e96-4f7e-a242-4e1096f5ba90"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c6e604c3-5371-4e67-83df-a09a5ea66249"
+      Hint: PromoText3
+      Value: |
+        <div class="ck-content"><p>BOOK</p></div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251103T010708Z
+    - ID: "ef24bed2-46ab-4d53-ad1a-1019935a4e89"
+      Hint: PromoLink
+      Value: |
+        <link linktype="internal" id="8d33026d-a6ae-4417-ae52-8a821ff856f9" anchor="" querystring="" target="" class="" text="Secure your Ticket" title=""/>
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/08eb9321be954e00a7ababfdea262187?v=d3178ddd" dam-id="Q4TfgHIUQXCnOZ-ze_Eo1A" width="3024" height="4032" alt="d54520b354604ff3b1ebe47c3a5a3d8c" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71552/thumbnail" />

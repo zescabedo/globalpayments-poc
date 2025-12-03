@@ -1,0 +1,41 @@
+﻿---
+ID: "1caedb3a-6191-4429-9d4b-50bde5ad58fb"
+Parent: "76241873-4388-41e8-9323-73af512b64a4"
+Template: "0f54c86f-dacb-423f-9207-c67b5c7c2004"
+Path: /sitecore/content/healthcare/vitalis/Data/CTA/Request Demo
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cf68391-94be-482e-b8d4-878a0ccfb754"
+      Hint: CTA
+      Value: |
+        <link text="Schedule a Demo" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{E2282AA0-AF68-4033-AC38-14B16CA6AE62}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T175947Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "73a5101f-038a-4eb3-a614-9bde8b613caf"
+      Hint: Subtitle
+      Value: Explore how Vitalis can help your organization implement these best practices and stay ahead of industry changes.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "470d9048-fee2-4d22-ad02-4bc4bd42539d"
+    - ID: "b723bdc7-ff00-4ce3-87e4-b74a4b5f31f0"
+      Hint: Title
+      Value: "Interested in learning more?"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251117T180100Z

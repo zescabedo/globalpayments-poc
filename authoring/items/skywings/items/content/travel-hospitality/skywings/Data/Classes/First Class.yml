@@ -1,0 +1,136 @@
+﻿---
+ID: "a0fa0e91-2bb5-4240-be6b-3e466f4907ae"
+Parent: "ef66bb96-9edb-414a-bc6a-327334013142"
+Template: "68c7edf6-35ad-449a-8aa1-6c185c6808bf"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Classes/First Class"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T171254Z
+    - ID: "434a56be-d6e3-42da-97ab-0c90ebfd3ddc"
+      Hint: Content
+      Value: |
+        <p>Ultimate luxury with private suites, gourmet dining, and personalized service</p>
+        <ul>
+            <li>Private suite with lie-flat bed</li>
+            <li>Chef-curated meals</li>
+            <li>Premium entertainment system</li>
+        </ul>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "18a68443-ac79-4285-8224-b5513720dabe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251025T203707Z
+    - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
+      Hint: Title
+      Value: First Class
+    - ID: "fe0bddeb-58dd-45d4-a3b9-2ca13ec8f1f0"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5405ea2b8e734c78b39acd27516de196?v=ecd6186f" dam-id="tPuplQXTQz-9kVNXhG77Aw" width="500" height="336" alt="64168-HomepagePromoCTAs-1100x740" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68812/thumbnail" />
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T171254Z
+    - ID: "434a56be-d6e3-42da-97ab-0c90ebfd3ddc"
+      Hint: Content
+      Value: |
+        <p>Lusso supremo con suite private, cucina gourmet e servizio personalizzato</p>
+        <ul>
+            <li>Suite privata con letto completamente reclinabile</li>
+            <li>Pasti curati da chef</li>
+            <li>Sistema di intrattenimento premium</li>
+        </ul>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c1d4c36-5529-4163-b52d-e0880b7bba98"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025645Z
+    - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
+      Hint: Title
+      Value: Prima Classe
+    - ID: "fe0bddeb-58dd-45d4-a3b9-2ca13ec8f1f0"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5405ea2b8e734c78b39acd27516de196?v=ecd6186f" dam-id="tPuplQXTQz-9kVNXhG77Aw" width="500" height="336" alt="64168-HomepagePromoCTAs-1100x740" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68812/thumbnail" />
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T171254Z
+    - ID: "434a56be-d6e3-42da-97ab-0c90ebfd3ddc"
+      Hint: Content
+      Value: |
+        <p>プライベートスイート、グルメダイニング、パーソナライズされたサービスによる究極の贅沢</p>
+        <ul>
+            <li>フラットベッド付きのプライベートスイート</li>
+            <li>シェフが厳選した食事</li>
+            <li>プレミアムエンターテインメントシステム</li>
+        </ul>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9084b6b5-7a60-41fd-a165-832214da259c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024311Z
+    - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
+      Hint: Title
+      Value: ファーストクラス
+    - ID: "fe0bddeb-58dd-45d4-a3b9-2ca13ec8f1f0"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/5405ea2b8e734c78b39acd27516de196?v=ecd6186f" dam-id="tPuplQXTQz-9kVNXhG77Aw" width="500" height="336" alt="64168-HomepagePromoCTAs-1100x740" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68812/thumbnail" />

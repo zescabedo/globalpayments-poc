@@ -1,0 +1,236 @@
+﻿---
+ID: "3147a6c5-2d96-46e5-a29d-49eeaf8b22e8"
+Parent: "58c58f38-b6c7-4730-b1f3-7a798f3be00e"
+Template: "33724dcb-6159-4d19-9ba7-04b604fc05b6"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Blogs/New York Rediscovering the City That Never Sleeps"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{E488BA42-28B7-443A-9066-FDC466310A75}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c0cd8c0b-19f0-4b46-90ae-bbae6c25f27d"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "New York, New Energy: Rediscovering the City That Never Sleeps"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: New York travel guide, NYC itinerary, Central Park visit, Broadway shows NYC, Brooklyn art scene, NYC rooftop bars, New York attractions
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251027T191841Z
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 6 min
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: New York
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: "New York, New Energy: Rediscovering the City That Never Sleeps"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d002d7ee-daea-43b6-952a-4e41830a0e66"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: "New York, New Energy: Rediscovering the City That Never Sleeps"
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Iconic landmarks meet new stories in the world’s most dynamic city.<br /><br />New York pulses with reinvention. Spend mornings at Central Park, afternoons at the Whitney, and evenings exploring rooftop bars or Broadway lights. Wander Brooklyn’s art-filled streets or take a ferry to see Lady Liberty up close. Every visit feels brand new — and that’s the magic of NYC.</p></div>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dc9bb78409ef4d3685c2a0793c78a608?v=dbbce038" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="360" height="270" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value:  Explore NYC’s iconic landmarks and fresh stories — from Central Park mornings to Broadway nights and Brooklyn art walks.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T195026Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dc9bb78409ef4d3685c2a0793c78a608?v=dbbce038" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="360" height="270" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20251004T000000Z
+- Language: "it-CH"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "572a0b58-db27-48d0-8a6e-5bcc321748ec"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "New York, Nuova Energia: Riscoprire la Città che non Dorme Mai"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Guida di viaggio a New York, itinerario di NYC, visita a Central Park, spettacoli di Broadway NYC, scena artistica di Brooklyn, bar sui tetti di NYC, attrazioni di New York
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251027T191841Z
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 6 min
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: New York
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Nuova pagina
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: "New York, Nuova Energia: Riscoprire la Città che non Dorme Mai"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e5e0ea5b-8d6c-4670-bacc-80369b3aa743"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: "New York, Nuova Energia: Riscoprire la Città che non Dorme Mai"
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Luoghi iconici incontrano nuove storie nella città più dinamica del mondo.<br /><br />New York pulsa di reinvenzione. Trascorri le mattine a Central Park, i pomeriggi al Whitney e le serate esplorando i bar sui tetti o le luci di Broadway. Passeggia per le strade piene d'arte di Brooklyn o prendi un traghetto per vedere da vicino la Statua della Libertà. Ogni visita sembra nuova di zecca — ed è questa la magia di NYC.</p></div>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dc9bb78409ef4d3685c2a0793c78a608?v=dbbce038" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="360" height="270" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
+    - ID: "a3a25752-0ad1-4517-9817-99a67fbb80a4"
+      Hint: Author
+      Value: "{CBF37C98-E156-4862-A7AF-123EAB9F6A18}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Esplora i luoghi iconici di NYC e le nuove storie — dalle mattine a Central Park alle notti a Broadway e alle passeggiate artistiche di Brooklyn.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025618Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dc9bb78409ef4d3685c2a0793c78a608?v=dbbce038" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="360" height="270" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20251004T000000Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "55d33a8f-7a64-4507-8726-ba5e4c69fee9"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ニューヨーク、新しいエネルギー：眠らない街を再発見する
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: ニューヨーク旅行ガイド、NYCの旅程、セントラルパーク訪問、ブロードウェイショーNYC、ブルックリンのアートシーン、NYCのルーフトップバー、ニューヨークの観光名所
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251027T191841Z
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 6分
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: ニューヨーク
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 新しいページ
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: ニューヨーク、新しいエネルギー：眠らない街を再発見する
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00b15e8e-78c7-477a-88da-f577c158eb25"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: ニューヨーク、新しいエネルギー：眠らない街を再発見する
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>世界で最もダイナミックな都市で、アイコニックなランドマークが新しい物語と出会います。<br /><br />ニューヨークは常に再発明されています。午前中はセントラルパーク、午後はホイットニー美術館、夜はルーフトップバーやブロードウェイのライトを探索しましょう。ブルックリンのアートに満ちた通りを歩いたり、フェリーで自由の女神を間近で見たり。訪れるたびに新鮮に感じる、それがNYCの魔法です。</p></div>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dc9bb78409ef4d3685c2a0793c78a608?v=dbbce038" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="360" height="270" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
+    - ID: "a3a25752-0ad1-4517-9817-99a67fbb80a4"
+      Hint: Author
+      Value: "{CBF37C98-E156-4862-A7AF-123EAB9F6A18}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: セントラルパークの朝からブロードウェイの夜、ブルックリンのアート散策まで、NYCのアイコニックなランドマークと新しい物語を探検しましょう。
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024242Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/dc9bb78409ef4d3685c2a0793c78a608?v=dbbce038" dam-id="6ZtcWQ0fTiCbPCuDALXPAg" width="360" height="270" alt="newyork.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68794/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20251004T000000Z

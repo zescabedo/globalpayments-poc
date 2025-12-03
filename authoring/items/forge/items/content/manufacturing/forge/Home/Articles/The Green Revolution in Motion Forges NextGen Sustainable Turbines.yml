@@ -1,0 +1,94 @@
+﻿---
+ID: "c2ec2342-de38-42d2-9621-dbc163da88d5"
+Parent: "9090dc55-3375-4f95-bcd9-70dc164279dc"
+Template: "783afc68-f107-4c79-9425-2ee6b6d70f32"
+Path: /sitecore/content/manufacturing/forge/Home/Articles/The Green Revolution in Motion Forges NextGen Sustainable Turbines
+SharedFields:
+- ID: "05843f89-7822-4bc4-a7d6-ca721d33a874"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69666-HomepagePromoCTAs-1100x740?v=4ae12000" dam-id="YoLN8NxbS5e2XHJ42uC2Wg" width="1100" height="740" alt="luo-lei-Xa4pTwafe5U-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69666/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D720410A-1355-4DBE-AE48-3E231124F33D}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7e372fc2-4358-4c56-bd01-896c060c7cd2"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "ff36f30a-e47c-4ed1-8dc6-da2e5220c5e3"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "The Green Revolution in Motion: Forge’s Next-Gen Sustainable Turbines"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "07a605e9-a2c1-427d-8cab-858b2e7e378d"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69666-HomepagePromoCTAs-1100x740?v=4ae12000" dam-id="YoLN8NxbS5e2XHJ42uC2Wg" width="1100" height="740" alt="luo-lei-Xa4pTwafe5U-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69666/thumbnail" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251028T181025Z
+    - ID: "490a84b4-f232-4e47-873c-3e9b10c83077"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p data-start="2399" data-end="2455">green turbines, sustainable energy, decarbonization technology, industrial sustainabilityleaner energy meets industrial strength.</p><p data-start="2457" data-end="2819">The global transition toward clean energy isn’t optional — it’s inevitable. But for many industries, balancing sustainability with productivity remains a challenge. Forge is redefining what “green” can mean in heavy industry with our next-generation <strong data-start="2707" data-end="2725">green turbines</strong> — engineered to deliver uncompromising power with drastically reduced environmental impact.</p><h3 data-start="2821" data-end="2869"><strong data-start="2825" data-end="2867">Building Efficiency from the Ground Up</strong></h3><p data-start="2870" data-end="3159">Forge’s green turbines are built using advanced composite materials and aerodynamic designs that maximize energy output while minimizing fuel consumption. Whether operating on traditional fuels, biofuels, or hydrogen blends, these turbines maintain top-tier performance and adaptability.</p><h3 data-start="3161" data-end="3208"><strong data-start="3165" data-end="3206">Beyond Compliance — Toward Leadership</strong></h3><p data-start="3209" data-end="3491">Governments and investors are demanding decarbonization, but true industry leaders are viewing sustainability as a competitive edge. Forge’s technology allows companies to align with global emissions standards while positioning themselves as innovators in clean industrial energy.</p><h3 data-start="3493" data-end="3526"><strong data-start="3497" data-end="3524">Smart Energy Management</strong></h3><p data-start="3527" data-end="3805">Every Forge green turbine includes built-in monitoring systems that analyze energy use, identify inefficiencies, and recommend optimization strategies in real time. This data-driven approach enables organizations to quantify environmental gains and report them with precision.</p><p data-start="3807" data-end="3941">Sustainability shouldn’t be a sacrifice. With Forge, it’s a strength — one that powers a cleaner, more profitable industrial future.</p></div>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5aadf620-30a6-4314-ab9a-7d9a812df6fe"
+      Hint: metadataTitle
+      Value: "Sustainable Turbines by Forge: Cleaner Power, Stronger Performance"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "8255aeef-3c4b-4067-a8bd-f15a982efe1b"
+      Hint: pageSummary
+      Value: Forge green turbines cut emissions without sacrificing output. Explore the future of sustainable industrial power.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d59d595-1bc0-4f3b-a1b5-e0e8ccf1f715"
+    - ID: "94c0bc2c-b094-4962-b262-7265c708ef89"
+      Hint: metadataDescription
+      Value: Forge green turbines cut emissions without sacrificing output. Explore the future of sustainable industrial power.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "bb0ac56c-0d1d-4489-b296-05be5ac8ec01"
+      Hint: Title
+      Value: "The Green Revolution in Motion: Forge’s Next-Gen Sustainable Turbines"
+    - ID: "d1ca547d-3884-48d5-a9d8-81e62c56320b"
+      Hint: pageSummary
+      Value: Forge green turbines cut emissions without sacrificing output. Explore the future of sustainable industrial power.
+    - ID: "d2078453-6a7d-427e-aa88-f7162f34a01d"
+      Hint: metadataKeywords
+      Value: green turbines, sustainable energy, decarbonization technology, industrial sustainability
+    - ID: "d8f88823-2f50-4cb2-ae33-f05e2ba44d60"
+      Hint: metadataKeywords
+      Value: green turbines, sustainable energy, decarbonization technology, industrial sustainability
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251028T203210Z
+    - ID: "e5d47b24-fe77-4d18-95d1-659d333e4885"
+      Hint: metadataDescription
+      Value: Forge green turbines cut emissions without sacrificing output. Explore the future of sustainable industrial power.
+    - ID: "f3dc4f0c-1541-4248-b395-d68d817e5939"
+      Hint: metadataTitle
+      Value: "Sustainable Turbines by Forge: Cleaner Power, Stronger Performance"

@@ -1,0 +1,34 @@
+﻿---
+ID: "88c14b03-5956-4264-a7d8-d7f2fb89f981"
+Parent: "6eae5413-77f0-429d-b023-3ea52d09256b"
+Template: "6eae5413-77f0-429d-b023-3ea52d09256b"
+Path: "/sitecore/templates/Project/travel-hospitality/Author/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T180003Z
+    - ID: "33580daf-2247-4e68-83dd-e44590a20b13"
+      Hint: Name
+      Value: $name
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e9c8d7c-c995-4a82-9fd6-81cf64d17ff4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T180007Z

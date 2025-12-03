@@ -1,0 +1,254 @@
+﻿---
+ID: "08f5f1a7-348a-47c6-b6b1-ef92d9139d30"
+Parent: "00a15dda-fce8-4b25-ad18-7c34ef15036f"
+Template: "0d71cb45-0e21-42fa-aabd-c8caca561163"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Destinations/Paris"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{53EB29CA-24AD-42E2-A730-F24506401409}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: "Paris culture, Paris travel, Louvre Museum, Musée d’Orsay, Eiffel Tower, Notre-Dame Cathedral, French art, Paris history, Paris landmarks, Skywings"
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: from $599
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T160826Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.8
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: "Paris blends historic elegance with a thriving contemporary arts scene. From world-renowned museums and iconic landmarks to intimate cafés and creative neighborhoods, the city offers meaningful cultural experiences at every turn. Skywings helps travelers connect with both the heritage and living culture of Paris."
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{CAF0C612-116C-43FC-B8A6-77AD1ACBB737}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "Apr-Jun, Sep-Oct"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Paris
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Paris Art, Culture & Historic Landmarks | Skywings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95534590-54dc-4dc5-a667-ed5bbf6acfc0"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Paris
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <div class="ck-content"><p data-start="189" data-end="554">Paris is a city where beauty and meaning are woven into daily life. Its character is defined not only by the grand avenues and historic architecture that shape its skyline but also by the quiet intimacy of its cafés, gardens, and riverside paths. Here, art and culture are not simply preserved—they continue to evolve, inspire, and draw the world into conversation.</p><p data-start="556" data-end="996">The city’s skyline is punctuated by landmarks that have become universal symbols. The Eiffel Tower rises as an ode to architectural ingenuity and imagination, while the Notre-Dame Cathedral stands as a testament to centuries of devotion, craftsmanship, and resilience. The Arc de Triomphe, poised at the heart of Place Charles de Gaulle, reflects a legacy of national history and remembrance, forming one of the most iconic views in Europe.</p><p data-start="998" data-end="1511">Paris is home to some of the world’s most influential cultural institutions. The Louvre, one of humanity’s greatest repositories of artistic heritage, invites visitors to journey across civilizations and eras—from Egyptian antiquities to Renaissance masterpieces. Nearby, the Musée d’Orsay celebrates the spirit of artistic revolution, housing some of the most cherished Impressionist works ever created. Each museum, gallery, and exhibition contributes to Paris’s role as a global center of artistic exploration.</p><p data-start="1513" data-end="1965">But Parisian culture is equally shaped by the rhythms of everyday life. The city’s boulevards and side streets are filled with patisseries, bookshops, and open-air markets where craftsmanship and tradition are cherished. Cafés serve as communal living rooms—spaces of dialogue, contemplation, and connection. Evenings along the Seine create a sense of gentle continuity, where the city’s lights shimmer across the water, reflecting a timeless elegance.</p><p data-start="1967" data-end="2360">Paris also thrives in its contemporary identity. Neighborhoods like Le Marais and Montmartre host vibrant creative communities, where independent ateliers, fashion studios, and performance spaces push artistic expression forward. Meanwhile, the city’s culinary scene evolves with each new generation, blending tradition with innovation in ways that define Paris’s unique aesthetic sensibility.</p><p data-start="2362" data-end="2543">To experience Paris is to move at the pace of appreciation—of detail, history, and subtle beauty. It is a city that invites one to be fully present: to wander, to observe, to savor.</p><p data-start="2545" data-end="2864">Skywings connects travelers with Paris’s cultural heart, offering opportunities to explore its historic foundations, living artistry, and everyday elegance. Through thoughtful journeys, visitors can experience not only the city itself but the feeling of Paris—a sense of discovery, inspiration, and enduring connection.</p></div>
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: "<span>The City of Light enchants with its iconic landmarks, world-class museums, and romantic atmosphere.</span>"
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: "4-7 Days"
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/bc5d7e202a8545abbcb35d22b6d4bbbc?v=1bc70285" dam-id="WuLvY57HS3eSVeCurvl1lw" width="1024" height="779" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
+    - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
+      Hint: Highlights
+      Value: |
+        {01DDEFE1-AF6C-4894-8C15-1C1D80DE047F}
+        {5EB22892-064C-49C7-96F4-1893E9439A5B}
+        {2D9438C6-FAC6-4525-8A40-A1B9783DE168}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d791da19-6daf-41bc-9e22-56d51f14d6d5"
+      Hint: Activities
+      Value: |
+        {71833BDE-9DE1-423F-B0BB-624B72753453}
+        {DABC5BE0-1223-4C2B-A63E-C1571154FDA9}
+        {39946E0E-4A4E-4D40-A6FD-5DA2F6DFD328}
+        {CF86A6EF-9130-4A98-9214-E1879B99A59F}
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Explore Paris’s iconic landmarks, celebrated museums, and rich cultural traditions. Discover the city’s timeless beauty and contemporary artistic spirit with Skywings.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251101T213909Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/a79b2156c274406c93feb13ba81772d1?v=bde27b6d" dam-id="WuLvY57HS3eSVeCurvl1lw" width="1024" height="1024" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "15-25C"
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: da CHF 599
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T160826Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.8
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{CAF0C612-116C-43FC-B8A6-77AD1ACBB737}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "Apr-Giu, Set-Ott"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Parigi
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "81a500e4-c668-4196-869b-d9bcb8a4448e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Parigi
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: <span>La Città delle Luci incanta con i suoi monumenti iconici, musei di fama mondiale e atmosfera romantica.</span>
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: "4-7 Giorni"
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b81dc04595934b3290b99f0adf95b723?v=ff48f429" dam-id="WuLvY57HS3eSVeCurvl1lw" width="360" height="360" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
+    - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
+      Hint: Highlights
+      Value: |
+        {01DDEFE1-AF6C-4894-8C15-1C1D80DE047F}
+        {5EB22892-064C-49C7-96F4-1893E9439A5B}
+        {2D9438C6-FAC6-4525-8A40-A1B9783DE168}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d791da19-6daf-41bc-9e22-56d51f14d6d5"
+      Hint: Activities
+      Value: |
+        {71833BDE-9DE1-423F-B0BB-624B72753453}
+        {DABC5BE0-1223-4C2B-A63E-C1571154FDA9}
+        {39946E0E-4A4E-4D40-A6FD-5DA2F6DFD328}
+        {CF86A6EF-9130-4A98-9214-E1879B99A59F}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025637Z
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "15-25°C"
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: 599ドルから
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T160826Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.8
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{CAF0C612-116C-43FC-B8A6-77AD1ACBB737}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "4月-6月, 9月-10月"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: パリ
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{8ED2281F-EE34-4F50-BCD0-D202BFA6006C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1163dfa0-2c50-4941-84a2-b4077d85cd82"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: パリ
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: <span>光の都市は、その象徴的なランドマーク、世界的に有名な博物館、そしてロマンチックな雰囲気で魅了します。</span>
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: "4-7日間"
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/b81dc04595934b3290b99f0adf95b723?v=ff48f429" dam-id="WuLvY57HS3eSVeCurvl1lw" width="360" height="360" alt="paris.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68758/thumbnail" />
+    - ID: "ae14f4e0-7dce-4bff-83e3-6d05f1de4915"
+      Hint: Highlights
+      Value: |
+        {01DDEFE1-AF6C-4894-8C15-1C1D80DE047F}
+        {5EB22892-064C-49C7-96F4-1893E9439A5B}
+        {2D9438C6-FAC6-4525-8A40-A1B9783DE168}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d791da19-6daf-41bc-9e22-56d51f14d6d5"
+      Hint: Activities
+      Value: |
+        {71833BDE-9DE1-423F-B0BB-624B72753453}
+        {DABC5BE0-1223-4C2B-A63E-C1571154FDA9}
+        {39946E0E-4A4E-4D40-A6FD-5DA2F6DFD328}
+        {CF86A6EF-9130-4A98-9214-E1879B99A59F}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024303Z
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "15-25℃"

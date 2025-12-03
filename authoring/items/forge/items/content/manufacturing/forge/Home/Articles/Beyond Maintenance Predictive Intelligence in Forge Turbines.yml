@@ -1,0 +1,92 @@
+﻿---
+ID: "7d8b1117-2224-4d8f-a9ba-356ad0cbf7df"
+Parent: "9090dc55-3375-4f95-bcd9-70dc164279dc"
+Template: "783afc68-f107-4c79-9425-2ee6b6d70f32"
+Path: /sitecore/content/manufacturing/forge/Home/Articles/Beyond Maintenance Predictive Intelligence in Forge Turbines
+SharedFields:
+- ID: "05843f89-7822-4bc4-a7d6-ca721d33a874"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69671-LandingPageHero-2000x600?v=b19277ed" dam-id="4IV3Oa2TRrGZtdsZ-uvHsg" width="2000" height="600" alt="javier-vermaas-W9U0TG4ruvw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69671/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A87F881D-4D3C-4014-BC42-2DBF2457793F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e9ad52f0-72cc-4e93-a5bb-0dd721e01a72"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "49dae0ab-fc59-47b2-969c-1dda0564520c"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Beyond Maintenance: Predictive Intelligence in Forge Turbines"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "07a605e9-a2c1-427d-8cab-858b2e7e378d"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69671-LandingPageHero-2000x600?v=b19277ed" dam-id="4IV3Oa2TRrGZtdsZ-uvHsg" width="2000" height="600" alt="javier-vermaas-W9U0TG4ruvw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69671/thumbnail" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251028T210343Z
+    - ID: "2d53b9bc-4a0e-4cd9-9c23-0ebb3e5c3ed1"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69671-LandingPageHero-2000x600?v=b19277ed" dam-id="4IV3Oa2TRrGZtdsZ-uvHsg" width="2000" height="600" alt="javier-vermaas-W9U0TG4ruvw-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69671/thumbnail" />
+    - ID: "490a84b4-f232-4e47-873c-3e9b10c83077"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p data-start="9837" data-end="9888">Using data to anticipate, not react.</p><p data-start="9890" data-end="10130">Traditional maintenance waits for failure. Forge’s predictive intelligence eliminates it. Using advanced sensors and machine learning, our turbines monitor their own performance in real time, predicting potential issues before they occur.</p><h3 data-start="10132" data-end="10162"><strong data-start="10136" data-end="10160">The Power of Insight</strong></h3><p data-start="10163" data-end="10373">Each Forge turbine gathers gigabytes of operational data — from temperature gradients to vibration frequency. Our analytics engine interprets this data, alerting operators to emerging inefficiencies or risks.</p><h3 data-start="10375" data-end="10418"><strong data-start="10379" data-end="10416">Results that Speak for Themselves</strong></h3><p data-start="10419" data-end="10652">Predictive intelligence reduces unplanned downtime by up to 40%, extends component life, and improves output consistency. For leadership teams, that translates into lower costs, higher uptime, and a more predictable revenue stream.</p><p data-start="10654" data-end="10694">Forge turns maintenance into momentum.</p></div>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5aadf620-30a6-4314-ab9a-7d9a812df6fe"
+      Hint: metadataTitle
+      Value: "Predictive Intelligence: The Future of Forge Turbine Maintenance"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "8255aeef-3c4b-4067-a8bd-f15a982efe1b"
+      Hint: pageSummary
+      Value: Discover how Forge uses AI and sensors to predict turbine issues before they happen.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d8382c2-3cbc-4e09-b91d-a05716840a22"
+    - ID: "94c0bc2c-b094-4962-b262-7265c708ef89"
+      Hint: metadataDescription
+      Value: Discover how Forge uses AI and sensors to predict turbine issues before they happen.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "bb0ac56c-0d1d-4489-b296-05be5ac8ec01"
+      Hint: Title
+      Value: "Beyond Maintenance: Predictive Intelligence in Forge Turbines"
+    - ID: "d2078453-6a7d-427e-aa88-f7162f34a01d"
+      Hint: metadataKeywords
+      Value: predictive maintenance, turbine analytics, industrial IoT, smart turbine systems
+    - ID: "d8f88823-2f50-4cb2-ae33-f05e2ba44d60"
+      Hint: metadataKeywords
+      Value: predictive maintenance, turbine analytics, industrial IoT, smart turbine systems
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251028T210605Z
+    - ID: "e5d47b24-fe77-4d18-95d1-659d333e4885"
+      Hint: metadataDescription
+      Value: Discover how Forge uses AI and sensors to predict turbine issues before they happen.
+    - ID: "f3dc4f0c-1541-4248-b395-d68d817e5939"
+      Hint: metadataTitle
+      Value: "Predictive Intelligence: The Future of Forge Turbine Maintenance"

@@ -1,0 +1,95 @@
+﻿---
+ID: "67732529-d3e4-4113-9663-dc79354a5a11"
+Parent: "9090dc55-3375-4f95-bcd9-70dc164279dc"
+Template: "783afc68-f107-4c79-9425-2ee6b6d70f32"
+Path: /sitecore/content/manufacturing/forge/Home/Articles/Decarbonizing Industry The Role of Green Turbines in a Sustainable Future
+SharedFields:
+- ID: "05843f89-7822-4bc4-a7d6-ca721d33a874"
+  Hint: Image
+  Value: |
+    <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69663-HomePageHero-2000x800?v=4bcab348" dam-id="55dh01cCR9GrX3xO56Mv8g" width="2000" height="800" alt="karsten-wurth-0w-uTa0Xz7w-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69663/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{DEC545DD-9971-43A5-ACDD-13BD3E82A44C}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1956d450-0b8f-45da-a33c-b7e650ee8869"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "4cf0ff55-95b0-49a9-99e2-41e597239487"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Decarbonizing Industry: The Role of Green Turbines in a Sustainable Future"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "07a605e9-a2c1-427d-8cab-858b2e7e378d"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69663-HomePageHero-2000x800?v=4bcab348" dam-id="55dh01cCR9GrX3xO56Mv8g" width="2000" height="800" alt="karsten-wurth-0w-uTa0Xz7w-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69663/thumbnail" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251028T204644Z
+    - ID: "2d53b9bc-4a0e-4cd9-9c23-0ebb3e5c3ed1"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/69663-HomePageHero-2000x800?v=4bcab348" dam-id="55dh01cCR9GrX3xO56Mv8g" width="2000" height="800" alt="karsten-wurth-0w-uTa0Xz7w-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/69663/thumbnail" />
+    - ID: "490a84b4-f232-4e47-873c-3e9b10c83077"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p data-start="7788" data-end="7872">Forge is proving that high performance and low emissions can coexist.</p><p data-start="7874" data-end="8081">Heavy industry has long been seen as incompatible with sustainability — until now. Forge’s green turbine technology is proving that environmental responsibility and industrial strength can thrive together.</p><h3 data-start="8083" data-end="8122"><strong data-start="8087" data-end="8120">The Science of Sustainability</strong></h3><p data-start="8123" data-end="8398">Our turbines use next-generation blade geometry and optimized airflow dynamics to achieve superior combustion efficiency, reducing CO₂ output per kilowatt hour. Paired with hybrid fuel capabilities, they enable manufacturers to transition smoothly toward carbon neutrality.</p><h3 data-start="8400" data-end="8445"><strong data-start="8404" data-end="8443">Business Benefits Beyond Compliance</strong></h3><p data-start="8446" data-end="8698">Sustainability doesn’t just satisfy regulators — it satisfies stakeholders. Companies that invest in clean technology gain access to green financing, attract eco-conscious clients, and future-proof their operations. Forge helps you achieve all three.</p><p data-start="8700" data-end="8792">The path to a greener industry starts with smarter engineering. Forge is lighting the way.</p></div>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: New page
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "5aadf620-30a6-4314-ab9a-7d9a812df6fe"
+      Hint: metadataTitle
+      Value: "Forge Green Turbines: Decarbonizing Heavy Industry"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "8255aeef-3c4b-4067-a8bd-f15a982efe1b"
+      Hint: pageSummary
+      Value: Discover how Forge turbines help industries reduce carbon emissions without losing performance.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf91bec0-3a84-4b48-a2be-1367c8fec694"
+    - ID: "94c0bc2c-b094-4962-b262-7265c708ef89"
+      Hint: metadataDescription
+      Value: Discover how Forge turbines help industries reduce carbon emissions without losing performance.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\angela.gustafson@sitecore.com
+    - ID: "bb0ac56c-0d1d-4489-b296-05be5ac8ec01"
+      Hint: Title
+      Value: "Decarbonizing Industry: The Role of Green Turbines in a Sustainable Future"
+    - ID: "d1ca547d-3884-48d5-a9d8-81e62c56320b"
+      Hint: pageSummary
+      Value: Discover how Forge turbines help industries reduce carbon emissions without losing performance.
+    - ID: "d2078453-6a7d-427e-aa88-f7162f34a01d"
+      Hint: metadataKeywords
+      Value: "decarbonization technology, green turbines, net-zero energy, industrial emissions reduction"
+    - ID: "d8f88823-2f50-4cb2-ae33-f05e2ba44d60"
+      Hint: metadataKeywords
+      Value: "decarbonization technology, green turbines, net-zero energy, industrial emissions reduction"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251028T204948Z
+    - ID: "e5d47b24-fe77-4d18-95d1-659d333e4885"
+      Hint: metadataDescription
+      Value: Discover how Forge turbines help industries reduce carbon emissions without losing performance.
+    - ID: "f3dc4f0c-1541-4248-b395-d68d817e5939"
+      Hint: metadataTitle
+      Value: "Forge Green Turbines: Decarbonizing Heavy Industry"

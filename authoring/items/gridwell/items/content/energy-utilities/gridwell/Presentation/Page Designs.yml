@@ -1,0 +1,45 @@
+﻿---
+ID: "e6cc5e83-e111-4eb4-a819-15fb5036eb77"
+Parent: "82488847-87ce-4737-9f75-804b406f5401"
+Template: "26f122fb-57bf-44e8-ad36-4a38caf1d6ae"
+Path: "/sitecore/content/energy-utilities/gridwell/Presentation/Page Designs"
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7bE43ADD4C-EEA3-47A1-8271-E64A9FD0A209%7d%3d%257BC5E344D7-91B2-483E-8C37-F9147E7643EB%257D%26%7b3B3034DF-1E66-45DD-AF2D-B3578D9095E9%7d%3d%257BC5E344D7-91B2-483E-8C37-F9147E7643EB%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "67652ab2-e157-4bca-9a94-aba99fa097f7"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250919T193402Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f938849-3812-4227-ada3-694fb9161856"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\alexander.sergeev@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250926T083516Z

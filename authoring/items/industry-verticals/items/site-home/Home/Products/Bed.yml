@@ -1,0 +1,176 @@
+﻿---
+ID: "16807766-6013-4944-9550-ebc3216ad248"
+Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+Template: "4d2b49e6-1130-444a-b22c-5c7e25d01b56"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Bed"
+SharedFields:
+- ID: "97fb669d-5b8e-4829-9a24-06418c315d73"
+  Hint: SxaTags
+  Value: "luxury beds, modern bed frames, minimalist bed design, sustainable furniture, wooden bed, handcrafted furniture, bedroom design, timeless comfort, eco-friendly furniture"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{D7EFEC39-0118-4288-9D44-84ACBC6DFD2E}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6a63663d-a6e2-4538-98cd-8a2fbf62ede2"
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="733" dam-content-type="Image" alt="Ein schönes Schlafzimmer mit einem Kingsize-Bett und Designer-Kopfteil" width="1100" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66998/thumbnail" dam-id="y9eaS3oRSLCy7JKBixa3jw" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/0b03000bbe0642109f9315e99c8eb565?v=52ee1c03" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Die Bettkollektion verwandelt das Schlafzimmer in einen ruhigen, erholsamen Raum. Mit natürlichen Materialien und klaren Linien gebaut, betont jedes Design Komfort, Balance und die stille Raffinesse zeitloser Handwerkskunst.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155045Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Bett
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: Luxusbetten, moderne Bettgestelle, minimalistisches Bettdesign, nachhaltige Möbel, Holzbett, handgefertigte Möbel, Schlafzimmerdesign, zeitloser Komfort, umweltfreundliche Möbel
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "063104ac-e48e-480e-b518-e961a38d4798"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Luxusbetten
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072747Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Entdecken Sie moderne Betten, die mit natürlichen Materialien und raffiniertem Design gefertigt sind. Jedes Stück bringt Balance, Gelassenheit und dauerhaften Komfort in das zeitgenössische Schlafzimmer.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Bett
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/0b03000bbe0642109f9315e99c8eb565?v=52ee1c03" dam-id="y9eaS3oRSLCy7JKBixa3jw" width="1100" height="733" alt="A beautiful bedroom with a king size bed and designer headboard" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66998/thumbnail" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: The bed collection transforms the bedroom into a calm, restorative space. Built with natural materials and clean lines, each design emphasizes comfort, balance, and the quiet sophistication of timeless craftsmanship.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155045Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Bed
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: "luxury beds, modern bed frames, minimalist bed design, sustainable furniture, wooden bed, handcrafted furniture, bedroom design, timeless comfort, eco-friendly furniture"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "266c9dc4-5178-477c-a712-1ae418eb8cb4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Luxury Beds
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251023T234506Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Explore modern beds crafted with natural materials and refined design. Each piece brings balance, serenity, and enduring comfort to the contemporary bedroom.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Bed
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="733" dam-content-type="Image" alt="Une belle chambre avec un lit king size et une tête de lit design" width="1100" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66998/thumbnail" dam-id="y9eaS3oRSLCy7JKBixa3jw" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/0b03000bbe0642109f9315e99c8eb565?v=52ee1c03" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: La collection de lits transforme la chambre en un espace calme et réparateur. Construite avec des matériaux naturels et des lignes épurées, chaque design met l'accent sur le confort, l'équilibre et la sophistication discrète d'un artisanat intemporel.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155045Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lit
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: lits de luxe, cadres de lit modernes, design de lit minimaliste, meubles durables, lit en bois, meubles artisanaux, design de chambre, confort intemporel, meubles écologiques
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "126fc340-582d-48d6-97b3-f8d02fa1fb2b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Lits de luxe
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070223Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Explorez des lits modernes fabriqués avec des matériaux naturels et un design raffiné. Chaque pièce apporte équilibre, sérénité et confort durable à la chambre contemporaine.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Lit

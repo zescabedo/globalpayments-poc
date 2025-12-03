@@ -1,0 +1,92 @@
+﻿---
+ID: "18caeea4-93d6-411b-aeb2-67d4f6cece74"
+Parent: "75154406-99b2-4230-9f1a-9b09f6bf7ea3"
+Template: "0e9264df-c757-46ff-919d-cc434213740d"
+Path: /sitecore/content/healthcare/vitalis/Home/Articles/Copy of Bridging the Gap Between Patients and Providers
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CF0C1E99-CE86-4CC7-BE57-FABDC8446446}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "9e54dd7d-6309-4819-a5ed-840d8a985a45"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Bridging the Gap Between Patients and Providers
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C730EA24-99E0-45BB-B202-6419606F2F2A}"
+              s:ds="1caedb3a-6191-4429-9d4b-50bde5ad58fb"
+              s:id="{D203BAA3-339A-4C44-A41C-63DD3E053376}"
+              s:par="CSSStyles"
+              s:ph="/headless-main/sxa-article/article-detail-{FC59C943-73E1-4C01-9DC2-97DA103DD8B9}-0" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251117T154208Z
+    - ID: "2c6f31e6-beda-4374-9d2b-6a4fdb6d5c15"
+      Hint: metadataKeywords
+      Value: telemedicine, virtual healthcare, remote consultations, healthcare accessibility, digital health
+    - ID: "48005244-445f-4d3b-b5c2-c7f1b235ff60"
+      Hint: metadataTitle
+      Value: Vitalis | Telemedicine Solutions
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Explore Telemedicine Trends
+    - ID: "5000eb1d-4834-4c41-8106-ecb127701b47"
+      Hint: metadataDescription
+      Value: Discover how telemedicine is making healthcare more accessible and convenient for patients worldwide, especially in underserved areas.
+    - ID: "5fc89920-e39e-4602-9b03-98e98ad5a842"
+      Hint: PublishDate
+      Value: 20250226T000000Z
+    - ID: "7cf9f373-5e3b-4677-8e52-8445d688be45"
+      Hint: Category
+      Value: "{91FDED2E-A612-4C99-8AF0-AA8AA32CC6C4}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0e7813d-45c2-4b23-a75c-631e8568604d"
+    - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
+      Hint: Content
+      Value: |
+        <div class="ck-content"><p>Telemedicine has emerged as a critical solution for remote healthcare delivery. With the advent of modern technology, patients can benefit from secure video consultations and digital prescriptions, ensuring that medical care is accessible, efficient, and high-quality.&nbsp;<br /><br />With telemedicine, individuals no longer face geographical barriers when seeking healthcare services. Whether living in urban centers or remote rural communities, patients have the power to connect with specialists and general practitioners alike from the comfort of their homes.&nbsp;<br /><br />This technology not only facilitates convenience but also plays a pivotal role during global health crises where travel restrictions may impede traditional healthcare access. These telehealth innovations are invaluable in addressing the needs of underserved populations, ensuring equitable healthcare delivery even in the most inaccessible areas. Furthermore, the ease of digital prescriptions streamlines the process of receiving medication, allowing for quick, efficient treatment options.<br /><br />In addition, telemedicine supports the continuous monitoring of chronic conditions through regular virtual check-ins, enhancing patient engagement and compliance with treatment plans. The personal touch remains, as healthcare professionals can still provide empathetic care, understand their patients' concerns, and adjust treatments in real-time based on digital consultations. As technology advances, the scope and capabilities of telemedicine continue to broaden, promising a future where healthcare is universally accessible and tailored to individual needs.</p></div>
+    - ID: "ad04c5bb-bc6a-4988-8922-8fc127d28330"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/74663-HomePageHero-2000x800?v=00db07df" dam-id="ZvM14TY3TW-fS_j2tvS3YQ" width="2000" height="800" alt="V5.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74663/thumbnail" />
+    - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/74663-HomePageHero-2000x800?v=00db07df" dam-id="ZvM14TY3TW-fS_j2tvS3YQ" width="2000" height="800" alt="V5.webp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74663/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\david.berkovits@sitecore.com
+    - ID: "d3405e07-721f-4582-ae8c-81b9f1cfd954"
+      Hint: Excerpt
+      Value: Learn how telemedicine is redefining accessibility and convenience in healthcare
+    - ID: "d70b853d-e180-45ef-a71f-f1cfedbfd7db"
+      Hint: pageSummary
+      Value: Telemedicine is revolutionizing healthcare delivery by connecting patients and providers through secure digital platforms.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251118T152838Z
+    - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
+      Hint: Title
+      Value:  Bridging the Gap Between Patients and Providers

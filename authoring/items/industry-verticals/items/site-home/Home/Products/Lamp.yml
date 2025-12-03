@@ -1,0 +1,167 @@
+﻿---
+ID: "260cf295-7d6b-4e12-805c-2596ffd1c3d7"
+Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+Template: "4d2b49e6-1130-444a-b22c-5c7e25d01b56"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Lamp"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{389827BE-A450-4F40-803F-E0E9ACD39074}" />
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="882" dam-content-type="Image" alt="Eine moderne Designer-Innenlampe" width="1100" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67322/thumbnail" dam-id="FTJoHg4MStO29dvZqnn-ZA" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/314bff12f4e44f7a9139f70712730851?v=dcd7c212" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Die Lampenkollektion bietet raffinierte Beleuchtung, die moderne Innenräume ergänzt. Jedes Stück ist darauf ausgelegt, Räume mit Wärme und Absicht zu beleuchten und eine Atmosphäre zu schaffen, die sich ruhig, ausgewogen und wunderschön zurückhaltend anfühlt.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155226Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lampe
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: moderne Lampen, zeitgenössische Beleuchtung, minimalistisches Lampendesign, Luxusbeleuchtung, Nachttischlampe, Tischlampe, Stehlampe, Innenbeleuchtung, warmes Lichtdesign, zeitlose Beleuchtung
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96d47995-8986-4b0b-b4f6-db3a15393db7"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Moderne Lampen
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072747Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Entdecken Sie moderne Lampen, die Wärme, Balance und Atmosphäre in jeden Raum bringen. Sorgfältig für Schönheit und Funktion entworfen, verbessert jedes Stück die Kunst des Lebens durch Licht.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Lampe
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/314bff12f4e44f7a9139f70712730851?v=dcd7c212" dam-id="FTJoHg4MStO29dvZqnn-ZA" width="1100" height="882" alt="A modern designer interior lamp" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67322/thumbnail" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: The lamp collection offers refined lighting designed to complement modern interiors. Each piece is crafted to illuminate spaces with warmth and intention, creating an atmosphere that feels calm, balanced, and beautifully understated.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155226Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lamp
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: modern lamps, contemporary lighting, minimalist lamp design, luxury lighting, bedside lamp, table lamp, floor lamp, interior lighting, warm light design, timeless lighting
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3a062fa-22a2-4043-94f3-51fc1ebd24e2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Modern Lamps
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251023T234631Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Explore modern lamps that bring warmth, balance, and atmosphere to any space. Thoughtfully designed for beauty and function, each piece enhances the art of living through light.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Lamp
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="882" dam-content-type="Image" alt="Une lampe intérieure moderne de designer" width="1100" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67322/thumbnail" dam-id="FTJoHg4MStO29dvZqnn-ZA" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/314bff12f4e44f7a9139f70712730851?v=dcd7c212" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: La collection de lampes offre un éclairage raffiné conçu pour compléter les intérieurs modernes. Chaque pièce est conçue pour illuminer les espaces avec chaleur et intention, créant une atmosphère qui se sent calme, équilibrée et magnifiquement sobre.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155226Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Lampe
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: lampes modernes, éclairage contemporain, design de lampe minimaliste, éclairage de luxe, lampe de chevet, lampe de table, lampe sur pied, éclairage intérieur, design de lumière chaude, éclairage intemporel
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "40be6924-a457-44e5-a3a3-a3087654e45e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Lampes modernes
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070223Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Explorez les lampes modernes qui apportent chaleur, équilibre et atmosphère à tout espace. Conçue avec soin pour la beauté et la fonction, chaque pièce améliore l'art de vivre à travers la lumière.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Lampe

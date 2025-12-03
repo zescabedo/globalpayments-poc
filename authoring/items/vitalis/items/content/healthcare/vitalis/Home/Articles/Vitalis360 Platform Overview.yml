@@ -1,0 +1,72 @@
+﻿---
+ID: "58bb466e-89cb-4188-8811-0f1ce48a5605"
+Parent: "75154406-99b2-4230-9f1a-9b09f6bf7ea3"
+Template: "0e9264df-c757-46ff-919d-cc434213740d"
+Path: /sitecore/content/healthcare/vitalis/Home/Articles/Vitalis360 Platform Overview
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{CFFDA565-AE04-4494-905C-41723DD208A7}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251124T191404Z
+    - ID: "2c6f31e6-beda-4374-9d2b-6a4fdb6d5c15"
+      Hint: metadataKeywords
+      Value: Vitalis360 datasheet, HEDIS platform, Stars measurement
+    - ID: "48005244-445f-4d3b-b5c2-c7f1b235ff60"
+      Hint: metadataTitle
+      Value: Vitalis360 Product Datasheet
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Vitalis360 Platform Overview
+    - ID: "5000eb1d-4834-4c41-8106-ecb127701b47"
+      Hint: metadataDescription
+      Value: Download the Vitalis360 datasheet to learn how the platform automates healthcare quality measurement.
+    - ID: "5fc89920-e39e-4602-9b03-98e98ad5a842"
+      Hint: PublishDate
+      Value: 20250212T000000Z
+    - ID: "7cf9f373-5e3b-4677-8e52-8445d688be45"
+      Hint: Category
+      Value: "{71F39184-E4D9-4EE0-958C-18B363713BCE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "862e3f96-7adb-4294-8cd4-99a1249c0e5d"
+    - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
+      Hint: Content
+      Value: |
+        <p>Vitalis360 is an end-to-end platform that unifies healthcare quality measurement, data interoperability, and workflow automation. Designed for payers, it simplifies complex reporting processes by consolidating data sources and automating measure execution. The result is faster insight generation and greater performance predictability.</p>
+        <p>Vitalis360 supports HEDIS, Stars, digital quality measures, and ECDS reporting through FHIR-based ingestion and machine-readable logic. The platform provides real-time dashboards and automated workflows that help teams identify opportunities earlier in the measurement year. This streamlines the shift toward fully digital reporting.</p>
+        <p>Organizations deploying Vitalis360 gain a scalable foundation for measurement modernization. With flexible integration capabilities and strong interoperability features, the platform eliminates redundant systems and enables long-term operational growth.</p>
+    - ID: "ad04c5bb-bc6a-4988-8922-8fc127d28330"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/6144c86ae01144a9aa303020f349bdd8?v=f5f3e531" dam-id="rVtgMo1KTqqbrl59rW4dZw" width="1024" height="1024" alt="hedis data collection.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74943/thumbnail" />
+    - ID: "b7e84d23-4073-4e2a-88db-dba2a4c17a81"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/eb12c87404f04c1f9e4c420c0b9ed3c7?v=fe09ef6f" dam-id="rVtgMo1KTqqbrl59rW4dZw" width="200" height="200" alt="hedis data collection.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74943/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d3405e07-721f-4582-ae8c-81b9f1cfd954"
+      Hint: Excerpt
+      Value: "Vitalis360 is a unified platform for HEDIS, Stars, and digital quality measurement with automated workflows, FHIR-based data ingestion, and real-time dashboards."
+    - ID: "d70b853d-e180-45ef-a71f-f1cfedbfd7db"
+      Hint: pageSummary
+      Value: This datasheet provides an overview of Vitalis360 features, including automation, interoperability, and digital quality measurement support.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251124T191920Z
+    - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
+      Hint: Title
+      Value: Vitalis360 Platform Overview

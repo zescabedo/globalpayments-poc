@@ -1,0 +1,167 @@
+﻿---
+ID: "95692043-df4d-4e60-9271-511be5096297"
+Parent: "b86a1b6c-c131-42ce-afcf-d7fef4a543f5"
+Template: "4d2b49e6-1130-444a-b22c-5c7e25d01b56"
+Path: "/sitecore/content/retail/forma-lux/Home/Products/Pillow"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{00FC395A-2254-4EF5-9698-2477824A3512}" />
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="800" dam-content-type="Image" alt="Ein Foto von 4 Designer-Kissen, die aufeinander gestapelt sind" width="2000" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67155/thumbnail" dam-id="N_Q5zlE2RLupJsSN6NkzQg" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67155-HomePageHero-2000x800?v=619237aa" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Diese Kissen sind sowohl für Komfort als auch für ästhetische Harmonie konzipiert und verleihen modernen Innenräumen den letzten Schliff. Aus hochwertigen Stoffen und ausgewogenen Tönen gefertigt, verkörpern sie leisen Luxus und die Kunst des mühelosen Lebens.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155348Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Kissen
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: dekorative Kissen, moderne Kissen, minimalistische Kissen, Wurfkissen, Sofakissen, neutrale Dekoration, strukturierte Kissen, luxuriöse Wohnakzente, modernes Wohnen, weiche Einrichtungsgegenstände
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0291f31a-7ed0-4e0d-a8df-9141a6385375"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Dekorative Kissen
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072747Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Entdecken Sie Kissen, die Komfort und Design vereinen. Weiche Texturen, zeitlose Farben und einfache Formen kommen zusammen, um jedem Wohnraum Tiefe und Wärme zu verleihen.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Kissen
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67155-HomePageHero-2000x800?v=619237aa" dam-id="N_Q5zlE2RLupJsSN6NkzQg" width="2000" height="800" alt="A photo of 4 designer pillows stacked on top of each other" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67155/thumbnail" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: "Designed for both comfort and aesthetic harmony, these pillows add the finishing touch to modern interiors. Crafted from high-quality fabrics and balanced tones, they embody quiet luxury and the art of effortless living."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155348Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Pillow
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: decorative pillows, modern pillows, minimalist cushions, throw pillows, sofa pillows, neutral decor, textured pillows, luxury home accents, modern living, soft furnishings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5deaef13-6ec8-409e-ad26-872877f912b7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Decorative Pillows
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251023T234741Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Discover pillows that combine comfort and design. Soft textures, timeless colors, and simple forms come together to add depth and warmth to any living space.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Pillow
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1dadb33a-86f1-44af-bece-ad3f5eb21e79"
+      Hint: ogImage
+      Value: |
+        <image height="800" dam-content-type="Image" alt="Une photo de 4 oreillers de designer empilés les uns sur les autres" width="2000" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/67155/thumbnail" dam-id="N_Q5zlE2RLupJsSN6NkzQg" src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/67155-HomePageHero-2000x800?v=619237aa" />
+    - ID: "22b04fea-7213-478a-81bc-ac695613cd41"
+      Hint: pageSummary
+      Value: Conçus pour le confort et l'harmonie esthétique, ces oreillers ajoutent la touche finale aux intérieurs modernes. Fabriqués à partir de tissus de haute qualité et de tons équilibrés, ils incarnent le luxe discret et l'art de vivre sans effort.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251016T155348Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Oreiller
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\movin.tilakaratne@sitecore.com
+    - ID: "61d0a678-e92f-4d2e-898b-15fe263a9836"
+      Hint: metadataKeywords
+      Value: oreillers décoratifs, oreillers modernes, coussins minimalistes, oreillers de jet, oreillers de canapé, décor neutre, oreillers texturés, accents de maison de luxe, vie moderne, articles de maison doux
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9f8b13f-ac05-46a8-b5c1-696c1f5caa4b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "c487d4a2-04d2-4c86-b806-ac141ad0d74a"
+      Hint: metadataTitle
+      Value: Oreillers décoratifs
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070223Z
+    - ID: "f0e4999e-8458-4733-956e-3f4ddc342f2e"
+      Hint: metadataDescription
+      Value: Découvrez des oreillers qui allient confort et design. Des textures douces, des couleurs intemporelles et des formes simples se combinent pour ajouter de la profondeur et de la chaleur à tout espace de vie.
+    - ID: "f77b6eec-9e1b-42aa-af08-48e915b5593c"
+      Hint: CategoryName
+      Value: Oreiller

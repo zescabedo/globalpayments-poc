@@ -1,0 +1,135 @@
+﻿---
+ID: "46265d04-81ed-4416-b76d-caea274a9a2a"
+Parent: "4781f893-d471-4ab0-9948-32b2ba77f858"
+Template: "744d807c-58ee-4148-b56c-2a4d721ef30f"
+Path: "/sitecore/content/retail/forma-lux/Data/Product Reviews/Review 4"
+SharedFields:
+- ID: "80c830cd-6bce-475c-a33a-7ae4681fc436"
+  Hint: ReviewImage
+  Value: |
+    <image mediaid="{E6B176E0-831B-40E5-8825-98584F41209A}" alt="A photo of a modern dining room or entry way"/>
+- ID: "84f017a3-d38b-4b59-b533-be5cf9ef126a"
+  Hint: Avatar
+  Value: |
+    <image mediaid="{9B5D4CA0-573C-4081-AC20-EB5F24E8E6D4}" alt="a woman with a bright orange shirt on and lush beautiful hair"/>
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c688c06e-b966-4531-ba3e-c6518f1e9dec"
+Languages:
+- Language: "de-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
+      Hint: Rating
+      Value: 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251020T101103Z
+    - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
+      Hint: Caption
+      Value: Unternehmerin, London
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
+      Hint: Description
+      Value: „Forma Lux hat mir geholfen, mich durch meinen Raum auszudrücken. Es ist nicht nur Möbel – es ist ein Lebensstil, kuratiert mit Sorgfalt und mutigem Geschmack.“
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3dac2638-dfcf-4c16-b95e-abf9d5e85570"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
+      Hint: ReviewerName
+      Value: Ava L.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T072754Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
+      Hint: Rating
+      Value: 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251020T101103Z
+    - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
+      Hint: Caption
+      Value: Entrepreneur, London
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
+      Hint: Description
+      Value: “Forma Lux helped me express myself through my space. It’s not just furniture — it’s a lifestyle, curated with care and bold taste.”
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ccf72dde-ba3c-43a5-a805-1fe0af4eba65"
+    - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
+      Hint: ReviewerName
+      Value: Ava L.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251023T230541Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ba67762-5101-42b3-a0f4-96c75eef92dd"
+      Hint: Rating
+      Value: 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251020T101103Z
+    - ID: "4cfe9e5a-e13c-480a-bfb5-13ab4d5076e3"
+      Hint: Caption
+      Value: Entrepreneure, Londres
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jeral.sandeeptha@sitecore.com
+    - ID: "626e48c4-0b10-44a8-9014-b2d9776e5cd6"
+      Hint: Description
+      Value: « Forma Lux m'a aidé à m'exprimer à travers mon espace. Ce n'est pas juste des meubles — c'est un style de vie, conçu avec soin et goût audacieux. »
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "44d66b00-d2de-415a-a3b0-982a5310bd72"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "b6ff157a-68e6-4d19-a9fa-72835a99d93d"
+      Hint: ReviewerName
+      Value: Ava L.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251027T070228Z

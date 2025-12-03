@@ -1,0 +1,87 @@
+﻿---
+ID: "80d0fc39-1c91-45d2-a00d-59708d060de5"
+Parent: "00a15dda-fce8-4b25-ad18-7c34ef15036f"
+Template: "0d71cb45-0e21-42fa-aabd-c8caca561163"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Destinations/Zanzibar"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1052D67D-34A3-4E95-9A6F-E777820B8CDE}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: Zanzibar, Tanzania beaches, cultural coastal trip
+    - ID: "083684f6-5f7c-480f-bbdd-4044c33b9d84"
+      Hint: Price
+      Value: From $1280
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251102T182819Z
+    - ID: "2a57b1e0-74b4-4e74-9592-36dcad743bd9"
+      Hint: Rating
+      Value: 4.5
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: A cultural and coastal retreat full of warmth and connection.
+    - ID: "2ec668d0-921f-4883-862b-87e412441319"
+      Hint: Country
+      Value: "{D8E1BED9-D518-4E77-B726-AE07F7184288}"
+    - ID: "4a2fd42b-252b-4f1e-bd89-c15eb91971ed"
+      Hint: BestMonths
+      Value: "June-October"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Zanzibar
+    - ID: "662a819b-bcc2-45b9-add6-20cd1f500818"
+      Hint: HolidayType
+      Value: "{817D29AE-2CED-4ECE-906A-C8E7A1656F0C}"
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Zanzibar Getaway – SkyWings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d30b2fdf-a0c5-4929-98ef-ff2d9da78b2e"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Zanzibar Island Retreat
+    - ID: "9f8d263a-b06c-4825-95d7-96633b4af1b3"
+      Hint: Description
+      Value: |
+        <p>Zanzibar blends tropical beauty with rich cultural depth. Soft beaches and turquoise waters create a peaceful coastal setting, while Stone Town adds history, music, and spice-filled markets full of color and life. Walking its winding alleyways feels like tracing stories told over centuries.</p>
+        <p>The island’s spice heritage is everywhere — in warm breezes scented with cinnamon and clove, in meals prepared slowly with care, and in conversations with local makers. Sailing excursions reveal calm blue seas and coral reefs brimming with bright marine life, inviting travelers to dive in and explore.</p>
+        <p>From quiet beach mornings to lively cultural evenings, Zanzibar moves at a rhythm that encourages you to follow it. It’s a place to learn, to wander, to taste, and to feel connected — both to the landscape and the people who call it home.</p>
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: Sunny surf culture meets modern resort comfort.
+    - ID: "ac0f1339-ea8b-4fcf-a6a0-57e12227bf3f"
+      Hint: SuggestedDuration
+      Value: 6
+    - ID: "ac12fab5-9b67-4d39-903f-d4200db83e41"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/12e67f09ae744d18b23214541edc22e1?v=98d4535c" dam-id="Hhsh3kDJTj2tXq4xY-lsIQ" width="1344" height="768" alt="zanzibar.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71380/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Experience the colorful island charm of Zanzibar with SkyWings.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251102T201333Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/12e67f09ae744d18b23214541edc22e1?v=98d4535c" dam-id="Hhsh3kDJTj2tXq4xY-lsIQ" width="1344" height="768" alt="zanzibar.png" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/71380/thumbnail" />
+    - ID: "ea421706-d898-414e-a72d-0212bf5f6519"
+      Hint: ExpectedTemps
+      Value: "27-31"

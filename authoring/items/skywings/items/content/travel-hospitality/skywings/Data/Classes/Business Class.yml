@@ -1,0 +1,136 @@
+﻿---
+ID: "1c3b7722-e049-4238-b9ab-08dba2e23141"
+Parent: "ef66bb96-9edb-414a-bc6a-327334013142"
+Template: "68c7edf6-35ad-449a-8aa1-6c185c6808bf"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Classes/Business Class"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T171212Z
+    - ID: "434a56be-d6e3-42da-97ab-0c90ebfd3ddc"
+      Hint: Content
+      Value: |
+        <p>Premium comfort with lie-flat seats, priority service, and exclusive lounges</p>
+        <ul>
+            <li>Lie-flat seats with direct aisle access</li>
+            <li>Premium dining options</li>
+            <li>Priority boarding &amp; baggage</li>
+        </ul>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9f447ad-71c8-4a08-8c16-5a7ef3f2b0a7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251025T203623Z
+    - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
+      Hint: Title
+      Value: Business Class
+    - ID: "fe0bddeb-58dd-45d4-a3b9-2ca13ec8f1f0"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/7542f12b09094625b213f60277d0985a?v=ed041f00" dam-id="BA5g45tKSEeyIV4_1THuqQ" width="500" height="336" alt="60028-HomepagePromoCTAs-1100x740" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68805/thumbnail" />
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T171212Z
+    - ID: "434a56be-d6e3-42da-97ab-0c90ebfd3ddc"
+      Hint: Content
+      Value: |
+        <p>Comfort premium con sedili completamente reclinabili, servizio prioritario e lounge esclusive</p>
+        <ul>
+            <li>Sedili completamente reclinabili con accesso diretto al corridoio</li>
+            <li>Opzioni di ristorazione premium</li>
+            <li>Imbarco e bagaglio prioritari</li>
+        </ul>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67a89dcd-3341-4de8-a809-73fddd6ad24c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025645Z
+    - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
+      Hint: Title
+      Value: Classe Business
+    - ID: "fe0bddeb-58dd-45d4-a3b9-2ca13ec8f1f0"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/7542f12b09094625b213f60277d0985a?v=ed041f00" dam-id="BA5g45tKSEeyIV4_1THuqQ" width="500" height="336" alt="60028-HomepagePromoCTAs-1100x740" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68805/thumbnail" />
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T171212Z
+    - ID: "434a56be-d6e3-42da-97ab-0c90ebfd3ddc"
+      Hint: Content
+      Value: |
+        <p>リクライニングシート、優先サービス、専用ラウンジでプレミアムな快適さを提供</p>
+        <ul>
+            <li>直接通路アクセス付きリクライニングシート</li>
+            <li>プレミアムな食事オプション</li>
+            <li>優先搭乗と手荷物</li>
+        </ul>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ba0ee36-78d3-445a-b49b-e5d793b57ab5"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024311Z
+    - ID: "e2bb32aa-fe77-4957-9362-0c3249425678"
+      Hint: Title
+      Value: ビジネスクラス
+    - ID: "fe0bddeb-58dd-45d4-a3b9-2ca13ec8f1f0"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/7542f12b09094625b213f60277d0985a?v=ed041f00" dam-id="BA5g45tKSEeyIV4_1THuqQ" width="500" height="336" alt="60028-HomepagePromoCTAs-1100x740" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68805/thumbnail" />

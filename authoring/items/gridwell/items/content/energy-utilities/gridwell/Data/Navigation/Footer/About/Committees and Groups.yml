@@ -1,0 +1,34 @@
+﻿---
+ID: "18a3a5d4-1a5f-44c2-86dc-51a2422b8cd0"
+Parent: "c3015620-e51d-4c29-991a-442391138294"
+Template: "58c335eb-251b-4ee5-bc3f-11d8f4c41240"
+Path: "/sitecore/content/energy-utilities/gridwell/Data/Navigation/Footer/About/Committees and Groups"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bb292726-bef0-457a-b571-feb74325fb1d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250805T211007Z
+    - ID: "5b54466b-9a89-4141-8f6f-00aaff1c060a"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="|Custom" querystring="" id="{DA2C2738-8F2E-4AF5-9A10-F3A09080C336}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d26c050b-ebdb-47b7-88d5-7eb8186aada1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250920T211737Z

@@ -1,0 +1,46 @@
+﻿---
+ID: "e9925c84-85ac-4808-a888-ea4895eb5096"
+Parent: "5ec4662e-373d-4d91-8916-3aa3743387d8"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/healthcare/vitalis/Presentation/Available Renderings/Vitalis
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {41A33C8C-997E-4A2D-BC17-A61F2397ECCD}
+    {B94588E6-1BAE-4859-AD97-28EB5FF84A10}
+    {E1AD95B9-854D-4ADF-8F75-2DF1B69F80CC}
+    {213EAE20-D60F-4005-BA72-2CD74FA70997}
+    {E27D06DE-F68D-45EE-81F6-CEB651A53589}
+    {D203BAA3-339A-4C44-A41C-63DD3E053376}
+    {04A0ADDC-882A-4A4B-838B-4328D0360C3B}
+    {4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "cd1bafc2-1979-40ec-8d52-cd92d13eae68"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251113T213412Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96e30a28-9a2a-4006-b8fe-5dcc07069fb9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251125T151752Z

@@ -1,0 +1,33 @@
+﻿---
+ID: "27c3eac8-e619-481a-9959-9397c66236b8"
+Parent: "489bd678-8bfa-4e04-8100-24078d6427b7"
+Template: "4dc88d14-f1ca-48bd-808b-94a69555a9ff"
+Path: /sitecore/content/healthcare/vitalis/Data/Navigation/Footer/Company
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{58C335EB-251B-4EE5-BC3F-11D8F4C41240}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "8db79da7-be55-4ca4-b2b1-493f94b364ac"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "204c21db-d29a-4108-9322-62a2cf5a4145"
+      Hint: Title
+      Value: Company
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250728T215448Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "14658281-fd89-4842-a69a-a05221a0c5b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251113T204750Z

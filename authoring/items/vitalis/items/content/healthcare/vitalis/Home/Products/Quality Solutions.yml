@@ -1,0 +1,50 @@
+﻿---
+ID: "ad5215df-ae1f-4288-a2f7-18c22eb537b1"
+Parent: "d7b0bdf8-2b91-472e-9fef-31773576643a"
+Template: "9093490e-63f1-4f96-93c3-0cf47848c8ce"
+Path: /sitecore/content/healthcare/vitalis/Home/Products/Quality Solutions
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C1376EC2-D762-4BE9-B575-3AC3387905D9}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f7f771c-4120-4ac5-a9e9-6233fbb4af5a"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/74528-HomePageHero-2000x800?v=a57d4048" dam-id="8p-5gob6Toi7hKmpyxDyaA" width="2000" height="800" alt="revenue-cycle-management-dashboard-vCjksdb8x5fsvsaEsPRC6h83RhOpZp.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/74528/thumbnail" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251114T162754Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Quality Solutions
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b400d25e-4858-4f36-8080-adb961e02beb"
+    - ID: "a67bc382-ce6d-48a1-bf8a-a6b28509984d"
+      Hint: Content
+      Value: |
+        <p>STARS, HEDIS &amp; clinical quality improvement</p>
+        <ul>
+            <li>Automated reporting</li>
+            <li>Provider enablement</li>
+            <li>Chart retrieval</li>
+        </ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251114T173935Z
+    - ID: "f44096a8-8c39-4257-bd0f-5f5c00c6690d"
+      Hint: Title
+      Value: Quality Solutions

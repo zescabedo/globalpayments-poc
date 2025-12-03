@@ -1,0 +1,150 @@
+﻿---
+ID: "feae186e-2a82-488d-bb43-ff68b2459db1"
+Parent: "58c58f38-b6c7-4730-b1f3-7a798f3be00e"
+Template: "33724dcb-6159-4d19-9ba7-04b604fc05b6"
+Path: "/sitecore/content/travel-hospitality/skywings/Home/Blogs/Its Summer in Bali"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B7D3098D-BF8A-4E67-92A1-FC24A689C2FE}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9f591196-9f3a-412a-a1f0-427e5517b6b6"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "034b3f54-f69c-440a-8992-723ba3ee5706"
+      Hint: metadataKeywords
+      Value: "This blog post offers a comprehensive guide to Bali's most inspirational sights, including natural wonders, cultural experiences, and popular destinations. Ideal for travelers seeking adventure, relaxation, and cultural immersion, the content highlights Bali's diverse attractions and enchanting beauty. Perfect for AI-driven travel platforms and search engines looking to enhance user experience with rich, informative content on Bali tourism."
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{877794EB-2376-4D74-90BE-FFCAC6E93FDD}"
+              s:ds="7d2c3223-f93d-4887-a6b4-ffbbd843b61c"
+              s:id="{4177E24D-AFF1-4CFF-8E7C-B83DAFC978AE}"
+              s:par="GridParameters&amp;FieldNames=%7B2328AD5E-FE66-47D9-B3B8-D797DEE1F9F8%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="/headless-main/sxa-blog-content/blog-detail-{AB5F3358-6F03-42A2-B118-88B5077F02E1}-0">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{AE426E88-9332-4D91-ACF4-DE240AEDABC0}"
+                    s:name="75190a9a3a814d8ebe15341fb9edc8a6">
+                    <conditions>
+                      <condition
+                        uid="3C9026AE6AD248BC8D8C037D8A179B4B"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="75190a9a3a814d8ebe15341fb9edc8a6" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{E976CDD4-9EFA-4459-A2AE-B1EF2D044FB4}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="711a3b84-2420-446e-b1a0-7ed36c552d41" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="E499D3C9F682450B955B4838E2C77A10"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251102T232120Z
+    - ID: "2b26fe63-e7b1-4456-9672-bfe52a80015f"
+      Hint: pageSummary
+      Value: Bali travel, Bali sights, Bali attractions, Ubud jungle, Bali beaches, Bali temples, Seminyak, Canggu, Bali culture, Bali tourism
+    - ID: "3bbae199-5c49-4a34-9fb5-1819d904f501"
+      Hint: ReadTime
+      Value: 7 minutes
+    - ID: "406b0cf0-5368-4e9e-9c1c-f153c667055f"
+      Hint: Category
+      Value: Tropical
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Its Summer in Bali
+    - ID: "4ec388d5-31a2-44ac-b1ac-7809ee8b2ebd"
+      Hint: Excerpt
+      Value: |
+        <em style="color: #374151;">Welcome to Bali, a tropical paradise where the pristine beaches meet vibrant culture and enchanting natural beauty. Known as the 'Island of the Gods', Bali offers a perfect blend of tranquility and adventure, making it an irresistible escape for every traveler. Explore the lush green rice terraces, dive into crystal clear waters, and immerse yourself in the warm hospitality of the Balinese people.</em>
+    - ID: "76c6d241-2560-4798-bf81-1140dde00e81"
+      Hint: metadataTitle
+      Value: Its Summer In Bali
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "690d720c-d035-4585-bd4d-553458cafc78"
+    - ID: "99cd63ff-97ea-409a-8e03-7f635be6198e"
+      Hint: Title
+      Value: Its Summer In Bali
+    - ID: "a0c3720f-afe7-4b58-97d6-02c92d5add92"
+      Hint: Content
+      Value: |
+        <div class="prose prose-lg max-w-none mb-12" style="color: #0a0a0a; background-color: #ffffff; margin-bottom: 3rem; border: 0px solid #e5e5e5;">
+        <div class="text-gray-700 italic font-bold leading-relaxed space-y-6" style="color: #374151; border: 0px solid #e5e5e5; line-height: 1.625;">
+        <div style="border: 0px solid #e5e5e5;">
+        <div class="ck-content" style="border: 0px solid #e5e5e5;">
+        <p style="margin-right: 0px; margin-left: 0px; border: 0px solid #e5e5e5;"><em><strong>Whether you're seeking a soulful retreat at a world-class spa, a cultural experience at traditional dance performances, or thrilling adventures like surfing and scuba diving, Bali has something for everyone. Indulge in the finest culinary delights, shop for exquisitely crafted souvenirs, and bask in breathtaking sunsets. Your dream holiday awaits in Bali, where every moment is crafted to perfection.</strong></em></p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="prose prose-lg max-w-none mb-12" style="color: #0a0a0a; background-color: #ffffff; margin-bottom: 3rem; border: 0px solid #e5e5e5;">
+        <div class="text-gray-700 leading-relaxed space-y-6" style="color: #374151; border: 0px solid #e5e5e5; line-height: 1.625;">
+        <div style="border: 0px solid #e5e5e5;">
+        <div class="ck-content" style="border: 0px solid #e5e5e5;">
+        <p style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border: 0px solid #e5e5e5;">Escape the winter chill of the US and bask in the endless summer of Bali's tropical paradise. Known for its breathtaking landscapes, cultural diversity, and exquisite beaches, Bali is the perfect winter getaway. Imagine yourself lounging under the warm sun, exploring lush rice terraces, and experiencing the vibrant local culture.</p>
+        <p style="margin: 0px; border: 0px solid #e5e5e5;">&nbsp;</p>
+        <h2 style="margin: 0px 0px 0.5rem; padding: 0px; border: 0px solid #e5e5e5; line-height: 2rem;"><strong style="border: 0px solid #e5e5e5;">Reasons to Visit Bali:</strong></h2>
+        <h3 style="color: #2563eb; margin: 0.5rem 0px 0px; padding: 0px; border: 0px solid #e5e5e5; line-height: 1.5rem;"><strong style="border: 0px solid #e5e5e5;">Stunning Beaches</strong></h3>
+        <p style="margin: 0px; border: 0px solid #e5e5e5;">From the lively shores of Kuta to the serene sands of Nusa Dua, Bali's beaches offer something for everyone. Relax, surf, or indulge in beachside massages.</p>
+        <h3 style="color: #2563eb; margin: 0.5rem 0px 0px; padding: 0px; border: 0px solid #e5e5e5; line-height: 1.5rem;"><strong style="border: 0px solid #e5e5e5;">Rich Culture and Heritage</strong></h3>
+        <p style="margin: 0px; border: 0px solid #e5e5e5;">Experience Bali's unique traditions with colorful ceremonies, traditional dances, and historical temples like Uluwatu and Tanah Lot that tell tales of the past.</p>
+        <h3 style="color: #2563eb; margin: 0.5rem 0px 0px; padding: 0px; border: 0px solid #e5e5e5; line-height: 1.5rem;"><strong style="border: 0px solid #e5e5e5;">Adventure and Exploration</strong></h3>
+        <p style="margin: 0px; border: 0px solid #e5e5e5;">Take a hike to the summit of Mount Batur for a sunrise view, or dive into vibrant coral reefs in the turquoise waters surrounding the island.</p>
+        <h3 style="color: #2563eb; margin: 0.5rem 0px 0px; padding: 0px; border: 0px solid #e5e5e5; line-height: 1.5rem;"><strong style="border: 0px solid #e5e5e5;">Wellness Retreats</strong></h3>
+        <p style="margin-top: 0px; margin-right: 0px; margin-left: 0px; border: 0px solid #e5e5e5;">Refresh your mind and body with world-class yoga and spa experiences amidst serene landscapes.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+    - ID: "a241b564-1997-4ae4-a610-87713757af69"
+      Hint: Image
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/f7485e8ba464428d89611f93f78e69f4?v=24636284" dam-id="cvySfhkVSwyeaRzZAWPdaw" width="1100" height="619" alt="sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68827/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d970e78d-d5e8-4acc-b576-2253f8e6384c"
+      Hint: metadataDescription
+      Value: Explore the diverse splendor of Bali, from lush jungles and iconic rice terraces to pristine beaches and vibrant cultural experiences. Discover the island's enchanting beauty and unforgettable sights.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251126T204447Z
+    - ID: "e2394816-3e1f-48bf-a224-a6d587639114"
+      Hint: ogImage
+      Value: |
+        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/f7485e8ba464428d89611f93f78e69f4?v=24636284" dam-id="cvySfhkVSwyeaRzZAWPdaw" width="1100" height="619" alt="sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg" dam-content-type="Image" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/68827/thumbnail" />
+    - ID: "e8231677-93ae-42a3-a175-093ae0221f81"
+      Hint: PublishDate
+      Value: 20251027T000000Z

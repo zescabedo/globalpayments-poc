@@ -1,0 +1,97 @@
+﻿---
+ID: "6381a818-b69e-488f-8a20-bb982245a8f4"
+Parent: "408c9bb4-ee1e-4fa4-b094-13ae23a414ee"
+Template: "bec99239-2fa7-4ce6-a53f-1cacf81e564e"
+Path: "/sitecore/content/travel-hospitality/skywings/Data/Countries/USA"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T155855Z
+    - ID: "45edf7f0-35a6-4ebf-877d-e7b13fc55992"
+      Hint: Continent
+      Value: "{F7D357AE-7AE6-4EAF-9FDD-818A2C146EF3}"
+    - ID: "7caa2f8c-e386-4813-807d-a3941e46b68c"
+      Hint: Name
+      Value: USA
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "44412b3e-7c39-4d17-b22d-734b90cc6bcb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T160651Z
+- Language: "it-CH"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T155855Z
+    - ID: "45edf7f0-35a6-4ebf-877d-e7b13fc55992"
+      Hint: Continent
+      Value: "{F7D357AE-7AE6-4EAF-9FDD-818A2C146EF3}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "7caa2f8c-e386-4813-807d-a3941e46b68c"
+      Hint: Name
+      Value: Stati Uniti
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24874187-1deb-49a1-9d56-baf14fcbf4de"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T025647Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T155855Z
+    - ID: "45edf7f0-35a6-4ebf-877d-e7b13fc55992"
+      Hint: Continent
+      Value: "{F7D357AE-7AE6-4EAF-9FDD-818A2C146EF3}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "7caa2f8c-e386-4813-807d-a3941e46b68c"
+      Hint: Name
+      Value: アメリカ合衆国
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f31cb85-120b-4309-a3f0-ef4c507594c3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\yijin.wong@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251031T024313Z
