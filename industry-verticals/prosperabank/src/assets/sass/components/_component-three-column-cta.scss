@@ -85,12 +85,8 @@
 
     .dark & {
       .button {
-        background-color: var(--text-body);
-        color: var(--bg-body);
-
-        &:hover {
-          filter: brightness(85%);
-        }
+        background-color: #0103f2;
+        color: $text-white;
       }
     }
   }

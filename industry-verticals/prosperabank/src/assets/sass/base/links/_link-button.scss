@@ -3,7 +3,7 @@
 
 .site-financial {
   --button-main-color: #fff;
-  --button-main-bg-color: var(--bg-saturated);
+  --button-main-bg-color: #0103f2;
   --button-secondary-color: var(--text-colored);
   --button-simple-color: var(--text-colored);
   --button-padding: 10px 50px;
@@ -14,7 +14,7 @@
 
 .site-services {
   --button-main-color: #fff;
-  --button-main-bg-color: var(--bg-saturated);
+  --button-main-bg-color: #0103f2;
   --button-secondary-color: var(--text-body);
   --button-simple-color: var(--text-body);
   --button-padding: 1rem 1.5rem 0.75rem;
@@ -111,12 +111,12 @@
 .success {
   @include default-link-button;
 
-  background: $btn-green-light;
+  background: #0103f2;
   color: $text-white;
 
   &:hover {
     color: $text-white;
-    background: $btn-green;
+    background: #0103f2;
   }
 }
 

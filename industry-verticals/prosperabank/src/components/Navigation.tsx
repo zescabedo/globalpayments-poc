@@ -27,12 +27,14 @@ type NavigationProps = {
 const getNavigationText = function (props: NavigationProps): JSX.Element | string {
   let text;
 
-  if (props.fields.NavigationTitle) {
+  if (props.fields.NavigationTitle?.value) {
     text = <Text field={props.fields.NavigationTitle} />;
-  } else if (props.fields.Title) {
+  } else if (props.fields.Title?.value) {
     text = <Text field={props.fields.Title} />;
-  } else {
+  } else if (props.fields.DisplayName) {
     text = props.fields.DisplayName;
+  } else {
+    text = '';
   }
 
   return text;
