@@ -5,9 +5,7 @@ import {
   constants,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
-import { DefaultRetryStrategy } from '@sitecore-jss/sitecore-jss-nextjs/graphql';
 import clientFactory from 'lib/graphql-client-factory';
-import localDebug from './_platform/logging/debug-log';
 
 /**
  * Factory responsible for creating a DictionaryService instance
@@ -18,7 +16,6 @@ export class DictionaryServiceFactory {
    * @returns {DictionaryService} service instance
    */
   create(siteName: string): DictionaryService {
-    localDebug.headlessInfra('[DictionaryServiceFactory] siteName: %o', siteName);
     return process.env.FETCH_WITH === constants.FETCH_WITH.GRAPHQL
       ? new GraphQLDictionaryService({
           siteName,
@@ -53,10 +50,7 @@ export class DictionaryServiceFactory {
             (process.env.DICTIONARY_SERVICE_PAGE_SIZE &&
               parseInt(process.env.DICTIONARY_SERVICE_PAGE_SIZE, 10)) ||
             (10 as number),
-          retryStrategy: new DefaultRetryStrategy({
-            statusCodes: [429, 502, 503, 504, 520, 521, 522, 523, 524],
-            factor: 3,
-          }),
+          // Retry strategy removed - using simple fetch-based GraphQL client
         })
       : new RestDictionaryService({
           apiHost: config.sitecoreApiHost,

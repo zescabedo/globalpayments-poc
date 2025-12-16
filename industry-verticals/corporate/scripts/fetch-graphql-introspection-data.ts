@@ -1,35 +1,65 @@
-import { GraphQLRequestClient } from '@sitecore-jss/sitecore-jss-nextjs/graphql';
 import fs from 'fs';
 import { getIntrospectionQuery } from 'graphql';
+import scConfig from '../sitecore.config';
 
-// This script load graphql introspection data in order to use graphql code generator and generate typescript types
-// The `jss graphql:update` command should be executed when Sitecore templates related to the site are altered.
+// This script loads graphql introspection data in order to use graphql code generator and generate typescript types
+// The `graphql:update` command should be executed when Sitecore templates related to the site are altered.
 
-let jssConfig;
+const getEndpoint = () => {
+  if (scConfig.api?.edge?.url) {
+    return `${scConfig.api.edge.url}/sitecore/api/graph/edge`;
+  }
+  if (scConfig.api?.local?.apiHost) {
+    return `${scConfig.api.local.apiHost}/sitecore/api/graph/edge`;
+  }
+  if (process.env.NEXT_PUBLIC_SITECORE_EDGE_URL) {
+    return `${process.env.NEXT_PUBLIC_SITECORE_EDGE_URL}/sitecore/api/graph/edge`;
+  }
+  throw new Error('GraphQL endpoint not configured');
+};
 
-try {
-  // eslint-disable-next-line
-  jssConfig = require('../src/temp/config');
-} catch (e) {
-  console.error(
-    'Unable to require JSS config. Ensure `jss setup` has been run, and the app has been started at least once after setup.'
-  );
-  console.error(e);
-  process.exit(1);
-}
+const getHeaders = (): HeadersInit => {
+  const headers: HeadersInit = {
+    'Content-Type': 'application/json',
+  };
 
-console.log(`Fetch graphql introspection data from ${jssConfig.graphQLEndpoint}...`);
+  // Add API key header if using local mode
+  const apiKey = scConfig.api?.local?.apiKey || process.env.SITECORE_API_KEY;
+  if (apiKey) {
+    headers['sc_apikey'] = apiKey;
+  }
 
-const client = new GraphQLRequestClient(jssConfig.graphQLEndpoint, {
-  apiKey: jssConfig.sitecoreApiKey,
-});
+  // Add edge context ID if using edge mode
+  if (scConfig.api?.edge?.contextId) {
+    headers['sc_edgecontext'] = scConfig.api.edge.contextId;
+  }
 
-client
-  .request(getIntrospectionQuery())
+  return headers;
+};
+
+const endpoint = getEndpoint();
+const headers = getHeaders();
+
+console.log(`Fetch graphql introspection data from ${endpoint}...`);
+
+fetch(endpoint, {
+  method: 'POST',
+  headers,
+  body: JSON.stringify({ query: getIntrospectionQuery() }),
+})
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`GraphQL request failed: ${response.status} ${response.statusText}`);
+    }
+    return response.json();
+  })
   .then((result) => {
+    if (result.errors) {
+      throw new Error(`GraphQL errors: ${JSON.stringify(result.errors)}`);
+    }
     fs.writeFile(
       './src/temp/GraphQLIntrospectionResult.json',
-      JSON.stringify(result, null, 2),
+      JSON.stringify(result.data, null, 2),
       (err) => {
         if (err) {
           console.error('Error writing GraphQLIntrospectionResult file', err);

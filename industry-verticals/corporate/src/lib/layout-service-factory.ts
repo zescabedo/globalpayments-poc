@@ -4,7 +4,6 @@ import {
   GraphQLLayoutService,
   constants,
 } from '@sitecore-jss/sitecore-jss-nextjs';
-import { DefaultRetryStrategy } from '@sitecore-jss/sitecore-jss-nextjs/graphql';
 import config from 'temp/config';
 import clientFactory from 'lib/graphql-client-factory';
 
@@ -35,10 +34,7 @@ export class LayoutServiceFactory {
             (process.env.GRAPH_QL_SERVICE_RETRIES &&
               parseInt(process.env.GRAPH_QL_SERVICE_RETRIES, 10)) ||
             (0 as number),
-          retryStrategy: new DefaultRetryStrategy({
-            statusCodes: [429, 502, 503, 504, 520, 521, 522, 523, 524],
-            factor: 3,
-          }),
+          // Retry strategy removed - using simple fetch-based GraphQL client
         })
       : new RestLayoutService({
           apiHost: config.sitecoreApiHost,

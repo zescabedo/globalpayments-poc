@@ -2,7 +2,6 @@ import { GraphQLSiteInfoService, SiteInfo } from '@sitecore-jss/sitecore-jss-nex
 import { createGraphQLClientFactory } from 'lib/graphql-client-factory/create';
 import { JssConfig } from 'lib/config';
 import { ConfigPlugin } from '..';
-import localDebug from '@/lib/_platform/logging/debug-log';
 
 /**
  * This plugin will set the "sites" config prop.
@@ -52,11 +51,10 @@ class MultisitePlugin implements ConfigPlugin {
 
   async exec(config: JssConfig) {
     let sites: ExtendedSiteInfo[] = [];
-    localDebug.headlessInfra('[MultisitePlugin] Fetching site information');
     try {
       // Create custom GraphQL client to fetch extended site info
-      const clientFactory = createGraphQLClientFactory(config);
-      const client = clientFactory({});
+      const clientFactory = createGraphQLClientFactory();
+      const client = clientFactory();
 
       // Custom query to get all site fields including target hostname and virtual folder
       const query = `
@@ -101,19 +99,17 @@ class MultisitePlugin implements ConfigPlugin {
 
       // Process and flatten the results
       sites = this.processSiteResults(result?.search?.results || []);
-      localDebug.headlessInfra('[MultisitePlugin] fetched sites: %o', sites);
     } catch (error) {
-      localDebug.headlessInfra.error('Error fetching extended site information: %o', error);
+      console.error('Error fetching extended site information:', error);
 
       // Fallback to default service if custom query fails
       try {
         const siteInfoService = new GraphQLSiteInfoService({
-          clientFactory: createGraphQLClientFactory(config),
+          clientFactory: createGraphQLClientFactory(),
         });
         sites = await siteInfoService.fetchSiteInfo();
-        localDebug.headlessInfra.info('[MultisitePlugin] Fallback to basic site resolution: %o', sites);
       } catch (fallbackError) {
-        localDebug.headlessInfra.error('[MultisitePlugin] Fallback site fetch also failed');
+        console.error('Fallback site fetch also failed:', fallbackError);
         throw fallbackError;
       }
     }
