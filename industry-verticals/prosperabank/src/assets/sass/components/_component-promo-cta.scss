@@ -11,9 +11,21 @@
 }
 
 .promo-cta {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: var(--bg-main-alt);
   padding-top: $component-margin * 2;
   padding-bottom: $component-margin * 2;
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #0C0C0C; // Storybook text color
+  }
+  
+  p {
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.8rem; // Storybook body font size
+    color: #0C0C0C; // Storybook text color
+  }
 
   @include respond-to(mobile-large) {
     padding-left: $size-padding;

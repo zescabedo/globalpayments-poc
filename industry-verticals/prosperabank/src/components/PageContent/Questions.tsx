@@ -28,7 +28,7 @@ const Question = ({ item }: { item: QuestionItemProps }): JSX.Element => {
         onClick={() => setIsExpanded(!isExpanded)}
         className={`button-clear-appearance ${isExpanded ? 'expanded' : ''}`}
       >
-        <h3>
+        <h3 className="title-xs">
           <Text field={item.fields.Question} />
         </h3>
         <span className="icon-wrapper">

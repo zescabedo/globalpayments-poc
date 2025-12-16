@@ -39,7 +39,7 @@ export const Default = (props: StatsCounterProps): JSX.Element => {
           <DottedAccent className="dotted-accent-top" />
           <div className="row gx-0">
             <div className="col-lg-4">
-              <p className="display-6 fw-bold">
+              <p className="display-lg">
                 <span>
                   {isPageEditing ? (
                     <Text field={props.fields?.Value1} />
@@ -51,12 +51,12 @@ export const Default = (props: StatsCounterProps): JSX.Element => {
                   <Text field={props.fields?.Symbol1} />
                 </span>
               </p>
-              <p className="fs-5 mb-0">
+              <p className="body-md mb-0">
                 <Text field={props.fields?.Caption1} />
               </p>
             </div>
             <div className="col-lg-4">
-              <p className="display-6 fw-bold">
+              <p className="display-lg">
                 <span>
                   {isPageEditing ? (
                     <Text field={props.fields?.Value2} />
@@ -68,12 +68,12 @@ export const Default = (props: StatsCounterProps): JSX.Element => {
                   <Text field={props.fields?.Symbol2} />
                 </span>
               </p>
-              <p className="fs-5 mb-0">
+              <p className="body-md mb-0">
                 <Text field={props.fields?.Caption2} />
               </p>
             </div>
             <div className="col-lg-4">
-              <p className="display-6 fw-bold">
+              <p className="display-lg">
                 <span>
                   {isPageEditing ? (
                     <Text field={props.fields?.Value3} />
@@ -85,7 +85,7 @@ export const Default = (props: StatsCounterProps): JSX.Element => {
                   <Text field={props.fields?.Symbol3} />
                 </span>
               </p>
-              <p className="fs-5 mb-0">
+              <p className="body-md mb-0">
                 <Text field={props.fields?.Caption3} />
               </p>
             </div>

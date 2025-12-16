@@ -44,19 +44,19 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
             <h6 className="eyebrow-accent">
               <Text field={props.fields.Tagline} />
             </h6>
-            <h1 className="display-2 fw-bold">
+            <h1 className="display-xl">
               <Text field={props.fields.Title} />
             </h1>
 
-            <div className="rich-content mb-4">
+            <div className="rich-content body-md mb-4">
               <RichText field={props.fields.Text} />
             </div>
             <div className="btn-array pt-3 pb-4">
               {(isPageEditing || props.fields?.Cta1?.value?.href) && (
-                <Link field={props.fields.Cta1} className="button button-main" />
+                <Link field={props.fields.Cta1} className="btn btn-base btn-md" />
               )}
               {(isPageEditing || props.fields?.Cta2?.value?.href) && (
-                <Link field={props.fields.Cta2} className="button button-simple mx-4" />
+                <Link field={props.fields.Cta2} className="btn btn-link btn-md mx-4" />
               )}
             </div>
             <div className="row mt-2">

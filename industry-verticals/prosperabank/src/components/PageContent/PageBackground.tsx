@@ -42,10 +42,10 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
         <div className="container">
           <Placeholder name="page-navigation" rendering={props.rendering} />
 
-          <h1 className="display-6 fw-bold">
+          <h1 className="display-md">
             <Text field={props.fields.Title}></Text>
           </h1>
-          <div className="fs-2">
+          <div className="body-md">
             <RichText field={props.fields.Content}></RichText>
           </div>
         </div>

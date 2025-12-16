@@ -34,7 +34,7 @@ export const Default = (props: ContactFormProps): JSX.Element => {
         <div className="container">
           <div className="contact-form-inner">
             <form>
-              <h2 className="mb-4">
+              <h2 className="title-sm mb-4">
                 <Text field={props.fields?.Title} />
               </h2>
               <input type="text" placeholder={props.fields.EmailLabel.value} />
@@ -43,7 +43,7 @@ export const Default = (props: ContactFormProps): JSX.Element => {
               <input
                 type="submit"
                 value={props.fields.ButtonLabel.value}
-                className="button button-main mt-3"
+                className="btn btn-base btn-md mt-3"
               />
             </form>
           </div>

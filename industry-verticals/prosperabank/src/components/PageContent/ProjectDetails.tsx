@@ -59,10 +59,10 @@ export const Default = (props: ProjectDetailsProps): JSX.Element => {
         <div className="container container-wide">
           <div className="row gx-5">
             <div className="col-12 col-lg-6">
-              <h1 className="display-1 fw-bold">
+              <h1 className="display-xxl">
                 <Text field={props.fields?.Title} />
               </h1>
-              <p className="mb-0">
+              <p className="body-md mb-0">
                 <Text field={props.fields?.Abstract} />
               </p>
             </div>

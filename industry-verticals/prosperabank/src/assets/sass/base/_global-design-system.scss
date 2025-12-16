@@ -1,0 +1,78 @@
+/**
+ * Global Payments Design System Base Styles
+ * 
+ * This file ensures all base elements follow the Storybook design system
+ * Reference: https://design.globalpayments.com
+ */
+
+// Apply GPCommerce font to all base elements
+* {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+// Base typography
+body {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem; // 18px - Storybook base font size
+  line-height: 1.5; // Storybook line height
+  color: #0C0C0C; // rgb(12, 12, 12) - Storybook body text color
+  background-color: #FFFFFF; // Storybook white background
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #0C0C0C; // Storybook text color
+  font-weight: 900; // Storybook heading weight
+}
+
+// Paragraphs
+p {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem; // Storybook body font size
+  line-height: 1.5; // Storybook line height
+  color: #0C0C0C; // Storybook text color
+}
+
+// Links
+a {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #262AFF; // Storybook primary blue
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+  
+  &:hover {
+    color: #1B1EC6; // Storybook darker blue
+  }
+  
+  &:focus {
+    outline: 2px solid #262AFF;
+    outline-offset: 2px;
+  }
+}
+
+// Buttons - ensure all buttons use Storybook styles
+button {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+// Form elements
+input, textarea, select {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem; // Storybook body font size
+  color: #0C0C0C; // Storybook text color
+}
+
+// Lists
+ul, ol {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #0C0C0C; // Storybook text color
+}
+
+li {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem; // Storybook body font size
+  line-height: 1.5; // Storybook line height
+  color: #0C0C0C; // Storybook text color
+}
+

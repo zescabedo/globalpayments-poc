@@ -104,7 +104,7 @@ const ProjectGridItem = ({ item }: { item: ProjectListItemProps }) => (
         <span className="project-category">
           <Text field={item.fields.Category} />
         </span>
-        <h3 className="project-title fs-5 mb-0">
+        <h3 className="project-title title-xs mb-0">
           <Text field={item.fields.Title} />
         </h3>
       </div>

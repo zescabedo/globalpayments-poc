@@ -16,9 +16,9 @@ type ContentBlockProps = ComponentProps & {
  */
 const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => (
   <div className="contentBlock">
-    <Text tag="h2" className="contentTitle" field={fields.heading} />
+    <Text tag="h2" className="contentTitle title-sm" field={fields.heading} />
 
-    <RichText className="contentDescription" field={fields.content} />
+    <RichText className="contentDescription body-md" field={fields.content} />
   </div>
 );
 

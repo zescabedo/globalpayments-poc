@@ -1,6 +1,19 @@
 .four-column-cta {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
+  }
+  
+  h2, h3, h4 {
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #0C0C0C; // Storybook text color
+  }
+  
+  p {
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.8rem; // Storybook body font size
+    color: #0C0C0C; // Storybook text color
   }
 
   a {

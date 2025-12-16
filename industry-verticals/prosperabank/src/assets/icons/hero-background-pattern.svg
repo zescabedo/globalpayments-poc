@@ -1,0 +1,27 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="1920" height="1080" fill="#000000"/>
+  
+  <!-- Large solid blue circle in top-left corner -->
+  <circle cx="200" cy="150" r="60" fill="#262AFF"/>
+  
+  <!-- Outer curved line (thicker) - U-shaped path from top-left to top-right -->
+  <path d="M 120 200 Q 960 900 1800 200" stroke="#262AFF" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Inner curved line (thinner) - parallel to outer line -->
+  <path d="M 180 250 Q 960 950 1740 250" stroke="#262AFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Small solid circle on left side with outline (bullseye effect) -->
+  <circle cx="400" cy="600" r="20" fill="#262AFF"/>
+  <circle cx="400" cy="600" r="30" stroke="#262AFF" stroke-width="2" fill="none"/>
+  
+  <!-- Small solid circle on right side of inner curve -->
+  <circle cx="1520" cy="600" r="20" fill="#262AFF"/>
+  
+  <!-- Thin outlined circle in top-right corner -->
+  <circle cx="1720" cy="150" r="40" stroke="#262AFF" stroke-width="2" fill="none"/>
+  
+  <!-- Small arrow at the end of outer curved line pointing up-right -->
+  <path d="M 1780 190 L 1800 200 L 1780 210" stroke="#262AFF" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1800 200 L 1815 185" stroke="#262AFF" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

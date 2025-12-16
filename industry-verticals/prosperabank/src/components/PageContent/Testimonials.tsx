@@ -67,10 +67,10 @@ const Testimonial = ({ item }: { item: TestimonialItemProps }): JSX.Element => {
           />
         </div>
         <div className="col">
-          <p className="author-name fs-4 fw-bold mb-1">
+          <p className="author-name title-xs mb-1">
             <Text field={item.fields.AuthorName} />
           </p>
-          <p className="author-position mb-0">
+          <p className="author-position body-md mb-0">
             <Text field={item.fields.AuthorPosition} />
           </p>
         </div>

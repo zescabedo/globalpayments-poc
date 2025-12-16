@@ -61,7 +61,7 @@ export const Default = (props: ApplicationFormProps): JSX.Element => {
           <div className="footnote">
             <RichText field={props.fields?.Footnote} />
           </div>
-          <Link field={props.fields.SubmitButton} className="button button-main submit-button" />
+          <Link field={props.fields.SubmitButton} className="btn btn-base btn-md submit-button" />
         </div>
       </div>
     </div>

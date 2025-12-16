@@ -29,17 +29,17 @@ export const Default = (props: HeadingCtaProps): JSX.Element => {
               <h6 className="eyebrow-accent">
                 <Text field={props.fields?.Eyebrow} />
               </h6>
-              <h2 className="display-4 fw-bold">
+              <h2 className="display-lg">
                 <Text field={props.fields?.Heading} />
               </h2>
-              <p>
+              <p className="body-md">
                 <Text field={props.fields?.Text} />
               </p>
             </div>
           </div>
           <div className="col-12 pt-lg-5 col-lg-auto">
             {(isPageEditing || props.fields?.Link?.value?.href) && (
-              <Link field={props.fields.Link} className="button button-main" />
+              <Link field={props.fields.Link} className="btn btn-base btn-md" />
             )}
           </div>
         </div>
@@ -63,15 +63,15 @@ export const Compact = (props: HeadingCtaProps): JSX.Element => {
               <h6 className="eyebrow-accent">
                 <Text field={props.fields?.Eyebrow} />
               </h6>
-              <h2 className="display-6 fw-bold">
+              <h2 className="display-md">
                 <Text field={props.fields?.Heading} />
               </h2>
-              <p>
+              <p className="body-md">
                 <Text field={props.fields?.Text} />
               </p>
             </div>
             {(isPageEditing || props.fields?.Link?.value?.href) && (
-              <Link field={props.fields.Link} className="button button-main" />
+              <Link field={props.fields.Link} className="btn btn-base btn-md" />
             )}
           </div>
         </div>
@@ -102,10 +102,10 @@ export const PageHeading = (props: HeadingCtaProps): JSX.Element => {
                 <h6 className="eyebrow-accent">
                   <Text field={props.fields?.Eyebrow} />
                 </h6>
-                <h1 className="display-1 fw-bold">
+                <h1 className="display-xxl">
                   <Text field={props.fields?.Heading} />
                 </h1>
-                <p>
+                <p className="body-md">
                   <Text field={props.fields?.Text} />
                 </p>
               </div>
@@ -135,14 +135,14 @@ export const Centered = (props: HeadingCtaProps): JSX.Element => {
           <h6 className="eyebrow-accent">
             <Text field={props.fields?.Eyebrow} />
           </h6>
-          <h2 className="display-4 fw-bold">
+          <h2 className="display-lg">
             <Text field={props.fields?.Heading} />
           </h2>
-          <p>
+          <p className="body-md">
             <Text field={props.fields?.Text} />
           </p>
           {(isPageEditing || props.fields?.Link?.value?.href) && (
-            <Link field={props.fields.Link} className="button button-main" />
+            <Link field={props.fields.Link} className="btn btn-base btn-md" />
           )}
         </div>
       </div>

@@ -105,7 +105,7 @@ export const Simple = (props: PageBackgroundProps): JSX.Element => {
         id={id ? id : undefined}
       >
         <div className="container container-wide">
-          <h1 className="article-title display-1 fw-bold">
+          <h1 className="article-title display-xxl">
             <Text field={props.fields.Title} />
           </h1>
         </div>
@@ -121,7 +121,7 @@ export const Simple = (props: PageBackgroundProps): JSX.Element => {
           <div className="article-content">
             <div className="row">
               <div className="col-12 col-lg-6 mx-auto">
-                <p className="article-excerpt fs-5">
+                <p className="article-excerpt body-md">
                   <Text field={props.fields.Excerpt} />
                 </p>
                 <div className="article-content-body rich-text mt-5">

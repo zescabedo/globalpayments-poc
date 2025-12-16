@@ -73,7 +73,7 @@ export const Default = (props: DocumentsListProps): JSX.Element => {
       id={id ? id : undefined}
     >
       <div className="container">
-        <div className="title display-6">
+        <div className="title display-md">
           <Text field={props.fields?.Title1} />
         </div>
         <div className="documents-container">

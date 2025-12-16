@@ -35,10 +35,10 @@ export const Default = (props: AppPromoProps): JSX.Element => {
       <div className="container">
         <div className="row row-gap-5 align-items-center g-5">
           <div className="col-lg-6 text-center text-lg-start">
-            <h1 className="display-6 fw-bold mb-3">
+            <h1 className="display-md mb-3">
               <Text field={props.fields.Title} />
             </h1>
-            <div className="col-lg-10 fs-5">
+            <div className="col-lg-10 body-md">
               <RichText field={props.fields.Text} />
             </div>
           </div>

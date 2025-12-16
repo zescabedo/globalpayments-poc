@@ -50,9 +50,20 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
     delay?: number;
   }) => {
     const [isVisible, domRef] = useVisibility(delay);
+    // Map to Storybook button classes
+    const getButtonClass = (style?: string) => {
+      if (!style) return 'btn btn-base btn-md';
+      const styleMap: { [key: string]: string } = {
+        'primary': 'btn btn-base btn-md',
+        'secondary': 'btn btn-outline btn-md',
+        'main': 'btn btn-base btn-md',
+      };
+      return styleMap[style.toLowerCase()] || 'btn btn-base btn-md';
+    };
+    
     const buttonStyle = props.params?.ButtonStyle
-      ? `button-${props.params.ButtonStyle.toLowerCase()}`
-      : 'button-main';
+      ? getButtonClass(props.params.ButtonStyle)
+      : 'btn btn-base btn-md';
 
     return (
       <div
@@ -64,17 +75,17 @@ export const Default = (props: TwoColumnCtaProps): JSX.Element => {
         <div className="content-wrapper">
           <NextImage field={image} width={800} height={800} />
           {(isPageEditing || title?.value) && (
-            <h2>
+            <h2 className="title-sm">
               <Text field={title} />
             </h2>
           )}
           {(isPageEditing || text?.value) && (
-            <p>
+            <p className="body-md">
               <Text field={text} />
             </p>
           )}
           {(isPageEditing || link?.value?.href) && (
-            <Link field={link} className={`button ${buttonStyle}`} />
+            <Link field={link} className={buttonStyle} />
           )}
           <Placeholder name={placeholder} rendering={props.rendering} />
         </div>

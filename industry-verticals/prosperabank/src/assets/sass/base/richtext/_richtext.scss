@@ -4,7 +4,8 @@ h3,
 h4,
 h5,
 h6 {
-  color: $text-heading-color;
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #0C0C0C; // Storybook text color
 }
 
 h1,
@@ -15,7 +16,11 @@ h2 {
 h3,
 h4,
 p {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: $extrasmall-margin 0;
+  color: #0C0C0C; // Storybook text color
+  font-size: 1.8rem; // Storybook body font size
+  line-height: 1.5; // Storybook line height
 }
 
 h5,
@@ -53,12 +58,14 @@ ol {
 }
 
 a {
-  color: $rich-content-link-color;
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #262AFF; // Storybook primary blue for links
   text-decoration: underline;
   font-size: 1em;
+  transition: color 0.2s ease-in-out;
 
   &:hover {
-    color: $rich-content-link-color-active;
+    color: #1B1EC6; // Storybook darker blue for hover
   }
 }
 

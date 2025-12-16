@@ -1,7 +1,8 @@
 .footer {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: var(--bg-footer);
   color: var(--text-footer);
-  font-size: 1.5rem;
+  font-size: 1.8rem; // Storybook body font size
 
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;

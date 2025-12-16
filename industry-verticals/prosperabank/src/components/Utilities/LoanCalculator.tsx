@@ -25,7 +25,7 @@ const ResultLine = ({ left, right }: { left: ReactNode; right: ReactNode }) => {
         <span>{left}</span>
       </div>
       <div className="col-auto">
-        <span className="fw-bold">{right}</span>
+        <span className="title-xs">{right}</span>
       </div>
     </div>
   );
@@ -88,7 +88,7 @@ export const Default = (props: LoanCalculatorProps): JSX.Element => {
                 value={loanAmount}
                 onChange={(e) => setLoanAmount(parseInt(e.target.value))}
               />
-              <span className="fw-bold">
+              <span className="body-md">
                 <Text field={props.fields.Currency} />
               </span>
             </div>

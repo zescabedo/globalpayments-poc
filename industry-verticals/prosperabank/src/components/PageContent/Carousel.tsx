@@ -79,12 +79,14 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
             <div className="side-content">
               <div className="container">
                 <div className="col-lg-5 col-md-6 offset-md-6 offset-lg-7">
-                  <h1 className="display-6 fw-bold">
+                  <h1 className="display-lg">
                     <Text field={item.fields.Title}></Text>
                   </h1>
-                  <RichText field={item.fields.Text}></RichText>
+                  <div className="body-md">
+                    <RichText field={item.fields.Text}></RichText>
+                  </div>
                   {!isPageEditing && item.fields?.Link?.value?.href && (
-                    <Link field={item.fields.Link} className="button button-accent"></Link>
+                    <Link field={item.fields.Link} className="btn btn-base btn-md"></Link>
                   )}
                 </div>
               </div>

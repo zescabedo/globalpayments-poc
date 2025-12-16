@@ -1,6 +1,6 @@
 import React, { JSX } from 'react';
 import { Link, LinkField } from '@sitecore-content-sdk/nextjs';
-import { buttonVariants, ButtonVariant } from 'lib/design-system/tokens';
+import { ButtonVariant } from 'lib/design-system/tokens';
 
 export interface ButtonProps {
   /**
@@ -58,11 +58,26 @@ export const Button = ({
   className = '',
   type = 'button',
 }: ButtonProps): JSX.Element => {
-  const baseClasses = 'gpn-button';
-  const variantClass = `gpn-button--${variant}`;
-  const sizeClass = `gpn-button--${size}`;
-  const widthClass = fullWidth ? 'gpn-button--full-width' : '';
-  const disabledClass = disabled ? 'gpn-button--disabled' : '';
+  // Map to Storybook button classes (matching design system)
+  // Storybook classes: .btn .btn-sm/.btn-md/.btn-lg .btn-base/.btn-outline/etc.
+  const baseClasses = 'btn';
+  
+  // Map variant to Storybook button classes
+  const variantMap: { [key: string]: string } = {
+    'primary': 'btn-base',
+    'secondary': 'btn-outline',
+    'tertiary': 'btn-cta-tertiary',
+    'outline': 'btn-outline',
+    'ghost': 'btn-cta-tertiary',
+    'link': 'btn-link',
+  };
+  
+  const variantClass = variantMap[variant] || 'btn-base';
+  
+  // Map size to Storybook button classes
+  const sizeClass = size === 'sm' ? 'btn-sm' : size === 'lg' ? 'btn-lg' : 'btn-md';
+  const widthClass = fullWidth ? 'w-100' : '';
+  const disabledClass = disabled ? 'disabled' : '';
   
   const buttonClasses = [
     baseClasses,

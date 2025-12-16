@@ -1,4 +1,6 @@
 .accordion {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
   }
@@ -8,10 +10,18 @@
     align-items: center;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    cursor: pointer;
 
     h3 {
+      font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       padding-top: 1.5em;
       padding-bottom: 1.5em;
+      color: #0C0C0C; // Storybook text color
     }
 
     .icon-wrapper,
@@ -21,7 +31,7 @@
       justify-content: center;
       flex-shrink: 0;
       border-radius: 100%;
-      background-color: var(--bg-saturated);
+      background-color: #262AFF; // Storybook primary blue
     }
 
     .icon-wrapper {

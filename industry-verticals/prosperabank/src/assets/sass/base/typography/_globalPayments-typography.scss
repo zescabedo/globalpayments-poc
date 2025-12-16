@@ -3,31 +3,52 @@
  * 
  * Typography classes aligned with Global Payments design system
  * Reference: https://design.globalpayments.com/?path=/story/atoms-typography--all-typography
+ * 
+ * Font Family: GPCommerce, "Helvetica Neue" (matching Storybook)
+ * Base font size: 18px (1.8rem)
+ * Base line height: 1.5
+ * Base color: #0C0C0C (rgb(12, 12, 12))
  */
+
+// Set base typography on body
+body {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem; // 18px - matches Storybook
+  line-height: 1.5;
+  color: #0C0C0C; // rgb(12, 12, 12) - matches Storybook body color
+}
 
 // Display Styles
 .display-xxl {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: var(--gpn-display-xxl-size, #{$gpn-display-xxl-size});
   line-height: var(--gpn-display-xxl-line, #{$gpn-display-xxl-line});
   font-weight: 900;
+  color: #0C0C0C; // rgb(12, 12, 12) - matches Storybook
 }
 
 .display-xl {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: var(--gpn-display-xl-size, #{$gpn-display-xl-size});
   line-height: var(--gpn-display-xl-line, #{$gpn-display-xl-line});
   font-weight: 900;
+  color: #0C0C0C;
 }
 
 .display-lg {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: var(--gpn-display-lg-size, #{$gpn-display-lg-size});
   line-height: var(--gpn-display-lg-line, #{$gpn-display-lg-line});
   font-weight: 900;
+  color: #0C0C0C;
 }
 
 .display-md {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: var(--gpn-display-md-size, #{$gpn-display-md-size});
   line-height: var(--gpn-display-md-line, #{$gpn-display-md-line});
   font-weight: 900;
+  color: #0C0C0C;
 }
 
 // Title Styles
@@ -51,9 +72,11 @@
 
 // Body Styles
 .body-md {
-  font-size: var(--gpn-body-md-size, #{$gpn-body-md-size});
-  line-height: var(--gpn-body-md-line, #{$gpn-body-md-line});
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: var(--gpn-body-md-size, #{$gpn-body-md-size}); // 1.8rem / 18px
+  line-height: var(--gpn-body-md-line, #{$gpn-body-md-line}); // 1.5
   font-weight: 400;
+  color: #0C0C0C; // rgb(12, 12, 12) - matches Storybook
 }
 
 .body-sm {

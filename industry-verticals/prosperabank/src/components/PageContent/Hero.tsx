@@ -174,12 +174,12 @@ export const Default = (props: HeroProps): JSX.Element => {
             <div className="hero-text-block">
               {/* Title */}
               {(title?.value || isPageEditing) && title && (
-                <Text field={title} tag={HeadingTag} className="display-lg" />
+                <Text field={title} tag={HeadingTag} className="hero-heading" />
               )}
               
               {/* Tag Line */}
               {(tag?.value || isPageEditing) && tag && (
-                <Text field={tag} tag="p" className="label-md" />
+                <Text field={tag} tag="p" className="hero-body" />
               )}
               
               {/* Details/Description */}

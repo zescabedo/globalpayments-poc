@@ -59,48 +59,20 @@
   overflow: hidden;
   
   // Responsive background images using CSS variables
-  --bg-image-desktop: none;
-  --bg-image-tablet: none;
-  --bg-image-mobile: none;
+  // Note: These are only set in Hero.tsx when a background image is provided
+  --bg-image-desktop: url('/hero-background-pattern.svg');
+  --bg-image-tablet: url('/hero-background-pattern.svg');
+  --bg-image-mobile: url('/hero-background-pattern.svg');
   --mediaSize: auto;
   
+  // Default background pattern (design element SVG)
+  // This is the default background when no background image is provided
+  // If a background image is provided via CSS variable in Hero.tsx, it will override this
+  background-color: #FFFFFF; // White background for transparent SVG
   background-image: var(--bg-image-desktop);
-  
-  // Blue circle pattern overlay (matching Storybook design)
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: 
-      radial-gradient(circle at 10% 20%, rgba(38, 42, 255, 0.1) 0%, transparent 50%),
-      radial-gradient(circle at 90% 30%, rgba(38, 42, 255, 0.08) 0%, transparent 50%),
-      radial-gradient(circle at 20% 80%, rgba(38, 42, 255, 0.1) 0%, transparent 50%),
-      radial-gradient(circle at 80% 70%, rgba(38, 42, 255, 0.08) 0%, transparent 50%);
-    background-size: 400px 400px, 300px 300px, 350px 350px, 280px 280px;
-    background-position: top left, top right, bottom left, bottom right;
-    background-repeat: no-repeat;
-    pointer-events: none;
-    z-index: 1;
-  }
-  
-  // Curved line patterns
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: 
-      radial-gradient(ellipse 800px 200px at 0% 20%, transparent 40%, rgba(38, 42, 255, 0.05) 41%, rgba(38, 42, 255, 0.05) 42%, transparent 43%),
-      radial-gradient(ellipse 700px 180px at 100% 30%, transparent 40%, rgba(38, 42, 255, 0.05) 41%, rgba(38, 42, 255, 0.05) 42%, transparent 43%);
-    background-repeat: no-repeat;
-    pointer-events: none;
-    z-index: 1;
-  }
+  background-size: var(--mediaSize, cover);
+  background-position: center;
+  background-repeat: no-repeat;
   
   @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
     background-image: var(--bg-image-tablet);
@@ -109,10 +81,6 @@
   
   @media (max-width: 768px) {
     background-image: var(--bg-image-mobile);
-    
-    &::before {
-      background-size: 250px 250px, 200px 200px, 220px 220px, 180px 180px;
-    }
   }
   
   // Container spacing
@@ -159,60 +127,94 @@
   z-index: 2;
   text-align: center;
   margin: 0 auto;
+  padding: 48px 12px 0; // Matches Storybook padding
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 16px; // Matches Storybook gap between children (heading, body, details, CTA)
   
-  // Use design system typography classes directly
-  .display-lg {
-    margin-bottom: var(--gpn-spacing-md-desktop, #{$gpn-spacing-md-desktop});
-    color: inherit;
+  // Hero Heading - matches Storybook exactly
+  // Storybook: fontSize: 64px, fontWeight: 900, lineHeight: 72px, color: rgb(12, 12, 12), marginBottom: 0
+  .hero-heading {
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 64px; // 6.4rem
+    font-weight: 900;
+    line-height: 72px; // 7.2rem
+    color: rgb(12, 12, 12); // #0C0C0C
+    margin: 0; // No margins - spacing handled by parent gap
     text-align: center;
     
     @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
-      margin-bottom: var(--gpn-spacing-md-mobile, #{$gpn-spacing-md-mobile});
+      font-size: 48px; // Responsive: 4.8rem
+      line-height: 56px; // 5.6rem
+    }
+    
+    @media (max-width: 768px) {
+      font-size: 36px; // Mobile: 3.6rem
+      line-height: 44px; // 4.4rem
     }
   }
   
-  .label-md {
-    margin-bottom: var(--gpn-spacing-lg-desktop, #{$gpn-spacing-lg-desktop});
-    color: inherit;
-    opacity: 0.9;
+  // Hero Body (Tagline) - matches Storybook exactly
+  // Storybook: fontSize: 40px, fontWeight: 300, lineHeight: 40px, color: rgb(12, 12, 12), marginBottom: 0
+  .hero-body {
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 40px; // 4.0rem
+    font-weight: 300;
+    line-height: 40px; // 4.0rem
+    color: rgb(12, 12, 12); // #0C0C0C
+    margin: 0; // No margins - spacing handled by parent gap
     text-align: center;
     
     @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
-      margin-bottom: var(--gpn-spacing-lg-mobile, #{$gpn-spacing-lg-mobile});
+      font-size: 32px; // Responsive: 3.2rem
+      line-height: 32px; // 3.2rem
+    }
+    
+    @media (max-width: 768px) {
+      font-size: 24px; // Mobile: 2.4rem
+      line-height: 28px; // 2.8rem
     }
   }
   
+  // Details/Description text - styled to match design system
   .body-md {
-    margin-bottom: var(--gpn-spacing-lg-desktop, #{$gpn-spacing-lg-desktop});
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0; // No margins - spacing handled by parent gap
     color: inherit;
     text-align: center;
-    
-    @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
-      margin-bottom: var(--gpn-spacing-lg-mobile, #{$gpn-spacing-lg-mobile});
-    }
     
     // Rich text content styling
     p {
-      margin-bottom: var(--gpn-spacing-sm-desktop, #{$gpn-spacing-sm-desktop});
+      margin-bottom: 0;
       text-align: center;
       
-      &:last-child {
-        margin-bottom: 0;
+      &:not(:last-child) {
+        margin-bottom: 16px; // Spacing between paragraphs
       }
     }
   }
   
-  // CTA List
+  // Legacy support for display-lg and label-md (if used elsewhere)
+  .display-lg {
+    @extend .hero-heading;
+  }
+  
+  .label-md,
+  .brow {
+    @extend .hero-body;
+  }
+  
+  // CTA List - spacing handled by parent gap, no margin-top needed
   .cta-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: var(--gpn-spacing-sm-desktop, #{$gpn-spacing-sm-desktop});
-    margin-top: var(--gpn-spacing-lg-desktop, #{$gpn-spacing-lg-desktop});
+    margin: 0; // No margins - spacing handled by parent gap
     
     @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
       gap: var(--gpn-spacing-sm-mobile, #{$gpn-spacing-sm-mobile});
-      margin-top: var(--gpn-spacing-lg-mobile, #{$gpn-spacing-lg-mobile});
     }
     
     &.all {
@@ -302,63 +304,101 @@
   }
 }
 
-// Global Payments Button Styles (matching Storybook)
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.2rem 2.4rem;
-  font-size: var(--gpn-body-md-size, #{$gpn-body-md-size});
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 0.4rem;
-  transition: all 0.2s ease-in-out;
-  border: 1px solid transparent;
-  cursor: pointer;
-  
-  &:focus {
-    outline: 2px solid var(--gpn-theme-blue-500, #{$gpn-blue-500});
-    outline-offset: 2px;
-  }
-  
-  .link-inner {
+// Hero CTA buttons use the global button styles from _buttons.scss
+// These are overrides specific to hero context
+.cta-list {
+  .btn-cta-primary {
+    // Apply Storybook button styles directly
     display: inline-block;
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #262AFF;
+    border-radius: 50px;
+    padding: 16px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #262AFF;
+    color: #FFFFFF;
+    
+    &:hover:not(:disabled) {
+      background-color: #1B1EC6;
+      border-color: #1B1EC6;
+    }
+    
+    &:active:not(:disabled) {
+      background-color: #1517A3;
+      border-color: #1517A3;
+    }
+    
+    &:focus {
+      outline: 2px solid #262AFF;
+      outline-offset: 2px;
+    }
+    
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
   }
-}
-
-.btn-cta-primary {
-  background-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
-  color: var(--gpn-theme-white-255, #{$gpn-white});
-  border-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
   
-  &:hover {
-    background-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
-    border-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(38, 42, 255, 0.3);
+  .btn-cta-secondary {
+    // Apply Storybook outline button styles directly
+    display: inline-block;
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: 2px solid #262AFF;
+    border-radius: 50px;
+    padding: 16px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: transparent;
+    color: #262AFF;
+    
+    &:hover:not(:disabled) {
+      background-color: rgba(38, 42, 255, 0.1);
+      border-color: #1B1EC6;
+      color: #1B1EC6;
+    }
+    
+    &:active:not(:disabled) {
+      background-color: rgba(38, 42, 255, 0.2);
+      border-color: #1517A3;
+      color: #1517A3;
+    }
+    
+    &:focus {
+      outline: 2px solid #262AFF;
+      outline-offset: 2px;
+    }
+    
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
   }
-}
-
-.btn-cta-secondary {
-  background-color: transparent;
-  color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
-  border-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
   
-  &:hover {
-    background-color: var(--gpn-theme-grey-110, #{$gpn-grey-110});
-    color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
-    border-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
-  }
-}
-
-.btn-cta-tertiary {
-  background-color: transparent;
-  color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
-  border-color: transparent;
-  
-  &:hover {
-    background-color: var(--gpn-theme-grey-110, #{$gpn-grey-110});
-    color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+  .btn-cta-tertiary {
+    background-color: transparent;
+    color: inherit;
+    border-color: transparent;
+    
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
   }
 }
 
@@ -381,4 +421,6 @@
     }
   }
 }
+
+
 

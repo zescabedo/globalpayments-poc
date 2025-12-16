@@ -65,10 +65,10 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
           <div className="content-wrapper">
             <NextImage field={image} width={300} height={300} />
             <div className="text-wrapper">
-              <h2>
+              <h2 className="title-xs">
                 <Text field={title} />
               </h2>
-              <p>
+              <p className="body-md">
                 <Text field={text} />
               </p>
             </div>

@@ -60,17 +60,17 @@ const AuthorListDefault = (props: AuthorListComponentProps): JSX.Element => {
                   <NextImage field={author.fields.Photo} width={400} height={300} />
                 </div>
                 <div className="col-lg-8">
-                  <h3 className="fs-3 mb-0">
+                  <h3 className="title-sm mb-0">
                     <Text field={author.fields.Name}></Text>
                   </h3>
-                  <p className="position fs-5">
+                  <p className="position body-md">
                     <Text field={author.fields.Position} />
                   </p>
-                  <div className={`bio fs-5 ${isPageEditing ? '' : 'clamped'}`}>
+                  <div className={`bio body-md ${isPageEditing ? '' : 'clamped'}`}>
                     <RichText field={author.fields.Bio}></RichText>
                   </div>
                   <div className="d-flex flex-wrap gap-3 justify-content-between align-items-center">
-                    <Link href={author.url} className="button button-secondary">
+                    <Link href={author.url} className="btn btn-outline btn-md">
                       {t('Read more') || 'Read more'}
                     </Link>
                   </div>
@@ -121,10 +121,10 @@ const AuthorListSlider = (props: AuthorListComponentProps): JSX.Element => {
             <SwiperSlide key={author.url}>
               <Link href={author.url} className="wrapper-link">
                 <NextImage field={author.fields.Photo} width={300} height={300} />
-                <h3 className="fs-4 mt-4">
+                <h3 className="title-xs mt-4">
                   <Text field={author.fields.Name}></Text>
                 </h3>
-                <p>
+                <p className="body-md">
                   <Text field={author.fields.Position} />
                 </p>
               </Link>
@@ -157,16 +157,16 @@ const AuthorListSimple = (props: AuthorListComponentProps): JSX.Element => {
                 <NextImage field={author.fields.Photo} width={300} height={300} />
               </div>
               <div>
-                <h3 className="fs-4 mt-4 mb-1">
+                <h3 className="title-xs mt-4 mb-1">
                   <Text field={author.fields.Name}></Text>
                 </h3>
-                <h4 className="position fw-normal mb-3">
+                <h4 className="position body-md mb-3">
                   <Text field={author.fields.Position} />
                 </h4>
-                <div className={`bio ${isPageEditing ? '' : 'clamped'}`}>
+                <div className={`bio body-md ${isPageEditing ? '' : 'clamped'}`}>
                   <RichText field={author.fields.Bio}></RichText>
                 </div>
-                <Link href={author.url} className="button button-simple">
+                <Link href={author.url} className="btn btn-link btn-md">
                   {t('Read more') || 'Read more'}
                 </Link>
               </div>

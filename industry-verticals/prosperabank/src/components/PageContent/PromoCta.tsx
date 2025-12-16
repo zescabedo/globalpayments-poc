@@ -46,25 +46,25 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
             <h6 className="eyebrow-accent">
               <Text field={props.fields.Eyebrow} />
             </h6>
-            <h1 className="display-6 fw-bold mb-3">
+            <h1 className="display-lg mb-3">
               <Text field={props.fields.Title} />
             </h1>
             <div className="promo-cta-text">
-              <p className="fs-5">
+              <p className="body-md">
                 <Text field={props.fields.Subtitle} />
               </p>
 
-              <RichText field={props.fields.Text} className="text-content" />
+              <RichText field={props.fields.Text} className="text-content body-md" />
 
               <div className="row mt-2">
                 <Placeholder name="promo-cta" rendering={props.rendering} />
               </div>
 
               {(isPageEditing || props.fields?.Link?.value?.href) && (
-                <Link field={props.fields.Link} className="button button-main mt-3 me-4" />
+                <Link field={props.fields.Link} className="btn btn-base btn-md mt-3 me-4" />
               )}
               {(isPageEditing || props.fields?.Link2?.value?.href) && (
-                <Link field={props.fields.Link2} className="button button-simple mt-3 " />
+                <Link field={props.fields.Link2} className="btn btn-link btn-md mt-3" />
               )}
             </div>
           </div>
@@ -107,21 +107,21 @@ export const WithPlaceholderColumn = (props: PromoCtaProps): JSX.Element => {
             <h6 className="eyebrow-accent">
               <Text field={props.fields.Eyebrow} />
             </h6>
-            <h1 className="fs-1 fw-bold mb-3">
+            <h1 className="display-md mb-3">
               <Text field={props.fields.Title} />
             </h1>
             <div className="promo-cta-text">
-              <p className="fs-5">
+              <p className="body-md">
                 <Text field={props.fields.Subtitle} />
               </p>
 
-              <RichText field={props.fields.Text} className="text-content" />
+              <RichText field={props.fields.Text} className="text-content body-md" />
 
               {(isPageEditing || props.fields?.Link?.value?.href) && (
-                <Link field={props.fields.Link} className="button button-main mt-3" />
+                <Link field={props.fields.Link} className="btn btn-base btn-md mt-3" />
               )}
               {(isPageEditing || props.fields?.Link2?.value?.href) && (
-                <Link field={props.fields.Link2} className="button button-simple mt-3 mx-4" />
+                <Link field={props.fields.Link2} className="btn btn-link btn-md mt-3 mx-4" />
               )}
             </div>
           </div>
@@ -171,14 +171,14 @@ export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
       <div className="container">
         <div className="row justify-content-center main-content">
           <div className="col-12 mx-auto">
-            <h1 className="display-3 fw-bold text-center mb-3">
+            <h1 className="display-xl text-center mb-3">
               <Text field={props.fields.Title} />
             </h1>
-            <div className="fs-3 text-center">
+            <div className="body-md text-center">
               <RichText field={props.fields.Text} />
 
               {(isPageEditing || props.fields?.Link?.value?.href) && (
-                <Link field={props.fields.Link} className="button button-main mt-3" />
+                <Link field={props.fields.Link} className="btn btn-base btn-md mt-3" />
               )}
             </div>
           </div>

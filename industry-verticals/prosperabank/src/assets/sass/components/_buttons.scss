@@ -3,23 +3,32 @@
  * 
  * Button component styles aligned with Global Payments design system
  * Reference: https://design.globalpayments.com/?path=/story/atoms-buttons--all-buttons
+ * 
+ * Storybook button classes: .btn .btn-sm .btn-base (filled buttons)
+ * - Font: GPCommerce, "Helvetica Neue"
+ * - Font size: 16px (small), 18px (default), 20px (large)
+ * - Font weight: 500
+ * - Padding: 14px 20px (small), 16px 24px (default), 18px 28px (large)
+ * - Border radius: 50px (fully rounded)
+ * - Border: 2px solid #262AFF
+ * - Background: #262AFF (primary)
+ * - Color: #FFFFFF (white)
  */
 
-.gpn-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-family: inherit;
-  font-weight: 600;
+// Base button class matching Storybook
+.btn {
+  display: inline-block;
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 1px solid transparent;
-  border-radius: 0.4rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  border: 2px solid transparent;
+  border-radius: 50px; // Fully rounded to match Storybook
   
   // Focus styles for accessibility
   &:focus {
@@ -28,73 +37,115 @@
   }
   
   // Disabled state
-  &--disabled,
   &:disabled {
     opacity: 0.6;
     cursor: not-allowed;
     pointer-events: none;
   }
   
-  // Full width variant
-  &--full-width {
-    width: 100%;
+  // Size variants matching Storybook
+  &.btn-sm {
+    padding: 14px 20px;
+    font-size: 16px; // 1.6rem
+    line-height: 1.5;
+    min-height: auto;
   }
+  
+  &.btn-md,
+  &:not(.btn-sm):not(.btn-lg) {
+    padding: 16px 24px;
+    font-size: 18px; // 1.8rem - matches Storybook body font size
+    line-height: 1.5;
+    min-height: auto;
+  }
+  
+  &.btn-lg {
+    padding: 18px 28px;
+    font-size: 20px; // 2.0rem
+    line-height: 1.5;
+    min-height: auto;
+  }
+  
+  // Base variant (filled primary button) - matches Storybook .btn-base
+  &.btn-base {
+    background-color: #262AFF; // rgb(38, 42, 255)
+    color: #FFFFFF; // rgb(255, 255, 255)
+    border-color: #262AFF;
+    
+    &:hover:not(:disabled) {
+      background-color: #1B1EC6; // rgb(27, 30, 198) - darker blue
+      border-color: #1B1EC6;
+    }
+    
+    &:active:not(:disabled) {
+      background-color: #1517A3; // Even darker for active state
+      border-color: #1517A3;
+    }
+  }
+  
+  // Primary variant (alias for btn-base)
+  &.btn-primary {
+    @extend .btn-base;
+  }
+}
+
+// Global Payments button component (for React components)
+.gpn-button {
+  @extend .btn;
   
   // Size variants
   &--sm {
-    padding: 0.8rem 1.6rem;
-    font-size: var(--gpn-body-sm-size, #{$gpn-body-sm-size});
-    line-height: var(--gpn-body-sm-line, #{$gpn-body-sm-line});
-    min-height: 3.2rem;
+    @extend .btn-sm;
   }
   
   &--md {
-    padding: 1.2rem 2.4rem;
-    font-size: var(--gpn-body-md-size, #{$gpn-body-md-size});
-    line-height: var(--gpn-body-md-line, #{$gpn-body-md-line});
-    min-height: 4.0rem;
+    @extend .btn-md;
   }
   
   &--lg {
-    padding: 1.6rem 3.2rem;
-    font-size: var(--gpn-title-xs-size, #{$gpn-title-xs-size});
-    line-height: var(--gpn-title-xs-line, #{$gpn-title-xs-line});
-    min-height: 4.8rem;
+    @extend .btn-lg;
   }
   
   // Primary variant
   &--primary {
-    background-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
-    color: var(--gpn-theme-white-255, #{$gpn-white});
-    border-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    @extend .btn-base;
+  }
+  
+  // Secondary variant (outline button)
+  &--secondary {
+    background-color: transparent;
+    color: #262AFF;
+    border-color: #262AFF;
     
     &:hover:not(:disabled) {
-      background-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
-      border-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+      background-color: rgba(38, 42, 255, 0.1);
+      border-color: #1B1EC6;
+      color: #1B1EC6;
     }
     
     &:active:not(:disabled) {
-      background-color: var(--gpn-theme-dark, #{$gpn-theme-dark});
-      border-color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+      background-color: rgba(38, 42, 255, 0.2);
+      border-color: #1517A3;
+      color: #1517A3;
     }
   }
   
-  // Secondary variant
-  &--secondary {
-    background-color: var(--gpn-theme-white-255, #{$gpn-white});
-    color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
-    border-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+  // Outline variant
+  &.btn-outline {
+    background-color: transparent;
+    color: #262AFF;
+    border-color: #262AFF;
     
     &:hover:not(:disabled) {
-      background-color: var(--gpn-theme-grey-110, #{$gpn-grey-110});
-      border-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
-      color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+      background-color: rgba(38, 42, 255, 0.1);
+      border-color: #1B1EC6;
+      color: #1B1EC6;
     }
     
     &:active:not(:disabled) {
-      background-color: var(--gpn-theme-grey-200, #{$gpn-grey-200});
-      border-color: var(--gpn-theme-dark, #{$gpn-theme-dark});
-      color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+      background-color: rgba(38, 42, 255, 0.2);
+      border-color: #1517A3;
+      color: #1517A3;
     }
   }
   
@@ -169,17 +220,53 @@
   }
 }
 
+// CTA Button variants (matching Storybook CTA buttons)
+.btn-cta-primary {
+  @extend .btn-base;
+}
+
+.btn-cta-secondary {
+  @extend .btn-outline;
+}
+
+.btn-cta-tertiary {
+  background-color: transparent;
+  color: #262AFF;
+  border-color: transparent;
+  
+  &:hover:not(:disabled) {
+    background-color: rgba(38, 42, 255, 0.1);
+    color: #1B1EC6;
+  }
+}
+
+// Link button variant
+.btn-link {
+  background-color: transparent;
+  color: #262AFF;
+  border-color: transparent;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  border-radius: 0;
+  
+  &:hover:not(:disabled) {
+    color: #1B1EC6;
+    text-decoration-thickness: 2px;
+  }
+}
+
 // Legacy button support (for existing components)
 .button-main {
-  @extend .gpn-button--primary;
+  @extend .btn-base;
 }
 
 .button-secondary {
-  @extend .gpn-button--secondary;
+  @extend .btn-outline;
 }
 
 .button-outline {
-  @extend .gpn-button--outline;
+  @extend .btn-outline;
 }
 
 

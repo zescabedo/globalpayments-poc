@@ -1,4 +1,5 @@
 .breadcrumb {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   @extend .overflow-hidden;
   @extend .bg-transparent;
   @extend .pt-5;
@@ -9,12 +10,13 @@
 
   li {
     @extend .d-inline-block;
+    font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     a,
     span {
       @extend .d-inline-block;
-
-      color: var(--text-colored);
+      font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      color: #262AFF; // Storybook primary blue for links
       text-decoration: none;
 
       &::before {

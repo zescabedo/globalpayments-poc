@@ -1,6 +1,7 @@
 @import 'src/assets/sass/abstracts/vars';
 
 .carousel {
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 0;
 
   @include media-breakpoint-down(md) {

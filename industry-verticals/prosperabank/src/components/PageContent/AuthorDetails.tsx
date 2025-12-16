@@ -59,10 +59,10 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
                     />
                   </div>
                   <div className="col-12 col-lg-7">
-                    <h1 className="author-name display-5 fw-bold">
+                    <h1 className="author-name display-lg">
                       <Text field={props.fields.Name} />
                     </h1>
-                    <p className="author-position fs-4">
+                    <p className="author-position title-xs">
                       <Text field={props.fields.Position} />
                     </p>
                     <hr />
@@ -97,7 +97,7 @@ export const Simple = (props: PageBackgroundProps): JSX.Element => {
             <h6 className="eyebrow-accent">
               <Text field={props.fields.Position} />
             </h6>
-            <h1 className="display-2 fw-bold">
+            <h1 className="display-xl">
               <Text field={props.fields.Name} />
             </h1>
 

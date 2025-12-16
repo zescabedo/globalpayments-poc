@@ -40,9 +40,7 @@ export const Default = (props: FeaturesProps): JSX.Element => {
           <div className="tagline">
             <RichText field={props.fields?.Text} />
           </div>
-          <div className="button button-main">
-            <Link field={props.fields?.Link} />
-          </div>
+          <Link field={props.fields?.Link} className="btn btn-base btn-md" />
         </div>
         <div className="items">
           <div className="item left">

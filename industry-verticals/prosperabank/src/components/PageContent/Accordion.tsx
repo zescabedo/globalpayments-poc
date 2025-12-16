@@ -32,7 +32,7 @@ const AccordionItem = ({ item }: { item: AccordionItemProps }): JSX.Element => {
         <div className="icon-wrapper">
           <NextImage field={item.fields.Icon} width={32} height={32} />
         </div>
-        <h3 className="display-6 fw-bold mb-0">
+        <h3 className="title-xs mb-0">
           <Text field={item.fields.Title} />
         </h3>
         <span className="button-icon-wrapper">

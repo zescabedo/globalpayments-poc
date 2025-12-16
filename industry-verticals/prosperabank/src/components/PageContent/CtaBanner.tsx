@@ -51,14 +51,14 @@ export const Default = (props: CtaBannerProps): JSX.Element => {
                 <h6 className="eyebrow-accent">
                   <Text field={props.fields.Eyebrow} />
                 </h6>
-                <h1 className="display-4 fw-bold mb-3">
+                <h1 className="display-lg mb-3">
                   <Text field={props.fields.Title} />
                 </h1>
-                <div className="fs-5">
+                <div className="body-md">
                   <RichText field={props.fields.Text} className="text-content" />
 
                   {(isPageEditing || props.fields?.Link?.value?.href) && (
-                    <Link field={props.fields.Link} className="button button-main mt-3" />
+                    <Link field={props.fields.Link} className="btn btn-base btn-md mt-3" />
                   )}
                 </div>
               </div>
@@ -106,14 +106,14 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
                 <h6 className="eyebrow-accent">
                   <Text field={props.fields.Eyebrow} />
                 </h6>
-                <h1 className="display-4 fw-bold mb-3">
+                <h1 className="display-lg mb-3">
                   <Text field={props.fields.Title} />
                 </h1>
-                <div className="fs-5">
+                <div className="body-md">
                   <RichText field={props.fields.Text} className="text-content" />
 
                   {(isPageEditing || props.fields?.Link?.value?.href) && (
-                    <Link field={props.fields.Link} className="button button-main mt-3" />
+                    <Link field={props.fields.Link} className="btn btn-base btn-md mt-3" />
                   )}
                 </div>
               </div>

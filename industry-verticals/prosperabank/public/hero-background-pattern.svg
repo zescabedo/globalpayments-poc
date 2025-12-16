@@ -1,0 +1,26 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Transparent background - white background color is set in CSS -->
+  
+  <!-- Large solid blue circle in top-left corner, positioned above the starting point of the outer curved line -->
+  <circle cx="150" cy="120" r="70" fill="#262AFF"/>
+  
+  <!-- Outer curved line (thicker) - U-shaped path opening upwards, from top-left to top-right -->
+  <path d="M 100 200 Q 960 1000 1820 200" stroke="#262AFF" stroke-width="7" fill="none" stroke-linecap="round"/>
+  
+  <!-- Inner curved line (thinner) - parallel to outer line, maintaining consistent distance -->
+  <path d="M 150 250 Q 960 1050 1770 250" stroke="#262AFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Small solid circle on left side with outline (bullseye effect) - positioned along inner curve -->
+  <circle cx="350" cy="650" r="18" fill="#262AFF"/>
+  <circle cx="350" cy="650" r="28" stroke="#262AFF" stroke-width="2" fill="none"/>
+  
+  <!-- Small solid circle on right side of inner curve, approximately halfway up the ascending arc -->
+  <circle cx="1570" cy="650" r="18" fill="#262AFF"/>
+  
+  <!-- Thin outlined circle in top-right corner, positioned above the endpoint of the outer curved line -->
+  <circle cx="1770" cy="120" r="45" stroke="#262AFF" stroke-width="2" fill="none"/>
+  
+  <!-- Small arrow at the very end of the outer curved line in top-right, pointing upwards and slightly to the right -->
+  <path d="M 1805 185 L 1820 200 L 1805 215" stroke="#262AFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 1820 200 L 1835 185" stroke="#262AFF" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

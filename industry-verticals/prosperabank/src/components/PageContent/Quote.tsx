@@ -40,13 +40,13 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
           </g>
         </g>
       </svg>
-      <blockquote className="fs-1 fw-bold">
+      <blockquote className="display-xl">
         <Text field={props.fields.Quote} />
       </blockquote>
-      <p className="author-name fs-5 mb-1">
+      <p className="author-name title-xs mb-1">
         <Text field={props.fields.AuthorName} />
       </p>
-      <p className="author-position">
+      <p className="author-position body-md">
         <Text field={props.fields.AuthorPosition} />
       </p>
     </div>

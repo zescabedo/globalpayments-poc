@@ -71,14 +71,14 @@ const ArticleListDefault = (props: ArticleListComponentProps): JSX.Element => {
                 </div>
 
                 <div className="col-lg-8">
-                  <h3 className="fs-4">
+                  <h3 className="title-xs">
                     <Text field={item.fields.Title}></Text>
                   </h3>
-                  <p className="article-excerpt fs-5">
+                  <p className="article-excerpt body-md">
                     <Text field={item.fields.Excerpt}></Text>
                   </p>
                   <div className="d-flex flex-wrap gap-3 justify-content-between align-items-center">
-                    <Link href={item.url} className="button button-secondary">
+                    <Link href={item.url} className="btn btn-outline btn-md">
                       {t('Read more') || 'Read more'}
                     </Link>
                   </div>
@@ -109,7 +109,7 @@ const ArticleListThreeColumn = (props: ArticleListComponentProps): JSX.Element =
             <div className="col-lg-4" key={item.url}>
               <Link href={item.url} className="wrapper-link">
                 <NextImage field={item.fields.Thumbnail} width={400} height={300} />
-                <h3 className="fs-4 mt-3">
+                <h3 className="title-xs mt-3">
                   <Text field={item.fields.Title}></Text>
                 </h3>
               </Link>
@@ -136,11 +136,11 @@ const ArticleListSimplified = (props: ArticleListComponentProps): JSX.Element =>
       <div className="container">
         <div className="row align-items-center">
           <div className="col">
-            <div className="title display-6">{t('News') || 'News'}</div>
+            <div className="title display-md">{t('News') || 'News'}</div>
           </div>
           <div className="col-auto learn-more">
-            <Link href={allArticlesPageHref} className="button button-simple">
-              {t('See all') || 'See all'} <i className="fa fa-angle-right fs-4" />
+            <Link href={allArticlesPageHref} className="btn btn-link btn-md">
+              {t('See all') || 'See all'} <i className="fa fa-angle-right" />
             </Link>
           </div>
         </div>
@@ -154,13 +154,13 @@ const ArticleListSimplified = (props: ArticleListComponentProps): JSX.Element =>
                 </div>
 
                 <div className="col-lg-6">
-                  <h3 className="fs-4">
+                  <h3 className="title-xs">
                     <Text field={item.fields.Title}></Text>
                   </h3>
-                  <p>
+                  <p className="body-md">
                     <Text field={item.fields.Excerpt}></Text>
                   </p>
-                  <Link href={item.url} className="button button-simple">
+                  <Link href={item.url} className="btn btn-link btn-md">
                     {t('Read more') || 'Read more'}
                   </Link>
                 </div>
@@ -190,7 +190,7 @@ const ArticleListGrid = (props: ArticleListComponentProps): JSX.Element => {
             <div className="article-grid-item" key={item.url}>
               <Link href={item.url} className="wrapper-link">
                 <NextImage field={item.fields.Thumbnail} width={800} height={400} />
-                <h3 className="fs-4 mt-3">
+                <h3 className="title-xs mt-3">
                   <Text field={item.fields.Title}></Text>
                 </h3>
               </Link>

@@ -33,14 +33,14 @@ export const Default = (props: ParallaxBannerProps) => {
 
   const BannerContentBlock = (
     <div className="parallax-banner-content-inner">
-      <h1 className="display-3 fw-bold text-center mb-3">
+      <h1 className="display-xl text-center mb-3">
         <Text field={props.fields.Title} />
       </h1>
-      <div className="fs-5 text-center">
+      <div className="body-md text-center">
         <RichText field={props.fields.Text} />
 
         {(isPageEditing || props.fields?.Link?.value?.href) && (
-          <Link field={props.fields.Link} className="button button-main mt-3" />
+          <Link field={props.fields.Link} className="btn btn-base btn-md mt-3" />
         )}
       </div>
     </div>

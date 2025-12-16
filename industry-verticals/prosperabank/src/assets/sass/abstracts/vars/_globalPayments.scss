@@ -27,15 +27,15 @@ $gpn-title-xs-line: 2.8rem;
 $gpn-title-xxs-size: 1.6rem;
 $gpn-title-xxs-line: 2.4rem;
 
-// Body Styles
-$gpn-body-md-size: 2.0rem;
-$gpn-body-md-line: 3.2rem;
-$gpn-body-sm-size: 1.6rem;
-$gpn-body-sm-line: 2.4rem;
-$gpn-body-xs-size: 1.2rem;
-$gpn-body-xs-line: 1.6rem;
-$gpn-body-xxs-size: 0.8rem;
-$gpn-body-xxs-line: 1.2rem;
+// Body Styles (matching Storybook: 18px base = 1.8rem)
+$gpn-body-md-size: 1.8rem; // 18px - matches Storybook body font size
+$gpn-body-md-line: 2.7rem; // 1.5 line height
+$gpn-body-sm-size: 1.6rem; // 16px
+$gpn-body-sm-line: 2.4rem; // 1.5 line height
+$gpn-body-xs-size: 1.2rem; // 12px
+$gpn-body-xs-line: 1.8rem; // 1.5 line height
+$gpn-body-xxs-size: 0.8rem; // 8px
+$gpn-body-xxs-line: 1.2rem; // 1.5 line height
 
 // Label Styles
 $gpn-label-xxl-size: 7.2rem;
@@ -55,13 +55,13 @@ $gpn-label-xs-line: 2.4rem;
 // Color Variables
 // ============================================================================
 
-// Primary Colors
+// Primary Colors (matching Storybook exactly)
 $gpn-white: #FFFFFF;
-$gpn-blue-500: #262AFF; // Primary brand blue (Base)
+$gpn-blue-500: #262AFF; // Primary brand blue (Base) - rgb(38, 42, 255)
 
-// Secondary Colors
+// Secondary Colors (matching Storybook exactly)
 $gpn-blue-600: #1B1EC6; // Darker brand blue
-$gpn-black-950: #0C0C0C; // Near-black for text (Off-Black)
+$gpn-black-950: #0C0C0C; // Near-black for text (Off-Black) - rgb(12, 12, 12) - matches Storybook body color
 
 // Tertiary Colors
 $gpn-blue-300: #1CABFF; // Light accent blue (Pulse)
