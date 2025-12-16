@@ -1,0 +1,117 @@
+----item----
+version: 1
+id: {CF346668-3C3B-4782-9D29-11A802670515}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Search Results/Glossary/Scriban
+parent: {565BE1C0-8E4D-4663-8306-FFDC4BEEE2B1}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 378
+
+<div class="glossary-contain">
+<div class="pr-lg-8 pr-md-2 pb-4">
+<span class="glossary-title"><strong>{{ i_item.title.raw }}</strong></span><br class="keep-br" />
+<span class="glossary-desc glossary-translate" data-show-more="{{ sc_translate 'showmoreGlossary' }}" data-show-less="{{ sc_translate 'showlessGlossary' }}">{{ sc_field i_item "Content" }}</span>
+</div>
+</div>
+----version----
+language: en-CA
+version: 1
+revision: a34cdd48-7ff5-4693-893c-1e744124db1a
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210623T111828Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a34cdd48-7ff5-4693-893c-1e744124db1a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211124T124943Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: d21151d1-e740-4e5a-89d4-0aa3b9b1f768
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210623T111828Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d21151d1-e740-4e5a-89d4-0aa3b9b1f768
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220122T145549Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 24
+
+sitecore\Antonio_Johnson

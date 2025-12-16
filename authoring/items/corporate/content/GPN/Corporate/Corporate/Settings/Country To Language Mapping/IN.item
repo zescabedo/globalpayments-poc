@@ -1,0 +1,415 @@
+----item----
+version: 1
+id: {B8198A1F-48D9-4FBE-87F1-9451C5D6C13B}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Country To Language Mapping/IN
+parent: {DA1E4CD2-787F-4B71-A1BB-39E8C6F1FB54}
+name: IN
+master: {00000000-0000-0000-0000-000000000000}
+template: {E1E5D16F-A23E-4405-9A66-AF65985C434C}
+templatekey: Country To Language Mapping Item
+
+----field----
+field: {E8EDCAD1-288B-4582-94FE-ED9AC1E311C9}
+name: CountryName
+key: countryname
+content-length: 5
+
+India
+----field----
+field: {C1A51F0B-1337-4B9D-9498-E9F485E5000A}
+name: CountryIsoCode
+key: countryisocode
+content-length: 2
+
+IN
+----field----
+field: {B56E2C2B-D50E-47BF-A23C-B50AD19828F7}
+name: PrimaryLanguage
+key: primarylanguage
+content-length: 38
+
+{036A7C1E-B075-4909-B8C7-C482C0F9B619}
+----field----
+field: {03E6509B-501A-4414-92C0-98C3130B8BA3}
+name: SecondaryLanguage
+key: secondarylanguage
+content-length: 0
+
+
+----version----
+language: en-150
+version: 1
+revision: 527babf0-3884-436e-832c-e8ead1d4424c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T041235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+527babf0-3884-436e-832c-e8ead1d4424c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230210T044303Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: e0c3473b-62de-422a-9274-c4e39701688f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T041235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e0c3473b-62de-422a-9274-c4e39701688f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-GB
+version: 1
+revision: a4603c8c-cdf9-4f26-89b6-0c75ad837940
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T041235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a4603c8c-cdf9-4f26-89b6-0c75ad837940
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-HK
+version: 1
+revision: 5818abe8-dbed-4667-a980-d052c8b339b5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T041235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5818abe8-dbed-4667-a980-d052c8b339b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: 51e3d0af-9dd3-4ef0-8d47-2bf7d9d2249c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T041235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+51e3d0af-9dd3-4ef0-8d47-2bf7d9d2249c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230313T123458Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: es-ES
+version: 1
+revision: 2673955e-6c7e-4333-9549-8a4772fe955b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T041235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2673955e-6c7e-4333-9549-8a4772fe955b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211117T192932Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: 2b0fb4c8-743b-4fd3-84b0-6f00d623751d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T041235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2b0fb4c8-743b-4fd3-84b0-6f00d623751d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: hu-HU
+version: 1
+revision: ff17a437-5576-44d0-8c16-7ea7d7722911
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T041235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff17a437-5576-44d0-8c16-7ea7d7722911
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220712T050821Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

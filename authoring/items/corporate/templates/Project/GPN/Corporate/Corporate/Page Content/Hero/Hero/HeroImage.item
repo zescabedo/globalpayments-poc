@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {08507A22-1E42-4CEA-886B-CA7D80681B64}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Corporate/Page Content/Hero/Hero/HeroImage
+parent: {D1D1C753-ABDC-4848-858F-4647EA8A9100}
+name: HeroImage
+master: {00000000-0000-0000-0000-000000000000}
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
+
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 5
+
+Image
+----field----
+field: {1EB8AE32-E190-44A6-968D-ED904C794EBF}
+name: Source
+key: source
+content-length: 16
+
+query:$siteMedia
+----field----
+field: {24CB32F0-E364-4F37-B400-0F2899097B5B}
+name: Enable Shared Language Fallback
+key: enable shared language fallback
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----version----
+language: en
+version: 1
+revision: 39e5d02c-8980-425b-b94f-2d94dc83d352
+
+----field----
+field: {19A69332-A23E-4E70-8D16-B2640CB24CC8}
+name: Title
+key: title
+content-length: 5
+
+Image
+----field----
+field: {FA622538-0C13-4130-A001-45984241AA00}
+name: Enable Language Fallback
+key: enable language fallback
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20111213T133500Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+39e5d02c-8980-425b-b94f-2d94dc83d352
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210217T140146Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

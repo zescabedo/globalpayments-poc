@@ -1,0 +1,118 @@
+----item----
+version: 1
+id: {CC1DFB59-4895-4CD9-877C-2FD71CC919DD}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Dividers/LeftToRightCurveTall/Svg
+parent: {1F99612B-6F21-48B9-9B5D-6FCFC390338E}
+name: Svg
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 503
+
+<div class="revealDividersOnScroll" data-type="crl-curve" data-animationname="left-right-curve-tall" data-reverse="true">
+<svg width="721" height="571" viewBox="0 0 721 571" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="line" d="M82.9506 2H2V198.366V373.733C2 429.078 46.8967 474.089 102.405 474.089H711.47V555.333" stroke="#003C71" stroke-width="2.5" stroke-miterlimit="10"/>
+<path class="arrow" d="M720.895 553L711.469 570.844L702.044 553H720.895Z" fill="#003C71"/>
+</svg>
+
+</div>
+----version----
+language: en-CA
+version: 1
+revision: 7c97ca4a-e256-476a-98cf-fa0e4b23b1fd
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210226T104300Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7c97ca4a-e256-476a-98cf-fa0e4b23b1fd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T070031Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 96470aa1-65b7-4ebf-bf0f-ff4f00ec2ce5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210226T104300Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+96470aa1-65b7-4ebf-bf0f-ff4f00ec2ce5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080424Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

@@ -1,0 +1,180 @@
+----item----
+version: 1
+id: {FA1EE395-63AE-43D2-924D-5BF6A3C3760C}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Security Headers/Content Security Policy/script-src
+parent: {9D9672DA-78BB-4964-9B6E-59046E9D2E74}
+name: script-src
+master: {00000000-0000-0000-0000-000000000000}
+template: {EC2F720B-E083-49B3-AF4D-65A07B5AF4DA}
+templatekey: Policy
+
+----field----
+field: {7EB4D7AF-0D58-4229-A73A-8F5B2BB91EF2}
+name: Allowed Hosts
+key: allowed hosts
+content-length: 584
+
+{0B2347A4-CFC7-43DB-9DB3-141B727ECF59}|{B5209B3B-EC1F-43C0-94C1-F9D1386B6A50}|{42F6923B-5138-46A4-8A12-9FAA089D6062}|{3C979117-EA88-46C1-9D3C-0836632C118C}|{B2BD3E92-3081-41E0-8E40-8D70D330FF66}|{856DEAB0-1E3A-4C73-88BC-8E833744BA8C}|{F962EB76-724E-4857-8ECE-7CCAEED3F604}|{4F34E250-4888-430E-9A34-B142CB91412D}|{E007379E-3C07-493C-8BDD-DBBA6A135DE6}|{2176EBB7-E909-4F51-B4C4-D52F2F4E4073}|{FDD9B803-476B-4012-94DB-2CB95D2CC782}|{075F16F1-2E0A-4B06-86EA-5D9DBF3F2ECD}|{5882BCAB-5EFF-47E0-956D-9F2A6558A781}|{782BA3EE-A0AD-4956-8083-DC4237BB22F6}|{798C7B97-3755-4C87-B78F-C26C7C4CC15E}
+----version----
+language: en-CA
+version: 1
+revision: 2791bd93-376a-4056-8b86-b571c9f3e8e8
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 56
+
+app.vwo.com *.raygun.io cdnjs.cloudflare.com s.ytimg.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210421T074239Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2791bd93-376a-4056-8b86-b571c9f3e8e8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084420Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: 657e3cbe-bbe1-4cff-9e35-5ffd487a78ce
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 56
+
+app.vwo.com *.raygun.io cdnjs.cloudflare.com s.ytimg.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210421T074239Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+657e3cbe-bbe1-4cff-9e35-5ffd487a78ce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210917T120537Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 24
+
+sitecore\Antonio_Johnson
+----version----
+language: fr-CA
+version: 1
+revision: 4662d234-8168-49e0-8698-4a1fcd90b004
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 56
+
+app.vwo.com *.raygun.io cdnjs.cloudflare.com s.ytimg.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210421T074239Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4662d234-8168-49e0-8698-4a1fcd90b004
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084419Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

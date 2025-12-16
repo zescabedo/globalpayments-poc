@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {65282916-51A4-4A91-9FD4-1896BD650DFC}
+database: master
+path: /sitecore/system/Settings/Project/GPN/Corporate/Page Content/Page Content Site Setup/Rendering Variants/CircleMaskFs
+parent: {94115FE8-A513-47EF-BD1D-60B3C0E02C86}
+name: CircleMaskFs
+master: {00000000-0000-0000-0000-000000000000}
+template: {EA8A3F26-9CCD-443A-95F5-71B868A94BD0}
+templatekey: AddItem
+
+----field----
+field: {4795A7C6-08A9-4248-86C3-D460062C3A22}
+name: Location
+key: location
+content-length: 38
+
+{5CDC5EB2-F14F-4495-88E8-AA882DDFAA05}
+----field----
+field: {E62C28F0-9D3B-46E2-8BEC-A5E120542499}
+name: Template
+key: template
+content-length: 38
+
+{98BB4CBC-39DF-4093-A9DF-63628B69BC14}
+----field----
+field: {7868E6BC-525C-4FCE-AB8A-77DA3E09B171}
+name: Name
+key: name
+content-length: 12
+
+CircleMaskFs
+----field----
+field: {AD0E8DE7-F6C1-49FA-B2C4-87E10FBDAA52}
+name: Fields
+key: fields
+content-length: 59
+
+__Icon=Office%2F32x32%2Ftext.png&__Display name=Rich%20Text
+----version----
+language: en
+version: 1
+revision: 6a552e5a-3414-4f7d-aa7f-0f15dcb157a9
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170525T113806Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6a552e5a-3414-4f7d-aa7f-0f15dcb157a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210120T094933Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

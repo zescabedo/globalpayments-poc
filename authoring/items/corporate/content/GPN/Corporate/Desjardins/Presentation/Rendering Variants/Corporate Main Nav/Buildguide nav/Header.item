@@ -1,0 +1,226 @@
+----item----
+version: 1
+id: {D9D4CC7E-61C2-4F18-A1FE-1487B88963B8}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Corporate Main Nav/Buildguide nav/Header
+parent: {11C278F4-9B8E-4B36-BFA4-2CB6DFC0B55F}
+name: Header
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 11055
+
+<h2 id="mainnavigationlabel" class="visuallyhidden">Main Navigation</h2>
+<ul class="clearfix ul-level-1" role="menubar">
+    
+    <li class="nav-4col-links-stdout level1 submenu item0 odd first rel-level1" role="presentation" tabindex="0">
+        <div class="navigation-title">
+            
+            <a title="" data-ea-zone="Header" data-ea-type="parent tab click" data-ea-link="Components" role="menuitem" aria-haspopup="true" aria-expanded="true">Components</a>
+        </div>        
+        <ul class="clearfix nav-submenu" role="menu" aria-label="Components">
+            <div class="container">
+                <div class="row">  
+                                     
+                    <div class="col-12 col-md-3 bg-white navigation-title">
+                        <ul class="clearfix nav-submenu" role="menu" aria-label="Components">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="component rich-text col-12 col-lg-4">
+                                        <div class="component-content">
+                                            <h4 class="font-regular">Component library</h4>
+                                            <p>Click the links to the left to see a filtered view of the component library.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-8 bg-white">
+                                        <ul class="col-12" role="presentation">
+                                            <li class="rel-level2" role="presentation">
+                                                <ul class="make-2cols-of-4" role="presentation">
+                                                    <li class=" level2 item0 odd first" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=Cards%20and%20Kites" onclick="location.hash='components_sxatags=Cards%20and%20Kites'; location.reload();" title="Cards &amp; Kites" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">Cards &amp; kites</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" level2 item1 even" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=Carousel" onclick="location.hash='components_sxatags=Carousel'; location.reload();" title="Carousels" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">Carousels</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" level2 item2 odd" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=CTAs%20and%20Text" onclick="location.hash='components_sxatags=CTAs%20and%20Text'; location.reload();" title="CTAs &amp; Text" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">CTAs &amp; text</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" level2 item3 even" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=Full%20Width%20Banners" onclick="location.hash='components_sxatags=Full%20Width%20Banners'; location.reload();" title="Full-width banners" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">Full-width banners</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li class=" level2 item4 odd" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=Nav%2C%20Modals%20and%20Forms" onclick="location.hash='components_sxatags=Nav%2C%20Modals%20and%20Forms'; location.reload();" title="Nav, modals &amp; forms" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">Nav, modals &amp; forms</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" level2 item5 even" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=Promos" onclick="location.hash='components_sxatags=Promos'; location.reload();" title="Promos" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">Promos</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" level2 item6 odd last" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=Specialty" onclick="location.hash='components_sxatags=Specialty'; location.reload();" title="Specialty" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">Specialty</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" level2 item5 even" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=Tabs%20and%20Accordions" onclick="location.hash='components_sxatags=Tabs%20and%20Accordions'; location.reload();" title="Tabs &amp; accordions" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">Tabs &amp; accordions</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" level2 item6 odd last" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=Testimonials" onclick="location.hash='components_sxatags=Testimonials'; location.reload();" title="Testimonials" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">Testimonials</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                    <li class=" level2 item6 odd last" role="presentation">
+                                                        <div class="navigation-title primary-underline">
+                                                            <a role="menuitem" href="/ztest/digital-build-guide?#components_sxatags=Video" onclick="location.hash='components_sxatags=Video'; location.reload();" title="Video" target="" data-ea-zone="Header" data-ea-type="click" data-ea-link="">Video</a>
+                                                            <p class="field-headersummary"></p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </ul>        
+    </li>
+    <li class="level1 submenu item1 even rel-level1" role="presentation" tabindex="0">
+        <div class="navigation-title">
+            <a href="/ztest/digital-build-guide/faqs" title="FAQs" data-ea-zone="Header" data-ea-type="parent tab click" data-ea-link="FAQs" role="menuitem" aria-haspopup="true">FAQs</a>
+        </div>
+    </li>
+    <li class="level1 submenu item2 odd rel-level1" role="presentation" tabindex="0">
+        <div class="navigation-title">
+            <a href="/ztest/digital-build-guide/documentation" title="Documentation" data-ea-zone="Header" data-ea-type="parent tab click" data-ea-link="Documentation" role="menuitem" aria-haspopup="true">Documentation</a>
+        </div> 
+    </li>    
+</ul>
+<a class="btn btn-sm btn-outline-primary-1 float-right d-none" href="/ztest/digital-build-guide/support?theme=dark-theme&type=fullscreen">Support</a>
+
+----version----
+language: en-CA
+version: 1
+revision: 6ec7686a-1b0b-48ac-878b-925d6920d292
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210303T192801Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6ec7686a-1b0b-48ac-878b-925d6920d292
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065910Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: d14805eb-ef1d-459e-a989-b9457e711c6f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210303T192801Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d14805eb-ef1d-459e-a989-b9457e711c6f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080338Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

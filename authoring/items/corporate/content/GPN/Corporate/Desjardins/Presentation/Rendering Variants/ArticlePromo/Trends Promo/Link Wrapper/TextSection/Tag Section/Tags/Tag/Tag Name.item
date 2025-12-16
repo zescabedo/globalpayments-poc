@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {B02E9F3F-3557-4B4C-8A8D-0D84EE6B40A7}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/ArticlePromo/Trends Promo/Link Wrapper/TextSection/Tag Section/Tags/Tag/Tag Name
+parent: {E9BAB2C5-6996-4556-A886-D228922EBC90}
+name: Tag Name
+master: {00000000-0000-0000-0000-000000000000}
+template: {FCD285DA-9AB2-4C8D-B185-5A7487A9BA1B}
+templatekey: VariantField
+
+----field----
+field: {4753764C-C05A-4623-841B-97F85135241C}
+name: FieldName
+key: fieldname
+content-length: 5
+
+Title

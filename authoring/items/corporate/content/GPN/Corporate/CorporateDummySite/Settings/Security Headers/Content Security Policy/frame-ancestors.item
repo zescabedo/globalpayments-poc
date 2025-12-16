@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {3A889440-8AB7-4952-993F-97F1DF6AA819}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Security Headers/Content Security Policy/frame-ancestors
+parent: {9D9672DA-78BB-4964-9B6E-59046E9D2E74}
+name: frame-ancestors
+master: {00000000-0000-0000-0000-000000000000}
+template: {EC2F720B-E083-49B3-AF4D-65A07B5AF4DA}
+templatekey: Policy
+
+----field----
+field: {7EB4D7AF-0D58-4229-A73A-8F5B2BB91EF2}
+name: Allowed Hosts
+key: allowed hosts
+content-length: 38
+
+{0B2347A4-CFC7-43DB-9DB3-141B727ECF59}
+----version----
+language: en
+version: 1
+revision: cc1da75b-38d4-4b12-86e0-6ea50a1e652a
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\tf-steve
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210429T073114Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\tf-steve
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cc1da75b-38d4-4b12-86e0-6ea50a1e652a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210830T111457Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

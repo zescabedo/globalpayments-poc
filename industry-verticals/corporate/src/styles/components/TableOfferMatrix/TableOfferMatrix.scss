@@ -1,0 +1,129 @@
+.table-offer-matrix {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxl');
+
+  // structure
+  .table-matrix-col-sm {
+    @include make-col(4);
+    display: flex;
+    padding-left: 0;
+    @include media-breakpoint-up(sm) {
+      padding-left: map-get($gpn-theme-table-matrix, 'desktop-sm-cell-padding-left');
+      align-items: center;
+      @include make-col(2);
+    }
+  }
+  .table-matrix-col-lg {
+    @include make-col(12);
+    @include media-breakpoint-up(sm) {
+      @include make-col(6);
+    }
+    padding-left: 0;
+  }
+  &.compare-two {
+    .table-matrix-col-sm {
+      @include make-col(6);
+      @include media-breakpoint-up(sm) {
+        @include make-col(2);
+      }
+    }
+    .table-matrix-col-lg {
+      @include make-col(12);
+      @include media-breakpoint-up(sm) {
+        @include make-col(8);
+      }
+    }
+  }
+
+  .table-matrix-component-header {
+    @include make-col(12);
+    @include media-breakpoint-up(sm) {
+      @include make-col(8);
+    }
+    @include media-breakpoint-up(md) {
+      @include make-col(6);
+    }
+  }
+  // end structure
+
+  .table-matrix-component-header {
+    display: flex;
+    flex-direction: column;
+    @include gpn-spacing([ 'gap'], 'xs');
+    @include media-breakpoint-up(sm) {
+      margin-bottom: gpn-spacing-size('sm', 'sm');
+    }
+
+    .table-matrix-header {
+      @extend %h-lg;
+    }
+    .table-matrix-details {
+      &,
+      p {
+        @extend %p-md;
+      }
+    }
+  }
+
+  .table-wrapper {
+    .row {
+      border-bottom: 1px $gpn-theme-grey-400 solid;
+      margin: auto;
+      width: 100%;
+      min-height: map-get($gpn-theme-table-matrix, 'min-height');
+      @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxs');
+
+      &.table-body-row {
+        @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xs');
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    .table-matrix-col-subheader {
+      @extend %p-sm;
+    }
+    .table-matrix-col-header {
+      @extend %h-xs;
+    }
+  }
+  .mobile-header {
+    color: map-get($gpn-theme-table-matrix, 'mobile-header-text-color');
+    @extend %p-sm;
+    font-weight: $gpn-theme-font-weight-bold;
+    @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xs');
+    @include media-breakpoint-up(sm) {
+      display: none;
+    }
+  }
+  .cell {
+    @extend %p-sm;
+    p {
+      @extend %p-sm;
+    }
+  }
+
+  .table-matrix-feature-category {
+    @extend %h-xxs;
+    @include gpn-spacing('margin-bottom', 'xxs');
+  }
+}
+
+@each $theme, $colour in $gpn-theme-colour-themes {
+  @if is-dark-theme-colour($theme) {
+    .bg-#{$theme} {
+      .table-matrix-details,
+      .cell {
+        color: map-get($colour, 'text-on-dark-theme');
+
+        .mobile-header {
+          color: map-get($colour, 'text-on-dark-theme');
+        }
+      }
+
+      .table-matrix-feature-category {
+        color: map-get($colour, 'text-on-dark-theme');
+      }
+    }
+  }
+}

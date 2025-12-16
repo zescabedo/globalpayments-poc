@@ -1,0 +1,253 @@
+/**
+ * Global Payments Design System Variables
+ * 
+ * SCSS variables aligned with Global Payments Storybook design tokens
+ * Reference: https://design.globalpayments.com
+ */
+
+// ============================================================================
+// Typography Variables
+// ============================================================================
+
+// Display Styles
+$gpn-display-xxl-size: 9.0rem;
+$gpn-display-xxl-line: 9.0rem;
+$gpn-display-xl-size: 6.4rem;
+$gpn-display-xl-line: 7.2rem;
+$gpn-display-lg-size: 4.8rem;
+$gpn-display-lg-line: 6.0rem;
+$gpn-display-md-size: 3.2rem;
+$gpn-display-md-line: 4.0rem;
+
+// Title Styles
+$gpn-title-sm-size: 2.4rem;
+$gpn-title-sm-line: 3.2rem;
+$gpn-title-xs-size: 2.0rem;
+$gpn-title-xs-line: 2.8rem;
+$gpn-title-xxs-size: 1.6rem;
+$gpn-title-xxs-line: 2.4rem;
+
+// Body Styles
+$gpn-body-md-size: 2.0rem;
+$gpn-body-md-line: 3.2rem;
+$gpn-body-sm-size: 1.6rem;
+$gpn-body-sm-line: 2.4rem;
+$gpn-body-xs-size: 1.2rem;
+$gpn-body-xs-line: 1.6rem;
+$gpn-body-xxs-size: 0.8rem;
+$gpn-body-xxs-line: 1.2rem;
+
+// Label Styles
+$gpn-label-xxl-size: 7.2rem;
+$gpn-label-xxl-line: 7.2rem;
+$gpn-label-xl-size: 5.6rem;
+$gpn-label-xl-line: 5.6rem;
+$gpn-label-lg-size: 4.0rem;
+$gpn-label-lg-line: 4.0rem;
+$gpn-label-md-size: 2.4rem;
+$gpn-label-md-line: 3.6rem;
+$gpn-label-sm-size: 1.6rem;
+$gpn-label-sm-line: 2.4rem;
+$gpn-label-xs-size: 1.2rem;
+$gpn-label-xs-line: 2.4rem;
+
+// ============================================================================
+// Color Variables
+// ============================================================================
+
+// Primary Colors
+$gpn-white: #FFFFFF;
+$gpn-blue-500: #262AFF; // Primary brand blue (Base)
+
+// Secondary Colors
+$gpn-blue-600: #1B1EC6; // Darker brand blue
+$gpn-black-950: #0C0C0C; // Near-black for text (Off-Black)
+
+// Tertiary Colors
+$gpn-blue-300: #1CABFF; // Light accent blue (Pulse)
+$gpn-yellow-310: #FFCC00; // Bright yellow accent (Sunshine)
+$gpn-orange-200: #FDA052; // Orange accent color (Creamsicle)
+$gpn-red-200: #F4364C; // Error and alert red (Raspberry)
+$gpn-purple-400: #87179D; // Purple accent (Grape)
+$gpn-green-210: #00C75D; // Success state green
+
+// Neutral Colors (Grey Scale)
+$gpn-grey-110: #F8F8F8; // Lightest grey (Faint)
+$gpn-grey-120: #F4F4F4; // Very light grey (Subtle)
+$gpn-grey-200: #EEEEEE; // Light grey
+$gpn-grey-300: #DDDDDD; // Medium-light grey
+$gpn-grey-400: #C4C4C4; // Medium grey
+$gpn-grey-500: #909090; // Medium-dark grey
+$gpn-grey-600: #595959; // Dark grey
+
+// Theme Colors (Semantic)
+$gpn-theme-base: $gpn-blue-500; // Primary theme color
+$gpn-theme-dark: $gpn-blue-600; // Dark theme color
+$gpn-theme-light: #DDF2FF; // Light accent (Bright)
+$gpn-theme-black: #000000; // True black
+
+// Gradients
+$gpn-gradient-horizon: linear-gradient(to right, $gpn-blue-300, $gpn-blue-500);
+$gpn-gradient-deep: linear-gradient(to right, $gpn-blue-500, $gpn-blue-600);
+$gpn-gradient-linear: linear-gradient(to bottom, $gpn-grey-110, $gpn-white);
+
+// ============================================================================
+// Spacing Variables
+// ============================================================================
+
+// Base spacing unit
+$gpn-spacing-base: 0.8rem; // 8px
+
+// Responsive Spacing Tokens (Desktop / Tablet / Mobile)
+$gpn-spacing-macro-desktop: 14.4rem; // 144px
+$gpn-spacing-macro-tablet: 8rem;     // 80px
+$gpn-spacing-macro-mobile: 6.4rem;   // 64px
+
+$gpn-spacing-xxxl-desktop: 8rem;     // 80px
+$gpn-spacing-xxxl-tablet: 7.2rem;    // 72px
+$gpn-spacing-xxxl-mobile: 6.4rem;   // 64px
+
+$gpn-spacing-xxl-desktop: 6.4rem;    // 64px
+$gpn-spacing-xxl-tablet: 5.6rem;     // 56px
+$gpn-spacing-xxl-mobile: 4.8rem;     // 48px
+
+$gpn-spacing-xl-desktop: 4.8rem;     // 48px
+$gpn-spacing-xl-tablet: 4rem;         // 40px
+$gpn-spacing-xl-mobile: 4rem;        // 40px
+
+$gpn-spacing-lg-desktop: 4rem;       // 40px
+$gpn-spacing-lg-tablet: 4rem;        // 40px
+$gpn-spacing-lg-mobile: 3.2rem;      // 32px
+
+$gpn-spacing-md-desktop: 3.2rem;     // 32px
+$gpn-spacing-md-tablet: 2.4rem;      // 24px
+$gpn-spacing-md-mobile: 2.4rem;      // 24px
+
+$gpn-spacing-sm-desktop: 2.4rem;     // 24px
+$gpn-spacing-sm-tablet: 2.4rem;      // 24px
+$gpn-spacing-sm-mobile: 2.4rem;      // 24px
+
+$gpn-spacing-xs-desktop: 1.6rem;     // 16px
+$gpn-spacing-xs-tablet: 1.6rem;      // 16px
+$gpn-spacing-xs-mobile: 1.6rem;      // 16px
+
+$gpn-spacing-xxs-desktop: 0.8rem;    // 8px
+$gpn-spacing-xxs-tablet: 0.8rem;     // 8px
+$gpn-spacing-xxs-mobile: 0.8rem;     // 8px
+
+$gpn-spacing-xxxx-desktop: 0.4rem;  // 4px
+$gpn-spacing-xxxx-tablet: 0.4rem;     // 4px
+$gpn-spacing-xxxx-mobile: 0.4rem;    // 4px
+
+$gpn-spacing-micro-desktop: 0.2rem;  // 2px
+$gpn-spacing-micro-tablet: 0.2rem;  // 2px
+$gpn-spacing-micro-mobile: 0.2rem;   // 2px
+
+// Bootstrap Spacers (Fixed values)
+$gpn-spacer-0: 0;
+$gpn-spacer-1: 0.8rem;   // 8px
+$gpn-spacer-2: 1.6rem;   // 16px
+$gpn-spacer-3: 2.4rem;   // 24px
+$gpn-spacer-4: 3.2rem;   // 32px
+$gpn-spacer-5: 4rem;     // 40px
+$gpn-spacer-6: 4.8rem;   // 48px
+$gpn-spacer-7: 5.6rem;   // 56px
+$gpn-spacer-8: 6.4rem;   // 64px
+$gpn-spacer-9: 7.2rem;   // 72px
+$gpn-spacer-10: 8rem;    // 80px
+$gpn-spacer-11: 8.8rem;  // 88px
+$gpn-spacer-12: 9.6rem;  // 96px
+$gpn-spacer-16: 12.8rem; // 128px
+$gpn-spacer-18: 14.4rem; // 144px
+$gpn-spacer-20: 16rem;   // 160px
+
+// ============================================================================
+// Breakpoints
+// ============================================================================
+
+$gpn-breakpoint-mobile: 0px;
+$gpn-breakpoint-tablet: 768px;
+$gpn-breakpoint-desktop: 1024px;
+$gpn-breakpoint-large: 1366px;
+
+// ============================================================================
+// CSS Custom Properties (CSS Variables)
+// ============================================================================
+
+:root {
+  // Typography
+  --gpn-display-xxl-size: #{$gpn-display-xxl-size};
+  --gpn-display-xxl-line: #{$gpn-display-xxl-line};
+  --gpn-display-xl-size: #{$gpn-display-xl-size};
+  --gpn-display-xl-line: #{$gpn-display-xl-line};
+  --gpn-display-lg-size: #{$gpn-display-lg-size};
+  --gpn-display-lg-line: #{$gpn-display-lg-line};
+  --gpn-display-md-size: #{$gpn-display-md-size};
+  --gpn-display-md-line: #{$gpn-display-md-line};
+  
+  --gpn-title-sm-size: #{$gpn-title-sm-size};
+  --gpn-title-sm-line: #{$gpn-title-sm-line};
+  --gpn-title-xs-size: #{$gpn-title-xs-size};
+  --gpn-title-xs-line: #{$gpn-title-xs-line};
+  --gpn-title-xxs-size: #{$gpn-title-xxs-size};
+  --gpn-title-xxs-line: #{$gpn-title-xxs-line};
+  
+  --gpn-body-md-size: #{$gpn-body-md-size};
+  --gpn-body-md-line: #{$gpn-body-md-line};
+  --gpn-body-sm-size: #{$gpn-body-sm-size};
+  --gpn-body-sm-line: #{$gpn-body-sm-line};
+  --gpn-body-xs-size: #{$gpn-body-xs-size};
+  --gpn-body-xs-line: #{$gpn-body-xs-line};
+  --gpn-body-xxs-size: #{$gpn-body-xxs-size};
+  --gpn-body-xxs-line: #{$gpn-body-xxs-line};
+  
+  --gpn-label-xxl-size: #{$gpn-label-xxl-size};
+  --gpn-label-xxl-line: #{$gpn-label-xxl-line};
+  --gpn-label-xl-size: #{$gpn-label-xl-size};
+  --gpn-label-xl-line: #{$gpn-label-xl-line};
+  --gpn-label-lg-size: #{$gpn-label-lg-size};
+  --gpn-label-lg-line: #{$gpn-label-lg-line};
+  --gpn-label-md-size: #{$gpn-label-md-size};
+  --gpn-label-md-line: #{$gpn-label-md-line};
+  --gpn-label-sm-size: #{$gpn-label-sm-size};
+  --gpn-label-sm-line: #{$gpn-label-sm-line};
+  --gpn-label-xs-size: #{$gpn-label-xs-size};
+  --gpn-label-xs-line: #{$gpn-label-xs-line};
+  
+  // Colors
+  --gpn-theme-white-255: #{$gpn-white};
+  --gpn-theme-blue-500: #{$gpn-blue-500};
+  --gpn-theme-blue-600: #{$gpn-blue-600};
+  --gpn-theme-black-950: #{$gpn-black-950};
+  --gpn-theme-blue-300: #{$gpn-blue-300};
+  --gpn-theme-yellow-310: #{$gpn-yellow-310};
+  --gpn-theme-orange-200: #{$gpn-orange-200};
+  --gpn-theme-red-200: #{$gpn-red-200};
+  --gpn-theme-purple-400: #{$gpn-purple-400};
+  --gpn-theme-green-210: #{$gpn-green-210};
+  --gpn-theme-grey-110: #{$gpn-grey-110};
+  --gpn-theme-grey-120: #{$gpn-grey-120};
+  --gpn-theme-grey-200: #{$gpn-grey-200};
+  --gpn-theme-grey-300: #{$gpn-grey-300};
+  --gpn-theme-grey-400: #{$gpn-grey-400};
+  --gpn-theme-grey-500: #{$gpn-grey-500};
+  --gpn-theme-grey-600: #{$gpn-grey-600};
+  --gpn-theme-base: #{$gpn-theme-base};
+  --gpn-theme-dark: #{$gpn-theme-dark};
+  --gpn-theme-light: #{$gpn-theme-light};
+  --gpn-theme-black: #{$gpn-theme-black};
+  
+  // Spacing
+  --gpn-spacing-base: #{$gpn-spacing-base};
+  --gpn-spacing-md-desktop: #{$gpn-spacing-md-desktop};
+  --gpn-spacing-md-tablet: #{$gpn-spacing-md-tablet};
+  --gpn-spacing-md-mobile: #{$gpn-spacing-md-mobile};
+}
+
+
+
+
+
+
+
+

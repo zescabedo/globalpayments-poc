@@ -1,0 +1,176 @@
+----item----
+version: 1
+id: {40C5429D-8877-4F12-9824-69C77F629DA8}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Hero/Content Bg Image Text Right/Scriban
+parent: {BD4662BB-6E7F-450D-B419-DE07BACC7B79}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 2257
+
+{{ if (!o_pagemode.is_experience_editor_editing) 
+  $i_url = ""
+
+  p_bgurl = sc_follow i_datasource "HeroBackgroundImage" | sc_medialink
+  p_sm_bgurl = sc_follow i_datasource "HeroSmImage" | sc_medialink
+
+  if(p_bgurl && p_bgurl != "" && p_bgurl != "#")
+    p_md_bgurl = p_bgurl
+    $i_url = p_bgurl
+    p_bgurl = "background-image:url('" +p_bgurl + "')"
+  else
+     p_bgurl = ""
+     p_md_bgurl = p_bgurl
+  end
+
+  if(p_sm_bgurl && p_sm_bgurl != "" && p_sm_bgurl != "#")
+    p_sm_bgurl = p_sm_bgurl
+  else
+     p_sm_bgurl = ""
+  end
+
+  i_targetBgSize = i_datasource.BackgroundSize
+ 
+  if(i_targetBgSize && i_targetBgSize != "")
+    p_bgsize = sc_follow i_datasource "BackgroundSize" | sc_field "Value"
+    p_bgsize = "background-size:" + p_bgsize  + ";"
+  else
+     p_bgsize = ""
+  end
+
+  p_mobx = sc_raw i_datasource "Mobile X Point"
+  p_moby =  sc_raw i_datasource "Mobile Y Point"
+  p_nonmobx = sc_raw i_datasource "NonMobile X Point"
+  p_nonmoby = sc_raw i_datasource "NonMobile Y Point"
+
+  $cta = get_general_link_info i_datasource "HeroLink"
+ 
+ -}}
+  <div class="hero-bg image-focal-set" style="{{p_bgurl}};{{p_bgsize}}" data-mobxfp="{{ p_mobx ?? '' }}"  data-mobyfp="{{ p_moby ?? '' }}" data-nonmobxfp="{{  p_nonmobx ?? '' }}"  data-nonmobyfp="{{ p_nonmoby ?? '' }}" data-mobilebg="{{ p_sm_bgurl }}" data-desktopbg="{{ p_md_bgurl }}"> 
+{{end }}
+
+{{ if (o_pagemode.is_experience_editor_editing) }}
+ <div class="hero-bg">
+{{ end }}
+</div>
+
+<div class="container">
+    <div class="row promo-content">
+      <div class="col-12 col-md-7 offset-md-5 col-lg-5 offset-lg-7 component rich-text">
+        <div class="promo-text">
+          <div>
+            <div class="field-herotext">{{ sc_field i_datasource 'HeroText' }}</div>
+            <div class="field-herotext2">{{ sc_field i_datasource 'HeroText2' }}</div>
+            <div class="col-12 col-lg-7 p-0 field-herotext3">{{ sc_field i_datasource 'HeroText3' }}</div>
+          </div>
+          {{ if $a != null && $a.url != "" }}
+          <div class="field-herolink">
+            <a href="{{ $cta.url }}" class="{{ $cta.styleclass}}">{{ $cta.text }}</a>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</div>
+
+----version----
+language: en-CA
+version: 1
+revision: 57d5ce3d-0d82-4e96-93bd-d67bde4a9a95
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210526T101033Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+57d5ce3d-0d82-4e96-93bd-d67bde4a9a95
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065847Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 03824470-73ba-4682-837e-b2614159361c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210526T101033Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+03824470-73ba-4682-837e-b2614159361c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080324Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

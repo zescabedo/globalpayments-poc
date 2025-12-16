@@ -1,0 +1,133 @@
+----item----
+version: 1
+id: {D0CCBD6B-F359-4C08-911F-B4E8CDDFC0B5}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Partial Designs/Global/Header old nav/Data/ImageLight
+parent: {CBF0D904-2F0A-42D1-A0E4-D37B7DAC025B}
+name: ImageLight
+master: {00000000-0000-0000-0000-000000000000}
+template: {BB8A85AB-1F6D-4518-8772-1C9F4F8DAC18}
+templatekey: Image
+
+----version----
+language: en-CA
+version: 1
+revision: 738a9bae-94bf-4783-8e2a-410d890fa19e
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{9D03A35B-2A25-4F57-B820-366CFFE97D16}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 133
+
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+738a9bae-94bf-4783-8e2a-410d890fa19e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230627T151211Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: fr-CA
+version: 1
+revision: 7e24e244-329e-48b6-87f2-f8b2e7f74db5
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{9D03A35B-2A25-4F57-B820-366CFFE97D16}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 133
+
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7e24e244-329e-48b6-87f2-f8b2e7f74db5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230627T151230Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

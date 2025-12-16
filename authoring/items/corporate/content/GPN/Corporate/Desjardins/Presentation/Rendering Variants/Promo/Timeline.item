@@ -1,0 +1,32 @@
+----item----
+version: 1
+id: {F25AA8C9-BB89-4B57-ABB4-790F6276B450}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Promo/Timeline
+parent: {917B16B7-8059-46AD-8C47-7E1D11378879}
+name: Timeline
+master: {00000000-0000-0000-0000-000000000000}
+template: {FB3E3034-33F8-4CE8-BE98-DD05010F4C22}
+templatekey: Variant Definition
+
+----field----
+field: {E1D5ADBA-8348-4127-9BB6-455936653839}
+name: CssClass
+key: cssclass
+content-length: 14
+
+promo-timeline
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{5DF9B10F-F5B5-4E6A-AD58-08125A701147}

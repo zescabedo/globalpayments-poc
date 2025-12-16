@@ -1,0 +1,101 @@
+.component.uptick-author-card-list {
+
+    @include gpn-spacing(['padding-top', 'padding-bottom'], 'lg');
+
+
+    // structure
+    .title-row {
+        @include make-col(12);
+        @include media-breakpoint-up(lg) {
+            @include make-col(8);
+            @include make-col-offset(2);
+        }
+    }
+
+    .authors-listing {
+        @include make-col(12);
+        @include make-row();
+
+        .author-card {
+            display: flex;
+            flex-direction: column;
+            @include gpn-spacing('gap', 'lg');
+            @include make-col(12);
+
+            @include media-breakpoint-up(lg) {
+                @include make-col(6);
+                flex-direction: row;
+            }
+
+            @include media-breakpoint-up(md) { 
+                //gap: unset;
+                flex-direction: row;
+            }
+
+            .author-image {
+                @include make-col(7);
+                @include media-breakpoint-up(md) {
+                    @include make-col(3);
+                }
+                img{
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+
+            .author-details {
+                @include make-col(12);
+                @include media-breakpoint-up(md) {
+                    @include make-col(9);
+                }
+                display: flex;
+                flex-direction: column;
+                @include gpn-spacing('gap', 'xs');
+                max-width: 424px;
+
+                .btn-cta-tertiary{
+                    color: $gpn-theme-base !important;
+                }
+            }
+        }
+    }
+
+    // content
+    .title-row {
+        text-align: center;
+        .title { @extend %h-xl; }
+        .subtitle { @extend %p-lg; }
+    }
+
+
+    .author-card {
+        @include gpn-spacing(['padding-top', 'padding-bottom'], 'lg');
+        .author-details {
+            .author-name {
+                @extend %title-sm;
+            }
+            // @include media-breakpoint-up(lg) {
+            //     @extend %h-xs;
+            // }
+
+            .author-biography {
+                &, & > * {
+                    @extend %p-sm;
+                }
+            }
+            .areas-of-expertise {
+                display: flex;
+                flex-direction: column;
+                @include gpn-spacing('gap', 'xxs');
+
+                > p { 
+                    @extend %p-xs;
+                }
+            }
+
+            .uptick-content-taxonomy {
+                flex-wrap: wrap;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+// Headings
+%display-xxl, %h-xxl, %h-lead { @include font-base($gpn-theme-h-display-xxl-font); }
+%display-xl,  %h-xl { @include font-base($gpn-theme-h-display-xl-font); }
+%display-lg,  %h-lg { @include font-base($gpn-theme-h-display-lg-font); }
+%display-md,  %h-md { @include font-base($gpn-theme-h-display-md-font); }
+%title-sm,    %h-sm { @include font-base($gpn-theme-h-title-sm-font); }
+%title-xs,    %h-xs { @include font-base($gpn-theme-h-title-xs-font); }
+%title-xxs,   %h-xxs, %h-footer { @include font-base($gpn-theme-h-title-xxs-font); }
+
+// Labels
+%label-xxl, %label-stat-xxl, %h-statistic { @include font-base($gpn-theme-label-xxl-font); }
+%label-xl,  %label-stat-xl  { @include font-base($gpn-theme-label-xl-font); }
+%label-lg { @include font-base($gpn-theme-label-lg-font); }
+%label-md { @include font-base($gpn-theme-label-md-font); }
+%label-xs { @include font-base($gpn-theme-label-xs-font); }
+%label-xxs { @include font-base($gpn-theme-label-xxs-font); }
+
+
+h1 { @extend %h-xl; }
+h2 { @extend %h-lg; }
+h3 { @extend %h-md; }
+h4 { @extend %h-sm; }
+h5 { @extend %h-xs; }
+h6 { @extend %h-xxs; }
+
+.display-xxl, .h-xxl, .h-lead { @include font-base($gpn-theme-h-display-xxl-font, true); }
+.display-xl, .h-xl { @include font-base($gpn-theme-h-display-xl-font, true); }
+.display-lg, .h-lg { @include font-base($gpn-theme-h-display-lg-font, true); }
+.display-md, .h-md { @include font-base($gpn-theme-h-display-md-font, true); }
+.title-sm, .h-sm { @include font-base($gpn-theme-h-title-sm-font, true); }
+.title-xs, .h-xs { @include font-base($gpn-theme-h-title-xs-font, true); }
+.title-xxs, .h-xxs { @include font-base($gpn-theme-h-title-xxs-font, true); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    // unfortunately we cannot just extend the %h-... classes because
+    // we need to override due to css specificity rules
+    &.display, &.lead, &.xxl { @include font-base($gpn-theme-h-display-xxl-font); }
+    &.xl { @include font-base($gpn-theme-h-display-xl-font); }
+    &.lg { @include font-base($gpn-theme-h-display-lg-font); }
+    &.md { @include font-base($gpn-theme-h-display-md-font); }
+    &.sm { @include font-base($gpn-theme-h-title-sm-font); }
+    &.xs { @include font-base($gpn-theme-h-title-xs-font); }
+    &.xxs, &.footer { @include font-base($gpn-theme-h-title-xxs-font); }
+
+    &.uppercase { text-transform: uppercase;}
+    a:not(.btn):not(.link-glow) { @include link; }
+}
+
+
+// these are only defined because they're used in some of the components styling
+%h-brow, %p-brow { @include font-base($gpn-theme-label-md-font); }
+%p-lead { @include font-base($gpn-theme-label-lg-font); }
+%h-statistic, %p-statistic { @include font-base($gpn-theme-h-display-xxl-font); }

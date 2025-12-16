@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {3473BFFC-8AF5-4144-8F47-7AEDE6175F86}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Promo/Text Tab
+parent: {917B16B7-8059-46AD-8C47-7E1D11378879}
+name: Text Tab
+master: {00000000-0000-0000-0000-000000000000}
+template: {FB3E3034-33F8-4CE8-BE98-DD05010F4C22}
+templatekey: Variant Definition
+
+----field----
+field: {E1D5ADBA-8348-4127-9BB6-455936653839}
+name: CssClass
+key: cssclass
+content-length: 7
+
+texttab

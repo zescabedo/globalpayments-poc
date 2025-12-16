@@ -1,0 +1,60 @@
+// Headings
+
+$gpn-theme-h-display-xxl-font: (
+  weight: $gpn-theme-font-weight-black,
+  desktop-font-size: 9rem,
+  desktop-line-height: 1,
+  tablet-font-size: 7.2rem,
+  tablet-line-height: 1,
+  mobile-font-size: 6.4rem,
+  mobile-line-height: 1,
+  letter-spacing: -0.18rem,
+) !default;
+
+$gpn-theme-h-display-xl-font: (
+  weight: $gpn-theme-font-weight-black,
+  desktop-font-size: 6.4rem,
+  desktop-line-height: 7.2rem,
+  tablet-font-size: 5.6rem,
+  tablet-line-height: 6rem,
+  mobile-font-size: 4.8rem,
+  mobile-line-height: 5.6rem,
+) !default;
+
+$gpn-theme-h-display-lg-font: (
+  weight: $gpn-theme-font-weight-black,
+  desktop-font-size: 4.8rem,
+  desktop-line-height: 6rem,
+  tablet-font-size: 4rem,
+  tablet-line-height: 4.8rem,
+  mobile-font-size: 3.6rem,
+  mobile-line-height: 4.4rem,
+) !default;
+
+$gpn-theme-h-display-md-font: (
+  weight: $gpn-theme-font-weight-black,
+  desktop-font-size: 3.2rem,
+  desktop-line-height: 4rem,
+  letter-spacing: 0.032rem,
+) !default;
+
+$gpn-theme-h-title-sm-font: (
+  weight: $gpn-theme-font-weight-black,
+  desktop-font-size: 2.4rem,
+  desktop-line-height: 3.2rem,
+  letter-spacing: 0.048rem,
+) !default;
+
+$gpn-theme-h-title-xs-font: (
+  weight: $gpn-theme-font-weight-black,
+  desktop-font-size: 2rem,
+  desktop-line-height: 2.8rem,
+  letter-spacing: 0.04rem,
+) !default;
+
+$gpn-theme-h-title-xxs-font: (
+  weight: $gpn-theme-font-weight-black,
+  desktop-font-size: 1.6rem,
+  desktop-line-height: 2.4rem,
+  letter-spacing: 0.064rem,
+) !default;

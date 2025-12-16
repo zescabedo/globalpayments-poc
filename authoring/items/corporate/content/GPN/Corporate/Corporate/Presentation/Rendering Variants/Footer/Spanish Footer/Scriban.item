@@ -1,0 +1,871 @@
+----item----
+version: 1
+id: {C48F1AA1-C3FF-4D40-9F90-624CF8C14339}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Rendering Variants/Footer/Spanish Footer/Scriban
+parent: {0755D98A-8177-4D11-A077-CE98F3E0E0F4}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 4886
+
+<div class="footer-content row">
+
+    <div class="col-12 col-lg-3 mt-3">
+        <div class="logo"></div>
+        <div class="d-none">
+            <p><strong>{{ i_datasource.RegionSelectorTitle }}</strong></p>
+            {{ $a = get_general_link_info i_datasource "RegionSelectorModal" }}     
+            <a class="btn btn-white overlay-source icon-globe" href="{{ $a.url }}" id="region-selector" data-ea-zone="Footer" data-ea-type="click" data-ea-link="{{ $a.gatext }}">
+                {{ i_datasource.LanguageName }}
+            </a>
+        </div>
+    </div>
+
+    {{ for i_links in i_datasource.FooterLinks.children }}
+    <div class="component link-list col-12 col-md-4 col-lg-4 mt-3">
+        <div class="component-content">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <ul>
+                    {{ for i_link in i_links.children
+                            if for.index >5; break; end;
+                    }}
+                    {{ $a = get_general_link_info i_link "Link" }}
+                    {{if $a.url != ""}}
+                        <li>
+                            {{ $a = get_general_link_info i_link "Link" }}                    
+                            <a href="{{ $a.url }}" title="{{ $a.title }}" target="{{ $a.target }}" data-ea-zone="Footer" data-ea-type="click" data-ea-link="{{ $a.gatext }}">
+                            {{ $a.text }}
+                            {{if $a.linktype == "external"}}
+                            <i class="icon-external-link ml-1"></i>
+                            {{ end }}
+                            </a>
+                        </li>
+                        {{end}}
+                    {{ end }}
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <ul>
+                    {{ for i_link in i_links.children
+                            if for.index <= 5; continue; end;
+                    }}
+                    {{ $a = get_general_link_info i_link "Link" }}
+                    {{if $a.url != ""}}
+                        <li>
+                            {{ $a = get_general_link_info i_link "Link" }}                    
+                            <a href="{{ $a.url }}" title="{{ $a.title }}" target="{{ $a.target }}" data-ea-zone="Footer" data-ea-type="click" data-ea-link="{{ $a.gatext }}">
+                            {{ $a.text }}
+                            {{if $a.linktype == "external"}}
+                            <i class="icon-external-link ml-1"></i>
+                            {{ end }}
+                            </a>
+                        </li>
+                        {{end}}
+                    {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+    <div class="component link-list col-12 col-md-4 col-lg-3  mt-3">
+        <div class="component-content text-center" >
+		
+            <p class="h6-style">{{ i_datasource.CTA1Title }}</p>
+            <p class="p-sm">{{ i_datasource.CTA1Text }}</p>
+            {{ $a = get_general_link_info i_datasource "CTA1Link" }}                    
+            <a class="btn btn-white overlay-source" data-overlay-target="{{ $a.url }}" title="{{ $a.title }}" target="{{ $a.target }}" data-ea-zone="Footer" data-ea-type="click" data-ea-link="{{ $a.gatext }}">{{ $a.text }}</a>
+        </div>
+    </div>
+
+    <div class="component link-list col-12 col-md-4 col-lg-2  mt-3">
+        <div class="component-content">
+            <p class="h6-style">{{ i_datasource.SocialIconsTitle }}</p>
+            <ul>
+            {{ for i_image in i_datasource.SocialIcons.children }}
+            {{
+                $mediaUrl = i_image.Image.media_url
+                $w = "24"
+                $h = "25"
+                $mediaAlt = ''
+                if(i_image.Image)
+                  $mediaAlt = i_image.Image.alt
+                end
+             }}
+                <li>
+                    {{ $a = get_general_link_info i_image "TargetUrl" }}
+                    <a href="{{ $a.url }}" title="{{ $a.title }}" target="{{ $a.target }}" data-ea-zone="Footer" data-ea-type="click" data-ea-link="{{ $a.gatext }}" data-sc-goal="C907B6D1-C87D-41EC-A379-D7B1F9A48726">
+                    {{- if (o_pagemode.is_experience_editor_editing)
+                    -}}
+                        <span>[Edit Image here]</span>
+                        {{ i_image.Image }}
+
+                    {{else}}
+                        <img src='{{$mediaUrl}}' alt='{{$mediaAlt}}' loading="lazy" width="{{$w}}" height="{{$h}}" />
+                    {{ end }} <span class="ml-1">{{ $a.text }}</span>
+                    </a>
+                </li>
+            {{ end }}
+            </ul>
+        </div>
+    </div>
+
+</div>
+----version----
+language: en-150
+version: 1
+revision: 9ddd90b1-f346-4442-a9e1-af151a120b99
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Aneesh_Chowdhury
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9ddd90b1-f346-4442-a9e1-af151a120b99
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230210T062325Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-AU
+version: 1
+revision: 90266663-15de-494f-8bd4-e4951a0fbf63
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Aneesh_Chowdhury
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+90266663-15de-494f-8bd4-e4951a0fbf63
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230817T100918Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-BM
+version: 1
+revision: 6e37819d-f7ad-4e57-8901-99d2ca58faa3
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Aneesh_Chowdhury
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6e37819d-f7ad-4e57-8901-99d2ca58faa3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T153242Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: e5c93bfe-7bd9-4d74-b20d-b2ed850e7dab
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e5c93bfe-7bd9-4d74-b20d-b2ed850e7dab
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230427T232920Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 24
+
+sitecore\Antonio_Johnson
+----version----
+language: en-GB
+version: 1
+revision: 4bb4708e-78d4-454e-824f-720d028fe996
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4bb4708e-78d4-454e-824f-720d028fe996
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T072256Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-HK
+version: 1
+revision: a262d4b0-8a9a-4884-b732-ae086bf438cb
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a262d4b0-8a9a-4884-b732-ae086bf438cb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T073232Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-MT
+version: 1
+revision: a5f5e283-1012-4b8a-b2ff-024e21463581
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Aneesh_Chowdhury
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a5f5e283-1012-4b8a-b2ff-024e21463581
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T153242Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 1
+revision: ffbbe2a7-c196-405f-bf4f-c652f01ce88c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210302T055102Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ffbbe2a7-c196-405f-bf4f-c652f01ce88c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210512T152037Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 17
+
+sitecore\tf-steve
+----version----
+language: en-US
+version: 2
+revision: 3468db07-318d-40e0-b5dd-dbb6e98c0889
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3468db07-318d-40e0-b5dd-dbb6e98c0889
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211213T181625Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Aneesh_Chowdhury
+----version----
+language: en-US
+version: 3
+revision: a157cf8f-a110-44b8-b65b-e48223dedfc7
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20220110T123440Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220110T123440Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a157cf8f-a110-44b8-b65b-e48223dedfc7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220323T165926Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 4
+revision: f16fe189-f4b7-4f35-9da5-67a00e0ede0a
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Aneesh_Chowdhury
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f16fe189-f4b7-4f35-9da5-67a00e0ede0a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240208T234528Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: es-ES
+version: 1
+revision: 2c743060-5ecb-49ff-90b0-2732f3a84331
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20220110T123440Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220110T123440Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c743060-5ecb-49ff-90b0-2732f3a84331
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220908T082004Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Yogendra_Bartwal
+----version----
+language: fr-CA
+version: 1
+revision: 93ff52a6-15c6-46e7-8f07-61612d81a093
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210627T231532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+93ff52a6-15c6-46e7-8f07-61612d81a093
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080353Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: hu-HU
+version: 1
+revision: d4d5544f-d598-4501-8a21-3cc9269a60e8
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220701T144532Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Aneesh_Chowdhury
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d4d5544f-d598-4501-8a21-3cc9269a60e8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220712T045815Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

@@ -1,0 +1,72 @@
+// ======
+// Zindex
+// =======
+
+$gpn-theme-zindex-base: 0;
+$gpn-theme-zindex-arrow: 1;
+
+$gpn-theme-zindex-header-overlay: 996;
+$gpn-theme-zindex-header: $gpn-theme-zindex-header-overlay + 1; //997
+$gpn-theme-zindex-header-mobile-dropdown: $gpn-theme-zindex-header + 1; //998;
+$gpn-theme-zindex-topsearchbox: $gpn-theme-zindex-header-mobile-dropdown + 1; //999
+$gpn-theme-zindex-nav-sidebar: $gpn-theme-zindex-topsearchbox + 1; //1000;
+
+$gpn-theme-zindex-l2-menu: $gpn-theme-zindex-nav-sidebar + 1; //1001
+$gpn-theme-zindex-l2-caret: $gpn-theme-zindex-l2-menu + 1; //1002
+
+$gpn-theme-zindex-component-full-bleed-conatiner: 98;
+$gpn-theme-zindex-component-overlay: 99;
+$gpn-theme-zindex-component-overlay-spinner: $gpn-theme-zindex-component-overlay + 1;
+$gpn-theme-zindex-component-overlay-close: $gpn-theme-zindex-component-overlay-spinner;
+
+$gpn-theme-zindex-modal-close: 100;
+
+$gpn-theme-zindex-video-play: 0;
+$gpn-theme-zindex-video-cover: 0;
+$gpn-theme-zindex-media-element: $gpn-theme-zindex-video-play + 1;
+
+$gpn-theme-zindex-dividers-below: -1;
+$gpn-theme-zindex-copy-banner-below: -1;
+$gpn-theme-zindex-copy-banner-content: 1;
+$gpn-theme-zindex-dividers-base: 0;
+$gpn-theme-zindex-dividers-normal: 1;
+$gpn-theme-zindex-dividers-above: 5;
+
+$gpn-theme-zindex-pif-search-bar-overlay: $gpn-theme-zindex-header-overlay + 10;
+$gpn-theme-zindex-pif-search-bar-input: $gpn-theme-zindex-header-overlay + 15;
+
+$gpn-theme-zindex-menu-hat: 1250;
+
+$gpn-theme-zindex-clickable-card-base: 1;
+$gpn-theme-zindex-clickable-card-show: 2;
+
+$gpn-theme-zindex-tabs-slider-base: 1;
+$gpn-theme-zindex-tabs-slider-show: 10;
+
+$gpn-theme-zindex-media-background: $gpn-theme-zindex-base - 2;
+$gpn-theme-zindex-heroes-media: $gpn-theme-zindex-base - 1;
+
+$gpn-theme-zindex-feature-vertical-video-design: 1;
+$gpn-theme-zindex-feature-vertical-video-wrapper: 2;
+
+$gpn-theme-zindex-btn-wrappper-blog-cards-carousel: 99;
+
+$gpn-theme-mobilemenu: 200;
+$gpn-theme-responsiveslidenav: 150;
+$gpn-theme-responsiveslide: 100;
+$gpn-theme-phonecontent: 6;
+$gpn-theme-phoneframe: 5;
+$gpn-theme-phoneshadow: 4;
+
+$gpn-theme-zindex-blog-card-categories: 2;
+
+$gpn-theme-zindex-l1-heroes-bg-media: 1;
+$gpn-theme-zindex-l1-heroes-content: 2;
+
+$gpn-theme-zindex-featured-heroes-bg-media: 1;
+
+$gpn-theme-zindex-filter-indicator: 2;
+
+//Search Dropdown
+$gpn-theme-search-dropdown: 9;
+$gpn-theme-search-expanded: $gpn-theme-search-dropdown + 1;

@@ -1,0 +1,126 @@
+----item----
+version: 1
+id: {89A440BF-A005-4A14-BB84-22A1A5C2994F}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Security Headers/Referrer Policy
+parent: {9586AFDE-74EC-4E24-B7E9-48CC50D65C88}
+name: Referrer Policy
+master: {F282C1EF-EA6D-47DA-954B-F6306F028363}
+template: {125EC14B-94AB-49F5-88CB-F0F9A942ED1D}
+templatekey: Referrer Policy
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{10095823-FB0A-4F7A-A18B-9CEEFB008AF1}
+----version----
+language: en-GB
+version: 1
+revision: 8bb02535-f7f7-4474-9c97-ef6c667e6c60
+
+----field----
+field: {A3D61AB4-D322-4A94-94D7-CB106AEA45E5}
+name: Policy
+key: policy
+content-length: 38
+
+{FA9753B8-A60B-4DF4-AD40-1C58CE6250EB}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8bb02535-f7f7-4474-9c97-ef6c667e6c60
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210114T034625Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\tf-mark
+----version----
+language: en-US
+version: 1
+revision: 902233a8-89b7-40b7-a6c3-69147e8111cd
+
+----field----
+field: {A3D61AB4-D322-4A94-94D7-CB106AEA45E5}
+name: Policy
+key: policy
+content-length: 38
+
+{FA9753B8-A60B-4DF4-AD40-1C58CE6250EB}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+902233a8-89b7-40b7-a6c3-69147e8111cd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210104T053244Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

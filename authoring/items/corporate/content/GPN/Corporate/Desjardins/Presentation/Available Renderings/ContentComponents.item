@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {95D0EBD1-4499-468D-A841-AB52865F3C9E}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Available Renderings/ContentComponents
+parent: {3DE06951-95F6-469A-B12E-2918AA0AFDB1}
+name: ContentComponents
+master: {00000000-0000-0000-0000-000000000000}
+template: {76DA0A8D-FC7E-42B2-AF1E-205B49E43F98}
+templatekey: Available Renderings
+
+----field----
+field: {715AE6C0-71C8-4744-AB4F-65362D20AD65}
+name: Renderings
+key: renderings
+content-length: 350
+
+{78A7022B-72CF-4946-BBFE-DB7062060155}|{ED1D57EA-0707-440F-A536-49BF5BA6D4A8}|{2BF16BB6-6B93-4C9C-8DD5-4DB584AE4434}|{9B76C19D-4789-4B2B-B502-89A0A761597C}|{4A982BF8-DA9B-4BB9-A1DB-483F2D67134F}|{C47E2BDD-1FED-4E84-BEC2-5203109A4D73}|{C818AA5B-2A32-4EA6-BC1A-EDA6BA349B86}|{813F479D-F430-43B9-B0C4-D12296A2819D}|{B1E548F0-7AD5-4D69-8738-E1C71208DE95}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{D20AC172-E023-434F-B1ED-6D66477DB619}
+----version----
+language: en-CA
+version: 1
+revision: 3a70b83c-9f21-46d5-8c50-c80fc83afad7
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210209T142607Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3a70b83c-9f21-46d5-8c50-c80fc83afad7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065843Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: d64ed4f6-1174-4efd-94e1-44a5c18cfe8c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210209T142607Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d64ed4f6-1174-4efd-94e1-44a5c18cfe8c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080713Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

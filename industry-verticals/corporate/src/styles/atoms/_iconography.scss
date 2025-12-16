@@ -1,0 +1,233 @@
+// mixins ===========
+@mixin no-background {
+  .svg-icon-background {
+    fill: transparent;
+    stroke: transparent;
+  }
+}
+@mixin with-background-colour($colour) {
+  .svg-icon-background {
+    fill: $colour;
+    stroke: $colour;
+  }
+}
+@mixin with-roundedrect-background() {
+  .svg-icon-background {
+    rx: 12%;
+    ry: 12%;
+  }
+}
+@mixin no-activation {
+  .svg-icon-activation {
+    fill: transparent;
+  }
+}
+@mixin with-activation($colour) {
+  .svg-icon-activation {
+    fill: $colour;
+  }
+}
+@mixin with-icon-colour($colour, $isImportant: false) {
+  $important: null;
+  @if $isImportant {
+    $important: !important;
+  }
+  .svg-icon-fill {
+    fill: $colour $important;
+  }
+  .svg-icon-line {
+    stroke: $colour $important;
+  }
+  .svg-icon-line.rounded {
+    @include with-rounded-caps;
+  }
+}
+@mixin with-rounded-caps {
+  .svg-icon-line {
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+}
+
+.svgicon {
+  // deafult stroke
+  .svg-icon-background {
+    stroke-width: 0;
+  }
+  .svg-icon-line {
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+  }
+
+  // default colourings
+  @include no-background;
+  @include no-activation;
+  @include with-icon-colour($gpn-theme-black);
+
+  // hoverstate
+  a:hover &,
+  .btn:hover &,
+  &.active {
+    @include with-activation($gpn-theme-subtle);
+  }
+
+  // colour variants
+  &.base {
+    @include with-icon-colour($gpn-theme-base);
+  }
+
+  &.white {
+    @include with-icon-colour($gpn-theme-white);
+
+    &:not(.hover-reverse) {
+      a:hover &,
+      .btn:hover &,
+      &.active {
+        @include with-icon-colour($gpn-theme-white);
+      }
+    }
+  }
+
+  &.neutral {
+    @include with-icon-colour($gpn-theme-neutral-400);
+
+    &:not(.hover-reverse) {
+      a:hover &,
+      .btn:hover &,
+      &.active {
+        @include with-icon-colour($gpn-theme-neutral-400);
+      }
+    }
+  }
+
+  &.white.hover-reverse {
+    a:hover &,
+    .btn:hover &,
+    &.active {
+      @include with-icon-colour($gpn-theme-black);
+    }
+  }
+
+  &.black.hover-reverse {
+    a:hover &,
+    .btn:hover &,
+    &.active {
+      @include with-icon-colour($gpn-theme-white);
+    }
+  }
+
+  // icon background colour
+  &.with-background {
+    @include with-icon-colour($gpn-theme-white);
+    @include with-background-colour($gpn-theme-base);
+  }
+
+  &.with-background.rect-background {
+    @include with-roundedrect-background();
+    @include with-background-colour($gpn-theme-neutral-110);
+    @include with-icon-colour($gpn-theme-black);
+
+    a:hover &,
+    .btn:hover &,
+    &.active {
+      @include with-activation($gpn-theme-subtle);
+    }
+  }
+
+  &.icon-bg-colour-medium {
+    @include with-icon-colour($gpn-theme-black);
+    @include with-background-colour($gpn-theme-subtle);
+
+    &:not(.hover-reverse) {
+      a:hover &,
+      .btn:hover &,
+      &.active {
+        @include with-activation(darken($gpn-theme-subtle, 20%));
+      }
+    }
+  }
+  &.icon-bg-colour-dark {
+    @include with-icon-colour($gpn-theme-white);
+    @include with-background-colour($gpn-theme-dark);
+  }
+
+  &.base-on-white {
+    @include with-icon-colour($gpn-theme-base);
+    @include with-background-colour($gpn-theme-white);
+  }
+
+  &.white-on-base {
+    @include with-icon-colour($gpn-theme-white);
+    @include with-background-colour($gpn-theme-base);
+  }
+
+  &.white-on-dark {
+    @include with-icon-colour($gpn-theme-white);
+    @include with-background-colour($gpn-theme-dark);
+  }
+
+  &.white-on-blue {
+    @include with-icon-colour($gpn-theme-white);
+    @include with-background-colour($gpn-theme-blue-300);
+  }
+
+  &.white-on-red {
+    @include with-icon-colour($gpn-theme-white);
+    @include with-background-colour($gpn-theme-red-200);
+  }
+
+  &.white-on-purple {
+    @include with-icon-colour($gpn-theme-white);
+    @include with-background-colour($gpn-theme-purple-400);
+  }
+
+  &.white-on-yellow {
+    @include with-icon-colour($gpn-theme-white);
+    @include with-background-colour($gpn-theme-yellow-310);
+  }
+
+  &.white-on-orange {
+    @include with-icon-colour($gpn-theme-white);
+    @include with-background-colour($gpn-theme-orange-200);
+  }
+}
+
+// theme specific variants
+@each $theme, $details in $gpn-theme-colour-themes {
+  @if (is-dark-theme-colour($theme)) {
+    .bg-#{$theme} .svgicon {
+      @include with-icon-colour($gpn-theme-white);
+
+      &.white:not(.hover-reverse) {
+        a:hover &,
+        .btn:hover &,
+        &.active {
+          @include with-icon-colour($gpn-theme-white);
+        }
+      }
+
+      &.white.hover-reverse {
+        a:hover &,
+        .btn:hover &,
+        &.active {
+          @include with-icon-colour($gpn-theme-black);
+        }
+      }
+
+      &.black.hover-reverse {
+        a:hover &,
+        .btn:hover &,
+        &.active {
+          @include with-icon-colour($gpn-theme-white);
+        }
+      }
+
+      // special case for base theme
+      @if ($theme == 'base') {
+        &.with-background:not(.icon-bg-colour-medium):not(.icon-bg-colour-dark) {
+          @include with-background-colour(darken($gpn-theme-base, 20%));
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+----item----
+version: 1
+id: {945279B5-F923-4251-9101-065FC6FF6235}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Scriban Includes/CorporateEcHeader/MobileRegionSwitcher
+parent: {4D91E463-6B61-4985-BB5F-D5D661A20D5D}
+name: MobileRegionSwitcher
+master: {00000000-0000-0000-0000-000000000000}
+template: {CB401771-43AB-4F1E-B711-8C5EA7C37BE1}
+templatekey: Scriban Include
+
+----field----
+field: {241300DA-5F88-498D-B4DD-BBBE04178DE6}
+name: Key
+key: key
+content-length: 42
+
+ec-corporate-header-mobile-region-switcher
+----field----
+field: {E3CDCF5B-6FD6-48B1-A02F-797D3BCD50D8}
+name: Template
+key: template
+content-length: 3508
+
+{{
+    $languageSwitcherType = $1.switcherType
+    $languageItems = null
+
+    if $languageSwitcherType == "region-switcher"
+        $languageItems = get_region_selector_items
+    else if $languageSwitcherType == "language-switcher"
+        $languageItems = get_language_selector_items
+    else
+        # we don't have a switcher type, so return
+        ret 
+    end
+
+    # Don't show the language switcher when we don't have any language items
+    if (!$languageItems) 
+        ret
+    end
+
+    # Don't show the language switcher when we only have one language
+    if $languageItems.LanguageSelectorItems
+        $languageCount = $languageItems.LanguageSelectorItems | array.size
+        if $languageCount <= 1
+            ret
+        end
+    end
+
+}}
+
+<li class="rel-level1 mobile-language-selector" role="menuitem">
+    <div class="navigation-title has-children">
+
+        {{
+            # output title
+            $flagSourceUrl = get_language_flag_url $languageItems.ActiveItem.InnerItem
+
+            $title = $languageItems.ActiveItem.LanguageItem["Display Name"] ?? ""
+            if ($title == "")
+                $title = $languageItems.ActiveItem.LanguageItem.Name
+            end
+            
+            $aProps = "title='" + $title + "' data-ea-zone='Header' data-ea-type='parent tab click' data-ea-link='" + $title + "'"
+            $cssClass = "nav-link nav-item-with-flag is-active-language"
+            $id = $item.ID | format_id 
+            $id = $id | string.prepend "mobile-"
+        }}
+            <a class="{{ $cssClass }}" id="{{ $id }}" {{ $aProps }}>
+                <img src="{{ $flagSourceUrl }}" alt="">
+                <span class="mobile-top-navigation-title" data-content="{{ $title }}">
+                    {{ $title }}
+                </span>
+            </a>
+    </div>
+
+    {{ # Sub menu }}
+    <div role="group" aria-label="{{$title}}" aria-labelledby="{{ $id }}">
+        <div class="head">
+            <div class="chevron-primary-1-prev-sm back-arrow"></div>
+        </div>
+
+        <ul role="menu">
+            {{ 
+                for $language in $languageItems.LanguageSelectorItems
+
+                    $submenuItemFlagSourceUrl = get_language_flag_url $language.InnerItem
+                    $submenuItemTitle = $language.LanguageItem["Display Name"] ?? ""
+                    if ($submenuItemTitle == "")
+                        $submenuItemTitle = $language.LanguageItem.Name
+                    end
+
+                    $href = $language.Href
+
+
+                    $aProps =  "href='" + $href + "' title='" + $submenuItemTitle + "' data-ea-zone='Header' data-ea-type='parent tab click' data-ea-link='" + $submenuItemTitle + "'"
+                    $cssClass = "nav-link nav-item-with-flag"
+
+                    $isActiveLanguage = ($language.LanguageItem.ID == $languageItems.ActiveItem.LanguageItem.ID)
+                    if ($isActiveLanguage) 
+                        $cssClass = $cssClass + " is-active-language"
+                    end
+
+                    
+            }}
+        
+                <li class="rel-level2" role="menuitem">
+                    <a {{ $aProps }} class="{{ $cssClass }}">
+                        <img src="{{ $submenuItemFlagSourceUrl }}" alt=""/>
+                        <span class="navigation-title">{{ $submenuItemTitle }}</span>
+                    </a>
+                </li>
+
+            {{ end }}
+        </ul>
+    </div>
+</li>
+
+----version----
+language: en-US
+version: 1
+revision: db699949-e3a9-4831-aaba-82dbf1cbac8f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20250511T224057Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+db699949-e3a9-4831-aaba-82dbf1cbac8f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250511T224107Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

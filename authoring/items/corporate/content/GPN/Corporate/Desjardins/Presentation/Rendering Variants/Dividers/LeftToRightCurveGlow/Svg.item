@@ -1,0 +1,138 @@
+----item----
+version: 1
+id: {B5BE1B84-6BFE-4F8B-A54A-5054AEDF92A8}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Dividers/LeftToRightCurveGlow/Svg
+parent: {68DE1B6F-89B1-47D7-89F8-DFC2BB20FC2B}
+name: Svg
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 2772
+
+<div class="revealDividersOnScroll" data-type="lr-curve-glow" data-animationname="left-right-curve-glow" data-reverse="true">
+<svg width="1203" height="347" viewBox="0 0 1203 347" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse class="ellipse" rx="40" ry="39.2678" transform="matrix(-1 0 0 1 1125.04 272.916)" fill="url(#paint0_radial)"/>
+<path class="ellipse2" opacity="0.2" d="M1126.99 208.772C1142.93 209.291 1158.12 215.504 1169.71 226.242C1181.3 236.98 1188.5 251.504 1189.95 267.084C1190.8 276.147 1189.68 285.284 1186.65 293.887C1183.62 302.49 1178.76 310.362 1172.4 316.981C1166.03 323.599 1158.3 328.812 1149.72 332.273C1141.15 335.734 1131.92 337.364 1122.65 337.054C1105.39 336.38 1089.11 329.034 1077.35 316.62C1065.59 304.205 1059.31 287.73 1059.89 270.79C1060.46 253.85 1067.84 237.821 1080.41 226.2C1092.98 214.579 1109.73 208.311 1126.99 208.763V208.772Z" stroke="url(#paint1_linear)" stroke-width="4" stroke-miterlimit="10"/>
+<path class="ellipse3" d="M1080.68 240.39C1088.79 229.796 1100.57 222.476 1113.79 219.805C1127.02 217.135 1140.78 219.298 1152.49 225.888C1159.3 229.718 1165.21 234.929 1169.82 241.173C1174.42 247.418 1177.62 254.554 1179.2 262.107C1180.78 269.66 1180.7 277.457 1178.97 284.979C1177.25 292.502 1173.91 299.578 1169.18 305.737C1160.31 317.158 1147.2 324.672 1132.72 326.639C1118.23 328.606 1103.54 324.867 1091.85 316.238C1080.16 307.609 1072.43 294.79 1070.33 280.579C1068.24 266.368 1071.95 251.919 1080.67 240.386L1080.68 240.39Z" stroke="url(#paint2_linear)" stroke-width="7" stroke-miterlimit="10"/>
+<path class="arrow" d="M1136.4 266L1125.2 286.606L1114 266H1136.4Z" fill="#1A3E6F"/>
+<path class="line" d="M1124.5 280V168H101.5C46.2715 168 1.5 123.228 1.5 68V56V0" stroke="#003C71" stroke-width="2.5"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(40 39.2678) rotate(90) scale(39.2678 40)">
+<stop stop-color="#65DA76"/>
+<stop offset="1" stop-color="#65DA76" stop-opacity="0.2"/>
+</radialGradient>
+<linearGradient id="paint1_linear" x1="1173.72" y1="320.902" x2="1077.76" y2="223.128" gradientUnits="userSpaceOnUse">
+<stop offset="0.11" stop-color="#65DA76" stop-opacity="0.08"/>
+<stop offset="0.34" stop-color="#65DA76"/>
+<stop offset="0.73" stop-color="#65DA76"/>
+<stop offset="1" stop-color="#65DA76" stop-opacity="0.4"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="1182.61" y1="263.116" x2="1067.38" y2="283.704" gradientUnits="userSpaceOnUse">
+<stop offset="0.11" stop-color="#65DA76" stop-opacity="0.26"/>
+<stop offset="0.34" stop-color="#65DA76"/>
+<stop offset="0.657206" stop-color="#65DA76"/>
+<stop offset="1" stop-color="#65DA76" stop-opacity="0.2"/>
+</linearGradient>
+</defs>
+</svg>
+</div>
+----version----
+language: en-CA
+version: 1
+revision: 2e9b1623-4a23-4f8e-9086-25773e788286
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210226T104243Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2e9b1623-4a23-4f8e-9086-25773e788286
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065814Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 36ac12b5-745a-4b40-81bf-9739dc2fbf58
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210226T104243Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+36ac12b5-745a-4b40-81bf-9739dc2fbf58
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080303Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

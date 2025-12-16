@@ -1,0 +1,96 @@
+.content-logo-grid {
+  @include gpn-spacing(['padding-bottom', 'padding-top'], 'xxxl');
+  .row {
+    align-items: map-get($gpn-content-logo-grid, 'row-items-alignment');
+    @include gpn-spacing(['gap'], 'xxl');
+
+    @include media-breakpoint-up(md) {
+      gap: 0;
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      @include gpn-spacing(['gap'], 'xs');
+      @include make-col(12);
+
+      @include media-breakpoint-up(md) {
+        @include make-col(5);
+      }
+
+      .title {
+        @extend %h-md;
+      }
+
+      .details {
+        @extend %p-md;
+      }
+    }
+
+    .logo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      @include gpn-spacing(['gap'], 'lg');
+      @include make-col(12);
+
+      @include media-breakpoint-up(md) {
+        @include make-col(6);
+        @include make-col-offset(1);
+        padding: 0;
+      }
+
+      .logo-wrapper {
+        width: gpn-spacing-size('md', 'xxxl');
+        height: gpn-spacing-size('sm', 'xxl');
+
+        img {
+          max-height: 100%;
+          max-width: 100%;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &.five-in-row {
+    .logo-gallery {
+      .logo-wrapper {
+        width: map-get($gpn-content-logo-grid, 'five-per-row-width');
+        height: map-get($gpn-content-logo-grid, 'five-per-row-height');
+      }
+    }
+  }
+
+  &.four-in-row {
+    .logo-gallery {
+      .logo-wrapper {
+        width: map-get($gpn-content-logo-grid, 'four-per-row-width');
+        height: map-get($gpn-content-logo-grid, 'four-per-row-height');
+      }
+    }
+  }
+
+  &.three-in-row {
+    .logo-gallery {
+      .logo-wrapper {
+        width: map-get($gpn-content-logo-grid, 'three-per-row-width');
+        height: map-get($gpn-content-logo-grid, 'three-per-row-height');
+      }
+    }
+  }
+
+  @each $theme, $details in $gpn-theme-colour-themes {
+    &.bg-#{$theme} {
+      .row {
+        .content-wrapper {
+          > div {
+            color: get-theme-colour-for($theme, $details);
+          }
+        }
+      }
+    }
+  }
+}

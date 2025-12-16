@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {64491DF4-CAB6-43E8-81BE-EAC13A2FFC26}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Blog/Blog Content Page
+parent: {38E45425-9564-4D70-9500-CEE5934B6167}
+name: Blog Content Page
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 194
+
+{B6A3E5A8-C230-4D9D-A297-4683F064DEFF}|{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{A9CF7E41-EE1C-4091-B951-5998636D7251}|{58CFCC34-0DF3-46E5-8518-0C2F6850311A}|{0D34EA16-3126-4E21-853B-8B808098FF1A}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{5705772A-474F-4A34-9E66-304CBBF67504}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 24
+
+Network/16x16/server.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: eb77d023-e84f-4017-9b3e-b208c6cd612c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T102215Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eb77d023-e84f-4017-9b3e-b208c6cd612c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210215T035228Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

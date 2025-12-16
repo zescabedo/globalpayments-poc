@@ -1,0 +1,119 @@
+.component.related-content-cards {
+  @include make-col(12);
+  // @include gpn-spacing(['padding-top', 'padding-bottom'], 'xxl'); // TBD padding-top and padding-bottom is 60px in figma
+
+  // Padding values overwritten to 60px
+  padding-top: gpn-spacing-size('lg', 'xxl');
+  padding-bottom: gpn-spacing-size('lg', 'xxl');
+
+  @include media-breakpoint-up(md) {
+    padding-top: gpn-spacing-size('md', 'lg');
+    padding-bottom: gpn-spacing-size('md', 'lg');
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: gpn-spacing-size('lg', 'xxl');
+    padding-bottom: gpn-spacing-size('lg', 'xxl');
+  }
+
+  .row {
+    align-items: center;
+    justify-content: center;
+
+    .title-row {
+      @include make-col(12);
+
+      text-align: left;
+      margin-bottom: gpn-spacing-size('sm', 'lg');
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: gpn-spacing-size('md', 'md'); // TBD margin-bottom value is 34px in Figma
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-bottom: gpn-spacing-size('lg', 'sm'); // TBD margin-bottom value is 47px in Figma
+      }
+
+      .title,
+      .title strong {
+        color: $gpn-theme-black;
+        @extend %h-md;
+        //font-weight: $gpn-theme-font-weight-light; // Font weight overwritten
+      }
+    }
+  }
+
+  .card-list-items {
+    @include make-row();
+    align-items: flex-start;
+    gap: gpn-spacing-size('sm', 'xl');
+
+    @include media-breakpoint-up(md) {
+      row-gap: gpn-spacing-size('sm', 'xxl');
+      column-gap: gpn-spacing-size('md', 'sm');
+    }
+
+    @include media-breakpoint-up(lg) {
+      row-gap: unset;
+      column-gap: unset;
+      gap: gpn-spacing-size('lg', 'md');
+    }
+
+    .uptick-card {
+      display: flex;
+      flex-direction: column;
+      @include gpn-spacing('gap', 'lg');
+      padding: 0;
+
+      @include media-breakpoint-up(md) {
+        flex: 0 0 calc(50% - 1.2rem);
+        max-width: calc(50% - 1.2rem);
+      }
+
+      @include media-breakpoint-up(lg) {
+        @include make-col(3); // 4 in a row
+        flex-direction: column;
+        padding-right: 0;
+        padding-left: 0;
+        flex: 1 1 0;
+        max-width: 100%;
+      }
+
+      .card-content {
+        display: flex;
+        flex-direction: column;
+
+        @include media-breakpoint-up(md) {
+          // flex-direction: row;
+          display: flex;
+          flex-direction: column !important; // Force image on top, content below
+        }
+
+        @include media-breakpoint-up(lg) {
+          flex-direction: column;
+        }
+
+        .card-image {
+          @include make-col(12);
+          margin-bottom: gpn-spacing-size('sm', 'sm');
+          width: 100%;
+
+          @include media-breakpoint-up(md) {
+            @include make-col(4);
+            margin-right: gpn-spacing-size('sm', 'sm');
+            width: 100%;
+          }
+
+          @include media-breakpoint-up(lg) {
+            @include make-col(12);
+            margin-right: 0;
+          }
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

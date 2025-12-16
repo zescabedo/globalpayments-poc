@@ -1,0 +1,26 @@
+&.middle-1x5x5x1 {
+  .left-section {
+    @include make-responsive-col-size-up($mobileSize: 12, $tabletSize: 5);
+  }
+
+  .right-section {
+    @include make-responsive-col-size-up($mobileSize: 12, $tabletSize: 5);
+  }
+
+  &:not(.reverse-layout) {
+    .left-section {
+      @include media-breakpoint-up(md) {
+        @include make-col-offset(1);
+      }
+    }
+  }
+
+  &.reverse-layout {
+    .right-section {
+      order: -1;
+      @include media-breakpoint-up(md) {
+        @include make-col-offset(1);
+      }
+    }
+  }
+}

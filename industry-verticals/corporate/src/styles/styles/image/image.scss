@@ -1,0 +1,20 @@
+.gp-img {
+  &.object-fit {
+    object-fit: var(--object-fit) !important;
+  }
+  object-position: var(--focus-x-sm, none) var(--focus-y-sm, none) !important;
+
+  @include media-breakpoint-up(md) {
+    object-position: var(--focus-x-md, none) var(--focus-y-md, none) !important;
+  }
+
+  @include media-breakpoint-up(lg) {
+    object-position: var(--focus-x-lg, none) var(--focus-y-lg, none) !important;
+  }
+}
+
+.uptick-rounded-border {
+  img {
+    border-radius: $gpn-theme-radius-xl !important;
+  }
+}

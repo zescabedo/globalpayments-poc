@@ -1,0 +1,25 @@
+----item----
+version: 1
+id: {0FE826E3-525F-4372-912E-4A0A150D6F9F}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Aggregated Facet Filter/PM Database Filter/row/col 1/Category
+parent: {21B3DCB8-0242-487B-9D2F-ABBD95FF14DE}
+name: Category
+master: {00000000-0000-0000-0000-000000000000}
+template: {1151B2A9-08AF-4F4D-A892-C2CC9A92EA6A}
+templatekey: VariantComponentField
+
+----field----
+field: {06882697-DC92-477D-A99A-5D79BD2CCB8D}
+name: RenderingItem
+key: renderingitem
+content-length: 38
+
+{B036EA2E-A7A1-4FFC-B296-F8E5212C46AC}
+----field----
+field: {AF48C671-DD3E-41ED-95B3-534560BEF882}
+name: RenderingParameters
+key: renderingparameters
+content-length: 146
+
+SortOrder=SortByNames&Data Source=%7b3232F85C-A781-4620-902A-6C972FCB998B%7d&SearchSignature=pmfilteroptions&Caching=0%7c0%7c0%7c0%7c0%7c0%7c0%7c0

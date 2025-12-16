@@ -1,0 +1,220 @@
+.quote-card-carousel {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxxl');
+  .left-quote {
+    position: relative;
+    width: map-get($gpn-theme-testimonial, 'icon-width');
+    height: map-get($gpn-theme-testimonial, 'icon-height');
+    aspect-ratio: map-get($gpn-theme-testimonial, 'icon-aspect-ratio');
+    margin: 0 auto;
+    display: none;
+    @include media-breakpoint-up(md) {
+      @include make-col(1);
+      display: block;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: map-get($gpn-theme-testimonial, 'icon-width');
+      height: map-get($gpn-theme-testimonial, 'icon-height');
+      aspect-ratio: map-get($gpn-theme-testimonial, 'icon-aspect-ratio');
+      background: $gpn-theme-icon-quote-open-base no-repeat center center;
+    }
+  }
+
+  .carousel-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: gpn-spacing-size('sm', 'lg');
+    @include media-breakpoint-up(sm) {
+      margin-bottom: gpn-spacing-size('sm', 'xl');
+    }
+
+    .slick-track {
+      display: flex;
+      justify-content: center;
+    }
+
+    .slick-track .slick-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: gpn-spacing-size('sm', 'xxs');
+      margin-left: gpn-spacing-size('sm', 'xxs');
+    }
+
+    .slick-slider {
+      &.no-slick-lg .slick-list {
+        @include media-breakpoint-up(sm) {
+          padding: 0;
+        }
+        @include media-breakpoint-up(md) {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+
+    .slick-dots {
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      position: unset;
+      padding: 0;
+      margin: 0;
+      bottom: px-to-rem(40);
+
+      @include media-breakpoint-up(sm) {
+        bottom: -20%;
+        left: 50%;
+      }
+      li {
+        display: flex;
+        padding: gpn-spacing-size('sm', 'xs');
+        cursor: pointer;
+        width: auto;
+        height: auto;
+        margin: 0;
+        button {
+          width: px-to-rem(12);
+          height: px-to-rem(12);
+          border-radius: $gpn-theme-radius-xxl;
+          background-color: $gpn-theme-gray;
+          transition: width 0.3s ease, background-color 0.3s ease;
+          cursor: pointer;
+          border: none;
+          &::before {
+            opacity: map-get($gpn-theme-testimonial, 'opacity-slick-dots-button-hide');
+          }
+        }
+      }
+      li.slick-active {
+        padding: px-to-rem(6);
+        button {
+          width: px-to-rem(32);
+          height: px-to-rem(12);
+          border-radius: map-get($gpn-theme-testimonial, 'slick-dot-active-border-radius');
+          background-color: map-get($gpn-theme-testimonial, 'base-color');
+          &::before {
+            opacity: map-get($gpn-theme-testimonial, 'opacity-slick-dots-button-hide');
+          }
+        }
+      }
+
+      .slick-sr-only {
+        display: none;
+      }
+    }
+
+    .copy-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      gap: gpn-spacing-size('md', 'lg');
+
+      .copy-wrapper {
+        @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'lg');
+        display: flex;
+        flex-direction: column;
+        gap: gpn-spacing-size('sm', 'lg');
+
+        @include media-breakpoint-up(sm) {
+          gap: gpn-spacing-size('md', 'lg');
+          @include gpn-spacing([ 'padding-top'], 'xxl');
+        }
+
+        .logo {
+          position: relative;
+          width: map-get($gpn-theme-testimonial, 'logo-width');
+          height: map-get($gpn-theme-testimonial, 'logo-height');
+          aspect-ratio: map-get($gpn-theme-testimonial, 'logo-aspect-ratio');
+          display: block;
+          margin: auto;
+          img,
+          video {
+            position: absolute;
+            width: 100%;
+            height: auto;
+            inset: 0;
+          }
+        }
+        .quote-wrapper {
+          .quote {
+            &.p {
+              @extend %label-md;
+            }
+            @extend %label-md;
+          }
+        }
+        .author-wrapper {
+          .author,
+          .author p {
+            @extend %p-md;
+            font-weight: 700;
+          }
+
+          .author-tag {
+            @extend %p-md;
+          }
+        }
+      }
+    }
+  }
+
+  .right-quote {
+    position: relative;
+    width: map-get($gpn-theme-testimonial, 'icon-width');
+    height: map-get($gpn-theme-testimonial, 'icon-height');
+    aspect-ratio: map-get($gpn-theme-testimonial, 'icon-aspect-ratio');
+    margin: 0 auto;
+    display: none;
+    @include media-breakpoint-up(md) {
+      @include make-col(1);
+      display: block;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: map-get($gpn-theme-testimonial, 'icon-width');
+      height: map-get($gpn-theme-testimonial, 'icon-height');
+      aspect-ratio: map-get($gpn-theme-testimonial, 'icon-aspect-ratio');
+      background: $gpn-theme-icon-quote-close-base no-repeat center center;
+    }
+  }
+
+  &.card-carousel {
+    .carousel-container {
+      @include make-col(12);
+      @include media-breakpoint-up(sm) {
+        @include make-col(10);
+        @include make-col-offset(1);
+      }
+      @include media-breakpoint-up(md) {
+        @include make-col-offset(0);
+      }
+    }
+  }
+  // for foucs visible making It WCAG2.2
+  .slick-slide:focus {
+    outline: 2px solid #007bff !important; /* High contrast focus outline */
+  }
+  .slick-prev:focus,
+  .slick-next:focus {
+    outline: 2px solid #007bff !important;
+    background-color: rgba(0, 123, 255, 0.2);
+  }
+  @import './styles';
+}
+
+.on-page-editor {
+  .carousel-container {
+    display: block !important;
+  }
+}

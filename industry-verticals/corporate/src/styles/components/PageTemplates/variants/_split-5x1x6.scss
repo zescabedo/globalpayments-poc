@@ -1,0 +1,28 @@
+&.split-5x1x6 {
+  .left-section {
+    @include make-responsive-col-size-up($mobileSize: 12, $tabletSize: 5);
+  }
+
+  .right-section {
+    @include make-responsive-col-size-up($mobileSize: 12, $tabletSize: 6);
+  }
+
+  &:not(.reverse-layout) {
+    .right-section {
+      @include media-breakpoint-up(md) {
+        @include make-col-offset(1);
+      }
+    }
+  }
+
+  &.reverse-layout {
+    .left-section {
+      @include media-breakpoint-up(md) {
+        @include make-col-offset(1);
+      }
+    }
+    .right-section {
+      order: -1;
+    }
+  }
+}

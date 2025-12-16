@@ -1,0 +1,19 @@
+@each $theme, $details in $gpn-theme-colour-themes {
+    &.bg-#{$theme}, .bg-#{$theme} & {
+        .ec-clickable-card:hover {
+            .text-breadcrumb {
+                .btn-cta-secondary {
+                    color: get-theme-colour-for($theme, $details) !important;
+
+                    &:hover {
+                        color: $gpn-theme-black !important;
+                    }
+                }
+
+                .tag a:hover {
+                    text-decoration-color: get-theme-colour-for($theme, $details) !important;
+                }
+            }
+        }
+    }
+}

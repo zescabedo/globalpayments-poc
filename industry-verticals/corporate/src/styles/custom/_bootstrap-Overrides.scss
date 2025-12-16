@@ -1,0 +1,74 @@
+// Bootstrap overrides
+$grid-breakpoints: $gpn-theme-grid-breakpoints;
+$container-max-widths: $gpn-theme-container-max-widths;
+$grid-gutter-width: 2.4rem;
+$theme-colors: map-remove($gpn-theme-colours, 'linear');
+
+$font-size-root: $gpn-theme-font-size-root;
+$font-size-base: $gpn-theme-font-size-base;
+
+//Headings
+$headings-margin-bottom: $gpn-theme-headings-margin-bottom;
+//Paragraphs
+$paragraph-margin-bottom: $gpn-theme-paragraph-margin-bottom;
+
+// colours
+$primary: $gpn-theme-base;
+$secondary: $gpn-theme-bright;
+
+// buttons
+$btn-font-weight: $gpn-theme-font-weight-medium;
+
+$input-btn-padding-x: $gpn-theme-btn-padding-x;
+$input-btn-padding-y: $gpn-theme-btn-padding-y;
+$input-btn-font-size: $gpn-theme-btn-font-size;
+$input-btn-line-height: $gpn-theme-btn-line-height;
+
+$input-btn-padding-x-sm: $gpn-theme-btn-padding-x-sm;
+$input-btn-padding-y-sm: $gpn-theme-btn-padding-y-sm;
+$input-btn-font-size-sm: $gpn-theme-btn-font-size-sm;
+
+$input-btn-padding-x-lg: $gpn-theme-btn-padding-x-lg;
+$input-btn-padding-y-lg: $gpn-theme-btn-padding-y-lg;
+$input-btn-font-size-lg: $gpn-theme-btn-font-size-lg;
+
+$btn-border-radius: $gpn-theme-btn-radius;
+$btn-border-radius-sm: $gpn-theme-btn-radius-sm;
+$btn-border-radius-lg: $gpn-theme-btn-radius-lg;
+
+$btn-border-width: $gpn-theme-btn-border-width;
+
+//Headings
+$headings-margin-bottom: $gpn-theme-headings-margin-bottom;
+
+// fonts
+$font-family-sans-serif: $gpn-theme-font-family-sans-serif;
+
+// bootstrap flag toggles
+$enable-rfs: false; // turning off rfs
+$enable-negative-margins: true; // enable negative margin classes
+
+//hr
+$hr-opacity: $gpn-theme-hr-opacity;
+
+//modal
+$modal-inner-padding: $gpn-theme-modal-inner-padding;
+$modal-header-padding: $gpn-theme-modal-header-padding;
+$modal-header-padding-x: $gpn-theme-modal-header-padding-x;
+$modal-header-padding-y: $gpn-theme-modal-header-padding-y;
+$modal-content-inner-border-radius: $gpn-theme-modal-content-inner-border-radius;
+$modal-dialog-margin: $gpn-theme-modal-dialog-margin;
+$modal-header-border-width: $gpn-theme-modal-header-border-width;
+$modal-header-border-color: $gpn-theme-modal-header-border-color;
+$modal-footer-border-width: $gpn-theme-modal-footer-border-width;
+$modal-footer-border-color: $gpn-theme-modal-footer-border-color;
+$modal-content-border-color: $gpn-theme-modal-content-border-color;
+$modal-content-border-width: $gpn-theme-modal-content-border-width;
+$modal-content-border-radius: $gpn-theme-modal-content-border-radius;
+
+$table-bg: transparent;
+
+// off canvas menu width
+$offcanvas-horizontal-width: 390px;
+
+$body-color: $gpn-theme-body-color;

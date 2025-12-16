@@ -1,0 +1,101 @@
+.accordion-wrapper {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xl');
+
+  @include media-breakpoint-up(sm) {
+    @include make-col(10);
+    @include make-col-offset(1);
+  }
+
+  @include media-breakpoint-up(md) {
+    @include make-col(8);
+    @include make-col-offset(2);
+  }
+
+  .field-header-title {
+    @extend %h-lg;
+    @include gpn-spacing([ 'padding-bottom'], 'xs');
+    color: map-get($gpn-theme-accordions, 'accordion-title-color');
+    padding-bottom: 0;
+  }
+
+  .accordion-items {
+    display: flex;
+    flex-direction: column;
+    gap: gpn-spacing-size('lg', 'sm');
+    @include gpn-spacing([ 'padding-top'], 'lg');
+    .accordion-item {
+      border: none;
+      background: none;
+      display: flex;
+      flex-direction: column;
+      @include gpn-spacing([ 'gap'], 'sm');
+
+      .accordion-header {
+        .accordion-button {
+          background: none;
+          padding: 0;
+          box-shadow: none;
+          color: inherit !important;
+
+          &::after {
+            background-image: map-get($gpn-theme-accordions, 'accordion-icon-collapsed');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: '';
+            display: block;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            height: map-get($gpn-theme-accordions, 'icon-height-size');
+            width: map-get($gpn-theme-accordions, 'icon-width-size');
+            cursor: pointer;
+          }
+
+          &:not(.collapsed)::after {
+            background-image: map-get($gpn-theme-accordions, 'accordion-icon-not-collapsed');
+          }
+
+          .field-trayheading {
+            @extend %h-xs;
+            max-width: 90%;
+            color: map-get($gpn-theme-accordions, 'accordion-trayheading-color');
+
+            @include media-breakpoint-up(sm) {
+              max-width: 95%;
+            }
+          }
+        }
+      }
+
+      .accordion-body {
+        @include gpn-spacing([ 'padding'], 'md');
+        border-radius: map-get($gpn-theme-accordions, 'accordion-border-radius');
+
+        .field-traycontent {
+          color: map-get($gpn-theme-accordions, 'accordion-body-color');
+          p {
+            @extend %p-md;
+            @include gpn-spacing([ 'padding-bottom'], 'xs');
+            color: map-get($gpn-theme-accordions, 'accordion-body-color');
+          }
+
+          > div {
+            @include gpn-spacing([ 'padding-bottom'], 'xs');
+          }
+        }
+
+        .field-traysubheading {
+          @extend %h-xs;
+          @include gpn-spacing([ 'margin-bottom'], 'xxs');
+        }
+      }
+    }
+
+    hr {
+      margin: 0;
+      color: map-get($gpn-theme-accordions, 'accordion-hr-color');
+    }
+  }
+}

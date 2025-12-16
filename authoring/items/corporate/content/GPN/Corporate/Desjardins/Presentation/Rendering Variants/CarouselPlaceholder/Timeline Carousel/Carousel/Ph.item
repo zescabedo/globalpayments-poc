@@ -1,0 +1,25 @@
+----item----
+version: 1
+id: {A483D476-7954-4126-9300-8EBF127B7C23}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/CarouselPlaceholder/Timeline Carousel/Carousel/Ph
+parent: {E7860078-5E9D-474B-87C8-A6CE70A6806E}
+name: Ph
+master: {00000000-0000-0000-0000-000000000000}
+template: {F4218805-86DD-4A01-A94D-7342FC392BCC}
+templatekey: VariantPlaceholder
+
+----field----
+field: {E9D58E74-648F-4A20-A8EE-F95C171601B3}
+name: CssClass
+key: cssclass
+content-length: 0
+
+
+----field----
+field: {E33B1E31-C30F-4F60-BB26-76BE8F12B1CB}
+name: Placeholder Key
+key: placeholder key
+content-length: 20
+
+carousel-placeholder

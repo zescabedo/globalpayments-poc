@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {FD04A978-DF61-42FC-9749-D0B8D2CFEE14}
+database: master
+path: /sitecore/media library/Themes/GPN/Corporate/CorporateDummySite/Custom/Animation Pack/scripts/EasePackmin
+parent: {05052A73-41F1-4310-A3ED-8396CB432BA0}
+name: EasePackmin
+master: {00000000-0000-0000-0000-000000000000}
+template: {962B53C4-F93B-4DF9-9821-415C867B8903}
+templatekey: File
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 3340
+
+LyohCiAqIEVhc2VQYWNrIDMuNC4yCiAqIGh0dHBzOi8vZ3JlZW5zb2NrLmNvbQogKiAKICogQGxpY2Vuc2UgQ29weXJpZ2h0IDIwMjAsIEdyZWVuU29jay4gQWxsIHJpZ2h0cyByZXNlcnZlZC4KICogU3ViamVjdCB0byB0aGUgdGVybXMgYXQgaHR0cHM6Ly9ncmVlbnNvY2suY29tL3N0YW5kYXJkLWxpY2Vuc2Ugb3IgZm9yIENsdWIgR3JlZW5Tb2NrIG1lbWJlcnMsIHRoZSBhZ3JlZW1lbnQgaXNzdWVkIHdpdGggdGhhdCBtZW1iZXJzaGlwLgogKiBAYXV0aG9yOiBKYWNrIERveWxlLCBqYWNrQGdyZWVuc29jay5jb20KICovCgohZnVuY3Rpb24oZSxuKXsib2JqZWN0Ij09dHlwZW9mIGV4cG9ydHMmJiJ1bmRlZmluZWQiIT10eXBlb2YgbW9kdWxlP24oZXhwb3J0cyk6ImZ1bmN0aW9uIj09dHlwZW9mIGRlZmluZSYmZGVmaW5lLmFtZD9kZWZpbmUoWyJleHBvcnRzIl0sbik6bigoZT1lfHxzZWxmKS53aW5kb3c9ZS53aW5kb3d8fHt9KX0odGhpcyxmdW5jdGlvbihlKXsidXNlIHN0cmljdCI7ZnVuY3Rpb24gZigpe3JldHVybiB3fHwidW5kZWZpbmVkIiE9dHlwZW9mIHdpbmRvdyYmKHc9d2luZG93LmdzYXApJiZ3LnJlZ2lzdGVyUGx1Z2luJiZ3fWZ1bmN0aW9uIGcoZSxuKXtyZXR1cm4hISh2b2lkIDA9PT1lP246ZSYmIX4oZSsiIikuaW5kZXhPZigiZmFsc2UiKSl9ZnVuY3Rpb24gaChlKXtpZih3PWV8fGYoKSl7cj13LnJlZ2lzdGVyRWFzZTt2YXIgbix0PXcucGFyc2VFYXNlKCksbz1mdW5jdGlvbiBjcmVhdGVDb25maWcodCl7cmV0dXJuIGZ1bmN0aW9uKGUpe3ZhciBuPS41K2UvMjt0LmNvbmZpZz1mdW5jdGlvbihlKXtyZXR1cm4gdCgyKigxLWUpKmUqbitlKmUpfX19O2ZvcihuIGluIHQpdFtuXS5jb25maWd8fG8odFtuXSk7Zm9yKG4gaW4gcigic2xvdyIsYSkscigiZXhwb1NjYWxlIixzKSxyKCJyb3VnaCIsdSksYykidmVyc2lvbiIhPT1uJiZ3LmNvcmUuZ2xvYmFscyhuLGNbbl0pfX1mdW5jdGlvbiBpKGUsbix0KXt2YXIgbz0oZT1NYXRoLm1pbigxLGV8fC43KSk8MT9ufHwwPT09bj9uOi43OjAscj0oMS1lKS8yLGk9citlLGE9Zyh0KTtyZXR1cm4gZnVuY3Rpb24oZSl7dmFyIG49ZSsoLjUtZSkqbztyZXR1cm4gZTxyP2E/MS0oZT0xLWUvcikqZTpuLShlPTEtZS9yKSplKmUqZSpuOmk8ZT9hPzE9PT1lPzA6MS0oZT0oZS1pKS9yKSplOm4rKGUtbikqKGU9KGUtaSkvcikqZSplKmU6YT8xOm59fWZ1bmN0aW9uIGoobixlLHQpe3ZhciBvPU1hdGgubG9nKGUvbikscj1lLW47cmV0dXJuIHQ9dCYmdy5wYXJzZUVhc2UodCksZnVuY3Rpb24oZSl7cmV0dXJuKG4qTWF0aC5leHAobyoodD90KGUpOmUpKS1uKS9yfX1mdW5jdGlvbiBrKGUsbix0KXt0aGlzLnQ9ZSx0aGlzLnY9bix0JiYoKCh0aGlzLm5leHQ9dCkucHJldj10aGlzKS5jPXQudi1uLHRoaXMuZ2FwPXQudC1lKX1mdW5jdGlvbiBsKGUpeyJvYmplY3QiIT10eXBlb2YgZSYmKGU9e3BvaW50czorZXx8MjB9KTtmb3IodmFyIG4sdCxvLHIsaSxhLGYscz1lLnRhcGVyfHwibm9uZSIsdT1bXSxjPTAscD0wfCgrZS5wb2ludHN8fDIwKSxsPXAsdj1nKGUucmFuZG9taXplLCEwKSxkPWcoZS5jbGFtcCksaD13P3cucGFyc2VFYXNlKGUudGVtcGxhdGUpOjAseD0uNCooK2Uuc3RyZW5ndGh8fDEpOy0xPC0tbDspbj12P01hdGgucmFuZG9tKCk6MS9wKmwsdD1oP2gobik6bixvPSJub25lIj09PXM/eDoib3V0Ij09PXM/KHI9MS1uKSpyKng6ImluIj09PXM/bipuKng6bjwuNT8ocj0yKm4pKnIqLjUqeDoocj0yKigxLW4pKSpyKi41Kngsdj90Kz1NYXRoLnJhbmRvbSgpKm8tLjUqbzpsJTI/dCs9LjUqbzp0LT0uNSpvLGQmJigxPHQ/dD0xOnQ8MCYmKHQ9MCkpLHVbYysrXT17eDpuLHk6dH07Zm9yKHUuc29ydChmdW5jdGlvbihlLG4pe3JldHVybiBlLngtbi54fSksYT1uZXcgaygxLDEsbnVsbCksbD1wO2wtLTspaT11W2xdLGE9bmV3IGsoaS54LGkueSxhKTtyZXR1cm4gZj1uZXcgaygwLDAsYS50P2E6YS5uZXh0KSxmdW5jdGlvbihlKXt2YXIgbj1mO2lmKGU+bi50KXtmb3IoO24ubmV4dCYmZT49bi50OyluPW4ubmV4dDtuPW4ucHJldn1lbHNlIGZvcig7bi5wcmV2JiZlPD1uLnQ7KW49bi5wcmV2O3JldHVybihmPW4pLnYrKGUtbi50KS9uLmdhcCpuLmN9fXZhciB3LHIsYT1pKC43KTsoYS5lYXNlPWEpLmNvbmZpZz1pO3ZhciBzPWooMSwyKTtzLmNvbmZpZz1qO3ZhciB1PWwoKTsodS5lYXNlPXUpLmNvbmZpZz1sO3ZhciBjPXtTbG93TW86YSxSb3VnaEVhc2U6dSxFeHBvU2NhbGVFYXNlOnN9O2Zvcih2YXIgbiBpbiBjKWNbbl0ucmVnaXN0ZXI9aCxjW25dLnZlcnNpb249IjMuNC4yIjtmKCkmJncucmVnaXN0ZXJQbHVnaW4oYSksZS5FYXNlUGFjaz1jLGUuRXhwb1NjYWxlRWFzZT1zLGUuUm91Z2hFYXNlPXUsZS5TbG93TW89YSxlLmRlZmF1bHQ9YztpZiAodHlwZW9mKHdpbmRvdyk9PT0idW5kZWZpbmVkInx8d2luZG93IT09ZSl7T2JqZWN0LmRlZmluZVByb3BlcnR5KGUsIl9fZXNNb2R1bGUiLHt2YWx1ZTohMH0pfSBlbHNlIHtkZWxldGUgZS5kZWZhdWx0fX0pOwoK
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 2
+
+js
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 24
+
+application/x-javascript
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+2505
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+-/media/3a861b71048a4bd9b7ae913b4f9d7c8b.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 9083adc1-5d2a-44ab-adc8-77311dcc7bf0
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210728T054813Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9083adc1-5d2a-44ab-adc8-77311dcc7bf0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210728T054814Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {7288B4C9-C9D9-4B74-BFF7-C6B179AE07D7}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Country To Language Mapping/CZ
+parent: {DA1E4CD2-787F-4B71-A1BB-39E8C6F1FB54}
+name: CZ
+master: {00000000-0000-0000-0000-000000000000}
+template: {E1E5D16F-A23E-4405-9A66-AF65985C434C}
+templatekey: Country To Language Mapping Item
+
+----field----
+field: {E8EDCAD1-288B-4582-94FE-ED9AC1E311C9}
+name: CountryName
+key: countryname
+content-length: 14
+
+Czech Republic
+----field----
+field: {C1A51F0B-1337-4B9D-9498-E9F485E5000A}
+name: CountryIsoCode
+key: countryisocode
+content-length: 2
+
+CZ
+----field----
+field: {B56E2C2B-D50E-47BF-A23C-B50AD19828F7}
+name: PrimaryLanguage
+key: primarylanguage
+content-length: 38
+
+{E0EE54C8-7727-4543-A1EA-AF27F786A97B}
+----field----
+field: {03E6509B-501A-4414-92C0-98C3130B8BA3}
+name: SecondaryLanguage
+key: secondarylanguage
+content-length: 38
+
+{73AE5132-D855-446D-94B6-737C5BB865D5}
+----version----
+language: en-US
+version: 1
+revision: 52f1da27-a958-4e1f-90f7-5f5eec7912b5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T043611Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+52f1da27-a958-4e1f-90f7-5f5eec7912b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210319T043627Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\tf-mark

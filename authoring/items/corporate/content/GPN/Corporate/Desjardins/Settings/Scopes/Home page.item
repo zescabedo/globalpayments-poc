@@ -1,0 +1,105 @@
+----item----
+version: 1
+id: {29606B9E-0B54-4998-9C06-C3474FD72EEB}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Settings/Scopes/Home page
+parent: {7BAD0FA5-E775-49BE-9416-24C4C1434CDA}
+name: Home page
+master: {00000000-0000-0000-0000-000000000000}
+template: {44936C95-BCA9-4FB3-9D98-2066A5FBBB4D}
+templatekey: Scopes Folder
+
+----version----
+language: en-CA
+version: 1
+revision: f3b6c403-86ac-449b-b46e-e661d5861d6b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210317T200408Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 21
+
+sitecore\shaunbaddock
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f3b6c403-86ac-449b-b46e-e661d5861d6b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084205Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 551ca874-53dc-4820-beab-8a424317f60f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210317T200408Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 21
+
+sitecore\shaunbaddock
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+551ca874-53dc-4820-beab-8a424317f60f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084204Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

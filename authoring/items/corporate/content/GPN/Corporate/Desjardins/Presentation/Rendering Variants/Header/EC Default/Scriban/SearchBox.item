@@ -1,0 +1,166 @@
+----item----
+version: 1
+id: {A1E3061B-F3C6-4C7E-AD68-42F1F3374712}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Header/EC Default/Scriban/SearchBox
+parent: {CA093D05-02BE-4C6C-8FD9-989047D91DFE}
+name: SearchBox
+master: {00000000-0000-0000-0000-000000000000}
+template: {1151B2A9-08AF-4F4D-A892-C2CC9A92EA6A}
+templatekey: VariantComponentField
+
+----field----
+field: {06882697-DC92-477D-A99A-5D79BD2CCB8D}
+name: RenderingItem
+key: renderingitem
+content-length: 38
+
+{EECE4E4B-4E5F-42FD-A934-7AFD048AFD03}
+----field----
+field: {AF48C671-DD3E-41ED-95B3-534560BEF882}
+name: RenderingParameters
+key: renderingparameters
+content-length: 481
+
+Data Source=%7bA854FE64-BCF6-48ED-BFB7-4D6D6E9C57E3%7d&SearchSignature=header-search&FieldNames=%7bBF99982C-AEC4-4B4C-B449-BD53F53E2079%7d&TargetSignature=s&MaxPredictiveResultsCount=5&DefaultLanguageFilter=%7b7AF59736-D91C-4AA1-8610-1202FDD31D68%7d&SearchResultPage=%7b23D7FE5D-FB73-4461-8FBF-847CD13E9E59%7d&SearchTextBoxVisible=1&SuggestionsMode=ShowSearchResults&MinSuggestionsTriggerCharacterCount=2&Caching=0%7c0%7c0%7c0%7c0%7c0%7c0%7c0&CacheClearingBehavior=Clear+on+publish
+----version----
+language: en-CA
+version: 1
+revision: 070da351-3b10-45a1-86fc-1a708b654733
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20231110T040725Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+070da351-3b10-45a1-86fc-1a708b654733
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250708T185322Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en-US
+version: 1
+revision: 425cb5c8-ad4e-48e4-ab9f-f1f6afd26a4e
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20231110T040725Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+425cb5c8-ad4e-48e4-ab9f-f1f6afd26a4e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240801T130131Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: fr-CA
+version: 1
+revision: 2886ccd4-5f9b-4ff0-8c7c-a8348c4f8e19
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20231110T040725Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2886ccd4-5f9b-4ff0-8c7c-a8348c4f8e19
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250708T185322Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

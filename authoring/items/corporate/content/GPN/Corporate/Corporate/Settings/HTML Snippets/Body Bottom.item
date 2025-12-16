@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {F5DC8D8C-3ED2-42AD-962F-0FD810F37E4B}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/HTML Snippets/Body Bottom
+parent: {D754714A-7390-4104-9549-D1089C9A309E}
+name: Body Bottom
+master: {00000000-0000-0000-0000-000000000000}
+template: {25F18683-2F03-4776-ADA3-6D2A76DBDF2D}
+templatekey: HTML Snippet
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 833591ed-90b1-4deb-bb66-3d3dacf17df8
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 563
+
+<script type="text/javascript">
+piAId = '666593';
+piCId = '15403';
+piHostname = 'pi.pardot.com';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210121T030129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+833591ed-90b1-4deb-bb66-3d3dacf17df8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210303T101513Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-anthony

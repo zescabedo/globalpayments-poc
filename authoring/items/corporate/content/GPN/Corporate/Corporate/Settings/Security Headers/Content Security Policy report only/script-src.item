@@ -1,0 +1,450 @@
+----item----
+version: 1
+id: {CF243F21-1795-4426-AF34-2EBBDD70BEA8}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Security Headers/Content Security Policy report only/script-src
+parent: {B42C38A2-7E6F-4393-B371-877E7E92E392}
+name: script-src
+master: {00000000-0000-0000-0000-000000000000}
+template: {EC2F720B-E083-49B3-AF4D-65A07B5AF4DA}
+templatekey: Policy
+
+----field----
+field: {7EB4D7AF-0D58-4229-A73A-8F5B2BB91EF2}
+name: Allowed Hosts
+key: allowed hosts
+content-length: 584
+
+{0B2347A4-CFC7-43DB-9DB3-141B727ECF59}|{3C979117-EA88-46C1-9D3C-0836632C118C}|{B5209B3B-EC1F-43C0-94C1-F9D1386B6A50}|{4F34E250-4888-430E-9A34-B142CB91412D}|{1E9F6DD3-9351-4AD3-9EF4-9494A0D0C041}|{189AC63C-4806-4345-AAB7-0324F9DD75D5}|{856DEAB0-1E3A-4C73-88BC-8E833744BA8C}|{2176EBB7-E909-4F51-B4C4-D52F2F4E4073}|{782BA3EE-A0AD-4956-8083-DC4237BB22F6}|{E680A38B-076E-46D8-B2D2-1FE7633AAF73}|{B4AF162A-BBF1-43C8-9675-756D986AA4F4}|{AC2DA4F0-C6DD-447C-A75D-2A1C79D4D3D8}|{4DEF06E1-E2FB-4B44-9F80-67FABE2137F5}|{60E8EC08-E3DF-4C85-A900-4F22072EB9E5}|{3963EDFC-6C6F-4CD4-A2D3-3396162E8572}
+----version----
+language: en-150
+version: 1
+revision: 13c58e7c-5f0f-4cc1-9535-779de054c20e
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 36
+
+'unsafe-inline' cdnjs.cloudflare.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T035525Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+13c58e7c-5f0f-4cc1-9535-779de054c20e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230210T044310Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: a24fab28-e04d-478e-96da-67ab9a3880e0
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 36
+
+'unsafe-inline' cdnjs.cloudflare.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T035525Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a24fab28-e04d-478e-96da-67ab9a3880e0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220825T121424Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-GB
+version: 1
+revision: 31fdd94f-7238-4eb9-b3a8-6069f516a223
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 36
+
+'unsafe-inline' cdnjs.cloudflare.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T035525Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+31fdd94f-7238-4eb9-b3a8-6069f516a223
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084337Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-HK
+version: 1
+revision: ba42804a-ab9b-4bd7-a08f-4b1191d8c7f6
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 36
+
+'unsafe-inline' cdnjs.cloudflare.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T035525Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ba42804a-ab9b-4bd7-a08f-4b1191d8c7f6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084336Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: 0cb445a2-a7b4-4f09-be6c-86e12642f45f
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 36
+
+'unsafe-inline' cdnjs.cloudflare.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T035525Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0cb445a2-a7b4-4f09-be6c-86e12642f45f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230420T011343Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: es-ES
+version: 1
+revision: fac16c7c-c873-4ad3-83d7-048beeb1732e
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 66
+
+'unsafe-inline' cdnjs.cloudflare.com *.cookielaw.org *.vidyard.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T035525Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fac16c7c-c873-4ad3-83d7-048beeb1732e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220908T172234Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: 3ab3683f-1c7f-469c-b737-5fcf6291f6d5
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 52
+
+'unsafe-inline' cdnjs.cloudflare.com *.cookielaw.org
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T035525Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ab3683f-1c7f-469c-b737-5fcf6291f6d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220805T050609Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: hu-HU
+version: 1
+revision: 85153994-6483-4356-bd76-1544f5f198c0
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 36
+
+'unsafe-inline' cdnjs.cloudflare.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T035525Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+85153994-6483-4356-bd76-1544f5f198c0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220712T050840Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

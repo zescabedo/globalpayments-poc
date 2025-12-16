@@ -1,0 +1,43 @@
+&.offset-outer-5x5 {
+    .media-section {
+        @include make-col(12);
+        @include media-breakpoint-up(sm) {
+            @include make-col(6);
+        }
+
+        @include media-breakpoint-up(md) {
+            @include make-col-offset(1);
+            @include make-col(5);
+        }
+    }
+    .copy-section {
+        @include make-col(12);
+        @include media-breakpoint-up(sm) {
+            @include make-col(6);
+        }
+
+        @include media-breakpoint-up(md) {
+            @include make-col(5);
+        }
+    }
+
+    &:not(.reverse-layout){
+        .media-section {
+            @include media-breakpoint-up(md) {
+                @include make-col-offset(1);
+            }
+        }
+    }
+
+    &.reverse-layout {
+        .media-section {
+            order: 2;
+        }
+        .copy-section {
+            order: 1;
+            @include media-breakpoint-up(md) {
+                @include make-col-offset(1);
+            }
+        }
+    }
+}

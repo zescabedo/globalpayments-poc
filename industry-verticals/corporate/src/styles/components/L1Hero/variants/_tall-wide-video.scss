@@ -1,0 +1,92 @@
+&.tall-wide-video {
+  .component-content {
+    border-radius: $gpn-theme-radius-lg;
+    @include media-breakpoint-up(sm) {
+      border-radius: $gpn-theme-radius-xl;
+    }
+  }
+  .video-control-button {
+    position: absolute;
+    bottom: px-to-rem(40);
+    right: px-to-rem(40);
+    border: none;
+    width: px-to-rem(33);
+    height: px-to-rem(33);
+    z-index: 10;
+    background: none;
+    background-image: $gpn-theme-icon-play-button-white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &.playing {
+      background-image: $gpn-theme-icon-pause-button-white;
+    }
+
+    &:focus {
+      outline: 1px dotted $gpn-theme-white;
+      outline-offset: 2px;
+    }
+  }
+
+  video,
+  .component-content > div {
+    border-radius: $gpn-theme-radius-lg;
+    @include media-breakpoint-up(sm) {
+      border-radius: $gpn-theme-radius-xl;
+    }
+  }
+
+  .container-fluid {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: map-get($gpn-theme-heroes, 'l1-tall-wide-container-color');
+    height: map-get($gpn-theme-heroes, 'l1-tall-wide-mobile-height');
+    padding: 0;
+    @include media-breakpoint-up(sm) {
+      height: map-get($gpn-theme-heroes, 'l1-tall-wide-container-height');
+    }
+
+    .background-video {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .media-section {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      z-index: $gpn-theme-zindex-heroes-media;
+    }
+
+    .hero-container {
+      @include make-col(12);
+      @include media-breakpoint-up(sm) {
+        @include make-col(8);
+      }
+
+      .copy-section {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .title {
+          @extend %h-xxl; //figma it is mentioned [web/heading/xxl display]
+          @include gpn-spacing([ 'padding-left', 'padding-right'], 'md');
+        }
+      }
+    }
+  }
+}

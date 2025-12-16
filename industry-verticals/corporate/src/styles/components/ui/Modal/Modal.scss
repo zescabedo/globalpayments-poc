@@ -1,0 +1,203 @@
+.modal {
+  padding: 0 !important; // Require to override default padding
+
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: map-get($gpn-theme-modal, 'modal-background-mask-color-mobile');
+    position: absolute;
+    z-index: -1;
+
+    @include media-breakpoint-up(lg) {
+      background-color: map-get($gpn-theme-modal, 'modal-background-mask-color-desktop');
+      opacity: 0.6;
+    }
+  }
+
+  .modal-dialog {
+    margin: 0;
+    min-width: 100%;
+    height: 100vh;
+
+    .modal-content {
+      outline: none;
+      border: none;
+      border-radius: 0;
+      background-color: $gpn-theme-white;
+      display: block;
+      position: absolute;
+      padding: 0;
+      max-width: 100%;
+      left: 0;
+      top: 0;
+      width: 100vw;
+
+      @include media-breakpoint-up(lg) {
+        width: var(--modal-width);
+        max-width: map-get($gpn-theme-modal, 'modal-dialog-maxWidth');
+        height: var(--modal-height);
+        max-height: map-get($gpn-theme-modal, 'modal-body-height', 'desktop');
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .modal-header {
+        position: relative;
+        width: 100%;
+        height: map-get($gpn-theme-modal, 'modal-header-height');
+        border: none;
+
+        .btn-close {
+          position: absolute;
+          left: auto;
+          top: map-get($gpn-theme-modal, 'close-btn-position', 'top');
+          right: map-get($gpn-theme-modal, 'close-btn-position', 'right');
+          background-image: map-get($gpn-theme-modal, 'close-btn-icon', 'lightMode');
+          width: map-get($gpn-theme-modal, 'close-btn-size', 'width');
+          height: map-get($gpn-theme-modal, 'close-btn-size', 'height');
+          opacity: 1;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .modal-body {
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: calc(100% - #{map-get($gpn-theme-modal, 'modal-header-height')});
+
+        > iframe {
+          min-width: 100%;
+          min-height: 100%;
+          background: transparent;
+        }
+
+        .spinner-box {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+
+          @include media-breakpoint-up(lg) {
+            height: 100%;
+            min-height: map-get($gpn-theme-modal, 'spinner-box-height', 'desktop');
+          }
+
+          .spinner-border {
+            border-left-color: map-get($gpn-theme-modal, 'spinner-border-color', 'lightMode');
+            border-bottom-color: map-get($gpn-theme-modal, 'spinner-border-color', 'lightMode');
+            border-top-color: map-get($gpn-theme-modal, 'spinner-border-color', 'lightMode');
+          }
+        }
+      }
+    }
+  }
+
+  @each $theme, $details in $gpn-theme-colour-themes {
+    @if (is-dark-theme-colour($theme)) {
+      &.bg-#{$theme} {
+        background: transparent !important; //Required to remove the bg-<dark-colors> getting applied on the modal background.
+
+        .modal-dialog {
+          .modal-content {
+            .modal-header {
+              background: map-get($details, 'background');
+              .btn-close {
+                background-image: map-get($gpn-theme-modal, 'close-btn-icon', 'darkMode');
+              }
+            }
+            .modal-body {
+              background: map-get($details, 'background');
+              .spinner-box {
+                .spinner-border {
+                  border-left-color: map-get($gpn-theme-modal, 'spinner-border-color', 'darkMode');
+                  border-bottom-color: map-get(
+                    $gpn-theme-modal,
+                    'spinner-border-color',
+                    'darkMode'
+                  );
+                  border-top-color: map-get($gpn-theme-modal, 'spinner-border-color', 'darkMode');
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.split-base-white-theme {
+    &::before {
+      background-color: map-get($gpn-theme-modal, 'split-base-white-theme-background-mobile');
+      @include media-breakpoint-up(lg) {
+        background-color: map-get($gpn-theme-modal, 'split-base-white-theme-background-desktop');
+      }
+    }
+
+    .modal-dialog {
+      .modal-content {
+        background: map-get($gpn-theme-modal, 'split-base-white-theme-modal-content-background');
+        @include media-breakpoint-up(lg) {
+          background: map-get($gpn-theme-modal, 'split-base-white-theme-modal-content-background-desktop');
+        }
+
+        .modal-header{
+          .btn-close{
+            background-image: map-get($gpn-theme-modal, 'close-btn-icon', 'darkMode');
+            @include media-breakpoint-up(lg) {
+              background-image: map-get($gpn-theme-modal, 'close-btn-icon', 'lightMode');
+            }
+          }
+        }
+        .modal-body{
+          .spinner-box{
+            .spinner-border {
+              border-left-color: map-get($gpn-theme-modal, 'spinner-border-color', 'darkMode');
+              border-bottom-color: map-get($gpn-theme-modal, 'spinner-border-color', 'darkMode');
+              border-top-color: map-get($gpn-theme-modal, 'spinner-border-color', 'darkMode');
+  
+              @include media-breakpoint-up(lg) {
+                border-left-color: map-get($gpn-theme-modal, 'spinner-border-color', 'lightMode');
+                border-bottom-color: map-get($gpn-theme-modal, 'spinner-border-color', 'lightMode');
+                border-top-color: map-get($gpn-theme-modal, 'spinner-border-color', 'lightMode');
+              }
+            }
+          }
+        }
+        .page-templates {
+          padding: 0;
+          @include media-breakpoint-up(lg) {
+            padding: map-get($gpn-theme-modal, 'modal-desktop-padding');
+          }
+        }
+        .container {
+          max-width: 100%;
+
+          .rich-text {
+            padding: map-get($gpn-theme-modal, 'split-base-white-theme-modal-rich-text-padding-mobile');
+            @include media-breakpoint-up(lg) {
+              padding: map-get($gpn-theme-modal, 'split-base-white-theme-modal-rich-text-padding-desktop');
+            }
+          }
+
+          .sitecore-forms {
+            background: map-get($gpn-theme-modal, 'split-base-white-theme-modal-form-background');
+            padding: map-get($gpn-theme-modal, 'split-base-white-theme-modal-form-padding-mobile');
+            @include media-breakpoint-up(lg) {
+              background: none;
+              padding: map-get($gpn-theme-modal, 'split-base-white-theme-modal-form-padding-desktop');
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal-open {
+  display: block;
+}

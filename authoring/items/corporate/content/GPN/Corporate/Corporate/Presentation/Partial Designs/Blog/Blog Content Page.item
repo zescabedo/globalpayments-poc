@@ -1,0 +1,923 @@
+----item----
+version: 1
+id: {3AE146FD-EF8A-4CF2-9F23-47BADAACF2F9}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Partial Designs/Blog/Blog Content Page
+parent: {CB385D37-3081-4159-B7B5-6D6FD638622B}
+name: Blog Content Page
+master: {00000000-0000-0000-0000-000000000000}
+template: {05ED8F9E-5E17-40C2-B62F-B22E60CC4552}
+templatekey: Partial Design
+
+----field----
+field: {55FAAE90-3BBA-4F7F-96FE-13C3F40055FF}
+name: Signature
+key: signature
+content-length: 11
+
+blog-detail
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{85E65F1D-0636-4018-8F42-76A3E3011DA6}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 7233
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" p:before="*" s:ds="/sitecore/content/GPN/Corporate/Corporate/Presentation/Partial Designs/Blog/Blog Content Page/Data/Text 1" s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}" s:par="RenderingIdentifier&amp;Styles=%7b20FA0E63-B7AA-46BD-8DDA-178E5FB24378%7d%7c%7bB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7d&amp;DynamicPlaceholderId=23&amp;Reset Caching Options" s:ph="/main/container-20/container-21" /><r uid="{A7A4CB73-BF3D-452D-A7F8-15FBDA0D6B6C}" p:after="r[@uid='{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}']" s:ds="{8C20596A-8EBF-4105-8D8E-FBC840CE4937}" s:id="{FAE0D244-55C1-4F1B-8ED5-590C9F131CEE}" s:par="RenderingIdentifier&amp;DefaultSortOrder=%7bF3EC78EE-9B8C-45E3-BD48-616AD1EE388C%7d&amp;Styles=%7bB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7d&amp;Reset Caching Options&amp;SearchSignature&amp;PageSize=3&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7b3623CBF3-7403-49AC-AC5A-8DD0C7FEE426%7d&amp;DynamicPlaceholderId=22&amp;AutoFireSearchWhenNoCriteriaSet=1&amp;Scope=%7bDAF49FCA-6A4E-426F-9EA2-FEBBE131DA4C%7d&amp;DefaultLanguageFilter=%7b04C9B082-DE71-4035-8D16-737BF024FDE6%7d" s:ph="/main/container-20/container-21" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" p:after="r[@uid='{A7A4CB73-BF3D-452D-A7F8-15FBDA0D6B6C}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;DynamicPlaceholderId=21&amp;BackgroundImage&amp;Reset Caching Options" s:ph="/main/container-20" /><r uid="{87EEF85B-92B9-489A-8F00-A41E31FCF951}" p:after="r[@uid='{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}']" s:ds="" s:id="{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}" s:par="BreadcrumbRoot&amp;Separator&amp;IsNavigation&amp;Filter=%7BE0A2A027-0932-4878-A7D6-0416D5263EFB%7D&amp;Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames&amp;Styles=%7B20FA0E63-B7AA-46BD-8DDA-178E5FB24378%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9" s:ph="/main/container-18/container-19/row-1-13" /><r uid="{5F970508-A4F8-4BA9-9436-B52024A620E9}" p:after="r[@uid='{87EEF85B-92B9-489A-8F00-A41E31FCF951}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=13&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-18/container-19" /><r uid="{99609E9E-4509-4B7A-857B-9E29022080EC}" p:after="r[@uid='{5F970508-A4F8-4BA9-9436-B52024A620E9}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=8&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-18/container-19" /><r uid="{FD8EB40E-51D3-4E31-8D29-D83910C10049}" p:after="r[@uid='{99609E9E-4509-4B7A-857B-9E29022080EC}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=19" s:ph="/main/container-18" /><r uid="{AE43060F-2540-4157-80CB-72DBB4115249}" p:after="r[@uid='{FD8EB40E-51D3-4E31-8D29-D83910C10049}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=18" s:ph="main" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" p:after="r[@uid='{AE43060F-2540-4157-80CB-72DBB4115249}']" s:ds="{484E387E-7B8B-4534-B32E-2DEF754F6810}" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles=%7b20FA0E63-B7AA-46BD-8DDA-178E5FB24378%7d%7c%7bB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b800E8479-2787-485F-A94A-60AAF4E3890C%7d%7c%7b5EFDFC3D-9114-432C-992E-3BF4E7B285C4%7d&amp;FieldNames=%7bD9DAFC49-4A81-4B29-893A-199651E28ED8%7d&amp;DynamicPlaceholderId=15&amp;Reset Caching Options" s:ph="/main/container-16/container-17" /><r uid="{AA6EE47A-CB94-4A4E-A2B0-5B24ED6A99CD}" p:after="r[@uid='{21C607A9-DB2C-454E-9B81-4140BD997E56}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;DynamicPlaceholderId=17&amp;BackgroundImage&amp;Reset Caching Options" s:ph="/main/container-16" /><r uid="{AD9DEF45-23A1-4BD9-8DD5-8F7AB5FC6137}" p:after="r[@uid='{AA6EE47A-CB94-4A4E-A2B0-5B24ED6A99CD}']" s:ds="" s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7B81F183A4-FFE5-4046-A1C6-41629BB6114A%7D&amp;Styles=%7B20FA0E63-B7AA-46BD-8DDA-178E5FB24378%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=12" s:ph="/main/container-18/container-19/row-1-13" /><r uid="{248C864C-210A-4126-8068-2DCA81671E4C}" p:after="r[@uid='{AD9DEF45-23A1-4BD9-8DD5-8F7AB5FC6137}']" s:ds="" s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7B83901CCF-0965-4635-B590-83DD5F9FD886%7D%7C%7BCB1CBA0F-2FFB-4AB4-9F56-A4BB79FB0AE7%7D&amp;FieldNames=%7BF647E31B-D323-442C-8B9C-F7CD3E4FDA51%7D&amp;Styles=%7B20FA0E63-B7AA-46BD-8DDA-178E5FB24378%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11" s:ph="/main/container-18/container-19/row-1-8" /><r uid="{6ABFDF72-835B-43DC-8FB3-408F7B046E41}" p:after="r[@uid='{248C864C-210A-4126-8068-2DCA81671E4C}']" s:ds="" s:id="{8B0393E9-EE25-4F0B-A5FD-777B3AD2C737}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7B83901CCF-0965-4635-B590-83DD5F9FD886%7D%7C%7BCB1CBA0F-2FFB-4AB4-9F56-A4BB79FB0AE7%7D&amp;FieldNames=%7BED2EEFF2-8714-4A71-B50C-01E13F79C1CC%7D&amp;Styles=%7B20FA0E63-B7AA-46BD-8DDA-178E5FB24378%7D%7C%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=10" s:ph="/main/container-18/container-19/row-2-8" /><r uid="{81E77D81-B536-4E8B-99E7-D73F08C6D9EC}" p:after="r[@uid='{6ABFDF72-835B-43DC-8FB3-408F7B046E41}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7B5280F366-5B50-40E2-9FD7-F2075D0911C8%7D%7C%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D%7C%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=16" s:ph="main" /><r uid="{E17924A8-6C1E-4049-AAB6-C296B519761B}" p:after="r[@uid='{81E77D81-B536-4E8B-99E7-D73F08C6D9EC}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=20" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" s:ds="{35EDDF1A-CED8-4154-B0AB-95EF0E537B76}" s:id="{3ED31F2A-93BE-40CA-A073-69CD9517D0BA}" s:par="" s:ph="head" /></d><d id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}"><p:d /></d></r>
+----version----
+language: 
+version: 1
+revision: 8c310a66-948d-4361-92bb-4db5e98e6466
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210415T123817Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8c310a66-948d-4361-92bb-4db5e98e6466
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210623T102441Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: en-150
+version: 1
+revision: 20c3cb24-2fa3-4c65-90a9-d8c14ac0af53
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1753
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{98937C2F-41E2-41D3-9F71-D5AA72F01063}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-24" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{6784A5BE-7457-4BC6-902C-024D0CF8CA26}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{A6C09293-AD79-4F45-B637-99EA1A390F9D}" p:after="r[@uid='{6784A5BE-7457-4BC6-902C-024D0CF8CA26}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+20c3cb24-2fa3-4c65-90a9-d8c14ac0af53
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230210T061657Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-AU
+version: 1
+revision: 9d59aa89-f097-44d4-8324-a1504bd4ecc9
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1753
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{98937C2F-41E2-41D3-9F71-D5AA72F01063}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-24" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{6784A5BE-7457-4BC6-902C-024D0CF8CA26}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{A6C09293-AD79-4F45-B637-99EA1A390F9D}" p:after="r[@uid='{6784A5BE-7457-4BC6-902C-024D0CF8CA26}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9d59aa89-f097-44d4-8324-a1504bd4ecc9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230817T100108Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-BM
+version: 1
+revision: e608d53d-5670-4234-8f06-fd36c27d0a6d
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1753
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{98937C2F-41E2-41D3-9F71-D5AA72F01063}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-24" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{6784A5BE-7457-4BC6-902C-024D0CF8CA26}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{A6C09293-AD79-4F45-B637-99EA1A390F9D}" p:after="r[@uid='{6784A5BE-7457-4BC6-902C-024D0CF8CA26}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e608d53d-5670-4234-8f06-fd36c27d0a6d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T152341Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: 4f33ccc6-0e9a-4162-9f7c-7a68ad9d44ed
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1796
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4A735A87-766B-4248-9ADB-416E8E9DF996}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-24" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{9F0E3B56-338B-4153-9478-13693313A885}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{22E7B5B7-689E-48C9-88AB-4C898257C3B5}" p:after="r[@uid='{9F0E3B56-338B-4153-9478-13693313A885}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4f33ccc6-0e9a-4162-9f7c-7a68ad9d44ed
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220830T173734Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en-GB
+version: 1
+revision: 95c2ea63-ab61-44cc-a8c3-ed26557ac67c
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1796
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{3FDAF438-522D-423F-8DAE-EA7479F822FC}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-25" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{5ACDFB37-3129-45DA-83CC-18C881A4AA83}" p:after="r[@uid='{AE43060F-2540-4157-80CB-72DBB4115249}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{61B37E70-246F-41F4-9E5E-683886DE445D}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+95c2ea63-ab61-44cc-a8c3-ed26557ac67c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220830T172216Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en-HK
+version: 1
+revision: aa956506-0056-4648-86a1-ed09754d9ef5
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1796
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{B2E286EC-3B61-42EF-AC4E-4E7D07C24CF7}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-24" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{2161BB9B-6299-4FCE-80D8-26BE5C07201C}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{520FF50D-4059-4B98-A6E1-259FE8FD562F}" p:after="r[@uid='{2161BB9B-6299-4FCE-80D8-26BE5C07201C}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aa956506-0056-4648-86a1-ed09754d9ef5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220830T173427Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en-MT
+version: 1
+revision: b2bf3235-f30a-461d-8c68-de6ba935cf0e
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1753
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{98937C2F-41E2-41D3-9F71-D5AA72F01063}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-24" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{6784A5BE-7457-4BC6-902C-024D0CF8CA26}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{A6C09293-AD79-4F45-B637-99EA1A390F9D}" p:after="r[@uid='{6784A5BE-7457-4BC6-902C-024D0CF8CA26}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b2bf3235-f30a-461d-8c68-de6ba935cf0e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T152341Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 1
+revision: 784459b0-43bf-414b-9266-af638f2ba814
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 187
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{498C58A2-91A3-4A2E-A994-36CEFFE54D07}" /></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mgibbons
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200221T112517Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+784459b0-43bf-414b-9266-af638f2ba814
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210624T123807Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en-US
+version: 2
+revision: e716116b-ef51-476c-96bb-4faabe0d6f87
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1753
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{98937C2F-41E2-41D3-9F71-D5AA72F01063}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-24" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{6784A5BE-7457-4BC6-902C-024D0CF8CA26}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{A6C09293-AD79-4F45-B637-99EA1A390F9D}" p:after="r[@uid='{6784A5BE-7457-4BC6-902C-024D0CF8CA26}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mgibbons
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e716116b-ef51-476c-96bb-4faabe0d6f87
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220830T173209Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: es-ES
+version: 1
+revision: 4577f959-9929-4a87-82f7-5ab99289dc54
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1706
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{A7A4CB73-BF3D-452D-A7F8-15FBDA0D6B6C}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;SearchSignature&amp;FieldNames=%7B3623CBF3-7403-49AC-AC5A-8DD0C7FEE426%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D&amp;Scope=%7B8D7D37B5-3EC6-4920-A9EE-2FF54E581A28%7D&amp;PageSize=3&amp;DefaultLanguageFilter=%7B04C9B082-DE71-4035-8D16-737BF024FDE6%7D&amp;DefaultSortOrder=%7BF3EC78EE-9B8C-45E3-BD48-616AD1EE388C%7D&amp;AutoFireSearchWhenNoCriteriaSet=1&amp;RenderingIdentifier&amp;DynamicPlaceholderId=22" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{EE877F43-6167-4CC2-BEE1-2C8A998D416E}" p:after="r[@uid='{AE43060F-2540-4157-80CB-72DBB4115249}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4577f959-9929-4a87-82f7-5ab99289dc54
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221111T195707Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: fr-CA
+version: 1
+revision: 7ba55ffb-043b-4989-be31-c1e9105b50c3
+
+----field----
+field: {4C2F221F-9426-45ED-9EEB-C79BB3169565}
+name: StickyNotes
+key: stickynotes
+content-length: 12
+
+{"items":[]}
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1796
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{BC100E9A-6440-44D1-9DEC-3653BE79CC3F}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-24" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{8AC43763-5D95-4C7D-B45D-00F41A33EB8B}" s:ds="" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=blog-article-recommended&amp;DynamicPlaceholderId=21" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{F71206BA-45F8-451E-A5D1-DD96F46CD89E}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{263B44F5-1517-46F2-B098-F7CA959B0715}" p:after="r[@uid='{F71206BA-45F8-451E-A5D1-DD96F46CD89E}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7ba55ffb-043b-4989-be31-c1e9105b50c3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220830T173953Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: hu-HU
+version: 1
+revision: 0526b019-3fd6-4c1b-b5ff-88cc3b6a2c62
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1538
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{98937C2F-41E2-41D3-9F71-D5AA72F01063}" p:before="*" s:ds="local:/Data/AddThis" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="Reset Caching Options&amp;GridParameters&amp;Styles&amp;RenderingIdentifier" s:ph="/main/container-24" /><r uid="{D43FFD05-A5C0-47F5-A7FF-97A093F14B00}" s:ds="{5FF1AA71-EECC-4A47-8BAA-5D9DB1FB1495}" s:par="Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BB8D8A231-B740-4F3C-A081-CE4E7AFD8EF5%7D%7C%7B9EB8CBEE-D261-4078-A6A5-8D7607D3EB1E%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=23" /><r uid="{21C607A9-DB2C-454E-9B81-4140BD997E56}" s:mvt="{12F5996D-20EB-4BA2-9BFD-1A434E4CA075}" /><r uid="{6784A5BE-7457-4BC6-902C-024D0CF8CA26}" p:after="r[@uid='{E17924A8-6C1E-4049-AAB6-C296B519761B}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=24" s:ph="main" /><r uid="{A6C09293-AD79-4F45-B637-99EA1A390F9D}" p:after="r[@uid='{6784A5BE-7457-4BC6-902C-024D0CF8CA26}']" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="Reset Caching Options&amp;GridParameters&amp;BackgroundImage&amp;Styles=%7BFD6F03FE-3C71-4F4B-ACAF-74744F4FE712%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=25" s:ph="main" /><r uid="{5A323A76-89DC-49FE-B710-8230C5CD1E35}" p:after="*[1=2]" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210705T021332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0526b019-3fd6-4c1b-b5ff-88cc3b6a2c62
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220712T045208Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

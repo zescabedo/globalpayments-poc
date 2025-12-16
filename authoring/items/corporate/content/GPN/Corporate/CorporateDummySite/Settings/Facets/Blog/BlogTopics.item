@@ -1,0 +1,180 @@
+----item----
+version: 1
+id: {38E3B46A-60B8-487C-8BA9-9604CC26BD2A}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Facets/Blog/BlogTopics
+parent: {5A4ADDD4-BA8A-4029-918F-3691A42CDEC8}
+name: BlogTopics
+master: {00000000-0000-0000-0000-000000000000}
+template: {6042E216-F650-447C-86D1-00FEA97454E7}
+templatekey: ListFacet
+
+----field----
+field: {0E23BB51-C071-41B5-9D83-AC410B89B85A}
+name: Parameters
+key: parameters
+content-length: 18
+
+gpiblogtopicsfacet
+----version----
+language: en-CA
+version: 1
+revision: e66f8e1c-1196-4a95-8139-272e3c021bb2
+
+----field----
+field: {31CA077F-EF38-4980-8A24-05408031B2BC}
+name: Name
+key: name
+content-length: 10
+
+BlogTopics
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T110006Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e66f8e1c-1196-4a95-8139-272e3c021bb2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200601T022719Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en-US
+version: 1
+revision: c21064a9-321b-4c23-a996-23e15b1823ca
+
+----field----
+field: {31CA077F-EF38-4980-8A24-05408031B2BC}
+name: Name
+key: name
+content-length: 10
+
+BlogTopics
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mgibbons
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T110006Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c21064a9-321b-4c23-a996-23e15b1823ca
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210215T063853Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: fr-CA
+version: 1
+revision: 847606be-5ab2-47a9-aaf6-558ff4c80005
+
+----field----
+field: {31CA077F-EF38-4980-8A24-05408031B2BC}
+name: Name
+key: name
+content-length: 10
+
+BlogTopics
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T110006Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+847606be-5ab2-47a9-aaf6-558ff4c80005
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200601T023524Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

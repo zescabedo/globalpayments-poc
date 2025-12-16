@@ -1,0 +1,1314 @@
+----item----
+version: 1
+id: {CBCB1DFE-9E6F-4C5D-89FF-463504B6A83E}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Home
+parent: {AFC6CAA1-7856-4933-9D25-3D3A1D5B9E0B}
+name: Home
+master: {B90549B5-C997-4D6B-B102-C9AB82528974}
+template: {A02BC409-381B-4A9A-B653-2FBB53385751}
+templatekey: Home
+
+----field----
+field: {24171BF1-C0E1-480E-BE76-4C0A1876F916}
+name: Page Design
+key: page design
+content-length: 38
+
+{753C6743-5532-46FB-AE0B-9BAC97E25A74}
+----field----
+field: {98BB27E0-C3DB-4D0F-82C8-398CAA2C3010}
+name: Enable Geo Detection
+key: enable geo detection
+content-length: 1
+
+1
+----field----
+field: {961CADD8-8F7D-4B12-B0DA-7AF04B54B22D}
+name: OpenGraphType
+key: opengraphtype
+content-length: 7
+
+website
+----field----
+field: {B0F2F11D-F706-41DA-81FE-88EBFACB3B53}
+name: OpenGraphSiteName
+key: opengraphsitename
+content-length: 31
+
+https://www.globalpayments.com/
+----field----
+field: {DB51D4E9-C24D-4670-AF0E-62C8AA08E2B6}
+name: LocalData
+key: localdata
+content-length: 38
+
+{4A1F85F5-76D5-46A1-BD04-04E330F35E8C}
+----field----
+field: {76FB6FFD-4487-4028-A1CF-705FBE360CBA}
+name: Priority
+key: priority
+content-length: 38
+
+{F5FE29B6-3AA5-4648-8380-E67A5DC01D81}
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 281
+
+<tracking>
+  <profile id="780c7080-ff90-4dd8-9763-0821016b8362" name="Customer Journey">
+    <key name="Awareness" value="8" />
+    <key name="Consideration" value="6" />
+    <key name="Retention" value="0" />
+    <key name="Sales Lead" value="0" />
+  </profile>
+</tracking>
+----field----
+field: {6FD695E7-7F6D-4CA5-8B49-A829E5950AE9}
+name: __Subitems Sorting
+key: __subitems sorting
+content-length: 0
+
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 29329
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{F7A3FA28-12C6-4477-B0B6-8779DAE5BED3}"><r uid="{11EC341D-56D1-4E30-8FA3-3F4CE63F08FA}" p:before="*" s:ds="local:/Data/Promo - Your Goals" s:id="{AC36160A-5A54-4420-BF37-AB3393A806B2}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7b2865D7A1-A6CC-4375-9982-770A104A28B6%7d&amp;DynamicPlaceholderId=111&amp;Reset Caching Options" s:ph="/main/container-22" /><r uid="{63ECFE57-B871-462B-92A8-352B0AFDC0AF}" p:after="r[@uid='{11EC341D-56D1-4E30-8FA3-3F4CE63F08FA}']" s:ds="local:/Data/Text - On Security Pictogram" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7bAF3B9049-CB3A-496D-943E-A6938A752560%7d&amp;DynamicPlaceholderId=110&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_5/container-93" /><r uid="{0ADE9200-1683-4763-AAC0-2ADE7FB82F81}" p:after="r[@uid='{63ECFE57-B871-462B-92A8-352B0AFDC0AF}']" s:ds="local:/Data/Text - On Customer Pictogram" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7bAF3B9049-CB3A-496D-943E-A6938A752560%7d&amp;DynamicPlaceholderId=109&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_4/container-91" /><r uid="{441FA351-E7EC-4C27-8DB7-3CC55AB49A18}" p:after="r[@uid='{0ADE9200-1683-4763-AAC0-2ADE7FB82F81}']" s:ds="local:/Data/Text - On Simplicity Pictogram" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7bAF3B9049-CB3A-496D-943E-A6938A752560%7d&amp;DynamicPlaceholderId=108&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_3/container-89" /><r uid="{26A87BDB-EBC5-4065-BB9A-816C2A2659ED}" p:after="r[@uid='{441FA351-E7EC-4C27-8DB7-3CC55AB49A18}']" s:ds="local:/Data/Text - On service Pictogram" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7bAF3B9049-CB3A-496D-943E-A6938A752560%7d&amp;DynamicPlaceholderId=107&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_2/container-87" /><r uid="{78C36434-E18D-4D34-8FAA-DFC808DFDB65}" p:after="r[@uid='{26A87BDB-EBC5-4065-BB9A-816C2A2659ED}']" s:ds="local:/Data/Text - On scale Pictogram" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7bAF3B9049-CB3A-496D-943E-A6938A752560%7d&amp;DynamicPlaceholderId=106&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_1/container-85" /><r uid="{61DED2E6-63BA-4B43-868A-8D6657200CFE}" p:after="r[@uid='{78C36434-E18D-4D34-8FAA-DFC808DFDB65}']" s:ds="local:/Data/Text - Lead deliver" s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=105&amp;Reset Caching Options" s:ph="/main/container-6/row-6-7" /><r uid="{B2B493D8-9330-4157-8FF4-E7EED1960AAC}" p:after="r[@uid='{61DED2E6-63BA-4B43-868A-8D6657200CFE}']" s:ds="/sitecore/content/GPN/Corporate/Clone2/Data/Video Plus Folder/Video Plus Careers" s:id="{C47E2BDD-1FED-4E84-BEC2-5203109A4D73}" s:par="RenderingIdentifier&amp;Styles=%7b708E6FA8-342F-4D88-9D0A-527F1A1630A7%7d&amp;GridParameters&amp;FieldNames=%7bF448A6E1-FAFD-488F-BCE8-7F0D27D68DBD%7d&amp;DynamicPlaceholderId=104&amp;Reset Caching Options" s:ph="/main/container-25" /><r uid="{96A6AAE0-CC28-4378-A206-66FA750CB6EA}" p:after="r[@uid='{B2B493D8-9330-4157-8FF4-E7EED1960AAC}']" s:ds="local:/Data/Software Solutions" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=103&amp;Reset Caching Options" s:ph="/main/container-25/row-1-102" /><r uid="{1A239659-65AB-410E-9F90-728B789EF138}" p:after="r[@uid='{96A6AAE0-CC28-4378-A206-66FA750CB6EA}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=102&amp;Styles7&amp;Styles1=%7b973221D8-872B-43E6-9225-D130C17F32BF%7d&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-25" /><r uid="{99BC2E05-5CAE-4647-BA5E-57D155CA3449}" p:after="r[@uid='{1A239659-65AB-410E-9F90-728B789EF138}']" s:ds="" s:id="{2BF16BB6-6B93-4C9C-8DD5-4DB584AE4434}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7b31D9DC96-BEDE-4D40-B42C-F1D3C42732FA%7d%7c%7bB2799A51-CDA3-4C10-BE07-0C828305A316%7d&amp;FieldNames=%7bD350BE36-60DD-4A4E-B78B-EF2FBF080441%7d&amp;DynamicPlaceholderId=101&amp;Reset Caching Options" s:ph="/main/container-16/row-3-17" /><r uid="{3FCC3366-B922-40CA-AB80-58D6E65046DB}" p:after="r[@uid='{99BC2E05-5CAE-4647-BA5E-57D155CA3449}']" s:ds="{C0DF9997-E940-4883-BE44-CC15AC0BE25C}" s:id="{825BBFBC-BCDD-4428-868C-0154073D4EDA}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7d&amp;DynamicPlaceholderId=96&amp;Reset Caching Options" s:ph="/main/container-67/row-2-68/carouselplaceholder-1-95" /><r uid="{2417F8C2-9171-426F-BB06-8D9C78DF3B7D}" p:after="r[@uid='{3FCC3366-B922-40CA-AB80-58D6E65046DB}']" s:ds="{BB881BE7-8980-4615-B736-7DE7F6FF6316}" s:id="{825BBFBC-BCDD-4428-868C-0154073D4EDA}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7d&amp;DynamicPlaceholderId=97&amp;Reset Caching Options" s:ph="/main/container-67/row-2-68/carouselplaceholder-1-95" /><r uid="{EF3D9F22-1705-4BC9-94CC-D4FCFC1FCD53}" p:after="r[@uid='{2417F8C2-9171-426F-BB06-8D9C78DF3B7D}']" s:ds="{CC91E429-E4D1-4283-8BCB-13B0700A0919}" s:id="{825BBFBC-BCDD-4428-868C-0154073D4EDA}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7d&amp;DynamicPlaceholderId=98&amp;Reset Caching Options" s:ph="/main/container-67/row-2-68/carouselplaceholder-1-95" /><r uid="{C648D534-F34F-4567-A3CC-2359C0C1969B}" p:after="r[@uid='{EF3D9F22-1705-4BC9-94CC-D4FCFC1FCD53}']" s:ds="{9E369389-1271-4722-9BD4-126002F8979B}" s:id="{825BBFBC-BCDD-4428-868C-0154073D4EDA}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7d&amp;DynamicPlaceholderId=99&amp;Reset Caching Options" s:ph="/main/container-67/row-2-68/carouselplaceholder-1-95" /><r uid="{FE99004C-4915-4E6A-B522-554BAFC9413B}" p:after="r[@uid='{C648D534-F34F-4567-A3CC-2359C0C1969B}']" s:ds="{20EE5795-9C54-45EA-8CCF-B141C83A2831}" s:id="{825BBFBC-BCDD-4428-868C-0154073D4EDA}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7d&amp;DynamicPlaceholderId=100&amp;Reset Caching Options" s:ph="/main/container-67/row-2-68/carouselplaceholder-1-95" /><r uid="{F61A70C7-5D0F-4497-AADB-BBAD2769D1E4}" p:after="r[@uid='{FE99004C-4915-4E6A-B522-554BAFC9413B}']" s:ds="" s:id="{9B76C19D-4789-4B2B-B502-89A0A761597C}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;GridParameters&amp;FieldNames=%7b1B19FED6-69CB-4614-9956-4784E7AF4C96%7d&amp;DynamicPlaceholderId=95&amp;Reset Caching Options" s:ph="/main/container-67/row-2-68" /><r uid="{A254F08A-B19E-43EF-87B2-55C8418614E3}" p:after="r[@uid='{F61A70C7-5D0F-4497-AADB-BBAD2769D1E4}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d&amp;GridParameters&amp;DynamicPlaceholderId=93&amp;BackgroundImage&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_5" /><r uid="{1259134B-D4B9-47DB-9430-D1A422B4E799}" p:after="r[@uid='{A254F08A-B19E-43EF-87B2-55C8418614E3}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d&amp;GridParameters&amp;DynamicPlaceholderId=91&amp;BackgroundImage&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_4" /><r uid="{E355AFDB-E2D6-44D4-BE4C-2B4DA1CF1390}" p:after="r[@uid='{1259134B-D4B9-47DB-9430-D1A422B4E799}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d&amp;GridParameters&amp;DynamicPlaceholderId=89&amp;BackgroundImage&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_3" /><r uid="{98F0B59A-5822-4C7B-A68B-D14D20F20063}" p:after="r[@uid='{E355AFDB-E2D6-44D4-BE4C-2B4DA1CF1390}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d&amp;GridParameters&amp;DynamicPlaceholderId=87&amp;BackgroundImage&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_2" /><r uid="{1611C8B5-AE1D-4055-9FDF-8A76648C204F}" p:after="r[@uid='{98F0B59A-5822-4C7B-A68B-D14D20F20063}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d&amp;GridParameters&amp;DynamicPlaceholderId=85&amp;BackgroundImage&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7/dynamiccontentlinks_1" /><r uid="{F08D3529-0AAF-4C2A-A242-CA4F45A5B717}" p:after="r[@uid='{1611C8B5-AE1D-4055-9FDF-8A76648C204F}']" s:ds="/sitecore/content/GPN/Corporate/Clone2/Data/Dynamic Content Lists/Homepage" s:id="{ED1D57EA-0707-440F-A536-49BF5BA6D4A8}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7b76AEBB52-7392-4BDD-B643-15B5C7ADD488%7d&amp;DynamicPlaceholderId=84&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{7E24B3A8-E1EA-481C-8EE8-22C873B28769}" p:after="r[@uid='{F08D3529-0AAF-4C2A-A242-CA4F45A5B717}']" s:ds="local:/Data/680m cards video" s:id="{C47E2BDD-1FED-4E84-BEC2-5203109A4D73}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b32A584F9-CAB9-4853-91F5-C1A4F649BD3A%7d%7c%7b636326E1-5BEA-416F-BBDC-468C8BDC155C%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7b61CE8415-385D-45AB-A801-EBC5B1356C88%7d&amp;DynamicPlaceholderId=71&amp;Reset Caching Options" s:ph="/main/container-16/row-2-17" /><r uid="{110C25D9-2C0D-4709-8367-E8E4A4DED71B}" p:after="r[@uid='{7E24B3A8-E1EA-481C-8EE8-22C873B28769}']" s:ds="local:/Data/We Deliver Innovation RTE" s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=69&amp;Reset Caching Options" s:ph="/main/container-67/row-1-68" /><r uid="{42F788FD-0403-4D2C-BF1F-AD8617A5FDC0}" p:after="r[@uid='{110C25D9-2C0D-4709-8367-E8E4A4DED71B}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=68&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-67" /><r uid="{01EB3860-8BB9-4897-83E0-6675B53FF4E6}" p:after="r[@uid='{42F788FD-0403-4D2C-BF1F-AD8617A5FDC0}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7bC9D40A2C-633F-4734-9060-4C0DEBB173EE%7d%7c%7b654FF79C-2123-4CB2-98BA-BB45596A6A41%7d&amp;DynamicPlaceholderId=3&amp;Styles7&amp;Styles1=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d%7c%7b654FF79C-2123-4CB2-98BA-BB45596A6A41%7d&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-5" /><r uid="{C9CFD830-983E-4F59-8C3F-A0C2AE54540F}" p:after="r[@uid='{01EB3860-8BB9-4897-83E0-6675B53FF4E6}']" s:ds="local:/Data/PIC - Industry Solutions" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=62&amp;Reset Caching Options" s:ph="/main/container-30/row-2-31/dynamiccontentlinks_7" /><r uid="{F53FBC45-A3A8-4BE9-9E53-6B8D3F539429}" p:after="r[@uid='{C9CFD830-983E-4F59-8C3F-A0C2AE54540F}']" s:ds="local:/Data/PIC - Actionable Insights" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=61&amp;Reset Caching Options" s:ph="/main/container-30/row-2-31/dynamiccontentlinks_6" /><r uid="{DB873141-40DA-42A0-A0E1-02D7719B49E8}" p:after="r[@uid='{F53FBC45-A3A8-4BE9-9E53-6B8D3F539429}']" s:ds="local:/Data/PIC - Reward Loyalty" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=60&amp;Reset Caching Options" s:ph="/main/container-30/row-2-31/dynamiccontentlinks_5" /><r uid="{E7B4A964-2CBB-4FCC-9311-1A8C8F21B376}" p:after="r[@uid='{DB873141-40DA-42A0-A0E1-02D7719B49E8}']" s:ds="local:/Data/PIC - Virtual cards" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=59&amp;Reset Caching Options" s:ph="/main/container-30/row-2-31/dynamiccontentlinks_4" /><r uid="{E9E1569D-5D22-493D-A474-99FB48C7826E}" p:after="r[@uid='{E7B4A964-2CBB-4FCC-9311-1A8C8F21B376}']" s:ds="local:/Data/PIC - New Markets" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=58&amp;Reset Caching Options" s:ph="/main/container-30/row-2-31/dynamiccontentlinks_3" /><r uid="{D743E2A1-B20E-4B47-A728-3B9EEB70FE2C}" p:after="r[@uid='{E9E1569D-5D22-493D-A474-99FB48C7826E}']" s:ds="local:/Data/PIC - Omnichannel" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=57&amp;Reset Caching Options" s:ph="/main/container-30/row-2-31/dynamiccontentlinks_2" /><r uid="{C395623D-D4F8-4BE3-BC84-ECB00B03738F}" p:after="r[@uid='{D743E2A1-B20E-4B47-A728-3B9EEB70FE2C}']" s:ds="local:/Data/PIC - Accept payments" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=56&amp;Reset Caching Options" s:ph="/main/container-30/row-2-31/dynamiccontentlinks_1" /><r uid="{DFFBB809-E1A0-473D-954F-F0BA9310568B}" p:after="r[@uid='{C395623D-D4F8-4BE3-BC84-ECB00B03738F}']" s:ds="" s:id="{2BF16BB6-6B93-4C9C-8DD5-4DB584AE4434}" s:par="RenderingIdentifier&amp;Styles=%7b94B17E91-075B-468F-AA47-DD19F66A9905%7d%7c%7bAFB0260F-E224-4CCC-B5F8-F738DDE4B317%7d%7c%7b1CD75B4A-4F66-443E-8E79-E51BEFF03535%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b884F0DF9-FF61-419E-89AB-FF3ECEC9E93A%7d%7c%7b443272D9-774A-48E0-85DA-EE5CC4DA5EC4%7d&amp;FieldNames=%7b446401F4-0273-48EF-84AA-C31CB10163CD%7d&amp;DynamicPlaceholderId=54&amp;Reset Caching Options" s:ph="/main/container-6/row-4-7" /><r uid="{5AE9B226-7C9E-4A4C-92D7-20FA01CFAB30}" p:after="r[@uid='{DFFBB809-E1A0-473D-954F-F0BA9310568B}']" s:ds="local:/Data/News" s:id="{886B8CCC-816E-4D3A-BF05-4876B6C23686}" s:par="RenderingIdentifier&amp;Styles=%7b88151773-1679-4670-804D-7F911B416D4A%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;TabControlBelowContent&amp;DynamicPlaceholderId=50&amp;Reset Caching Options" s:ph="/main/container-29/row-1-37" /><r uid="{9C990DB3-13FF-445C-A574-FC7D192B3EFE}" p:after="r[@uid='{5AE9B226-7C9E-4A4C-92D7-20FA01CFAB30}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=37&amp;Styles7&amp;Styles1=%7bEF087052-3EBF-4EBB-9847-0A72070AC662%7d&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-29" /><r uid="{CA10BD90-4127-4BE7-B867-A828BD0E1D57}" p:after="r[@uid='{9C990DB3-13FF-445C-A574-FC7D192B3EFE}']" s:ds="local:/Data/How we can help" s:id="{ED1D57EA-0707-440F-A536-49BF5BA6D4A8}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bB4C3CBE8-08C6-4480-B4D0-5A68DC97332D%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b884F0DF9-FF61-419E-89AB-FF3ECEC9E93A%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7b95C58F7D-AE49-4FE9-87F5-4B79185E64F2%7d&amp;DynamicPlaceholderId=35&amp;Reset Caching Options" s:ph="/main/container-30/row-2-31" /><r uid="{D03A96D5-5AB7-4A4B-88A9-411C6109E261}" p:after="r[@uid='{CA10BD90-4127-4BE7-B867-A828BD0E1D57}']" s:ds="local:/Data/Hero Animation" s:id="{A533FB3D-C80B-4E91-835E-AFF175BF58B0}" s:par="RenderingIdentifier&amp;Styles=%7bE3EC259E-B93F-4487-BABE-8D93340279D6%7d&amp;GridParameters&amp;FieldNames=%7b29ABE520-04E2-4082-A71F-135E62387E6E%7d&amp;DynamicPlaceholderId=1&amp;Reset Caching Options" s:ph="/main/container-2" /><r uid="{838A71DD-335E-41D2-B3FE-75F55C73DE7F}" p:after="r[@uid='{D03A96D5-5AB7-4A4B-88A9-411C6109E261}']" s:ds="{9BF3761A-B3C9-4760-9FC9-CF699C4F9AFE}" s:id="{78A7022B-72CF-4946-BBFE-DB7062060155}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bCCF636C9-EA99-4E07-82E0-0699768629D4%7d&amp;DynamicPlaceholderId=33&amp;Reset Caching Options" s:ph="/main/container-5/row-2-3" /><r uid="{C722EAA7-440C-4F49-91FA-AD59625F9254}" p:after="r[@uid='{838A71DD-335E-41D2-B3FE-75F55C73DE7F}']" s:ds="local:/Data/Tell us how we can help" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=32&amp;Reset Caching Options" s:ph="/main/container-30/row-1-31" /><r uid="{A2F621C9-DE55-4559-8F33-1801A290ECD7}" p:after="r[@uid='{C722EAA7-440C-4F49-91FA-AD59625F9254}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=31&amp;Styles7&amp;Styles1=%7bDDAF4555-5032-4DC7-BDE2-81FB6BA26B78%7d&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-30" /><r uid="{EDEBCAFE-C8CC-4014-A2D4-92F8F717D639}" p:after="r[@uid='{A2F621C9-DE55-4559-8F33-1801A290ECD7}']" s:ds="{562920DE-F890-40C7-8160-14398391000F}" s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}" s:par="RenderingIdentifier&amp;Styles=%7bF3818E59-F390-4F4D-A549-6867E8F8EA6A%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=27&amp;Reset Caching Options" s:ph="/main/formplaceholder-2-26" /><r uid="{EA05EB5D-20AB-4F70-A7FC-1489F4E29836}" p:after="r[@uid='{EDEBCAFE-C8CC-4014-A2D4-92F8F717D639}']" s:ds="/sitecore/content/GPN/Corporate/Clone2/Home/Data/638m cards" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=20&amp;Reset Caching Options" s:ph="/main/container-16/row-2-17" /><r uid="{34B0DEED-EF00-426D-A03D-3D3126336552}" p:after="r[@uid='{EA05EB5D-20AB-4F70-A7FC-1489F4E29836}']" s:ds="local:/Data/Payment Types" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=19&amp;Reset Caching Options" s:ph="/main/container-16/row-1-17" /><r uid="{BAD893EE-78EC-4F69-BEA6-76D1B6BDF7CB}" p:after="r[@uid='{34B0DEED-EF00-426D-A03D-3D3126336552}']" s:ds="local:/Data/Accept 140plus video" s:id="{C47E2BDD-1FED-4E84-BEC2-5203109A4D73}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bC6DFAC99-142F-4561-9714-24D185469861%7d%7c%7b636326E1-5BEA-416F-BBDC-468C8BDC155C%7d&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d%7c%7bBCF767CC-B4A1-40B2-93CD-9C6ED2356B5C%7d%7c%7b52AC9207-E0D2-497E-B61D-282F1C32EFBB%7d&amp;FieldNames=%7b61CE8415-385D-45AB-A801-EBC5B1356C88%7d&amp;DynamicPlaceholderId=70&amp;Reset Caching Options" s:ph="/main/container-16/row-1-17" /><r uid="{19E18387-7C49-4BF9-B7A7-C083319D4014}" p:after="r[@uid='{BAD893EE-78EC-4F69-BEA6-76D1B6BDF7CB}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=3%2c1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d%7c%7b09911FC7-777A-49C9-8F2F-1841817F64C5%7d&amp;DynamicPlaceholderId=17&amp;Styles7&amp;Styles1=%7b09911FC7-777A-49C9-8F2F-1841817F64C5%7d%7c%7b403B8D34-BF44-4D99-A37C-FBFFFA6717AB%7d%7c%7bB6CEC3D9-B8FC-4F82-96E3-C5133983B5F1%7d&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-16" /><r uid="{39386A09-BB7D-46A6-809C-4AB0DA04775D}" p:after="r[@uid='{19E18387-7C49-4BF9-B7A7-C083319D4014}']" s:ds="local:/Data/We lead because we deliver" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b81C14A24-7BDC-4136-9C25-C190E74D5597%7d%7c%7b123DB25A-11B6-46CD-8722-B779A617048C%7d%7c%7bF19DF24E-2646-4D3C-A4D0-378EE844EF3D%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=8&amp;Reset Caching Options" s:ph="/main/container-6/row-1-7" /><r uid="{540F505C-0603-4732-9F81-6C8BF09CAF38}" p:after="r[@uid='{39386A09-BB7D-46A6-809C-4AB0DA04775D}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c4%2c6%2c3&amp;Styles4&amp;Styles6=%7bB64283F4-6B53-42BC-ADA5-ACDF4BCDD397%7d&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7bB10F00FC-2184-452A-A7F5-EF696089A8DE%7d&amp;DynamicPlaceholderId=7&amp;Styles7&amp;Styles1&amp;Styles3=%7bC9D40A2C-633F-4734-9060-4C0DEBB173EE%7d%7c%7b9D230954-4588-496E-87FF-9390B0D94CD4%7d&amp;Reset Caching Options" s:ph="/main/container-6" /><r uid="{D214EFA2-D0E8-49C5-9269-515F93204138}" p:after="r[@uid='{540F505C-0603-4732-9F81-6C8BF09CAF38}']" s:ds="local:/Data/Global Payment partners" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=4&amp;Reset Caching Options" s:ph="/main/container-5/row-1-3" /><r uid="{2136010E-59A2-4378-8E8C-FBF03A6CA4CB}" p:after="r[@uid='{D214EFA2-D0E8-49C5-9269-515F93204138}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=2&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{2C3AAFB7-73DE-4895-9B36-505EE4CE0375}" p:after="r[@uid='{2136010E-59A2-4378-8E8C-FBF03A6CA4CB}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=5&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{C629A317-3EC3-45C6-B8A9-A0E45EA1851B}" p:after="r[@uid='{2C3AAFB7-73DE-4895-9B36-505EE4CE0375}']" s:ds="local:/Data/CI" s:id="{813F479D-F430-43B9-B0C4-D12296A2819D}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;GridParameters&amp;FieldNames=%7b5C2052F2-5721-41B1-BEB0-E7ACC211BF32%7d&amp;DynamicPlaceholderId=51&amp;Reset Caching Options" s:ph="main" /><r uid="{00E93F3B-84C8-49B6-8E20-F8DE8C6B41EB}" p:after="r[@uid='{C629A317-3EC3-45C6-B8A9-A0E45EA1851B}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b844C7976-F3A4-4D69-91F6-B1C2D40FCABE%7d%7c%7b7F581F55-B04D-4F02-9C79-5EADA8DCDB08%7d&amp;GridParameters&amp;DynamicPlaceholderId=6&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{FB687336-74E0-44EA-B27A-C5FE93526161}" p:after="r[@uid='{00E93F3B-84C8-49B6-8E20-F8DE8C6B41EB}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7bBBBDBBE9-46B4-4B50-B2A4-4D560A6DF091%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=67&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{AED65003-92E7-40C9-B709-5A4E7DAB9D49}" p:after="r[@uid='{FB687336-74E0-44EA-B27A-C5FE93526161}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=16&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{B0EDC24D-E949-4CFD-AE41-16EDCE7EBC26}" p:after="r[@uid='{AED65003-92E7-40C9-B709-5A4E7DAB9D49}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;data-animation=zoom-out&amp;GridParameters&amp;DynamicPlaceholderId=22&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{EE27C540-F760-4FBC-BD0E-D97B8A94EB3B}" p:after="r[@uid='{B0EDC24D-E949-4CFD-AE41-16EDCE7EBC26}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7bA55EC20E-AE6B-45A5-83CC-B42C42D665D6%7d%7c%7b1F3144EF-AA5E-42FB-9DC4-7A5A9C4634BA%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7bD02EA5B5-7317-4405-9202-2DF08297D53F%7d&amp;GridParameters&amp;DynamicPlaceholderId=25&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{FB0140D3-916A-4BBB-876F-A91F4F8B1D8D}" p:after="r[@uid='{EE27C540-F760-4FBC-BD0E-D97B8A94EB3B}']" s:ds="{6E181E5D-604B-4032-98BA-8BB002D6C50F}" s:id="{2C8F08CD-5938-4991-9F42-613539477414}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b897EDDCF-0330-45E8-9FBE-D70132BB89B4%7d%7c%7bA59BEF73-5C29-4B9E-9741-DE812633C4CD%7d%7c%7b1CC66CE1-7D58-4964-A0B7-D7B5691316EF%7d%7c%7bDFC30546-8F73-4903-A207-0FC324E89E3B%7d%7c%7bEB2E9124-2EF2-4B99-8BAD-046868C22E18%7d&amp;GridParameters&amp;FieldNames=%7b7452208C-5CAE-4FEC-910C-6194B06E5EEB%7d&amp;DynamicPlaceholderId=26&amp;Reset Caching Options" s:ph="main" /><r uid="{F3827C7F-4FBA-4AC9-B88B-353ABC7D528D}" p:after="r[@uid='{FB0140D3-916A-4BBB-876F-A91F4F8B1D8D}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=29&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{5DA6A372-010D-44CB-A8E7-749E896C3476}" p:after="*[1=2]" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b1CC9EB35-E883-403D-970F-B4997E391779%7d&amp;GridParameters&amp;DynamicPlaceholderId=30&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /></d></r>
+----field----
+field: {9135200A-5626-4DD8-AB9D-D665B8C11748}
+name: __Never publish
+key: __never publish
+content-length: 0
+
+
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 325
+
+ar|sitecore\GP Corp Analytics|pe|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|ar|sitecore\GP Corp Strategy|pe|+item:rename|+item:write|+item:read|+item:delete|+item:create|pd|+item:rename|+item:write|+item:read|+item:delete|+item:create|
+----version----
+language: en
+version: 1
+revision: fda4faca-6943-4963-ab90-2691e913b104
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 23
+
+sitecore\Akhila_Vadyala
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20211206T162224Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 23
+
+sitecore\Akhila_Vadyala
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fda4faca-6943-4963-ab90-2691e913b104
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220216T195111Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----version----
+language: en-CA
+version: 1
+revision: 9e7d809b-4ee2-4861-8b21-0d8da0ee02f1
+
+----field----
+field: {D4C9725F-D2FC-4F33-863C-AB3EBC8D6988}
+name: Title
+key: title
+content-length: 24
+
+Innovation that Delivers
+----field----
+field: {963F850D-1234-4576-98AE-29C705A60784}
+name: Custom Schema
+key: custom schema
+content-length: 0
+
+
+----field----
+field: {7D988161-3991-465A-A88C-280BC65542A0}
+name: OpenGraphTitle
+key: opengraphtitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {7BDDC8B8-1F77-46D8-9D7F-46E20E041F74}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {D8B38DD7-E9A0-4410-9F17-D436B0C8635A}
+name: OpenGraphImageUrl
+key: opengraphimageurl
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {48A66E40-D164-4C8E-BC06-172ECC6769EC}
+name: TwitterTitle
+key: twittertitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {45CE257A-6060-4C4A-9A0F-AE77BF705B25}
+name: TwitterSite
+key: twittersite
+content-length: 31
+
+https://www.globalpayments.com/
+----field----
+field: {4D263B95-322F-4003-ADBD-70920FACF823}
+name: TwitterDescription
+key: twitterdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {DE457091-0989-414E-ADDF-59DB0DDB6690}
+name: TwitterImage
+key: twitterimage
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {CE53062E-4385-4244-8382-C2B4530A51BA}
+name: TwitterCardType
+key: twittercardtype
+content-length: 38
+
+{C770CC78-859C-4B9A-B509-5EC1F9E20985}
+----field----
+field: {528986CC-6FF9-4383-8BEE-514F0E8172CF}
+name: MetaDescription
+key: metadescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 339
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{CAA89DAE-985D-4120-8758-8002D536194D}" p:before="*" s:ds="local:/Data/Payment Trends Alert Bar" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="RenderingIdentifier&amp;Reset Caching Options&amp;GridParameters&amp;Styles" s:ph="main" /></d></r>
+----field----
+field: {B8F42732-9CB8-478D-AE95-07E25345FB0F}
+name: __Hide version
+key: __hide version
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210706T073226Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9e7d809b-4ee2-4861-8b21-0d8da0ee02f1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220216T195133Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----version----
+language: en-US
+version: 1
+revision: 442436b8-7ab2-4596-8617-5f0197a0a00c
+
+----field----
+field: {D4C9725F-D2FC-4F33-863C-AB3EBC8D6988}
+name: Title
+key: title
+content-length: 24
+
+Innovation that Delivers
+----field----
+field: {A4B445B5-D1B4-4124-8449-B35B87FEF56F}
+name: Product Interest
+key: product interest
+content-length: 0
+
+
+----field----
+field: {85A82DD2-BFB0-4B21-ADDF-803219DE1875}
+name: Signup Modal
+key: signup modal
+content-length: 0
+
+
+----field----
+field: {963F850D-1234-4576-98AE-29C705A60784}
+name: Custom Schema
+key: custom schema
+content-length: 0
+
+
+----field----
+field: {7D988161-3991-465A-A88C-280BC65542A0}
+name: OpenGraphTitle
+key: opengraphtitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {7BDDC8B8-1F77-46D8-9D7F-46E20E041F74}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {D8B38DD7-E9A0-4410-9F17-D436B0C8635A}
+name: OpenGraphImageUrl
+key: opengraphimageurl
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {97FB669D-5B8E-4829-9A24-06418C315D73}
+name: SxaTags
+key: sxatags
+content-length: 0
+
+
+----field----
+field: {48A66E40-D164-4C8E-BC06-172ECC6769EC}
+name: TwitterTitle
+key: twittertitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {45CE257A-6060-4C4A-9A0F-AE77BF705B25}
+name: TwitterSite
+key: twittersite
+content-length: 31
+
+https://www.globalpayments.com/
+----field----
+field: {4D263B95-322F-4003-ADBD-70920FACF823}
+name: TwitterDescription
+key: twitterdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {DE457091-0989-414E-ADDF-59DB0DDB6690}
+name: TwitterImage
+key: twitterimage
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {CE53062E-4385-4244-8382-C2B4530A51BA}
+name: TwitterCardType
+key: twittercardtype
+content-length: 38
+
+{C770CC78-859C-4B9A-B509-5EC1F9E20985}
+----field----
+field: {528986CC-6FF9-4383-8BEE-514F0E8172CF}
+name: MetaDescription
+key: metadescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 23822
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{8B40418E-23B3-4B59-B188-D07F0ADEE0CD}" p:before="*" s:ds="local:/Data/News Header" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b0188D416-6E3C-4ACF-8284-F182B9242A77%7d%7c%7b6ECF6E53-8B9A-41A8-B6E7-20163AA95B9A%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=81&amp;Reset Caching Options" s:ph="/main/container-29/row-2-37" /><r uid="{853ABC5F-6911-4FD0-9C26-6C27C9AB0CF9}" p:after="r[@uid='{8B40418E-23B3-4B59-B188-D07F0ADEE0CD}']" s:ds="local:/Data/Mobile we lead because txt" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=80&amp;Reset Caching Options" s:ph="/main/container-75/row-1-77" /><r uid="{5F0B2350-81A1-466E-BA7D-271B8A9A616B}" p:after="r[@uid='{853ABC5F-6911-4FD0-9C26-6C27C9AB0CF9}']" s:ds="local:/Data/Mobile We lead because img" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bE074D650-F71E-42A5-8880-12544B4CD0E4%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b7CB7AB5D-6E6A-4CDF-B0AD-47325646685A%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=79&amp;Reset Caching Options" s:ph="/main/container-75/row-1-77" /><r uid="{61D8D1B9-8485-4880-B814-BA4D56397308}" p:after="r[@uid='{5F0B2350-81A1-466E-BA7D-271B8A9A616B}']" s:ds="/sitecore/content/GPN/Corporate/Clone2/Data/Accordions/Mobile Accordions/Home We lead because" s:id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}" s:par="RenderingIdentifier&amp;EasingFunction=Swing&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b35355F92-6C6A-4448-8BA0-216C8AC5DCA5%7d&amp;CanToggle=1&amp;ExpandOnHover&amp;Speed=500&amp;Reset Caching Options&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b83901CCF-0965-4635-B590-83DD5F9FD886%7d%7c%7b7CB7AB5D-6E6A-4CDF-B0AD-47325646685A%7d&amp;DynamicPlaceholderId=76&amp;ExpandedByDefault&amp;CanOpenMultiple=1" s:ph="/main/container-75/row-2-77" /><r uid="{3271BA60-F14F-47BA-B17B-909309A9665D}" p:after="r[@uid='{61D8D1B9-8485-4880-B814-BA4D56397308}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=77&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-75" /><r uid="{F4036603-7A63-46F2-845B-BF6A14114CA6}" p:after="r[@uid='{3271BA60-F14F-47BA-B17B-909309A9665D}']" s:ds="" s:id="{2BF16BB6-6B93-4C9C-8DD5-4DB584AE4434}" s:par="RenderingIdentifier&amp;Styles=%7b708E6FA8-342F-4D88-9D0A-527F1A1630A7%7d&amp;GridParameters&amp;FieldNames=%7b446401F4-0273-48EF-84AA-C31CB10163CD%7d&amp;DynamicPlaceholderId=73&amp;Reset Caching Options" s:ph="/main/container-6/row-1-72" /><r uid="{7E24B3A8-E1EA-481C-8EE8-22C873B28769}" p:after="r[@uid='{F4036603-7A63-46F2-845B-BF6A14114CA6}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b697D5A9C-37CE-4948-B907-1F790E59AD99%7d%7c%7b636326E1-5BEA-416F-BBDC-468C8BDC155C%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d%7c%7b9F4D8763-E0E9-4EFD-B74C-9EE4E69AEC6D%7d%7c%7bDA294E53-CD71-442C-BF2C-6AF1535EE782%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7b61CE8415-385D-45AB-A801-EBC5B1356C88%7d&amp;DynamicPlaceholderId=71&amp;Reset Caching Options" /><r uid="{110C25D9-2C0D-4709-8367-E8E4A4DED71B}" p:after="r[@uid='{7E24B3A8-E1EA-481C-8EE8-22C873B28769}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=69&amp;Reset Caching Options" /><r uid="{42F788FD-0403-4D2C-BF1F-AD8617A5FDC0}" p:after="r[@uid='{110C25D9-2C0D-4709-8367-E8E4A4DED71B}']" /><r uid="{8863B4DD-0E1E-4DDB-880F-AF5478BF4236}" p:after="r[@uid='{42F788FD-0403-4D2C-BF1F-AD8617A5FDC0}']" s:ds="local:/Data/Carrefour" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=64&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{F4316FEB-962D-453E-9753-10D4A613F8E1}" p:after="r[@uid='{8863B4DD-0E1E-4DDB-880F-AF5478BF4236}']" s:ds="local:/Data/Golden Corral" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=65&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{D52BF61E-EC0C-4642-8EA5-3EC41000F146}" p:after="r[@uid='{F4316FEB-962D-453E-9753-10D4A613F8E1}']" s:ds="local:/Data/Purdue" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=66&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{01EB3860-8BB9-4897-83E0-6675B53FF4E6}" p:after="r[@uid='{D52BF61E-EC0C-4642-8EA5-3EC41000F146}']" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d&amp;DynamicPlaceholderId=3&amp;Styles7&amp;Styles1=%7b6ECF6E53-8B9A-41A8-B6E7-20163AA95B9A%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{C9CFD830-983E-4F59-8C3F-A0C2AE54540F}" p:after="r[@uid='{01EB3860-8BB9-4897-83E0-6675B53FF4E6}']" /><r uid="{F53FBC45-A3A8-4BE9-9E53-6B8D3F539429}" p:after="r[@uid='{C9CFD830-983E-4F59-8C3F-A0C2AE54540F}']" /><r uid="{DB873141-40DA-42A0-A0E1-02D7719B49E8}" p:after="r[@uid='{F53FBC45-A3A8-4BE9-9E53-6B8D3F539429}']" /><r uid="{E7B4A964-2CBB-4FCC-9311-1A8C8F21B376}" p:after="r[@uid='{DB873141-40DA-42A0-A0E1-02D7719B49E8}']" /><r uid="{E9E1569D-5D22-493D-A474-99FB48C7826E}" p:after="r[@uid='{E7B4A964-2CBB-4FCC-9311-1A8C8F21B376}']" /><r uid="{D743E2A1-B20E-4B47-A728-3B9EEB70FE2C}" p:after="r[@uid='{E9E1569D-5D22-493D-A474-99FB48C7826E}']" /><r uid="{C395623D-D4F8-4BE3-BC84-ECB00B03738F}" p:after="r[@uid='{D743E2A1-B20E-4B47-A728-3B9EEB70FE2C}']" /><r uid="{4C4DC9C9-BD33-4C1F-B0C4-3AE6A91DEB06}" p:after="r[@uid='{C395623D-D4F8-4BE3-BC84-ECB00B03738F}']" s:ds="local:/Data/BackgroundVideo" s:id="{C47E2BDD-1FED-4E84-BEC2-5203109A4D73}" s:par="RenderingIdentifier&amp;Styles=%7b708E6FA8-342F-4D88-9D0A-527F1A1630A7%7d%7c%7bB6B99BC1-6513-4C0D-8359-82870EBBE11F%7d&amp;GridParameters&amp;FieldNames=%7b8FDAAAB3-5DBD-4CBD-9ABE-2919478D9E4C%7d&amp;DynamicPlaceholderId=55&amp;Reset Caching Options" s:ph="/main/container-25" /><r uid="{DFFBB809-E1A0-473D-954F-F0BA9310568B}" p:after="r[@uid='{4C4DC9C9-BD33-4C1F-B0C4-3AE6A91DEB06}']" s:par="RenderingIdentifier&amp;Styles=%7bFD1ABB8A-2114-4845-B14A-A2E46B81CE31%7d%7c%7bF51B721F-53BE-468D-B5AE-90086C4AC2C0%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD22AC86A-0A4C-4BD0-968F-90BF154FB513%7d%7c%7b5EFDFC3D-9114-432C-992E-3BF4E7B285C4%7d&amp;FieldNames=%7b3441FC6D-6E13-46FB-B5EB-5338CB5386BF%7d&amp;DynamicPlaceholderId=54&amp;Reset Caching Options" /><r uid="{BC5F8861-C3D1-45B3-B7AA-D2621800A387}" p:after="r[@uid='{DFFBB809-E1A0-473D-954F-F0BA9310568B}']" s:ds="" s:id="{2BF16BB6-6B93-4C9C-8DD5-4DB584AE4434}" s:par="RenderingIdentifier&amp;Styles=%7bFD1ABB8A-2114-4845-B14A-A2E46B81CE31%7d%7c%7b94B17E91-075B-468F-AA47-DD19F66A9905%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7b17103330-8ACB-401D-95B9-14452F4D7B73%7d&amp;DynamicPlaceholderId=52&amp;Reset Caching Options" s:ph="/main/container-16/row-3-17" /><r uid="{5AE9B226-7C9E-4A4C-92D7-20FA01CFAB30}" p:after="r[@uid='{BC5F8861-C3D1-45B3-B7AA-D2621800A387}']" s:par="RenderingIdentifier&amp;Styles=%7b74B5EA34-C1B1-4154-8B5B-A9A674718D1E%7d&amp;GridParameters=%7b75CFFEDA-7516-4E86-9121-CA91F1759608%7d%7c%7bC64399F8-5419-4D93-82D6-BC3EA2999046%7d%7c%7b5057B25E-E41D-4586-B981-A3538E668698%7d&amp;TabControlBelowContent&amp;DynamicPlaceholderId=50&amp;Reset Caching Options" /><r uid="{EE690DA7-C743-4434-8ED9-26D39DF401C7}" p:after="r[@uid='{5AE9B226-7C9E-4A4C-92D7-20FA01CFAB30}']" s:ds="local:/Data/Insights Links" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b0188D416-6E3C-4ACF-8284-F182B9242A77%7d%7c%7b8F6C886E-24BE-4B0F-A9B5-1657A6254D18%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b27F911E1-E74B-4FF4-8AAA-1F51560B941D%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=74&amp;Reset Caching Options" s:ph="/main/container-29/row-1-37" /><r uid="{E4BC3120-A113-4F62-B2E8-01A65A13DEF5}" p:after="r[@uid='{EE690DA7-C743-4434-8ED9-26D39DF401C7}']" s:ds="local:/Data/On Scale" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d%7c%7b042F04EE-C689-4513-A77F-2CF760BA6E15%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=49&amp;Reset Caching Options" s:ph="/main/container-6/row-2-7" /><r uid="{D49A3338-C682-4077-AD24-79214DB6E255}" p:after="r[@uid='{E4BC3120-A113-4F62-B2E8-01A65A13DEF5}']" s:ds="local:/Data/On Service" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=48&amp;Reset Caching Options" s:ph="/main/container-6/row-2-7" /><r uid="{AF997610-5B90-4B2B-BCBE-05664FBDB758}" p:after="r[@uid='{D49A3338-C682-4077-AD24-79214DB6E255}']" s:ds="local:/Data/On Simplicity" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=47&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{55C3FFE7-88BB-45EB-AE79-D46B8751A063}" p:after="r[@uid='{AF997610-5B90-4B2B-BCBE-05664FBDB758}']" s:ds="local:/Data/On Customer Experience" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=46&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{FED8BC29-1C47-4833-A9A1-02AD17CC0681}" p:after="r[@uid='{55C3FFE7-88BB-45EB-AE79-D46B8751A063}']" s:ds="local:/Data/On Security" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=45&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{9C990DB3-13FF-445C-A574-FC7D192B3EFE}" p:after="r[@uid='{FED8BC29-1C47-4833-A9A1-02AD17CC0681}']" s:par="Styles8&amp;EnabledPlaceholders=2%2c1&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=37&amp;Styles7&amp;Styles1=%7bEF087052-3EBF-4EBB-9847-0A72070AC662%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{CA10BD90-4127-4BE7-B867-A828BD0E1D57}" p:after="r[@uid='{9C990DB3-13FF-445C-A574-FC7D192B3EFE}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b83901CCF-0965-4635-B590-83DD5F9FD886%7d%7c%7bCB1CBA0F-2FFB-4AB4-9F56-A4BB79FB0AE7%7d&amp;FieldNames=%7b95C58F7D-AE49-4FE9-87F5-4B79185E64F2%7d&amp;DynamicPlaceholderId=35&amp;Reset Caching Options" /><r uid="{D03A96D5-5AB7-4A4B-88A9-411C6109E261}" p:after="r[@uid='{CA10BD90-4127-4BE7-B867-A828BD0E1D57}']" /><r uid="{838A71DD-335E-41D2-B3FE-75F55C73DE7F}" p:after="r[@uid='{D03A96D5-5AB7-4A4B-88A9-411C6109E261}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bCCF636C9-EA99-4E07-82E0-0699768629D4%7d&amp;DynamicPlaceholderId=33&amp;Reset Caching Options" /><r uid="{C722EAA7-440C-4F49-91FA-AD59625F9254}" p:after="r[@uid='{838A71DD-335E-41D2-B3FE-75F55C73DE7F}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=32&amp;Reset Caching Options" /><r uid="{A2F621C9-DE55-4559-8F33-1801A290ECD7}" p:after="r[@uid='{C722EAA7-440C-4F49-91FA-AD59625F9254}']" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7bEF087052-3EBF-4EBB-9847-0A72070AC662%7d&amp;DynamicPlaceholderId=31&amp;Styles7&amp;Styles1=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{EDEBCAFE-C8CC-4014-A2D4-92F8F717D639}" p:after="r[@uid='{A2F621C9-DE55-4559-8F33-1801A290ECD7}']" /><r uid="{0927CA8E-D4D2-4A84-B64A-24A9B49784DF}" p:after="r[@uid='{EDEBCAFE-C8CC-4014-A2D4-92F8F717D639}']" s:ds="local:/Data/Your goals" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b51EF9AE0-4AA3-4D04-B5EE-F25971FBD660%7d&amp;data-animation=fade-down&amp;data-aos-delay=700&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b800E8479-2787-485F-A94A-60AAF4E3890C%7d%7c%7bF97969DF-CD4F-48EF-825D-ECC75A85001D%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=24&amp;Reset Caching Options" s:ph="/main/container-22/row-1-23" /><r uid="{08A93AEF-150E-468E-B441-43A4F1CE6589}" p:after="r[@uid='{0927CA8E-D4D2-4A84-B64A-24A9B49784DF}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=23&amp;Styles7&amp;Styles1=%7bB6CEC3D9-B8FC-4F82-96E3-C5133983B5F1%7d%7c%7b029A67C9-9441-42B9-BE48-5D36DAB428DE%7d&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-22" /><r uid="{EA05EB5D-20AB-4F70-A7FC-1489F4E29836}" p:after="r[@uid='{08A93AEF-150E-468E-B441-43A4F1CE6589}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7d%7c%7b1C1068B1-9E57-4FA4-8E76-CC96FD0A3BF2%7d%7c%7bBCF767CC-B4A1-40B2-93CD-9C6ED2356B5C%7d%7c%7bDED36C90-D393-484B-9995-27B211E5918C%7d%7c%7b5EFDFC3D-9114-432C-992E-3BF4E7B285C4%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=20&amp;Reset Caching Options" /><r uid="{34B0DEED-EF00-426D-A03D-3D3126336552}" p:after="r[@uid='{EA05EB5D-20AB-4F70-A7FC-1489F4E29836}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7d%7c%7b1C1068B1-9E57-4FA4-8E76-CC96FD0A3BF2%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=19&amp;Reset Caching Options" /><r uid="{BAD893EE-78EC-4F69-BEA6-76D1B6BDF7CB}" p:after="r[@uid='{34B0DEED-EF00-426D-A03D-3D3126336552}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b342B531C-8362-42C0-A45F-8877F1A47EA5%7d%7c%7b636326E1-5BEA-416F-BBDC-468C8BDC155C%7d&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7b61CE8415-385D-45AB-A801-EBC5B1356C88%7d&amp;DynamicPlaceholderId=70&amp;Reset Caching Options" /><r uid="{19E18387-7C49-4BF9-B7A7-C083319D4014}" p:after="r[@uid='{BAD893EE-78EC-4F69-BEA6-76D1B6BDF7CB}']" s:par="Styles8&amp;EnabledPlaceholders=3%2c1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7b029A67C9-9441-42B9-BE48-5D36DAB428DE%7d&amp;DynamicPlaceholderId=17&amp;Styles7&amp;Styles1=%7bB6CEC3D9-B8FC-4F82-96E3-C5133983B5F1%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{39386A09-BB7D-46A6-809C-4AB0DA04775D}" p:after="r[@uid='{19E18387-7C49-4BF9-B7A7-C083319D4014}']" /><r uid="{24B1D49E-0228-4C34-A7CE-B37A95AB91FF}" p:after="r[@uid='{39386A09-BB7D-46A6-809C-4AB0DA04775D}']" s:ds="local:/Data/Innovation Animation" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bE074D650-F71E-42A5-8880-12544B4CD0E4%7d%7c%7bFD0BC9D8-1733-4970-AF48-AF5CD791207E%7d&amp;data-animation=fade-in&amp;data-target=img&amp;data-aos-delay=300&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b7CB7AB5D-6E6A-4CDF-B0AD-47325646685A%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=53&amp;Reset Caching Options" s:ph="/main/container-6/row-1-7" /><r uid="{540F505C-0603-4732-9F81-6C8BF09CAF38}" p:after="r[@uid='{24B1D49E-0228-4C34-A7CE-B37A95AB91FF}']" s:par="Styles8&amp;EnabledPlaceholders=1%2c4%2c2%2c3&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7bB10F00FC-2184-452A-A7F5-EF696089A8DE%7d&amp;DynamicPlaceholderId=7&amp;Styles7&amp;Styles1&amp;Styles3=%7bC9D40A2C-633F-4734-9060-4C0DEBB173EE%7d%7c%7b9D230954-4588-496E-87FF-9390B0D94CD4%7d&amp;Reset Caching Options" /><r uid="{0560E58E-7090-436B-9D57-F6FA2BC91EDC}" p:after="r[@uid='{540F505C-0603-4732-9F81-6C8BF09CAF38}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=72&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-6" /><r uid="{D214EFA2-D0E8-49C5-9269-515F93204138}" p:after="r[@uid='{0560E58E-7090-436B-9D57-F6FA2BC91EDC}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=4&amp;Reset Caching Options" /><r uid="{2136010E-59A2-4378-8E8C-FBF03A6CA4CB}" p:after="r[@uid='{D214EFA2-D0E8-49C5-9269-515F93204138}']" /><r uid="{2C3AAFB7-73DE-4895-9B36-505EE4CE0375}" p:after="r[@uid='{2136010E-59A2-4378-8E8C-FBF03A6CA4CB}']" /><r uid="{C629A317-3EC3-45C6-B8A9-A0E45EA1851B}" p:after="r[@uid='{2C3AAFB7-73DE-4895-9B36-505EE4CE0375}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b0EA475C7-D5A8-47F4-A6A4-3B1E591985CE%7d&amp;DynamicPlaceholderId=51&amp;Reset Caching Options" /><r uid="{00E93F3B-84C8-49B6-8E20-F8DE8C6B41EB}" p:after="r[@uid='{C629A317-3EC3-45C6-B8A9-A0E45EA1851B}']" s:par="RenderingIdentifier&amp;Styles=%7b43DE977F-B570-4627-9F70-282BFDEC2DE2%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b844C7976-F3A4-4D69-91F6-B1C2D40FCABE%7d%7c%7bE674AFA4-6F2D-44C7-A5B9-2A771DAA9E22%7d&amp;GridParameters&amp;DynamicPlaceholderId=6&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{B70992EB-2DA7-43A8-860B-AD950FBA6F09}" p:after="r[@uid='{00E93F3B-84C8-49B6-8E20-F8DE8C6B41EB}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7bDFE51E5C-5A5C-438F-B14C-367AF04382EB%7d%7c%7bC4CDD86F-382B-4612-97F6-36438353E5F2%7d%7c%7b9A790771-3759-40A5-B15E-7883045E1104%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;DynamicPlaceholderId=75&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{FB687336-74E0-44EA-B27A-C5FE93526161}" p:after="r[@uid='{B70992EB-2DA7-43A8-860B-AD950FBA6F09}']" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=67&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{6AC3102B-5D17-465F-B4B8-A5C3AED2D430}" p:after="r[@uid='{FB687336-74E0-44EA-B27A-C5FE93526161}']" s:ds="local:/Data/CircleMaskFs_CaseStudies" s:id="{14D88647-95B0-4D60-92D4-168A7320C770}" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d%7c%7bC48E8674-963A-4AC3-AB95-81B7689F3A29%7d&amp;GridParameters&amp;FieldNames=%7bC5634A9B-F09A-4307-9D96-7FE243FF4B56%7d&amp;DynamicPlaceholderId=63&amp;Reset Caching Options" s:ph="main" /><r uid="{AED65003-92E7-40C9-B709-5A4E7DAB9D49}" p:after="r[@uid='{6AC3102B-5D17-465F-B4B8-A5C3AED2D430}']" s:par="RenderingIdentifier&amp;Styles=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=16&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{B0EDC24D-E949-4CFD-AE41-16EDCE7EBC26}" p:after="r[@uid='{AED65003-92E7-40C9-B709-5A4E7DAB9D49}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bE3EC259E-B93F-4487-BABE-8D93340279D6%7d%7c%7bA59BEF73-5C29-4B9E-9741-DE812633C4CD%7d%7c%7b05EC45A0-40B0-4780-8DB1-FC29B2172E16%7d%7c%7b4FE4E771-B1C2-4C79-9A06-3DF6A52D1D24%7d%7c%7bA55EC20E-AE6B-45A5-83CC-B42C42D665D6%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b2066751C-88ED-4791-84E0-43781472AB66%7d&amp;data-animation=zoom-out&amp;GridParameters&amp;DynamicPlaceholderId=22&amp;BackgroundImage=%3cimage+mediaid%3d%22%7b0EE0D061-5119-4925-84FE-A0E093CF9F21%7d%22+%2f%3e&amp;Reset Caching Options" /><r uid="{EE27C540-F760-4FBC-BD0E-D97B8A94EB3B}" p:after="r[@uid='{B0EDC24D-E949-4CFD-AE41-16EDCE7EBC26}']" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=25&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{FB0140D3-916A-4BBB-876F-A91F4F8B1D8D}" p:after="r[@uid='{EE27C540-F760-4FBC-BD0E-D97B8A94EB3B}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b897EDDCF-0330-45E8-9FBE-D70132BB89B4%7d%7c%7bA59BEF73-5C29-4B9E-9741-DE812633C4CD%7d%7c%7b1CC66CE1-7D58-4964-A0B7-D7B5691316EF%7d%7c%7bDFC30546-8F73-4903-A207-0FC324E89E3B%7d%7c%7bEB2E9124-2EF2-4B99-8BAD-046868C22E18%7d&amp;data-animation=fade-right&amp;data-target=img&amp;GridParameters&amp;FieldNames=%7b7452208C-5CAE-4FEC-910C-6194B06E5EEB%7d&amp;DynamicPlaceholderId=26&amp;Reset Caching Options" /><r uid="{F3827C7F-4FBA-4AC9-B88B-353ABC7D528D}" p:after="r[@uid='{FB0140D3-916A-4BBB-876F-A91F4F8B1D8D}']" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b1CC9EB35-E883-403D-970F-B4997E391779%7d&amp;GridParameters&amp;DynamicPlaceholderId=29&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{5DA6A372-010D-44CB-A8E7-749E896C3476}" p:after="*[1=2]" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d%7c%7b1CC9EB35-E883-403D-970F-B4997E391779%7d&amp;GridParameters&amp;DynamicPlaceholderId=30&amp;BackgroundImage&amp;Reset Caching Options" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 0
+
+
+----field----
+field: {B8F42732-9CB8-478D-AE95-07E25345FB0F}
+name: __Hide version
+key: __hide version
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200729T001712Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+442436b8-7ab2-4596-8617-5f0197a0a00c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220216T195118Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----version----
+language: en-US
+version: 2
+revision: fd4fab6e-25bb-49b8-bd13-ce8f45c6653e
+
+----field----
+field: {D4C9725F-D2FC-4F33-863C-AB3EBC8D6988}
+name: Title
+key: title
+content-length: 24
+
+Innovation that Delivers
+----field----
+field: {A4B445B5-D1B4-4124-8449-B35B87FEF56F}
+name: Product Interest
+key: product interest
+content-length: 0
+
+
+----field----
+field: {85A82DD2-BFB0-4B21-ADDF-803219DE1875}
+name: Signup Modal
+key: signup modal
+content-length: 0
+
+
+----field----
+field: {963F850D-1234-4576-98AE-29C705A60784}
+name: Custom Schema
+key: custom schema
+content-length: 0
+
+
+----field----
+field: {7D988161-3991-465A-A88C-280BC65542A0}
+name: OpenGraphTitle
+key: opengraphtitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {7BDDC8B8-1F77-46D8-9D7F-46E20E041F74}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {D8B38DD7-E9A0-4410-9F17-D436B0C8635A}
+name: OpenGraphImageUrl
+key: opengraphimageurl
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {97FB669D-5B8E-4829-9A24-06418C315D73}
+name: SxaTags
+key: sxatags
+content-length: 0
+
+
+----field----
+field: {48A66E40-D164-4C8E-BC06-172ECC6769EC}
+name: TwitterTitle
+key: twittertitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {45CE257A-6060-4C4A-9A0F-AE77BF705B25}
+name: TwitterSite
+key: twittersite
+content-length: 31
+
+https://www.globalpayments.com/
+----field----
+field: {4D263B95-322F-4003-ADBD-70920FACF823}
+name: TwitterDescription
+key: twitterdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {DE457091-0989-414E-ADDF-59DB0DDB6690}
+name: TwitterImage
+key: twitterimage
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {CE53062E-4385-4244-8382-C2B4530A51BA}
+name: TwitterCardType
+key: twittercardtype
+content-length: 38
+
+{C770CC78-859C-4B9A-B509-5EC1F9E20985}
+----field----
+field: {528986CC-6FF9-4383-8BEE-514F0E8172CF}
+name: MetaDescription
+key: metadescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {CFCC9511-C7E2-47BC-B8D4-86734CE26A93}
+name: SpeedyEnabled
+key: speedyenabled
+content-length: 1
+
+1
+----field----
+field: {A28C9D2C-5AF8-45AE-8AED-70BF86BF2C8B}
+name: EnableJavascriptLoadDefer
+key: enablejavascriptloaddefer
+content-length: 1
+
+1
+----field----
+field: {AEFF1DB4-F4DC-4F05-8144-8275F18C35A8}
+name: CssFallbackSelector
+key: cssfallbackselector
+content-length: 145
+
+{
+        	'display_unset' : { 'selector': 'div.privacy-warning' },
+        	'display_block' : { 'selector': 'div.privacy-warning' }
+        }
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 23822
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{8B40418E-23B3-4B59-B188-D07F0ADEE0CD}" p:before="*" s:ds="local:/Data/News Header" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b0188D416-6E3C-4ACF-8284-F182B9242A77%7d%7c%7b6ECF6E53-8B9A-41A8-B6E7-20163AA95B9A%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=81&amp;Reset Caching Options" s:ph="/main/container-29/row-2-37" /><r uid="{853ABC5F-6911-4FD0-9C26-6C27C9AB0CF9}" p:after="r[@uid='{8B40418E-23B3-4B59-B188-D07F0ADEE0CD}']" s:ds="local:/Data/Mobile we lead because txt" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=80&amp;Reset Caching Options" s:ph="/main/container-75/row-1-77" /><r uid="{5F0B2350-81A1-466E-BA7D-271B8A9A616B}" p:after="r[@uid='{853ABC5F-6911-4FD0-9C26-6C27C9AB0CF9}']" s:ds="local:/Data/Mobile We lead because img" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bE074D650-F71E-42A5-8880-12544B4CD0E4%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b7CB7AB5D-6E6A-4CDF-B0AD-47325646685A%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=79&amp;Reset Caching Options" s:ph="/main/container-75/row-1-77" /><r uid="{61D8D1B9-8485-4880-B814-BA4D56397308}" p:after="r[@uid='{5F0B2350-81A1-466E-BA7D-271B8A9A616B}']" s:ds="/sitecore/content/GPN/Corporate/Clone2/Data/Accordions/Mobile Accordions/Home We lead because" s:id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}" s:par="RenderingIdentifier&amp;EasingFunction=Swing&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b35355F92-6C6A-4448-8BA0-216C8AC5DCA5%7d&amp;CanToggle=1&amp;ExpandOnHover&amp;Speed=500&amp;Reset Caching Options&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b83901CCF-0965-4635-B590-83DD5F9FD886%7d%7c%7b7CB7AB5D-6E6A-4CDF-B0AD-47325646685A%7d&amp;DynamicPlaceholderId=76&amp;ExpandedByDefault&amp;CanOpenMultiple=1" s:ph="/main/container-75/row-2-77" /><r uid="{3271BA60-F14F-47BA-B17B-909309A9665D}" p:after="r[@uid='{61D8D1B9-8485-4880-B814-BA4D56397308}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=77&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-75" /><r uid="{F4036603-7A63-46F2-845B-BF6A14114CA6}" p:after="r[@uid='{3271BA60-F14F-47BA-B17B-909309A9665D}']" s:ds="" s:id="{2BF16BB6-6B93-4C9C-8DD5-4DB584AE4434}" s:par="RenderingIdentifier&amp;Styles=%7b708E6FA8-342F-4D88-9D0A-527F1A1630A7%7d&amp;GridParameters&amp;FieldNames=%7b446401F4-0273-48EF-84AA-C31CB10163CD%7d&amp;DynamicPlaceholderId=73&amp;Reset Caching Options" s:ph="/main/container-6/row-1-72" /><r uid="{7E24B3A8-E1EA-481C-8EE8-22C873B28769}" p:after="r[@uid='{F4036603-7A63-46F2-845B-BF6A14114CA6}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b697D5A9C-37CE-4948-B907-1F790E59AD99%7d%7c%7b636326E1-5BEA-416F-BBDC-468C8BDC155C%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d%7c%7b9F4D8763-E0E9-4EFD-B74C-9EE4E69AEC6D%7d%7c%7bDA294E53-CD71-442C-BF2C-6AF1535EE782%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7b61CE8415-385D-45AB-A801-EBC5B1356C88%7d&amp;DynamicPlaceholderId=71&amp;Reset Caching Options" /><r uid="{110C25D9-2C0D-4709-8367-E8E4A4DED71B}" p:after="r[@uid='{7E24B3A8-E1EA-481C-8EE8-22C873B28769}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=69&amp;Reset Caching Options" /><r uid="{42F788FD-0403-4D2C-BF1F-AD8617A5FDC0}" p:after="r[@uid='{110C25D9-2C0D-4709-8367-E8E4A4DED71B}']" /><r uid="{8863B4DD-0E1E-4DDB-880F-AF5478BF4236}" p:after="r[@uid='{42F788FD-0403-4D2C-BF1F-AD8617A5FDC0}']" s:ds="local:/Data/Carrefour" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=64&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{F4316FEB-962D-453E-9753-10D4A613F8E1}" p:after="r[@uid='{8863B4DD-0E1E-4DDB-880F-AF5478BF4236}']" s:ds="local:/Data/Golden Corral" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=65&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{D52BF61E-EC0C-4642-8EA5-3EC41000F146}" p:after="r[@uid='{F4316FEB-962D-453E-9753-10D4A613F8E1}']" s:ds="local:/Data/Purdue" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=66&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{01EB3860-8BB9-4897-83E0-6675B53FF4E6}" p:after="r[@uid='{D52BF61E-EC0C-4642-8EA5-3EC41000F146}']" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d&amp;DynamicPlaceholderId=3&amp;Styles7&amp;Styles1=%7b6ECF6E53-8B9A-41A8-B6E7-20163AA95B9A%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{C9CFD830-983E-4F59-8C3F-A0C2AE54540F}" p:after="r[@uid='{01EB3860-8BB9-4897-83E0-6675B53FF4E6}']" /><r uid="{F53FBC45-A3A8-4BE9-9E53-6B8D3F539429}" p:after="r[@uid='{C9CFD830-983E-4F59-8C3F-A0C2AE54540F}']" /><r uid="{DB873141-40DA-42A0-A0E1-02D7719B49E8}" p:after="r[@uid='{F53FBC45-A3A8-4BE9-9E53-6B8D3F539429}']" /><r uid="{E7B4A964-2CBB-4FCC-9311-1A8C8F21B376}" p:after="r[@uid='{DB873141-40DA-42A0-A0E1-02D7719B49E8}']" /><r uid="{E9E1569D-5D22-493D-A474-99FB48C7826E}" p:after="r[@uid='{E7B4A964-2CBB-4FCC-9311-1A8C8F21B376}']" /><r uid="{D743E2A1-B20E-4B47-A728-3B9EEB70FE2C}" p:after="r[@uid='{E9E1569D-5D22-493D-A474-99FB48C7826E}']" /><r uid="{C395623D-D4F8-4BE3-BC84-ECB00B03738F}" p:after="r[@uid='{D743E2A1-B20E-4B47-A728-3B9EEB70FE2C}']" /><r uid="{4C4DC9C9-BD33-4C1F-B0C4-3AE6A91DEB06}" p:after="r[@uid='{C395623D-D4F8-4BE3-BC84-ECB00B03738F}']" s:ds="local:/Data/BackgroundVideo" s:id="{C47E2BDD-1FED-4E84-BEC2-5203109A4D73}" s:par="RenderingIdentifier&amp;Styles=%7b708E6FA8-342F-4D88-9D0A-527F1A1630A7%7d%7c%7bB6B99BC1-6513-4C0D-8359-82870EBBE11F%7d&amp;GridParameters&amp;FieldNames=%7b8FDAAAB3-5DBD-4CBD-9ABE-2919478D9E4C%7d&amp;DynamicPlaceholderId=55&amp;Reset Caching Options" s:ph="/main/container-25" /><r uid="{DFFBB809-E1A0-473D-954F-F0BA9310568B}" p:after="r[@uid='{4C4DC9C9-BD33-4C1F-B0C4-3AE6A91DEB06}']" s:par="RenderingIdentifier&amp;Styles=%7bFD1ABB8A-2114-4845-B14A-A2E46B81CE31%7d%7c%7bF51B721F-53BE-468D-B5AE-90086C4AC2C0%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD22AC86A-0A4C-4BD0-968F-90BF154FB513%7d%7c%7b5EFDFC3D-9114-432C-992E-3BF4E7B285C4%7d&amp;FieldNames=%7b3441FC6D-6E13-46FB-B5EB-5338CB5386BF%7d&amp;DynamicPlaceholderId=54&amp;Reset Caching Options" /><r uid="{BC5F8861-C3D1-45B3-B7AA-D2621800A387}" p:after="r[@uid='{DFFBB809-E1A0-473D-954F-F0BA9310568B}']" s:ds="" s:id="{2BF16BB6-6B93-4C9C-8DD5-4DB584AE4434}" s:par="RenderingIdentifier&amp;Styles=%7bFD1ABB8A-2114-4845-B14A-A2E46B81CE31%7d%7c%7b94B17E91-075B-468F-AA47-DD19F66A9905%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7b17103330-8ACB-401D-95B9-14452F4D7B73%7d&amp;DynamicPlaceholderId=52&amp;Reset Caching Options" s:ph="/main/container-16/row-3-17" /><r uid="{5AE9B226-7C9E-4A4C-92D7-20FA01CFAB30}" p:after="r[@uid='{BC5F8861-C3D1-45B3-B7AA-D2621800A387}']" s:par="RenderingIdentifier&amp;Styles=%7b74B5EA34-C1B1-4154-8B5B-A9A674718D1E%7d&amp;GridParameters=%7b75CFFEDA-7516-4E86-9121-CA91F1759608%7d%7c%7bC64399F8-5419-4D93-82D6-BC3EA2999046%7d%7c%7b5057B25E-E41D-4586-B981-A3538E668698%7d&amp;TabControlBelowContent&amp;DynamicPlaceholderId=50&amp;Reset Caching Options" /><r uid="{EE690DA7-C743-4434-8ED9-26D39DF401C7}" p:after="r[@uid='{5AE9B226-7C9E-4A4C-92D7-20FA01CFAB30}']" s:ds="local:/Data/Insights Links" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b0188D416-6E3C-4ACF-8284-F182B9242A77%7d%7c%7b8F6C886E-24BE-4B0F-A9B5-1657A6254D18%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b27F911E1-E74B-4FF4-8AAA-1F51560B941D%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=74&amp;Reset Caching Options" s:ph="/main/container-29/row-1-37" /><r uid="{E4BC3120-A113-4F62-B2E8-01A65A13DEF5}" p:after="r[@uid='{EE690DA7-C743-4434-8ED9-26D39DF401C7}']" s:ds="local:/Data/On Scale" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d%7c%7b042F04EE-C689-4513-A77F-2CF760BA6E15%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=49&amp;Reset Caching Options" s:ph="/main/container-6/row-2-7" /><r uid="{D49A3338-C682-4077-AD24-79214DB6E255}" p:after="r[@uid='{E4BC3120-A113-4F62-B2E8-01A65A13DEF5}']" s:ds="local:/Data/On Service" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=48&amp;Reset Caching Options" s:ph="/main/container-6/row-2-7" /><r uid="{AF997610-5B90-4B2B-BCBE-05664FBDB758}" p:after="r[@uid='{D49A3338-C682-4077-AD24-79214DB6E255}']" s:ds="local:/Data/On Simplicity" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=47&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{55C3FFE7-88BB-45EB-AE79-D46B8751A063}" p:after="r[@uid='{AF997610-5B90-4B2B-BCBE-05664FBDB758}']" s:ds="local:/Data/On Customer Experience" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=46&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{FED8BC29-1C47-4833-A9A1-02AD17CC0681}" p:after="r[@uid='{55C3FFE7-88BB-45EB-AE79-D46B8751A063}']" s:ds="local:/Data/On Security" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=45&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{9C990DB3-13FF-445C-A574-FC7D192B3EFE}" p:after="r[@uid='{FED8BC29-1C47-4833-A9A1-02AD17CC0681}']" s:par="Styles8&amp;EnabledPlaceholders=2%2c1&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=37&amp;Styles7&amp;Styles1=%7bEF087052-3EBF-4EBB-9847-0A72070AC662%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{CA10BD90-4127-4BE7-B867-A828BD0E1D57}" p:after="r[@uid='{9C990DB3-13FF-445C-A574-FC7D192B3EFE}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b83901CCF-0965-4635-B590-83DD5F9FD886%7d%7c%7bCB1CBA0F-2FFB-4AB4-9F56-A4BB79FB0AE7%7d&amp;FieldNames=%7b95C58F7D-AE49-4FE9-87F5-4B79185E64F2%7d&amp;DynamicPlaceholderId=35&amp;Reset Caching Options" /><r uid="{D03A96D5-5AB7-4A4B-88A9-411C6109E261}" p:after="r[@uid='{CA10BD90-4127-4BE7-B867-A828BD0E1D57}']" /><r uid="{838A71DD-335E-41D2-B3FE-75F55C73DE7F}" p:after="r[@uid='{D03A96D5-5AB7-4A4B-88A9-411C6109E261}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bCCF636C9-EA99-4E07-82E0-0699768629D4%7d&amp;DynamicPlaceholderId=33&amp;Reset Caching Options" /><r uid="{C722EAA7-440C-4F49-91FA-AD59625F9254}" p:after="r[@uid='{838A71DD-335E-41D2-B3FE-75F55C73DE7F}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=32&amp;Reset Caching Options" /><r uid="{A2F621C9-DE55-4559-8F33-1801A290ECD7}" p:after="r[@uid='{C722EAA7-440C-4F49-91FA-AD59625F9254}']" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7bEF087052-3EBF-4EBB-9847-0A72070AC662%7d&amp;DynamicPlaceholderId=31&amp;Styles7&amp;Styles1=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{EDEBCAFE-C8CC-4014-A2D4-92F8F717D639}" p:after="r[@uid='{A2F621C9-DE55-4559-8F33-1801A290ECD7}']" /><r uid="{0927CA8E-D4D2-4A84-B64A-24A9B49784DF}" p:after="r[@uid='{EDEBCAFE-C8CC-4014-A2D4-92F8F717D639}']" s:ds="local:/Data/Your goals" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b51EF9AE0-4AA3-4D04-B5EE-F25971FBD660%7d&amp;data-animation=fade-down&amp;data-aos-delay=700&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b800E8479-2787-485F-A94A-60AAF4E3890C%7d%7c%7bF97969DF-CD4F-48EF-825D-ECC75A85001D%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=24&amp;Reset Caching Options" s:ph="/main/container-22/row-1-23" /><r uid="{08A93AEF-150E-468E-B441-43A4F1CE6589}" p:after="r[@uid='{0927CA8E-D4D2-4A84-B64A-24A9B49784DF}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=23&amp;Styles7&amp;Styles1=%7bB6CEC3D9-B8FC-4F82-96E3-C5133983B5F1%7d%7c%7b029A67C9-9441-42B9-BE48-5D36DAB428DE%7d&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-22" /><r uid="{EA05EB5D-20AB-4F70-A7FC-1489F4E29836}" p:after="r[@uid='{08A93AEF-150E-468E-B441-43A4F1CE6589}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7d%7c%7b1C1068B1-9E57-4FA4-8E76-CC96FD0A3BF2%7d%7c%7bBCF767CC-B4A1-40B2-93CD-9C6ED2356B5C%7d%7c%7bDED36C90-D393-484B-9995-27B211E5918C%7d%7c%7b5EFDFC3D-9114-432C-992E-3BF4E7B285C4%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=20&amp;Reset Caching Options" /><r uid="{34B0DEED-EF00-426D-A03D-3D3126336552}" p:after="r[@uid='{EA05EB5D-20AB-4F70-A7FC-1489F4E29836}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7d%7c%7b1C1068B1-9E57-4FA4-8E76-CC96FD0A3BF2%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=19&amp;Reset Caching Options" /><r uid="{BAD893EE-78EC-4F69-BEA6-76D1B6BDF7CB}" p:after="r[@uid='{34B0DEED-EF00-426D-A03D-3D3126336552}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b342B531C-8362-42C0-A45F-8877F1A47EA5%7d%7c%7b636326E1-5BEA-416F-BBDC-468C8BDC155C%7d&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7b61CE8415-385D-45AB-A801-EBC5B1356C88%7d&amp;DynamicPlaceholderId=70&amp;Reset Caching Options" /><r uid="{19E18387-7C49-4BF9-B7A7-C083319D4014}" p:after="r[@uid='{BAD893EE-78EC-4F69-BEA6-76D1B6BDF7CB}']" s:par="Styles8&amp;EnabledPlaceholders=3%2c1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7b029A67C9-9441-42B9-BE48-5D36DAB428DE%7d&amp;DynamicPlaceholderId=17&amp;Styles7&amp;Styles1=%7bB6CEC3D9-B8FC-4F82-96E3-C5133983B5F1%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{39386A09-BB7D-46A6-809C-4AB0DA04775D}" p:after="r[@uid='{19E18387-7C49-4BF9-B7A7-C083319D4014}']" /><r uid="{24B1D49E-0228-4C34-A7CE-B37A95AB91FF}" p:after="r[@uid='{39386A09-BB7D-46A6-809C-4AB0DA04775D}']" s:ds="local:/Data/Innovation Animation" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bE074D650-F71E-42A5-8880-12544B4CD0E4%7d%7c%7bFD0BC9D8-1733-4970-AF48-AF5CD791207E%7d&amp;data-animation=fade-in&amp;data-target=img&amp;data-aos-delay=300&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b7CB7AB5D-6E6A-4CDF-B0AD-47325646685A%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=53&amp;Reset Caching Options" s:ph="/main/container-6/row-1-7" /><r uid="{540F505C-0603-4732-9F81-6C8BF09CAF38}" p:after="r[@uid='{24B1D49E-0228-4C34-A7CE-B37A95AB91FF}']" s:par="Styles8&amp;EnabledPlaceholders=1%2c4%2c2%2c3&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7bB10F00FC-2184-452A-A7F5-EF696089A8DE%7d&amp;DynamicPlaceholderId=7&amp;Styles7&amp;Styles1&amp;Styles3=%7bC9D40A2C-633F-4734-9060-4C0DEBB173EE%7d%7c%7b9D230954-4588-496E-87FF-9390B0D94CD4%7d&amp;Reset Caching Options" /><r uid="{0560E58E-7090-436B-9D57-F6FA2BC91EDC}" p:after="r[@uid='{540F505C-0603-4732-9F81-6C8BF09CAF38}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=72&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-6" /><r uid="{D214EFA2-D0E8-49C5-9269-515F93204138}" p:after="r[@uid='{0560E58E-7090-436B-9D57-F6FA2BC91EDC}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=4&amp;Reset Caching Options" /><r uid="{2136010E-59A2-4378-8E8C-FBF03A6CA4CB}" p:after="r[@uid='{D214EFA2-D0E8-49C5-9269-515F93204138}']" /><r uid="{2C3AAFB7-73DE-4895-9B36-505EE4CE0375}" p:after="r[@uid='{2136010E-59A2-4378-8E8C-FBF03A6CA4CB}']" /><r uid="{C629A317-3EC3-45C6-B8A9-A0E45EA1851B}" p:after="r[@uid='{2C3AAFB7-73DE-4895-9B36-505EE4CE0375}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b0EA475C7-D5A8-47F4-A6A4-3B1E591985CE%7d&amp;DynamicPlaceholderId=51&amp;Reset Caching Options" /><r uid="{00E93F3B-84C8-49B6-8E20-F8DE8C6B41EB}" p:after="r[@uid='{C629A317-3EC3-45C6-B8A9-A0E45EA1851B}']" s:par="RenderingIdentifier&amp;Styles=%7b43DE977F-B570-4627-9F70-282BFDEC2DE2%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b844C7976-F3A4-4D69-91F6-B1C2D40FCABE%7d%7c%7bE674AFA4-6F2D-44C7-A5B9-2A771DAA9E22%7d&amp;GridParameters&amp;DynamicPlaceholderId=6&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{B70992EB-2DA7-43A8-860B-AD950FBA6F09}" p:after="r[@uid='{00E93F3B-84C8-49B6-8E20-F8DE8C6B41EB}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7bDFE51E5C-5A5C-438F-B14C-367AF04382EB%7d%7c%7bC4CDD86F-382B-4612-97F6-36438353E5F2%7d%7c%7b9A790771-3759-40A5-B15E-7883045E1104%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;DynamicPlaceholderId=75&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{FB687336-74E0-44EA-B27A-C5FE93526161}" p:after="r[@uid='{B70992EB-2DA7-43A8-860B-AD950FBA6F09}']" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=67&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{6AC3102B-5D17-465F-B4B8-A5C3AED2D430}" p:after="r[@uid='{FB687336-74E0-44EA-B27A-C5FE93526161}']" s:ds="local:/Data/CircleMaskFs_CaseStudies" s:id="{14D88647-95B0-4D60-92D4-168A7320C770}" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d%7c%7bC48E8674-963A-4AC3-AB95-81B7689F3A29%7d&amp;GridParameters&amp;FieldNames=%7bC5634A9B-F09A-4307-9D96-7FE243FF4B56%7d&amp;DynamicPlaceholderId=63&amp;Reset Caching Options" s:ph="main" /><r uid="{AED65003-92E7-40C9-B709-5A4E7DAB9D49}" p:after="r[@uid='{6AC3102B-5D17-465F-B4B8-A5C3AED2D430}']" s:par="RenderingIdentifier&amp;Styles=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=16&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{B0EDC24D-E949-4CFD-AE41-16EDCE7EBC26}" p:after="r[@uid='{AED65003-92E7-40C9-B709-5A4E7DAB9D49}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bE3EC259E-B93F-4487-BABE-8D93340279D6%7d%7c%7bA59BEF73-5C29-4B9E-9741-DE812633C4CD%7d%7c%7b05EC45A0-40B0-4780-8DB1-FC29B2172E16%7d%7c%7b4FE4E771-B1C2-4C79-9A06-3DF6A52D1D24%7d%7c%7bA55EC20E-AE6B-45A5-83CC-B42C42D665D6%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b2066751C-88ED-4791-84E0-43781472AB66%7d&amp;data-animation=zoom-out&amp;GridParameters&amp;DynamicPlaceholderId=22&amp;BackgroundImage=%3cimage+mediaid%3d%22%7b0EE0D061-5119-4925-84FE-A0E093CF9F21%7d%22+%2f%3e&amp;Reset Caching Options" /><r uid="{EE27C540-F760-4FBC-BD0E-D97B8A94EB3B}" p:after="r[@uid='{B0EDC24D-E949-4CFD-AE41-16EDCE7EBC26}']" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=25&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{FB0140D3-916A-4BBB-876F-A91F4F8B1D8D}" p:after="r[@uid='{EE27C540-F760-4FBC-BD0E-D97B8A94EB3B}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b897EDDCF-0330-45E8-9FBE-D70132BB89B4%7d%7c%7bA59BEF73-5C29-4B9E-9741-DE812633C4CD%7d%7c%7b1CC66CE1-7D58-4964-A0B7-D7B5691316EF%7d%7c%7bDFC30546-8F73-4903-A207-0FC324E89E3B%7d%7c%7bEB2E9124-2EF2-4B99-8BAD-046868C22E18%7d&amp;data-animation=fade-right&amp;data-target=img&amp;GridParameters&amp;FieldNames=%7b7452208C-5CAE-4FEC-910C-6194B06E5EEB%7d&amp;DynamicPlaceholderId=26&amp;Reset Caching Options" /><r uid="{F3827C7F-4FBA-4AC9-B88B-353ABC7D528D}" p:after="r[@uid='{FB0140D3-916A-4BBB-876F-A91F4F8B1D8D}']" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b1CC9EB35-E883-403D-970F-B4997E391779%7d&amp;GridParameters&amp;DynamicPlaceholderId=29&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{5DA6A372-010D-44CB-A8E7-749E896C3476}" p:after="*[1=2]" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d%7c%7b1CC9EB35-E883-403D-970F-B4997E391779%7d&amp;GridParameters&amp;DynamicPlaceholderId=30&amp;BackgroundImage&amp;Reset Caching Options" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210510T151300Z
+----field----
+field: {B8F42732-9CB8-478D-AE95-07E25345FB0F}
+name: __Hide version
+key: __hide version
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210510T151300Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fd4fab6e-25bb-49b8-bd13-ce8f45c6653e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220216T195122Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----version----
+language: en-US
+version: 3
+revision: d2edc3c6-b678-4854-a4df-093fb39f8237
+
+----field----
+field: {D4C9725F-D2FC-4F33-863C-AB3EBC8D6988}
+name: Title
+key: title
+content-length: 24
+
+Innovation that Delivers
+----field----
+field: {A4B445B5-D1B4-4124-8449-B35B87FEF56F}
+name: Product Interest
+key: product interest
+content-length: 0
+
+
+----field----
+field: {85A82DD2-BFB0-4B21-ADDF-803219DE1875}
+name: Signup Modal
+key: signup modal
+content-length: 0
+
+
+----field----
+field: {963F850D-1234-4576-98AE-29C705A60784}
+name: Custom Schema
+key: custom schema
+content-length: 0
+
+
+----field----
+field: {7D988161-3991-465A-A88C-280BC65542A0}
+name: OpenGraphTitle
+key: opengraphtitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {7BDDC8B8-1F77-46D8-9D7F-46E20E041F74}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {D8B38DD7-E9A0-4410-9F17-D436B0C8635A}
+name: OpenGraphImageUrl
+key: opengraphimageurl
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {97FB669D-5B8E-4829-9A24-06418C315D73}
+name: SxaTags
+key: sxatags
+content-length: 0
+
+
+----field----
+field: {48A66E40-D164-4C8E-BC06-172ECC6769EC}
+name: TwitterTitle
+key: twittertitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {45CE257A-6060-4C4A-9A0F-AE77BF705B25}
+name: TwitterSite
+key: twittersite
+content-length: 31
+
+https://www.globalpayments.com/
+----field----
+field: {4D263B95-322F-4003-ADBD-70920FACF823}
+name: TwitterDescription
+key: twitterdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {DE457091-0989-414E-ADDF-59DB0DDB6690}
+name: TwitterImage
+key: twitterimage
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {CE53062E-4385-4244-8382-C2B4530A51BA}
+name: TwitterCardType
+key: twittercardtype
+content-length: 38
+
+{C770CC78-859C-4B9A-B509-5EC1F9E20985}
+----field----
+field: {528986CC-6FF9-4383-8BEE-514F0E8172CF}
+name: MetaDescription
+key: metadescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {E5FAB53D-6C09-49D5-ACC7-CC53F4BA9E90}
+name: OnePassCookieEnabled
+key: onepasscookieenabled
+content-length: 1
+
+1
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 24215
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{8B40418E-23B3-4B59-B188-D07F0ADEE0CD}" p:before="*" s:ds="local:/Data/News Header" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b0188D416-6E3C-4ACF-8284-F182B9242A77%7d%7c%7b6ECF6E53-8B9A-41A8-B6E7-20163AA95B9A%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=81&amp;Reset Caching Options" s:ph="/main/container-29/row-2-37" /><r uid="{853ABC5F-6911-4FD0-9C26-6C27C9AB0CF9}" p:after="r[@uid='{8B40418E-23B3-4B59-B188-D07F0ADEE0CD}']" s:ds="local:/Data/Mobile we lead because txt" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=80&amp;Reset Caching Options" s:ph="/main/container-75/row-1-77" /><r uid="{5F0B2350-81A1-466E-BA7D-271B8A9A616B}" p:after="r[@uid='{853ABC5F-6911-4FD0-9C26-6C27C9AB0CF9}']" s:ds="local:/Data/Mobile We lead because img" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bE074D650-F71E-42A5-8880-12544B4CD0E4%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b7CB7AB5D-6E6A-4CDF-B0AD-47325646685A%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=79&amp;Reset Caching Options" s:ph="/main/container-75/row-1-77" /><r uid="{61D8D1B9-8485-4880-B814-BA4D56397308}" p:after="r[@uid='{5F0B2350-81A1-466E-BA7D-271B8A9A616B}']" s:ds="/sitecore/content/GPN/Corporate/Clone2/Data/Accordions/Mobile Accordions/Home We lead because" s:id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}" s:par="RenderingIdentifier&amp;EasingFunction=Swing&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b35355F92-6C6A-4448-8BA0-216C8AC5DCA5%7d&amp;CanToggle=1&amp;ExpandOnHover&amp;Speed=500&amp;Reset Caching Options&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b83901CCF-0965-4635-B590-83DD5F9FD886%7d%7c%7b7CB7AB5D-6E6A-4CDF-B0AD-47325646685A%7d&amp;DynamicPlaceholderId=76&amp;ExpandedByDefault&amp;CanOpenMultiple=1" s:ph="/main/container-75/row-2-77" /><r uid="{3271BA60-F14F-47BA-B17B-909309A9665D}" p:after="r[@uid='{61D8D1B9-8485-4880-B814-BA4D56397308}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=77&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-75" /><r uid="{F4036603-7A63-46F2-845B-BF6A14114CA6}" p:after="r[@uid='{3271BA60-F14F-47BA-B17B-909309A9665D}']" s:ds="" s:id="{2BF16BB6-6B93-4C9C-8DD5-4DB584AE4434}" s:par="RenderingIdentifier&amp;Styles=%7b708E6FA8-342F-4D88-9D0A-527F1A1630A7%7d&amp;GridParameters&amp;FieldNames=%7b446401F4-0273-48EF-84AA-C31CB10163CD%7d&amp;DynamicPlaceholderId=73&amp;Reset Caching Options" s:ph="/main/container-6/row-1-72" /><r uid="{7E24B3A8-E1EA-481C-8EE8-22C873B28769}" p:after="r[@uid='{F4036603-7A63-46F2-845B-BF6A14114CA6}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b697D5A9C-37CE-4948-B907-1F790E59AD99%7d%7c%7b636326E1-5BEA-416F-BBDC-468C8BDC155C%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d%7c%7b9F4D8763-E0E9-4EFD-B74C-9EE4E69AEC6D%7d%7c%7bDA294E53-CD71-442C-BF2C-6AF1535EE782%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7b61CE8415-385D-45AB-A801-EBC5B1356C88%7d&amp;DynamicPlaceholderId=71&amp;Reset Caching Options" /><r uid="{110C25D9-2C0D-4709-8367-E8E4A4DED71B}" p:after="r[@uid='{7E24B3A8-E1EA-481C-8EE8-22C873B28769}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=69&amp;Reset Caching Options" /><r uid="{42F788FD-0403-4D2C-BF1F-AD8617A5FDC0}" p:after="r[@uid='{110C25D9-2C0D-4709-8367-E8E4A4DED71B}']" /><r uid="{8863B4DD-0E1E-4DDB-880F-AF5478BF4236}" p:after="r[@uid='{42F788FD-0403-4D2C-BF1F-AD8617A5FDC0}']" s:ds="local:/Data/Carrefour" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=64&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{F4316FEB-962D-453E-9753-10D4A613F8E1}" p:after="r[@uid='{8863B4DD-0E1E-4DDB-880F-AF5478BF4236}']" s:ds="local:/Data/Golden Corral" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=65&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{D52BF61E-EC0C-4642-8EA5-3EC41000F146}" p:after="r[@uid='{F4316FEB-962D-453E-9753-10D4A613F8E1}']" s:ds="local:/Data/Purdue" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=66&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{37673271-BC63-4392-8043-237B6454729A}" p:after="r[@uid='{D52BF61E-EC0C-4642-8EA5-3EC41000F146}']" s:ds="local:/Data/Wrong Iron" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b38BD7CF7-1004-4EF8-810C-A9B0B7F22D9B%7d&amp;DynamicPlaceholderId=82&amp;Reset Caching Options" s:ph="/main/carouselplaceholder-1-63" /><r uid="{01EB3860-8BB9-4897-83E0-6675B53FF4E6}" p:after="r[@uid='{37673271-BC63-4392-8043-237B6454729A}']" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d&amp;DynamicPlaceholderId=3&amp;Styles7&amp;Styles1=%7b6ECF6E53-8B9A-41A8-B6E7-20163AA95B9A%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{C9CFD830-983E-4F59-8C3F-A0C2AE54540F}" p:after="r[@uid='{01EB3860-8BB9-4897-83E0-6675B53FF4E6}']" /><r uid="{F53FBC45-A3A8-4BE9-9E53-6B8D3F539429}" p:after="r[@uid='{C9CFD830-983E-4F59-8C3F-A0C2AE54540F}']" /><r uid="{DB873141-40DA-42A0-A0E1-02D7719B49E8}" p:after="r[@uid='{F53FBC45-A3A8-4BE9-9E53-6B8D3F539429}']" /><r uid="{E7B4A964-2CBB-4FCC-9311-1A8C8F21B376}" p:after="r[@uid='{DB873141-40DA-42A0-A0E1-02D7719B49E8}']" /><r uid="{E9E1569D-5D22-493D-A474-99FB48C7826E}" p:after="r[@uid='{E7B4A964-2CBB-4FCC-9311-1A8C8F21B376}']" /><r uid="{D743E2A1-B20E-4B47-A728-3B9EEB70FE2C}" p:after="r[@uid='{E9E1569D-5D22-493D-A474-99FB48C7826E}']" /><r uid="{C395623D-D4F8-4BE3-BC84-ECB00B03738F}" p:after="r[@uid='{D743E2A1-B20E-4B47-A728-3B9EEB70FE2C}']" /><r uid="{4C4DC9C9-BD33-4C1F-B0C4-3AE6A91DEB06}" p:after="r[@uid='{C395623D-D4F8-4BE3-BC84-ECB00B03738F}']" s:ds="local:/Data/BackgroundVideo" s:id="{C47E2BDD-1FED-4E84-BEC2-5203109A4D73}" s:par="RenderingIdentifier&amp;Styles=%7b708E6FA8-342F-4D88-9D0A-527F1A1630A7%7d%7c%7bB6B99BC1-6513-4C0D-8359-82870EBBE11F%7d&amp;GridParameters&amp;FieldNames=%7b8FDAAAB3-5DBD-4CBD-9ABE-2919478D9E4C%7d&amp;DynamicPlaceholderId=55&amp;Reset Caching Options" s:ph="/main/container-25" /><r uid="{DFFBB809-E1A0-473D-954F-F0BA9310568B}" p:after="r[@uid='{4C4DC9C9-BD33-4C1F-B0C4-3AE6A91DEB06}']" s:par="RenderingIdentifier&amp;Styles=%7bFD1ABB8A-2114-4845-B14A-A2E46B81CE31%7d%7c%7bF51B721F-53BE-468D-B5AE-90086C4AC2C0%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD22AC86A-0A4C-4BD0-968F-90BF154FB513%7d%7c%7b5EFDFC3D-9114-432C-992E-3BF4E7B285C4%7d&amp;FieldNames=%7b3441FC6D-6E13-46FB-B5EB-5338CB5386BF%7d&amp;DynamicPlaceholderId=54&amp;Reset Caching Options" /><r uid="{BC5F8861-C3D1-45B3-B7AA-D2621800A387}" p:after="r[@uid='{DFFBB809-E1A0-473D-954F-F0BA9310568B}']" s:ds="" s:id="{2BF16BB6-6B93-4C9C-8DD5-4DB584AE4434}" s:par="RenderingIdentifier&amp;Styles=%7bFD1ABB8A-2114-4845-B14A-A2E46B81CE31%7d%7c%7b94B17E91-075B-468F-AA47-DD19F66A9905%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7b17103330-8ACB-401D-95B9-14452F4D7B73%7d&amp;DynamicPlaceholderId=52&amp;Reset Caching Options" s:ph="/main/container-16/row-3-17" /><r uid="{5AE9B226-7C9E-4A4C-92D7-20FA01CFAB30}" p:after="r[@uid='{BC5F8861-C3D1-45B3-B7AA-D2621800A387}']" s:par="RenderingIdentifier&amp;Styles=%7b74B5EA34-C1B1-4154-8B5B-A9A674718D1E%7d&amp;GridParameters=%7b75CFFEDA-7516-4E86-9121-CA91F1759608%7d%7c%7bC64399F8-5419-4D93-82D6-BC3EA2999046%7d%7c%7b5057B25E-E41D-4586-B981-A3538E668698%7d&amp;TabControlBelowContent&amp;DynamicPlaceholderId=50&amp;Reset Caching Options" /><r uid="{EE690DA7-C743-4434-8ED9-26D39DF401C7}" p:after="r[@uid='{5AE9B226-7C9E-4A4C-92D7-20FA01CFAB30}']" s:ds="local:/Data/Insights Links" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b0188D416-6E3C-4ACF-8284-F182B9242A77%7d%7c%7b8F6C886E-24BE-4B0F-A9B5-1657A6254D18%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b27F911E1-E74B-4FF4-8AAA-1F51560B941D%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=74&amp;Reset Caching Options" s:ph="/main/container-29/row-1-37" /><r uid="{E4BC3120-A113-4F62-B2E8-01A65A13DEF5}" p:after="r[@uid='{EE690DA7-C743-4434-8ED9-26D39DF401C7}']" s:ds="local:/Data/On Scale" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d%7c%7b042F04EE-C689-4513-A77F-2CF760BA6E15%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=49&amp;Reset Caching Options" s:ph="/main/container-6/row-2-7" /><r uid="{D49A3338-C682-4077-AD24-79214DB6E255}" p:after="r[@uid='{E4BC3120-A113-4F62-B2E8-01A65A13DEF5}']" s:ds="local:/Data/On Service" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=48&amp;Reset Caching Options" s:ph="/main/container-6/row-2-7" /><r uid="{AF997610-5B90-4B2B-BCBE-05664FBDB758}" p:after="r[@uid='{D49A3338-C682-4077-AD24-79214DB6E255}']" s:ds="local:/Data/On Simplicity" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=47&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{55C3FFE7-88BB-45EB-AE79-D46B8751A063}" p:after="r[@uid='{AF997610-5B90-4B2B-BCBE-05664FBDB758}']" s:ds="local:/Data/On Customer Experience" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=46&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{FED8BC29-1C47-4833-A9A1-02AD17CC0681}" p:after="r[@uid='{55C3FFE7-88BB-45EB-AE79-D46B8751A063}']" s:ds="local:/Data/On Security" s:id="{51C13F03-8364-4F61-B860-2EC6CA7439B3}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b651962C8-3A6B-464D-8450-08213FDAE4D9%7d&amp;DynamicPlaceholderId=45&amp;Reset Caching Options" s:ph="/main/container-6/row-3-7" /><r uid="{9C990DB3-13FF-445C-A574-FC7D192B3EFE}" p:after="r[@uid='{FED8BC29-1C47-4833-A9A1-02AD17CC0681}']" s:par="Styles8&amp;EnabledPlaceholders=2%2c1&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=37&amp;Styles7&amp;Styles1=%7bEF087052-3EBF-4EBB-9847-0A72070AC662%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{CA10BD90-4127-4BE7-B867-A828BD0E1D57}" p:after="r[@uid='{9C990DB3-13FF-445C-A574-FC7D192B3EFE}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b83901CCF-0965-4635-B590-83DD5F9FD886%7d%7c%7bCB1CBA0F-2FFB-4AB4-9F56-A4BB79FB0AE7%7d&amp;FieldNames=%7b95C58F7D-AE49-4FE9-87F5-4B79185E64F2%7d&amp;DynamicPlaceholderId=35&amp;Reset Caching Options" /><r uid="{D03A96D5-5AB7-4A4B-88A9-411C6109E261}" p:after="r[@uid='{CA10BD90-4127-4BE7-B867-A828BD0E1D57}']" /><r uid="{838A71DD-335E-41D2-B3FE-75F55C73DE7F}" p:after="r[@uid='{D03A96D5-5AB7-4A4B-88A9-411C6109E261}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bCCF636C9-EA99-4E07-82E0-0699768629D4%7d&amp;DynamicPlaceholderId=33&amp;Reset Caching Options" /><r uid="{C722EAA7-440C-4F49-91FA-AD59625F9254}" p:after="r[@uid='{838A71DD-335E-41D2-B3FE-75F55C73DE7F}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=32&amp;Reset Caching Options" /><r uid="{A2F621C9-DE55-4559-8F33-1801A290ECD7}" p:after="r[@uid='{C722EAA7-440C-4F49-91FA-AD59625F9254}']" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7bEF087052-3EBF-4EBB-9847-0A72070AC662%7d&amp;DynamicPlaceholderId=31&amp;Styles7&amp;Styles1=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{EDEBCAFE-C8CC-4014-A2D4-92F8F717D639}" p:after="r[@uid='{A2F621C9-DE55-4559-8F33-1801A290ECD7}']" /><r uid="{0927CA8E-D4D2-4A84-B64A-24A9B49784DF}" p:after="r[@uid='{EDEBCAFE-C8CC-4014-A2D4-92F8F717D639}']" s:ds="local:/Data/Your goals" s:id="{DCEE78E1-1843-4456-A13A-F10A12191630}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b51EF9AE0-4AA3-4D04-B5EE-F25971FBD660%7d&amp;data-animation=fade-down&amp;data-aos-delay=700&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b800E8479-2787-485F-A94A-60AAF4E3890C%7d%7c%7bF97969DF-CD4F-48EF-825D-ECC75A85001D%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=24&amp;Reset Caching Options" s:ph="/main/container-22/row-1-23" /><r uid="{08A93AEF-150E-468E-B441-43A4F1CE6589}" p:after="r[@uid='{0927CA8E-D4D2-4A84-B64A-24A9B49784DF}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=23&amp;Styles7&amp;Styles1=%7bB6CEC3D9-B8FC-4F82-96E3-C5133983B5F1%7d%7c%7b029A67C9-9441-42B9-BE48-5D36DAB428DE%7d&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-22" /><r uid="{EA05EB5D-20AB-4F70-A7FC-1489F4E29836}" p:after="r[@uid='{08A93AEF-150E-468E-B441-43A4F1CE6589}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7d%7c%7b1C1068B1-9E57-4FA4-8E76-CC96FD0A3BF2%7d%7c%7bBCF767CC-B4A1-40B2-93CD-9C6ED2356B5C%7d%7c%7bDED36C90-D393-484B-9995-27B211E5918C%7d%7c%7b5EFDFC3D-9114-432C-992E-3BF4E7B285C4%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=20&amp;Reset Caching Options" /><r uid="{34B0DEED-EF00-426D-A03D-3D3126336552}" p:after="r[@uid='{EA05EB5D-20AB-4F70-A7FC-1489F4E29836}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d&amp;data-animation=fade-down&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7bD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7d%7c%7b1C1068B1-9E57-4FA4-8E76-CC96FD0A3BF2%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=19&amp;Reset Caching Options" /><r uid="{BAD893EE-78EC-4F69-BEA6-76D1B6BDF7CB}" p:after="r[@uid='{34B0DEED-EF00-426D-A03D-3D3126336552}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b342B531C-8362-42C0-A45F-8877F1A47EA5%7d%7c%7b636326E1-5BEA-416F-BBDC-468C8BDC155C%7d&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d%7c%7bB18F83A8-6947-4EFA-B3C6-D741E747293A%7d%7c%7b4BDB667A-7475-410B-ADB9-01F4D2184295%7d&amp;FieldNames=%7b61CE8415-385D-45AB-A801-EBC5B1356C88%7d&amp;DynamicPlaceholderId=70&amp;Reset Caching Options" /><r uid="{19E18387-7C49-4BF9-B7A7-C083319D4014}" p:after="r[@uid='{BAD893EE-78EC-4F69-BEA6-76D1B6BDF7CB}']" s:par="Styles8&amp;EnabledPlaceholders=3%2c1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7b029A67C9-9441-42B9-BE48-5D36DAB428DE%7d&amp;DynamicPlaceholderId=17&amp;Styles7&amp;Styles1=%7bB6CEC3D9-B8FC-4F82-96E3-C5133983B5F1%7d&amp;Styles3&amp;Reset Caching Options" /><r uid="{39386A09-BB7D-46A6-809C-4AB0DA04775D}" p:after="r[@uid='{19E18387-7C49-4BF9-B7A7-C083319D4014}']" /><r uid="{24B1D49E-0228-4C34-A7CE-B37A95AB91FF}" p:after="r[@uid='{39386A09-BB7D-46A6-809C-4AB0DA04775D}']" s:ds="local:/Data/Innovation Animation" s:id="{4A0D4E0B-BC20-4F2E-BD84-A4BD35834E86}" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bE074D650-F71E-42A5-8880-12544B4CD0E4%7d%7c%7bFD0BC9D8-1733-4970-AF48-AF5CD791207E%7d&amp;data-animation=fade-in&amp;data-target=img&amp;data-aos-delay=300&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b7CB7AB5D-6E6A-4CDF-B0AD-47325646685A%7d&amp;FieldNames=%7bC66694BC-5371-478E-A193-BF485B279E61%7d&amp;DynamicPlaceholderId=53&amp;Reset Caching Options" s:ph="/main/container-6/row-1-7" /><r uid="{540F505C-0603-4732-9F81-6C8BF09CAF38}" p:after="r[@uid='{24B1D49E-0228-4C34-A7CE-B37A95AB91FF}']" s:par="Styles8&amp;EnabledPlaceholders=1%2c4%2c2%2c3&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7bB10F00FC-2184-452A-A7F5-EF696089A8DE%7d&amp;DynamicPlaceholderId=7&amp;Styles7&amp;Styles1&amp;Styles3=%7bC9D40A2C-633F-4734-9060-4C0DEBB173EE%7d%7c%7b9D230954-4588-496E-87FF-9390B0D94CD4%7d&amp;Reset Caching Options" /><r uid="{0560E58E-7090-436B-9D57-F6FA2BC91EDC}" p:after="r[@uid='{540F505C-0603-4732-9F81-6C8BF09CAF38}']" s:ds="" s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}" s:par="Styles8&amp;EnabledPlaceholders=1%2c2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=72&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" s:ph="/main/container-6" /><r uid="{D214EFA2-D0E8-49C5-9269-515F93204138}" p:after="r[@uid='{0560E58E-7090-436B-9D57-F6FA2BC91EDC}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;FieldNames=%7bC89FE962-4B45-4925-875D-5281ABF48C78%7d&amp;DynamicPlaceholderId=4&amp;Reset Caching Options" /><r uid="{2136010E-59A2-4378-8E8C-FBF03A6CA4CB}" p:after="r[@uid='{D214EFA2-D0E8-49C5-9269-515F93204138}']" /><r uid="{2C3AAFB7-73DE-4895-9B36-505EE4CE0375}" p:after="r[@uid='{2136010E-59A2-4378-8E8C-FBF03A6CA4CB}']" /><r uid="{C629A317-3EC3-45C6-B8A9-A0E45EA1851B}" p:after="r[@uid='{2C3AAFB7-73DE-4895-9B36-505EE4CE0375}']" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7b0EA475C7-D5A8-47F4-A6A4-3B1E591985CE%7d&amp;DynamicPlaceholderId=51&amp;Reset Caching Options" /><r uid="{00E93F3B-84C8-49B6-8E20-F8DE8C6B41EB}" p:after="r[@uid='{C629A317-3EC3-45C6-B8A9-A0E45EA1851B}']" s:par="RenderingIdentifier&amp;Styles=%7b43DE977F-B570-4627-9F70-282BFDEC2DE2%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b844C7976-F3A4-4D69-91F6-B1C2D40FCABE%7d%7c%7bE674AFA4-6F2D-44C7-A5B9-2A771DAA9E22%7d&amp;GridParameters&amp;DynamicPlaceholderId=6&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{B70992EB-2DA7-43A8-860B-AD950FBA6F09}" p:after="r[@uid='{00E93F3B-84C8-49B6-8E20-F8DE8C6B41EB}']" s:ds="" s:id="{896A2C68-1362-4E88-8BA0-1805AE6D4837}" s:par="RenderingIdentifier&amp;Styles=%7bDFE51E5C-5A5C-438F-B14C-367AF04382EB%7d%7c%7bC4CDD86F-382B-4612-97F6-36438353E5F2%7d%7c%7b9A790771-3759-40A5-B15E-7883045E1104%7d&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d&amp;DynamicPlaceholderId=75&amp;BackgroundImage&amp;Reset Caching Options" s:ph="main" /><r uid="{FB687336-74E0-44EA-B27A-C5FE93526161}" p:after="r[@uid='{B70992EB-2DA7-43A8-860B-AD950FBA6F09}']" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=67&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{6AC3102B-5D17-465F-B4B8-A5C3AED2D430}" p:after="r[@uid='{FB687336-74E0-44EA-B27A-C5FE93526161}']" s:ds="local:/Data/CircleMaskFs_CaseStudies" s:id="{14D88647-95B0-4D60-92D4-168A7320C770}" s:par="RenderingIdentifier&amp;Styles=%7b6917DE7A-81B6-4DC4-A944-E46925DBBA18%7d%7c%7bC48E8674-963A-4AC3-AB95-81B7689F3A29%7d&amp;GridParameters&amp;FieldNames=%7bC5634A9B-F09A-4307-9D96-7FE243FF4B56%7d&amp;DynamicPlaceholderId=63&amp;Reset Caching Options" s:ph="main" /><r uid="{AED65003-92E7-40C9-B709-5A4E7DAB9D49}" p:after="r[@uid='{6AC3102B-5D17-465F-B4B8-A5C3AED2D430}']" s:par="RenderingIdentifier&amp;Styles=%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=16&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{B0EDC24D-E949-4CFD-AE41-16EDCE7EBC26}" p:after="r[@uid='{AED65003-92E7-40C9-B709-5A4E7DAB9D49}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7bE3EC259E-B93F-4487-BABE-8D93340279D6%7d%7c%7bA59BEF73-5C29-4B9E-9741-DE812633C4CD%7d%7c%7b05EC45A0-40B0-4780-8DB1-FC29B2172E16%7d%7c%7b4FE4E771-B1C2-4C79-9A06-3DF6A52D1D24%7d%7c%7bA55EC20E-AE6B-45A5-83CC-B42C42D665D6%7d%7c%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b2066751C-88ED-4791-84E0-43781472AB66%7d&amp;data-animation=zoom-out&amp;GridParameters&amp;DynamicPlaceholderId=22&amp;BackgroundImage=%3cimage+mediaid%3d%22%7b0EE0D061-5119-4925-84FE-A0E093CF9F21%7d%22+%2f%3e&amp;Reset Caching Options" /><r uid="{EE27C540-F760-4FBC-BD0E-D97B8A94EB3B}" p:after="r[@uid='{B0EDC24D-E949-4CFD-AE41-16EDCE7EBC26}']" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d&amp;GridParameters&amp;DynamicPlaceholderId=25&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{FB0140D3-916A-4BBB-876F-A91F4F8B1D8D}" p:after="r[@uid='{EE27C540-F760-4FBC-BD0E-D97B8A94EB3B}']" s:par="RenderingIdentifier&amp;Styles=%7b51380DC6-050B-4959-82BA-7F93C6A9F305%7d%7c%7b897EDDCF-0330-45E8-9FBE-D70132BB89B4%7d%7c%7bA59BEF73-5C29-4B9E-9741-DE812633C4CD%7d%7c%7b1CC66CE1-7D58-4964-A0B7-D7B5691316EF%7d%7c%7bDFC30546-8F73-4903-A207-0FC324E89E3B%7d%7c%7bEB2E9124-2EF2-4B99-8BAD-046868C22E18%7d&amp;data-animation=fade-right&amp;data-target=img&amp;GridParameters&amp;FieldNames=%7b7452208C-5CAE-4FEC-910C-6194B06E5EEB%7d&amp;DynamicPlaceholderId=26&amp;Reset Caching Options" /><r uid="{F3827C7F-4FBA-4AC9-B88B-353ABC7D528D}" p:after="r[@uid='{FB0140D3-916A-4BBB-876F-A91F4F8B1D8D}']" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b1CC9EB35-E883-403D-970F-B4997E391779%7d&amp;GridParameters&amp;DynamicPlaceholderId=29&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{5DA6A372-010D-44CB-A8E7-749E896C3476}" p:after="*[1=2]" s:par="RenderingIdentifier&amp;Styles=%7b1136040F-1EA2-4438-8DBB-2C2E025D5A58%7d%7c%7b28B62EFE-D62E-4888-860E-8591F9ABF1DE%7d%7c%7b1CC9EB35-E883-403D-970F-B4997E391779%7d&amp;GridParameters&amp;DynamicPlaceholderId=30&amp;BackgroundImage&amp;Reset Caching Options" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 0
+
+
+----field----
+field: {B8F42732-9CB8-478D-AE95-07E25345FB0F}
+name: __Hide version
+key: __hide version
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210602T235530Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 15
+
+sitecore\tf-kim
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d2edc3c6-b678-4854-a4df-093fb39f8237
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220216T195127Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----version----
+language: en-US
+version: 4
+revision: dc8dba40-3176-4455-862f-49da09993103
+
+----field----
+field: {D4C9725F-D2FC-4F33-863C-AB3EBC8D6988}
+name: Title
+key: title
+content-length: 24
+
+Innovation that Delivers
+----field----
+field: {A4B445B5-D1B4-4124-8449-B35B87FEF56F}
+name: Product Interest
+key: product interest
+content-length: 0
+
+
+----field----
+field: {85A82DD2-BFB0-4B21-ADDF-803219DE1875}
+name: Signup Modal
+key: signup modal
+content-length: 0
+
+
+----field----
+field: {963F850D-1234-4576-98AE-29C705A60784}
+name: Custom Schema
+key: custom schema
+content-length: 0
+
+
+----field----
+field: {7D988161-3991-465A-A88C-280BC65542A0}
+name: OpenGraphTitle
+key: opengraphtitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {7BDDC8B8-1F77-46D8-9D7F-46E20E041F74}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {D8B38DD7-E9A0-4410-9F17-D436B0C8635A}
+name: OpenGraphImageUrl
+key: opengraphimageurl
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {97FB669D-5B8E-4829-9A24-06418C315D73}
+name: SxaTags
+key: sxatags
+content-length: 0
+
+
+----field----
+field: {48A66E40-D164-4C8E-BC06-172ECC6769EC}
+name: TwitterTitle
+key: twittertitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {45CE257A-6060-4C4A-9A0F-AE77BF705B25}
+name: TwitterSite
+key: twittersite
+content-length: 31
+
+https://www.globalpayments.com/
+----field----
+field: {4D263B95-322F-4003-ADBD-70920FACF823}
+name: TwitterDescription
+key: twitterdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {DE457091-0989-414E-ADDF-59DB0DDB6690}
+name: TwitterImage
+key: twitterimage
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {CE53062E-4385-4244-8382-C2B4530A51BA}
+name: TwitterCardType
+key: twittercardtype
+content-length: 38
+
+{C770CC78-859C-4B9A-B509-5EC1F9E20985}
+----field----
+field: {528986CC-6FF9-4383-8BEE-514F0E8172CF}
+name: MetaDescription
+key: metadescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {E5FAB53D-6C09-49D5-ACC7-CC53F4BA9E90}
+name: OnePassCookieEnabled
+key: onepasscookieenabled
+content-length: 1
+
+1
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 0
+
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 0
+
+
+----field----
+field: {B8F42732-9CB8-478D-AE95-07E25345FB0F}
+name: __Hide version
+key: __hide version
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210706T073226Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dc8dba40-3176-4455-862f-49da09993103
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220216T195129Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----version----
+language: en-US
+version: 5
+revision: 9a639e0e-0585-4caf-95cb-efd906200c59
+
+----field----
+field: {D4C9725F-D2FC-4F33-863C-AB3EBC8D6988}
+name: Title
+key: title
+content-length: 24
+
+Innovation that Delivers
+----field----
+field: {A4B445B5-D1B4-4124-8449-B35B87FEF56F}
+name: Product Interest
+key: product interest
+content-length: 0
+
+
+----field----
+field: {85A82DD2-BFB0-4B21-ADDF-803219DE1875}
+name: Signup Modal
+key: signup modal
+content-length: 0
+
+
+----field----
+field: {963F850D-1234-4576-98AE-29C705A60784}
+name: Custom Schema
+key: custom schema
+content-length: 0
+
+
+----field----
+field: {7D988161-3991-465A-A88C-280BC65542A0}
+name: OpenGraphTitle
+key: opengraphtitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {7BDDC8B8-1F77-46D8-9D7F-46E20E041F74}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {D8B38DD7-E9A0-4410-9F17-D436B0C8635A}
+name: OpenGraphImageUrl
+key: opengraphimageurl
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {97FB669D-5B8E-4829-9A24-06418C315D73}
+name: SxaTags
+key: sxatags
+content-length: 0
+
+
+----field----
+field: {48A66E40-D164-4C8E-BC06-172ECC6769EC}
+name: TwitterTitle
+key: twittertitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {45CE257A-6060-4C4A-9A0F-AE77BF705B25}
+name: TwitterSite
+key: twittersite
+content-length: 31
+
+https://www.globalpayments.com/
+----field----
+field: {4D263B95-322F-4003-ADBD-70920FACF823}
+name: TwitterDescription
+key: twitterdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {DE457091-0989-414E-ADDF-59DB0DDB6690}
+name: TwitterImage
+key: twitterimage
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {CE53062E-4385-4244-8382-C2B4530A51BA}
+name: TwitterCardType
+key: twittercardtype
+content-length: 38
+
+{C770CC78-859C-4B9A-B509-5EC1F9E20985}
+----field----
+field: {528986CC-6FF9-4383-8BEE-514F0E8172CF}
+name: MetaDescription
+key: metadescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {E5FAB53D-6C09-49D5-ACC7-CC53F4BA9E90}
+name: OnePassCookieEnabled
+key: onepasscookieenabled
+content-length: 1
+
+1
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 19568
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{76344080-4FEA-45CE-AE6E-7173405EE728}" p:before="*" s:ds="{6B210CD9-B603-4248-94BE-97EEFFC385DD}" s:id="{DEE8DDA7-AF00-48F6-9C60-19AB73EBA80D}" s:par="EasingFunction=Swing&amp;Speed=500&amp;CanOpenMultiple=1&amp;CanToggle=1&amp;ExpandedByDefault&amp;ExpandOnHover&amp;Reset Caching Options&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=112" s:ph="/main/container-5/row-1-3" /><r uid="{34C1BBC8-A658-4F8D-89CD-ED897A6D88DC}" p:after="r[@uid='{76344080-4FEA-45CE-AE6E-7173405EE728}']" s:ds="local:/Data/Payment Trends Alert Bar" s:id="{6DDA07A9-18D3-47A0-AB74-DF54956DD5F1}" s:par="RenderingIdentifier&amp;Reset Caching Options&amp;GridParameters&amp;Styles" s:ph="main" /><r uid="{11EC341D-56D1-4E30-8FA3-3F4CE63F08FA}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7B2865D7A1-A6CC-4375-9982-770A104A28B6%7D&amp;DynamicPlaceholderId=111&amp;Reset Caching Options" /><r uid="{63ECFE57-B871-462B-92A8-352B0AFDC0AF}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7BAF3B9049-CB3A-496D-943E-A6938A752560%7D&amp;DynamicPlaceholderId=110&amp;Reset Caching Options" /><r uid="{0ADE9200-1683-4763-AAC0-2ADE7FB82F81}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7BAF3B9049-CB3A-496D-943E-A6938A752560%7D&amp;DynamicPlaceholderId=109&amp;Reset Caching Options" /><r uid="{441FA351-E7EC-4C27-8DB7-3CC55AB49A18}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7BAF3B9049-CB3A-496D-943E-A6938A752560%7D&amp;DynamicPlaceholderId=108&amp;Reset Caching Options" /><r uid="{26A87BDB-EBC5-4065-BB9A-816C2A2659ED}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7BAF3B9049-CB3A-496D-943E-A6938A752560%7D&amp;DynamicPlaceholderId=107&amp;Reset Caching Options" /><r uid="{78C36434-E18D-4D34-8FAA-DFC808DFDB65}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters&amp;FieldNames=%7BAF3B9049-CB3A-496D-943E-A6938A752560%7D&amp;DynamicPlaceholderId=106&amp;Reset Caching Options" /><r uid="{61DED2E6-63BA-4B43-868A-8D6657200CFE}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC89FE962-4B45-4925-875D-5281ABF48C78%7D&amp;DynamicPlaceholderId=105&amp;Reset Caching Options" /><r uid="{B2B493D8-9330-4157-8FF4-E7EED1960AAC}" s:par="RenderingIdentifier&amp;Styles=%7B708E6FA8-342F-4D88-9D0A-527F1A1630A7%7D&amp;GridParameters&amp;FieldNames=%7BF448A6E1-FAFD-488F-BCE8-7F0D27D68DBD%7D&amp;DynamicPlaceholderId=104&amp;Reset Caching Options" /><r uid="{96A6AAE0-CC28-4378-A206-66FA750CB6EA}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7BD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7D%7C%7BB18F83A8-6947-4EFA-B3C6-D741E747293A%7D&amp;FieldNames=%7BC89FE962-4B45-4925-875D-5281ABF48C78%7D&amp;DynamicPlaceholderId=103&amp;Reset Caching Options" /><r uid="{1A239659-65AB-410E-9F90-728B789EF138}" s:par="Styles8&amp;EnabledPlaceholders=1%2C2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=102&amp;Styles7&amp;Styles1=%7B973221D8-872B-43E6-9225-D130C17F32BF%7D&amp;Styles3&amp;Reset Caching Options" /><r uid="{99BC2E05-5CAE-4647-BA5E-57D155CA3449}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7B31D9DC96-BEDE-4D40-B42C-F1D3C42732FA%7D%7C%7BB2799A51-CDA3-4C10-BE07-0C828305A316%7D&amp;FieldNames=%7BD350BE36-60DD-4A4E-B78B-EF2FBF080441%7D&amp;DynamicPlaceholderId=101&amp;Reset Caching Options" /><r uid="{3FCC3366-B922-40CA-AB80-58D6E65046DB}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7B840696C3-7246-4FA7-AAE6-0082435D1942%7D&amp;FieldNames=%7B11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7D&amp;DynamicPlaceholderId=96&amp;Reset Caching Options" /><r uid="{2417F8C2-9171-426F-BB06-8D9C78DF3B7D}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7B840696C3-7246-4FA7-AAE6-0082435D1942%7D&amp;FieldNames=%7B11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7D&amp;DynamicPlaceholderId=97&amp;Reset Caching Options" /><r uid="{EF3D9F22-1705-4BC9-94CC-D4FCFC1FCD53}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7B840696C3-7246-4FA7-AAE6-0082435D1942%7D&amp;FieldNames=%7B11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7D&amp;DynamicPlaceholderId=98&amp;Reset Caching Options" /><r uid="{C648D534-F34F-4567-A3CC-2359C0C1969B}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7B840696C3-7246-4FA7-AAE6-0082435D1942%7D&amp;FieldNames=%7B11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7D&amp;DynamicPlaceholderId=99&amp;Reset Caching Options" /><r uid="{FE99004C-4915-4E6A-B522-554BAFC9413B}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7B840696C3-7246-4FA7-AAE6-0082435D1942%7D&amp;FieldNames=%7B11C13C19-AACA-4FA4-8B49-CB1B024BFE20%7D&amp;DynamicPlaceholderId=100&amp;Reset Caching Options" /><r uid="{F61A70C7-5D0F-4497-AADB-BBAD2769D1E4}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;GridParameters&amp;FieldNames=%7B1B19FED6-69CB-4614-9956-4784E7AF4C96%7D&amp;DynamicPlaceholderId=95&amp;Reset Caching Options" /><r uid="{A254F08A-B19E-43EF-87B2-55C8418614E3}" s:par="RenderingIdentifier&amp;Styles=%7B6917DE7A-81B6-4DC4-A944-E46925DBBA18%7D&amp;GridParameters&amp;DynamicPlaceholderId=93&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{1259134B-D4B9-47DB-9430-D1A422B4E799}" s:par="RenderingIdentifier&amp;Styles=%7B6917DE7A-81B6-4DC4-A944-E46925DBBA18%7D&amp;GridParameters&amp;DynamicPlaceholderId=91&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{E355AFDB-E2D6-44D4-BE4C-2B4DA1CF1390}" s:par="RenderingIdentifier&amp;Styles=%7B6917DE7A-81B6-4DC4-A944-E46925DBBA18%7D&amp;GridParameters&amp;DynamicPlaceholderId=89&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{98F0B59A-5822-4C7B-A68B-D14D20F20063}" s:par="RenderingIdentifier&amp;Styles=%7B6917DE7A-81B6-4DC4-A944-E46925DBBA18%7D&amp;GridParameters&amp;DynamicPlaceholderId=87&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{1611C8B5-AE1D-4055-9FDF-8A76648C204F}" s:par="RenderingIdentifier&amp;Styles=%7B6917DE7A-81B6-4DC4-A944-E46925DBBA18%7D&amp;GridParameters&amp;DynamicPlaceholderId=85&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{F08D3529-0AAF-4C2A-A242-CA4F45A5B717}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7B76AEBB52-7392-4BDD-B643-15B5C7ADD488%7D&amp;DynamicPlaceholderId=84&amp;Reset Caching Options" /><r uid="{7E24B3A8-E1EA-481C-8EE8-22C873B28769}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D%7C%7B32A584F9-CAB9-4853-91F5-C1A4F649BD3A%7D%7C%7B636326E1-5BEA-416F-BBDC-468C8BDC155C%7D&amp;data-animation=fade-down&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7BD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7D%7C%7BB18F83A8-6947-4EFA-B3C6-D741E747293A%7D%7C%7B4BDB667A-7475-410B-ADB9-01F4D2184295%7D&amp;FieldNames=%7B61CE8415-385D-45AB-A801-EBC5B1356C88%7D&amp;DynamicPlaceholderId=71&amp;Reset Caching Options" /><r uid="{110C25D9-2C0D-4709-8367-E8E4A4DED71B}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC89FE962-4B45-4925-875D-5281ABF48C78%7D&amp;DynamicPlaceholderId=69&amp;Reset Caching Options" /><r uid="{42F788FD-0403-4D2C-BF1F-AD8617A5FDC0}" s:par="Styles8&amp;EnabledPlaceholders=1%2C2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=68&amp;Styles7&amp;Styles1&amp;Styles3&amp;Reset Caching Options" /><r uid="{01EB3860-8BB9-4897-83E0-6675B53FF4E6}" s:par="Styles8&amp;EnabledPlaceholders=1%2C2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7BC9D40A2C-633F-4734-9060-4C0DEBB173EE%7D%7C%7B654FF79C-2123-4CB2-98BA-BB45596A6A41%7D&amp;DynamicPlaceholderId=3&amp;Styles7&amp;Styles1=%7B28B62EFE-D62E-4888-860E-8591F9ABF1DE%7D%7C%7B654FF79C-2123-4CB2-98BA-BB45596A6A41%7D&amp;Styles3&amp;Reset Caching Options" /><r uid="{C9CFD830-983E-4F59-8C3F-A0C2AE54540F}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC66694BC-5371-478E-A193-BF485B279E61%7D&amp;DynamicPlaceholderId=62&amp;Reset Caching Options" /><r uid="{F53FBC45-A3A8-4BE9-9E53-6B8D3F539429}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC66694BC-5371-478E-A193-BF485B279E61%7D&amp;DynamicPlaceholderId=61&amp;Reset Caching Options" /><r uid="{DB873141-40DA-42A0-A0E1-02D7719B49E8}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC66694BC-5371-478E-A193-BF485B279E61%7D&amp;DynamicPlaceholderId=60&amp;Reset Caching Options" /><r uid="{E7B4A964-2CBB-4FCC-9311-1A8C8F21B376}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC66694BC-5371-478E-A193-BF485B279E61%7D&amp;DynamicPlaceholderId=59&amp;Reset Caching Options" /><r uid="{E9E1569D-5D22-493D-A474-99FB48C7826E}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC66694BC-5371-478E-A193-BF485B279E61%7D&amp;DynamicPlaceholderId=58&amp;Reset Caching Options" /><r uid="{D743E2A1-B20E-4B47-A728-3B9EEB70FE2C}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC66694BC-5371-478E-A193-BF485B279E61%7D&amp;DynamicPlaceholderId=57&amp;Reset Caching Options" /><r uid="{C395623D-D4F8-4BE3-BC84-ECB00B03738F}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC66694BC-5371-478E-A193-BF485B279E61%7D&amp;DynamicPlaceholderId=56&amp;Reset Caching Options" /><r uid="{DFFBB809-E1A0-473D-954F-F0BA9310568B}" s:par="RenderingIdentifier&amp;Styles=%7B94B17E91-075B-468F-AA47-DD19F66A9905%7D%7C%7BAFB0260F-E224-4CCC-B5F8-F738DDE4B317%7D%7C%7B1CD75B4A-4F66-443E-8E79-E51BEFF03535%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7B884F0DF9-FF61-419E-89AB-FF3ECEC9E93A%7D%7C%7B443272D9-774A-48E0-85DA-EE5CC4DA5EC4%7D&amp;FieldNames=%7B446401F4-0273-48EF-84AA-C31CB10163CD%7D&amp;DynamicPlaceholderId=54&amp;Reset Caching Options" /><r uid="{5AE9B226-7C9E-4A4C-92D7-20FA01CFAB30}" s:par="RenderingIdentifier&amp;Styles=%7B88151773-1679-4670-804D-7F911B416D4A%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;TabControlBelowContent&amp;DynamicPlaceholderId=50&amp;Reset Caching Options" /><r uid="{9C990DB3-13FF-445C-A574-FC7D192B3EFE}" s:par="Styles8&amp;EnabledPlaceholders=1&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=37&amp;Styles7&amp;Styles1=%7BEF087052-3EBF-4EBB-9847-0A72070AC662%7D&amp;Styles3&amp;Reset Caching Options" /><r uid="{CA10BD90-4127-4BE7-B867-A828BD0E1D57}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D%7C%7BB4C3CBE8-08C6-4480-B4D0-5A68DC97332D%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7B884F0DF9-FF61-419E-89AB-FF3ECEC9E93A%7D%7C%7B4BDB667A-7475-410B-ADB9-01F4D2184295%7D&amp;FieldNames=%7B95C58F7D-AE49-4FE9-87F5-4B79185E64F2%7D&amp;DynamicPlaceholderId=35&amp;Reset Caching Options" /><r uid="{D03A96D5-5AB7-4A4B-88A9-411C6109E261}" s:par="RenderingIdentifier&amp;Styles=%7BE3EC259E-B93F-4487-BABE-8D93340279D6%7D&amp;GridParameters&amp;FieldNames=%7B29ABE520-04E2-4082-A71F-135E62387E6E%7D&amp;DynamicPlaceholderId=1&amp;Reset Caching Options" /><r uid="{838A71DD-335E-41D2-B3FE-75F55C73DE7F}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BCCF636C9-EA99-4E07-82E0-0699768629D4%7D&amp;DynamicPlaceholderId=33&amp;Reset Caching Options" /><r uid="{C722EAA7-440C-4F49-91FA-AD59625F9254}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC89FE962-4B45-4925-875D-5281ABF48C78%7D&amp;DynamicPlaceholderId=32&amp;Reset Caching Options" /><r uid="{A2F621C9-DE55-4559-8F33-1801A290ECD7}" s:par="Styles8&amp;EnabledPlaceholders=1%2C2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2&amp;DynamicPlaceholderId=31&amp;Styles7&amp;Styles1=%7BDDAF4555-5032-4DC7-BDE2-81FB6BA26B78%7D&amp;Styles3&amp;Reset Caching Options" /><r uid="{EDEBCAFE-C8CC-4014-A2D4-92F8F717D639}" s:par="RenderingIdentifier&amp;Styles=%7BF3818E59-F390-4F4D-A549-6867E8F8EA6A%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC89FE962-4B45-4925-875D-5281ABF48C78%7D&amp;DynamicPlaceholderId=27&amp;Reset Caching Options" /><r uid="{EA05EB5D-20AB-4F70-A7FC-1489F4E29836}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7BB18F83A8-6947-4EFA-B3C6-D741E747293A%7D&amp;FieldNames=%7BC89FE962-4B45-4925-875D-5281ABF48C78%7D&amp;DynamicPlaceholderId=20&amp;Reset Caching Options" /><r uid="{34B0DEED-EF00-426D-A03D-3D3126336552}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;data-animation=fade-down&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7BB18F83A8-6947-4EFA-B3C6-D741E747293A%7D%7C%7B4BDB667A-7475-410B-ADB9-01F4D2184295%7D&amp;FieldNames=%7BC89FE962-4B45-4925-875D-5281ABF48C78%7D&amp;DynamicPlaceholderId=19&amp;Reset Caching Options" /><r uid="{BAD893EE-78EC-4F69-BEA6-76D1B6BDF7CB}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D%7C%7BC6DFAC99-142F-4561-9714-24D185469861%7D%7C%7B636326E1-5BEA-416F-BBDC-468C8BDC155C%7D&amp;data-animation=fade-down&amp;data-aos-delay=150&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7BD2B56BB0-4EB0-437D-81F3-F722D7C6B6E4%7D%7C%7BB18F83A8-6947-4EFA-B3C6-D741E747293A%7D%7C%7BBCF767CC-B4A1-40B2-93CD-9C6ED2356B5C%7D%7C%7B52AC9207-E0D2-497E-B61D-282F1C32EFBB%7D&amp;FieldNames=%7B61CE8415-385D-45AB-A801-EBC5B1356C88%7D&amp;DynamicPlaceholderId=70&amp;Reset Caching Options" /><r uid="{19E18387-7C49-4BF9-B7A7-C083319D4014}" s:par="Styles8&amp;EnabledPlaceholders=3%2C1%2C2&amp;Styles4&amp;Styles6&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7B28B62EFE-D62E-4888-860E-8591F9ABF1DE%7D%7C%7B09911FC7-777A-49C9-8F2F-1841817F64C5%7D&amp;DynamicPlaceholderId=17&amp;Styles7&amp;Styles1=%7B09911FC7-777A-49C9-8F2F-1841817F64C5%7D%7C%7B403B8D34-BF44-4D99-A37C-FBFFFA6717AB%7D%7C%7BB6CEC3D9-B8FC-4F82-96E3-C5133983B5F1%7D&amp;Styles3&amp;Reset Caching Options" /><r uid="{39386A09-BB7D-46A6-809C-4AB0DA04775D}" s:par="RenderingIdentifier&amp;Styles=%7B81C14A24-7BDC-4136-9C25-C190E74D5597%7D%7C%7B123DB25A-11B6-46CD-8722-B779A617048C%7D%7C%7BF19DF24E-2646-4D3C-A4D0-378EE844EF3D%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D%7C%7BB18F83A8-6947-4EFA-B3C6-D741E747293A%7D&amp;FieldNames=%7BC89FE962-4B45-4925-875D-5281ABF48C78%7D&amp;DynamicPlaceholderId=8&amp;Reset Caching Options" /><r uid="{540F505C-0603-4732-9F81-6C8BF09CAF38}" s:par="Styles8&amp;EnabledPlaceholders=1%2C4%2C6%2C3&amp;Styles4&amp;Styles6=%7BB64283F4-6B53-42BC-ADA5-ACDF4BCDD397%7D&amp;SplitterSize=2&amp;Styles5&amp;Styles2=%7BB10F00FC-2184-452A-A7F5-EF696089A8DE%7D&amp;DynamicPlaceholderId=7&amp;Styles7&amp;Styles1&amp;Styles3=%7BC9D40A2C-633F-4734-9060-4C0DEBB173EE%7D%7C%7B9D230954-4588-496E-87FF-9390B0D94CD4%7D&amp;Reset Caching Options" /><r uid="{D214EFA2-D0E8-49C5-9269-515F93204138}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;GridParameters=%7BD72DFF47-C153-4418-B368-2B6712FF3720%7D&amp;FieldNames=%7BC89FE962-4B45-4925-875D-5281ABF48C78%7D&amp;DynamicPlaceholderId=4&amp;Reset Caching Options" /><r uid="{2136010E-59A2-4378-8E8C-FBF03A6CA4CB}" s:par="RenderingIdentifier&amp;Styles=%7B1136040F-1EA2-4438-8DBB-2C2E025D5A58%7D&amp;GridParameters&amp;DynamicPlaceholderId=2&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{2C3AAFB7-73DE-4895-9B36-505EE4CE0375}" s:par="RenderingIdentifier&amp;Styles=%7B6917DE7A-81B6-4DC4-A944-E46925DBBA18%7D%7C%7B1136040F-1EA2-4438-8DBB-2C2E025D5A58%7D&amp;GridParameters&amp;DynamicPlaceholderId=5&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{C629A317-3EC3-45C6-B8A9-A0E45EA1851B}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D&amp;GridParameters&amp;FieldNames=%7B5C2052F2-5721-41B1-BEB0-E7ACC211BF32%7D&amp;DynamicPlaceholderId=51&amp;Reset Caching Options" /><r uid="{00E93F3B-84C8-49B6-8E20-F8DE8C6B41EB}" s:par="RenderingIdentifier&amp;Styles=%7B844C7976-F3A4-4D69-91F6-B1C2D40FCABE%7D%7C%7B7F581F55-B04D-4F02-9C79-5EADA8DCDB08%7D&amp;GridParameters&amp;DynamicPlaceholderId=6&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{FB687336-74E0-44EA-B27A-C5FE93526161}" s:par="RenderingIdentifier&amp;Styles=%7BBBBDBBE9-46B4-4B50-B2A4-4D560A6DF091%7D%7C%7B1136040F-1EA2-4438-8DBB-2C2E025D5A58%7D&amp;GridParameters&amp;DynamicPlaceholderId=67&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{AED65003-92E7-40C9-B709-5A4E7DAB9D49}" s:par="RenderingIdentifier&amp;Styles=%7B1136040F-1EA2-4438-8DBB-2C2E025D5A58%7D&amp;GridParameters&amp;DynamicPlaceholderId=16&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{B0EDC24D-E949-4CFD-AE41-16EDCE7EBC26}" s:par="RenderingIdentifier&amp;Styles=%7B1136040F-1EA2-4438-8DBB-2C2E025D5A58%7D&amp;data-animation=zoom-out&amp;GridParameters&amp;DynamicPlaceholderId=22&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{EE27C540-F760-4FBC-BD0E-D97B8A94EB3B}" s:par="RenderingIdentifier&amp;Styles=%7BA55EC20E-AE6B-45A5-83CC-B42C42D665D6%7D%7C%7B1F3144EF-AA5E-42FB-9DC4-7A5A9C4634BA%7D%7C%7B1136040F-1EA2-4438-8DBB-2C2E025D5A58%7D%7C%7BD02EA5B5-7317-4405-9202-2DF08297D53F%7D&amp;GridParameters&amp;DynamicPlaceholderId=25&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{FB0140D3-916A-4BBB-876F-A91F4F8B1D8D}" s:par="RenderingIdentifier&amp;Styles=%7B51380DC6-050B-4959-82BA-7F93C6A9F305%7D%7C%7B897EDDCF-0330-45E8-9FBE-D70132BB89B4%7D%7C%7BA59BEF73-5C29-4B9E-9741-DE812633C4CD%7D%7C%7B1CC66CE1-7D58-4964-A0B7-D7B5691316EF%7D%7C%7BDFC30546-8F73-4903-A207-0FC324E89E3B%7D%7C%7BEB2E9124-2EF2-4B99-8BAD-046868C22E18%7D&amp;GridParameters&amp;FieldNames=%7B7452208C-5CAE-4FEC-910C-6194B06E5EEB%7D&amp;DynamicPlaceholderId=26&amp;Reset Caching Options" /><r uid="{F3827C7F-4FBA-4AC9-B88B-353ABC7D528D}" s:par="RenderingIdentifier&amp;Styles=%7B1136040F-1EA2-4438-8DBB-2C2E025D5A58%7D&amp;GridParameters&amp;DynamicPlaceholderId=29&amp;BackgroundImage&amp;Reset Caching Options" /><r uid="{5DA6A372-010D-44CB-A8E7-749E896C3476}" s:par="RenderingIdentifier&amp;Styles=%7B1136040F-1EA2-4438-8DBB-2C2E025D5A58%7D%7C%7B1CC9EB35-E883-403D-970F-B4997E391779%7D&amp;GridParameters&amp;DynamicPlaceholderId=30&amp;BackgroundImage&amp;Reset Caching Options" /></d></r>
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20211208T124500Z
+----field----
+field: {B8F42732-9CB8-478D-AE95-07E25345FB0F}
+name: __Hide version
+key: __hide version
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20211208T124522Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9a639e0e-0585-4caf-95cb-efd906200c59
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220302T142719Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: fr-CA
+version: 1
+revision: b749765d-94c8-4da6-99a5-b891b69544d5
+
+----field----
+field: {D4C9725F-D2FC-4F33-863C-AB3EBC8D6988}
+name: Title
+key: title
+content-length: 21
+
+Voyez grand avec nous
+----field----
+field: {963F850D-1234-4576-98AE-29C705A60784}
+name: Custom Schema
+key: custom schema
+content-length: 0
+
+
+----field----
+field: {7D988161-3991-465A-A88C-280BC65542A0}
+name: OpenGraphTitle
+key: opengraphtitle
+content-length: 39
+
+Voyez grand avec nous | Global Payments
+----field----
+field: {7BDDC8B8-1F77-46D8-9D7F-46E20E041F74}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 166
+
+Global Payments inc. est le chef de file en technologies de paiement et en solutions logicielles qui propose des services innovants à sa clientèle à travers le monde.
+----field----
+field: {D8B38DD7-E9A0-4410-9F17-D436B0C8635A}
+name: OpenGraphImageUrl
+key: opengraphimageurl
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {48A66E40-D164-4C8E-BC06-172ECC6769EC}
+name: TwitterTitle
+key: twittertitle
+content-length: 42
+
+Innovation that Delivers | Global Payments
+----field----
+field: {45CE257A-6060-4C4A-9A0F-AE77BF705B25}
+name: TwitterSite
+key: twittersite
+content-length: 31
+
+https://www.globalpayments.com/
+----field----
+field: {4D263B95-322F-4003-ADBD-70920FACF823}
+name: TwitterDescription
+key: twitterdescription
+content-length: 157
+
+Global Payments Inc. is the leading worldwide provider of payment technology and software solutions delivering innovative services to our customers globally.
+----field----
+field: {DE457091-0989-414E-ADDF-59DB0DDB6690}
+name: TwitterImage
+key: twitterimage
+content-length: 58
+
+<image mediaid="{4626D265-646E-458D-80ED-F9ADC4E30AA2}" />
+----field----
+field: {CE53062E-4385-4244-8382-C2B4530A51BA}
+name: TwitterCardType
+key: twittercardtype
+content-length: 38
+
+{C770CC78-859C-4B9A-B509-5EC1F9E20985}
+----field----
+field: {528986CC-6FF9-4383-8BEE-514F0E8172CF}
+name: MetaDescription
+key: metadescription
+content-length: 166
+
+Global Payments inc. est le chef de file en technologies de paiement et en solutions logicielles qui propose des services innovants à sa clientèle à travers le monde.
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1880
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{D31515A8-9C02-4ACB-821A-0181585D51D2}" p:before="*" s:ds="local:/Data/Payment Trends Alert Bar" s:id="{F0DE3E5B-F5E0-4299-B3A2-59C234B985C3}" s:par="RenderingIdentifier&amp;Reset Caching Options&amp;GridParameters&amp;Styles" s:ph="main" /><r uid="{3FCC3366-B922-40CA-AB80-58D6E65046DB}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b4344FF87-44E7-496D-87D3-992FD456CEDD%7d&amp;DynamicPlaceholderId=96&amp;Reset Caching Options" /><r uid="{2417F8C2-9171-426F-BB06-8D9C78DF3B7D}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b4344FF87-44E7-496D-87D3-992FD456CEDD%7d&amp;DynamicPlaceholderId=97&amp;Reset Caching Options" /><r uid="{EF3D9F22-1705-4BC9-94CC-D4FCFC1FCD53}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b4344FF87-44E7-496D-87D3-992FD456CEDD%7d&amp;DynamicPlaceholderId=98&amp;Reset Caching Options" /><r uid="{C648D534-F34F-4567-A3CC-2359C0C1969B}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b4344FF87-44E7-496D-87D3-992FD456CEDD%7d&amp;DynamicPlaceholderId=99&amp;Reset Caching Options" /><r uid="{FE99004C-4915-4E6A-B522-554BAFC9413B}" s:par="RenderingIdentifier&amp;Styles&amp;GridParameters=%7bD72DFF47-C153-4418-B368-2B6712FF3720%7d%7c%7b840696C3-7246-4FA7-AAE6-0082435D1942%7d&amp;FieldNames=%7b4344FF87-44E7-496D-87D3-992FD456CEDD%7d&amp;DynamicPlaceholderId=100&amp;Reset Caching Options" /></d></r>
+----field----
+field: {B8F42732-9CB8-478D-AE95-07E25345FB0F}
+name: __Hide version
+key: __hide version
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210706T073226Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b749765d-94c8-4da6-99a5-b891b69544d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220216T195135Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin

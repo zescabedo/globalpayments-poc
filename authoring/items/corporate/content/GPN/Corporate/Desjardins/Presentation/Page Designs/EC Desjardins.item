@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {EB51BD3F-8C9E-49A0-8C79-FB8B9888A53B}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Page Designs/EC Desjardins
+parent: {BF774CDB-2411-440C-A326-2516249BA84E}
+name: EC Desjardins
+master: {00000000-0000-0000-0000-000000000000}
+template: {A8F690A2-46B2-49FD-9ACD-797AA8003EC6}
+templatekey: Page Design
+
+----field----
+field: {0966B999-0D0E-4278-ACC9-9DA69D461FE6}
+name: PartialDesigns
+key: partialdesigns
+content-length: 116
+
+{E351E34D-7BAE-456E-9E7E-23DAA79B420B}|{A1BB4282-BE96-4BF9-A250-3249F236D571}|{80C70638-0490-48F1-A0E1-F23DC74C9EB0}
+----field----
+field: {7B487159-E180-4846-BE49-E196E4C3A2B3}
+name: Page Design Theme
+key: page design theme
+content-length: 0
+
+
+----version----
+language: en-CA
+version: 1
+revision: 07e4013d-968e-4cb5-9174-a89c2e5b23f5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20241004T053526Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+07e4013d-968e-4cb5-9174-a89c2e5b23f5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250708T143148Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: fr-CA
+version: 1
+revision: 725b16f6-fc7e-41dd-9978-990ebdce4f4d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20241004T053526Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+725b16f6-fc7e-41dd-9978-990ebdce4f4d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250708T124222Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

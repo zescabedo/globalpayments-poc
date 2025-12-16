@@ -1,0 +1,121 @@
+.logo-carousel {
+  @include gpn-spacing('padding-top' 'padding-bottom', 'xxl');
+  @include media-breakpoint-down(lg) {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 100%;
+    }
+  }
+
+  .image-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    aspect-ratio: map-get($gpn-theme-logo-carousel, 'aspect-ratio');
+    width: map-get($gpn-theme-logo-carousel, 'large-image-width');
+    height: map-get($gpn-theme-logo-carousel, 'large-image-height');
+
+    img {
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .logo-carousel_container {
+    @include make-col(12);
+
+    .slick-track {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: block !important;
+
+      .slick-slide {
+        display: flex;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  &.small-images {
+    width: 100%;
+    .logo-carousel_container {
+      margin: 0 auto;
+    }
+
+    .image-wrapper {
+      width: map-get($gpn-theme-logo-carousel, 'small-image-width');
+      height: map-get($gpn-theme-logo-carousel, 'small-image-height');
+    }
+
+    @for $i from 1 through 12 {
+      .slides-#{$i} {
+        width: map-get($gpn-theme-logo-carousel, 'small-image-width') + (($i - 1) * 40);
+      }
+    }
+
+    @include media-breakpoint-up(sm) {
+      width: auto;
+    }
+
+    &.looped {
+
+      .slick-list{
+        padding-left: map-get($gpn-theme-logo-carousel, 'small-image-mobile-looped-padding-left');
+        @include media-breakpoint-up(sm) {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  &.large-images {
+    
+    &.looped {
+      .slick-list{
+        padding-left: map-get($gpn-theme-logo-carousel, 'large-image-mobile-looped-padding-left');
+        @include media-breakpoint-up(sm) {
+          padding-left: map-get($gpn-theme-logo-carousel, 'large-image-tablet-looped-padding-left');
+        }
+  
+        @include media-breakpoint-up(md) {
+          padding-left: 0;
+        }
+      }
+    }
+
+    .image-wrapper {
+      width: map-get($gpn-theme-logo-carousel, 'large-image-width');
+      height: map-get($gpn-theme-logo-carousel, 'large-image-height');
+    }
+  }
+}
+
+.static-logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .static-logo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: gpn-spacing-size('sm', 'sm');
+    padding-right: gpn-spacing-size('sm', 'sm');
+    flex-basis: 100%;
+
+    @include media-breakpoint-up(sm) {
+      flex-basis: 33.333%;
+    }
+
+    @include media-breakpoint-up(md) {
+      flex-basis: 16.666%;
+    }
+  }
+}

@@ -1,0 +1,601 @@
+----item----
+version: 1
+id: {013BF2CA-839B-4ABC-B9B7-FE5FA9EE0180}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Corporation JSON-LD Schema
+parent: {E7294D16-3C2E-4BCF-847E-049C787869AA}
+name: Corporation JSON-LD Schema
+master: {00000000-0000-0000-0000-000000000000}
+template: {79F686FA-3FAE-4FBB-97D4-B6CD39D9631C}
+templatekey: Corporation Schema
+
+----field----
+field: {772F3E9F-EFD9-4B04-ADEE-8C3944754E94}
+name: Ticker Symbol
+key: ticker symbol
+content-length: 3
+
+gpn
+----field----
+field: {711B1D61-17D9-415A-B4F2-9B5FD1BA8D9C}
+name: DUNS
+key: duns
+content-length: 11
+
+00-504-7290
+----field----
+field: {711A6676-CB2A-4A9F-8A66-3418E47EBF41}
+name: Founding Date
+key: founding date
+content-length: 4
+
+1967
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 190
+
+ar|sitecore\GP Corp Analytics|pe|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|+item:admin|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|+item:admin|
+----version----
+language: en-CA
+version: 1
+revision: 3aa2b329-e752-461a-af13-34d788588f89
+
+----field----
+field: {819D0FAA-E7BA-46E3-AE39-A394DCCDAE79}
+name: Name
+key: name
+content-length: 15
+
+Global Payments
+----field----
+field: {52C8DD2F-910B-4B50-8C70-91A462FDC14D}
+name: Legal Name
+key: legal name
+content-length: 20
+
+Global Payments Inc.
+----field----
+field: {AC214FDC-CD14-4484-9027-D49501D0199D}
+name: Description
+key: description
+content-length: 691
+
+We provide cutting-edge payments, commerce and software solutions all under one roof to help startups to enterprise businesses simplify commerce and cultivate their vision of success. Leveraging our unparalleled global presence and deep local-market expertise, we deliver highly competitive ecommerce and unified commerce solutions in a global economy. Our strategy has created a differentiated model in the payments technology landscape, reinforcing our view that not all payments companies are created equal. Our customers value our capabilities and reach, enabling them to offer seamless payment experiences in-person, online, on device, and over the phone across a wide range of markets.
+----field----
+field: {3B1943F7-4E05-486F-8351-416246036A30}
+name: Logo
+key: logo
+content-length: 58
+
+<image mediaid="{38446208-8A9A-49A1-8295-7893C8A460C9}" />
+----field----
+field: {56A3E78A-02FB-4E74-8206-AE0214D3ADB9}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{5E87EB1C-A2BF-4B12-8D94-D31786A362CB}" />
+----field----
+field: {0E02F718-98A8-4F63-AA5F-293BA58AAABC}
+name: Founder
+key: founder
+content-length: 16
+
+George W. Thorpe
+----field----
+field: {04F312E4-65CF-4F55-97F4-7A1F3F12C19E}
+name: Number of Employees
+key: number of employees
+content-length: 6
+
+24,000
+----field----
+field: {D46EFA1B-0CCC-408E-8BB1-383D226C0F12}
+name: Knows About
+key: knows about
+content-length: 563
+
+Payments
+Issuing
+Commerce
+Payment Security
+Acquiring
+Pre-Paid Programs
+Multi-National Commerce
+Accepting Payments
+Payment Processing
+Point of Sale Systems
+Mobile Payments
+Unified Commerce
+Restaurant Payments
+Retail Payments
+Hosted Payment Pages
+Casino Payment Solutions
+Entertainment Payment Solutions
+Healthcare Payment solutions & Software
+K-12 Education Payments & Solutions
+College Campus Payment Solutions
+Non-Profit & Fundraising Payment Solutions
+Sports & Recreation Payment Solutions
+Gas Station & Convenience Store Payment Solutions
+----field----
+field: {B7912111-CE3F-49B9-8215-6257FF6A5B6D}
+name: Alternative Web Addresses
+key: alternative web addresses
+content-length: 231
+
+https://www.facebook.com/GlobalPaymentsInc
+https://twitter.com/GlobalPayInc
+https://www.linkedin.com/company/global-payments
+https://www.youtube.com/channel/UCg9HiItBheBjWJcOBE8q9HQ
+https://en.wikipedia.org/wiki/Global_Payments
+----field----
+field: {18DCB5C4-FEE2-4901-A8F4-7323EF700624}
+name: Street Address
+key: street address
+content-length: 27
+
+3550 Lenox Road, Suite 3000
+----field----
+field: {279E19D0-5016-4D98-901C-6D1100BD9693}
+name: Suburb
+key: suburb
+content-length: 7
+
+Atlanta
+----field----
+field: {FE4BE333-D2A3-4F10-A82F-90F5548AA2A7}
+name: Region or State
+key: region or state
+content-length: 2
+
+GA
+----field----
+field: {95639030-9728-4D9D-BC08-6F5052E29595}
+name: Zip or Postcode
+key: zip or postcode
+content-length: 5
+
+30326
+----field----
+field: {FC293F4E-C817-4274-96EE-956E2AFEB464}
+name: Country
+key: country
+content-length: 3
+
+USA
+----field----
+field: {16378539-2562-4731-B3BE-3ACC5DB844BC}
+name: Contact Type
+key: contact type
+content-length: 16
+
+Customer Service
+----field----
+field: {0C1CF098-7F13-4CC2-8DB3-2CE6E774DDA3}
+name: Phone Number
+key: phone number
+content-length: 15
+
++1-800-367-2638
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T012317Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3aa2b329-e752-461a-af13-34d788588f89
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084306Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: ab73fa55-7d79-4860-9d3c-08144950917b
+
+----field----
+field: {819D0FAA-E7BA-46E3-AE39-A394DCCDAE79}
+name: Name
+key: name
+content-length: 15
+
+Global Payments
+----field----
+field: {52C8DD2F-910B-4B50-8C70-91A462FDC14D}
+name: Legal Name
+key: legal name
+content-length: 20
+
+Global Payments Inc.
+----field----
+field: {AC214FDC-CD14-4484-9027-D49501D0199D}
+name: Description
+key: description
+content-length: 691
+
+We provide cutting-edge payments, commerce and software solutions all under one roof to help startups to enterprise businesses simplify commerce and cultivate their vision of success. Leveraging our unparalleled global presence and deep local-market expertise, we deliver highly competitive ecommerce and unified commerce solutions in a global economy. Our strategy has created a differentiated model in the payments technology landscape, reinforcing our view that not all payments companies are created equal. Our customers value our capabilities and reach, enabling them to offer seamless payment experiences in-person, online, on device, and over the phone across a wide range of markets.
+----field----
+field: {3B1943F7-4E05-486F-8351-416246036A30}
+name: Logo
+key: logo
+content-length: 58
+
+<image mediaid="{38446208-8A9A-49A1-8295-7893C8A460C9}" />
+----field----
+field: {56A3E78A-02FB-4E74-8206-AE0214D3ADB9}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{5E87EB1C-A2BF-4B12-8D94-D31786A362CB}" />
+----field----
+field: {0E02F718-98A8-4F63-AA5F-293BA58AAABC}
+name: Founder
+key: founder
+content-length: 16
+
+George W. Thorpe
+----field----
+field: {04F312E4-65CF-4F55-97F4-7A1F3F12C19E}
+name: Number of Employees
+key: number of employees
+content-length: 6
+
+24,000
+----field----
+field: {D46EFA1B-0CCC-408E-8BB1-383D226C0F12}
+name: Knows About
+key: knows about
+content-length: 563
+
+Payments
+Issuing
+Commerce
+Payment Security
+Acquiring
+Pre-Paid Programs
+Multi-National Commerce
+Accepting Payments
+Payment Processing
+Point of Sale Systems
+Mobile Payments
+Unified Commerce
+Restaurant Payments
+Retail Payments
+Hosted Payment Pages
+Casino Payment Solutions
+Entertainment Payment Solutions
+Healthcare Payment solutions & Software
+K-12 Education Payments & Solutions
+College Campus Payment Solutions
+Non-Profit & Fundraising Payment Solutions
+Sports & Recreation Payment Solutions
+Gas Station & Convenience Store Payment Solutions
+----field----
+field: {B7912111-CE3F-49B9-8215-6257FF6A5B6D}
+name: Alternative Web Addresses
+key: alternative web addresses
+content-length: 231
+
+https://www.facebook.com/GlobalPaymentsInc
+https://twitter.com/GlobalPayInc
+https://www.linkedin.com/company/global-payments
+https://www.youtube.com/channel/UCg9HiItBheBjWJcOBE8q9HQ
+https://en.wikipedia.org/wiki/Global_Payments
+----field----
+field: {18DCB5C4-FEE2-4901-A8F4-7323EF700624}
+name: Street Address
+key: street address
+content-length: 27
+
+3550 Lenox Road, Suite 3000
+----field----
+field: {279E19D0-5016-4D98-901C-6D1100BD9693}
+name: Suburb
+key: suburb
+content-length: 7
+
+Atlanta
+----field----
+field: {FE4BE333-D2A3-4F10-A82F-90F5548AA2A7}
+name: Region or State
+key: region or state
+content-length: 2
+
+GA
+----field----
+field: {95639030-9728-4D9D-BC08-6F5052E29595}
+name: Zip or Postcode
+key: zip or postcode
+content-length: 5
+
+30326
+----field----
+field: {FC293F4E-C817-4274-96EE-956E2AFEB464}
+name: Country
+key: country
+content-length: 3
+
+USA
+----field----
+field: {16378539-2562-4731-B3BE-3ACC5DB844BC}
+name: Contact Type
+key: contact type
+content-length: 16
+
+Customer Service
+----field----
+field: {0C1CF098-7F13-4CC2-8DB3-2CE6E774DDA3}
+name: Phone Number
+key: phone number
+content-length: 15
+
++1-800-367-2638
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T012317Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ab73fa55-7d79-4860-9d3c-08144950917b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210310T145156Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Zachary_Chahalis
+----version----
+language: fr-CA
+version: 1
+revision: c4d066c2-7081-4f5d-8919-1335d03a5765
+
+----field----
+field: {819D0FAA-E7BA-46E3-AE39-A394DCCDAE79}
+name: Name
+key: name
+content-length: 15
+
+Global Payments
+----field----
+field: {52C8DD2F-910B-4B50-8C70-91A462FDC14D}
+name: Legal Name
+key: legal name
+content-length: 20
+
+Global Payments Inc.
+----field----
+field: {AC214FDC-CD14-4484-9027-D49501D0199D}
+name: Description
+key: description
+content-length: 691
+
+We provide cutting-edge payments, commerce and software solutions all under one roof to help startups to enterprise businesses simplify commerce and cultivate their vision of success. Leveraging our unparalleled global presence and deep local-market expertise, we deliver highly competitive ecommerce and unified commerce solutions in a global economy. Our strategy has created a differentiated model in the payments technology landscape, reinforcing our view that not all payments companies are created equal. Our customers value our capabilities and reach, enabling them to offer seamless payment experiences in-person, online, on device, and over the phone across a wide range of markets.
+----field----
+field: {3B1943F7-4E05-486F-8351-416246036A30}
+name: Logo
+key: logo
+content-length: 58
+
+<image mediaid="{38446208-8A9A-49A1-8295-7893C8A460C9}" />
+----field----
+field: {56A3E78A-02FB-4E74-8206-AE0214D3ADB9}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{5E87EB1C-A2BF-4B12-8D94-D31786A362CB}" />
+----field----
+field: {0E02F718-98A8-4F63-AA5F-293BA58AAABC}
+name: Founder
+key: founder
+content-length: 16
+
+George W. Thorpe
+----field----
+field: {04F312E4-65CF-4F55-97F4-7A1F3F12C19E}
+name: Number of Employees
+key: number of employees
+content-length: 6
+
+24,000
+----field----
+field: {D46EFA1B-0CCC-408E-8BB1-383D226C0F12}
+name: Knows About
+key: knows about
+content-length: 563
+
+Payments
+Issuing
+Commerce
+Payment Security
+Acquiring
+Pre-Paid Programs
+Multi-National Commerce
+Accepting Payments
+Payment Processing
+Point of Sale Systems
+Mobile Payments
+Unified Commerce
+Restaurant Payments
+Retail Payments
+Hosted Payment Pages
+Casino Payment Solutions
+Entertainment Payment Solutions
+Healthcare Payment solutions & Software
+K-12 Education Payments & Solutions
+College Campus Payment Solutions
+Non-Profit & Fundraising Payment Solutions
+Sports & Recreation Payment Solutions
+Gas Station & Convenience Store Payment Solutions
+----field----
+field: {B7912111-CE3F-49B9-8215-6257FF6A5B6D}
+name: Alternative Web Addresses
+key: alternative web addresses
+content-length: 231
+
+https://www.facebook.com/GlobalPaymentsInc
+https://twitter.com/GlobalPayInc
+https://www.linkedin.com/company/global-payments
+https://www.youtube.com/channel/UCg9HiItBheBjWJcOBE8q9HQ
+https://en.wikipedia.org/wiki/Global_Payments
+----field----
+field: {18DCB5C4-FEE2-4901-A8F4-7323EF700624}
+name: Street Address
+key: street address
+content-length: 27
+
+3550 Lenox Road, Suite 3000
+----field----
+field: {279E19D0-5016-4D98-901C-6D1100BD9693}
+name: Suburb
+key: suburb
+content-length: 7
+
+Atlanta
+----field----
+field: {FE4BE333-D2A3-4F10-A82F-90F5548AA2A7}
+name: Region or State
+key: region or state
+content-length: 2
+
+GA
+----field----
+field: {95639030-9728-4D9D-BC08-6F5052E29595}
+name: Zip or Postcode
+key: zip or postcode
+content-length: 5
+
+30326
+----field----
+field: {FC293F4E-C817-4274-96EE-956E2AFEB464}
+name: Country
+key: country
+content-length: 3
+
+USA
+----field----
+field: {16378539-2562-4731-B3BE-3ACC5DB844BC}
+name: Contact Type
+key: contact type
+content-length: 16
+
+Customer Service
+----field----
+field: {0C1CF098-7F13-4CC2-8DB3-2CE6E774DDA3}
+name: Phone Number
+key: phone number
+content-length: 15
+
++1-800-367-2638
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T012317Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c4d066c2-7081-4f5d-8919-1335d03a5765
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084305Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

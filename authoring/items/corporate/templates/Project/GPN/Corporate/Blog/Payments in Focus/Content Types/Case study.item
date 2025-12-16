@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {EA60BED9-C95C-4548-97B6-B71414876AAD}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Blog/Payments in Focus/Content Types/Case study
+parent: {ED5A52DC-DE93-4BF0-940F-2015659C4381}
+name: Case study
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 155
+
+{51F858B2-DA62-40BC-A164-55007A3A2666}|{60F77345-7C54-4CBD-AF80-DD1A62E2B94E}|{58CFCC34-0DF3-46E5-8518-0C2F6850311A}|{0D34EA16-3126-4E21-853B-8B808098FF1A}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{6472C122-11CE-4529-AB25-2DDCB7B60C16}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 34
+
+People/32x32/user1_information.png
+----version----
+language: en
+version: 1
+revision: 2f87df90-2827-4968-864c-70aae663c62a
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210126T092933Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2f87df90-2827-4968-864c-70aae663c62a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230612T015304Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,150 @@
+----item----
+version: 1
+id: {62140E0B-FB95-4178-A706-480C214761AE}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Video Plus/Kite Rounded Video/Video
+parent: {A8F560D2-4912-4CF3-8BBA-5A5A8E5DFDB9}
+name: Video
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 606
+
+{{
+        $v = get_general_link_info i_datasource "MP4VideoLink"
+        $vUrl = ''
+        if($v)
+            $vUrl = $v.url
+        end
+}}
+<div class="kite-wrapper">
+    <div class="web-cam">
+        <video class="decorative-video" muted loop playsinline autoplay title="Decorative video">
+            {{ if !o_pagemode.is_experience_editor_editing }}
+            <source src="{{ $vUrl }}" type="video/webm">
+            <source src="{{ $vUrl }}" type="video/mp4">
+                    Your browser does not support the video tag.
+            {{ end }}
+        </video>
+    </div>
+</div>
+----field----
+field: {7B5B7E8D-E579-44AA-8174-D4594DB0C2F9}
+name: CssClass
+key: cssclass
+content-length: 15
+
+static-autoplay
+----version----
+language: en-CA
+version: 1
+revision: 013a5c97-f29b-4ab9-8035-e0c4d281613f
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210709T045129Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210709T045129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+013a5c97-f29b-4ab9-8035-e0c4d281613f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220518T083410Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\Mohit_Kumar
+----version----
+language: fr-CA
+version: 1
+revision: 578a0668-c8d7-4988-a585-a17daed1bac0
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210709T045129Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210709T045129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+578a0668-c8d7-4988-a585-a17daed1bac0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080334Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

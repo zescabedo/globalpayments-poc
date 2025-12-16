@@ -1,0 +1,166 @@
+----item----
+version: 1
+id: {FC4C3B8F-C281-4A1C-AC2F-5762F2D5B566}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Settings/Scopes/Site Search
+parent: {7BAD0FA5-E775-49BE-9416-24C4C1434CDA}
+name: Site Search
+master: {00000000-0000-0000-0000-000000000000}
+template: {8B649372-CC12-4F31-802A-8C3B3D09BB3F}
+templatekey: Scope
+
+----field----
+field: {B04FE662-2B23-44DD-B971-2B864A1EC55F}
+name: ScopeQuery
+key: scopequery
+content-length: 311
+
+custom:_templatename|Page;custom:_templatename|Product or Service Page;custom:_templatename|Pdf;location:{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E};-custom:_templatename|Blog Topic Page;-location:{F0C98D0B-5F84-4B84-8C13-461F2BFFC861};-id:{EBBDFCBB-9048-4684-8A30-8C6AFEF49D0C};-custom:ExcludeFromSearchResults|true
+----version----
+language: en-CA
+version: 1
+revision: a7153e8c-ca34-423f-8810-70b8f16f1cf2
+
+----field----
+field: {0F628FD3-A28C-4DA7-968B-DCE9F3B71B5A}
+name: Rule
+key: rule
+content-length: 1072
+
+<ruleset>
+  <rule uid="{CE062C1E-FDC9-4AF2-8810-2C828E21A8D1}">
+    <conditions>
+      <condition id="{41C6DFF2-5CB5-490B-B0F6-C2525299ECDF}" uid="7804352213B745EF834B5BCD0DE2063B" fieldname="Title" operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" />
+    </conditions>
+    <actions>
+      <action id="{9A00D97A-E3A8-4011-B519-FEB70E80EA54}" uid="F30B051A09734BAAAB771DC90141DA67" boost="20000" />
+    </actions>
+  </rule>
+  <rule uid="{A87F62BA-0DA1-423B-AE1A-9686D59FD670}">
+    <conditions>
+      <or uid="7D1FC036B732457A851C8ECA6F64724E">
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="CA0E006FFC8440CC99764DC28A07C69E" templateid="{B6A3E5A8-C230-4D9D-A297-4683F064DEFF}" />
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="5AC4BC0707AC4E1DBE6D5D84C7BF5EC5" templateid="{34FF79C4-49A8-4714-98F0-5F647F5C54F4}" />
+      </or>
+    </conditions>
+    <actions>
+      <action id="{9A00D97A-E3A8-4011-B519-FEB70E80EA54}" uid="4EA38C9B5A774445BD3A94E868C5759A" boost="2000" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210217T223325Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a7153e8c-ca34-423f-8810-70b8f16f1cf2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231006T103502Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Yogendra_Bartwal
+----version----
+language: fr-CA
+version: 1
+revision: 3b71395d-5251-48d8-96ff-c41e2ac049b7
+
+----field----
+field: {0F628FD3-A28C-4DA7-968B-DCE9F3B71B5A}
+name: Rule
+key: rule
+content-length: 1072
+
+<ruleset>
+  <rule uid="{CE062C1E-FDC9-4AF2-8810-2C828E21A8D1}">
+    <conditions>
+      <condition id="{41C6DFF2-5CB5-490B-B0F6-C2525299ECDF}" uid="7804352213B745EF834B5BCD0DE2063B" fieldname="Title" operatorid="{2E67477C-440C-4BCA-A358-3D29AED89F47}" />
+    </conditions>
+    <actions>
+      <action id="{9A00D97A-E3A8-4011-B519-FEB70E80EA54}" uid="F30B051A09734BAAAB771DC90141DA67" boost="20000" />
+    </actions>
+  </rule>
+  <rule uid="{A87F62BA-0DA1-423B-AE1A-9686D59FD670}">
+    <conditions>
+      <or uid="7D1FC036B732457A851C8ECA6F64724E">
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="CA0E006FFC8440CC99764DC28A07C69E" templateid="{B6A3E5A8-C230-4D9D-A297-4683F064DEFF}" />
+        <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="5AC4BC0707AC4E1DBE6D5D84C7BF5EC5" templateid="{34FF79C4-49A8-4714-98F0-5F647F5C54F4}" />
+      </or>
+    </conditions>
+    <actions>
+      <action id="{9A00D97A-E3A8-4011-B519-FEB70E80EA54}" uid="4EA38C9B5A774445BD3A94E868C5759A" boost="2000" />
+    </actions>
+  </rule>
+</ruleset>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210217T223325Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3b71395d-5251-48d8-96ff-c41e2ac049b7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084250Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

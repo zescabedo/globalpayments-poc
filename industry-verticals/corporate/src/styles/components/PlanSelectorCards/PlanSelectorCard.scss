@@ -1,0 +1,86 @@
+.plan-card-selector {
+  .plan-card-container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    .plan-card {
+      @include make-col(12);
+      display: flex;
+
+      @include media-breakpoint-down(lg) {
+        @include gpn-spacing([ 'margin-bottom'], 'sm');
+      }
+      .details {
+        @include gpn-spacing([ 'gap'], 'sm');
+        @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xl');
+        @include gpn-spacing([ 'padding-left', 'padding-right'], 'lg');
+        background-color: map-get($gpn-theme-plan-selector-card, 'background-color');
+        min-width: 100%;
+        &:hover {
+          background-color: map-get($gpn-theme-plan-selector-card, 'background-color-on-hover');
+          color: map-get($gpn-theme-plan-selector-card, 'color');
+          hr {
+            color: map-get($gpn-theme-plan-selector-card, 'color');
+          }
+          .link-glow-base:after {
+            background-image: $gpn-theme-icon-pill-glow-base;
+            background-color: $gpn-theme-darker-base;
+          }
+        }
+        .plan-card-header {
+          @extend %h-md;
+          text-align: center;
+        }
+        hr {
+          @include gpn-spacing([ 'margin-top', 'margin-bottom'], 'sm');
+        }
+      }
+    }
+  }
+  ul {
+    list-style: disc;
+  }
+  .container.wrapper {
+    min-width: 100% !important;
+    background-color: map-get($gpn-theme-plan-selector-card, 'background-color-wrapper');
+    @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxl');
+    @include gpn-spacing([ 'padding-left', 'padding-right'], 'xs');
+  }
+  .brow {
+    .plan-card-brow {
+      @extend %p-brow;
+      text-align: center;
+      @include gpn-spacing([ 'padding-bottom'], 'xs');
+    }
+  }
+  .tag {
+    @extend %p-md;
+  }
+  .plan-card-disclaimer {
+    @extend %p-sm;
+    text-align: center;
+    @include gpn-spacing([ 'padding-top'], 'xs');
+  }
+  hr {
+    color: $gpn-theme-black;
+  }
+
+  @import './variants/variants';
+}
+.editing-mode {
+  .plan-card-selector {
+    .scLooseFrameZone {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+      margin-left: 0;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .plan-card-selector .plan-card-container .plan-card {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

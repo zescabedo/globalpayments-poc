@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {6CF8BD95-4561-475D-BDFD-5CBBC51D7180}
+database: master
+path: /sitecore/templates/Branches/Project/GPN/Corporate/Default CircleMaskFs Variant/$name
+parent: {98BB4CBC-39DF-4093-A9DF-63628B69BC14}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {E1A3B30C-77BC-4F6C-A008-D01B3371235D}
+templatekey: Variants
+
+----field----
+field: {087C0553-9162-41F5-98D3-87EB0D80EDBB}
+name: Compatible Renderings
+key: compatible renderings
+content-length: 38
+
+{14D88647-95B0-4D60-92D4-168A7320C770}
+----version----
+language: en
+version: 1
+revision: 5c7f5591-4e79-4379-8060-69d4c8ffde3d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160818T065035Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c7f5591-4e79-4379-8060-69d4c8ffde3d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210128T110001Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

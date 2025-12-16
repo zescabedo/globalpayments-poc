@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {D9669BC9-8CC9-40B9-9013-ED7F4993A451}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Styles/Container/Vidyard Video Width 1133
+parent: {7168F256-441F-46C6-A8D2-7D266420A169}
+name: Vidyard Video Width 1133
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B8AABEF-D650-46E0-97D0-C0B04F7F016B}
+templatekey: Style
+
+----field----
+field: {09147FB2-EBFB-4949-8C8E-26A424409D5E}
+name: Value
+key: value
+content-length: 16
+
+VidyardComponent

@@ -1,0 +1,74 @@
+&.tall-wide {
+  .component-content > div {
+    border-radius: $gpn-theme-radius-lg;
+    @include media-breakpoint-up(sm) {
+      border-radius: $gpn-theme-radius-xl;
+    }
+  }
+
+  .container-fluid {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: map-get($gpn-theme-heroes, 'l1-tall-wide-container-color');
+    height: map-get($gpn-theme-heroes, 'l1-tall-wide-mobile-height');
+    padding: 0px;
+    @include media-breakpoint-up(sm) {
+      min-height: map-get($gpn-theme-heroes, 'l1-tall-wide-container-height');
+      height: auto;
+    }
+
+    // Mobile background image and position
+    background-image: var(--bg-image-mobile);
+    background-position: var(--focus-x-mobile, 50%) var(--focus-y-mobile, 50%);
+    background-size: var(--media-size);
+
+    // Tablet background image and position
+    @include media-breakpoint-up(sm) {
+      background-image: var(--bg-image-tablet);
+      background-position: var(--focus-x-tablet, 50%) var(--focus-y-tablet, 50%);
+    }
+
+    // Desktop background image and position
+    @include media-breakpoint-up(md) {
+      background-image: var(--bg-image-desktop);
+      background-position: var(--focus-x-desktop, 50%) var(--focus-y-desktop, 50%);
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .hero-container {
+      @include make-col(12);
+      @include media-breakpoint-up(sm) {
+        @include make-col(8);
+      }
+
+      .copy-section {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        .title {
+          @extend %h-xxl; //figma mentiones it as [web/heading/xxl display]
+          @include gpn-spacing([ 'padding-left', 'padding-right'], 'md');
+        }
+      }
+    }
+    // Lottie animation styles
+    .lottie-animation {
+      &.background-tall-wide {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

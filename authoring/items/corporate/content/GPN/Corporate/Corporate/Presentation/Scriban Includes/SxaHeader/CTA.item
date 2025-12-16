@@ -1,0 +1,98 @@
+----item----
+version: 1
+id: {67B40893-EFF3-4F8B-9665-D8153B4F64CF}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Scriban Includes/SxaHeader/CTA
+parent: {F3BE6825-E83F-459B-90AA-5A77728CB2F6}
+name: CTA
+master: {00000000-0000-0000-0000-000000000000}
+template: {CB401771-43AB-4F1E-B711-8C5EA7C37BE1}
+templatekey: Scriban Include
+
+----field----
+field: {241300DA-5F88-498D-B4DD-BBBE04178DE6}
+name: Key
+key: key
+content-length: 10
+
+header-cta
+----field----
+field: {E3CDCF5B-6FD6-48B1-A02F-797D3BCD50D8}
+name: Template
+key: template
+content-length: 793
+
+{{ 
+
+    $page = $1.page
+    $linkField = $1.linkField
+    $item = $1.item
+
+    $a = get_general_link_info $page "Signup Modal"
+    $atext = ""
+	if($a!= null)
+        if($a.description == "")
+	        $b = get_general_link_info $item $linkField
+	        $atext = $b.text
+        else
+	        $atext = $a.text	
+        end
+	end
+
+    if !$a || !$a.url || $a.url == ""
+        $a = get_general_link_info $item $linkField
+	    $atext = $a.text
+    end
+}}
+
+<a class="btn btn-sm btn-outline-primary-1 overlay-source float-right" data-overlay-target="{{$a.url}}?theme=primary-1-white-theme" title="{{ $a.title }}" rel="nofollow" data-ea-zone="Header" data-ea-type="click" data-ea-link="{{ $a.gatext }}">
+{{ $atext }}
+</a>
+<span class="d-none pingdom-test">{{$a.url}}</span>
+----version----
+language: en-US
+version: 1
+revision: 0b187ca9-fd05-4c94-bb7b-0c1183df0031
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20231110T053017Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0b187ca9-fd05-4c94-bb7b-0c1183df0031
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231110T054634Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

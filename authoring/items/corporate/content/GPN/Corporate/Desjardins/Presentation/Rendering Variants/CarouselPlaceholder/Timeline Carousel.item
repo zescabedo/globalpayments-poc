@@ -1,0 +1,25 @@
+----item----
+version: 1
+id: {47B0CEE8-5505-4C65-AB98-E2E6614D7E65}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/CarouselPlaceholder/Timeline Carousel
+parent: {072280DE-9143-4FFC-9ABA-36E1D0A71232}
+name: Timeline Carousel
+master: {00000000-0000-0000-0000-000000000000}
+template: {FB3E3034-33F8-4CE8-BE98-DD05010F4C22}
+templatekey: Variant Definition
+
+----field----
+field: {E1D5ADBA-8348-4127-9BB6-455936653839}
+name: CssClass
+key: cssclass
+content-length: 0
+
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{5DF9B10F-F5B5-4E6A-AD58-08125A701147}

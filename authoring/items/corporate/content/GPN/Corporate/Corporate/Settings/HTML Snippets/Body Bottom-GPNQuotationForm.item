@@ -1,0 +1,803 @@
+----item----
+version: 1
+id: {3C89C2EC-A4EA-43B2-9310-03E697EB0BE0}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/HTML Snippets/Body Bottom-GPNQuotationForm
+parent: {D754714A-7390-4104-9549-D1089C9A309E}
+name: Body Bottom-GPNQuotationForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {25F18683-2F03-4776-ADA3-6D2A76DBDF2D}
+templatekey: HTML Snippet
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: eb23d80f-da70-4d07-a142-b728cf4ff3d5
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210121T030129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+eb23d80f-da70-4d07-a142-b728cf4ff3d5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230531T102435Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en-CA
+version: 1
+revision: a12a01c1-c59a-4f6a-b516-60cfbd951a9d
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 2320
+
+<!--script defer src="https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js" type="text/javascript"></script-->
+<script>
+
+var isIe6To11 = navigator && (navigator.userAgent.indexOf('MSIE') !==-1
+|| navigator.appVersion.indexOf('Trident/') > -1);
+
+if(isIe6To11){
+   var bodyEle = document.getElementsByTagName('body')[0];
+   bodyEle.classList.add("ie6-11");
+
+    var promoHero = document.querySelectorAll('.promo-hero.hero-animation');
+    var imgSrc = promoHero[0].querySelectorAll(".image-wrapper img")[0].getAttribute("src");
+    var svgWrapper = promoHero[0].querySelectorAll(".promo-image.svg-wrapper")[0];
+
+    var imgFallback = document.createElement("img");
+    imgFallback.classList.add("fallback-img")
+    imgFallback.src = imgSrc;
+    svgWrapper.appendChild(imgFallback);
+}
+
+function loadScript(src) {
+    var p = new Promise(function(resolve){
+        const script = document.createElement('script');
+        script.src = src;
+        script.type = 'text/javascript';
+        script.async = false;
+        script.onload = resolve;
+        document.head.appendChild(script);
+    });
+    return p;
+}
+
+function runLottieAnimation(){
+    dataJsonObj = dataJsonObj ? JSON.parse(dataJsonObj) : ""
+    if(typeof bodymovin != "undefined" && dataJsonObj){
+        var animation = bodymovin.loadAnimation({
+           container: document.getElementsByClassName("svg-wrapper")[0],
+           renderer: 'svg',
+           progressiveLoad: true,
+           setSubframe: 'false',
+           loop: true,
+           autoplay: true,
+           animationData: dataJsonObj,
+           assetsPath: '/-/media/project/global-payments/corporate/corporate/animations/',
+         });
+    }
+}
+
+if(typeof dataJsonObj != "undefined"){
+    var scriptSource = "https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js";
+
+    if(isIe6To11){
+        const script = document.createElement('script');
+        script.src = scriptSource;
+        script.type = 'text/javascript';
+        script.defer = true;
+        script.onload = runLottieAnimation;
+        document.body.appendChild(script);
+    }
+
+
+    setTimeout(function(){loadScript(scriptSource).then(function(){
+        runLottieAnimation();
+    })}, 1);
+
+
+}
+</script>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210121T030129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a12a01c1-c59a-4f6a-b516-60cfbd951a9d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211108T130026Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-GB
+version: 1
+revision: a272b5b1-5ee1-403c-bf0e-4a3ed2a6cd4f
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 2948
+
+<link  rel="stylesheet" href="./~/media/Project/Global Payments/Corporate/GPNResources/select2.css" />
+<style>
+  .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 1px solid #C4C4C4;
+    border-radius: 0;
+    height: 44px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 44px;
+}
+
+.select2-results__option {
+    padding: 2px 6px;
+    font-size: 14px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: 1px solid #C4C4C4;
+    height: 44px;
+    font-size: 16px;
+}
+.select2-dropdown {
+    border: 1px solid #C4C4C4;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 44px;
+    font-size: 14px;
+}
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+     background-color: #1E90FF;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+        background: #fff url("data:image/svg+xml;charset=utf-8,%3Csvg width='19' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m2.001 2 8.004 8 7.733-7.818' stroke='%231C6BFF' stroke-width='2.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") right 1.25rem center/19px 12px no-repeat;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    background: #fff url("data:image/svg+xml;charset=utf-8,%3Csvg width='19' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='m2.001 2 8.004 8 7.733-7.818' stroke='%231C6BFF' stroke-width='2.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") right 1.25rem center/19px 12px no-repeat;
+    border: none;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    width: 30px;
+}
+select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 44px;
+    font-size: 14px;
+}
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single,
+span.select2.select2-container.select2-container--default.select2-container--below.select2-container--open {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    border: 2px solid #1c6bff;
+}
+</style>
+
+<script>
+function addWebChatToDom(){
+        var s = document.createElement('script');
+        s.setAttribute('src', './~/media/Project/Global Payments/Corporate/GPNResources/select.js');
+        s.setAttribute('crossorigin', 'anonymous');
+        var target = document.body;
+        target.appendChild(s);
+
+        var vm = this;
+
+        s.onload = function(){
+           jQuery('.searchabledrp').select2();
+        };
+    }
+addWebChatToDom();
+</script>
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210121T030129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a272b5b1-5ee1-403c-bf0e-4a3ed2a6cd4f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230614T141600Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-charlie
+----version----
+language: en-HK
+version: 1
+revision: d7c885e2-01d7-410d-b1d2-63dc26903b56
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 2320
+
+<!--script defer src="https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js" type="text/javascript"></script-->
+<script>
+
+var isIe6To11 = navigator && (navigator.userAgent.indexOf('MSIE') !==-1
+|| navigator.appVersion.indexOf('Trident/') > -1);
+
+if(isIe6To11){
+   var bodyEle = document.getElementsByTagName('body')[0];
+   bodyEle.classList.add("ie6-11");
+
+    var promoHero = document.querySelectorAll('.promo-hero.hero-animation');
+    var imgSrc = promoHero[0].querySelectorAll(".image-wrapper img")[0].getAttribute("src");
+    var svgWrapper = promoHero[0].querySelectorAll(".promo-image.svg-wrapper")[0];
+
+    var imgFallback = document.createElement("img");
+    imgFallback.classList.add("fallback-img")
+    imgFallback.src = imgSrc;
+    svgWrapper.appendChild(imgFallback);
+}
+
+function loadScript(src) {
+    var p = new Promise(function(resolve){
+        const script = document.createElement('script');
+        script.src = src;
+        script.type = 'text/javascript';
+        script.async = false;
+        script.onload = resolve;
+        document.head.appendChild(script);
+    });
+    return p;
+}
+
+function runLottieAnimation(){
+    dataJsonObj = dataJsonObj ? JSON.parse(dataJsonObj) : ""
+    if(typeof bodymovin != "undefined" && dataJsonObj){
+        var animation = bodymovin.loadAnimation({
+           container: document.getElementsByClassName("svg-wrapper")[0],
+           renderer: 'svg',
+           progressiveLoad: true,
+           setSubframe: 'false',
+           loop: true,
+           autoplay: true,
+           animationData: dataJsonObj,
+           assetsPath: '/-/media/project/global-payments/corporate/corporate/animations/',
+         });
+    }
+}
+
+if(typeof dataJsonObj != "undefined"){
+    var scriptSource = "https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js";
+
+    if(isIe6To11){
+        const script = document.createElement('script');
+        script.src = scriptSource;
+        script.type = 'text/javascript';
+        script.defer = true;
+        script.onload = runLottieAnimation;
+        document.body.appendChild(script);
+    }
+
+
+    setTimeout(function(){loadScript(scriptSource).then(function(){
+        runLottieAnimation();
+    })}, 1);
+
+
+}
+</script>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210121T030129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d7c885e2-01d7-410d-b1d2-63dc26903b56
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211108T130026Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: d8bd98cf-7461-41df-b0b8-1f449f356fa2
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 2320
+
+<!--script defer src="https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js" type="text/javascript"></script-->
+<script>
+
+var isIe6To11 = navigator && (navigator.userAgent.indexOf('MSIE') !==-1
+|| navigator.appVersion.indexOf('Trident/') > -1);
+
+if(isIe6To11){
+   var bodyEle = document.getElementsByTagName('body')[0];
+   bodyEle.classList.add("ie6-11");
+
+    var promoHero = document.querySelectorAll('.promo-hero.hero-animation');
+    var imgSrc = promoHero[0].querySelectorAll(".image-wrapper img")[0].getAttribute("src");
+    var svgWrapper = promoHero[0].querySelectorAll(".promo-image.svg-wrapper")[0];
+
+    var imgFallback = document.createElement("img");
+    imgFallback.classList.add("fallback-img")
+    imgFallback.src = imgSrc;
+    svgWrapper.appendChild(imgFallback);
+}
+
+function loadScript(src) {
+    var p = new Promise(function(resolve){
+        const script = document.createElement('script');
+        script.src = src;
+        script.type = 'text/javascript';
+        script.async = false;
+        script.onload = resolve;
+        document.head.appendChild(script);
+    });
+    return p;
+}
+
+function runLottieAnimation(){
+    dataJsonObj = dataJsonObj ? JSON.parse(dataJsonObj) : ""
+    if(typeof bodymovin != "undefined" && dataJsonObj){
+        var animation = bodymovin.loadAnimation({
+           container: document.getElementsByClassName("svg-wrapper")[0],
+           renderer: 'svg',
+           progressiveLoad: true,
+           setSubframe: 'false',
+           loop: true,
+           autoplay: true,
+           animationData: dataJsonObj,
+           assetsPath: '/-/media/project/global-payments/corporate/corporate/animations/',
+         });
+    }
+}
+
+if(typeof dataJsonObj != "undefined"){
+    var scriptSource = "https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js";
+
+    if(isIe6To11){
+        const script = document.createElement('script');
+        script.src = scriptSource;
+        script.type = 'text/javascript';
+        script.defer = true;
+        script.onload = runLottieAnimation;
+        document.body.appendChild(script);
+    }
+
+
+    setTimeout(function(){loadScript(scriptSource).then(function(){
+        runLottieAnimation();
+    })}, 1);
+
+
+}
+</script>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210121T030129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d8bd98cf-7461-41df-b0b8-1f449f356fa2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211108T130025Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: es-ES
+version: 1
+revision: 45aeb0a7-a282-413f-bf18-229e4002b0b6
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 2320
+
+<!--script defer src="https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js" type="text/javascript"></script-->
+<script>
+
+var isIe6To11 = navigator && (navigator.userAgent.indexOf('MSIE') !==-1
+|| navigator.appVersion.indexOf('Trident/') > -1);
+
+if(isIe6To11){
+   var bodyEle = document.getElementsByTagName('body')[0];
+   bodyEle.classList.add("ie6-11");
+
+    var promoHero = document.querySelectorAll('.promo-hero.hero-animation');
+    var imgSrc = promoHero[0].querySelectorAll(".image-wrapper img")[0].getAttribute("src");
+    var svgWrapper = promoHero[0].querySelectorAll(".promo-image.svg-wrapper")[0];
+
+    var imgFallback = document.createElement("img");
+    imgFallback.classList.add("fallback-img")
+    imgFallback.src = imgSrc;
+    svgWrapper.appendChild(imgFallback);
+}
+
+function loadScript(src) {
+    var p = new Promise(function(resolve){
+        const script = document.createElement('script');
+        script.src = src;
+        script.type = 'text/javascript';
+        script.async = false;
+        script.onload = resolve;
+        document.head.appendChild(script);
+    });
+    return p;
+}
+
+function runLottieAnimation(){
+    dataJsonObj = dataJsonObj ? JSON.parse(dataJsonObj) : ""
+    if(typeof bodymovin != "undefined" && dataJsonObj){
+        var animation = bodymovin.loadAnimation({
+           container: document.getElementsByClassName("svg-wrapper")[0],
+           renderer: 'svg',
+           progressiveLoad: true,
+           setSubframe: 'false',
+           loop: true,
+           autoplay: true,
+           animationData: dataJsonObj,
+           assetsPath: '/-/media/project/global-payments/corporate/corporate/animations/',
+         });
+    }
+}
+
+if(typeof dataJsonObj != "undefined"){
+    var scriptSource = "https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js";
+
+    if(isIe6To11){
+        const script = document.createElement('script');
+        script.src = scriptSource;
+        script.type = 'text/javascript';
+        script.defer = true;
+        script.onload = runLottieAnimation;
+        document.body.appendChild(script);
+    }
+
+
+    setTimeout(function(){loadScript(scriptSource).then(function(){
+        runLottieAnimation();
+    })}, 1);
+
+
+}
+</script>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210121T030129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+45aeb0a7-a282-413f-bf18-229e4002b0b6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211117T192945Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: 44c883e7-dcfb-40cf-ab27-bd8c42cb489f
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 2320
+
+<!--script defer src="https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js" type="text/javascript"></script-->
+<script>
+
+var isIe6To11 = navigator && (navigator.userAgent.indexOf('MSIE') !==-1
+|| navigator.appVersion.indexOf('Trident/') > -1);
+
+if(isIe6To11){
+   var bodyEle = document.getElementsByTagName('body')[0];
+   bodyEle.classList.add("ie6-11");
+
+    var promoHero = document.querySelectorAll('.promo-hero.hero-animation');
+    var imgSrc = promoHero[0].querySelectorAll(".image-wrapper img")[0].getAttribute("src");
+    var svgWrapper = promoHero[0].querySelectorAll(".promo-image.svg-wrapper")[0];
+
+    var imgFallback = document.createElement("img");
+    imgFallback.classList.add("fallback-img")
+    imgFallback.src = imgSrc;
+    svgWrapper.appendChild(imgFallback);
+}
+
+function loadScript(src) {
+    var p = new Promise(function(resolve){
+        const script = document.createElement('script');
+        script.src = src;
+        script.type = 'text/javascript';
+        script.async = false;
+        script.onload = resolve;
+        document.head.appendChild(script);
+    });
+    return p;
+}
+
+function runLottieAnimation(){
+    dataJsonObj = dataJsonObj ? JSON.parse(dataJsonObj) : ""
+    if(typeof bodymovin != "undefined" && dataJsonObj){
+        var animation = bodymovin.loadAnimation({
+           container: document.getElementsByClassName("svg-wrapper")[0],
+           renderer: 'svg',
+           progressiveLoad: true,
+           setSubframe: 'false',
+           loop: true,
+           autoplay: true,
+           animationData: dataJsonObj,
+           assetsPath: '/-/media/project/global-payments/corporate/corporate/animations/',
+         });
+    }
+}
+
+if(typeof dataJsonObj != "undefined"){
+    var scriptSource = "https://cdn-gss.dataweavers.io/Theme/dist/corporate/animation/lottie_light.min.js";
+
+    if(isIe6To11){
+        const script = document.createElement('script');
+        script.src = scriptSource;
+        script.type = 'text/javascript';
+        script.defer = true;
+        script.onload = runLottieAnimation;
+        document.body.appendChild(script);
+    }
+
+
+    setTimeout(function(){loadScript(scriptSource).then(function(){
+        runLottieAnimation();
+    })}, 1);
+
+
+}
+</script>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210121T030129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+44c883e7-dcfb-40cf-ab27-bd8c42cb489f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211108T130025Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

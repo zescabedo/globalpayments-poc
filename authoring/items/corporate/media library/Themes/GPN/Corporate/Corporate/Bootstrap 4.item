@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {26C2C7EE-2A2B-4B1D-8E80-74C3E6C777DD}
+database: master
+path: /sitecore/media library/Themes/GPN/Corporate/Corporate/Bootstrap 4
+parent: {F473BEFE-3638-415A-BFE5-B2DD9C68E8C1}
+name: Bootstrap 4
+master: {00000000-0000-0000-0000-000000000000}
+template: {B746D24C-8767-47E6-A092-AEBEA4EF647F}
+templatekey: Grid Theme
+
+----version----
+language: en
+version: 1
+revision: ff7aeb3e-123f-4da7-a154-1b20b52519d4
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161215T152402Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff7aeb3e-123f-4da7-a154-1b20b52519d4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200714T091647Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

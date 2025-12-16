@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {9F95C8EF-111B-4188-B621-C960136342DA}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Corporate/Page Content/Rendering Parameters/ComplexFullWidthBackground
+parent: {42CF47ED-903D-4400-97D4-71F323812643}
+name: ComplexFullWidthBackground
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 272
+
+{8CA06D6A-B353-44E8-BC31-B528C7306971}|{D959F476-2A2C-40C6-81F5-FB75342BBFB9}|{FF75632A-03ED-4D31-B42A-1EEE45E5147F}|{A9F8A74E-5F7D-4506-8661-B08E7B9A7B91}|{5C74E985-E055-43FF-B28C-DB6C6A6450A2}|{3DB3EB10-F8D0-4CC9-BE26-18CE7B139EC8}|{6DA8A00F-473E-487D-BEFE-6834350D5B67}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{ECDD4822-118B-41FA-B0E2-41B5A362DB71}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+4000
+----version----
+language: en
+version: 1
+revision: 71d8ea6e-76f8-4998-b616-99bb7fba4dd8
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20111213T133900Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+71d8ea6e-76f8-4998-b616-99bb7fba4dd8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210120T071933Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

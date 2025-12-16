@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {1B808471-2380-4F0E-94B7-57BF0E8D1263}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Promo/Text Tab/container/row
+parent: {B092CC88-3FEC-473B-B973-A356A81C957D}
+name: row
+master: {00000000-0000-0000-0000-000000000000}
+template: {ACA5C9A3-CDA0-49B6-893F-1D4A7CB595B0}
+templatekey: VariantSection
+
+----field----
+field: {BEA2740E-90D1-4B16-BD1D-7A7CC8605D2D}
+name: CssClass
+key: cssclass
+content-length: 22
+
+row align-items-center

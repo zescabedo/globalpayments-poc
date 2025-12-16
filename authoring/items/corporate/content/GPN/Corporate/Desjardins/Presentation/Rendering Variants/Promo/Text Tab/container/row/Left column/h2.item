@@ -1,0 +1,25 @@
+----item----
+version: 1
+id: {04DCB129-3836-4014-A44C-20C9C04DB216}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Promo/Text Tab/container/row/Left column/h2
+parent: {020AA222-78C2-40C3-A595-52327BBA5C2E}
+name: h2
+master: {00000000-0000-0000-0000-000000000000}
+template: {FCD285DA-9AB2-4C8D-B185-5A7487A9BA1B}
+templatekey: VariantField
+
+----field----
+field: {DB805BDC-8EEC-4238-B174-2427B6F1F077}
+name: Tag
+key: tag
+content-length: 38
+
+{AD7A95FD-05D0-484E-8AFB-FB1DDD5F44AB}
+----field----
+field: {4753764C-C05A-4623-841B-97F85135241C}
+name: FieldName
+key: fieldname
+content-length: 9
+
+PromoText

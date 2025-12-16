@@ -1,0 +1,204 @@
+----item----
+version: 1
+id: {D230F19A-B925-478F-81D8-03DD7E4B1226}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Rendering Variants/Page Content/PIF Hero/Hero/Left Hand Side Details
+parent: {C15D4C89-0D46-48EA-ABAD-996521731C33}
+name: Left Hand Side Details
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 4564
+
+{{-
+    # Content type, tags and business size
+    $contentType = sc_translate i_item.template_name
+    $contentTypeUrl = get_pif_content_type_listing_url i_item
+
+    $articleTopics = sc_followmany i_item "GPIBlogCategories" | array.limit 2
+    $topics = []
+    for $articleTopic in $articleTopics
+        $tag = sc_raw $articleTopic "Title"
+        $tagUrl = $articleTopic.url
+        $topics = $topics | array.add { title: $tag, url: $tagUrl}
+    end
+
+    $businessSize = ""
+    $businessSizeUrl = ""
+    $firstBusinessSize = sc_follow i_item "BusinessSize"
+    if $firstBusinessSize
+        $businessSize = sc_raw $firstBusinessSize "Title"
+        $businessSizeUrl = $firstBusinessSize.url
+    end
+    $showPifTags = false
+    if $businessSize != "" || $tag != "" 
+        $showPifTags = true
+    end
+
+    # images
+    $logoUrl = ""
+    if i_item.Logo != ""
+        $logoUrl = sc_fullmediaurl i_item 'Logo' { Width: 80 }
+    end
+
+    # Title, publish date, minutes to read
+    $title = sc_raw i_item "Blog Title"
+    $publishedDate = ""
+    if o_pagemode.is_experience_editor 
+        $publishedDate = sc_field i_item "BlogPublishedDate"
+    else 
+        $publishedDate = sc_field i_item "BlogPublishedDate" | date.parse | date.to_string "%A, %B %e, %Y" 
+    end
+    $minutesRead = i_item.BlogReadTime | string.strip
+
+
+    # Author Details
+    $hasAuthor = false
+    $authorName = ""
+    $authorPosition = ""
+    $authorImageUrl = ""
+    $authorDetails = sc_follow i_item "BlogAuthor"
+    $author = sc_field i_item "BlogPublishedDate"
+
+    if $authorDetails 
+        $authorName = sc_raw $authorDetails "Title"
+        $authorPosition = sc_raw $authorDetails "Author Job Title"
+        $authorImageUrl = sc_fullmediaurl $authorDetails 'AuthorImage' { Width: 80 }
+        $hasAuthor = true
+    end
+
+    $templateId = i_item.template_id
+
+    # Download links
+    $downloadUrl = get_general_link i_item "Download Link"
+    $gatedModalUrl = get_general_link i_item "Download Gate Modal"
+    $clickTrackingDownloadType = i_item.template_name
+
+    $isGatedDownload = false
+    if $gatedModalUrl != "" 
+        $isGatedDownload = true
+    end
+
+-}}
+
+<div class="pif-article-details">
+    <a href="{{ $contentTypeUrl }}" class="pif-content-type btn btn-xs btn-outline-primary-1">{{ $contentType }}</a>
+    {{ if $showPifTags }}
+        <div class="pif-tags">
+            <ul>
+            {{ if $topics | array.size > 0 }}
+                {{ for $topic in $topics }}
+                    <li><a href="{{ $topic.url }}">{{ $topic.title }}</a></li>
+                {{ end }}
+            {{ end }}
+            {{ if $businessSize }}
+                {{ if $businessSize != "" }}
+                    <li><a href="{{ $businessSizeUrl }}">{{ $businessSize }}</a>
+                {{ end }}
+            {{ end }}
+            </ul>
+        </div>
+    {{ end }}
+</div>
+{{ if $logoUrl != "" }}
+    <img class="logo" width="80" src="{{ $logoUrl }}" />
+{{ end }}
+
+{{ if i_item.BlogFeaturedImage != "" }}
+    <h1 class="pif-title h3-style">{{ $title }}</h1>
+{{ end }}
+
+<div class="content-type-details">
+    <span class="p-sm published-date">{{ $publishedDate }}</span>
+    {{ if $minutesRead }}
+        {{ if $minutesRead != "" }}
+            <span class="p-sm read-time">{{ $minutesRead }} {{ sc_translate "minute read"  }}</span>
+        {{ end }}
+    {{ end }}
+</div>
+
+{{ if $hasAuthor }}
+    <div class="author-details author-details-desktop">
+        <img class="author-image" src="{{ $authorImageUrl }}" />
+        <div class="author-name-and-position">
+            <p class="author-name"><strong>{{ $authorName }}</strong></p>
+            <p class="author-position">{{ $authorPosition }}</p>
+        </div>
+    </div>
+{{ end }}
+
+{{ if $downloadUrl != "" }}
+    <a 
+        {{ if $isGatedDownload -}}
+            data-overlay-target="{{ $gatedModalUrl }}?theme=primary-1-white-theme&amp;type=fullscreen" 
+        {{- else -}}
+            href="{{ $downloadUrl }}" target="_blank"
+        {{- end }}
+        title="{{ $title }} download" 
+        class="btn btn-primary-1 pif-download-button link-tracking {{ if $isGatedDownload -}}overlay-source{{-end}}" 
+        data-ea-zone="Body" 
+        data-ea-type="click" 
+        data-ea-link="{{ i_item.url }} | Download {{ $clickTrackingDownloadType }}"
+        >
+        <span>{{ sc_translate "Download" }} <img src="/Theme/dist/corporate/images/icons/download-white.svg" /></span>
+    </a>
+{{ end }}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----version----
+language: en-US
+version: 1
+revision: 4508b25f-8702-4683-97ef-d214a86e0ca0
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230412T010527Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4508b25f-8702-4683-97ef-d214a86e0ca0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240723T115115Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

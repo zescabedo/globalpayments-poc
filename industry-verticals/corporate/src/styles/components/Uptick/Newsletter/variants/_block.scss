@@ -1,0 +1,170 @@
+&.newsletter-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: map-get($gpn-theme-uptick-newsletter, 'block', 'newsletter-background-color');
+  color: $gpn-theme-faint;
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxxl');
+  @include gpn-spacing([ 'margin-bottom'], 'md');
+
+  .block-container {
+    color: $gpn-theme-black;
+    @include make-col(12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+
+    @include media-breakpoint-up(md) {
+      @include make-col(8);
+    }
+
+    @include media-breakpoint-up(lg) {
+      @include make-col(4);
+    }
+  }
+
+  .block-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: map-get($gpn-theme-uptick-newsletter, 'block', 'gap-mobile');
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      gap: map-get($gpn-theme-uptick-newsletter, 'block', 'gap-tablet');
+    }
+
+    @include media-breakpoint-up(lg) {
+      gap: map-get($gpn-theme-uptick-newsletter, 'block', 'gap-desktop');
+    }
+
+    .block-text {
+      .description {
+        @extend %label-xl;
+        text-align: center;
+      }
+    }
+  }
+
+  .block-cta {
+    width: 100%;
+    .newsletter-cta {
+      margin-bottom: map-get($gpn-theme-uptick-newsletter, 'block', 'cta-margin-bottom-mobile');
+      background-color: $gpn-theme-base;
+      border-radius: $gpn-theme-radius-xl;
+      justify-content: center;
+      display: flex;
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: map-get($gpn-theme-uptick-newsletter, 'block', 'cta-margin-bottom-tablet');
+      }
+
+      .link-cta {
+        text-align: center;
+        width: 100%;
+        padding: map-get($gpn-theme-uptick-newsletter, 'newsletter-CTA-padding');
+        @extend %label-xs;
+        text-decoration: none;
+        color: map-get($gpn-theme-uptick-newsletter, 'block', 'newsletter-CTA-text-color');
+      }
+      &:hover {
+        background-color: map-get($gpn-theme-uptick-newsletter, 'newsletter-CTA-hover-background');
+      }
+    }
+    .subscribe-form {
+      margin-bottom: map-get($gpn-theme-uptick-newsletter, 'block', 'cta-margin-bottom-mobile');
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: map-get($gpn-theme-uptick-newsletter, 'block', 'cta-margin-bottom-tablet');
+      }
+      .sitecore-forms {
+        .form-group {
+          margin-bottom: 0;
+        }
+        .newsletter-input-text {
+          label {
+            margin: 0;
+          }
+          input {
+            box-shadow: none;
+            width: 100%;
+            @extend %p-md;
+            border-radius: $gpn-theme-radius-xl;
+            padding: map-get($gpn-theme-uptick-newsletter, 'block', 'input-padding-mobie');
+            justify-content: center;
+            display: flex;
+            margin-bottom: map-get(
+              $gpn-theme-uptick-newsletter,
+              'block',
+              'input-margin-bottom-mobile'
+            );
+            text-align: center;
+            border: none;
+            height: map-get($gpn-theme-uptick-newsletter, 'newsletter-CTA-height');
+            outline: none;
+
+            @include media-breakpoint-up(md) {
+              margin-bottom: map-get(
+                $gpn-theme-uptick-newsletter,
+                'block',
+                'input-margin-bottom-tablet'
+              );
+            }
+            @include media-breakpoint-up(lg) {
+              padding: map-get($gpn-theme-uptick-newsletter, 'block', 'input-padding-desktop');
+            }
+            &::placeholder {
+              color: $gpn-theme-grey-500;
+            }
+          }
+        }
+        .newsletter-cta-section {
+          background-color: $gpn-theme-base;
+          border-radius: $gpn-theme-radius-xl;
+          justify-content: center;
+          display: flex;
+          height: map-get($gpn-theme-uptick-newsletter, 'newsletter-CTA-height');
+          button {
+            width: 100%;
+            padding: map-get($gpn-theme-uptick-newsletter, 'newsletter-CTA-padding');
+            @extend %label-xs;
+            text-decoration: none;
+            color: map-get($gpn-theme-uptick-newsletter, 'block', 'newsletter-CTA-text-color');
+            background-color: transparent;
+            border: none;
+          }
+          &:hover {
+            background-color: $gpn-theme-darker-base;
+          }
+        }
+      }
+    }
+  }
+  .block-disclaimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .disclaimer-text {
+      @extend %p-xs;
+      text-align: center;
+    }
+
+    a {
+      color: $gpn-theme-white;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  &.with-full-width {
+    .block-container {
+      @include make-col(12);
+    }
+  }
+}

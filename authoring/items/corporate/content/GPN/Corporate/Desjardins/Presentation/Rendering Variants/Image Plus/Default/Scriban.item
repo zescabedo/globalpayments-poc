@@ -1,0 +1,151 @@
+----item----
+version: 1
+id: {68CB3C17-B310-48A8-966C-69CF31F6E267}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Image Plus/Default/Scriban
+parent: {2B814617-06C0-4A0E-8DBA-60947A029000}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 1262
+
+{{
+        $mediaUrl = i_datasource.Image.media_url
+        $mediaUrlSm = i_datasource.ImageSm.media_url
+
+        # for image rendering support, css overrides - this holds good for both mobile and desktop default to src attributes
+        $w = i_datasource.Image.width
+        $h = i_datasource.Image.height
+
+        $mediaAlt = ''
+        if(i_datasource.Image)
+            $mediaAlt = i_datasource.Image.alt
+        end
+        if($mediaAlt == "")
+            $mediaAlt = i_datasource.Image.Caption
+        end
+
+        # default aspect ratio 16:9 in case width height not set on img esp svgs
+        if($w == "")
+            $w = "800"
+        end
+        if($h == "")
+            $h = "450"
+        end
+}}
+
+<div class="image-wrapper">
+   {{- if (o_pagemode.is_experience_editor_editing) 
+    -}}
+        <span>[Edit Image here]</span>
+        {{ i_datasource.Image }}
+        <span>[Edit Image Small here]</span>
+        {{ i_datasource.ImageSm }}
+        
+   {{else}}
+        <picture>
+            <source media='(max-width: 1023px)' srcset='{{$mediaUrlSm}}'>
+            <img src='{{$mediaUrl}}' alt='{{$mediaAlt}}' loading="lazy" width="{{$w}}" height="{{$h}}" class="w-100" />
+        </picture>
+   {{ end }}
+</div>
+----version----
+language: en-CA
+version: 1
+revision: 37e58566-d7ac-425d-9e85-b3f5fa26bd54
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210607T095031Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+37e58566-d7ac-425d-9e85-b3f5fa26bd54
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065958Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 0a1e820f-2c52-4081-a7e8-70546e20e7eb
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210607T095031Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0a1e820f-2c52-4081-a7e8-70546e20e7eb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080407Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

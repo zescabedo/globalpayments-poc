@@ -1,0 +1,32 @@
+----item----
+version: 1
+id: {B8DA5855-7D3B-4AC3-B331-EB5833C31EA4}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Promo/Timeline/Promo Text/Promo Body/Promo Text 2
+parent: {16C36287-32BE-4005-877E-675D5C5BE46B}
+name: Promo Text 2
+master: {00000000-0000-0000-0000-000000000000}
+template: {FCD285DA-9AB2-4C8D-B185-5A7487A9BA1B}
+templatekey: VariantField
+
+----field----
+field: {4753764C-C05A-4623-841B-97F85135241C}
+name: FieldName
+key: fieldname
+content-length: 10
+
+PromoText2
+----field----
+field: {7495124D-09B5-4CB3-B4A6-FE77A95827DA}
+name: CssClass
+key: cssclass
+content-length: 15
+
+field-slidetext
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{EDF60493-3AC7-4698-89CD-1EE4D6192576}

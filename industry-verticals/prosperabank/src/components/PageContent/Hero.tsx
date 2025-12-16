@@ -12,44 +12,243 @@ import {
 } from '@sitecore-content-sdk/nextjs';
 
 interface Fields {
+  // Content fields
+  Tag?: Field<string>; // Tag Line
   Title: Field<string>;
-  Text: RichTextField;
-  Image: ImageField;
-  Link: LinkField;
+  Details?: RichTextField; // Details Text
+  Text?: RichTextField; // Fallback for existing content
+  
+  // Media fields
+  BackgroundImage?: ImageField; // Background Desktop Image (fallback)
+  BackgroundDesktopImage?: ImageField;
+  BackgroundTabletImage?: ImageField;
+  BackgroundMobileImage?: ImageField;
+  Image?: ImageField; // Main Image (fallback)
+  MainImage?: ImageField;
+  
+  // Video fields
+  VideoURL?: LinkField;
+  VideoType?: Field<string>;
+  VidyardId?: Field<string>;
+  ShowVideoInModal?: Field<boolean>;
+  VideoPlayButtonText?: Field<string>;
+  VideoPauseButtonText?: Field<string>;
+  
+  // CTA fields
+  Link?: LinkField; // Fallback
+  CtaTitle?: Field<string>;
+  CtaLink?: LinkField;
+  CtaStyle?: Field<string>;
 }
 
-export type AppPromoProps = {
+export type HeroProps = {
   params: { [key: string]: string };
   fields: Fields;
 };
 
-export const Default = (props: AppPromoProps): JSX.Element => {
+export const Default = (props: HeroProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
   const sxaStyles = `${props.params?.styles || ''}`;
+  
+  // Parse params for styling options (matching Storybook parameter names)
+  const heroBackground = props.params?.HeroBackground || props.params?.heroBackground;
+  const titleHeadingLevel = props.params?.TitleHeadingLevel || props.params?.titleHeadingLevel || '1';
+  const imageSquareCorners = props.params?.ImageSquareCorners === '1' || props.params?.imageSquareCorners === '1';
+  const animationEnabled = props.params?.AnimationEnabled === 'true' || props.params?.animationEnabled === 'true';
+  const animationType = props.params?.AnimationType || props.params?.animationType || 'fade-up';
+  const animationEasing = props.params?.AnimationEasing || props.params?.animationEasing || '';
+  const animationDuration = props.params?.AnimationDuration || props.params?.animationDuration || '';
+  const mediaSize = props.params?.MediaSize || props.params?.mediaSize || 'auto';
+
+  // Safe field access with fallbacks
+  const tag = props.fields?.Tag;
+  const title = props.fields?.Title;
+  const details = props.fields?.Details || props.fields?.Text;
+  
+  // Background images - responsive support
+  const backgroundDesktop = props.fields?.BackgroundDesktopImage || props.fields?.BackgroundImage;
+  const backgroundTablet = props.fields?.BackgroundTabletImage;
+  const backgroundMobile = props.fields?.BackgroundMobileImage;
+  
+  // Main image
+  const mainImage = props.fields?.MainImage || props.fields?.Image;
+  
+  // CTA
+  const ctaLink = props.fields?.CtaLink || props.fields?.Link;
+  const ctaTitle = props.fields?.CtaTitle;
+  const ctaStyle = props.fields?.CtaStyle;
+  
+  // Video
+  const videoURL = props.fields?.VideoURL;
+  const videoType = props.fields?.VideoType?.value;
+  const vidyardId = props.fields?.VidyardId?.value;
+
+  // Determine heading tag - default to h1
+  const headingLevel = titleHeadingLevel || '1';
+  const HeadingTag = `h${headingLevel}` as 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+
+  // Build background image CSS variables for circle-pattern
+  const backgroundStyle: React.CSSProperties & {
+    '--bg-image-desktop'?: string;
+    '--bg-image-tablet'?: string;
+    '--bg-image-mobile'?: string;
+    '--mediaSize'?: string;
+  } = {};
+  if (backgroundDesktop?.value?.src) {
+    backgroundStyle['--bg-image-desktop'] = `url(${backgroundDesktop.value.src})`;
+  }
+  if (backgroundTablet?.value?.src) {
+    backgroundStyle['--bg-image-tablet'] = `url(${backgroundTablet.value.src})`;
+  }
+  if (backgroundMobile?.value?.src) {
+    backgroundStyle['--bg-image-mobile'] = `url(${backgroundMobile.value.src})`;
+  }
+  if (mediaSize) {
+    backgroundStyle['--mediaSize'] = mediaSize;
+  }
+
+  // Determine background class based on heroBackground param
+  const bgClass = heroBackground ? `featured-bg-${heroBackground}` : 'bg-white';
+  // Note: featured-hero-video class appears to always be present in Storybook
+  const videoClass = 'featured-hero-video';
+  
+  // AOS animation attributes
+  const aosAttributes: React.HTMLAttributes<HTMLDivElement> & {
+    'data-aos'?: string;
+    'data-aos-duration'?: string;
+    'data-aos-easing'?: string;
+    'data-aos-offset'?: string;
+    'data-aos-once'?: string;
+  } = {};
+  if (animationEnabled) {
+    aosAttributes['data-aos'] = animationType || 'fade-up';
+    aosAttributes['data-aos-duration'] = animationDuration || '';
+    aosAttributes['data-aos-easing'] = animationEasing || '';
+    aosAttributes['data-aos-offset'] = '120';
+    aosAttributes['data-aos-once'] = 'true';
+  }
+
+  // Map CTA style to Global Payments button classes
+  const getCtaClassName = (style?: string) => {
+    if (!style) return 'btn btn-cta-primary';
+    const styleMap: { [key: string]: string } = {
+      'primary': 'btn btn-cta-primary',
+      'secondary': 'btn btn-cta-secondary',
+      'tertiary': 'btn btn-cta-tertiary',
+      'btn-cta-primary': 'btn btn-cta-primary',
+      'btn-cta-secondary': 'btn btn-cta-secondary',
+      'btn-cta-tertiary': 'btn btn-cta-tertiary',
+      'btn-cta-googleplay': 'btn btn-cta-googleplay',
+      'btn-cta-appstore': 'btn btn-cta-appstore',
+      'Link-glow-base': 'Link-glow-base',
+      'link-glow-bright': 'link-glow-bright',
+      'link': 'link',
+    };
+    return styleMap[style] || 'btn btn-cta-primary';
+  };
+
+  // Build component classes matching Storybook structure
+  const componentClasses = [
+    'component',
+    videoClass,
+    bgClass,
+    sxaStyles,
+    imageSquareCorners ? 'square-corners' : '',
+    animationEnabled ? 'aos-init aos-animate' : '',
+  ]
+    .filter(Boolean)
+    .join(' ');
 
   return (
-    <div className={`component hero ${sxaStyles}`} id={id ? id : undefined}>
-      <picture>
-        <NextImage field={props.fields.Image} className="" width={1920} height={400}></NextImage>
-      </picture>
-      <div className="container content-container">
-        <div className="top-layout">
-          <div className="title">
-            <Text field={props.fields.Title} />
+    <div 
+      className={componentClasses}
+      id={id ? id : undefined}
+      {...aosAttributes}
+    >
+      <div className="circle-pattern" style={backgroundStyle}>
+        <div className="container">
+          {/* Text Content Row */}
+          <div className="row">
+            <div className="hero-text-block">
+              {/* Title */}
+              {(title?.value || isPageEditing) && title && (
+                <Text field={title} tag={HeadingTag} className="display-lg" />
+              )}
+              
+              {/* Tag Line */}
+              {(tag?.value || isPageEditing) && tag && (
+                <Text field={tag} tag="p" className="label-md" />
+              )}
+              
+              {/* Details/Description */}
+              {(details?.value || isPageEditing) && details && (
+                <div className="body-md">
+                  <RichText field={details} />
+                </div>
+              )}
+              
+              {/* CTA */}
+              {(isPageEditing || ctaLink?.value?.href) && ctaLink && (
+                <div className="cta-list all">
+                  <Link 
+                    field={ctaLink} 
+                    className={getCtaClassName(ctaStyle?.value)}
+                  >
+                    <span className="link-inner">
+                      {ctaTitle?.value || ctaLink.value?.text || 'Learn More'}
+                    </span>
+                  </Link>
+                </div>
+              )}
+            </div>
           </div>
-          <div className="subtitle">
-            <RichText field={props.fields.Text} />
-          </div>
+          
+          {/* Media Row */}
+          {(mainImage?.value?.src || videoURL?.value?.href) && (
+            <div className="row">
+              <div className={`hero-media-block ${imageSquareCorners ? 'square-corners' : ''}`}>
+                <div className="hero-media">
+                  {mainImage?.value?.src && (
+                    <picture>
+                      <NextImage
+                        field={mainImage}
+                        className="gp-img hero-image"
+                        width={700}
+                        height={700}
+                        alt={typeof mainImage.value?.alt === 'string' ? mainImage.value.alt : 'Hero image'}
+                      />
+                    </picture>
+                  )}
+                  
+                  {/* Video support */}
+                  {videoURL?.value?.href && (
+                    <div className="hero-video">
+                      {videoType === 'youtube' && (
+                        <iframe
+                          src={videoURL.value.href}
+                          className="hero-video-iframe"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      )}
+                      {videoType === 'vidyard' && vidyardId && (
+                        <div className="hero-vidyard" data-uuid={vidyardId} />
+                      )}
+                      {videoType === 'mp4' && (
+                        <video className="hero-video-element" controls>
+                          <source src={videoURL.value.href} type="video/mp4" />
+                        </video>
+                      )}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
-        <div className="bottom-layout">
-          <div className="btn-array">
-            {(isPageEditing || props.fields?.Link?.value?.href) && (
-              <Link field={props.fields.Link} className="button button-main mt-3" />
-            )}
-          </div>
-        </div>
+        <div className="full-bleed-container"></div>
       </div>
     </div>
   );

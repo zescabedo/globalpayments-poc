@@ -1,0 +1,621 @@
+----item----
+version: 1
+id: {EA47A28F-A9CA-433E-BD86-A953F9D9A253}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Partial Designs/Global/Header/Data/ImageLight
+parent: {08390E58-879F-4279-9653-B13F2953DF47}
+name: ImageLight
+master: {00000000-0000-0000-0000-000000000000}
+template: {BB8A85AB-1F6D-4518-8772-1C9F4F8DAC18}
+templatekey: Image
+
+----version----
+language: en-150
+version: 1
+revision: b91c81a9-2610-494c-8bdd-499888111139
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C4CB05D7-4749-4B53-8B23-3B9C842B0318}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 160
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b91c81a9-2610-494c-8bdd-499888111139
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133110Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-BM
+version: 1
+revision: 969910c7-a1c1-4415-b9c4-aaf2870f5f56
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C4CB05D7-4749-4B53-8B23-3B9C842B0318}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 160
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+969910c7-a1c1-4415-b9c4-aaf2870f5f56
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133110Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: 87b3e438-5151-41f5-8a50-209a0e00cdf3
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{9D03A35B-2A25-4F57-B820-366CFFE97D16}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 160
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+87b3e438-5151-41f5-8a50-209a0e00cdf3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133302Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-GB
+version: 1
+revision: b121c9a5-c340-4941-bdcb-fec51c9421f4
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C4CB05D7-4749-4B53-8B23-3B9C842B0318}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 160
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b121c9a5-c340-4941-bdcb-fec51c9421f4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133110Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-HK
+version: 1
+revision: e4c3b0f3-a142-43f1-9bd4-2a9af604c065
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C4CB05D7-4749-4B53-8B23-3B9C842B0318}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 160
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e4c3b0f3-a142-43f1-9bd4-2a9af604c065
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133110Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-MT
+version: 1
+revision: 3c87fb64-290f-4f9c-90de-49534afa546d
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C4CB05D7-4749-4B53-8B23-3B9C842B0318}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 160
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c87fb64-290f-4f9c-90de-49534afa546d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133110Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 1
+revision: 3206208c-18d2-473e-b62b-8df048c6db34
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C4CB05D7-4749-4B53-8B23-3B9C842B0318}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 160
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3206208c-18d2-473e-b62b-8df048c6db34
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133111Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: es-ES
+version: 1
+revision: 73600bb7-f4a9-4d45-b08f-13fccc46b3e9
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C4CB05D7-4749-4B53-8B23-3B9C842B0318}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 160
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+73600bb7-f4a9-4d45-b08f-13fccc46b3e9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133110Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: fr-CA
+version: 1
+revision: aa71110d-7e39-4719-ad6f-689cda9b141a
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{9D03A35B-2A25-4F57-B820-366CFFE97D16}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 160
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aa71110d-7e39-4719-ad6f-689cda9b141a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133255Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: hu-HU
+version: 1
+revision: 9e69577e-b8f8-4fa2-a023-a5420e380bd0
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{C4CB05D7-4749-4B53-8B23-3B9C842B0318}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 170
+
+<link id="{25CC2C4D-E515-40A3-AD92-09E887D50A4D}" querystring="" target="" text="" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210219T135804Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9e69577e-b8f8-4fa2-a023-a5420e380bd0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133111Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

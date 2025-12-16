@@ -1,0 +1,72 @@
+// Colours from Figma https://www.figma.com/design/wFhS7Vr28SRs90TafHnSm0/Core-Design-System?node-id=37932-23154&m=dev
+
+// Primary colours
+$gpn-theme-white-255: #ffffff !default;
+$gpn-theme-blue-500: #262aff !default;   // base
+// secondary colours
+$gpn-theme-blue-600: #1b1ec6 !default;
+$gpn-theme-black-950: #0c0c0c !default;
+// tertiary colours
+$gpn-theme-blue-300: #1cabff !default;   // aka pulse
+$gpn-theme-yellow-310: #ffcc00 !default; // aka sunshine
+$gpn-theme-orange-200: #fda052 !default; // aka creamsicle
+$gpn-theme-red-200: #f4364c !default;    // aka raspberry (and error)
+$gpn-theme-purple-400: #87179d !default; // aka grape
+$gpn-theme-green-210: #00c75d !default;  // success
+// gradients
+$gpn-theme-gradient-180-blue-300-to-blue-500: linear-gradient(180deg, $gpn-theme-blue-300 0%, $gpn-theme-blue-500 100%) !default;
+$gpn-theme-gradient-180-blue-500-to-blue-600: linear-gradient(180deg, $gpn-theme-blue-500 0%, $gpn-theme-blue-600 100%) !default;
+// greys/neutrals
+$gpn-theme-grey-110: #f8f8f8 !default;
+$gpn-theme-grey-120: #f4f4f4 !default;
+$gpn-theme-grey-200: #eee !default;
+$gpn-theme-grey-300: #ddd !default;
+$gpn-theme-grey-400: #c4c4c4 !default;
+$gpn-theme-grey-500: #909090 !default;
+$gpn-theme-grey-600: #595959 !default;
+
+// Note, the default colours below are the Corporate colour scheme
+$gpn-theme-white: $gpn-theme-white-255 !default;
+$gpn-theme-faint: $gpn-theme-grey-110 !default;
+$gpn-theme-subtle: $gpn-theme-grey-120 !default;
+$gpn-theme-linear: linear-gradient(180deg, $gpn-theme-faint 0%, $gpn-theme-white 75%);
+$gpn-theme-base: $gpn-theme-blue-500 !default;
+$gpn-theme-bright: #ddf2ff !default;
+$gpn-theme-light: #ddf2ff !default;
+$gpn-theme-dark: $gpn-theme-blue-600 !default;
+$gpn-theme-black: #000 !default;
+$gpn-theme-gray: $gpn-theme-grey-400 !default;
+$gpn-theme-off-black: $gpn-theme-black-950 !default;
+$gpn-theme-red: $gpn-theme-red-200 !default;
+$gpn-theme-blue: #383bff !default;
+
+$gpn-theme-colours: (
+  'white': $gpn-theme-white,
+  'subtle': $gpn-theme-subtle,
+  'faint': $gpn-theme-faint,
+  'base': $gpn-theme-base,
+  'dark': $gpn-theme-dark,
+  'black': $gpn-theme-off-black,
+  'light': $gpn-theme-light,
+  'linear': $gpn-theme-linear,
+) !default;
+
+// these are used when we need a darker colour variant, ie, a base button on a base background
+$gpn-theme-darker-base: #1b1ec6;
+$gpn-theme-darker-bright: #06c06a;
+
+$gpn-theme-gradient-horizon: $gpn-theme-gradient-180-blue-300-to-blue-500 !default;
+$gpn-theme-gradient-deep: $gpn-theme-gradient-180-blue-500-to-blue-600 !default;
+
+$gpn-theme-neutral-110: $gpn-theme-grey-110;
+$gpn-theme-neutral-200: $gpn-theme-grey-200;
+$gpn-theme-neutral-300: $gpn-theme-grey-300;
+$gpn-theme-neutral-400: $gpn-theme-grey-400;
+$gpn-theme-neutral-500: $gpn-theme-grey-500;
+$gpn-theme-neutral-600: $gpn-theme-grey-600;
+
+$gpn-theme-body-color: $gpn-theme-off-black !default;
+$gpn-theme-body-bg: $gpn-theme-white !default;
+// dark mode colours
+$gpn-theme-body-bg-dark: $gpn-theme-dark !default;
+$gpn-theme-body-color-dark: $gpn-theme-white !default;

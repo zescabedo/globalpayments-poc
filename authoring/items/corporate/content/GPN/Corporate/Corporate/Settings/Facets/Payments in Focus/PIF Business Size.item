@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {1F5BD5F0-41B6-4437-958A-D11BFE29B8E9}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Facets/Payments in Focus/PIF Business Size
+parent: {4C6E8909-03C5-4B4B-A54D-7CBC9F65038F}
+name: PIF Business Size
+master: {00000000-0000-0000-0000-000000000000}
+template: {6042E216-F650-447C-86D1-00FEA97454E7}
+templatekey: ListFacet
+
+----field----
+field: {0E23BB51-C071-41B5-9D83-AC410B89B85A}
+name: Parameters
+key: parameters
+content-length: 15
+
+pifbusinesssize
+----field----
+field: {8A3AC1B8-8CC1-4DD4-8766-9803F1601741}
+name: Minimum Number of Items
+key: minimum number of items
+content-length: 1
+
+1
+----version----
+language: en-US
+version: 1
+revision: 54456d62-69b6-4133-99ad-fe9c0311e36a
+
+----field----
+field: {31CA077F-EF38-4980-8A24-05408031B2BC}
+name: Name
+key: name
+content-length: 13
+
+Business Size
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T032317Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+54456d62-69b6-4133-99ad-fe9c0311e36a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230623T035932Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

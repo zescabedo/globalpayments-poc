@@ -1,0 +1,175 @@
+----item----
+version: 1
+id: {A23C6BFA-A499-44FC-883B-BABB2AC14BAF}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Rendering Variants/SearchResultsExtension/PIF Popular Content/Scriban
+parent: {3EA94EC8-248A-4777-8C1A-2A33E269AB7C}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 4650
+
+{{- 
+
+    # Content type, tags and business size
+       
+    $articleUrl = i_item.url
+    $articleId = i_item.id
+    $contentType = sc_translate i_item.template_name
+    $contentTypeUrl = get_pif_content_type_listing_url i_item
+
+    $externalLink = get_general_link_info i_item "ExternalLink"
+    if $externalLink != null && $externalLink.url != ""
+        $articleUrl = $externalLink.url
+    end
+
+    $allArticleTopics = sc_followmany i_item "GPIBlogCategories"
+    $articleTopics = $allArticleTopics | array.limit 2
+    $topics = []
+    for $articleTopic in $articleTopics
+        $tag = sc_raw $articleTopic "Title"
+        $tagUrl = $articleTopic.url
+        $topics = $topics | array.add { title: $tag, url: $tagUrl}
+    end
+
+    # build topics and audiences (business size) list for output
+    $allTopics = [];
+    for $t in $allArticleTopics 
+        $tag = sc_raw $t "Title"
+        $tagUrl = $t.url
+        $topic = "{ \"name\": \"" + $tag + "\", \"url\": \"" + $tagUrl + "\"}"
+        $allTopics = $allTopics | array.add $topic
+    end
+    $allTopicsDataString = "[" + ($allTopics | array.join ",") + "]"
+
+    $audiences = [];
+    for $b in (sc_followmany i_item "BusinessSize")
+        $tag = sc_raw $b "Title"
+        $tagUrl = $b.url
+        $audience = "{ \"name\": \"" + $tag + "\", \"url\": \"" + $tagUrl + "\"}"
+        $audiences = $audiences | array.add $audience
+    end
+    $audiencesDataString = "[" + ($audiences | array.join ",") + "]"
+
+    $allTagsDataString = "{ \"topics\": " + $allTopicsDataString  + ", \"audiences\": " + $audiencesDataString + " }"
+
+    $businessSize = ""
+    $businessSizeUrl = ""
+    $firstBusinessSize = sc_follow i_item "BusinessSize"
+    if $firstBusinessSize
+        $businessSize = sc_raw $firstBusinessSize "Title"
+        $businessSizeUrl = $firstBusinessSize.url
+    end
+    $showPifTags = false
+    if $businessSize != "" || $tag != "" 
+        $showPifTags = true
+    end
+
+    # Title, publish date, minutes to read
+    $title = sc_raw i_item "Blog Title"
+    $summary = sc_raw i_item "BlogSummary"
+    
+    # images
+    $featuredImageUrl = sc_fullmediaurl i_item 'BlogFeaturedImage' { Width: 745 }
+    $alt = i_item.BlogFeaturedImage.media_alt
+    $overrideCardImage = sc_fullmediaurl i_item 'CardImageOverride' { Width: 745 }
+    if ($overrideCardImage | string.size) > 0
+        $featuredImageUrl = $overrideCardImage
+        $alt = i_item.CardImageOverride.media_alt
+    end
+    $hasFeaturedImage = ($featuredImageUrl | string.size) > 0
+    if ($alt | string.size == 0) 
+        $alt = "Card image for '" + $title + "' " + ($contentType | string.downcase)
+    end
+
+
+-}}
+
+<div class="pif-popular-content-search-result pif-clickable-card">
+    <div class="image-container">
+        <img class="pif-article-image" src="{{ $featuredImageUrl }}" alt="{{ $alt }}" />
+    </div>
+    <div class="pif-article-details-container">
+        <div class="pif-article-details">
+            <a href="{{ $contentTypeUrl }}" class="pif-content-type btn btn-xs btn-outline-primary-1">{{ $contentType }}</a>
+            {{ if $showPifTags }}
+                <div class="pif-tags" data-all-tags='{{ $allTagsDataString }}'>
+                    <ul>
+                    {{ if $topics | array.size > 0 }}
+                        {{ for $topic in $topics }}
+                            <li><a href="{{ $topic.url }}">{{ $topic.title }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                    {{ if $businessSize }}
+                        {{ if $businessSize != "" }}
+                            <li><a href="{{ $businessSizeUrl }}">{{ $businessSize }}</a>
+                        {{ end }}
+                    {{ end }}
+                    </ul>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+    <h3 class="pif-title h5-style">{{ $title }}</h3>
+    {{ if $summary != "" }}
+        <div class="pif-description">{{ $summary }}</div>
+    {{ end }}
+    <div class="read-more-link">
+        <a class="pif-card-link pif-article-link link-arrow-primary-1-after-smallarrow" href="{{ $articleUrl }}" data-content-type="{{ $contentType }}" data-article-id="{{ $articleId }}" aria-label="{{ $title }}">{{ sc_translate "Read more" }} <span class="pif-card-link-overlay"></span></a>
+    </div>
+    <a class="pif-card-link-overlay pif-popular-content-link-overlay" href="{{ $articleUrl }}" name="Link to {{ $contentType | string.downcase }}" data-content-type="{{ $contentType }}" data-article-id="{{ $articleId }}" aria-label="{{ $title }}"></a>
+</div>
+
+----version----
+language: en-US
+version: 1
+revision: 126cd2cc-ba37-4454-8527-7adebe8cd00f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230420T060146Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+126cd2cc-ba37-4454-8527-7adebe8cd00f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250303T065538Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Yogendra_Bartwal

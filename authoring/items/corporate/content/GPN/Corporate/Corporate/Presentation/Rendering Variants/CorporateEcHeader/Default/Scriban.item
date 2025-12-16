@@ -1,0 +1,378 @@
+----item----
+version: 1
+id: {78F4CEA5-A44E-464F-8389-8F73A813DD93}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Rendering Variants/CorporateEcHeader/Default/Scriban
+parent: {645C9CD8-9D71-4469-AB73-FD037CA4507C}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 12183
+
+{{
+
+    include "ec-corporate-get-enum-value-function"
+
+    $logoPlacement = "bottom" # default to bottom
+    if i_item
+        if i_item.LogoPlacement
+            $logoPlacementValue = sc_follow i_item "LogoPlacement"
+            if $logoPlacementValue 
+                if $logoPlacementValue != ""
+                    $logoPlacement = $logoPlacementValue.Value.raw
+                end
+            end
+        end
+    end
+
+    $primaryNav = sc_follow i_item "MainMenu"
+    $mobileNav = $primaryNav
+
+    if i_item.MobileMenu != ""
+        $mobileNav = sc_follow i_item "MobileMenu"
+    end
+
+    $popularSearches = sc_follow i_item "PopularSearches"
+    $quickLinks = sc_follow i_item "QuickLinks"
+
+    if i_item.SearchBoxDatasource
+        if i_item.SearchBoxDatasource != ""
+            $searchParamsItem = sc_follow i_item "SearchBoxDatasource"
+        end
+    end
+
+    if i_item.SecondaryMenu
+        if i_item.SecondaryMenu != ""
+            $secondaryMenu = sc_follow i_item "SecondaryMenu"
+        end
+    end
+
+    $utilityNav = sc_follow i_item "UtilityMenu"
+
+    $homeUrl = i_home.url
+
+    $ctaLink = sc_follow i_item "CTA"
+    $pageSignupModalRawValue = sc_raw i_page 'Signup Modal'
+    if $pageSignupModalRawValue != ""
+        $ctaLink = sc_follow i_page "Signup Modal"
+    end
+
+    $languageSwitcherType = getEnumValue(i_item, "LanguageSwitcherType", "default-switcher")
+
+
+    if i_datasource == null
+        ret
+    end
+
+}}
+
+<div class="component container">
+    <div class="component-content">
+
+        <div class="header">
+
+            {{ # ========================= }}
+            {{ #           Logos           }}
+            {{ # ========================= }}
+            <div class="logo-container {{ $logoPlacement }}">
+
+                {{ 
+                    $logoModel = {
+                        image: i_item.NormalLogo,
+                        homeUrl: $homeUrl,
+                        className: "primary-logo",
+                        tabIndex: "0"
+                    }
+                    include "ec-corporate-header-desktop-logo" $logoModel
+                }}
+
+                {{ 
+                    if i_item.StickyLogo
+                        $stickyLogo = i_item.StickyLogo
+                    else
+                        $stickyLogo = i_item.NormalLogo
+                    end
+
+                    $logoModel = {
+                        image: $stickyLogo,
+                        homeUrl: $homeUrl,
+                        className: "sticky-logo",
+                        tabIndex: "-1"
+                    }
+                    include "ec-corporate-header-desktop-logo" $logoModel
+
+                    # get mobile sticky logo, fallback to sticky logo
+                    if i_item.MobileStickyLogo
+                        if i_item.MobileStickyLogo != "" 
+                            $mobileStickyLogo = i_item.MobileStickyLogo
+                        else
+                            $mobileStickyLogo = $stickyLogo
+                        end
+                    else
+                        $mobileStickyLogo = $stickyLogo
+                    end
+
+                    $mobileStickyLogoModel = {
+                        image: $mobileStickyLogo,
+                        homeUrl: $homeUrl,
+                        className: "mobile-sticky-logo",
+                        tabIndex: "-1"
+                    }
+                    include "ec-corporate-header-desktop-logo" $mobileStickyLogoModel
+
+                }}
+            </div>
+
+            {{ # ========================= }}
+            {{ #       Primary Menu        }}
+            {{ # ========================= }}
+            <div class="mainmenu-container">
+                {{
+                    $primaryNavModel = {
+                        primaryNav: $primaryNav
+                    }
+                    include "ec-corporate-header-primary-nav" $primaryNavModel
+                }}
+            </div>
+
+            {{ # ========================= }}
+            {{ #     Secondary Area        }}
+            {{ # ========================= }}
+            <div class="secondarymenu-container">
+
+                {{ if $searchParamsItem || $secondaryMenu }}
+                    <nav class="navbar navbar-expand navbar-light secondary-menu">
+                        <ul class="navbar-nav" role="menubar">
+
+                            {{
+                                if $searchParamsItem 
+
+
+                                    $secondaryMenuSearchObject = { 
+                                        search: $searchParamsItem,
+                                        popularSearches: $popularSearches,
+                                        quickLinks: $quickLinks
+                                    }
+                                    include "ec-corporate-header-secondary-menu-search" $secondaryMenuSearchObject
+                                end 
+
+                                if $secondaryMenu 
+                                    $secondaryMenuObject = { secondaryMenu: $secondaryMenu }
+                                    include "ec-corporate-header-secondary-menu-items" $secondaryMenuObject
+                                end
+                            }}
+                        </ul>
+                    </nav>
+                {{ end }}
+
+
+                {{  if i_item.CTA }}
+                    {{ if i_item.CTA != "" }}
+                        <div class="cta-box">
+                        {{ 
+                            $ctaModel = {
+                                page: i_page,
+                                item: i_item,
+                                linkField: "CTA"
+                            }
+
+                            include "ec-corporate-header-cta" $ctaModel
+                        }}
+                        </div>
+                    {{ end }}
+                {{ end }}
+            </div>
+
+            {{ # ========================= }}
+            {{ #    Utility Navigation     }}
+            {{ # ========================= }}
+            <div class="utilitymenu-container">
+            
+                {{
+                    if i_item.UtilityMenu
+                        if i_item.UtilityMenu.raw != ""
+                            $utilityNavModel = {
+                                links: $utilityNav
+                            }
+
+                            include "ec-corporate-header-utility-nav" $utilityNavModel
+                        end
+                    end
+
+                    if i_item.ShowLanguageSwitcher == "1"
+                        sc_execute i_item "LanguageSwitcher"
+                    end
+                }}
+            </div>
+
+            {{ # ========================= }}
+            {{ #     Mobile Navigation     }}
+            {{ # ========================= }}
+            <div class="mobilemenu-container">
+
+                {{  if i_item.CTA }}
+                    {{ if i_item.CTA != "" }}
+                        <div class="cta-box">
+                        {{ 
+                            $ctaModel = {
+                                page: i_page,
+                                item: i_item,
+                                linkField: "CTA"
+                            }
+
+                            include "ec-corporate-header-cta" $ctaModel
+                        }}
+                        </div>
+                    {{ end }}
+                {{ end }}
+
+                <div class="mobile-icons">
+                    <div class="icon-burger" aria-expanded="false"></div>
+                </div>
+                <div class="navigation echeader-nav-mobile">
+                    <nav>
+                        <div class="nav-container">
+                            <div class="head">
+                                {{ 
+
+                                    # get mobile logo, fallback to normal logo
+                                    if i_item.MobileLogo
+                                        if i_item.MobileLogo != ""
+                                            $mobileLogo = i_item.MobileLogo
+                                        else
+                                            $mobileLogo = i_item.NormalLogo
+                                        end
+                                    else
+                                        $mobileLogo = i_item.NormalLogo
+                                    end
+
+
+                                    $mobileLogoModel = {
+                                        image: $mobileLogo,
+                                        homeUrl: $homeUrl,
+                                        className: "mobile-logo"
+                                    }
+                                    include "ec-corporate-header-desktop-logo" $mobileLogoModel
+
+                                }}
+                                <div class="close-nav"></div>
+                            </div>
+
+
+                            <ul role="menubar">
+                                {{
+                                    $mobileNavModel = {
+                                        mobileNav: $mobileNav
+                                    }
+                                    include "ec-corporate-header-mobile-nav" $mobileNavModel
+                                }}
+
+                                <li class="divider" role="presentation"><hr class="mobile-menu-divider" /></li>
+
+                                {{ 
+                                    if $searchParamsItem
+                                        $mobileNavSearchModel = {
+                                            searchParamsItem: $searchParamsItem,
+                                            popularSearches: $popularSearches,
+                                            quickLinks: $quickLinks
+                                        }
+                                    
+                                        include "ec-corporate-header-mobile-nav-search" $mobileNavSearchModel
+                                    end 
+                                
+                                    if i_item.UtilityMenu
+                                        if i_item.UtilityMenu.raw != ""
+                                            $mobileUtilityNavModel = {
+                                                links: $utilityNav
+                                            }
+                        
+                                            include "ec-corporate-header-mobile-utility-nav" $mobileUtilityNavModel
+                                        end
+                                    end
+
+                                    if i_item.ShowLanguageSwitcher == "1"
+                                        $regionSwitcherModel = {
+                                            switcherType: $languageSwitcherType
+                                        }
+                                        include "ec-corporate-header-mobile-region-switcher" $regionSwitcherModel
+                                    end
+    
+                                }}
+                            </ul>
+
+                            {{  if i_item.CTA }}
+                                {{ if i_item.CTA != "" }}
+                                    <div class="mobile-cta-box">
+                                    {{ 
+                                        $ctaModel = {
+                                            page: i_page,
+                                            item: i_item,
+                                            linkField: "CTA"
+                                        }
+                    
+                                        include "ec-corporate-header-cta" $ctaModel
+                                    }}
+                                    </div>
+                                {{ end }}
+                            {{ end }}
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+----version----
+language: en-US
+version: 1
+revision: b5bef432-f8aa-40f9-8e55-3427e77b5161
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20241029T001603Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b5bef432-f8aa-40f9-8e55-3427e77b5161
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250512T013143Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

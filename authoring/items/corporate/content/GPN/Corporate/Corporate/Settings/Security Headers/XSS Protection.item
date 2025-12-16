@@ -1,0 +1,126 @@
+----item----
+version: 1
+id: {9A0B1CAA-C406-42BC-AE34-1A2E00086E68}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Security Headers/XSS Protection
+parent: {9586AFDE-74EC-4E24-B7E9-48CC50D65C88}
+name: XSS Protection
+master: {F282C1EF-EA6D-47DA-954B-F6306F028363}
+template: {4CA98C4A-9E1A-40B4-B1BF-475994B184EA}
+templatekey: XSS Protection
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{6D914700-5A39-47C3-8DD8-71A7643B6843}
+----version----
+language: en-GB
+version: 1
+revision: 53384267-63b9-48f8-8a07-7bf05fbece61
+
+----field----
+field: {03888DF2-C647-4339-A822-5B9C85F4C7CE}
+name: Enabled
+key: enabled
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+53384267-63b9-48f8-8a07-7bf05fbece61
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210114T034631Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\tf-mark
+----version----
+language: en-US
+version: 1
+revision: b5976f66-65f6-4841-b385-6b26c8018fcc
+
+----field----
+field: {03888DF2-C647-4339-A822-5B9C85F4C7CE}
+name: Enabled
+key: enabled
+content-length: 1
+
+1
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b5976f66-65f6-4841-b385-6b26c8018fcc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210104T053424Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

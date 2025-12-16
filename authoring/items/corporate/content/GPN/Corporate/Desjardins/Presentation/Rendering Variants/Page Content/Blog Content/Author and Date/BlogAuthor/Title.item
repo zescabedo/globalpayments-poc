@@ -1,0 +1,161 @@
+----item----
+version: 1
+id: {09C15F26-E6E6-473C-AA11-8BCAEA510E74}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Page Content/Blog Content/Author and Date/BlogAuthor/Title
+parent: {CDAFF821-50DC-4C13-B258-DD1E7ABC7E70}
+name: Title
+master: {00000000-0000-0000-0000-000000000000}
+template: {FCD285DA-9AB2-4C8D-B185-5A7487A9BA1B}
+templatekey: VariantField
+
+----field----
+field: {4753764C-C05A-4623-841B-97F85135241C}
+name: FieldName
+key: fieldname
+content-length: 5
+
+Title
+----field----
+field: {DCB05E5E-7151-4226-A3B0-108C5E2F05B5}
+name: IsLink
+key: islink
+content-length: 1
+
+1
+----field----
+field: {7495124D-09B5-4CB3-B4A6-FE77A95827DA}
+name: CssClass
+key: cssclass
+content-length: 16
+
+field-blogauthor
+----field----
+field: {34400B24-5666-4295-BBC2-B87C2020AA6D}
+name: LinkAttributes
+key: linkattributes
+content-length: 13
+
+target=_blank
+----version----
+language: en-CA
+version: 1
+revision: e324d2af-2c5a-43e0-85a4-911a87fccccd
+
+----field----
+field: {FD5230D8-E68D-4E17-9D85-EA676F27AC3A}
+name: Prefix
+key: prefix
+content-length: 4
+
+by: 
+----field----
+field: {15867CB6-E128-4D78-9D4F-739E5963DFC4}
+name: Suffix
+key: suffix
+content-length: 8
+
+ &bull; 
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200330T071122Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e324d2af-2c5a-43e0-85a4-911a87fccccd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065826Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 6870e56f-9c1d-4cd3-b131-5730143f79f5
+
+----field----
+field: {FD5230D8-E68D-4E17-9D85-EA676F27AC3A}
+name: Prefix
+key: prefix
+content-length: 5
+
+Par: 
+----field----
+field: {15867CB6-E128-4D78-9D4F-739E5963DFC4}
+name: Suffix
+key: suffix
+content-length: 8
+
+ &bull; 
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200330T071122Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6870e56f-9c1d-4cd3-b131-5730143f79f5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230111T121021Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg

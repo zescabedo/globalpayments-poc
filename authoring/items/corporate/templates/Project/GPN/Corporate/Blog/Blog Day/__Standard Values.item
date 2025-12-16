@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {96764586-3BB9-4C60-8B5B-14E8928DB08C}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Blog/Blog Day/__Standard Values
+parent: {75DECE50-7B50-4BE6-84F9-93C1AA95F33E}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {75DECE50-7B50-4BE6-84F9-93C1AA95F33E}
+templatekey: Blog Day
+
+----field----
+field: {61CF7151-0CBD-4DB4-9738-D753A55A6E65}
+name: __Enforce version presence
+key: __enforce version presence
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 0
+
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 350
+
+{56162FEF-0592-4197-8F76-25AA1D104583}|{EA60BED9-C95C-4548-97B6-B71414876AAD}|{93A3D02A-5103-4787-A6FB-2B55309BD8B6}|{EA9F35EF-C955-4160-BFAB-B774B994F675}|{1703F5EA-EEE2-48DE-B946-A6CE48B8A05F}|{047FEF2F-7136-4EFF-ADA3-4FBCF40AD801}|{FF961FDC-D147-4625-8E2D-BA0A038E1072}|{B32113FE-56AF-4B06-9757-71051D6A0DE7}|{8A1EB947-C92B-4FFB-9CDD-F7AEBFA4DFF8}
+----version----
+language: en
+version: 1
+revision: 596cdf5e-f27a-4bef-b126-da5d08eb206f
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190909T010426Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+596cdf5e-f27a-4bef-b126-da5d08eb206f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230531T080350Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

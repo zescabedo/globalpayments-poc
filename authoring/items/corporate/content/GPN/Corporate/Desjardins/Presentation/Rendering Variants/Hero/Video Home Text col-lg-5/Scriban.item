@@ -1,0 +1,172 @@
+----item----
+version: 1
+id: {20E9833D-FB6F-4288-9341-53DA8B43B213}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Hero/Video Home Text col-lg-5/Scriban
+parent: {6909D0DD-B635-4B73-9A08-4DBC814C319B}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 2009
+
+{{ if (!o_pagemode.is_experience_editor_editing) 
+  $cta = get_general_link_info i_datasource "HeroLink"
+  $mobileImgUrl = ''
+  $mobileImgAlt = ''
+    if(i_datasource.HeroSmImage && i_datasource.HeroSmImage.media_url != "")
+      $mobileImgUrl = i_datasource.HeroSmImage.media_url
+      $mobileImgAlt = i_datasource.HeroSmImage.alt
+    end
+  $v = get_general_link_info i_datasource "HeroMovie"
+        $videoUrl = ''
+        if($v)
+            $videoUrl = $v.url
+        end
+ -}}
+{{end }}
+<div class="hero-bg image-focal-set">
+  <div class="container position-relative">
+    <div class="row h-100 hero-container">
+      <div class="col-12 promo-left mt-2 mt-md-4 mt-lg-7">
+        <div class="promo-text">
+          <div>
+            <div class="col-12 col-lg-5 p-0 field-herotext">{{ sc_field i_datasource 'HeroText' }}</div>
+            <div class="col-12 col-lg-5 p-0 field-herotext2">{{ sc_field i_datasource 'HeroText2' }}</div>
+            <div class="col-12 col-lg-5 p-0 field-herotext3">{{ sc_field i_datasource 'HeroText3' }}</div>
+          </div>
+          {{ if $a != null && $a.url != "" }}
+            <div class="field-herolink">
+            <a href="{{ $cta.url }}" class="{{ $cta.styleclass}}">{{ $cta.text }}</a>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class="image-wrapper">
+        <img src="{{$mobileImgUrl}}" alt="{{$mobileImgAlt}}" loading="lazy" class="img-fluid" />
+      </div>
+    </div>
+    <div class="promo-image text-right video-wrapper" style="height: 640px;">
+      <video muted loop playsinline autoplay height="640px" width="779px" class="decorative-video" title="Decorative background video">
+        {{ if !o_pagemode.is_experience_editor_editing }}
+        <source src="{{$videoUrl}}" type="video/mp4">
+         <!--source src="https://gpnprodsxavideo.azureedge.net/sxa/videos/corporate/HomeHeroCropV2.mp4" type="video/mp4"-->
+        {{ end }}
+      </video>
+    </div>
+  </div>
+</div>
+
+----version----
+language: en-CA
+version: 1
+revision: 1ca373c5-2268-459b-93c1-90e459fa27bb
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210715T115118Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210715T115118Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ca373c5-2268-459b-93c1-90e459fa27bb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220518T083222Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\Mohit_Kumar
+----version----
+language: fr-CA
+version: 1
+revision: bbd7ef3e-6d1a-4272-b591-1ab20efb798a
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210715T115118Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210715T115118Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bbd7ef3e-6d1a-4272-b591-1ab20efb798a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080208Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

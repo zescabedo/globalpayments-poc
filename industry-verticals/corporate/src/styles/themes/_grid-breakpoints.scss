@@ -1,0 +1,17 @@
+// ================
+// Grid breakpoints
+// ================
+
+$gpn-theme-grid-breakpoints: (
+  xs: 0,
+  sm: 391px,
+  md: 769px,
+  lg: 1366px,
+  // xl: 1366px,
+) !default;
+
+$gpn-theme-container-max-widths: (
+  sm: 768px,
+  md: 1344px,
+  lg: 1344px
+) !default;

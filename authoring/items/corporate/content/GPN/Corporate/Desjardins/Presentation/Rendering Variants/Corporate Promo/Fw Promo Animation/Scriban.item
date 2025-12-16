@@ -1,0 +1,146 @@
+----item----
+version: 1
+id: {7F2A282F-3E13-47E4-85D6-C1E7E3FDEB08}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Corporate Promo/Fw Promo Animation/Scriban
+parent: {97DC3078-AB44-4649-97B3-24E0E529CE74}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 1482
+
+{{
+    $i_url = ""
+    if(i_datasource.PromoIcon && i_datasource.PromoIcon.target)
+        $i_url = "background-image:url(" + i_datasource.PromoIcon.target.media_url + ");"
+    end
+    $bg_url = ""
+    if(i_datasource.PromoIcon2 && i_datasource.PromoIcon2.target)
+        $bg_url = "background-image:url(" + i_datasource.PromoIcon2.target.media_url + ");"
+    end
+
+    p_mobx = sc_raw i_datasource "Mobile X Point"
+    p_moby =  sc_raw i_datasource "Mobile Y Point"
+    p_nonmobx = sc_raw i_datasource "NonMobile X Point"
+    p_nonmoby = sc_raw i_datasource "NonMobile Y Point"
+}}
+
+<div class="outer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-lg-4 component rich-text promo-text">
+                {{ sc_field i_datasource 'PromoText' }}
+            </div>
+            {{ if (o_pagemode.is_experience_editor_editing) }}
+                <div class="bg-img" style="{{ $bg_url }}"></div>
+            {{ else }}
+                <div class="bg-img image-focal-set" style="{{ $bg_url }}" data-mobxfp="{{ p_mobx ?? '' }}"  data-mobyfp="{{ p_moby ?? '' }}" data-nonmobxfp="{{  p_nonmobx ?? '' }}"  
+                data-nonmobyfp="{{ p_nonmoby ?? '' }}"></div>
+            {{ end }}
+            <div class="col img-animate" style="{{ $i_url }}"></div>
+            <div class="img-sm">
+                <div class="img img-fluid" style="{{ $i_url }}"></div>
+            </div>
+        </div>
+    </div>
+</div>
+----version----
+language: en-CA
+version: 1
+revision: c225eb82-9873-4ad4-9e22-6cdbabb99ced
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210625T110235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c225eb82-9873-4ad4-9e22-6cdbabb99ced
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T070100Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: fc80ff93-6e54-4a21-9810-7309a8f7e99f
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210625T110235Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fc80ff93-6e54-4a21-9810-7309a8f7e99f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080439Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

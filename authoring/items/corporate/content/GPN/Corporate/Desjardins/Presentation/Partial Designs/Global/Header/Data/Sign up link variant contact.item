@@ -1,0 +1,551 @@
+----item----
+version: 1
+id: {5D983B20-4752-4DCE-80F8-0F91D0D2DC78}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Partial Designs/Global/Header/Data/Sign up link variant contact
+parent: {08390E58-879F-4279-9653-B13F2953DF47}
+name: Sign up link variant contact
+master: {00000000-0000-0000-0000-000000000000}
+template: {E24E0789-A058-48BF-ABB6-C69C0E60B6B7}
+templatekey: Link
+
+----version----
+language: en-150
+version: 1
+revision: 0b05e07d-4fff-4613-8cb2-45883eade7a9
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 203
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Contact us" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0b05e07d-4fff-4613-8cb2-45883eade7a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133114Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-BM
+version: 1
+revision: fac34e8e-fd13-434b-b402-61b1fae0e352
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 203
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Contact us" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fac34e8e-fd13-434b-b402-61b1fae0e352
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133114Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: 89b3723c-d915-415d-b71f-72a8553a09f6
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 200
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Sign up" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+89b3723c-d915-415d-b71f-72a8553a09f6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133115Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-GB
+version: 1
+revision: 87a9dd20-abfc-4e1c-b6c8-09687f78f0c9
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 200
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Sign up" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+87a9dd20-abfc-4e1c-b6c8-09687f78f0c9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133114Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-HK
+version: 1
+revision: 81918b4b-9361-45af-85ae-09128b6dead8
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 200
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Sign up" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+81918b4b-9361-45af-85ae-09128b6dead8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133114Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-MT
+version: 1
+revision: b90cafe4-4422-45c3-9081-4835fb3fc38a
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 203
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Contact us" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b90cafe4-4422-45c3-9081-4835fb3fc38a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133114Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 1
+revision: 0be58cee-dba0-408e-812c-a72648bbda0b
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 203
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Contact us" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0be58cee-dba0-408e-812c-a72648bbda0b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133115Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: es-ES
+version: 1
+revision: 8a1ff516-578d-4da0-a197-8eebffd30abc
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 201
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Contacto" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8a1ff516-578d-4da0-a197-8eebffd30abc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133114Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: fr-CA
+version: 1
+revision: 3c96962e-7d80-4676-9c8d-27e23c11826c
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 218
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Inscrivez-vous" anchor="" title="Inscription" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c96962e-7d80-4676-9c8d-27e23c11826c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133115Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: hu-HU
+version: 1
+revision: 39c453d5-8944-4ca0-81e6-c2334dadcf1f
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 202
+
+<link id="{1915426D-1E47-4144-ADF2-5AC6CA0DBC91}" querystring="" target="" text="Kapcsolat" anchor="" title="" class="" url="/GPN/Corporate/Desjardins/Home/Modals/Signup Homepage" linktype="internal" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+39c453d5-8944-4ca0-81e6-c2334dadcf1f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T133115Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

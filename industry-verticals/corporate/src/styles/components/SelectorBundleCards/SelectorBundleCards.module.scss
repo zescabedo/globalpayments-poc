@@ -1,0 +1,584 @@
+@import '../../atoms/action';
+
+.selector-bundle-cards {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'md');
+  .product-card-title {
+    display: flex;
+    flex-direction: column;
+    text-align: map-get($gpn-theme-selector-bundle-card, 'card-title-align');
+    gap: gpn-spacing-size('sm', 'xs');
+    @include gpn-spacing([ 'padding-bottom'], 'xs');
+    @include gpn-spacing([ 'padding-left', 'padding-right'], 'md');
+    @include make-col(12);
+    @include media-breakpoint-up(sm) {
+      @include make-col(10);
+      @include make-col-offset(1);
+    }
+
+    .title {
+      @extend %h-lg;
+    }
+
+    .subtitle {
+      @extend %p-md;
+      padding-bottom: gpn-spacing-size('sm', 'xs');
+    }
+  }
+
+  .cards-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    @include gpn-spacing([ 'row-gap'], 'sm');
+    margin-bottom: gpn-spacing-size('sm', 'sm');
+
+    @include media-breakpoint-up(sm) {
+      grid-auto-rows: 1fr;
+    }
+  }
+
+  .product-wrapper {
+    display: flex;
+    height: 100%;
+    position: relative;
+
+    .product-card {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      @include gpn-spacing([ 'gap'], 'sm');
+      background-color: map-get($gpn-theme-selector-bundle-card, 'card-background-color');
+      border-radius: map-get($gpn-theme-selector-bundle-card, 'border-radius');
+      @include gpn-spacing([ 'padding'], 'sm');
+
+      .product-title-group {
+        display: flex;
+        flex-direction: column;
+        gap: gpn-spacing-size('sm', 'xxs');
+        align-items: map-get($gpn-theme-selector-bundle-card, 'card-title-group-alignment');
+        position: relative;
+
+        > a {
+          text-decoration: none !important;
+        }
+
+        .product-title {
+          @extend %h-sm;
+          text-align: center;
+        }
+
+        .link-overlay {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: transparent;
+        }
+      }
+
+      .product-info-group {
+        .link-overlay {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: transparent;
+        }
+      }
+
+      .product-details {
+        @extend %p-sm;
+        text-align: map-get($gpn-theme-selector-bundle-card, 'product-details-align');
+      }
+
+      .product-cta {
+        margin-top: auto;
+      }
+
+      hr {
+        color: $gpn-theme-grey-400;
+      }
+
+      .image-wrapper {
+        text-align: map-get($gpn-theme-selector-bundle-card, 'image-wrapper-text-align');
+
+        img {
+          width: 100%;
+          height: map-get($gpn-theme-selector-bundle-card, 'product-image-height');
+          object-fit: cover;
+        }
+
+        video {
+          display: none;
+          overflow: hidden;
+          width: 100%;
+          height: map-get($gpn-theme-selector-bundle-card, 'product-image-height');
+        }
+
+        &.has-video {
+          &:hover:not(.is-editing) {
+            img {
+              display: none;
+            }
+
+            video {
+              display: block;
+            }
+          }
+
+          &.is-editing {
+            img,
+            video {
+              display: block;
+              position: relative;
+            }
+          }
+        }
+      }
+
+      .product-info {
+        padding-bottom: gpn-spacing-size('sm', 'sm');
+        .product-name {
+          @extend %label-md;
+          padding-bottom: gpn-spacing-size('sm', 'xxs');
+        }
+
+        .product-price {
+          @extend %h-lg;
+          padding-bottom: gpn-spacing-size('sm', 'xxs');
+        }
+      }
+
+      .product-request {
+        padding-bottom: gpn-spacing-size('sm', 'sm');
+      }
+
+      .product-notes {
+        @extend %p-xxs;
+        @include gpn-spacing([ 'margin-top'], 'md');
+      }
+
+      .product-features {
+        padding-top: gpn-spacing-size('sm', 'xxs');
+
+        .features {
+          @extend %p-sm;
+          color: $gpn-theme-off-black;
+        }
+
+        .accordion-item {
+          border: none;
+          background: none;
+          display: flex;
+          flex-direction: column;
+          @include gpn-spacing([ 'gap'], 'xs');
+
+          .accordion-header {
+            z-index: 5;
+            .accordion-button {
+              background: none;
+              padding: 0;
+              height: gpn-spacing-size('sm', 'sm');
+              box-shadow: none;
+
+              &::after {
+                background-image: map-get($gpn-theme-accordions, 'accordion-icon-collapsed');
+                background-position: center;
+                background-repeat: no-repeat;
+                content: '';
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                height: map-get($gpn-theme-accordions, 'icon-height-size');
+                width: map-get($gpn-theme-accordions, 'icon-width-size');
+                cursor: pointer;
+              }
+
+              &:not(.collapsed)::after {
+                background-image: map-get($gpn-theme-accordions, 'accordion-icon-not-collapsed');
+              }
+            }
+          }
+
+          .accordion-body {
+            padding: 0;
+
+            .field-traycontent {
+              ul {
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+                gap: gpn-spacing-size('sm', 'xxs');
+              }
+
+              div,
+              li,
+              p {
+                @extend %p-sm;
+              }
+            }
+          }
+        }
+      }
+
+      .notes {
+        @extend %p-xxs;
+        padding-bottom: gpn-spacing-size('sm', 'xxs');
+      }
+
+      &:not([class*='bg-']) {
+        .product-title-group {
+          a.product-title,
+          .product-title a {
+            color: $gpn-theme-base;
+          }
+        }
+
+        .product-title-group,
+        .product-info-group {
+          &:hover {
+            $linkColour: $gpn-theme-base;
+            .title {
+              color: $linkColour;
+            }
+            a:not(.btn):not([class*='btn-']):not([class*='link-glow']):not(.editing-mode *) {
+              @include link-on-parent-hover($linkColour);
+            }
+            @include clickable-cta-card('white');
+          }
+        }
+
+        .product-cta,
+        .product-request {
+          // Reset any background-specific styling
+          // For cta variants
+          @each $ctaButtonType, $details in $gpn-theme-cta-buttons {
+            .btn-cta-#{$ctaButtonType} {
+              $buttonType: map-get($details, 'button-type');
+              $outputDetails: map-get($details, 'default');
+              @include cta-button($buttonType, $outputDetails);
+            }
+          }
+          // For link-glow variants
+          @each $colour, $value in $glow-arrows {
+            .link-glow-#{$colour} {
+              $textColour: map-get($value, 'text');
+              $textHover: map-get($value, 'text-hover');
+              $background: map-get($value, 'background');
+              $image: map-get($value, 'image');
+
+              color: $textColour;
+
+              &:hover,
+              &:focus,
+              &:active {
+                color: $textHover;
+              }
+
+              &:focus:after {
+                background-color: $background;
+                width: 100%;
+              }
+
+              &:after {
+                background-image: $image;
+                background-color: $background;
+              }
+            }
+          }
+
+          a.link {
+            color: $gpn-theme-base;
+            transition: color 0.1s linear, text-decoration-color 0.1s linear;
+            text-decoration: underline;
+            text-decoration-color: $gpn-theme-base;
+
+            @include hover-set {
+              text-decoration-color: transparent !important;
+              color: darken($gpn-theme-base, 10%);
+            }
+          }
+        }
+
+        li,
+        span:not(.editing-mode *) {
+          color: $gpn-theme-black;
+        }
+      }
+    }
+  }
+
+  .cta-wrapper {
+
+    .cta-box {
+      @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'md');
+      text-align: center;
+      background-color: map-get($gpn-theme-selector-bundle-card, 'cta-box-background');
+      display: flex;
+      flex-direction: column;
+      gap: gpn-spacing-size('sm', 'xs');
+      border-radius: $gpn-theme-radius-xl;
+
+      .title {
+        @extend %h-sm;
+        padding-bottom: gpn-spacing-size('sm', 'xxs');
+      }
+
+      &:not([class*='bg-']) {
+        .title {
+          color: $gpn-theme-black;
+        }
+        // Reset any background-specific styling
+        // For cta variants
+        @each $ctaButtonType, $details in $gpn-theme-cta-buttons {
+          .btn-cta-#{$ctaButtonType} {
+            $buttonType: map-get($details, 'button-type');
+            $outputDetails: map-get($details, 'default');
+            @include cta-button($buttonType, $outputDetails);
+          }
+        }
+        // For link-glow variants
+        @each $colour, $value in $glow-arrows {
+          .link-glow-#{$colour} {
+            $textColour: map-get($value, 'text');
+            $textHover: map-get($value, 'text-hover');
+            $background: map-get($value, 'background');
+            $image: map-get($value, 'image');
+
+            color: $textColour;
+
+            &:hover,
+            &:focus,
+            &:active {
+              color: $textHover;
+            }
+
+            &:focus:after {
+              background-color: $background;
+              width: 100%;
+            }
+
+            &:after {
+              background-image: $image;
+              background-color: $background;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @each $theme, $details in $gpn-theme-colour-themes {
+    &.bg-#{$theme} {
+      .product-card-title {
+        div {
+          color: get-theme-colour-for($theme, $details);
+        }
+      }
+    }
+    .product-wrapper {
+      .product-card {
+        &.bg-#{$theme} {
+          @if (is-dark-theme-colour($theme)) {
+            .product-features {
+              .accordion {
+                .accordion-item {
+                  .accordion-header {
+                    .accordion-button {
+                      &::after {
+                        background-image: map-get(
+                          $gpn-theme-accordions,
+                          'accordion-icon-white-collapsed'
+                        );
+                      }
+
+                      &:not(.collapsed)::after {
+                        background-image: map-get(
+                          $gpn-theme-accordions,
+                          'accordion-icon-white-not-collapsed'
+                        );
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          // Apply background-specific styling based on card background
+          // For cta variants
+          @each $ctaButtonType, $details in $gpn-theme-cta-buttons {
+            .btn-cta-#{$ctaButtonType} {
+              $buttonType: map-get($details, 'button-type');
+              $outputDetails: map-get($details, 'default');
+              @if ($theme == 'base') {
+                $outputDetails: map-get($details, 'theme-matches');
+              } @else if (is-light-theme-colour($theme)) {
+                $outputDetails: map-get($details, 'light');
+              } @else if (is-dark-theme-colour($theme)) {
+                $outputDetails: map-get($details, 'dark');
+              }
+
+              @if ($outputDetails != null) {
+                @include cta-button($buttonType, $outputDetails);
+              }
+            }
+          }
+        }
+      }
+    }
+    .cta-wrapper {
+      .cta-box {
+        &.bg-#{$theme} {
+          // Apply background-specific styling based on card background
+          // For cta variants
+          @each $ctaButtonType, $details in $gpn-theme-cta-buttons {
+            .btn-cta-#{$ctaButtonType} {
+              $buttonType: map-get($details, 'button-type');
+              $outputDetails: map-get($details, 'default');
+              @if ($theme == 'base') {
+                $outputDetails: map-get($details, 'theme-matches');
+              } @else if (is-light-theme-colour($theme)) {
+                $outputDetails: map-get($details, 'light');
+              } @else if (is-dark-theme-colour($theme)) {
+                $outputDetails: map-get($details, 'dark');
+              }
+
+              @if ($outputDetails != null) {
+                @include cta-button($buttonType, $outputDetails);
+              }
+            }
+          }
+          // For link-glow variants
+          @each $glowButton, $details in $glow-arrows {
+            $textColour: map-get($details, 'text');
+            $textHoverColour: map-get($details, 'text-hover');
+            @if (is-dark-theme-colour($theme)) {
+              $textColour: map-get($details, 'dark-background-text');
+              $textHoverColour: map-get($details, 'dark-background-text-hover');
+            }
+
+            $backgroundColour: map-get($details, 'background');
+            @if ($glowButton == $theme) {
+              $backgroundColour: map-get(
+                $details,
+                'theme-matches-glow-colour-alternative-background'
+              );
+            }
+
+            .link-glow-#{$glowButton} {
+              color: $textColour;
+
+              &:after {
+                background-color: $backgroundColour;
+              }
+              &:focus:after {
+                background-color: $backgroundColour;
+              }
+
+              @if ($glowButton == $theme) {
+                &:after {
+                  background-image: map-get($details, 'theme-matches-glow-colour-alternative-icon');
+                }
+              }
+
+              @include media-breakpoint-up(sm) {
+                &:hover,
+                &:focus,
+                &:active {
+                  color: $textHoverColour;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @import './selector-bundle-cards/selector-bundle-cards-variants';
+}
+
+// This is to enable editing of fields in product-title-group in Experience Editor
+.editing-mode {
+  .selector-bundle-cards {
+    .product-wrapper {
+      // This is done to match the width and height of card in absence of any content e.g. image, top/bottom section in experience editor.
+      > .scLooseFrameZone {
+        width: 100%;
+        display: flex;
+      }
+
+      .product-card {
+        .product-title-group,
+        .product-info-group {
+          .link-overlay {
+            display: none;
+          }
+        }
+
+        .product-title-group {
+          a:not(span.link a) {
+            text-decoration: none !important;
+          }
+        }
+
+        &:not([class*='bg-']) {
+          span:not(.btn:has(a)):not([class*='btn-']:has(a)):not([class*='link-glow']:has(a)):not(
+              .link-headline-listitem:has(a)
+            ):not(.link-inline-linklist-item:has(a)):not(.link-external:has(a)),
+          div {
+            color: $gpn-theme-black !important;
+          }
+          .product-title-group,
+          .product-info-group {
+            &:hover {
+              $linkColour: $gpn-theme-base;
+              .title {
+                color: $linkColour;
+              }
+              span:not(.btn):not([class*='btn-']):not([class*='link-glow']):not(
+                  .link-headline-listitem
+                ):not(.link-inline-linklist-item):not(.link-external) {
+                a:not(.btn):not([class*='btn-']):not([class*='link-glow']) {
+                  @include link-on-parent-hover($linkColour);
+                }
+              }
+              @include clickable-cta-card('white');
+            }
+          }
+          span.link a {
+            color: $gpn-theme-base;
+            transition: color 0.1s linear, text-decoration-color 0.1s linear;
+            text-decoration: underline;
+            text-decoration-color: $gpn-theme-base;
+
+            @include hover-set {
+              text-decoration-color: transparent !important;
+              color: darken($gpn-theme-base, 10%);
+            }
+          }
+        }
+      }
+    }
+
+    .cta-wrapper {
+      .cta-box {
+        &:not([class*='bg-']) {
+          .title {
+            span:not(.btn:has(a)):not([class*='btn-']:has(a)):not([class*='link-glow']:has(a)):not(
+                .link-headline-listitem:has(a)
+              ):not(.link-inline-linklist-item:has(a)):not(.link-external:has(a)),
+            div {
+              color: $gpn-theme-black !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

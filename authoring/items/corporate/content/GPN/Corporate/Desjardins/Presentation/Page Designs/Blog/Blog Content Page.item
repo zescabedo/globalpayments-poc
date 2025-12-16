@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {B00C7096-FDD7-498A-AB0E-6FAD2201E0F3}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Page Designs/Blog/Blog Content Page
+parent: {9BEA3108-3630-47DD-B0B0-AC947E8F3246}
+name: Blog Content Page
+master: {00000000-0000-0000-0000-000000000000}
+template: {A8F690A2-46B2-49FD-9ACD-797AA8003EC6}
+templatekey: Page Design
+
+----field----
+field: {0966B999-0D0E-4278-ACC9-9DA69D461FE6}
+name: PartialDesigns
+key: partialdesigns
+content-length: 116
+
+{B6739DBA-B204-4F6A-BE82-B08BB9F4FFA1}|{991B8625-A411-498B-893A-9018E07DAF32}|{3CA23E92-FE6B-4682-9967-C830236CAB1F}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{493044DD-B102-48C8-9E63-2D5B0191E5D9}
+----version----
+language: en-CA
+version: 1
+revision: b48be3ae-a50d-476d-afd8-ec45fd23ac15
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200221T112516Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b48be3ae-a50d-476d-afd8-ec45fd23ac15
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230629T122817Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: fr-CA
+version: 1
+revision: 742f10f9-889a-426c-ad06-b15522b9ab65
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200221T112516Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+742f10f9-889a-426c-ad06-b15522b9ab65
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230629T125758Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

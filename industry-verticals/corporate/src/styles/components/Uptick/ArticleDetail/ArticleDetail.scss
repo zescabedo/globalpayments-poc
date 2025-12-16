@@ -1,0 +1,40 @@
+.article-detail {
+  @import './ContentBlock/HorizontalLineBlock.scss';
+  @import './ContentBlock/TestimonialBlock.scss';
+  @import './ContentBlock/TwoColumnQuoteBlock.scss';
+  @import './ContentBlock/TwoColumnTextBlock.scss';
+  @import './ContentBlock/InteractiveBlock.scss';
+  @import './ContentBlock/audioPlaybackBlock.scss';
+  @import './ContentBlock/imageBlock.scss';
+  @import './ContentBlock/videoBlock.scss';
+
+  .uptick-content-block {
+    @include gpn-spacing([ 'margin-bottom'], 'sm');
+
+    p {
+      @include gpn-spacing([ 'margin-bottom'], 'xs');
+    }
+
+    &.block-highlight {
+      background: map-get($gpn-theme-uptick-block-common, 'hightlight-background');
+      @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xs');
+      @include gpn-spacing([ 'padding-left', 'padding-right'], 'xs');
+    }
+
+    .brow {
+      @extend %label-md;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+    iframe {
+      width: 100%;
+    }
+  }
+
+  .image-container {
+    aspect-ratio: map-get($gpn-theme-uptick-block-common, 'image-container-aspect-ratio');
+  }
+}

@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {FDADCFE7-4E90-47E1-8A1A-200EC766786B}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Settings/Scopes/Build Guide Search Scope
+parent: {7BAD0FA5-E775-49BE-9416-24C4C1434CDA}
+name: Build Guide Search Scope
+master: {00000000-0000-0000-0000-000000000000}
+template: {8B649372-CC12-4F31-802A-8C3B3D09BB3F}
+templatekey: Scope
+
+----field----
+field: {B04FE662-2B23-44DD-B971-2B864A1EC55F}
+name: ScopeQuery
+key: scopequery
+content-length: 158
+
++location:C7CC242E-499C-46FF-89CF-C3F7617535A2;template:{B6A3E5A8-C230-4D9D-A297-4683F064DEFF};language:en-us;template:{EA60BED9-C95C-4548-97B6-B71414876AAD};

@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {35F5D09E-1172-48DC-9979-1C1641D7FFF8}
+database: master
+path: /sitecore/media library/Themes/GPN/Corporate/GPN Blog/GPN Blog
+parent: {28997499-C850-4E26-99FD-41344EF052DD}
+name: GPN Blog
+master: {00000000-0000-0000-0000-000000000000}
+template: {F7653F31-6F17-4DAA-9217-8E116BABC927}
+templatekey: Theme
+
+----field----
+field: {384C2D3C-3E34-4493-9CB2-ADE68CAF0DA2}
+name: BaseLayout
+key: baselayout
+content-length: 233
+
+{89E1E914-C3B4-4213-A165-D11540A91F83}|{9C1D66B3-6828-4759-9EEC-D68A7A2CE248}|{1FF2E882-18C3-4FF3-8B1A-736ECA929C5F}|{C7F3C097-9A71-4701-B8A9-0C6740FBF84E}|{D889F096-AFAB-4539-9E73-4DD3E05FCEC9}|{BE64132C-24B0-43FD-8874-3A081DFE83A2}
+----field----
+field: {4648C540-D945-41BF-A6D0-59A2C2653647}
+name: OtherClasses
+key: otherclasses
+content-length: 0
+
+
+----field----
+field: {4A41457A-841A-4772-B26F-D4B10CD96DB4}
+name: PlaceholderSettings
+key: placeholdersettings
+content-length: 279
+
+%7b76CE8BD6-2A35-4800-AD50-8668C65426E9%7d%3d%257B549021D8-F27F-4217-805C-20D686E470D9%257D%26%7b862BE8D1-AE2F-40DE-ABF9-43D741C35C32%7d%3d%257B91193E28-C9C9-49EB-916D-87E5AF0F1E34%257D%26%7bBA2081A2-C749-4B1A-B7A3-84C23283657A%7d%3d%257B549021D8-F27F-4217-805C-20D686E470D9%257D
+----version----
+language: en
+version: 1
+revision: f45441d7-0963-45d8-a6f1-de49578ea1cf
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200213T102920Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f45441d7-0963-45d8-a6f1-de49578ea1cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210223T062404Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

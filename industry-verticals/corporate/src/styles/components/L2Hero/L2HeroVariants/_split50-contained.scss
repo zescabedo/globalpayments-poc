@@ -1,0 +1,30 @@
+&.split50-contained {
+  overflow: hidden;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .copy-section {
+      @include make-col(12);
+      @include media-breakpoint-up(md) {
+        @include make-col(6);
+      }
+    }
+    .media-section {
+      margin: 0;
+      @include make-col(10);
+      @include make-col-offset(1);
+      @include media-breakpoint-up(md) {
+        @include make-col(6);
+        @include make-col-offset(0);
+      }
+
+      img,
+      video {
+        margin: 0;
+        width: 100%;
+        object-position: 0% 0%;
+      }
+    }
+  }
+}

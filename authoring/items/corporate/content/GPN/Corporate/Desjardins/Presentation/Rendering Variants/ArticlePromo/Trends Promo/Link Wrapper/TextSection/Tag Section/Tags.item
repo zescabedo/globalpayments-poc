@@ -1,0 +1,25 @@
+----item----
+version: 1
+id: {362D3865-E223-4F58-88F3-761ED454CCA2}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/ArticlePromo/Trends Promo/Link Wrapper/TextSection/Tag Section/Tags
+parent: {69EC49ED-2B2D-4447-B49C-B29F30C41C3A}
+name: Tags
+master: {00000000-0000-0000-0000-000000000000}
+template: {ACA5C9A3-CDA0-49B6-893F-1D4A7CB595B0}
+templatekey: VariantSection
+
+----field----
+field: {BEA2740E-90D1-4B16-BD1D-7A7CC8605D2D}
+name: CssClass
+key: cssclass
+content-length: 18
+
+promo-tags-section
+----field----
+field: {4A997FFD-136B-409E-8DC9-FDE53AC545A3}
+name: IsLink
+key: islink
+content-length: 0
+
+

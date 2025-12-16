@@ -1,0 +1,682 @@
+----item----
+version: 1
+id: {26D8A644-05C2-4BE4-B6E9-B0067CACD9DF}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Partial Designs/Global/BG Header/Data/Mobile Nav Icons
+parent: {8E742B7A-6263-4DBB-90C0-8C4A64E3BCEF}
+name: Mobile Nav Icons
+master: {00000000-0000-0000-0000-000000000000}
+template: {2AD23D55-AECD-43DD-AE0D-72D2EBCBA60F}
+templatekey: HTML Code
+
+----version----
+language: en-150
+version: 1
+revision: e395db3f-6619-4c5e-8cd8-493ca462f1b7
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e395db3f-6619-4c5e-8cd8-493ca462f1b7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230210T061605Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-AU
+version: 1
+revision: 1525cb42-36fe-4729-bd30-bf0bb6287bf7
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1525cb42-36fe-4729-bd30-bf0bb6287bf7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230817T100002Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-BM
+version: 1
+revision: 36104307-4525-446f-9e37-5f0589c04b76
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+36104307-4525-446f-9e37-5f0589c04b76
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T152210Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: dfdcff2a-ba62-4ca1-8030-85cb87afb0d9
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dfdcff2a-ba62-4ca1-8030-85cb87afb0d9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T070031Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-GB
+version: 1
+revision: a5cb6493-39e1-42e0-b939-c7073e3e2fd6
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a5cb6493-39e1-42e0-b939-c7073e3e2fd6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T072401Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-HK
+version: 1
+revision: 6dff898e-bc8d-4ada-bb9a-4e1c58877dc2
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6dff898e-bc8d-4ada-bb9a-4e1c58877dc2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T073351Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-MT
+version: 1
+revision: 9d09187a-d551-49e6-97aa-15d25a417090
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9d09187a-d551-49e6-97aa-15d25a417090
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T152211Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 1
+revision: d9f7e70a-40d5-4401-8588-59414b39d839
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d9f7e70a-40d5-4401-8588-59414b39d839
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210705T155125Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: es-ES
+version: 1
+revision: edd7d07b-c447-4e77-8cc3-32cb26e12547
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+edd7d07b-c447-4e77-8cc3-32cb26e12547
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211117T201119Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: 7187ce72-b95f-4262-8e44-68e6fa60ef7e
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7187ce72-b95f-4262-8e44-68e6fa60ef7e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080825Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: hu-HU
+version: 1
+revision: f842d7d5-c5fe-4b02-9f58-74ac1326e597
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 325
+
+<div class="mobile-icons">
+<a class="search-toggle search-toggle-nav" role="menuitem" aria-haspopup="true" aria-expanded="false">
+	<span class="visuallyhidden">Search</span>
+	<div class="search-toggle-icon"></div>
+</a>
+<div class="signup-placeholder"></div>
+<div class="icon-burger" aria-expanded="false"></div>
+</div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210220T024846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f842d7d5-c5fe-4b02-9f58-74ac1326e597
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220712T045105Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

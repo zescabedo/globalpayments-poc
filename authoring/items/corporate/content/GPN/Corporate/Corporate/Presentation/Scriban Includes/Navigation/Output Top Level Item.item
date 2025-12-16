@@ -1,0 +1,105 @@
+----item----
+version: 1
+id: {662C657A-0493-4414-8DF3-79E6EE3DE580}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Scriban Includes/Navigation/Output Top Level Item
+parent: {18979027-8EAE-432E-B8F2-C6A502CE8885}
+name: Output Top Level Item
+master: {00000000-0000-0000-0000-000000000000}
+template: {CB401771-43AB-4F1E-B711-8C5EA7C37BE1}
+templatekey: Scriban Include
+
+----field----
+field: {241300DA-5F88-498D-B4DD-BBBE04178DE6}
+name: Key
+key: key
+content-length: 25
+
+nav-output-top-level-item
+----field----
+field: {E3CDCF5B-6FD6-48B1-A02F-797D3BCD50D8}
+name: Template
+key: template
+content-length: 1161
+
+
+{{
+
+    # Top level navigation item
+    $item = $1.item
+    $hasChildren = $item.children.count > 0
+
+    $a = get_general_link_info $item "NavigationLink"
+
+    $title = $item.HeaderTitle.raw
+    if(!$title || $title == "")
+        $title = $item.NavigationTitle.raw
+    end
+
+    $aProps = ''
+    if $a
+        if $a.url && $a.url != "" && !o_pagemode.is_experience_editor_editing
+            $aProps = "href='" + $a.url + "' title='" + $a.title + "' target='" + $a.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a.gatext + "'"
+        else
+            $aProps = "title='" + $a.title + "' data-ea-zone='Header' data-ea-type='parent tab click' data-ea-link='" + $title + "'"
+        end
+    end
+
+    $cssClass = "nav-link"
+    if $hasChildren 
+        $cssClass = $cssClass + " dropdown-toggle"
+    end
+    $id = $item.ID | format_id
+
+}}
+<a class="{{ $cssClass }}" tabindex="0" id="{{ $id }}" {{ if $hasChildren }} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {{ end }} {{ $aProps }}>
+    <span class="top-navigation-title" data-content="{{ $title }}">{{ $title }}</span>
+</a>
+
+----version----
+language: en-US
+version: 1
+revision: a522c8ed-624b-458a-8dc3-6ef8da24393d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20231030T052715Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a522c8ed-624b-458a-8dc3-6ef8da24393d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240312T234746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

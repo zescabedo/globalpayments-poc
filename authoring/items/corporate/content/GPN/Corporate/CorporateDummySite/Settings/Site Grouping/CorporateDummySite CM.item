@@ -1,0 +1,299 @@
+----item----
+version: 1
+id: {CE2B6A98-5A6D-4098-B182-74C21A75E357}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Site Grouping/CorporateDummySite CM
+parent: {53788C31-06B6-42A6-8216-598EC1D80BD8}
+name: CorporateDummySite CM
+master: {B90549B5-C997-4D6B-B102-C9AB82528974}
+template: {EDA823FC-BC7E-4EF6-B498-CD09EC6FDAEF}
+templatekey: Site
+
+----field----
+field: {CB4E9E2E-2B66-43DC-AD3F-9CAF363D28D3}
+name: SiteName
+key: sitename
+content-length: 18
+
+CorporateDummySite
+----field----
+field: {DA06D09E-02B6-464A-80FC-9D8D7FC875E3}
+name: Environment
+key: environment
+content-length: 17
+
+ContentManagement
+----field----
+field: {E5B5CCB5-17A1-429D-BD3E-6122B3216E52}
+name: TargetHostName
+key: targethostname
+content-length: 35
+
+gpn-sc100-uat1-cm.azurewebsites.net
+----field----
+field: {8E0DD914-9AFB-4D45-BF8B-7FF5D6E5337E}
+name: HostName
+key: hostname
+content-length: 35
+
+gpn-sc100-uat1-cm.azurewebsites.net
+----field----
+field: {475031D8-724D-463C-80B2-90839DD1AD98}
+name: VirtualFolder
+key: virtualfolder
+content-length: 6
+
+/dummy
+----field----
+field: {1EE576AF-BA8E-4312-9FBD-2CCF8395BAA1}
+name: StartItem
+key: startitem
+content-length: 38
+
+{CBCB1DFE-9E6F-4C5D-89FF-463504B6A83E}
+----field----
+field: {A7803A5D-CD03-4EDA-ABED-1D9AF4BF6660}
+name: Database
+key: database
+content-length: 6
+
+master
+----field----
+field: {822CC751-5C96-4A43-B687-FF4786A6EBA2}
+name: LinkProvider
+key: linkprovider
+content-length: 28
+
+multilangWithDefaultProvider
+----field----
+field: {301E719A-6F65-4874-B565-A953A7B5AC83}
+name: OtherProperties
+key: otherproperties
+content-length: 119
+
+formsRoot=%7BC8465A5F-2410-4EBB-AE03-85558BDCE8E8%7D&enforceVersionPresence=true&allowedLanguages=en-US%2Cen-CA%2Cfr-CA
+----field----
+field: {F19277FE-1B85-4B0A-8C26-5E74D766B3A3}
+name: Language
+key: language
+content-length: 5
+
+fr-CA
+----field----
+field: {4E9E2AE5-36DB-4955-9AF1-5A1934A27C7D}
+name: Language Embedding
+key: language embedding
+content-length: 1
+
+1
+----field----
+field: {8C436235-B85D-4097-89CF-D5A4FA70CC0A}
+name: ItemLanguageFallback
+key: itemlanguagefallback
+content-length: 1
+
+1
+----field----
+field: {6E6DA5B0-8D01-4514-B7DD-1940AFF3E8CD}
+name: FieldLanguageFallback
+key: fieldlanguagefallback
+content-length: 0
+
+
+----field----
+field: {3C090B55-86F4-40E1-932E-47BF73A91491}
+name: AllowDebug
+key: allowdebug
+content-length: 1
+
+1
+----field----
+field: {C2613027-60CF-4791-AFFB-74C9F5FA3DA5}
+name: CacheHtml
+key: cachehtml
+content-length: 0
+
+
+----field----
+field: {D394F72D-670F-45D1-A590-AB8977EC20F2}
+name: EnableDebugger
+key: enabledebugger
+content-length: 1
+
+1
+----field----
+field: {BDDA404F-9835-456A-84D2-6E9CFE6B5909}
+name: HtmlCacheSize
+key: htmlcachesize
+content-length: 3
+
+250
+----field----
+field: {5FFF3CC5-490C-4469-9C45-4C98EB7421A0}
+name: XslCacheSize
+key: xslcachesize
+content-length: 2
+
+50
+----field----
+field: {42DDBE59-96DF-4C83-BB22-0F739A603B3D}
+name: FilteredItemsCacheSize
+key: filtereditemscachesize
+content-length: 2
+
+50
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{0EF8CB53-535D-41FE-8704-2C014D60D2DD}
+----field----
+field: {9135200A-5626-4DD8-AB9D-D665B8C11748}
+name: __Never publish
+key: __never publish
+content-length: 1
+
+1
+----version----
+language: en-CA
+version: 1
+revision: 68dacfeb-3bf9-4cec-a1a2-7ea3726fea88
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200729T001712Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+68dacfeb-3bf9-4cec-a1a2-7ea3726fea88
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220302T184715Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----version----
+language: en-US
+version: 1
+revision: f43250c9-8fc8-4e42-8e38-f6fc2dca56ae
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200729T001712Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f43250c9-8fc8-4e42-8e38-f6fc2dca56ae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220310T190215Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Aneesh_Chowdhury
+----version----
+language: fr-CA
+version: 1
+revision: 4ef83a4b-6085-405e-b18c-6ff41a79518c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200729T001712Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4ef83a4b-6085-405e-b18c-6ff41a79518c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220302T184728Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 26
+
+sitecore\Aneesh_LocalAdmin

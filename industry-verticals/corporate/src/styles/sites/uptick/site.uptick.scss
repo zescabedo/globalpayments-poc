@@ -1,0 +1,15 @@
+// Uptick site styles
+// base global styles for uptick
+
+// override theme variables with 'default!'
+
+body {
+  --site-name: 'Uptick';
+}
+
+@import '@styles/main';
+
+@import '@styles/base-theme';
+
+// import any component specific override files
+//@import '@styles/components/Accordion/Accordion.Uptick';

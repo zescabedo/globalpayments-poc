@@ -1,0 +1,1141 @@
+----item----
+version: 1
+id: {55DDBAFE-7645-479D-BD3A-12E699BB3F67}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Partial Designs/Blog/Blog Content Page/Data/AddThis
+parent: {F5B9D6E6-EEBF-4969-9278-1C337C048951}
+name: AddThis
+master: {00000000-0000-0000-0000-000000000000}
+template: {2AD23D55-AECD-43DD-AE0D-72D2EBCBA60F}
+templatekey: HTML Code
+
+----version----
+language: en-150
+version: 1
+revision: 030ce513-d0ff-4cc8-b958-5cc35f5d5381
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5575
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">Subscribe</a></div>
+<div class="share-icons at-share-btn-elements"><span class="share-text">Share</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+030ce513-d0ff-4cc8-b958-5cc35f5d5381
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230210T061809Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-AU
+version: 1
+revision: 7c81c7d5-8c60-4721-96e7-7aa3954058e9
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5575
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">Subscribe</a></div>
+<div class="share-icons at-share-btn-elements"><span class="share-text">Share</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7c81c7d5-8c60-4721-96e7-7aa3954058e9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230817T100246Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-BM
+version: 1
+revision: 56379fd2-1059-4daf-9c10-1e4c61176e6a
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5575
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">Subscribe</a></div>
+<div class="share-icons at-share-btn-elements"><span class="share-text">Share</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+56379fd2-1059-4daf-9c10-1e4c61176e6a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T152535Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: b8847a2f-09f7-447b-893b-bc34597afdda
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5553
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">Subscribe</a></div>
+<div class="share-icons"><span class="share-text">Share</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b8847a2f-09f7-447b-893b-bc34597afdda
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220422T122557Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: en-GB
+version: 1
+revision: 1d8810c1-c0f7-4fe4-b911-198a78e2be10
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5553
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">Subscribe</a></div>
+<div class="share-icons"><span class="share-text">Share</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1d8810c1-c0f7-4fe4-b911-198a78e2be10
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220422T122538Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: en-HK
+version: 1
+revision: d9fea399-63c1-4a7f-853b-914312e7b352
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5553
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">Subscribe</a></div>
+<div class="share-icons"><span class="share-text">Share</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d9fea399-63c1-4a7f-853b-914312e7b352
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220422T122551Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: en-MT
+version: 1
+revision: 7a5733b3-3944-4d5d-aea9-a6b8668432b1
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5575
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">Subscribe</a></div>
+<div class="share-icons at-share-btn-elements"><span class="share-text">Share</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7a5733b3-3944-4d5d-aea9-a6b8668432b1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T152535Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 1
+revision: 3eb3785c-91af-47b9-ad75-e7f35062512d
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5575
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">Subscribe</a></div>
+<div class="share-icons at-share-btn-elements"><span class="share-text">Share</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3eb3785c-91af-47b9-ad75-e7f35062512d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230111T120951Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: a96a81d7-9b81-4286-9d2e-2d9b973c42a1
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5556
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">S'abonnez</a></div>
+<div class="share-icons"><span class="share-text">Partager</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a96a81d7-9b81-4286-9d2e-2d9b973c42a1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220422T122602Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: hu-HU
+version: 1
+revision: 491f2271-2e44-477f-ab9a-5236d6e7a136
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 5553
+
+<style>
+.addthis-smartlayers { display: none; }
+.bg-primary-1.full-width.mt-3 { display: none; }
+</style>
+<div class="blog-article-share-bar">
+<div id="at-share-dock" class="at-share-dock atss atss-bottom at-shfs-small addthis-animated slideInUp">
+<div class="container"><div class="row"><div class="col-12">
+<div class="share-subscribe"><a href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" class="btn btn-sm btn-primary-1 overlay-source">Subscribe</a></div>
+<div class="share-icons"><span class="share-text">Share</span>
+                                    <a role="button" tabindex="0" title="Facebook" class="at-share-btn at-svc-facebook">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-facebook-1"
+                                                title="Facebook" alt="Facebook" class="at-icon at-icon-facebook"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-facebook-1">Facebook</title>
+                                                <g>
+                                                    <path
+                                                        d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="Twitter" class="at-share-btn at-svc-twitter">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-twitter-2"
+                                                title="Twitter" alt="Twitter" class="at-icon at-icon-twitter"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-twitter-2">Twitter</title>
+                                                <g>
+                                                    <path
+                                                        d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <a role="button" tabindex="0" title="LinkedIn" class="at-share-btn at-svc-linkedin">
+                                        <span class="at-icon-wrapper" style="background-color: rgb(255, 255, 255);">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"
+                                                version="1.1" role="img" aria-labelledby="at-svg-linkedin-3"
+                                                title="LinkedIn" alt="LinkedIn" class="at-icon at-icon-linkedin"
+                                                style="fill: rgb(34, 34, 34); width: 24px; height: 24px;">
+                                                <title id="at-svg-linkedin-3">LinkedIn</title>
+                                                <g>
+                                                    <path
+                                                        d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z"
+                                                        fill-rule="evenodd"></path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                    </a>
+</div>
+</div></div></div>
+                                </div></div>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220330T180415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+491f2271-2e44-477f-ab9a-5236d6e7a136
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220712T045342Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

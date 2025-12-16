@@ -1,0 +1,135 @@
+----item----
+version: 1
+id: {BFE34274-ADAA-47FB-AF9D-0F9BCC244555}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/LogoCarousel/Lazy Load/Scriban
+parent: {4F230F74-58C1-428B-895D-ACC93B2D0B02}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 640
+
+{{ if (!o_pagemode.is_experience_editor_editing) 
+        $iUrl = ''
+        $iAlt = ''
+        if(i_item.Image && i_item.Image.media_url != "")
+            $iUrl = i_item.Image.media_url
+            $iAlt = i_item.Image.alt
+        end
+-}}
+<div class="image-wrapper">
+    <img data-lazy="{{$iUrl}}" alt="{{$iAlt}}" />
+</div>
+{{end }}
+
+{{ if (o_pagemode.is_experience_editor_editing) 
+        $iUrl = ''
+        $iAlt = ''
+        if(i_item.Image && i_item.Image.media_url != "")
+            $iUrl = i_item.Image.media_url
+        end
+-}}
+<div class="image-wrapper">
+    <img data-lazy="{{$iUrl}}" />
+</div>
+{{ end }}
+----version----
+language: en-CA
+version: 1
+revision: 8e446c7e-70ee-4c20-8122-61af7db461ef
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210413T100340Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8e446c7e-70ee-4c20-8122-61af7db461ef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T070116Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 385116ed-c707-4547-9203-05e0b4ca407d
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210413T100340Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+385116ed-c707-4547-9203-05e0b4ca407d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080447Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

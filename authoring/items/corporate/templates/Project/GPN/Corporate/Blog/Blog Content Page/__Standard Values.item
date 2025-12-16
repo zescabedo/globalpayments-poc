@@ -1,0 +1,112 @@
+----item----
+version: 1
+id: {5705772A-474F-4A34-9E66-304CBBF67504}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Blog/Blog Content Page/__Standard Values
+parent: {64491DF4-CAB6-43E8-81BE-EAC13A2FFC26}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {64491DF4-CAB6-43E8-81BE-EAC13A2FFC26}
+templatekey: Blog Content Page
+
+----field----
+field: {D4952280-2D7D-4BF4-A99A-EA36DAD0F0A7}
+name: Body Css Class
+key: body css class
+content-length: 0
+
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 0
+
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 506
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BCFC7537-EFF4-434C-96F5-BF4F55FD175B}" /><d id="{0B4A31C9-712D-4578-A396-2DDC0F34B63A}" l="{72C595AD-68BB-44BC-B5CD-2A857039515F}" /><d id="{73966209-F1B6-43CA-853A-F1DB1C9A654B}" l="{A57C19C2-8EE3-4DEC-AA39-0B8D522D59EB}"><r id="{86F838F5-7E87-45BB-876F-C021324AC8B0}" par="TitleField=Title&amp;BodyField=BlogSummary&amp;DateField=BlogPublishedDate" uid="{7D12F893-5718-4BCF-8724-EDC10B4E9D5D}" /></d></r>
+----version----
+language: en
+version: 1
+revision: b732e260-5bfa-4982-aace-13750865b3bf
+
+----field----
+field: {AF5471B9-EE0C-4C28-B7C8-B118AD863ABD}
+name: BlogAuthor
+key: blogauthor
+content-length: 0
+
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T102301Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b732e260-5bfa-4982-aace-13750865b3bf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210623T061113Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en-US
+version: 1
+revision: f9686b5e-2c25-4fc4-8a18-81175fdbbf7d
+
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f9686b5e-2c25-4fc4-8a18-81175fdbbf7d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210623T061410Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

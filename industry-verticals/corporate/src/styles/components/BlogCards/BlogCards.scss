@@ -1,0 +1,25 @@
+.blog-cards {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxxl');
+
+  .ec-clickable-card:hover {
+    .text-breadcrumb {
+      .tag a:hover {
+        text-decoration-color: map-get($gpn-theme-blog-cards-carousel, 'category-color') !important;
+      }
+    }
+  }
+
+  .container {
+    .row {
+      .list-title {
+        @extend %p-xl;
+        font-weight: bold;
+        margin-bottom: gpn-spacing-size('sm', 'xs');
+      }
+    }
+  }
+
+  @import './blog-cards/blogs-cards-variants';
+  @import '@styles/styles/blog-cards/themes';
+  @import '@styles/styles/image-transform/styles';
+}

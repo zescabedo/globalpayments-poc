@@ -1,0 +1,250 @@
+.tab-component {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxl');
+
+  @each $theme, $details in $gpn-theme-colour-themes {
+    &.bg-#{$theme} {
+      .accordion-header {
+        .accordion-header-title {
+          color: get-theme-colour-for($theme, $details);
+        }
+      }
+    }
+  }
+
+  .header-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    @include gpn-spacing([ 'gap'], 'xs');
+    @include media-breakpoint-up(sm) {
+      @include make-col(10);
+      @include make-col-offset(1);
+    }
+
+    .tabs-title {
+      @extend %h-lg;
+    }
+    .details {
+      @extend %p-md;
+      @include gpn-spacing('margin-bottom', 'xl');
+    }
+  }
+
+  .tabs-row-variant {
+    display: flex;
+    border: 1px solid map-get($gpn-theme-tabs, 'pill-heading-row-border-color');
+    border-radius: map-get($gpn-theme-tabs, 'tab-item-variant-border-radius');
+    @include gpn-spacing([ 'padding-left', 'padding-right'], 'xs');
+    padding-block: map-get($gpn-theme-tabs, 'tab-row-variant-padding-block');
+    background-color: map-get($gpn-theme-tabs, 'pill-heading-row-bg-color');
+    width: fit-content;
+    margin: 0 auto;
+    @include gpn-spacing([ 'gap'], 'xxs');
+
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+
+    .tab-item-variant {
+      line-height: 100%;
+      @include gpn-spacing([ 'padding-left', 'padding-right'], 'sm');
+      padding-bottom: map-get($gpn-theme-tabs, 'tab-item-variant-padding-top-bottom');
+      padding-top: map-get($gpn-theme-tabs, 'tab-item-variant-padding-top-bottom');
+      cursor: pointer;
+      text-align: center;
+      overflow: hidden;
+      @extend %p-sm;
+      border-radius: map-get($gpn-theme-tabs, 'tab-item-variant-border-radius');
+      &.active,
+      &.active span {
+        color: map-get($gpn-theme-tabs, 'pill-heading-active-color');
+        background-color: map-get($gpn-theme-tabs, 'pill-heading-active-bg-color');
+        font-weight: map-get($gpn-theme-tabs, 'pill-heading-font-weight-active');
+      }
+
+      // instead of changing the font weight, we are adding a text shadow to simulate this and not shift the layout
+      &:hover:not(.active),
+      &:hover:not(.active) span{
+       text-shadow: 0.5px 0 0 currentColor;
+       transition: text-shadow 0.2s ease;
+      }
+
+      span {
+        color: $gpn-theme-black;
+      }
+    }
+  }
+
+  .tabs-accordion {
+    @include make-col(12);
+    @include make-col-offset(0);
+    @include media-breakpoint-up(sm) {
+      display: block;
+      @include make-col(10);
+      @include make-col-offset(1);
+    }
+
+    @include media-breakpoint-up(md) {
+      display: none;
+    }
+    .accordion-item {
+      @include gpn-spacing('margin-bottom', 'md');
+
+      .accordion-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @extend %p-sm;
+        padding: gpn-spacing-size('sm', 'xxs');
+
+        &.active {
+          .accordion-header-title {
+            color: map-get($gpn-theme-tabs, 'accordion-header-title-active-color');
+          }
+        }
+
+        .icon {
+          &::before {
+            content: '';
+            display: flex;
+            height: map-get($gpn-theme-tabs, 'icon-height-plus');
+            width: map-get($gpn-theme-tabs, 'icon-width');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: map-get($gpn-theme-tabs, 'accordion-icon');
+            transition: map-get($gpn-theme-tabs, 'icon-transition');
+          }
+        }
+
+        &.active {
+          .icon {
+            &::before {
+              height: map-get($gpn-theme-tabs, 'icon-height-minus');
+              width: map-get($gpn-theme-tabs, 'icon-width');
+              background-image: map-get($gpn-theme-tabs, 'accordion-icon-active');
+            }
+          }
+        }
+      }
+
+      .accordion-content {
+        @include gpn-spacing('padding-top', 'md');
+
+        > div {
+          padding: 0;
+        }
+
+        &.hide {
+          display: none;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .tabs-content {
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+
+    .tab-content-item {
+      display: flex;
+      @include gpn-spacing('padding-top', 'md');
+      &.hide {
+        display: none;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .tab-placeholder-content {
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+
+    .tab-placeholder-content-item {
+      &.hide {
+        display: none;
+      }
+    }
+  }
+  &.bg-base {
+    .tabs-row-variant {
+      &.pill-heading {
+        background-color: transparent;
+        .tab-item-variant {
+          background-color: transparent;
+          &.active {
+            background-color: $gpn-theme-dark;
+          }
+        }
+      }
+      &.bar-slider {
+        .tab-item-variant {
+          border-bottom: map-get($gpn-theme-tabs, 'tab-item-border-bottom-base');
+          &.active {
+            border-bottom: map-get($gpn-theme-tabs, 'tabs-item-border-bottom-base-active');
+            .tab-item {
+              color: map-get($gpn-theme-tabs, 'bg-base-tab-item-color');
+            }
+          }
+        }
+      }
+    }
+    .tabs-accordion {
+      .accordion-item {
+        .accordion-header {
+          .icon {
+            &::before {
+              content: '';
+              display: flex;
+              background-image: map-get($gpn-theme-tabs, 'accordion-icon-bg-base');
+            }
+          }
+          &.active {
+            .icon {
+              &::before {
+                background-image: map-get($gpn-theme-tabs, 'accordion-icon-bg-base-active');
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  &.bg-dark,
+  &.bg-black {
+    .tabs-row-variant {
+      &.pill-heading {
+        background-color: transparent;
+        .tab-item-variant {
+          background-color: transparent;
+          &.active {
+            background-color: $gpn-theme-base;
+          }
+        }
+      }
+    }
+    .tabs-accordion {
+      .accordion-item {
+        .accordion-header {
+          .icon {
+            &::before {
+              background-image: map-get($gpn-theme-tabs, 'accordion-icon-bg-dark');
+            }
+          }
+          &.active {
+            .icon {
+              &::before {
+                background-image: map-get($gpn-theme-tabs, 'accordion-icon-bg-dark-active');
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,169 @@
+.media-banner {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxl');
+  .row {
+    align-items: center;
+    @include media-breakpoint-down(md) {
+      gap: gpn-spacing-size('lg', 'xl');
+    }
+  }
+  .media-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    img,
+    video {
+      max-width: 100%;
+      width: 100%;
+      inset: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+      height: auto;
+    }
+
+    &.callout {
+      img,
+      video {
+        height: 100%;
+      }
+    }
+
+    video {
+      object-fit: map-get($gpn-theme-media-banner, 'video-size-default'); //default cover
+    }
+  }
+
+  .copy-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: gpn-spacing-size('sm', 'xs');
+    word-break: break-word;
+    align-items: map-get($gpn-theme-media-banner, 'copy-section-alignment');
+
+    .brow {
+      order: -1;
+      @extend %p-brow;
+    }
+
+    .title,
+    .title p {
+      @extend %h-md;
+    }
+
+    .tag {
+      @extend %p-md;
+
+      p {
+        @include gpn-spacing([ 'margin-bottom'], 'xs');
+      }
+    }
+    .legal,
+    .legal p {
+      @extend %p-xxs;
+    }
+
+    .details,
+    .details p {
+      @extend %p-md;
+      ul {
+        list-style-type: none;
+      }
+
+      ul,
+      .list-item {
+        padding-left: 0;
+      }
+
+      // this is specifically for tertiary buttons that show up in a list format inside this details section
+      .btn-cta-tertiary{
+        padding-bottom: 0;
+        padding-top: 0;
+        min-height: map-get($gpn-theme-media-banner, 'tertiary-button-min-height');
+      }
+    }
+
+    .details {
+      .content-wrapper,
+      .check-marked-list,
+      .numbered-list,
+      .bulleted-list {
+        padding-left: gpn-spacing-size('sm', 'sm');
+      }
+
+      .content-wrapper {
+        flex-direction: column;
+
+        .left-section {
+          ul {
+            margin-bottom: 0;
+          }
+        }
+
+        @include media-breakpoint-up(sm) {
+          flex-direction: row;
+          column-gap: gpn-spacing-size('sm', 'xl');
+        }
+
+        @include media-breakpoint-up(md) {
+          column-gap: gpn-spacing-size('sm', 'sm');
+          .left-section {
+            margin-right: 0;
+          }
+        }
+        .check-marked-list,
+        .numbered-list,
+        .bulleted-list {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+
+  .cta-list {
+    padding-top: 0;
+  }
+
+  //  The text resizing feature has not been completed yet.
+
+  &.headings-increase-one {
+    .copy-section {
+      .title,
+      .title p {
+        @extend %h-lg;
+      }
+      .tag {
+        @extend %p-lg;
+      }
+    }
+  }
+  &.headings-decrease-one {
+    .copy-section {
+      .title,
+      .title p {
+        @extend %h-sm;
+      }
+      .tag {
+        @extend %p-sm;
+      }
+    }
+  }
+  &.details-increase-one {
+    .copy-section {
+      .details,
+      .details p {
+        @extend %p-lg;
+      }
+    }
+  }
+  &.details-decrease-one {
+    .copy-section {
+      .details,
+      .details p {
+        @extend %p-sm;
+      }
+    }
+  }
+  @import './variants/media-banner-variants';
+  @import '../../styles/media-banner/media-banner-styles';
+}

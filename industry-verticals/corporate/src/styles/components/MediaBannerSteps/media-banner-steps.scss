@@ -1,0 +1,109 @@
+.media-banner-steps {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxl');
+
+  .copy-section {
+    .brow {
+      @extend %p-brow;
+    }
+
+    .title,
+    .title p {
+      @extend %h-md;
+    }
+
+    .tag {
+      @extend %p-lg;
+    }
+
+    .text-section {
+      .title,
+      .title p {
+        @extend %h-xs;
+      }
+
+      .tag {
+        @extend %p-md;
+      }
+    }
+  }
+
+  @import '../../styles/image/image.scss';
+
+  .cta-list {
+    padding-top: 0;
+  }
+
+  //  The text resizing feature has not been completed yet.
+  &.headings-increase-one {
+    .copy-section {
+      .title,
+      .title p {
+        @extend %h-lg;
+      }
+      .tag {
+        @extend %p-xl;
+      }
+    }
+  }
+  &.headings-decrease-one {
+    .copy-section {
+      .title,
+      .title p {
+        @extend %h-sm;
+      }
+      .tag {
+        @extend %p-sm;
+      }
+    }
+  }
+
+  &.details-increase-one {
+    .icon {
+      @extend %h-lg;
+    }
+
+    .copy-section {
+      .details,
+      .details p {
+        @extend %p-lg;
+      }
+
+      .text-section {
+        .title,
+        .title p {
+          @extend %h-sm;
+        }
+
+        .tag {
+          @extend %p-lg;
+        }
+      }
+    }
+  }
+  &.details-decrease-one {
+    .icon {
+      @extend %h-sm;
+    }
+
+    .copy-section {
+      .details,
+      .details p {
+        @extend %p-sm;
+      }
+
+      .text-section {
+        .title,
+        .title p {
+          @extend %h-xxs;
+        }
+
+        .tag {
+          @extend %p-sm;
+        }
+      }
+    }
+  }
+
+  @import './varients/media-banner-steps-variants';
+  @import '../../styles/media-banner/icon-list-steps';
+}

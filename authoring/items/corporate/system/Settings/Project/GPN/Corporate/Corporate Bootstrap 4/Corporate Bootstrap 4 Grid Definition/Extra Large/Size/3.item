@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {3648D7BD-5C15-458B-9F78-9B2748DFD7B0}
+database: master
+path: /sitecore/system/Settings/Project/GPN/Corporate/Corporate Bootstrap 4/Corporate Bootstrap 4 Grid Definition/Extra Large/Size/3
+parent: {3302A9CA-2F19-4146-B1CF-DA411F9FC5A0}
+name: 3
+master: {00000000-0000-0000-0000-000000000000}
+template: {CB3B3906-BE80-4D9B-A2A4-038193DA5422}
+templatekey: Class
+
+----field----
+field: {591C584F-08A7-4DC6-9D58-1DE178C404A2}
+name: Class
+key: class
+content-length: 8
+
+col-xl-3
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: 62c3c690-f115-4cda-839d-58f0e56ff0cd
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161216T082342Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+62c3c690-f115-4cda-839d-58f0e56ff0cd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20191114T232026Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

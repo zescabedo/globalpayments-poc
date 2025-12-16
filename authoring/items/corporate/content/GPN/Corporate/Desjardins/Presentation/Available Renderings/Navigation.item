@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {BE4D4460-B798-4C85-A823-15CD60131CEB}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Available Renderings/Navigation
+parent: {3DE06951-95F6-469A-B12E-2918AA0AFDB1}
+name: Navigation
+master: {00000000-0000-0000-0000-000000000000}
+template: {76DA0A8D-FC7E-42B2-AF1E-205B49E43F98}
+templatekey: Available Renderings
+
+----field----
+field: {715AE6C0-71C8-4744-AB4F-65362D20AD65}
+name: Renderings
+key: renderings
+content-length: 350
+
+{3972C278-7E7A-4C2B-A293-66AF860F5C3A}|{9D3BA81A-EECE-4B5A-9862-0239A9D53EEC}|{BFBD9DE2-3ABF-4078-BBCB-C95C5B2D863F}|{1B1FDBF9-551B-4A00-A6D8-BB2FB7B62A62}|{4646BD4F-05FF-4A19-9600-4D74F2F1548B}|{03952EF9-A474-403D-A216-CB4CCE3F3B38}|{31570BA0-485E-40B1-B3EF-F7A211529846}|{2B5B0606-3648-40B0-A96B-87ECFB2C59C7}|{F8179C95-A226-41B4-AAE0-89F5BA703A1D}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{AE201637-7074-45C3-9052-754E1ED302C4}
+----version----
+language: en-CA
+version: 1
+revision: 0c1d1f53-a5b0-48a8-8928-50285cbd62af
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200729T001757Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0c1d1f53-a5b0-48a8-8928-50285cbd62af
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065735Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 109e96ca-b683-445f-ac99-22b36ee78994
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200729T001757Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+109e96ca-b683-445f-ac99-22b36ee78994
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080619Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

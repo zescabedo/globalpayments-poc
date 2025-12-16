@@ -1,0 +1,140 @@
+----item----
+version: 1
+id: {D0C862D6-1B75-4A12-9381-FC7B2B448B15}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/DynamicContentLink/LinkOpenInModal/LinksOnRight
+parent: {0237B388-2485-4F05-82F5-94A26CCBFF6B}
+name: LinksOnRight
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 702
+
+<div class="row dcl-inner">
+    <div class="col-12 col-md-6 col-lg-5 dcl-container">
+    {{
+    $counter = 1
+    for i_child in i_datasource.children
+    $ph_link = "dynamiccontentlinks_" + $counter
+    }}
+    <div class="w-100 dcl">{{sc_placeholder $ph_link}} </div>{{
+    $counter = $counter + 1
+    end  }}
+</div>
+<ul class="col-12 col-md-6 col-lg-6 offset-lg-1 dcl-heading">
+    {{
+    for i_child in i_datasource.children
+    linkInfo = (get_general_link_info i_child 'DynamicContentLink')
+    }}
+    <li>
+    <a class="link-dynamic-content p-lg overlay-source" href="{{linkInfo.url}}" target="{{ linkInfo.target}}">{{ linkInfo.text }}</a>
+    </li>{{
+    end  }}
+</ul>
+</div>
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en-CA
+version: 1
+revision: f7cd7be9-4b20-4525-9acb-6cd8a3d64dfd
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210126T104351Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f7cd7be9-4b20-4525-9acb-6cd8a3d64dfd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230616T150342Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: 303fcbc7-29b7-4eaf-bb73-858aa45e600c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210126T104351Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+303fcbc7-29b7-4eaf-bb73-858aa45e600c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080322Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

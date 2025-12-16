@@ -1,0 +1,9 @@
+&.middle-1x10x1 {
+  .left-section {
+    @include make-responsive-col-size-up($mobileSize: 12, $tabletSize: 10);
+
+    @include media-breakpoint-up(md) {
+      @include make-col-offset(1);
+    }
+  }
+}

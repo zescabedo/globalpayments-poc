@@ -1,0 +1,46 @@
+// fonts.scss
+
+@font-face {
+  font-family: 'GPCommerce';
+  font-display: swap;
+  src: url('@fonts/GPCommerce-Regular.woff2') format('woff2'),
+    url('@fonts/GPCommerce-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GPCommerce';
+  font-display: swap;
+  src: url('@fonts/GPCommerce-Bold.woff2') format('woff2'),
+    url('@fonts/GPCommerce-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GPCommerce';
+  font-display: swap;
+  src: url('@fonts/GPCommerce-Black.woff2') format('woff2'),
+    url('@fonts/GPCommerce-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GPCommerce';
+  font-display: swap;
+  src: url('@fonts/GPCommerce-Medium.woff2') format('woff2'),
+    url('@fonts/GPCommerce-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GPCommerce';
+  font-display: swap;
+  src: url('@fonts/GPCommerce-Light.woff2') format('woff2'),
+    url('@fonts/GPCommerce-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}

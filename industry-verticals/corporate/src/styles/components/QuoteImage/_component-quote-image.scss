@@ -1,0 +1,149 @@
+.quote-image {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxl');
+
+  .row {
+    gap: gpn-spacing-size('sm', 'sm');
+    @include media-breakpoint-up(lg) {
+      gap: 0;
+    }
+  }
+
+  .copy-section {
+    @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'lg');
+
+    @include make-col(12);
+
+    @include media-breakpoint-up(lg) {
+      @include make-col(6);
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: gpn-spacing-size('sm', 'sm');
+    text-align: center;
+
+    .icon {
+      position: relative;
+      width: map-get($gpn-theme-testimonial, 'icon-width');
+      height: auto;
+      aspect-ratio: map-get($gpn-theme-testimonial, 'icon-aspect-ratio');
+      display: block;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: map-get($gpn-theme-testimonial, 'icon-width');
+        height: auto;
+        aspect-ratio: map-get($gpn-theme-testimonial, 'icon-aspect-ratio');
+        background: $gpn-theme-icon-quote-open-base no-repeat center center;
+        background-size: cover;
+      }
+    }
+
+    .logo {
+      position: relative;
+      width: map-get($gpn-theme-testimonial, 'logo-width');
+      height: auto;
+      aspect-ratio: map-get($gpn-theme-testimonial, 'logo-aspect-ratio');
+      img,
+      video {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        inset: 0;
+      }
+    }
+
+    .quote-wrapper {
+      .quote {
+        p {
+          @extend %p-lg;
+        }
+        @extend %p-lg;
+      }
+      margin-bottom: gpn-spacing-size('sm', 'sm');
+    }
+    .author-wrapper {
+      .author,
+      .author p {
+        @extend %p-lead;
+        margin-bottom: gpn-spacing-size('sm', 'xxs');
+      }
+
+      .author-tag {
+        @extend %p-md;
+        margin-bottom: gpn-spacing-size('sm', 'xs');
+      }
+    }
+  }
+
+  .media-section {
+    position: relative;
+    width: 100%;
+    aspect-ratio: map-get($gpn-theme-testimonial, 'large-image-default-aspect-ratio');
+    height: auto;
+
+    @include make-col(12);
+    @include media-breakpoint-up(md) {
+      @include make-col(6);
+    }
+
+    @include media-breakpoint-up(lg) {
+      @include make-col(5);
+    }
+
+    img,
+    video {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      inset: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    video {
+      object-fit: map-get($gpn-theme-testimonial, 'video-size-default');
+    }
+
+    picture,
+    img,
+    video {
+      padding-left: inherit;
+      padding-right: inherit;
+    }
+  }
+
+  &:not(.reverse-layout) {
+    .media-section {
+      @include media-breakpoint-up(md) {
+        @include make-col-offset(3);
+      }
+      @include media-breakpoint-up(lg) {
+        @include make-col-offset(1);
+      }
+    }
+  }
+
+  &.reverse-layout {
+    .media-section {
+      @include media-breakpoint-up(md) {
+        @include make-col-offset(3);
+      }
+      @include media-breakpoint-up(lg) {
+        order: -1;
+        @include make-col-offset(0);
+      }
+    }
+    .copy-section {
+      @include media-breakpoint-up(lg) {
+        @include make-col-offset(1);
+      }
+    }
+  }
+
+  @import '../../styles/QuoteImage/styles';
+}

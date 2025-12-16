@@ -1,0 +1,11 @@
+&.cards-4-row {
+  .cards-row {
+    grid-template-columns: 1fr;
+    @include media-breakpoint-up(sm) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    @include media-breakpoint-up(md) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+}

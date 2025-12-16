@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {CE8C9CB9-DE2D-485C-B4B1-E2B549B00FB7}
+database: master
+path: /sitecore/system/Settings/Project/GPN/Corporate/Page Content/Page Content Site Setup
+parent: {91A195EC-1368-4C8E-83A4-955C9AF9A9A7}
+name: Page Content Site Setup
+master: {00000000-0000-0000-0000-000000000000}
+template: {292CCFCD-7790-4692-856B-76014B8038E7}
+templatekey: SiteSetupRoot
+
+----field----
+field: {40DEEE2F-7595-40BD-B2C9-51F9E2346100}
+name: Dependencies
+key: dependencies
+content-length: 38
+
+{BDF83718-907A-435B-B1BA-64139E07983F}
+----field----
+field: {11488836-D40F-40D4-BEB4-1D31DA7B1470}
+name: IncludeByDefault
+key: includebydefault
+content-length: 1
+
+1
+----field----
+field: {06D2C562-9229-4779-8807-E2A5FD2990D4}
+name: IsSystemModule
+key: issystemmodule
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: ab67b4f0-3059-4c32-b66b-40ac4162e040
+
+----field----
+field: {C202067E-7FAB-4606-AFB4-E76DF2185DDC}
+name: Name
+key: name
+content-length: 12
+
+Page Content
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 23
+
+Page Content Site Setup
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160708T110042Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ab67b4f0-3059-4c32-b66b-40ac4162e040
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210120T074717Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

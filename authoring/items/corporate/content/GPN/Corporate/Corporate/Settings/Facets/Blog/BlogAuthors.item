@@ -1,0 +1,234 @@
+----item----
+version: 1
+id: {A04565B3-ADF3-4569-931B-30983B2AF521}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Facets/Blog/BlogAuthors
+parent: {9C6783EE-4521-427A-9CB9-0A0121E83132}
+name: BlogAuthors
+master: {00000000-0000-0000-0000-000000000000}
+template: {6042E216-F650-447C-86D1-00FEA97454E7}
+templatekey: ListFacet
+
+----field----
+field: {0E23BB51-C071-41B5-9D83-AC410B89B85A}
+name: Parameters
+key: parameters
+content-length: 10
+
+BlogAuthor
+----version----
+language: en-CA
+version: 1
+revision: 536574e1-0df7-400b-9ee3-b01ba87c7951
+
+----field----
+field: {31CA077F-EF38-4980-8A24-05408031B2BC}
+name: Name
+key: name
+content-length: 11
+
+BlogAuthors
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T105927Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+536574e1-0df7-400b-9ee3-b01ba87c7951
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200601T022719Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en-GB
+version: 1
+revision: 39794eb8-0c34-439f-977e-6d2bcfacf02e
+
+----field----
+field: {31CA077F-EF38-4980-8A24-05408031B2BC}
+name: Name
+key: name
+content-length: 11
+
+BlogAuthors
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T105927Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+39794eb8-0c34-439f-977e-6d2bcfacf02e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200601T023105Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en-US
+version: 1
+revision: ccc301c4-e7b1-4890-8c09-f0a7dd3f5bd6
+
+----field----
+field: {31CA077F-EF38-4980-8A24-05408031B2BC}
+name: Name
+key: name
+content-length: 11
+
+BlogAuthors
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 17
+
+sitecore\mgibbons
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T105927Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ccc301c4-e7b1-4890-8c09-f0a7dd3f5bd6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210215T063901Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: fr-CA
+version: 1
+revision: 837c5263-c12b-4412-a79a-996732aca0db
+
+----field----
+field: {31CA077F-EF38-4980-8A24-05408031B2BC}
+name: Name
+key: name
+content-length: 11
+
+BlogAuthors
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200414T105927Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\triggerfish
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+837c5263-c12b-4412-a79a-996732aca0db
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200601T023523Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

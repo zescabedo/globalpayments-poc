@@ -1,0 +1,191 @@
+/**
+ * Global Payments Button Styles
+ * 
+ * Button component styles aligned with Global Payments design system
+ * Reference: https://design.globalpayments.com/?path=/story/atoms-buttons--all-buttons
+ */
+
+.gpn-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  
+  // Focus styles for accessibility
+  &:focus {
+    outline: 2px solid var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    outline-offset: 2px;
+  }
+  
+  // Disabled state
+  &--disabled,
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  
+  // Full width variant
+  &--full-width {
+    width: 100%;
+  }
+  
+  // Size variants
+  &--sm {
+    padding: 0.8rem 1.6rem;
+    font-size: var(--gpn-body-sm-size, #{$gpn-body-sm-size});
+    line-height: var(--gpn-body-sm-line, #{$gpn-body-sm-line});
+    min-height: 3.2rem;
+  }
+  
+  &--md {
+    padding: 1.2rem 2.4rem;
+    font-size: var(--gpn-body-md-size, #{$gpn-body-md-size});
+    line-height: var(--gpn-body-md-line, #{$gpn-body-md-line});
+    min-height: 4.0rem;
+  }
+  
+  &--lg {
+    padding: 1.6rem 3.2rem;
+    font-size: var(--gpn-title-xs-size, #{$gpn-title-xs-size});
+    line-height: var(--gpn-title-xs-line, #{$gpn-title-xs-line});
+    min-height: 4.8rem;
+  }
+  
+  // Primary variant
+  &--primary {
+    background-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    color: var(--gpn-theme-white-255, #{$gpn-white});
+    border-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    
+    &:hover:not(:disabled) {
+      background-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+      border-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+    }
+    
+    &:active:not(:disabled) {
+      background-color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+      border-color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+    }
+  }
+  
+  // Secondary variant
+  &--secondary {
+    background-color: var(--gpn-theme-white-255, #{$gpn-white});
+    color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    border-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    
+    &:hover:not(:disabled) {
+      background-color: var(--gpn-theme-grey-110, #{$gpn-grey-110});
+      border-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+      color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+    }
+    
+    &:active:not(:disabled) {
+      background-color: var(--gpn-theme-grey-200, #{$gpn-grey-200});
+      border-color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+      color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+    }
+  }
+  
+  // Tertiary variant
+  &--tertiary {
+    background-color: transparent;
+    color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    border-color: transparent;
+    
+    &:hover:not(:disabled) {
+      background-color: var(--gpn-theme-grey-110, #{$gpn-grey-110});
+      color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+    }
+    
+    &:active:not(:disabled) {
+      background-color: var(--gpn-theme-grey-200, #{$gpn-grey-200});
+      color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+    }
+  }
+  
+  // Outline variant
+  &--outline {
+    background-color: transparent;
+    color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    border-color: var(--gpn-theme-grey-300, #{$gpn-grey-300});
+    
+    &:hover:not(:disabled) {
+      border-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+      color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+    }
+    
+    &:active:not(:disabled) {
+      border-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+      color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+    }
+  }
+  
+  // Ghost variant
+  &--ghost {
+    background-color: transparent;
+    color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    border-color: transparent;
+    
+    &:hover:not(:disabled) {
+      background-color: var(--gpn-theme-grey-110, #{$gpn-grey-110});
+      color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+    }
+    
+    &:active:not(:disabled) {
+      background-color: var(--gpn-theme-grey-200, #{$gpn-grey-200});
+      color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+    }
+  }
+  
+  // Link variant
+  &--link {
+    background-color: transparent;
+    color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    border-color: transparent;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    
+    &:hover:not(:disabled) {
+      color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+      text-decoration-thickness: 2px;
+    }
+    
+    &:active:not(:disabled) {
+      color: var(--gpn-theme-dark, #{$gpn-theme-dark});
+    }
+  }
+}
+
+// Legacy button support (for existing components)
+.button-main {
+  @extend .gpn-button--primary;
+}
+
+.button-secondary {
+  @extend .gpn-button--secondary;
+}
+
+.button-outline {
+  @extend .gpn-button--outline;
+}
+
+
+
+
+
+
+
+

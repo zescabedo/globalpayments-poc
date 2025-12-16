@@ -1,0 +1,138 @@
+----item----
+version: 1
+id: {158C9472-D533-491E-8414-78D82773323D}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Promo/Basic Card Overlay/Scriban
+parent: {CF715BB6-F1D6-4E42-A244-D231D3295C53}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 669
+
+{{ $a = get_general_link_info i_datasource "PromoLink" }} 
+<div class="wrap">
+    {{ if $a != null && $a.url != "" }}
+    <a class="overlay-source stretched-link" data-overlay-target="{{ $a.url }}" title="{{$a.text}}"></a>
+    {{ end }}
+    <div class="promo-text">
+        <div>
+            <div class="field-promotext" style="min-height:60px;">
+                {{ i_item.PromoText }}
+            </div>
+        </div>
+        {{ if $a != null && $a.url != "" }}
+        <div class="field-promolink">
+            <a class="mt-lg-3 {{ $a.styleclass}}">
+                {{ $a.text }}
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+----field----
+field: {C35B2285-B4A8-406F-A91C-24A60391DC12}
+name: DataAttributes
+key: dataattributes
+content-length: 0
+
+
+----version----
+language: en-CA
+version: 1
+revision: 1104e78d-f318-4960-9675-82ecf6f8b652
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210301T171847Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1104e78d-f318-4960-9675-82ecf6f8b652
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T070026Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 4a70f7c4-a161-4fc4-bfde-7f4187012966
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210301T171847Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4a70f7c4-a161-4fc4-bfde-7f4187012966
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080421Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

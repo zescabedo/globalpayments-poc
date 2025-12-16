@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {27E72D0A-32BE-4F9C-A672-7063A392C4FE}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Corporation JSON-LD Schema/Sub Organisations/AdvancedMD
+parent: {DC425F84-23E1-4F98-B0E7-ECF5AD5AA4F6}
+name: AdvancedMD
+master: {00000000-0000-0000-0000-000000000000}
+template: {E180F23F-232B-4F92-AFD2-11A42887EE51}
+templatekey: Sub Organisation
+
+----version----
+language: en-CA
+version: 1
+revision: c4f19461-b308-42e6-a2f4-d4b6f91e4d2a
+
+----field----
+field: {CAAD6DED-05C9-4E5E-A96B-2AC2E39D2F89}
+name: Name
+key: name
+content-length: 10
+
+AdvancedMD
+----field----
+field: {9095EAEC-2F1E-41C8-B8DB-180F118ECF5E}
+name: Url
+key: url
+content-length: 27
+
+https://www.advancedmd.com/
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T013253Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c4f19461-b308-42e6-a2f4-d4b6f91e4d2a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084123Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: f84a32bd-0421-4bc5-b508-3ad1aea4164f
+
+----field----
+field: {CAAD6DED-05C9-4E5E-A96B-2AC2E39D2F89}
+name: Name
+key: name
+content-length: 10
+
+AdvancedMD
+----field----
+field: {9095EAEC-2F1E-41C8-B8DB-180F118ECF5E}
+name: Url
+key: url
+content-length: 27
+
+https://www.advancedmd.com/
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T013253Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f84a32bd-0421-4bc5-b508-3ad1aea4164f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210114T062720Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: fr-CA
+version: 1
+revision: 47b7b5b0-bb83-4e53-9a60-74a8df5355bd
+
+----field----
+field: {CAAD6DED-05C9-4E5E-A96B-2AC2E39D2F89}
+name: Name
+key: name
+content-length: 10
+
+AdvancedMD
+----field----
+field: {9095EAEC-2F1E-41C8-B8DB-180F118ECF5E}
+name: Url
+key: url
+content-length: 27
+
+https://www.advancedmd.com/
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T013253Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+47b7b5b0-bb83-4e53-9a60-74a8df5355bd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084122Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

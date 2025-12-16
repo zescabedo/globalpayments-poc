@@ -1,0 +1,15 @@
+&.split-70x30 {
+  .left-section {
+    @include make-responsive-col-size-up($mobileSize: 12, $desktopSize: 9);
+  }
+
+  .right-section {
+    @include make-responsive-col-size-up($mobileSize: 12, $desktopSize: 3);
+  }
+
+  &.reverse-layout {
+    .right-section {
+      order: -1;
+    }
+  }
+}

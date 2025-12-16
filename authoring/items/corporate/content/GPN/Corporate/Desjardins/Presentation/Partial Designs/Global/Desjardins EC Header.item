@@ -1,0 +1,140 @@
+----item----
+version: 1
+id: {80C70638-0490-48F1-A0E1-F23DC74C9EB0}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Partial Designs/Global/Desjardins EC Header
+parent: {18582193-F1AE-4634-A345-D0A388C2F05A}
+name: Desjardins EC Header
+master: {00000000-0000-0000-0000-000000000000}
+template: {05ED8F9E-5E17-40C2-B62F-B22E60CC4552}
+templatekey: Partial Design
+
+----field----
+field: {55FAAE90-3BBA-4F7F-96FE-13C3F40055FF}
+name: Signature
+key: signature
+content-length: 6
+
+header
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 413
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{51882A0B-CBCA-4878-B285-BB9C42EE5F62}" s:ds="{100738B7-2094-4179-8077-B69ABA90A9C0}" s:id="{F1B74874-A8CC-41AC-8E88-6F2500B63164}" s:par="Reset Caching Options&amp;GridParameters&amp;FieldNames=%7B5E2E53A6-3D6D-4CD3-8780-C6EDC23B6A64%7D&amp;Styles&amp;RenderingIdentifier" s:ph="header" s:ccb="Clear on publish" /></d></r>
+----version----
+language: en-CA
+version: 1
+revision: dd99241c-6b6c-4fa9-b307-30347c2586c9
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20230605T054800Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Veronica_Ferrari
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230605T054818Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 24
+
+sitecore\Deepthi_Kannoth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dd99241c-6b6c-4fa9-b307-30347c2586c9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250804T122419Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: fr-CA
+version: 1
+revision: 599e1845-ef4a-4779-a415-1885d79f58d1
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20230605T054800Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Veronica_Ferrari
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230605T054818Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 24
+
+sitecore\Deepthi_Kannoth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+599e1845-ef4a-4779-a415-1885d79f58d1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250501T195227Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Veronica_Ferrari

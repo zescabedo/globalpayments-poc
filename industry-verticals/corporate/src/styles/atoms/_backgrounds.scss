@@ -1,0 +1,70 @@
+//Normal mode - Apply to all bg- themes
+@each $theme, $details in $gpn-theme-colour-themes {
+  .bg-#{$theme} {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    li,
+    blockquote,
+    span:not(.editing-mode *):not(.link-inner),
+    label {
+      color: get-theme-colour-for($theme, $details);
+    }
+
+    @each $innerTheme, $innerDetails in $gpn-theme-colour-themes {
+      .bg-#{$innerTheme} {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        li,
+        blockquote,
+        span:not(.editing-mode *):not(.link-inner),
+        label {
+          color: get-theme-colour-for($innerTheme, $innerDetails);
+        }
+      }
+    }
+  }
+}
+
+// Editing mode - Apply complex span conditions when bg- classes are inside .editing-mode
+.editing-mode {
+  @each $theme, $details in $gpn-theme-colour-themes {
+    .bg-#{$theme} {
+      span:not(.btn:has(a)):not([class*='btn-']:has(a)):not([class*='link-glow']:has(a)):not(
+          .link-headline-listitem:has(a)
+        ):not(.link-inline-linklist-item:has(a)):not(.link-external:has(a)) {
+        color: get-theme-colour-for($theme, $details);
+      }
+
+      @each $innerTheme, $innerDetails in $gpn-theme-colour-themes {
+        .bg-#{$innerTheme} {
+          span:not(.btn:has(a)):not([class*='btn-']:has(a)):not([class*='link-glow']:has(a)):not(
+              .link-headline-listitem:has(a)
+            ):not(.link-inline-linklist-item:has(a)):not(.link-external:has(a)) {
+            color: get-theme-colour-for($innerTheme, $innerDetails);
+          }
+        }
+      }
+    }
+  }
+}
+
+// the rest of the BG colors are generated using bootstrap which cannot
+// accept a linear gradient as a color
+.bg-linear {
+  background: $gpn-theme-linear;
+}
+
+// bootstrap bg-black defaults to real black but we need off black
+.bg-black {
+  background-color: $gpn-theme-off-black !important;
+}

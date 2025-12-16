@@ -1,0 +1,151 @@
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  color: $gpn-theme-black;
+  text-decoration: none;
+
+  .media-section {
+    overflow: hidden;
+    aspect-ratio: map-get($gpn-theme-blog-card, 'media-section-aspect-ratio');
+    align-items: center;
+    display: flex;
+    height: auto;
+    width: 100%;
+    border-top-left-radius: map-get($gpn-theme-blog-card, 'mobile-border-radius');
+    border-top-right-radius: map-get($gpn-theme-blog-card, 'mobile-border-radius');
+    @include media-breakpoint-up(md) {
+      border-top-left-radius: map-get($gpn-theme-blog-card, 'border-radius');
+      border-top-right-radius: map-get($gpn-theme-blog-card, 'border-radius');
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      @include transition(map-get($gpn-theme-blog-cards-carousel, 'media-transition'));
+    }
+
+    &:hover {
+      .image {
+        transform: map-get($gpn-theme-blog-cards-carousel, 'transform-scale');
+      }
+
+      ~ .copy-section .title {
+        color: $gpn-theme-base;
+      }
+    }
+  }
+
+  .copy-section {
+    display: flex;
+    flex-direction: column;
+    @include gpn-spacing([ 'padding'], 'sm');
+    border-bottom-left-radius: map-get($gpn-theme-blog-card, 'mobile-border-radius');
+    border-bottom-right-radius: map-get($gpn-theme-blog-card, 'mobile-border-radius');
+    @include media-breakpoint-up(md) {
+      border-bottom-left-radius: map-get($gpn-theme-blog-card, 'border-radius');
+      border-bottom-right-radius: map-get($gpn-theme-blog-card, 'border-radius');
+    }
+
+    .title,
+    .title p {
+      @extend %h-sm;
+      @include transition(map-get($gpn-theme-blog-cards-carousel, 'title-transition'));
+    }
+
+    .title {
+      @include gpn-spacing([ 'margin-bottom'], 'xxs');
+    }
+
+    .details,
+    .details p {
+      @extend %p-sm;
+    }
+
+    .details {
+      @include gpn-spacing([ 'margin-bottom'], 'md');
+    }
+
+    .text-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: gpn-spacing-size('sm', 'xxs');
+      z-index: $gpn-theme-zindex-blog-card-categories;
+      @include gpn-spacing([ 'margin-bottom'], 'xs');
+
+      .blog-tag {
+        border: 2px solid;
+        border-color: map-get($gpn-theme-blog-cards-carousel, 'blog-tag-border-color');
+        @include gpn-spacing([ 'padding'], 'xs');
+        @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxxx');
+        color: map-get($gpn-theme-blog-cards-carousel, 'blog-tag-text-color');
+        @extend %p-xs;
+        border-radius: $gpn-theme-btn-radius;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        // this level of targeting was needed to override the .ec-clickable-card class colors
+        > a:not(.btn):not([class*='btn-']):not([class*='link-glow']):not(.editing-mode *) {
+          color: map-get($gpn-theme-blog-cards-carousel, 'blog-tag-text-color') !important;
+          @extend %p-xs;
+          text-decoration: none !important;
+
+          &:hover {
+            color: map-get($gpn-theme-blog-cards-carousel, 'blog-tag-text-color') !important;
+          }
+        }
+
+        &:hover {
+          border-color: map-get($gpn-theme-blog-cards-carousel, 'blog-tag-hover-border-color');
+          background-color: map-get(
+            $gpn-theme-blog-cards-carousel,
+            'blog-tag-hover-background-color'
+          );
+
+          > a {
+            color: map-get($gpn-theme-blog-cards-carousel, 'blog-tag-text-color') !important;
+            text-decoration: none !important;
+          }
+        }
+
+        &.secondary {
+          border-color: map-get($gpn-theme-blog-cards-carousel, 'blog-secondary-tag-border-color');
+
+          &:hover {
+            border-color: map-get(
+              $gpn-theme-blog-cards-carousel,
+              'blog-secondary-tag-hover-border-color'
+            );
+            background-color: map-get(
+              $gpn-theme-blog-cards-carousel,
+              'blog-secondary-tag-hover-background-color'
+            );
+          }
+
+          > a:not(.btn):not([class*='btn-']):not([class*='link-glow']):not(.editing-mode *) {
+            color: map-get($gpn-theme-blog-cards-carousel, 'blog-secondary-tag-text-color') !important;
+          }
+        }
+      }
+    }
+
+    .meta-section {
+      display: flex;
+      gap: gpn-spacing-size('sm', 'xs');
+      min-height: gpn-spacing-size('sm', 'xs');
+      margin-top: auto;
+
+      .meta-item {
+        @extend %p-xs;
+        color: $gpn-theme-grey-600;
+
+        &.featured {
+          font-weight: $gpn-theme-font-weight-bold;
+          color: $gpn-theme-off-black;
+        }
+      }
+    }
+  }
+  @import '@styles/styles/blog-card/themes';
+  @import '@styles/styles/clickable-cards/styles';
+}

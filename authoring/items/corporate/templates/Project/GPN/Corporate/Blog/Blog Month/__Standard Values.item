@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {D93D432C-3F3C-476D-84CA-578999CD71AC}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Blog/Blog Month/__Standard Values
+parent: {0AE4D97B-32FA-483F-B4E3-26A66FB78886}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {0AE4D97B-32FA-483F-B4E3-26A66FB78886}
+templatekey: Blog Month
+
+----field----
+field: {61CF7151-0CBD-4DB4-9738-D753A55A6E65}
+name: __Enforce version presence
+key: __enforce version presence
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 0
+
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{75DECE50-7B50-4BE6-84F9-93C1AA95F33E}|{64491DF4-CAB6-43E8-81BE-EAC13A2FFC26}
+----version----
+language: en
+version: 1
+revision: 3755f999-dbbf-42b8-8f30-637eb24b7ad3
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190909T010426Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3755f999-dbbf-42b8-8f30-637eb24b7ad3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210215T034452Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

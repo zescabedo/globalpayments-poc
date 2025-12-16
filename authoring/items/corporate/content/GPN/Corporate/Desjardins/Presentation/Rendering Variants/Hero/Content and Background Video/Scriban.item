@@ -1,0 +1,216 @@
+----item----
+version: 1
+id: {00E8DDE2-7D99-424A-AA14-E82CA46AA072}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Hero/Content and Background Video/Scriban
+parent: {77083918-D06E-46DA-9F12-35752AA79FCA}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 3236
+
+{{ if (!o_pagemode.is_experience_editor_editing) 
+  $v = get_general_link_info i_datasource "HeroMovie"
+  $vUrl = ''
+  if($v)
+      $vUrl = $v.url
+  end
+  $i_url = ""
+
+  p_bgurl = sc_follow i_datasource "HeroBackgroundImage" | sc_medialink
+  p_sm_bgurl = sc_follow i_datasource "HeroSmImage" | sc_medialink
+
+  if(p_bgurl && p_bgurl != "" && p_bgurl != "#")
+    p_md_bgurl = p_bgurl
+    $i_url = p_bgurl
+    p_bgurl = "background-image:url('" +p_bgurl + "')"
+  else
+     p_bgurl = ""
+     p_md_bgurl = p_bgurl
+  end
+
+  if(p_sm_bgurl && p_sm_bgurl != "" && p_sm_bgurl != "#")
+    p_sm_bgurl = p_sm_bgurl
+  else
+     p_sm_bgurl = ""
+  end
+
+  i_targetBgSize = i_datasource.BackgroundSize
+ 
+  if(i_targetBgSize && i_targetBgSize != "")
+    p_bgsize = sc_follow i_datasource "BackgroundSize" | sc_field "Value"
+    p_bgsize = "background-size:" + p_bgsize  + ";"
+  else
+     p_bgsize = ""
+  end
+
+  p_mobx = sc_raw i_datasource "Mobile X Point"
+  p_moby =  sc_raw i_datasource "Mobile Y Point"
+  p_nonmobx = sc_raw i_datasource "NonMobile X Point"
+  p_nonmoby = sc_raw i_datasource "NonMobile Y Point"
+
+  $cta = get_general_link_info i_datasource "HeroLink"
+  $videoAttrs = "playsinline muted autoplay"
+
+  if sc_parameter 'Loop'
+    $videoAttrs = "playsinline muted loop autoplay"
+  end
+ 
+ -}}
+ <div class="video-plus h-100">
+    <section class="video-wrap static-autoplay" style="max-height:62rem;">
+      <video {{ $videoAttrs }} class="video-background h-100 image-focal-set video-cover" id="video_static" poster="{{ $i_url }}" title="Decorative background video" data-imagemode="object" data-mobxfp="{{ p_mobx ?? '' }}"  data-mobyfp="{{ p_moby ?? '' }}" data-nonmobxfp="{{  p_nonmobx ?? '' }}"  data-nonmobyfp="{{ p_nonmoby ?? '' }}">
+        <source src="{{ $vUrl }}" type="video/webm">
+        <source src="{{ $vUrl }}" type="video/mp4">
+      </video>
+    </section>
+  </div>
+  <div class="hero-bg image-focal-set" style="{{p_bgurl}};{{p_bgsize}}" data-mobxfp="{{ p_mobx ?? '' }}"  data-mobyfp="{{ p_moby ?? '' }}" data-nonmobxfp="{{  p_nonmobx ?? '' }}"  data-nonmobyfp="{{ p_nonmoby ?? '' }}" data-mobilebg="{{ p_sm_bgurl }}" data-desktopbg="{{ p_md_bgurl }}"> 
+{{end }}
+
+{{ if (o_pagemode.is_experience_editor_editing) }}
+ <div class="hero-bg">
+{{ end }}
+
+<div class="container">
+  <div class="promo-content">
+    <div class="row">
+      <div class="col-12 col-lg-6 promo-left">
+        <div class="promo-text">
+          <div>
+            <div class="field-herotext">{{ sc_field i_datasource 'HeroText' }}</div>
+            <div class="field-herotext2">{{ sc_field i_datasource 'HeroText2' }}</div>
+            <div class="col-12 col-lg-7 p-0 field-herotext3">{{ sc_field i_datasource 'HeroText3' }}</div>
+          </div>
+          {{ if $a != null && $a.url != "" }}
+          <div class="field-herolink">
+            <a href="{{ $cta.url }}" class="{{ $cta.styleclass}}">{{ $cta.text }}</a>
+          </div>
+          {{ end }}
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<style>
+@media (min-width: 1024px) {
+.promo-hero.content-background-only.video-bg .hero-bg { background-image: none!important; }
+}
+</style>
+----version----
+language: en-CA
+version: 1
+revision: 664afed8-5db8-48aa-b99c-f9a30c6204f1
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210715T072314Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210715T072314Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+664afed8-5db8-48aa-b99c-f9a30c6204f1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220518T083734Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\Mohit_Kumar
+----version----
+language: fr-CA
+version: 1
+revision: 7d627c1b-bcd1-456f-93ae-6c176bc0105f
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210715T072314Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210715T072314Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7d627c1b-bcd1-456f-93ae-6c176bc0105f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080228Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

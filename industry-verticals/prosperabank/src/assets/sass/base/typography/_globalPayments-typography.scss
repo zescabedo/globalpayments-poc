@@ -1,0 +1,137 @@
+/**
+ * Global Payments Typography Utility Classes
+ * 
+ * Typography classes aligned with Global Payments design system
+ * Reference: https://design.globalpayments.com/?path=/story/atoms-typography--all-typography
+ */
+
+// Display Styles
+.display-xxl {
+  font-size: var(--gpn-display-xxl-size, #{$gpn-display-xxl-size});
+  line-height: var(--gpn-display-xxl-line, #{$gpn-display-xxl-line});
+  font-weight: 900;
+}
+
+.display-xl {
+  font-size: var(--gpn-display-xl-size, #{$gpn-display-xl-size});
+  line-height: var(--gpn-display-xl-line, #{$gpn-display-xl-line});
+  font-weight: 900;
+}
+
+.display-lg {
+  font-size: var(--gpn-display-lg-size, #{$gpn-display-lg-size});
+  line-height: var(--gpn-display-lg-line, #{$gpn-display-lg-line});
+  font-weight: 900;
+}
+
+.display-md {
+  font-size: var(--gpn-display-md-size, #{$gpn-display-md-size});
+  line-height: var(--gpn-display-md-line, #{$gpn-display-md-line});
+  font-weight: 900;
+}
+
+// Title Styles
+.title-sm {
+  font-size: var(--gpn-title-sm-size, #{$gpn-title-sm-size});
+  line-height: var(--gpn-title-sm-line, #{$gpn-title-sm-line});
+  font-weight: 900;
+}
+
+.title-xs {
+  font-size: var(--gpn-title-xs-size, #{$gpn-title-xs-size});
+  line-height: var(--gpn-title-xs-line, #{$gpn-title-xs-line});
+  font-weight: 900;
+}
+
+.title-xxs {
+  font-size: var(--gpn-title-xxs-size, #{$gpn-title-xxs-size});
+  line-height: var(--gpn-title-xxs-line, #{$gpn-title-xxs-line});
+  font-weight: 900;
+}
+
+// Body Styles
+.body-md {
+  font-size: var(--gpn-body-md-size, #{$gpn-body-md-size});
+  line-height: var(--gpn-body-md-line, #{$gpn-body-md-line});
+  font-weight: 400;
+}
+
+.body-sm {
+  font-size: var(--gpn-body-sm-size, #{$gpn-body-sm-size});
+  line-height: var(--gpn-body-sm-line, #{$gpn-body-sm-line});
+  font-weight: 400;
+}
+
+.body-xs-source {
+  font-size: var(--gpn-body-xs-size, #{$gpn-body-xs-size});
+  line-height: var(--gpn-body-xs-line, #{$gpn-body-xs-line});
+  font-weight: 400;
+}
+
+.body-xxs-legal {
+  font-size: var(--gpn-body-xxs-size, #{$gpn-body-xxs-size});
+  line-height: var(--gpn-body-xxs-line, #{$gpn-body-xxs-line});
+  font-weight: 400;
+}
+
+// Label Styles
+.label-xxl {
+  font-size: var(--gpn-label-xxl-size, #{$gpn-label-xxl-size});
+  line-height: var(--gpn-label-xxl-line, #{$gpn-label-xxl-line});
+  font-weight: 300;
+}
+
+.label-xl {
+  font-size: var(--gpn-label-xl-size, #{$gpn-label-xl-size});
+  line-height: var(--gpn-label-xl-line, #{$gpn-label-xl-line});
+  font-weight: 300;
+}
+
+.label-lg {
+  font-size: var(--gpn-label-lg-size, #{$gpn-label-lg-size});
+  line-height: var(--gpn-label-lg-line, #{$gpn-label-lg-line});
+  font-weight: 300;
+}
+
+.label-md,
+.brow {
+  font-size: var(--gpn-label-md-size, #{$gpn-label-md-size});
+  line-height: var(--gpn-label-md-line, #{$gpn-label-md-line});
+  font-weight: 300;
+}
+
+.label-sm-form {
+  font-size: var(--gpn-label-sm-size, #{$gpn-label-sm-size});
+  line-height: var(--gpn-label-sm-line, #{$gpn-label-sm-line});
+  font-weight: 400;
+}
+
+.label-xs-form {
+  font-size: var(--gpn-label-xs-size, #{$gpn-label-xs-size});
+  line-height: var(--gpn-label-xs-line, #{$gpn-label-xs-line});
+  font-weight: 400;
+}
+
+// Responsive Typography (Mobile-first approach)
+@media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+  .display-xxl {
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+  }
+  
+  .display-xl {
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+  }
+  
+  .display-lg {
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+  }
+  
+  .display-md {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+}
+

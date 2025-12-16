@@ -1,0 +1,29 @@
+.media-treatment-circle {
+  img,
+  video {
+    border-radius: 50%;
+    aspect-ratio: 1;
+  }
+}
+
+.media-treatment-square {
+  img,
+  video {
+    aspect-ratio: 1;
+  }
+}
+
+.media-treatment-callout {
+  img,
+  video {
+    aspect-ratio: 1.6;
+  }
+}
+
+.media-treatment-widget {
+  img,
+  video {
+    aspect-ratio: 1.264;
+  }
+  aspect-ratio: 1.264;
+}

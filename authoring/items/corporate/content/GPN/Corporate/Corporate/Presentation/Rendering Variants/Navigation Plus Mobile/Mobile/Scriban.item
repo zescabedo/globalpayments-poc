@@ -1,0 +1,803 @@
+----item----
+version: 1
+id: {B4EDFF00-5609-4995-BAD0-1B059EB0306C}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Rendering Variants/Navigation Plus Mobile/Mobile/Scriban
+parent: {9E839543-3752-42B8-AE11-35E8B9775764}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 11189
+
+{{ if (o_model.relative_level == 1) }}
+<ul class="clearfix" role="menubar">
+    {{  $counter = 0
+        for i_level1 in o_model.children }}
+        {{
+            $first_item = i_level1.page_item
+            $item_class_id = sc_follow $first_item "NavigationClassUpdated"
+            $item_class = ""
+                if($item_class_id)
+                        $item_class = sc_follow $first_item "NavigationClassUpdated" | sc_field "Value"
+                else if(sc_follow $first_item "NavigationClass")
+                        $item_class = sc_follow $first_item "NavigationClass" | sc_field "Value"
+                end
+            $counter = $counter + 1
+            $ph_link = "header-nav-content_" + $counter
+        }}
+    <li class='{{i_level1.css_classes | array.join " "}} rel-level{{ o_model.relative_level }}' role="menuitem">
+        <div class="navigation-title chevron-primary-1-next-sm">
+            {{
+                $a = get_general_link_info i_level1.page_item "NavigationLink"
+
+                $l1_title = i_level1.page_item.HeaderTitle
+                if(!$l1_title || $l1_title == "")
+                    $l1_title = i_level1.page_item.NavigationTitle
+                end
+                
+                $aProps = ''
+                if $a
+                    if $a.url && $a.url != ""
+                        $aProps = "href='" + $a.url + "' title='" + $a.title + "' target='" + $a.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a.gatext + "'"
+                    else
+                        $aProps = "title='" + $a.title + "' data-ea-zone='Header' data-ea-type='parent tab click' data-ea-link='" + $l1_title.raw + "'"
+                    end
+                end
+            }}
+            <a {{ $aProps }} aria-haspopup="{{i_level1.children.size > 0}}">{{ $l1_title }}</a>
+        </div>
+        {{ if i_level1.children.size > 0 }}
+        {{#Level 2 - Start}}
+        <div class="clearfix ul-list" aria-label="{{$l1_title}}">
+            <div class="head">
+                <div class="arrow-primary-1-prev-sm-rel back-arrow"></div>
+                <h5 class="subnav-title"><span class="primary-underline">{{ $l1_title }}</span></h5>
+                <div class="close-nav"></div>
+            </div>
+            {{if $item_class == "nav-4col-links-stdout" || $item_class == "nav-5x7-links-feature" || $item_class == "nav-5col-links" || $item_class == "nav-rte-3col-feature"}}
+            {{#Level2 - Start}}
+            {{if $item_class == "nav-rte-3col-feature"}}
+                    <div class="component rich-text col-12">
+                        <div class="component-content">
+                            {{ 
+                                       $hc = sc_raw i_level1.page_item "HeaderContent"
+                                       expand_rte_links $hc 
+                            }}
+                        </div>
+                    </div>
+                {{end}}
+            {{ for i_level2 in i_level1.children
+            }}
+            <div class="col-12 navigation-title">
+                {{
+                    $a2 = get_general_link_info i_level2.page_item "NavigationLink"
+                    $a2Props = ''
+                    if $a2 && $a2.url && $a2.url != ""
+                        $a2Props = "href='" + $a2.url + "' title='" + $a2.title + "' target='" + $a2.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a2.gatext + "'"
+                    end
+                    $p_title = i_level2.page_item.HeaderTitle
+                    if(!$p_title || $p_title == "")
+                        $p_title = i_level2.page_item.NavigationTitle
+                    end
+                }}
+                <h5 class="subnav-title primary-underline"><a {{ $a2Props }}>{{$p_title}}</a></h5>
+                {{i_level2.page_item.HeaderSummary}}
+            </div>
+            {{if (i_level2.children.size > 0)}}
+            <ul class="clearfix" role="menu">
+                {{#Level3 - Start}}
+                {{ for i_level3 in i_level2.children
+                }}
+                <li class="{{i_level3.css_classes | array.join " "}} rel-level3" role="menuitem">
+                    <div class="navigation-title chevron-primary-1-next-sm">
+                        {{
+                        $a3 = get_general_link_info i_level3.page_item "NavigationLink"
+                        $a3Props = ''
+                        $desc_class = 'no-desc'
+                        $head_summary = i_level3.page_item.HeaderSummary
+                        childrenCount = i_level3.children | array.size
+                        if (($head_summary && $head_summary != "") || (childrenCount > 0))
+                        $desc_class = 'desc'
+                        end
+
+                        if $a3 && $a3.url && $a3.url != ""
+                            $a3Props = "href='" + $a3.url + "' class='" + $desc_class + "' title='" + $a3.title + "' target='" + $a3.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a3.gatext + "'"
+                        else
+                            $a3Props = "class='" + $desc_class + "'"
+                        end
+                        $p3_title = i_level3.page_item.NavigationTitle
+                        if(!$p3_title || $p3_title == "")
+                            $p3_title = i_level3.page_item.NavigationTitle
+                        end
+
+                        }}
+                        <a {{ $a3Props }}>{{$p3_title}}</a>
+                        {{$head_summary = i_level3.page_item.HeaderSummary}}
+                        {{if ($head_summary && $head_summary != "")}}
+                        <p class="field-headersummary">{{$head_summary}}</p>
+                        {{ else }}
+                        <div class="l3-spacer"></div>
+                        {{ end }}
+                        <ul role="menu">
+                            {{#Level4 - Start}}
+                                {{ for i_level4 in i_level3.children
+                                }}
+                                    <li class="{{i_level4.css_classes | array.join " "}}" role="menuitem">
+                                        <div class="navigation-title">
+                                            {{
+							                $a4 = get_general_link_info i_level4.page_item "NavigationLink"
+							                $p4_title = i_level4.page_item.NavigationTitle
+                                            if(!$p4_title || $p4_title == "")
+                                                $p4_title = i_level4.page_item.NavigationTitle
+                                            end
+							                $a4Props = ''
+                                            if $a4 && $a4.url && $a4.url != "" && !o_pagemode.is_experience_editor_editing
+                                                $a4Props = "href='" + $a4.url + "' title='" + $p4_title + "' target='" + $a4.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a4.gatext + "'"
+                                            end
+                                            }}
+                                            <a {{ $a4Props }}>{{$p4_title}}</a>
+                                            {{$head_summary = i_level4.page_item.HeaderSummary}}
+                                            {{if ($head_summary && $head_summary != "")}}
+                                            <p class="field-headersummary">{{$head_summary}}</p>
+                                            {{ else }}
+                                            <div class="l3-spacer"></div>
+                                            {{ end }}
+                                        </div>
+                                    </li>
+                                {{ end }}
+                            {{#Level4 - End}}
+                        </ul>
+                    </div>
+                </li>
+                {{ end }}
+                {{#Level3 - End}}
+            </ul>
+            {{end}}
+            
+            {{end}}
+            {{if $item_class == "nav-rte-3col-feature"}}
+                    <div class="content-item">
+                        {{sc_placeholder $ph_link}}
+                    </div>
+            {{end}}
+            {{else}}
+            <div class="component rich-text col-12">
+                <div class="component-content">
+                    {{ 
+                               $hc = sc_raw i_level1.page_item "HeaderContent"
+                               expand_rte_links $hc 
+                            }}
+                </div>
+            </div>
+            {{#Level3 - Start}}
+            {{
+                templateName = ''
+                childrenCount = i_level1.children | array.size
+                iterateChildren = i_level1.children
+                if childrenCount > 0
+                    templateName = iterateChildren[0].page_item.template_name
+                end
+
+                if templateName == 'Nav Section'
+                    iterateChildren = []
+                    for i2 in i_level1.children
+                        iterateChildren = iterateChildren | array.add_range i2.children
+                    end
+                end
+
+            }}
+            <ul role="menu" class="mb-0 p-0">
+            {{ for i_level3 in iterateChildren
+            }}
+            
+                <li class="{{i_level3.css_classes | array.join " "}} rel-level2" role="menuitem" data-test="{{templateName}}">
+                    <div class="navigation-title chevron-primary-1-next-sm primary-underline">
+                        {{
+                            $a4 = get_general_link_info i_level3.page_item "NavigationLink"
+                            $a4Props = ''
+                            if $a4 && $a4.url && $a4.url != ""
+                                $a4Props = "href='" + $a4.url + "' title='" + $a4.title + "' target='" + $a4.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a4.gatext + "'"
+                            end
+                            $p4_title = i_level3.page_item.HeaderTitle
+                            if(!$p4_title || $p4_title == "")
+                            $p4_title = i_level3.page_item.NavigationTitle
+                            end
+
+                        }}
+                        <a {{ $a4Props }}>{{$p4_title}}</a>
+                    </div>
+                </li>
+            
+            {{ end }}
+            </ul>
+            {{#Level3 - End}}
+            <div class="mb-4"></div>
+            <div class="l3-spacer"></div>
+            <div class="content-item">
+                {{sc_placeholder $ph_link}}
+            </div>
+            {{end}}
+            {{#Level2 - End}}
+        </div>
+        {{ end }}
+        {{#Level2 - End}}
+    </li>
+    {{ end }}
+    <li role="menuitem">
+        <div class="nav-foot">
+            <div class="divider-neutral-3"></div>
+            {{sc_placeholder "header-nav-foot"}}
+        </div>
+    </li>
+</ul>
+{{ end }}
+----version----
+language: en-150
+version: 1
+revision: bf4c6af2-584b-42b6-b196-691da6aa008a
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bf4c6af2-584b-42b6-b196-691da6aa008a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230427T144148Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-AU
+version: 1
+revision: 8f1b30fb-4ea0-4170-860d-62f3ddae36d2
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8f1b30fb-4ea0-4170-860d-62f3ddae36d2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230817T100821Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-BM
+version: 1
+revision: 25d089dd-20f0-43cf-abe5-d79f09ade364
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25d089dd-20f0-43cf-abe5-d79f09ade364
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T153145Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: 98352e4d-612b-492f-8ae5-a8f7945fc2c5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+98352e4d-612b-492f-8ae5-a8f7945fc2c5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230427T144148Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-GB
+version: 1
+revision: 7d14c8bb-d367-4584-9d4e-66899e3d03f5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7d14c8bb-d367-4584-9d4e-66899e3d03f5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230427T144148Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-HK
+version: 1
+revision: 7237c7f3-93c4-4f02-b5e5-2efd973bfe15
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7237c7f3-93c4-4f02-b5e5-2efd973bfe15
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230427T144147Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-MT
+version: 1
+revision: 238df42d-54f0-4c61-b13c-1ab9312abf2c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+238df42d-54f0-4c61-b13c-1ab9312abf2c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T153146Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 1
+revision: ad638e4b-c32c-4361-b854-b154d0762bd1
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ad638e4b-c32c-4361-b854-b154d0762bd1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230414T110947Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 2
+revision: 63fb6c40-a585-4306-9a6d-848bda114e6e
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+63fb6c40-a585-4306-9a6d-848bda114e6e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231120T125030Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: es-ES
+version: 1
+revision: c2f5c712-c28b-4085-9a53-cbb346eac61b
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c2f5c712-c28b-4085-9a53-cbb346eac61b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230427T144147Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 0d76f1bf-62ab-4d80-9115-8dc8e63140cf
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0d76f1bf-62ab-4d80-9115-8dc8e63140cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230427T144147Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: hu-HU
+version: 1
+revision: b3b62f8a-fa08-4dbc-9e66-4759eab63429
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230413T134731Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b3b62f8a-fa08-4dbc-9e66-4759eab63429
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230427T144147Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {21B3DCB8-0242-487B-9D2F-ABBD95FF14DE}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Aggregated Facet Filter/PM Database Filter/row/col 1
+parent: {C228F563-9DEC-4A8C-AB86-5A0A165B9EEA}
+name: col 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {ACA5C9A3-CDA0-49B6-893F-1D4A7CB595B0}
+templatekey: VariantSection
+
+----field----
+field: {BEA2740E-90D1-4B16-BD1D-7A7CC8605D2D}
+name: CssClass
+key: cssclass
+content-length: 51
+
+col-12 col-md-4 pmfilter-col pm-cat-col pm-cat-col2

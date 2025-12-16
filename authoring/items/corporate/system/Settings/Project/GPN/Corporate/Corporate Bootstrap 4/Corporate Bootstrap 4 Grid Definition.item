@@ -1,0 +1,142 @@
+----item----
+version: 1
+id: {C6FC66A9-2C7D-4E86-8128-E9E8DA49D345}
+database: master
+path: /sitecore/system/Settings/Project/GPN/Corporate/Corporate Bootstrap 4/Corporate Bootstrap 4 Grid Definition
+parent: {E5F39C4A-97B5-4102-9E41-747BDC9F0785}
+name: Corporate Bootstrap 4 Grid Definition
+master: {00000000-0000-0000-0000-000000000000}
+template: {A12EF6DE-1E2A-4D9B-82B4-DFFB70189E52}
+templatekey: Grid Definition
+
+----field----
+field: {21624C80-7821-4EED-B788-C716C5C1A088}
+name: Name
+key: name
+content-length: 21
+
+Corporate Bootstrap 4
+----field----
+field: {228606CA-DE6D-4803-AF3C-A420C90F315D}
+name: RenderingParametersFieldType
+key: renderingparametersfieldtype
+content-length: 115
+
+Sitecore.XA.Foundation.Grid.Fields.FieldRenderers.GridRenderingParametersFieldRenderer, Sitecore.XA.Foundation.Grid
+----field----
+field: {CBB899CD-DAD4-4B72-841A-A638E83E5FE5}
+name: DefaultGridParameters
+key: defaultgridparameters
+content-length: 0
+
+
+----field----
+field: {E0B0A836-40BD-4526-998A-649D3AF28AD5}
+name: Grid Theme
+key: grid theme
+content-length: 38
+
+{26C2C7EE-2A2B-4B1D-8E80-74C3E6C777DD}
+----field----
+field: {0B4D72A7-BE75-4690-805D-DDD564B1DD94}
+name: GridFieldParserType
+key: gridfieldparsertype
+content-length: 78
+
+Sitecore.XA.Foundation.Grid.Parser.GridFieldParser,Sitecore.XA.Foundation.Grid
+----field----
+field: {DC986105-2CD6-4A4F-9B2D-57FBB4858E56}
+name: GridBodyViewPath
+key: gridbodyviewpath
+content-length: 39
+
+~/Views/SxaLayout/Bootstrap4Body.cshtml
+----field----
+field: {91193E28-C9C9-49EB-916D-87E5AF0F1E34}
+name: Flex
+key: flex
+content-length: 0
+
+
+----field----
+field: {549021D8-F27F-4217-805C-20D686E470D9}
+name: Fixed
+key: fixed
+content-length: 15
+
+container-fluid
+----field----
+field: {2105078E-C785-4DB4-9BBF-FF78F2179A17}
+name: Row Class
+key: row class
+content-length: 3
+
+row
+----field----
+field: {BCEE3E9E-E00C-48AE-B723-A0741FED842B}
+name: Row Container Class
+key: row container class
+content-length: 9
+
+container
+----field----
+field: {2341030D-19BA-46E1-91FE-9DF617284932}
+name: Wrapping Tag
+key: wrapping tag
+content-length: 0
+
+
+----field----
+field: {BC8986B2-5872-466F-AFEB-390C9A3EDAA4}
+name: Wrapping Class
+key: wrapping class
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: bde469e6-50a9-4a3c-b303-37c43ef5628b
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 21
+
+Corporate Bootstrap 4
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161215T094503Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+default\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bde469e6-50a9-4a3c-b303-37c43ef5628b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210323T044030Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

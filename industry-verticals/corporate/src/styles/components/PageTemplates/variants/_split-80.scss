@@ -1,0 +1,5 @@
+&.split-80 {
+  .left-section {
+    @include make-responsive-col-size-up($mobileSize: 12, $desktopSize: 8);
+  }
+}

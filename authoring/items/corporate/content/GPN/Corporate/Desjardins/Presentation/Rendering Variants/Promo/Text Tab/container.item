@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {B092CC88-3FEC-473B-B973-A356A81C957D}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Promo/Text Tab/container
+parent: {3473BFFC-8AF5-4144-8F47-7AEDE6175F86}
+name: container
+master: {00000000-0000-0000-0000-000000000000}
+template: {ACA5C9A3-CDA0-49B6-893F-1D4A7CB595B0}
+templatekey: VariantSection
+
+----field----
+field: {BEA2740E-90D1-4B16-BD1D-7A7CC8605D2D}
+name: CssClass
+key: cssclass
+content-length: 9
+
+container

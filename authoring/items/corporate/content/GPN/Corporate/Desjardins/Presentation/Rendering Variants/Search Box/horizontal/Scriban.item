@@ -1,0 +1,135 @@
+----item----
+version: 1
+id: {95C07F64-2741-465B-BC4F-0970EF678A92}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Search Box/horizontal/Scriban
+parent: {A4703AAF-DEE4-40BB-919B-01041C2D6577}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 442
+
+{{
+
+$title = sc_field i_item ['Title', '__Display Name'] 
+if $title == ''
+  $title = i_item.Name
+end
+
+$url = ''
+$aProps = ''
+$classNames = ''
+
+if i_item.template_name == "Pdf"
+  $url = i_item.media_url
+  $aProps = 'target="_blank"'
+  $classNames = 'pdf'
+else
+  $url = i_item.url
+end
+
+-}}
+
+<div class="field-title {{ $classNames }}">
+    <a {{ $aProps }} title="{{ $title -}}" href="{{ $url -}}">{{ $title -}}</a>
+</div>
+----version----
+language: en-CA
+version: 1
+revision: 223ab3fe-8884-43da-b06d-a9e018772274
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210511T074416Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+223ab3fe-8884-43da-b06d-a9e018772274
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065815Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 3c1a04ab-b18b-44d9-9494-5834ea729fd1
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210511T074416Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3c1a04ab-b18b-44d9-9494-5834ea729fd1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080303Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

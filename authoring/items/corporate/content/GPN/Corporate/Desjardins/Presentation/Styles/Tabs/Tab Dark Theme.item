@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {8E5712ED-619E-4814-B647-B2CB74C7EA4A}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Styles/Tabs/Tab Dark Theme
+parent: {430C3F3C-6F92-45BC-9685-4D28370A9558}
+name: Tab Dark Theme
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B8AABEF-D650-46E0-97D0-C0B04F7F016B}
+templatekey: Style
+
+----field----
+field: {09147FB2-EBFB-4949-8C8E-26A424409D5E}
+name: Value
+key: value
+content-length: 8
+
+dark-tab

@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {A1C73C58-DB4D-4F19-A341-7EE05E508CD7}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Navigation Link
+parent: {B0D62F43-04E0-410A-BA5A-FB914E4D23D3}
+name: Navigation Link
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 311
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}|{371D5FBB-5498-4D94-AB2B-E3B70EEBE78C}|{2171D050-6A1B-460A-B53A-79F9F03C0893}|{BAA1879B-3B45-44D5-8673-EE8914BDEE61}|{2D49B8CD-65AB-45A7-823B-85B7031BC8C0}|{C14B6289-8AC2-439C-9E5B-40DE9F820C3F}|{019DCDC9-C0A2-4EA7-9E86-6781375FA712}|{4D69A00E-5038-49A9-9203-1DAEFBBEA0DB}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{94D03D09-260C-4614-8D9C-17E9D14575DA}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+Office/32x32/earth_link.png
+----version----
+language: en
+version: 1
+revision: f35519d0-8872-47ae-80a7-1bb7cecd941a
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190815T033918Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f35519d0-8872-47ae-80a7-1bb7cecd941a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221212T125918Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

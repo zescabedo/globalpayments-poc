@@ -1,0 +1,90 @@
+----item----
+version: 1
+id: {5CFD5614-3BAC-48A5-8729-DDEA4E95B23F}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Rendering Variants/Page Content/PIF Hero/Hero/Article without image
+parent: {C15D4C89-0D46-48EA-ABAD-996521731C33}
+name: Article without image
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 836
+
+{{-
+    # Title, publish date, minutes to read
+    $title = sc_raw i_item "Blog Title"
+    $publishedDate = ""
+    if o_pagemode.is_experience_editor 
+        $publishedDate = sc_field i_item "BlogPublishedDate"
+    else 
+        $publishedDate = sc_field i_item "BlogPublishedDate" | date.parse | date.to_string "%A, %B %e, %Y" 
+    end
+    $minutesRead = i_item.BlogReadTime | string.strip
+    if $minutesRead == ""
+        $minutesRead = "4"
+    end
+-}}
+
+
+<h1 class="pif-title h3-style">{{ $title }}</h1>
+<div class="content-type-details">
+    <span class="p-sm published-date">{{ $publishedDate }}</span>
+    {{ if $minutesRead }}
+        {{ if $minutesRead != "" }}
+            <span class="p-sm read-time">{{ $minutesRead }} {{ sc_translate "minute read"  }}</span>
+        {{ end }}
+    {{ end }}
+</div>
+
+----version----
+language: en-US
+version: 1
+revision: b1e101a6-e899-4a74-a98b-3cb6f27f674a
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230411T003545Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b1e101a6-e899-4a74-a98b-3cb6f27f674a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230412T011035Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

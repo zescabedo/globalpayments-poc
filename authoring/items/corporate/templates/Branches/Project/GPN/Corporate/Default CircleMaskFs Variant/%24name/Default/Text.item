@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {8676B4B9-09D9-4E9A-8AF2-EB8761A9365C}
+database: master
+path: /sitecore/templates/Branches/Project/GPN/Corporate/Default CircleMaskFs Variant/$name/Default/Text
+parent: {998DD6E6-159D-4EBE-B81D-11644D70164C}
+name: Text
+master: {00000000-0000-0000-0000-000000000000}
+template: {FCD285DA-9AB2-4C8D-B185-5A7487A9BA1B}
+templatekey: VariantField
+
+----field----
+field: {DB805BDC-8EEC-4238-B174-2427B6F1F077}
+name: Tag
+key: tag
+content-length: 0
+
+
+----field----
+field: {4753764C-C05A-4623-841B-97F85135241C}
+name: FieldName
+key: fieldname
+content-length: 4
+
+Text
+----field----
+field: {DCB05E5E-7151-4226-A3B0-108C5E2F05B5}
+name: IsLink
+key: islink
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 74a100a7-2018-496f-bd92-425d84533251
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160817T085915Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+74a100a7-2018-496f-bd92-425d84533251
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200714T091925Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {5B3B0B6A-B9B1-41D0-ACFF-01FAB67D9304}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Country To Language Mapping/CA/Quebec
+parent: {2D9B7E95-E529-4BFA-8229-D9BAE4D5EFF3}
+name: Quebec
+master: {00000000-0000-0000-0000-000000000000}
+template: {3F562AF0-AA45-4423-8E49-776B620CB58B}
+templatekey: Region to Language Mapping Item
+
+----field----
+field: {61765315-6E49-406F-870E-BCCF3C996EF2}
+name: RegionName
+key: regionname
+content-length: 6
+
+Quebec
+----field----
+field: {319C90C3-BEF7-4936-8049-F24CDC79D7B8}
+name: RegionIsoCode
+key: regionisocode
+content-length: 2
+
+QC
+----field----
+field: {E84CEA00-2499-469D-BC51-C8B4B37F7E5C}
+name: PrimaryLanguage
+key: primarylanguage
+content-length: 38
+
+{5B3AEDC4-CB03-419C-A13A-FE083DDF7428}
+----field----
+field: {AFAC26EA-6F0E-460F-ACCB-703A0758E3AE}
+name: SecondaryLanguage
+key: secondarylanguage
+content-length: 38
+
+{9B70B446-6F79-46FA-8EBC-DBDF18A18F3A}
+----version----
+language: en-US
+version: 1
+revision: 4f96c73d-9fd5-40a1-a458-2b0d73aa0b55
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230227T055759Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4f96c73d-9fd5-40a1-a458-2b0d73aa0b55
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230227T055906Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

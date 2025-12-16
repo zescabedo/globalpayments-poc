@@ -1,0 +1,88 @@
+.feature-content {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxl');
+
+  .row {
+    @include media-breakpoint-up(sm) {
+      row-gap: gpn-spacing-size('sm', 'lg');
+    }
+
+    @include media-breakpoint-up(md) {
+      row-gap: gpn-spacing-size('md', 'lg');
+    }
+  }
+
+  .copy-section {
+    display: flex;
+    flex-direction: column;
+    gap: gpn-spacing-size('sm', 'xs');
+    @include make-col(12);
+    @include media-breakpoint-up(lg) {
+      @include make-col(5);
+    }
+    .brow {
+      @extend %h-brow;
+    }
+    .title,
+    .title p {
+      @extend %h-md;
+    }
+    .tag,
+    .tag p {
+      @extend %p-md;
+    }
+    .details,
+    .details p {
+      @extend %p-xxs;
+    }
+  }
+
+  .chart-section {
+    @include make-col(12);
+    @include media-breakpoint-up(lg) {
+      @include make-col-offset(1);
+      @include make-col(5);
+    }
+    .chart-block {
+      display: flex;
+      flex-direction: column;
+      gap: gpn-spacing-size('sm', 'xs');
+
+      .chart-header {
+        @include gpn-spacing('margin-top', 'sm');
+
+        .title,
+        .title p {
+          @extend %h-xs;
+          @include gpn-spacing('margin-bottom', 'xs');
+        }
+        .tag,
+        .tag p {
+          @extend %p-md;
+        }
+      }
+
+      .media-section {
+        position: relative;
+        max-width: map-get($gpn-theme-feature-content, 'max-width');
+        aspect-ratio: map-get($gpn-theme-feature-content, 'aspect-ratio');
+        height: auto;
+
+        img {
+          position: absolute;
+          width: map-get($gpn-theme-feature-content, 'width');
+          height: auto;
+          top: 0;
+          left: 0;
+        }
+      }
+
+      .chart-footer {
+        .footnote,
+        .footnote p {
+          @extend %p-xxs;
+        }
+        @include gpn-spacing('margin-bottom', 'xs');
+      }
+    }
+  }
+}

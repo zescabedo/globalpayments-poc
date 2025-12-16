@@ -1,0 +1,32 @@
+----item----
+version: 1
+id: {041A3371-F7B3-4464-A5A3-0102D44DEA5D}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/ArticlePromo/Trends Promo/Link Wrapper/ImageSection/Promo Icon
+parent: {74799C9F-9005-440C-A337-2926CD8D3820}
+name: Promo Icon
+master: {00000000-0000-0000-0000-000000000000}
+template: {FCD285DA-9AB2-4C8D-B185-5A7487A9BA1B}
+templatekey: VariantField
+
+----field----
+field: {DB805BDC-8EEC-4238-B174-2427B6F1F077}
+name: Tag
+key: tag
+content-length: 0
+
+
+----field----
+field: {4753764C-C05A-4623-841B-97F85135241C}
+name: FieldName
+key: fieldname
+content-length: 17
+
+ArticlePromoImage
+----field----
+field: {C35B2285-B4A8-406F-A91C-24A60391DC12}
+name: DataAttributes
+key: dataattributes
+content-length: 55
+
+class=img-fluid&style=width%3A509px%3Bheight%3A284px%3B

@@ -1,0 +1,32 @@
+----item----
+version: 1
+id: {4961A00E-5B1D-4E7B-B80F-216F03F6C76A}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/ArticlePromo/Trends Promo/Link Wrapper
+parent: {D0CBF90A-C547-40FE-8740-64CFC9AE2565}
+name: Link Wrapper
+master: {00000000-0000-0000-0000-000000000000}
+template: {ACA5C9A3-CDA0-49B6-893F-1D4A7CB595B0}
+templatekey: VariantSection
+
+----field----
+field: {4A997FFD-136B-409E-8DC9-FDE53AC545A3}
+name: IsLink
+key: islink
+content-length: 1
+
+1
+----field----
+field: {C35B2285-B4A8-406F-A91C-24A60391DC12}
+name: DataAttributes
+key: dataattributes
+content-length: 28
+
+style=text-decoration%3Anone
+----field----
+field: {34400B24-5666-4295-BBC2-B87C2020AA6D}
+name: LinkAttributes
+key: linkattributes
+content-length: 39
+
+class=Link&style=text-decoration%3Anone

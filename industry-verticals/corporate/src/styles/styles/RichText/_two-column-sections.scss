@@ -1,0 +1,11 @@
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .left-section, .right-section {
+        @include make-col(12);
+        @include media-breakpoint-up(md) {
+            @include make-col(6);
+        }
+    }
+}

@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {E9BAB2C5-6996-4556-A886-D228922EBC90}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/ArticlePromo/Trends Promo/Link Wrapper/TextSection/Tag Section/Tags/Tag
+parent: {362D3865-E223-4F58-88F3-761ED454CCA2}
+name: Tag
+master: {00000000-0000-0000-0000-000000000000}
+template: {6354D18E-54E9-45AD-9EC7-510769DB4809}
+templatekey: VariantReference
+
+----field----
+field: {6A018521-3D58-4CDD-98FC-88BE689650D5}
+name: PassThroughField
+key: passthroughfield
+content-length: 7
+
+SxaTags

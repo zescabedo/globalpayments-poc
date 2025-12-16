@@ -1,0 +1,166 @@
+.pill-link-table {
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxl');
+  .row {
+    align-items: map-get($gpn-theme-pill-link-table, 'default-alignment');
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+      gap: gpn-spacing-size('lg', 'sm');
+    }
+  }
+
+  .media-section {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+
+    img,
+    video {
+      width: 100%;
+      height: auto;
+    }
+
+    picture,
+    img,
+    video {
+      padding-left: inherit;
+      padding-right: inherit;
+    }
+
+    @import '../../styles/image/image.scss';
+  }
+
+  .copy-section {
+    display: flex;
+    flex-direction: column;
+    gap: gpn-spacing-size('lg', 'xxs');
+    .title,
+    .title p {
+      @extend %h-md;
+    }
+    .details,
+    .details p {
+      @extend %p-sm;
+      @include gpn-spacing([ 'padding-bottom'], 'xxs');
+    }
+  }
+
+  .cta-wrapper {
+    margin-bottom: gpn-spacing-size('lg', 'md');
+
+    ul {
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+
+      li {
+        .field-heading {
+          display: flex;
+          flex-direction: column;
+          @include gpn-spacing([ 'gap'], 'xxs');
+          width: 100%;
+          @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxs');
+          border-bottom: 1px solid
+            map-get($gpn-theme-pill-link-table, 'link-item-border-bottom-color');
+
+          .link-glow-base {
+            display: flex;
+          }
+
+          .link-glow-bright {
+            display: flex;
+          }
+
+          .details {
+            @extend %p-xs;
+            padding-right: px-to-rem(32);
+          }
+        }
+
+        &:first {
+          .field-heading {
+            padding-top: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &.headings-increase-one {
+    .copy-section {
+      .title,
+      .title p {
+        @extend %h-md;
+      }
+
+      .tag {
+        @extend %p-md;
+      }
+    }
+  }
+  &.headings-decrease-one {
+    .copy-section {
+      .title,
+      .title p {
+        @extend %h-xs;
+      }
+
+      .tag {
+        @extend %p-xs;
+      }
+    }
+  }
+  &.details-increase-one {
+    .copy-section {
+      .details,
+      .details p {
+        @extend %p-md;
+      }
+    }
+  }
+  &.details-decrease-one {
+    .copy-section {
+      .details,
+      .details p {
+        @extend %p-xs;
+      }
+    }
+  }
+
+  &.offset-center-6x4 {
+    .media-section {
+      @include make-col(12);
+
+      @include media-breakpoint-up(md) {
+        @include make-col(6);
+      }
+    }
+
+    .copy-section {
+      @include make-col(12);
+
+      @include media-breakpoint-up(md) {
+        @include make-col-offset(1);
+        @include make-col(4);
+      }
+    }
+
+    &.reverse-layout {
+      .copy-section {
+        order: -1;
+
+        @include media-breakpoint-up(md) {
+          @include make-col(4);
+          @include make-col-offset(0);
+        }
+      }
+
+      .media-section {
+        @include media-breakpoint-up(md) {
+          @include make-col-offset(1);
+        }
+      }
+    }
+  }
+
+  @import '../../styles/pill-link-table/styles';
+}

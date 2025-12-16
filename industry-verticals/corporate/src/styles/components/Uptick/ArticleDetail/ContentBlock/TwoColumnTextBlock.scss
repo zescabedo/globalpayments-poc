@@ -1,0 +1,40 @@
+.two-column-text-block {
+  .columns {
+    display: flex;
+    @include gpn-spacing('gap', 'sm');
+    padding-bottom: map-get($gpn-theme-two-column-text-block, 'padding-bottom');
+    flex-direction: column;
+
+    .column {
+      @include make-col(12);
+
+      @include media-breakpoint-up(lg) {
+        @include make-col(6);
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      &.left-column-text,
+      &.right-column-text {
+        &,
+        & > * {
+          @extend %p-md;
+        }
+      }
+
+      &.left-column-text {
+        order: 1;
+      }
+      &.right-column-text {
+        order: 2;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      flex-direction: row;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {7B149080-A15F-46F0-BEAA-C22112FC0A1B}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Blog/Blog Year/__Standard Values
+parent: {53FF7048-2C14-44D3-B106-7A3C36C3DFBA}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {53FF7048-2C14-44D3-B106-7A3C36C3DFBA}
+templatekey: Blog Year
+
+----field----
+field: {61CF7151-0CBD-4DB4-9738-D753A55A6E65}
+name: __Enforce version presence
+key: __enforce version presence
+content-length: 1
+
+1
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 25
+
+Office/32x32/calendar.png
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 116
+
+{0AE4D97B-32FA-483F-B4E3-26A66FB78886}|{75DECE50-7B50-4BE6-84F9-93C1AA95F33E}|{64491DF4-CAB6-43E8-81BE-EAC13A2FFC26}
+----version----
+language: en
+version: 1
+revision: 564a6603-2b85-4ebc-ba45-fc36e23f0383
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190909T010426Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+564a6603-2b85-4ebc-ba45-fc36e23f0383
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210215T034456Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

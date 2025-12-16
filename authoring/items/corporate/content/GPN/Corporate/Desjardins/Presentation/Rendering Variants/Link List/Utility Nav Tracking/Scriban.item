@@ -1,0 +1,127 @@
+----item----
+version: 1
+id: {DC6F51DF-10AE-4D7F-B152-67DC41EA6B71}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Link List/Utility Nav Tracking/Scriban
+parent: {A418D073-ACA0-49B3-A211-19A62888B879}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 574
+
+{{ if (i_item && i_item.name == "Language") }}
+{{sc_placeholder "utility-nav"}}
+{{ end }}
+{{
+$aItem = get_general_link_info i_item 'Link'
+$aItemProps = ''
+if $aItem && $aItem.url && $aItem.url != ""
+$aItemProps = "href='" + $aItem.url + "' title='" + $aItem.title + "' class='" + $aItem.styleclass + "'target='" + $aItem.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $aItem.gatext + "'"
+end
+}}
+{{if $aItem && $aItem.url && $aItem.url != ""}}
+<div class="p-xs field-link">
+<a {{ $aItemProps }}>{{$aItem.text}}</a>
+</div>
+{{end}}
+
+----version----
+language: en-CA
+version: 1
+revision: 18e7a615-5342-4dcc-918d-23e468eca0b6
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210803T082549Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+18e7a615-5342-4dcc-918d-23e468eca0b6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220525T085927Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: fr-CA
+version: 1
+revision: d1509d9f-9bc1-43af-bd9b-3dacaf47189a
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210803T082549Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d1509d9f-9bc1-43af-bd9b-3dacaf47189a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211007T071254Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

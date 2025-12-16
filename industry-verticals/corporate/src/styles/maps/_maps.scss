@@ -1,0 +1,1437 @@
+@use 'sass:list';
+@use 'sass:color';
+@import '@styles/utilities/functions';
+
+// Sass-Maps for different components
+
+// ************
+// Pill Link Table
+// ************
+$gpn-theme-pill-link-table: (
+  default-alignment: center,
+  link-item-border-bottom-color: $gpn-theme-black,
+  darkmode-link-item-border-bottom-color: $gpn-theme-white,
+  media-aspect-ratio-base: list.slash(4, 3),
+) !default;
+
+// ************
+// Product Card
+// ************
+$gpn-theme-product-card: (
+  image-height: 32rem,
+  animation-transform: scale(1.02),
+  animation-transition: all 0.5s ease,
+) !default;
+// Accordions
+// ************
+$gpn-theme-accordions: (
+  opacity-hide-image: 0,
+  opacity-show-image: 1,
+  icon-height-size: 2rem,
+  icon-width-size: 2rem,
+  accordion-toggle-transition: all 0.25s ease-in-out,
+  accordion-icon-collapsed: $gpn-theme-icon-plus-base,
+  accordion-icon-not-collapsed: $gpn-theme-icon-minus-base,
+  accordion-icon-white-collapsed: $gpn-theme-icon-plus-white,
+  accordion-icon-white-not-collapsed: $gpn-theme-icon-minus-white,
+  accordion-title-color: $gpn-theme-off-black,
+  accordion-trayheading-color: $gpn-theme-off-black,
+  accordion-border-radius: $gpn-theme-radius-lg,
+  accordion-hr-color: $gpn-theme-grey-400,
+  accordion-body-color: $gpn-theme-off-black !important,
+) !default;
+
+// ************
+// Media Banner
+// ************
+$gpn-theme-media-banner: (
+  parallax-outline-color: $gpn-theme-bright,
+  parallax-border-width: 2px,
+  media-section-aspect-ratio: list.slash(1, 1),
+  callout-media-section-aspect-ratio: list.slash(8, 5),
+  widget-media-section-aspect-ratio: list.slash(8, 5),
+  video-size-default: cover,
+  copy-section-alignment: flex-start,
+  callout-media-section-left: 1.7rem,
+  border-radius: 3.6rem,
+  tertiary-button-min-height: px-to-rem(32),
+) !default;
+
+// ************
+// Logo Carousel
+// ************
+$gpn-theme-logo-carousel: (
+  'aspect-ratio': list.slash(3, 2),
+  large-image-width: px-to-rem(200),
+  large-image-height: px-to-rem(100),
+  small-image-width: px-to-rem(72),
+  small-image-height: px-to-rem(48),
+  small-image-mobile-looped-padding-left: 13%,
+  large-image-mobile-looped-padding-left: 33%,
+  large-image-tablet-looped-padding-left: 15%,
+) !default;
+
+// ***********************
+// Image Inset Testimonial
+// ***********************
+$gpn-theme-image-inset-testimonial: (
+  content-section-animation: parallax-effect-top-bottom,
+  quote-icon-width: px-to-rem(28),
+  quote-icon-height: px-to-rem(20),
+  content-section-transition-tablet: all 500ms linear,
+  content-section-transition-mobile: transform 500ms linear,
+  content-section-default-background: $gpn-theme-white,
+  content-section-quote-image: $gpn-theme-icon-quote-open-base,
+  logo-max-width: px-to-rem(200),
+  content-section-quote-image-for-base-bg: $gpn-theme-icon-quote-open-bright,
+  logo-max-height: px-to-rem(100),
+  media-background-size: cover,
+  content-image-mobile-height: px-to-rem(180),
+  content-image-tablet-height: px-to-rem(372),
+  content-image-desktop-height: px-to-rem(660),
+  margin-bottom-desktop: px-to-rem(80),
+  margin-bottom-tablet: px-to-rem(72),
+  content-section-top-position-desktop: px-to-rem(506),
+  content-section-top-position-tablet: px-to-rem(-68),
+  content-section-top-position-mobile: px-to-rem(-40),
+) !default;
+
+// ======
+// Header
+// ======
+$gpn-theme-header: (
+  // Basic header settings
+  header-default-color: $gpn-theme-white,
+  header-container-transition: transform 0.3s ease-in-out,
+  header-padding-desktop: px-to-rem(16) 0 px-to-rem(20) 0,
+  header-padding-tablet: px-to-rem(16) 0 px-to-rem(16) 0,
+  header-padding-mobile: px-to-rem(16) 0 px-to-rem(4) 0,
+  header-minimum-height-mobile: px-to-rem(76),
+  header-minimum-height-tablet: px-to-rem(92),
+  header-minimum-height-desktop: px-to-rem(130),
+  // Sticky header settings
+  language-dropdown-toggle-icon-mobile: $gpn-theme-icon-check-base,
+  language-dropdown-active-item-background-color: $gpn-theme-grey-110,
+  language-dropdown-item-hover-background-color: $gpn-theme-base,
+  language-dropdown-item-hover-text-color: $gpn-theme-white,
+  language-dropdown-flag-icon-size: px-to-rem(40),
+  language-dropdown-checked-icon-size: px-to-rem(16),
+  nav-link-color: $gpn-theme-black,
+  nav-link-hover-color: $gpn-theme-base,
+  sticky-header-background-color: $gpn-theme-base,
+  sticky-nav-link-color: $gpn-theme-white,
+  sticky-search-icon: $gpn-theme-icon-search-white,
+  sticky-navbar-toggler-icon: $gpn-theme-icon-burgermenu-reverse,
+  sticky-header-cta-style: btn-outline-white,
+
+  // Navigation
+  cta-box-padding: px-to-rem(6) 0,
+  logo-container-max-width: 70%,
+  grid-template-columns: auto 1fr auto,
+  grid-template-rows: px-to-rem(47) px-to-rem(47),
+  utitlitymenu-navlist-padding: px-to-rem(1) 0 px-to-rem(3),
+  utility-nav-link-color: $gpn-theme-grey-600,
+  utility-nav-link-text-decoration-color: $gpn-theme-grey-600,
+  utility-nav-link-font-weight: $gpn-theme-font-weight-medium,
+  utility-nav-link-line-height: px-to-rem(20),
+  cta-box-btn-font-weight: $gpn-theme-font-weight-medium,
+  mobile-language-switcher-font-color: $gpn-theme-grey-600,
+  // Dropdown settings
+  dropdown:
+    (
+      dropdown-menu-zindex: $gpn-theme-zindex-header-mobile-dropdown,
+      dropdown-item-active-color: $gpn-theme-grey-600,
+      dropdown-border-color: $gpn-theme-grey-300,
+      dropdown-menu-top-position: px-to-rem(47),
+      dropdown-menu-top-position-language-switcher: px-to-rem(22),
+      dropdown-menu-min-width: px-to-rem(296),
+      dropdown-header-color: $gpn-theme-black,
+      dropdown-item-title-color: $gpn-theme-black,
+      dropdown-item-summary-color: $gpn-theme-neutral-600,
+      dropdown-column-flex: 1,
+      dropdown-column-width: px-to-rem(200),
+      dropdown-item-summary-lineclamp-limit: 2,
+      dropdown-item-summary-text-overflow: ellipsis,
+      dropdown-item-summary-whitespace: normal,
+      dropdown-menu-translate: translateX(-25%),
+      dropdown-item-title-hover-color: $gpn-theme-base,
+      dropdown-toggle-icon: $gpn-theme-icon-nav-down-base,
+      dropdown-toggle-icon-sticky: $gpn-theme-icon-nav-down,
+      dropdown-toggle-font-weight: $gpn-theme-font-weight-medium,
+      dropdown-toggle-color: $gpn-theme-neutral-600,
+      dropdown-item-image-size: px-to-rem(40),
+      dropdown-item-image-border-radius: $gpn-theme-radius-xxl,
+      dropdown-item-color: $gpn-theme-grey-600,
+      dropdown-carrot-icon-image: $gpn-theme-menu-carrot,
+      dropdown-carrot-icon-size: px-to-rem(10),
+      dropdown-carrot-icon-top: px-to-rem(-6),
+      dropdown-carrot-icon-right: px-to-rem(48),
+    ),
+
+  // Navbar toggler
+  navbar-toggler:
+    (
+      sticky-padding: px-to-rem(18) px-to-rem(8),
+      border: none,
+    ),
+
+  // Search popup
+  search-popup:
+    (
+      width: px-to-rem(544),
+      right-position: px-to-rem(100),
+      top-position: px-to-rem(107.5),
+      top-position-sticky: px-to-rem(67.5),
+      padding-vertical: px-to-rem(5) 0,
+      submenu-padding: px-to-rem(48),
+    ),
+
+  // Search popup container
+  search-popup-container:
+    (
+      margin-bottom: gpn-spacing-size('sm', 'md'),
+    ),
+
+  // Search input
+  search-input:
+    (
+      padding: gpn-spacing-size('sm', 'xxs') px-to-rem(70) gpn-spacing-size('sm', 'xxs')
+        gpn-spacing-size('sm', 'lg'),
+      border-color: $gpn-theme-neutral-300,
+      border-radius: $gpn-theme-radius-xs,
+      background-color: $gpn-theme-subtle,
+      text-color: $gpn-theme-grey-600,
+      search-input-height: px-to-rem(40),
+    ),
+
+  // Search button
+  search-button:
+    (
+      right-position: px-to-rem(0),
+      top-position: px-to-rem(12),
+      padding: px-to-rem(8) px-to-rem(16),
+    ),
+
+  // Search toggle
+  search-toggle:
+    (
+      padding: gpn-spacing-size('sm', 'xs') gpn-spacing-size('sm', 'xxs'),
+      icon-size: px-to-rem(16),
+    ),
+
+  // Search prompts
+  search-prompts:
+    (
+      title-margin-bottom: gpn-spacing-size('sm', 'xxs'),
+      link-height: gpn-spacing-size('sm', 'xxl'),
+      link-margin-right: gpn-spacing-size('sm', 'sm'),
+      link-max-width: px-to-rem(146),
+    ),
+
+  // Mobile searchlinks
+  mobile-searchlinks:
+    (
+      list-padding-left: gpn-spacing-size('sm', 'sm'),
+    ),
+
+  // Offcanvas
+  offcanvas:
+    (
+      padding: calc(gpn-spacing-size('sm', 'sm') / 2) 0 0,
+      close-btn-opacity: 1,
+      navigation-title-padding: 0 gpn-spacing-size('sm', 'micro') gpn-spacing-size('sm', 'xxs') 0,
+      navigation-title-font-weight: $gpn-theme-font-weight-medium,
+    ),
+  close-btn-dark: $gpn-theme-icon-close-base,
+  close-btn-light: $gpn-theme-icon-close-white,
+  banner-image-width: px-to-rem(299),
+  banner-image-height: px-to-rem(120),
+  banner-mobile-image-width: px-to-rem(160),
+  banner-mobile-image-height: px-to-rem(160),
+  landing-page: (
+    grid-template-rows: px-to-rem(50),
+    landing-page-contact-sticky-color: $gpn-theme-white,
+    landing-page-contact-sticky-arrow: $gpn-theme-icon-arrow-white-w,
+    landing-page-image-width: px-to-rem(120),
+    landing-page-image-height: px-to-rem(40),
+    landing-page-contact-icon-width: px-to-rem(32),
+    landing-page-contact-icon-height: px-to-rem(32),
+    landing-page-contact-box-padding-top: px-to-rem(4),
+    landing-page-contact-box-width: px-to-rem(32),
+    landing-page-contact-telephone: $gpn-theme-icon-telephone-black,
+    landing-page-contact-telephone-white: $gpn-theme-icon-telephone-white,
+  )
+) !default;
+
+// ************
+// Tab Nav Vertical
+// ************
+$gpn-theme-tab-nav-vertical: (
+  tab-content-section-padding-inline: px-to-rem(28),
+  image-and-video-height: auto,
+  image-and-video-width: 100%,
+  image-and-video-aspect-ratio: 2,
+  accordion-plus-icon: $gpn-theme-icon-plus-base,
+  accordion-plus-icon-on-bg-base: $gpn-theme-icon-plus-white,
+  accordion-minus-icon: $gpn-theme-icon-minus-base,
+  accordion-minus-icon-on-bg-base: $gpn-theme-icon-minus-white,
+  next-arrow-icon: $gpn-theme-icon-arrow-blue,
+  next-arrow-icon-on-bg-base: $gpn-theme-icon-arrow-white-w,
+  link-active-font-weight: $gpn-theme-font-weight-medium,
+  next-arrow-icon-margin-left: -3rem,
+) !default;
+// Testimonial
+// ************
+$gpn-theme-testimonial: (
+  large-image-default-aspect-ratio: list.slash(1, 1),
+  large-image-aspect-ratio: list.slash(2, 1),
+  logo-image-aspect-ratio: list.slash(2, 1),
+  opacity-slick-dots-button-hide: 0,
+  darkmode-color: $gpn-theme-black,
+  base-color: $gpn-theme-blue,
+  logo-aspect-ratio: list.slash(2.84, 1),
+  logo-width: 20rem,
+  logo-height: 10rem,
+  icon-aspect-ratio: list.slash(7, 5),
+  icon-width: 5.6rem,
+  icon-height: 4rem,
+  video-size-default: cover,
+  component-min-height-tablet: px-to-rem(700),
+  component-min-height-mobile: px-to-rem(550),
+  slick-dot-active-border-radius: px-to-rem(12),
+) !default;
+
+// ************
+// Tabs
+// ************
+$gpn-theme-tabs: (
+  tab-item-border-bottom: px-to-rem(2) solid $gpn-theme-neutral-400,
+  tab-item-border-bottom-active: px-to-rem(2) solid $gpn-theme-base,
+  tabs-item-border-bottom-base: px-to-rem(2) solid $gpn-theme-subtle,
+  tabs-item-border-bottom-base-active: px-to-rem(2) solid $gpn-theme-white,
+  tab-row-variant-padding-block: px-to-rem(12),
+  tab-item-variant-border-radius: px-to-rem(800),
+  icon-height-plus: px-to-rem(20),
+  icon-width: px-to-rem(20),
+  icon-height-minus: px-to-rem(20),
+  pill-heading-row-bg-color: $gpn-theme-neutral-200,
+  pill-heading-row-border-color: $gpn-theme-neutral-200,
+  pill-heading-font-weight-active: $gpn-theme-font-weight-medium,
+  pill-heading-font-weight-hover: $gpn-theme-font-weight-bold,
+  accordion-header-title-active: $gpn-theme-font-weight-bold,
+  accordion-header-title-active-color: $gpn-theme-base,
+  bar-slider-font-weight-active: $gpn-theme-font-weight-bold,
+  accordion-icon: $gpn-theme-icon-plus-base,
+  accordion-icon-active: $gpn-theme-icon-minus-base,
+  accordion-icon-bg-base: $gpn-theme-icon-plus-white,
+  accordion-icon-bg-base-active: $gpn-theme-icon-minus-white,
+  accordion-icon-bg-dark: $gpn-theme-icon-plus-medium,
+  accordion-icon-bg-dark-active: $gpn-theme-icon-minus-medium,
+  icon-transition: transform 0.3s,
+  tab-item-color: $gpn-theme-base,
+  bg-base-tab-item-color: $gpn-theme-white,
+  pill-heading-active-color: $gpn-theme-white,
+  pill-heading-active-bg-color: $gpn-theme-base,
+  tab-item-variant-bar-slider-padding-bottom: px-to-rem(6),
+  tab-item-variant-padding-top-bottom: px-to-rem(14),
+) !default;
+
+// ************
+// Hero
+// ************
+$gpn-theme-heroes: (
+  background: $gpn-theme-base,
+  l1-tall-wide-container-color: $gpn-theme-white,
+  split50-media-min-height-sm: 25.6rem,
+  split50-media-min-height-md: 52.1rem,
+  split50-media-min-height-lg: 57.6rem,
+  split50-contained-media-min-height-sm: 40.2rem,
+  split50-contained-media-min-height-md: 83.6rem,
+  split50-contained-media-min-height-lg: 88rem,
+  split40-60-contained-media-min-height-sm: 27.8rem,
+  split40-60-contained-media-min-height-md: 57.5rem,
+  split40-60-contained-media-min-height-lg: 58.8rem,
+  split50-media-width: 50vw,
+  l1-tall-wide-container-height: 89.6rem,
+  l1-tall-wide-height: 64rem,
+  l1-wide-min-height: 64rem,
+  l1-tall-wide-mobile-height: 100vh,
+  l2-moment-curve-height: 64rem,
+  l2-moment-curve-height-md: 51.2rem,
+  l3-horizontal-color-hero-bg-height-sm: px-to-rem(60),
+  l3-horizontal-color-hero-bg-height-md: px-to-rem(110),
+  l3-horizontal-color-hero-bg-height-lg: px-to-rem(120),
+  l3-no-colour-breakout-width: px-to-rem(900),
+  l3-vert-media-height-sm: px-to-rem(80),
+  l3-vert-media-height-md: px-to-rem(160),
+  l3-vert-media-img-height: px-to-rem(40),
+  l3-padding-left-md: px-to-rem(32),
+  l3-padding-right-md: px-to-rem(32),
+  featured-horizontal-color-hero-bg-height-sm: px-to-rem(182),
+  featured-horizontal-color-hero-bg-height-md: px-to-rem(246),
+  featured-horizontal-color-hero-bg-height-lg: px-to-rem(296),
+  featured-padding-left-md: px-to-rem(32),
+  featured-padding-right-md: px-to-rem(32),
+  featured-hero-aspect-ratio: list.slash(16, 9),
+) !default;
+
+// ************
+// Promo card
+// ************
+$gpn-theme-promo-card: (
+  media-aspect-ratio: 2,
+  promo-card-color: $gpn-theme-black,
+  animation-transform: scale(1.02),
+  animation-transition: all 0.5s ease,
+  styled-card-height: px-to-rem(360),
+  uniform-card-height: px-to-rem(318),
+) !default;
+
+// ======
+// featured hero
+// ======
+$gpn-theme-featured-hero: (
+  default-background-size: cover,
+  default-background-repeat: no-repeat,
+  default-background-position: top center,
+  default-playpause-width: 4rem,
+  default-playpause-height: 4rem,
+  default-playpause-right-position: 1.6rem,
+  default-playpause-line-height: 2rem,
+  default-container-height-desktop: 37.2rem,
+  default-container-height-tablet: 22.9rem,
+  default-container-height-mobile: 14.9rem,
+  default-container-position-bottom: -6.4rem,
+  default-playpause-width-large: 10rem,
+  default-playpause-height-large: 10rem,
+  default-playpause-translate-large: translate(-50%, -50%),
+  default-video-aspect-ratio: list.slash(16, 9),
+  default-playpause-icon-width: 29px,
+  default-playpause-icon-height: 29px,
+) !default;
+
+// ************
+// Blog Card
+// ************
+$gpn-theme-blog-card: (
+  media-section-aspect-ratio: list.slash(2, 1),
+  border-radius: $gpn-theme-radius-xl,
+  mobile-border-radius: $gpn-theme-radius-lg,
+) !default;
+
+// ************
+// Blog Cards Carousel
+// ************
+$gpn-theme-blog-cards-carousel: (
+  gradient-angle: 270deg,
+  gradient-start-color: $gpn-theme-white 15.58%,
+  gradient-end-color: rgba(251, 251, 251, 0) 70.13%,
+  transform-scale: scale(1.1),
+  category-color: $gpn-theme-grey-600,
+  card-overlap-background:
+    linear-gradient(var(--gradient-angle), var(--gradient-start-color), var(--gradient-end-color)),
+  media-transition: transform 0.3s ease,
+  title-transition: color 0.3s ease,
+  card-overlap-box-shadow: 6px 5px 4px 0px rgba(0, 0, 0, 0.25),
+  carousel-arrow-width: 3.2rem,
+  carousel-arrow-height: 3.2rem,
+  slick-slide-hidden-opacity: 0.8,
+  slick-card-overlap-visible-percentage: 8%,
+  slick-card-overlap-width: 21.2rem,
+  btn-wrappper-max-width: px-to-rem(1184),
+  slick-unselected-button-size: px-to-rem(12),
+  slick-selected-button-width: px-to-rem(32),
+  slick-selected-button-height: px-to-rem(12),
+  slick-dots-lg-offset: px-to-rem(-20),
+  slick-active-button-padding: px-to-rem(6),
+  btn-wrappper-top-offset: px-to-rem(-36),
+  blog-tag-border-color: $gpn-theme-off-black,
+  blog-tag-hover-background-color: $gpn-theme-blue-300,
+  blog-tag-hover-border-color: $gpn-theme-blue-300,
+  blog-secondary-tag-border-color: $gpn-theme-grey-600,
+  blog-secondary-tag-hover-background-color: $gpn-theme-orange-200,
+  blog-secondary-tag-hover-border-color: $gpn-theme-orange-200,
+  blog-tag-text-color: $gpn-theme-off-black,
+  blog-secondary-tag-text-color: $gpn-theme-grey-600,
+  slick-dot-active-border-radius: px-to-rem(12),
+) !default;
+
+//Promo Cards
+$gpn-theme-promo-cards: (
+  media-transition: all 0.5s ease,
+) !default;
+
+$gpn-theme-ec-clickable-card: (
+  image-transform-scale-effect: scale(1.05),
+) !default;
+
+// ************
+// Content card
+// ************
+$gpn-theme-content-card: (
+  title-font-without-action: 500,
+) !default;
+
+//media-banner-icon-list
+$gpn-theme-media-banner-icon-list: (
+  icon-size: px-to-rem(120),
+) !default;
+// ************
+// Hi Lo Cards
+// ************
+$gpn-theme-hi-lo-cards: (
+  height: 32rem,
+  image-size: (
+    height: 100%,
+    width: 100%,
+    border-radius: 50%,
+    order: 13,
+  ),
+
+  action: (
+    background: $gpn-theme-faint,
+    text-bg: $gpn-theme-white,
+    text-foreground: $gpn-theme-black,
+  ),
+) !default;
+
+// Featured Content
+// ************
+
+$gpn-theme-feature-content: (
+  aspect-ratio: 1 / 1,
+  max-width: 100%,
+  width: 100%,
+) !default;
+
+// =========================
+// Image Parallax Text Block
+// =========================
+$gpn-theme-image-parallax-text-block: (
+  content-wrapper-min-height: 66rem,
+  content-image-mobile-height: 18rem,
+  content-image-tablet-height: 37.2rem,
+  content-image-desktop-min-height: 66rem,
+  content-image-max-width: 100%,
+  content-section-animation: parallax-effect-top-bottom-image-parallax,
+  content-section-max-width: 48.8rem,
+) !default;
+
+// ============
+// ************
+// Quote Cards
+// ************
+$gpn-theme-quote-cards: (
+  background: $gpn-theme-subtle,
+  subtle: (
+    background: $gpn-theme-gray,
+    selected-background: $gpn-theme-blue,
+    quote-close-icon: $gpn-theme-icon-quote-close-dark,
+    quote-open-icon: $gpn-theme-icon-quote-open-dark,
+  ),
+  faint: (
+    background: $gpn-theme-gray,
+    selected-background: $gpn-theme-blue,
+    quote-close-icon: $gpn-theme-icon-quote-close-dark,
+    quote-open-icon: $gpn-theme-icon-quote-open-dark,
+  ),
+  light: (
+    background: $gpn-theme-gray,
+    selected-background: $gpn-theme-blue,
+    quote-close-icon: $gpn-theme-icon-quote-close-dark,
+    quote-open-icon: $gpn-theme-icon-quote-open-dark,
+  ),
+  base: (
+    background: $gpn-theme-gray,
+    selected-background: $gpn-theme-white,
+    quote-close-icon: $gpn-theme-icon-quote-close-white,
+    quote-open-icon: $gpn-theme-icon-quote-open-white,
+  ),
+  dark: (
+    background: $gpn-theme-gray,
+    selected-background: $gpn-theme-white,
+    quote-close-icon: $gpn-theme-icon-quote-close-white,
+    quote-open-icon: $gpn-theme-icon-quote-open-white,
+  ),
+  white: (
+    background: $gpn-theme-gray,
+    selected-background: $gpn-theme-blue,
+  ),
+  black: (
+    background: $gpn-theme-gray,
+    selected-background: $gpn-theme-white,
+    quote-close-icon: $gpn-theme-icon-quote-close-base,
+    quote-open-icon: $gpn-theme-icon-quote-open-base,
+  ),
+) !default;
+// ************
+// Case Study
+// ************
+$gpn-theme-case-study: (
+  logo-width: 13.6rem,
+  media-min-height-sm: 36rem,
+  media-transition: all 0.5s ease,
+  media-transform: scale(1.05),
+  copy-section-mobile-width: 36rem,
+  copy-section-mobile-height: 60rem,
+  copy-section-tablet-width: 69.6rem,
+  copy-section-tablet-height: 69.6rem,
+  copy-section-desktop-height: 58.4rem,
+) !default;
+
+// ************
+// Quote Logo Frame
+// ************
+$gpn-theme-testimonial: (
+  logo-image-aspect-ratio: list.slash(2, 1),
+  logo-width: 29.5rem,
+) !default;
+
+// ************
+// Content Logo Grid
+// ************
+$gpn-content-logo-grid: (
+  row-items-alignment: center,
+  five-per-row-width: px-to-rem(96),
+  five-per-row-height: px-to-rem(64),
+  four-per-row-width: px-to-rem(128),
+  four-per-row-height: px-to-rem(85.3),
+  three-per-row-width: px-to-rem(184),
+  three-per-row-height: px-to-rem(123),
+);
+
+// ===============
+// Plan price card
+// ===============
+$gpn-theme-plan-price-card: (
+  image-height-desktop: px-to-rem(424),
+  image-height-tablet: px-to-rem(616),
+  image-height-mobile: px-to-rem(296),
+  image-position-right: -11.2rem,
+  image-position-bottom: -5rem,
+  spotlight-border-radius: $gpn-theme-radius-lg,
+  check-marked-list-max-height-desktop: 29.4rem,
+  check-marked-list-max-height-tablet: 48rem,
+) !default;
+
+// ************
+// General Search Page
+// ************
+$gpn-theme-general-search: (
+  result-item: (
+    padding-vertical: gpn-spacing-size('sm', 'sm'),
+    border-bottom-width: 1px,
+    border-bottom-style: solid,
+    border-bottom-color: $gpn-theme-neutral-600,
+    url-margin-top: gpn-spacing-size('sm', 'xxs'),
+    url-margin-bottom: gpn-spacing-size('sm', 'xs'),
+    description-margin-top: calc(gpn-spacing-size('sm', 'xl') / 4),
+  ),
+  pagination: (
+    button: (
+      height: gpn-spacing-size('sm', 'xl'),
+      width: gpn-spacing-size('sm', 'xl'),
+      border-width: 1px,
+      border-style: solid,
+      border-radius: 50%,
+      transition: all 0.3s ease,
+      disabled-opacity: 0.5,
+    ),
+    margin-top: calc(gpn-spacing-size('sm', 'xl') / 2),
+    margin-bottom: calc(gpn-spacing-size('sm', 'xl') / 2),
+    gap: gpn-spacing-size('sm', 'xxs'),
+    border-color: $gpn-theme-grey-300,
+    button-padding: gpn-spacing-size('sm', 'xxs') calc(gpn-spacing-size('sm', 'sm') / 2),
+    font-size: gpn-spacing-size('sm', 'xs'),
+    hover-bg: $gpn-theme-grey-200,
+    active-bg: $gpn-theme-base,
+    active-border: px-to-rem(1) solid $gpn-theme-base,
+    background: $gpn-theme-white,
+    prev-next-icon-width: 3rem,
+    prev-next-icon-height: 3rem,
+    prev-next-icon-top: 0.5rem,
+    prev-next-icon-right: -4.5rem,
+    next-list-margin-left: 1.3rem,
+    next-list-margin-right: 0.5rem,
+    prev-list-margin-right: 1.3rem,
+    prev-list-margin-left: 3rem,
+    prev-next-text-color: $gpn-theme-black,
+  ),
+) !default;
+
+// ************
+// Card Carousel with Tray
+// ************
+
+$gpn-theme-case-study-carousel: (
+  arrow-position-top: -7.5rem,
+  arrow-position-right: 90%,
+  arrow-position-right-lg: 97%,
+  arrow-position-right-md: 95%,
+  arrow-position-left: 76%,
+  arrow-position-left-lg: 93%,
+  arrow-position-left-md: 87%,
+  slide-partial-rendering-padding-md: 0 58% 0 0,
+  slide-partial-rendering-margin-lg: -3%,
+  slide-partial-rendering-margin-md: -34%,
+  card-border-radius: 0.8rem,
+  cardSlide-max-width-tablet: 36rem,
+  cardSlide-max-width: 42.4rem,
+  cardSlide-max-height: 42.4rem,
+  arrow-display: block !important,
+  overlay-gradient: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+  categoryTag-padding: 0.4rem 0.8rem,
+  categoryTag-min-width: 8.6rem,
+  overlay-padding: 3.2rem,
+  arrow-size: 3.2rem,
+  container-tray-padding: 1.5rem,
+  clipPath-left: inset(-100vw -100vw -100vw 0),
+) !default;
+
+// **********************
+// Feature Vertical Video
+// **********************
+$gpn-theme-feature-vertical-video: (
+  mobile-max-width: 30.8rem,
+  mobile-background-aspect-ratio: list.slash(1, 2),
+  video-border-radius: 39px,
+) !default;
+
+// =====================
+// Product Card Selector
+// =====================
+$gpn-theme-selector-bundle-card: (
+  product-image-height: px-to-rem(396),
+  border-radius: $gpn-theme-radius-xl,
+  card-title-align: center,
+  card-subtitle-align: center,
+  card-background-color: $gpn-theme-white,
+  card-title-group-alignment: center,
+  product-details-align: center,
+  image-wrapper-text-align: center,
+  cta-box-background: $gpn-theme-white,
+) !default;
+
+// ************
+// Modal
+// ************
+$gpn-theme-modal: (
+  modal-dialog-maxWidth: 1440px,
+  modal-header-height: px-to-rem(60),
+  close-btn-position: (
+    top: px-to-rem(25),
+    right: px-to-rem(25),
+  ),
+  modal-desktop-padding: 0 px-to-rem(80),
+  close-btn-size: (
+    width: px-to-rem(26),
+    height: px-to-rem(27),
+  ),
+  close-btn-icon: (
+    lightMode: $gpn-theme-icon-close-base,
+    darkMode: $gpn-theme-icon-close-white,
+  ),
+  modal-body-height: (
+    desktop: 80vh,
+    tablet: 100vh,
+  ),
+  spinner-box-height: 80vh,
+  spinner-border-color: (
+    lightMode: $gpn-theme-base,
+    darkMode: $gpn-theme-white,
+  ),
+  split-base-white-theme-modal-content-background: $gpn-theme-base,
+  split-base-white-theme-modal-content-background-desktop:
+    linear-gradient(to right, $gpn-theme-base 40%, $gpn-theme-white 40%),
+  split-base-white-theme-modal-rich-text-padding-mobile: 0 px-to-rem(24),
+  split-base-white-theme-modal-form-padding-mobile: px-to-rem(24),
+  split-base-white-theme-modal-rich-text-padding-desktop: 0 px-to-rem(12),
+  split-base-white-theme-modal-form-padding-desktop: 0 px-to-rem(12),
+  split-base-white-theme-modal-form-background: $gpn-theme-white,    
+  split-base-white-theme-background-mobile: $gpn-theme-base,
+  split-base-white-theme-background-desktop: $gpn-theme-neutral-500,
+  modal-background-mask-color-mobile: $gpn-theme-white,
+  modal-background-mask-color-desktop: $gpn-theme-neutral-500,
+);
+
+$gpn-theme-lottie-animation: (
+  width: 100%,
+  height: 100%,
+) !default;
+
+$gpn-theme-plan-selector-card: (
+  background-color-wrapper: $gpn-theme-subtle,
+  background-color-on-hover: $gpn-theme-base,
+  background-color: $gpn-theme-white,
+  color: $gpn-theme-white,
+) !default;
+
+// ************ // Table Offer Matrix // ************
+$gpn-theme-table-matrix: (
+  min-height: 8.8rem,
+  mobile-header-text-color: $gpn-theme-grey-600,
+  desktop-sm-cell-padding-left: px-to-rem(12),
+) !default;
+
+
+// ===============
+// Form Module
+// ===============
+$gpn-theme-forms: (
+  form-validation-color: $gpn-theme-red-200,
+  form-validation-color-bg-faint: color.scale($gpn-theme-red-200, $lightness: -12%),
+  form-validation-color-bg-base: color.scale($gpn-theme-orange-200, $lightness: 31%),
+  form-control-border-color: $gpn-theme-grey-200,
+  form-control-border-color-focus: $gpn-theme-blue-300,
+  form-control-border-color-focus-faint: color.scale($gpn-theme-blue-300, $lightness: -30%),
+  form-control-border-color-focus-base: color.scale($gpn-theme-blue-300, $lightness: 49%),
+  dropdown-bg-color: $gpn-theme-white,
+  dropdown-background-posiion: right 1.25rem center / 19px 12px no-repeat,
+  validation-error-form-weight: $gpn-theme-font-weight-regular,
+  validation-error-font-size: 1.4rem,
+  validation-error-line-height: 1.8rem,
+  validation-error-margin-top: 0.3rem,
+  disabled-option-color: $gpn-theme-grey-200,
+  form-group-padding-top-bottom: 1rem,
+  form-group-padding-left: 2rem,
+  form-group-padding-right: 1rem,
+  submit-btn-padding-top-bottom: 2rem,
+  submit-btn-padding-left-right: 4rem,
+  form-group-icon-color: $gpn-theme-grey-600,
+  form-group-icon-color-on-hover: $gpn-theme-white,
+  form-input-box-radius: $gpn-theme-component-radius,
+  form-input-box-height: 4.4rem,
+  checkbox-input-width: 2.4rem,
+  checkbox-input-height: 2.4rem,
+  radio-input-width: 2.4rem,
+  radio-input-height: 2.4rem,
+  radio-input-border: 2px solid $gpn-theme-grey-400,
+  radio-input-bg-color: $gpn-theme-white,
+  radio-input-checked-color: $gpn-theme-base,
+  radio-input-checked-bg-color: $gpn-theme-white,
+  radio-input-checked-size: px-to-rem(12),
+  form-checkbox-checked-color: $gpn-theme-base,
+  form-checkbox-border-color: $gpn-theme-grey-400,
+  form-checkbox-border-color-bg-base: $gpn-theme-white,
+  form-checkbox-border-color-bg-faint: $gpn-theme-grey-600,
+  split-form-logo-width: px-to-rem(200),
+  split-form-logo-height: px-to-rem(72),
+  checkbox-string: '✓',
+  checkbox-transform: translate(-50%, -50%),
+  checkbox-bg-color: $gpn-theme-white,
+  textarea-min-height: 16rem,
+  form-help-text-color: $gpn-theme-blue-300,
+  form-help-text-color-bg-faint: color.scale($gpn-theme-blue-300, $lightness: -30%),
+  form-help-text-color-bg-base: color.scale($gpn-theme-blue-300, $lightness: 49%),
+  calendar-icon-width: px-to-rem(30),
+  calendar-icon-height: px-to-rem(30),
+  calendar-icon-right: px-to-rem(12),
+  calendar-icon-background: $gpn-theme-calendar-icon,
+  grey-background-content-mobile-padding: px-to-rem(10),
+  grey-background-content-tablet-padding: px-to-rem(20),
+  grey-background-content-desktop-padding: px-to-rem(40),
+
+) !default;
+
+$gpn-theme-location-listing: (
+  link-color: $gpn-theme-white,
+  arrow-icon-width: px-to-rem(36),
+  arrow-icon-height: px-to-rem(26),
+  list-title: (
+    font-size: gpn-spacing-size('sm', 'lg'),
+    line-height: px-to-rem(41.6),
+    margin-bottom: px-to-rem(26),
+    color: $gpn-theme-bright,
+  ),
+);
+
+$gpn-theme-icon-cards: (
+  light-theme-icon-color: $gpn-theme-base,
+  dark-theme-icon-color: $gpn-theme-white,
+  small-icon-size: px-to-rem(48),
+  horizontal-icon-size: px-to-rem(72),
+  large-icon-size: px-to-rem(104),
+);
+
+$gpn-theme-footer: (
+  logo-max-width: px-to-rem(211),
+  link-list-separator: '/',
+  line-height-bottom-section-links: px-to-rem(24),
+);
+// ===============
+// Uptick Editorial Page Hero
+// ===============
+$uptick-editorial-transition: width 0.3s ease-out, padding 0.3s ease-out, opacity 0.3s ease-out !default;
+$uptick-editorial-page-hero: (
+  background-color: $gpn-theme-grey-110,
+  title-background-gradient:
+    linear-gradient(96.26deg, $gpn-theme-blue-300 26.07%, $gpn-theme-base 96.97%),
+  description-color: $gpn-theme-dark,
+
+  nav-list-gap: gpn-spacing-size('sm', 'lg'),
+  nav-item-hover-background-color: $gpn-theme-base,
+  nav-item-hover-border-radius: $gpn-theme-radius-xxl,
+  nav-item-hover-color: $gpn-theme-white,
+  nav-item-top-bottom-padding: px-to-rem(6),
+  active-item-border-radius: $gpn-theme-radius-xxl,
+  active-item-border-color: $gpn-theme-base,
+  nav-search-width: px-to-rem(40),
+  max-search-aspect-ratio: 1,
+  search-expanded-transition: $uptick-editorial-transition,
+  search-dropdown-left: px-to-rem(-20),
+  search-dropdown-top: px-to-rem(-10),
+  search-expanded-top: px-to-rem(-20),
+  search-dropdown-zindex: 9,
+  search-expanded-zindex: 10,
+  search-icon-width: px-to-rem(24),
+  search-expanded-width: px-to-rem(232),
+  search-expanded-height: px-to-rem(40),
+  search-expanded-border-radius: px-to-rem(60),
+  search-expanded-padding: 20px 0px 20px 29px,
+  search-max-height: px-to-rem(40),
+) !default;
+
+$gpn-theme-tags: (
+  tag-border-width: px-to-rem(2),
+  tag-border-radius: px-to-rem(32),
+  tag-padding: px-to-rem(4) px-to-rem(14),
+  tag-lg-padding: px-to-rem(4) px-to-rem(16),
+  text-animation-transition: color 150ms ease-in-out,
+
+  // Default state
+  default-color: $gpn-theme-grey-600,
+  default-hover-bg-color: $gpn-theme-orange-200,
+  default-hover-color: $gpn-theme-black,
+  default-lg-color: $gpn-theme-black,
+
+  // Featured state
+  featured-color: $gpn-theme-black,
+  featured-border-color: $gpn-theme-off-black,
+  featured-hover-bg-color: $gpn-theme-blue-300,
+
+  // Selected state
+  selected-bg-color: $gpn-theme-green-210,
+
+  // Disabled state
+  disabled-color: $gpn-theme-off-black,
+  disabled-bg-color: $gpn-theme-grey-200,
+
+  // Dark mode - default state
+  dark-default-color: $gpn-theme-grey-300,
+  dark-default-hover-bg-color: $gpn-theme-orange-200,
+  dark-default-hover-color: $gpn-theme-black,
+
+  // Dark mode - featured state
+  dark-featured-color: $gpn-theme-white,
+  dark-featured-hover-bg-color: $gpn-theme-blue-300,
+);
+
+$gpn-theme-author-content-link: (
+  author-content-link-gap: px-to-rem(14),
+  author-content-link-m-mt: px-to-rem(12),
+  author-content-link-d-mt: px-to-rem(22),
+  text-animation-transition: color 150ms ease-in-out,
+);
+
+$gpn-theme-banner-with-cards: (
+  banner-with-card-padding: px-to-rem(84) 0 px-to-rem(150),
+  banner-with-card-box-shadow: 0px 4px 4px 0px #00000040,
+  banner-with-cards-container-m-width: px-to-rem(1320),
+  featured-card-overlay: linear-gradient(180deg, rgba(0, 0, 0, 0) 40.38%, rgba(0, 0, 0, 0.6) 100%),
+  feature-card-cta-border-radius: px-to-rem(80),
+  feature-card-cta-padding: px-to-rem(40),
+  feature-card-cta-icon-wh: px-to-rem(40),
+  feature-card-content-container-bottom: px-to-rem(50),
+  feature-card-content-container-left: px-to-rem(44),
+  feature-card-content-container-right: px-to-rem(110),
+  feature-card-overlay-border-radius: px-to-rem(32),
+  feature-card-cta-author-wrapper: px-to-rem(9),
+  banner-with-cards-image-border-radius: px-to-rem(32),
+  banner-with-cards-d-height: px-to-rem(762),
+  banner-with-cards-t-height: px-to-rem(429),
+  banner-with-cards-m-height: px-to-rem(208),
+  multicards-container-margin-top: px-to-rem(48),
+  multicards-container-gap: px-to-rem(40),
+  multi-author-card-image-wrapper-border-radius: px-to-rem(32),
+  multi-author-card-image-wrapper-min-hw: px-to-rem(200),
+  multi-author-card-title-margin-top: px-to-rem(14),
+  banner-with-multicards-container-t-mt: px-to-rem(34),
+  banner-with-multicards-container-t-gap: px-to-rem(40),
+  banner-with-multicards-image-t-hw: px-to-rem(167),
+  banner-with-card-title-t-min-height: px-to-rem(64),
+  banner-with-card-title-t-mt: px-to-rem(12),
+  banner-with-multicards-container-m-mt: px-to-rem(40),
+  banner-with-author-card-container-m-gap: px-to-rem(14),
+  banner-with-multicards-image-m-hw: px-to-rem(200),
+  banner-with-multicards-container-d-mt: px-to-rem(60),
+  banner-with-explore-arrow-svg-d-hw: px-to-rem(25),
+  banner-with-cards-featured-mobile-padding-bottom: px-to-rem(40),
+  play-button-cta-play-icon-m-hw: px-to-rem(100),
+  banner-with-cards-featured-mobile-container-padding: px-to-rem(40),
+);
+// ===============
+// Featured Articles
+// ===============
+
+$gpn-theme-uptick-featured-article: (
+  // default
+  image-height: px-to-rem(217),
+  image-border-radius: px-to-rem(32),
+  animation-transform: scale(1.05),
+  image-animation-transition: transform 500ms ease-in-out,
+  text-animation-transition: color 150ms ease-in-out,
+  // tablet
+  tablet-image-height: px-to-rem(170),
+  featured-tablet-image-width: px-to-rem(423),
+  featured-tablet-image-height: px-to-rem(262),
+  // desktop
+  desktop-image-height: px-to-rem(208),
+  featured-desktop-image-width: px-to-rem(648),
+  featured-desktop-image-height: px-to-rem(432),
+  tags-border-width: px-to-rem(2)
+);
+
+// ===============
+// Two Column Quote Block
+// ===============
+
+$gpn-theme-uptick-two-column-quote-block: (
+  padding-bottom-content: gpn-spacing-size(sm, 'sm'),
+);
+
+// ===============
+// Testimonial Block
+// ===============
+
+$gpn-theme-uptick-testimonial-block: (
+  quote-column-padding-quote: 0 gpn-spacing-size(sm, 'sm') gpn-spacing-size(sm, 'sm')
+    gpn-spacing-size(sm, 'sm'),
+  quote-column-inner-padding-left: gpn-spacing-size(sm, 'xs'),
+  font-size-author-desktop: gpn-spacing-size(sm, 'xs'),
+  social-sharing-margin-top: gpn-spacing-size(sm, 'xs'),
+  social-sharing-gap: gpn-spacing-size(sm, 'xxs'),
+  logo-image-height: gpn-spacing-size(sm, 'sm'),
+  logo-image-width: gpn-spacing-size(sm, 'sm'),
+  padding-top-left-company-logo-section: gpn-spacing-size(sm, 'sm'),
+  padding-bottom-right-author-content-section: gpn-spacing-size(sm, 'sm'),
+  company-logo-border-top-mobile-width: px-to-rem(48),
+  company-logo-max-height: px-to-rem(48),
+);
+
+// ===============
+// Text Block
+// ===============
+
+$gpn-theme-uptick-block-common: (
+  hightlight-background: $gpn-theme-grey-110,
+  image-container-aspect-ratio: 16 / 9,
+);
+
+$gpn-theme-uptick-horizontal-line-block: (
+  border-color: $gpn-theme-neutral-400,
+);
+
+$gpn-theme-card-carousel: (
+  // Background
+  card-carousel-background: $gpn-theme-light,
+
+  // Container title
+  card-carousel-container-title-margin-bottom: gpn-spacing-size('sm', 'xs'),
+  md-card-carousel-container-title-margin-bottom: px-to-rem(30),
+  card-carousel-container-title-font-weight: $gpn-theme-font-weight-light,
+
+  // Slide card
+  card-carousel-slide-card: px-to-rem(312),
+  card-carousel-slide-card-margin-right: gpn-spacing-size('lg', 'sm'),
+  md-card-carousel-slide-card-margin-bottom: px-to-rem(20),
+  lg-card-carousel-slide-card-margin-bottom: gpn-spacing-size('lg', 'md'),
+  // Image wrapper
+  card-carousel-image-wrapper-height: px-to-rem(434),
+  card-carousel-image-border-radius: gpn-spacing-size('lg', 'md'),
+  //Card Description
+  card-carousel-description-margin-right: px-to-rem(20),
+  // Card title
+  card-carousel-title-background: $gpn-theme-base,
+  card-carousel-title-dark-background: $gpn-theme-dark,
+  card-carousel-title-padding-top: gpn-spacing-size('lg', 'md'),
+  card-carousel-title-padding-bottom: px-to-rem(36),
+  card-carousel-title-padding-right: px-to-rem(30),
+  card-carousel-title-padding-left: px-to-rem(31),
+  card-carousel-title-border-radius: gpn-spacing-size('lg', 'xxxl'),
+  card-carousel-title-border-bottom-left-radius: gpn-spacing-size('lg', 'md'),
+  card-carousel-title-color: $gpn-theme-white,
+  card-carousel-title-height: px-to-rem(100),
+  // Mobile title
+  card-carousel-container-mobile-title-font-weight: $gpn-theme-font-weight-medium,
+
+  // Card icon
+  card-carousel-icon-size: px-to-rem(65),
+  card-carousel-icon-right: px-to-rem(12),
+  card-carousel-icon-top-percent: 15%,
+
+  // Slick dots
+  card-carousel-slick-dot-color: $gpn-theme-grey-600,
+  card-carousel-slick-dot-active-width: gpn-spacing-size('lg', 'md'),
+  card-carousel-slick-dot-active-height: px-to-rem(12),
+  card-carousel-slick-dot-active-background: $gpn-theme-base,
+  card-carousel-slick-dot-width: px-to-rem(12),
+  card-carousel-slick-dot-height: px-to-rem(12),
+  // Arrows
+  card-carousel-arrow-size: gpn-spacing-size('lg', 'lg'),
+  card-carousel-arrow-border: 2px solid $gpn-theme-base,
+  card-carousel-arrow-color: $gpn-theme-base,
+  card-carousel-arrow-position-bottom: px-to-rem(-30),
+  card-carousel-arrow-prev-right: gpn-spacing-size('lg', 'xxl'),
+  card-carousel-arrow-icon-size: px-to-rem(14),
+  // Card list
+  card-carousel-card-list-color: $gpn-theme-black,
+  card-carousel-card-list-border: 1px solid $gpn-theme-black,
+  card-carousel-card-list-padding-y: gpn-spacing-size('sm', 'xs'),
+  card-carousel-card-img-size: gpn-spacing-size('sm', 'lg'),
+  card-carousel-card-img-background: $gpn-theme-base,
+  card-carousel-card-img-icon-size: gpn-spacing-size('sm', 'xs'),
+  // Full width
+  card-carousel-full-width: 100%,
+  card-carousel-half-width: 50%,
+
+  card-carousel-disable-left-arrow-icon: $gpn-theme-icon-disable-left-arrow,
+  card-carousel-enable-right-arrow-icon: $gpn-theme-icon-enable-right-arrow,
+  card-carousel-disable-right-arrow-icon: $gpn-theme-icon-disable-right-arrow,
+  card-carousel-enable-left-arrow-icon: $gpn-theme-icon-enable-left-arrow,
+  card-carousel-mobile-arrow: $gpn-theme-card-mobile-arrow
+);
+
+$gpn-theme-uptick-image-block: (
+  image-height: px-to-rem(312),
+  image-radius: px-to-rem(32),
+);
+
+$gpn-theme-uptick-video-block: (
+  video-height: px-to-rem(322),
+  video-border-radius: px-to-rem(32),
+);
+
+$gpn-theme-uptick-audio-playback-block: (
+  button-size: px-to-rem(40),
+  image-radius: px-to-rem(32),
+  duration-width: px-to-rem(50),
+  progress-height: px-to-rem(4),
+  progress-transition: all 0.5 ease,
+);
+// ===============
+// Two Column Text Block
+// ===============
+
+$gpn-theme-two-column-text-block: (
+  padding-bottom: gpn-spacing-size(sm, 'sm'),
+);
+
+$gpn-theme-uptick-card-defaults: (
+  card-width: px-to-rem(312),
+  img-aspect-ratio: 3 / 2,
+  img-border-radius: gpn-spacing-size('lg', 'md'),
+  //TODO get from radii
+  img-animation-transform: scale(1.05),
+  img-animation-transition: transform 500ms ease-in-out,
+  text-animation-transition: color 150ms ease-in-out,
+  text-color-hover: $gpn-theme-base,
+  text-meta-color: $gpn-theme-grey-500,
+);
+
+// ===============
+// Uptick Unified Card System
+// ===============
+
+$gpn-theme-uptick-layout: (
+  // Section padding
+  section-padding-sm: gpn-spacing-size('sm', 'sm'),
+  section-padding-md: gpn-spacing-size('md', 'sm'),
+  section-padding-lg: gpn-spacing-size('md', 'xxxl'),
+  section-padding-xl: gpn-spacing-size('sm', 'xl'),
+  section-padding-xxl: gpn-spacing-size('sm', 'xxxl'),
+  // Container
+  container-max-width-lg: 8,
+  container-offset-lg: 2,
+
+  // Grid gaps
+  grid-gap-sm: gpn-spacing-size('sm', 'xl'),
+  grid-gap-md-row: gpn-spacing-size('sm', 'xl'),
+  grid-gap-md-col: gpn-spacing-size('md', 'sm'),
+  grid-gap-lg: gpn-spacing-size('lg', 'md'),
+  // Card gaps
+  card-gap-sm: gpn-spacing-size('sm', 'sm'),
+  card-gap-lg: gpn-spacing-size('lg', 'xs'),
+  card-content-gap: 1.2rem,
+
+  // Title margins
+  title-margin-bottom-lg: gpn-spacing-size('lg', 'md'),
+  title-margin-bottom-sm: gpn-spacing-size('sm', 'xs')
+);
+
+$gpn-theme-uptick-card: (
+  // Card dimensions
+  width: px-to-rem(312),
+  max-width-md: calc(50% - 1.2rem),
+  flex-md: 0 0 calc(50% - 1.2rem),
+  // Image
+  img-aspect-ratio: 3 / 2,
+  img-border-radius: gpn-spacing-size('lg', 'md'),
+  img-margin-bottom-sm: gpn-spacing-size('sm', 'xs'),
+  img-margin-bottom-base: gpn-spacing-size('sm', 'sm'),
+  // Animations
+  img-animation-transform: scale(1.05),
+  img-animation-transition: transform 500ms ease-in-out,
+  text-animation-transition: color 150ms ease-in-out,
+
+  // Colors
+  text-color: $gpn-theme-black,
+  text-color-hover: $gpn-theme-base,
+  text-meta-color: $gpn-theme-grey-500,
+  border-color: $gpn-theme-off-black,
+  border-color-alt: $gpn-theme-grey-600,
+
+  // Typography
+  title-font-size: 2rem,
+  title-font-weight: $gpn-theme-font-weight-black,
+  title-line-height: 2.6rem,
+
+  // Content spacing
+  content-gap-mobile: 1.2rem,
+  content-gap-lg: gpn-spacing-size('lg', 'xs'),
+  content-padding-left-lg: gpn-spacing-size('sm', 'sm')
+);
+
+$gpn-theme-uptick-taxonomy: (
+  // Tags container
+  tags-gap: gpn-spacing-size('sm', 'xxs'),
+  tags-flex-direction: column,
+
+  // Tag buttons
+  tag-text-transform: uppercase,
+
+  // Tag colors
+  tag-color-primary: $gpn-theme-black,
+  tag-color-secondary: $gpn-theme-grey-600,
+  tag-border-color-primary: $gpn-theme-off-black,
+  tag-border-color-secondary: $gpn-theme-grey-600,
+  tag-hover-color: $gpn-theme-white,
+  tag-hover-bg-secondary: $gpn-theme-grey-600
+);
+
+$gpn-theme-uptick-meta: (
+  // Article meta
+  meta-gap-sm: gpn-spacing-size('sm', 'xxxx'),
+  meta-gap-lg: gpn-spacing-size('sm', 'xs'),
+  meta-separator: '|',
+  meta-separator-margin: gpn-spacing-size('sm', 'xxxx'),
+  // Content type
+  content-type-color: $gpn-theme-black,
+  content-type-font-weight-sm: $gpn-theme-font-weight-regular,
+  content-type-font-weight-lg: $gpn-theme-font-weight-bold,
+  content-type-text-transform-sm: uppercase,
+  content-type-font-size: 1.4rem,
+
+  // Read time and date
+  meta-text-color-sm: $gpn-theme-black,
+  meta-text-color-lg: $gpn-theme-grey-500
+);
+
+$gpn-theme-uptick-author: (
+  // Author card layout
+  author-gap: gpn-spacing-size('sm', 'lg'),
+  author-details-gap: gpn-spacing-size('sm', 'xs'),
+  // Author image
+  author-image-col-sm: 7,
+  author-image-col-md: 3,
+  author-image-col-lg: 2,
+  author-image-offset-lg: 2,
+
+  // Author details
+  author-details-col-sm: 12,
+  author-details-col-md: 9,
+  author-details-col-lg: 6,
+
+  // Expertise
+  expertise-gap: gpn-spacing-size('sm', 'xxs')
+);
+
+$gpn-theme-uptick-banner: (
+  // Banner dimensions
+  banner-height-sm: 40vh,
+  banner-height-md: 50vh,
+  banner-height-lg: 60vh,
+
+  // Content positioning
+  content-position: absolute,
+  content-bottom: 0,
+  content-padding: gpn-spacing-size('sm', 'lg'),
+  // Background
+  bg-overlay: rgba(0, 0, 0, 0.4),
+  bg-overlay-gradient: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.7) 100%),
+  // Text colors
+  text-color: $gpn-theme-white,
+  meta-color: rgba(255, 255, 255, 0.9)
+);
+
+$gpn-theme-uptick-social: (
+  // Social sharing
+  social-gap: gpn-spacing-size('sm', 'xs'),
+  social-icon-size: 2.4rem,
+  social-margin-top: gpn-spacing-size('sm', 'xs'),
+  // Social colors
+  social-color: $gpn-theme-black,
+  social-color-hover: $gpn-theme-base,
+  social-bg: transparent,
+  social-bg-hover: rgba(0, 0, 0, 0.1)
+);
+
+$gpn-theme-uptick-newsletter: (
+  newsletter-background-color: $gpn-theme-dark,
+  newsletter-inner-padding-mobile: gpn-spacing-size(sm, 'xl') gpn-spacing-size(sm, 'xl')
+    gpn-spacing-size(sm, 'lg') gpn-spacing-size(sm, 'xl'),
+  newsletter-inner-padding-tablet: gpn-spacing-size(sm, 'xxl') gpn-spacing-size(sm, 'xxxl')
+    gpn-spacing-size(sm, 'lg') gpn-spacing-size(sm, 'xxxl'),
+  newsletter-inner-padding-desktop: gpn-spacing-size(sm, 'xxl') gpn-spacing-size(sm, 'xxxl')
+    gpn-spacing-size(sm, 'lg') gpn-spacing-size(md, 'xxxl'),
+  newsletter-content-gap-mobile: gpn-spacing-size('sm', 'md'),
+  newsletter-content-gap-desktop: gpn-spacing-size('lg', 'md'),
+  newsletter-privacy-padding-tablet: 0 gpn-spacing-size('sm', 'sm'),
+  newsletter-privacy-field-font-weight: $gpn-theme-font-weight-regular,
+  newsletter-privacy-field-margin-top: gpn-spacing-size('sm', 'xs'),
+  newsletter-CTA-background: $gpn-theme-blue-300,
+  newsletter-CTA-padding: gpn-spacing-size('sm', 'xs') gpn-spacing-size('sm', 'xl'),
+  newsletter-CTA-height: gpn-spacing-size('md', 'xxl'),
+  newsletter-CTA-margin-mobile: gpn-spacing-size('sm', 'sm') 0 gpn-spacing-size('sm', 'xs'),
+  newsletter-CTA-margin-desktop: gpn-spacing-size('sm', 'xs') 0 gpn-spacing-size('sm', 'xs'),
+  newsletter-CTA-margin-bottom: gpn-spacing-size('sm', 'xs'),
+  newsletter-CTA-hover-background: $gpn-theme-blue-500,
+  newsletter-CTA-text-color: $gpn-theme-black-950,
+  newsletter-CTA-hover-text-color: $gpn-theme-white,
+  with-banner: (
+    content-padding-mobile: gpn-spacing-size(lg, 'xl') gpn-spacing-size(sm, 'xs')
+      gpn-spacing-size(md, 'lg'),
+    content-padding-tablet: gpn-spacing-size(md, 'xxxl') gpn-spacing-size(lg, 'macro')
+      gpn-spacing-size(md, 'lg'),
+    content-padding-desktop: gpn-spacing-size(lg, 'xxxl') 0 gpn-spacing-size(lg, 'xxxl')
+      gpn-spacing-size(lg, 'xxxl'),
+  ),
+  block: (
+    newsletter-background-color: $gpn-theme-subtle,
+    gap-mobile: gpn-spacing-size('sm', 'xs'),
+    gap-tablet: gpn-spacing-size('md', 'xxl'),
+    gap-desktop: gpn-spacing-size('sm', 'lg'),
+    cta-margin-bottom-tablet: gpn-spacing-size('sm', 'sm'),
+    cta-margin-bottom-mobile: gpn-spacing-size('sm', 'sm'),
+    input-margin-bottom-mobile: gpn-spacing-size('sm', 'sm'),
+    input-margin-bottom-tablet: gpn-spacing-size('sm', 'xs'),
+    input-padding-mobie: gpn-spacing-size('sm', 'xs') gpn-spacing-size('sm', 'sm'),
+    input-padding-desktop: gpn-spacing-size('sm', 'xxs') gpn-spacing-size('sm', 'sm'),
+    newsletter-CTA-text-color: $gpn-theme-white-255,
+  ),
+);
+
+// ===============
+// Search Tag Result
+// ===============
+
+$gpn-theme-uptick-search-tag-result: (
+  // default
+  card-height: px-to-rem(365),
+  image-height: px-to-rem(217),
+  image-radius: px-to-rem(32),
+  animation-transform: scale(1.05),
+  image-animation-transition: transform 500ms ease-in-out,
+  text-animation-transition: color 150ms ease-in-out,
+  title-font-size: px-to-rem(20),
+  title-font-weight: $gpn-theme-font-weight-black,
+  title-line-height: px-to-rem(26),
+  icon-size: px-to-rem(12),
+  pagination-btn-size: px-to-rem(40),
+  cta-border-width: px-to-rem(2),
+  pagination-text-padding: px-to-rem(11),
+  loader-min-height: 100vh,
+  after-element-height: px-to-rem(26),
+  after-element-position: translateY(95%),
+  description-max-width: px-to-rem(872),
+  clear-cta-padding: px-to-rem(6),
+  filter-indicator-size: px-to-rem(28),
+  filter-indicator-box-shadow: 0 0 0 px-to-rem(6) $gpn-theme-base,
+  icon-animation-transition: transform 100ms ease-in-out,
+  active-icon-rotation-degree: rotate(45deg),
+  // desktop
+  desktop-card-height: px-to-rem(412),
+  desktop-image-height: px-to-rem(256)
+);
+
+// Breadcrumb
+// ===============
+$uptick-theme-breadcrumb: (
+  breadcrumb-background: $gpn-theme-grey-110,
+  breadcrumb-padding: gpn-spacing-size('sm', 'lg'),
+  breadcrumb-link-color: $gpn-theme-black,
+  breadcrumb-link-active-font-weight: $gpn-theme-font-weight-black,
+  breadcrumb-search-icon-right: px-to-rem(24),
+  breadcrumb-search-width: gpn-spacing-size('sm', 'xl'),
+  md-breadcrumb-search-width: px-to-rem(208),
+  breadcrumb-item-margin-right: px-to-rem(3),
+  breadcrumb-border-radius: px-to-rem(60),
+  breadcrumb-search-icon: $gpn-theme-icon-search-black,
+  breadcrumb-icon-size: px-to-rem(20),
+  breadcrumb-last-node-width: px-to-rem(200),
+  md-breadcrumb-last-node-width: px-to-rem(300),
+);
+// ===============
+// Interactive Block
+// ===============
+$gpn-interactive-block: (
+  interactive-block-height: px-to-rem(375),
+  md-interactive-block-height: px-to-rem(820),
+  lg-interactive-block-height: px-to-rem(769),
+);
+
+$gpn-theme-focused-card-carousel: (
+  // Arrows
+  focused-card-carousel-arrow-color: $gpn-theme-blue-500,
+  focused-card-carousel-hover-color: $gpn-theme-base,
+
+  // Full width
+  focused-card-carousel-full-width: 100%,
+  focused-card-carousel-full-height: 100%,
+
+  focused-card-carousel-disable-left-arrow-icon: $gpn-theme-icon-disable-left-arrow,
+  focused-card-carousel-enable-right-arrow-icon: $gpn-theme-icon-enable-right-arrow,
+  focused-card-carousel-disable-right-arrow-icon: $gpn-theme-icon-disable-right-arrow,
+  focused-card-carousel-enable-left-arrow-icon: $gpn-theme-icon-enable-left-arrow,
+  focused-card-carousel-card-cta-size: px-to-rem(16),
+  focused-card-accordion-button-width: px-to-rem(16),
+  focused-card-accordion-custom-arrow: px-to-rem(32),
+  focused-card-description-left: px-to-rem(448),
+  custom-arrow-prev-right: 3%,
+  desktop-link-transition: margin-right 0.3s ease-in-out,
+  focused-card-carousel-min-height: px-to-rem(589)
+);
+
+$gpn-theme-uptick-tags: (
+  tag-border-width: px-to-rem(2),
+  tag-border-radius: px-to-rem(32),
+  tag-padding: px-to-rem(4) px-to-rem(14),
+  text-animation-transition: color 150ms ease-in-out,
+);
+
+// Go Back
+$gpn-theme-go-back: (
+  go-back-arrow-left-back-icon: $gpn-theme-arrow-left-back-icon,
+  go-back-icon-size: px-to-rem(12),
+  go-back-font-weight: $gpn-theme-font-weight-bold,
+  go-back-font-color: $gpn-theme-black,
+  go-back-font-size: px-to-rem(14),
+  go-back-padding: px-to-rem(16),
+  go-back-line-height: px-to-rem(20),
+  go-back-gap: px-to-rem(14),
+);
+
+$gpn-theme-uptic-toc: (
+  sticky-toc-width-tablet: px-to-rem(224),
+  sticky-toc-width-desktop: px-to-rem(306),
+  toc-position-on-sticky: gpn-spacing-size('lg', 'xxxl'),
+);

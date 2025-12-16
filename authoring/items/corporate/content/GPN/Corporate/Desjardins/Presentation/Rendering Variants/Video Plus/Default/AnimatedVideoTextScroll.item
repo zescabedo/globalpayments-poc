@@ -1,0 +1,154 @@
+----item----
+version: 1
+id: {DCB4BB06-71F8-420B-8188-C5548A1E9C8D}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Video Plus/Default/AnimatedVideoTextScroll
+parent: {013AB6EF-6B83-490C-841C-D37F59D7FF67}
+name: AnimatedVideoTextScroll
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 1014
+
+<div class="video-panel textScrollOverVideo" id="videoTextScrollPanl">
+<div class="tint"></div>
+    {{
+        $v = get_general_link_info i_datasource "MP4VideoLink"
+        $vUrl = ''
+        $vTitle = ''
+        if($v)
+            $vUrl = $v.url
+            $vTitle = $v.title
+        end
+        $i_url = ""
+        if(i_datasource.VideoPoster && i_datasource.VideoPoster.target)
+            $i_url = i_datasource.VideoPoster.target.media_url
+        end
+     }}
+    <section class="video-wrap">
+    <div class="top-mask"></div>
+    <div class="left-mask"></div>
+    <div class="right-mask"></div>
+        <video muted loop playsinline class="video-background" id="video" poster="{{ $i_url }}" title="{{ $vTitle }}">
+            {{ if !o_pagemode.is_experience_editor_editing }}
+            <source src="{{ $vUrl }}" type="video/mp4">
+            {{ end }}
+        </video>
+    </section>
+    <div class="col-12 px-0">
+    {{sc_raw i_datasource "VideoOverlayText"}}
+    </div>
+</div>
+----version----
+language: en-CA
+version: 1
+revision: 845d17d4-c39f-4108-abb8-935552e8c126
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210709T045157Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210709T045157Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+845d17d4-c39f-4108-abb8-935552e8c126
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065949Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 29425a97-6cb0-455b-a812-b13baa6bbe95
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210709T045157Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210709T045157Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+29425a97-6cb0-455b-a812-b13baa6bbe95
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080402Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

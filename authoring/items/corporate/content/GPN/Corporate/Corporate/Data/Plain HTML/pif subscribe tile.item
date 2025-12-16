@@ -1,0 +1,570 @@
+----item----
+version: 1
+id: {B13547BD-9F87-4AF2-BABA-36A7E8BA9A35}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Data/Plain HTML/pif subscribe tile
+parent: {8DCCDDC2-1CF5-4FF1-AEFB-3B01827C36CE}
+name: pif subscribe tile
+master: {00000000-0000-0000-0000-000000000000}
+template: {2AD23D55-AECD-43DD-AE0D-72D2EBCBA60F}
+templatekey: HTML Code
+
+----version----
+language: en-150
+version: 1
+revision: 72cdc00a-4880-40e8-88ea-b20d0658abce
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 695
+
+<template id="pif-subscribe-card-template">
+    <li class="pif-subscribe-card-container" style="display: none;">
+          <div class="pif-subscribe-card">
+              <h4 class="pif-subscribe-card-title"><strong>Never miss an insight</strong></h4>
+              <p class="pif-subscribe-card-sub-title">Subscribe to our Payments in Focus newsletter and stay ahead of the latest trends.</p>
+              <a class="btn btn-lg btn-outline-light overlay-source"  href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" data-ea-zone="Body" data-ea-type="click" data-ea-link="/en-eu/insights | Subscribe">Subscribe</a>
+          </div>
+    </li>
+</template>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220418T163332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72cdc00a-4880-40e8-88ea-b20d0658abce
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240503T015535Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en-BM
+version: 1
+revision: 0d78210c-c39c-4c0c-b466-ae850238b400
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 695
+
+<template id="pif-subscribe-card-template">
+    <li class="pif-subscribe-card-container" style="display: none;">
+          <div class="pif-subscribe-card">
+              <h4 class="pif-subscribe-card-title"><strong>Never miss an insight</strong></h4>
+              <p class="pif-subscribe-card-sub-title">Subscribe to our Payments in Focus newsletter and stay ahead of the latest trends.</p>
+              <a class="btn btn-lg btn-outline-light overlay-source"  href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" data-ea-zone="Body" data-ea-type="click" data-ea-link="/en-bm/insights | Subscribe">Subscribe</a>
+          </div>
+    </li>
+</template>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220418T163332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0d78210c-c39c-4c0c-b466-ae850238b400
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240503T015510Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en-CA
+version: 1
+revision: 5ffabd39-5802-46ff-81eb-0be2a159cdbe
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 695
+
+<template id="pif-subscribe-card-template">
+    <li class="pif-subscribe-card-container" style="display: none;">
+          <div class="pif-subscribe-card">
+              <h4 class="pif-subscribe-card-title"><strong>Never miss an insight</strong></h4>
+              <p class="pif-subscribe-card-sub-title">Subscribe to our Payments in Focus newsletter and stay ahead of the latest trends.</p>
+              <a class="btn btn-lg btn-outline-light overlay-source"  href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" data-ea-zone="Body" data-ea-type="click" data-ea-link="/en-ca/insights | Subscribe">Subscribe</a>
+          </div>
+    </li>
+</template>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220418T163332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5ffabd39-5802-46ff-81eb-0be2a159cdbe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240503T015458Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en-GB
+version: 1
+revision: 34dfb28b-d229-4722-9370-99c5381dac56
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 695
+
+<template id="pif-subscribe-card-template">
+    <li class="pif-subscribe-card-container" style="display: none;">
+          <div class="pif-subscribe-card">
+              <h4 class="pif-subscribe-card-title"><strong>Never miss an insight</strong></h4>
+              <p class="pif-subscribe-card-sub-title">Subscribe to our Payments in Focus newsletter and stay ahead of the latest trends.</p>
+              <a class="btn btn-lg btn-outline-light overlay-source"  href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" data-ea-zone="Body" data-ea-type="click" data-ea-link="/en-gb/insights | Subscribe">Subscribe</a>
+          </div>
+    </li>
+</template>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220418T163332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+34dfb28b-d229-4722-9370-99c5381dac56
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240503T015521Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en-HK
+version: 1
+revision: a9561e70-a2a5-45a4-9627-3a37a6f03a28
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 695
+
+<template id="pif-subscribe-card-template">
+    <li class="pif-subscribe-card-container" style="display: none;">
+          <div class="pif-subscribe-card">
+              <h4 class="pif-subscribe-card-title"><strong>Never miss an insight</strong></h4>
+              <p class="pif-subscribe-card-sub-title">Subscribe to our Payments in Focus newsletter and stay ahead of the latest trends.</p>
+              <a class="btn btn-lg btn-outline-light overlay-source"  href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" data-ea-zone="Body" data-ea-type="click" data-ea-link="/en-bm/insights | Subscribe">Subscribe</a>
+          </div>
+    </li>
+</template>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220418T163332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a9561e70-a2a5-45a4-9627-3a37a6f03a28
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240503T015515Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en-US
+version: 1
+revision: 41c04ae1-73fb-44e5-9275-d083ef146d13
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 689
+
+<template id="pif-subscribe-card-template">
+    <li class="pif-subscribe-card-container" style="display: none;">
+          <div class="pif-subscribe-card">
+              <h4 class="pif-subscribe-card-title"><strong>Never miss an insight</strong></h4>
+              <p class="pif-subscribe-card-sub-title">Subscribe to our Payments in Focus newsletter and stay ahead of the latest trends.</p>
+              <a class="btn btn-lg btn-outline-light overlay-source"  href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" data-ea-zone="Body" data-ea-type="click" data-ea-link="/insights | Subscribe">Subscribe</a>
+          </div>
+    </li>
+</template>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220418T163332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+41c04ae1-73fb-44e5-9275-d083ef146d13
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240503T012712Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: es-ES
+version: 1
+revision: e54b6e5c-c3e0-4af8-8eb3-76169d46125f
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 695
+
+<template id="pif-subscribe-card-template">
+    <li class="pif-subscribe-card-container" style="display: none;">
+          <div class="pif-subscribe-card">
+              <h4 class="pif-subscribe-card-title"><strong>Never miss an insight</strong></h4>
+              <p class="pif-subscribe-card-sub-title">Subscribe to our Payments in Focus newsletter and stay ahead of the latest trends.</p>
+              <a class="btn btn-lg btn-outline-light overlay-source"  href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" data-ea-zone="Body" data-ea-type="click" data-ea-link="/es-es/insights | Subscribe">Subscribe</a>
+          </div>
+    </li>
+</template>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220418T163332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e54b6e5c-c3e0-4af8-8eb3-76169d46125f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240503T015447Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: fr-CA
+version: 1
+revision: 40cfc9b7-0f5c-449e-afea-cbf7bcbb9e48
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 708
+
+<template id="pif-subscribe-card-template">
+    <li class="pif-subscribe-card-container" style="display: none;">
+        <div class="pif-subscribe-card">
+            <h4 class="pif-subscribe-card-title"><strong>Ne manquez aucune nouvelle !</strong></h4>
+            <p class="pif-subscribe-card-sub-title">Abonnez-vous à notre blogue Parlons paiements pour rester à l'affût des dernières tendances.</p>
+            <a class="btn btn-lg btn-outline-light overlay-source"  href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" data-ea-zone="Body" data-ea-type="click" data-ea-link="/fr-ca/perspectives | S'abonnez">
+S'abonnez</a>
+        </div>
+    </li>
+</template>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220418T163332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+40cfc9b7-0f5c-449e-afea-cbf7bcbb9e48
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240503T013323Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: hu-HU
+version: 1
+revision: 4806b053-847d-45e2-8004-b2b0e40c443a
+
+----field----
+field: {24CCE27C-05DB-4473-A1ED-E69B1725FF1C}
+name: HtmlCode
+key: htmlcode
+content-length: 695
+
+<template id="pif-subscribe-card-template">
+    <li class="pif-subscribe-card-container" style="display: none;">
+          <div class="pif-subscribe-card">
+              <h4 class="pif-subscribe-card-title"><strong>Never miss an insight</strong></h4>
+              <p class="pif-subscribe-card-sub-title">Subscribe to our Payments in Focus newsletter and stay ahead of the latest trends.</p>
+              <a class="btn btn-lg btn-outline-light overlay-source"  href="/modals/newsletter?theme=primary-1-white-theme&amp;type=fullscreen" rel="nofollow" data-ea-zone="Body" data-ea-type="click" data-ea-link="/hu-hu/insights | Subscribe">Subscribe</a>
+          </div>
+    </li>
+</template>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20220418T163332Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4806b053-847d-45e2-8004-b2b0e40c443a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240503T015529Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

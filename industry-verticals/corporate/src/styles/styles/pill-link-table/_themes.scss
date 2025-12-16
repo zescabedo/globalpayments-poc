@@ -1,0 +1,17 @@
+$darkThemeColour: map-get($gpn-theme-pill-link-table, 'darkmode-link-item-border-bottom-color');
+
+@each $theme, $backgroundColour in $gpn-theme-colours {
+  @if (is-dark-theme-colour($theme)) {
+    &.bg-#{$theme} {
+      .cta-wrapper {
+        ul {
+          li {
+            .field-heading {
+              border-bottom: 1px solid $darkThemeColour;
+            }
+          }
+        }
+      }
+    }
+  }
+}

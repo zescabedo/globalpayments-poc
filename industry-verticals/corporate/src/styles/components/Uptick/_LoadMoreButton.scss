@@ -1,0 +1,10 @@
+// Load More Button Styles for Uptick Components
+
+.load-more-container {
+  @include gpn-spacing(['padding-top', 'padding-bottom'], 'lg');
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

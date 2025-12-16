@@ -1,0 +1,8 @@
+&.split-50 {
+    .blog-card {
+        @include make-col(12);
+        @include media-breakpoint-up(md) {
+            @include make-col(6);
+        }
+    }
+}

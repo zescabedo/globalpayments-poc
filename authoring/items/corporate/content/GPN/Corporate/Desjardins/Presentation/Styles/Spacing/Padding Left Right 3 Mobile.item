@@ -1,0 +1,18 @@
+----item----
+version: 1
+id: {BAFFD47B-38C3-4CFA-97DF-3D01D8234918}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Styles/Spacing/Padding Left Right 3 Mobile
+parent: {4CE88623-26AA-4C18-A94B-6B787FBC28AB}
+name: Padding Left Right 3 Mobile
+master: {00000000-0000-0000-0000-000000000000}
+template: {6B8AABEF-D650-46E0-97D0-C0B04F7F016B}
+templatekey: Style
+
+----field----
+field: {09147FB2-EBFB-4949-8C8E-26A424409D5E}
+name: Value
+key: value
+content-length: 12
+
+px-3 px-md-0

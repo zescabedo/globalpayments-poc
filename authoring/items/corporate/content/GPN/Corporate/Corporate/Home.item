@@ -1,0 +1,175 @@
+----item----
+version: 1
+id: {C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Home
+parent: {FA433DE5-4971-42E7-8C1A-42D1D98AA648}
+name: Home
+master: {B90549B5-C997-4D6B-B102-C9AB82528974}
+template: {A02BC409-381B-4A9A-B653-2FBB53385751}
+templatekey: Home
+
+----field----
+field: {98BB27E0-C3DB-4D0F-82C8-398CAA2C3010}
+name: Enable Geo Detection
+key: enable geo detection
+content-length: 1
+
+1
+----field----
+field: {DB51D4E9-C24D-4670-AF0E-62C8AA08E2B6}
+name: LocalData
+key: localdata
+content-length: 38
+
+{B3163EA9-C439-47B1-ACD8-C31BD411A8C6}
+----field----
+field: {6FD695E7-7F6D-4CA5-8B49-A829E5950AE9}
+name: __Subitems Sorting
+key: __subitems sorting
+content-length: 0
+
+
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{92EB9EFB-88D4-4089-82BE-AAD92D4FA24E}
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 77
+
+{B6A3E5A8-C230-4D9D-A297-4683F064DEFF}|{A1C73C58-DB4D-4F19-A341-7EE05E508CD7}
+----version----
+language: en-GB
+version: 1
+revision: c1a0b336-bbad-4203-8edf-855ca448b775
+
+----field----
+field: {D4C9725F-D2FC-4F33-863C-AB3EBC8D6988}
+name: Title
+key: title
+content-length: 15
+
+Global Payments
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 481
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{290B5DB2-0147-416F-AA33-CF63AE73D1AC}" s:ds="local:/Data/Text 1" s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}" s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BF6F9EDF0-DE0E-4BD3-B988-BD907D859575%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1" s:ph="footer" /></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200729T001712Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c1a0b336-bbad-4203-8edf-855ca448b775
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210114T032723Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\tf-mark
+----version----
+language: en-US
+version: 1
+revision: 3ffec895-0f5a-432c-871c-9c757413eaec
+
+----field----
+field: {D4C9725F-D2FC-4F33-863C-AB3EBC8D6988}
+name: Title
+key: title
+content-length: 15
+
+Global Payments
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 481
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{290B5DB2-0147-416F-AA33-CF63AE73D1AC}" s:ds="local:/Data/Text 1" s:id="{87182F78-4399-4896-8D59-9D6A45282F8A}" s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BC0946C1A-DD69-4AEB-8B40-EB8D6DF6E8A8%7D&amp;Styles=%7BF6F9EDF0-DE0E-4BD3-B988-BD907D859575%7D&amp;RenderingIdentifier&amp;DynamicPlaceholderId=1" s:ph="footer" /></d></r>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200729T001712Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ffec895-0f5a-432c-871c-9c757413eaec
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210114T024823Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

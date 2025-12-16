@@ -1,0 +1,457 @@
+----item----
+version: 1
+id: {2235CCB7-8BEC-41DB-B542-D05EB3B5C4F5}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Security Headers/Content Security Policy report only/default-src
+parent: {B42C38A2-7E6F-4393-B371-877E7E92E392}
+name: default-src
+master: {F282C1EF-EA6D-47DA-954B-F6306F028363}
+template: {EC2F720B-E083-49B3-AF4D-65A07B5AF4DA}
+templatekey: Policy
+
+----field----
+field: {7EB4D7AF-0D58-4229-A73A-8F5B2BB91EF2}
+name: Allowed Hosts
+key: allowed hosts
+content-length: 506
+
+{0B2347A4-CFC7-43DB-9DB3-141B727ECF59}|{70DF3977-B84B-4BAD-9A15-2D3F1C743196}|{4F34E250-4888-430E-9A34-B142CB91412D}|{1E9F6DD3-9351-4AD3-9EF4-9494A0D0C041}|{189AC63C-4806-4345-AAB7-0324F9DD75D5}|{856DEAB0-1E3A-4C73-88BC-8E833744BA8C}|{2176EBB7-E909-4F51-B4C4-D52F2F4E4073}|{42F6923B-5138-46A4-8A12-9FAA089D6062}|{782BA3EE-A0AD-4956-8083-DC4237BB22F6}|{E680A38B-076E-46D8-B2D2-1FE7633AAF73}|{AC2DA4F0-C6DD-447C-A75D-2A1C79D4D3D8}|{4DEF06E1-E2FB-4B44-9F80-67FABE2137F5}|{60E8EC08-E3DF-4C85-A900-4F22072EB9E5}
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{94BDA2B9-39B3-4E70-BBD5-98BC2FF08C1C}
+----version----
+language: en-150
+version: 1
+revision: 31fafa9d-0ada-44e3-ba11-f85986177f10
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 114
+
+gpnprodsxavideo.azureedge.net gpnprodlegacys3.azureedge.net gpnprodprilegacys3.blob.core.windows.net *.vidyard.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+31fafa9d-0ada-44e3-ba11-f85986177f10
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230210T044215Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: ba567a63-f70d-4672-ae87-6e047b58c5c9
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 100
+
+gpnprodsxavideo.azureedge.net gpnprodlegacys3.azureedge.net gpnprodprilegacys3.blob.core.windows.net
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ba567a63-f70d-4672-ae87-6e047b58c5c9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084119Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-GB
+version: 1
+revision: 5b33fe17-8584-47ff-8478-1391b196ab53
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 100
+
+gpnprodsxavideo.azureedge.net gpnprodlegacys3.azureedge.net gpnprodprilegacys3.blob.core.windows.net
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5b33fe17-8584-47ff-8478-1391b196ab53
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084119Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-HK
+version: 1
+revision: fc89854c-9dfd-46eb-be45-aea532c52e09
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 100
+
+gpnprodsxavideo.azureedge.net gpnprodlegacys3.azureedge.net gpnprodprilegacys3.blob.core.windows.net
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fc89854c-9dfd-46eb-be45-aea532c52e09
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084118Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: f453793d-6e9f-4dab-856d-aec0e0b5ef4c
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 114
+
+gpnprodsxavideo.azureedge.net gpnprodlegacys3.azureedge.net gpnprodprilegacys3.blob.core.windows.net *.vidyard.com
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f453793d-6e9f-4dab-856d-aec0e0b5ef4c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220722T151421Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: es-ES
+version: 1
+revision: ca67a5cf-ef64-4b00-b021-6968e8d63ead
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 100
+
+gpnprodsxavideo.azureedge.net gpnprodlegacys3.azureedge.net gpnprodprilegacys3.blob.core.windows.net
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ca67a5cf-ef64-4b00-b021-6968e8d63ead
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211117T192900Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: 99262ab9-7102-4484-9754-c5795c3145b0
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 100
+
+gpnprodsxavideo.azureedge.net gpnprodlegacys3.azureedge.net gpnprodprilegacys3.blob.core.windows.net
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+99262ab9-7102-4484-9754-c5795c3145b0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084118Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: hu-HU
+version: 1
+revision: 2f7b8afd-ae3f-436f-a596-e8cb1c290858
+
+----field----
+field: {800AFEF6-E4D9-458D-A25E-A8E309713039}
+name: Additional Hosts
+key: additional hosts
+content-length: 100
+
+gpnprodsxavideo.azureedge.net gpnprodlegacys3.azureedge.net gpnprodprilegacys3.blob.core.windows.net
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210104T032116Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2f7b8afd-ae3f-436f-a596-e8cb1c290858
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220712T050628Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

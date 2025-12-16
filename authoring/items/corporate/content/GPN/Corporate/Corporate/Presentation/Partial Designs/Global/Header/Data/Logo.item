@@ -1,0 +1,689 @@
+----item----
+version: 1
+id: {E069B1FC-0A1D-4A7D-BD8A-853B212887C4}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Partial Designs/Global/Header/Data/Logo
+parent: {096830C2-4A44-4340-96D8-933805AADE1B}
+name: Logo
+master: {00000000-0000-0000-0000-000000000000}
+template: {BB8A85AB-1F6D-4518-8772-1C9F4F8DAC18}
+templatekey: Image
+
+----version----
+language: en-150
+version: 1
+revision: a90b077c-af80-4cd7-b548-f001578a3b64
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" />
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a90b077c-af80-4cd7-b548-f001578a3b64
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230324T125911Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Yogendra_Bartwal
+----version----
+language: en-AU
+version: 1
+revision: e72c51ab-52f9-409f-8568-46805a80b2d7
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e72c51ab-52f9-409f-8568-46805a80b2d7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230817T101052Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-BM
+version: 1
+revision: fc5a89e8-90cd-4c16-ac3e-e820d95c9cad
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fc5a89e8-90cd-4c16-ac3e-e820d95c9cad
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T153428Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: 39fa2a1e-e07f-4595-aafe-acf85ce15aed
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+39fa2a1e-e07f-4595-aafe-acf85ce15aed
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T070050Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-GB
+version: 1
+revision: f4bebda2-4e1c-466e-a413-a6f83a274160
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 139
+
+<link text="" anchor="" linktype="internal" class="" title="" target="_blank" querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f4bebda2-4e1c-466e-a413-a6f83a274160
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211111T214145Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\shaunbaddock
+----version----
+language: en-HK
+version: 1
+revision: 8d7b2140-fcd2-41c3-8918-0f16e0b01a5a
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8d7b2140-fcd2-41c3-8918-0f16e0b01a5a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T073414Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-MT
+version: 1
+revision: 71cf82bd-5744-4f47-9160-b57964abfe35
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+71cf82bd-5744-4f47-9160-b57964abfe35
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T153428Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 1
+revision: a0631bef-2642-480a-8bd9-27bb04ba8405
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a0631bef-2642-480a-8bd9-27bb04ba8405
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210222T190046Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: es-ES
+version: 1
+revision: 489f7b90-0bb8-4d2e-b6ea-b6261b8762d9
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+489f7b90-0bb8-4d2e-b6ea-b6261b8762d9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220208T155812Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: d675954a-9871-4be7-bdf0-c61e3782873e
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 124
+
+<link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d675954a-9871-4be7-bdf0-c61e3782873e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080838Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: hu-HU
+version: 1
+revision: 03037290-23cb-4d94-a44c-8ba036f8a8fa
+
+----field----
+field: {EBE4FDEF-16D5-4D19-833C-24A241628A3A}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{1C1814B7-E18F-41CA-8803-103769AAE80F}" ></image>
+----field----
+field: {54CAB1BA-53D3-4CE4-AB7E-F8C17596AA47}
+name: TargetUrl
+key: targeturl
+content-length: 133
+
+<link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C0565BEC-2C1B-48AF-9E52-354DC6E4E71E}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210218T133833Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+03037290-23cb-4d94-a44c-8ba036f8a8fa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220802T133550Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg

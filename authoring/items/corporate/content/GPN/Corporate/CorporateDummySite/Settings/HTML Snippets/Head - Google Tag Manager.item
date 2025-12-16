@@ -1,0 +1,481 @@
+----item----
+version: 1
+id: {209FAAC5-860F-4822-BF59-2566002D93DD}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/HTML Snippets/Head - Google Tag Manager
+parent: {D6E741AC-52E9-4BA0-953C-48539B57E4D3}
+name: Head - Google Tag Manager
+master: {00000000-0000-0000-0000-000000000000}
+template: {25F18683-2F03-4776-ADA3-6D2A76DBDF2D}
+templatekey: HTML Snippet
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+25
+----version----
+language: en
+version: 1
+revision: 633d9e51-26d4-4603-8ae1-b176eb589ebe
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 426
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSK84TH');</script>
+<!-- End Google Tag Manager -->
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210121T030129Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+633d9e51-26d4-4603-8ae1-b176eb589ebe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210503T225701Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-anthony
+----version----
+language: en
+version: 2
+revision: 3bedc272-f076-486b-b89f-edf10a188eae
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 3430
+
+<link rel="preconnect" href="https://cdn-gss.dataweavers.io" crossorigin="">
+<link rel="dns-prefetch" href="https://cdn-gss.dataweavers.io">
+
+<link rel="preconnect" href="https://px.ads.linkedin.com" crossorigin=""><link rel="dns-prefetch" href="https://px.ads.linkedin.com" crossorigin="">
+<link rel="preconnect" href="https://ls-4ijuwpfn.a.burly.io" crossorigin=""><link rel="dns-prefetch" href="https://ls-4ijuwpfn.a.burly.io" crossorigin="">
+<link rel="preconnect" href="https://go.globalpaymentsinc.com" crossorigin=""><link rel="dns-prefetch" href="https://go.globalpaymentsinc.com" crossorigin="">
+<link rel="preconnect" href="https://a.burly.io" crossorigin=""><link rel="dns-prefetch" href="https://a.burly.io" crossorigin="">
+<link rel="preconnect" href="https://pi.pardot.com" crossorigin=""><link rel="dns-prefetch" href="https://pi.pardot.com" crossorigin="">
+<link rel="preconnect" href="https://stats.g.doubleclick.net" crossorigin=""><link rel="dns-prefetch" href="https://stats.g.doubleclick.net" crossorigin="">
+<link rel="preconnect" href="https://insight.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://insight.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://js.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://js.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" crossorigin=""><link rel="dns-prefetch" href="https://dev.visualwebsiteoptimizer.com" crossorigin="">
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin=""><link rel="dns-prefetch" href="https://www.google-analytics.com" crossorigin="">
+<link rel="preconnect" href="https://cdn.raygun.io" crossorigin=""><link rel="dns-prefetch" href="https://cdn.raygun.io" crossorigin="">
+<link rel="preconnect" href="https://snap.licdn.com" crossorigin=""><link rel="dns-prefetch" href="https://snap.licdn.com" crossorigin="">
+<link rel="preconnect" href="https://match.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://match.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin=""><link rel="dns-prefetch" href="https://www.googletagmanager.com" crossorigin="">
+<link rel="preconnect" href="https://connect.facebook.net" crossorigin=""><link rel="dns-prefetch" href="https://connect.facebook.net" crossorigin="">
+
+<script type="text/javascript">
+  !function(a,b,c,d,e,f,g,h){a.RaygunObject=e,a[e]=a[e]||function(){
+  (a[e].o=a[e].o||[]).push(arguments)},f=b.createElement(c),g=b.getElementsByTagName(c)[0],
+  f.async=1,f.src=d,g.parentNode.insertBefore(f,g),h=a.onerror,a.onerror=function(b,c,d,f,g){
+  h&&h(b,c,d,f,g),g||(g=new Error(b)),a[e].q=a[e].q||[],a[e].q.push({
+  e:g})}}(window,document,"script","//cdn.raygun.io/raygun4js/raygun.min.js","rg4js");
+</script>
+<script type="text/javascript">
+  rg4js('apiKey', '1dncC3ucXbQ4rE2qmPA');
+  rg4js('enablePulse', true); // Enables Real User Monitoring
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSK84TH');</script>
+<!-- End Google Tag Manager -->
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210503T225708Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210503T225708Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3bedc272-f076-486b-b89f-edf10a188eae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210929T131452Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-CA
+version: 1
+revision: b89c2935-f185-465c-ade8-a745f85e6ab1
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 3430
+
+<link rel="preconnect" href="https://cdn-gss.dataweavers.io" crossorigin="">
+<link rel="dns-prefetch" href="https://cdn-gss.dataweavers.io">
+
+<link rel="preconnect" href="https://px.ads.linkedin.com" crossorigin=""><link rel="dns-prefetch" href="https://px.ads.linkedin.com" crossorigin="">
+<link rel="preconnect" href="https://ls-4ijuwpfn.a.burly.io" crossorigin=""><link rel="dns-prefetch" href="https://ls-4ijuwpfn.a.burly.io" crossorigin="">
+<link rel="preconnect" href="https://go.globalpaymentsinc.com" crossorigin=""><link rel="dns-prefetch" href="https://go.globalpaymentsinc.com" crossorigin="">
+<link rel="preconnect" href="https://a.burly.io" crossorigin=""><link rel="dns-prefetch" href="https://a.burly.io" crossorigin="">
+<link rel="preconnect" href="https://pi.pardot.com" crossorigin=""><link rel="dns-prefetch" href="https://pi.pardot.com" crossorigin="">
+<link rel="preconnect" href="https://stats.g.doubleclick.net" crossorigin=""><link rel="dns-prefetch" href="https://stats.g.doubleclick.net" crossorigin="">
+<link rel="preconnect" href="https://insight.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://insight.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://js.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://js.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" crossorigin=""><link rel="dns-prefetch" href="https://dev.visualwebsiteoptimizer.com" crossorigin="">
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin=""><link rel="dns-prefetch" href="https://www.google-analytics.com" crossorigin="">
+<link rel="preconnect" href="https://cdn.raygun.io" crossorigin=""><link rel="dns-prefetch" href="https://cdn.raygun.io" crossorigin="">
+<link rel="preconnect" href="https://snap.licdn.com" crossorigin=""><link rel="dns-prefetch" href="https://snap.licdn.com" crossorigin="">
+<link rel="preconnect" href="https://match.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://match.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin=""><link rel="dns-prefetch" href="https://www.googletagmanager.com" crossorigin="">
+<link rel="preconnect" href="https://connect.facebook.net" crossorigin=""><link rel="dns-prefetch" href="https://connect.facebook.net" crossorigin="">
+
+<script type="text/javascript">
+  !function(a,b,c,d,e,f,g,h){a.RaygunObject=e,a[e]=a[e]||function(){
+  (a[e].o=a[e].o||[]).push(arguments)},f=b.createElement(c),g=b.getElementsByTagName(c)[0],
+  f.async=1,f.src=d,g.parentNode.insertBefore(f,g),h=a.onerror,a.onerror=function(b,c,d,f,g){
+  h&&h(b,c,d,f,g),g||(g=new Error(b)),a[e].q=a[e].q||[],a[e].q.push({
+  e:g})}}(window,document,"script","//cdn.raygun.io/raygun4js/raygun.min.js","rg4js");
+</script>
+<script type="text/javascript">
+  rg4js('apiKey', '1dncC3ucXbQ4rE2qmPA');
+  rg4js('enablePulse', true); // Enables Real User Monitoring
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSK84TH');</script>
+<!-- End Google Tag Manager -->
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210503T225708Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210503T225708Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b89c2935-f185-465c-ade8-a745f85e6ab1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211108T125904Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: 112e59f2-9236-45c5-b528-0ce729513e90
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 3593
+
+<link rel="preconnect" href="https://cdn-gss.dataweavers.io" crossorigin="">
+<link rel="dns-prefetch" href="https://cdn-gss.dataweavers.io">
+
+<link rel="preconnect" href="https://px.ads.linkedin.com" crossorigin=""><link rel="dns-prefetch" href="https://px.ads.linkedin.com" crossorigin="">
+<link rel="preconnect" href="https://ls-4ijuwpfn.a.burly.io" crossorigin=""><link rel="dns-prefetch" href="https://ls-4ijuwpfn.a.burly.io" crossorigin="">
+<link rel="preconnect" href="https://go.globalpaymentsinc.com" crossorigin=""><link rel="dns-prefetch" href="https://go.globalpaymentsinc.com" crossorigin="">
+<link rel="preconnect" href="https://a.burly.io" crossorigin=""><link rel="dns-prefetch" href="https://a.burly.io" crossorigin="">
+<link rel="preconnect" href="https://pi.pardot.com" crossorigin=""><link rel="dns-prefetch" href="https://pi.pardot.com" crossorigin="">
+<link rel="preconnect" href="https://stats.g.doubleclick.net" crossorigin=""><link rel="dns-prefetch" href="https://stats.g.doubleclick.net" crossorigin="">
+<link rel="preconnect" href="https://insight.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://insight.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://js.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://js.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" crossorigin=""><link rel="dns-prefetch" href="https://dev.visualwebsiteoptimizer.com" crossorigin="">
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin=""><link rel="dns-prefetch" href="https://www.google-analytics.com" crossorigin="">
+<link rel="preconnect" href="https://cdn.raygun.io" crossorigin=""><link rel="dns-prefetch" href="https://cdn.raygun.io" crossorigin="">
+<link rel="preconnect" href="https://snap.licdn.com" crossorigin=""><link rel="dns-prefetch" href="https://snap.licdn.com" crossorigin="">
+<link rel="preconnect" href="https://match.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://match.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin=""><link rel="dns-prefetch" href="https://www.googletagmanager.com" crossorigin="">
+<link rel="preconnect" href="https://connect.facebook.net" crossorigin=""><link rel="dns-prefetch" href="https://connect.facebook.net" crossorigin="">
+
+<script type="text/javascript">
+  !function(a,b,c,d,e,f,g,h){a.RaygunObject=e,a[e]=a[e]||function(){
+  (a[e].o=a[e].o||[]).push(arguments)},f=b.createElement(c),g=b.getElementsByTagName(c)[0],
+  f.async=1,f.src=d,g.parentNode.insertBefore(f,g),h=a.onerror,a.onerror=function(b,c,d,f,g){
+  h&&h(b,c,d,f,g),g||(g=new Error(b)),a[e].q=a[e].q||[],a[e].q.push({
+  e:g})}}(window,document,"script","//cdn.raygun.io/raygun4js/raygun.min.js","rg4js");
+</script>
+<script type="text/javascript">
+  rg4js('apiKey', '1dncC3ucXbQ4rE2qmPA');
+  rg4js('enablePulse', true); // Enables Real User Monitoring
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSK84TH');</script>
+<!-- End Google Tag Manager -->
+
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=61d83bd4cd90e100193cd037&product=sop' async='async'></script>
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210503T225708Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210503T225708Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+112e59f2-9236-45c5-b528-0ce729513e90
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220107T142303Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\shaunbaddock
+----version----
+language: fr-CA
+version: 1
+revision: f2078f34-6d5f-42d9-a279-a8356d8ced82
+
+----field----
+field: {EC4A491F-CC4B-4175-858A-3E6E859540BB}
+name: Html
+key: html
+content-length: 3430
+
+<link rel="preconnect" href="https://cdn-gss.dataweavers.io" crossorigin="">
+<link rel="dns-prefetch" href="https://cdn-gss.dataweavers.io">
+
+<link rel="preconnect" href="https://px.ads.linkedin.com" crossorigin=""><link rel="dns-prefetch" href="https://px.ads.linkedin.com" crossorigin="">
+<link rel="preconnect" href="https://ls-4ijuwpfn.a.burly.io" crossorigin=""><link rel="dns-prefetch" href="https://ls-4ijuwpfn.a.burly.io" crossorigin="">
+<link rel="preconnect" href="https://go.globalpaymentsinc.com" crossorigin=""><link rel="dns-prefetch" href="https://go.globalpaymentsinc.com" crossorigin="">
+<link rel="preconnect" href="https://a.burly.io" crossorigin=""><link rel="dns-prefetch" href="https://a.burly.io" crossorigin="">
+<link rel="preconnect" href="https://pi.pardot.com" crossorigin=""><link rel="dns-prefetch" href="https://pi.pardot.com" crossorigin="">
+<link rel="preconnect" href="https://stats.g.doubleclick.net" crossorigin=""><link rel="dns-prefetch" href="https://stats.g.doubleclick.net" crossorigin="">
+<link rel="preconnect" href="https://insight.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://insight.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://js.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://js.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" crossorigin=""><link rel="dns-prefetch" href="https://dev.visualwebsiteoptimizer.com" crossorigin="">
+<link rel="preconnect" href="https://www.google-analytics.com" crossorigin=""><link rel="dns-prefetch" href="https://www.google-analytics.com" crossorigin="">
+<link rel="preconnect" href="https://cdn.raygun.io" crossorigin=""><link rel="dns-prefetch" href="https://cdn.raygun.io" crossorigin="">
+<link rel="preconnect" href="https://snap.licdn.com" crossorigin=""><link rel="dns-prefetch" href="https://snap.licdn.com" crossorigin="">
+<link rel="preconnect" href="https://match.adsrvr.org" crossorigin=""><link rel="dns-prefetch" href="https://match.adsrvr.org" crossorigin="">
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin=""><link rel="dns-prefetch" href="https://www.googletagmanager.com" crossorigin="">
+<link rel="preconnect" href="https://connect.facebook.net" crossorigin=""><link rel="dns-prefetch" href="https://connect.facebook.net" crossorigin="">
+
+<script type="text/javascript">
+  !function(a,b,c,d,e,f,g,h){a.RaygunObject=e,a[e]=a[e]||function(){
+  (a[e].o=a[e].o||[]).push(arguments)},f=b.createElement(c),g=b.getElementsByTagName(c)[0],
+  f.async=1,f.src=d,g.parentNode.insertBefore(f,g),h=a.onerror,a.onerror=function(b,c,d,f,g){
+  h&&h(b,c,d,f,g),g||(g=new Error(b)),a[e].q=a[e].q||[],a[e].q.push({
+  e:g})}}(window,document,"script","//cdn.raygun.io/raygun4js/raygun.min.js","rg4js");
+</script>
+<script type="text/javascript">
+  rg4js('apiKey', '1dncC3ucXbQ4rE2qmPA');
+  rg4js('enablePulse', true); // Enables Real User Monitoring
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSK84TH');</script>
+<!-- End Google Tag Manager -->
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210503T225708Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210503T225708Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-anthony
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f2078f34-6d5f-42d9-a279-a8356d8ced82
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211108T125903Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

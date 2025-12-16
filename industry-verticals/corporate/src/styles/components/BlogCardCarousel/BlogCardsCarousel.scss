@@ -1,0 +1,257 @@
+.blogcards-carousel {
+  padding-right: 0;
+  @include gpn-spacing([ 'padding-left'], 'xxs');
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxl');
+
+  .ec-clickable-card:hover {
+    a:not(.btn):not([class*='btn-']):not([class*='link-glow']):not(.editing-mode *) {
+      color: $gpn-theme-base;
+
+      &:hover {
+        color: $gpn-theme-dark;
+      }
+    }
+  }
+
+  .header-copy-section {
+    display: flex;
+    flex-direction: column;
+    gap: gpn-spacing-size('sm', 'sm');
+
+    .title,
+    .title p {
+      @extend %h-md;
+    }
+
+    .brow {
+      order: -1;
+      @extend %h-brow;
+    }
+
+    .tag {
+      @extend %p-md;
+    }
+  }
+
+  .btn-wrappper {
+    display: none;
+    justify-content: end;
+    align-items: center;
+    max-width: map-get($gpn-theme-blog-cards-carousel, 'btn-wrappper-max-width');
+    margin: 0 auto;
+    margin-top: map-get($gpn-theme-blog-cards-carousel, 'btn-wrappper-top-offset');
+    z-index: $gpn-theme-zindex-btn-wrappper-blog-cards-carousel;
+    position: relative;
+    pointer-events: none;
+    @include media-breakpoint-up(md) {
+      display: flex;
+    }
+
+    .arrow-wrapper {
+      display: flex;
+      align-items: center;
+
+      .blog-card-carousel-arrow {
+        content: '';
+        width: map-get($gpn-theme-blog-cards-carousel, 'carousel-arrow-width');
+        height: map-get($gpn-theme-blog-cards-carousel, 'carousel-arrow-height');
+        transform: none;
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+        border: none;
+        pointer-events: auto;
+      }
+
+      .blog-card-carousel-arrow-back {
+        margin-right: gpn-spacing-size('sm', 'xs');
+        &::before {
+          @extend .blog-card-carousel-arrow;
+          background-image: $gpn-theme-icon-arrow-prev-base;
+        }
+        &:hover {
+          &::before {
+            background-image: $gpn-theme-icon-arrow-prev-base;
+          }
+        }
+        &.slick-disabled {
+          &::before {
+            background-image: $gpn-theme-icon-arrow-disable-light;
+          }
+        }
+      }
+
+      .blog-card-carousel-arrow-next {
+        &::after {
+          @extend .blog-card-carousel-arrow;
+          background-image: $gpn-theme-icon-arrow-next-base;
+        }
+        &:hover {
+          &::after {
+            background-image: $gpn-theme-icon-arrow-next-base;
+          }
+        }
+        &.slick-disabled {
+          &::after {
+            transform: rotate(180deg);
+            background-image: $gpn-theme-icon-arrow-disable-light;
+          }
+        }
+      }
+    }
+  }
+
+  .blogcards-carousel_container {
+    @include make-container();
+    max-width: unset;
+  }
+
+  .blogcards-carousel_row {
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+      margin-left: calc((100vw - map-get($gpn-theme-grid-breakpoints, 'lg')) / 2);
+    }
+
+    &.slick-initialized {
+      display: block !important;
+    }
+
+    .blog-card {
+      width: 100%;
+      @include media-breakpoint-down(md) {
+        padding: 0;
+      }
+    }
+
+    @import '../BlogCard/BlogCard.scss';
+
+    .slick-track {
+      display: flex;
+    }
+
+    .slick-track .slick-slide {
+      height: auto;
+      @include gpn-spacing([ 'margin-right'], 'sm');
+
+      &::last-child {
+        @include media-breakpoint-up(sm) {
+          margin-right: 0;
+        }
+      }
+
+      > div {
+        height: 100%;
+
+        .blog-card {
+          height: 100%;
+
+          .copy-section {
+            flex-grow: 1;
+          }
+        }
+      }
+    }
+
+    .slick-slider {
+      &.no-slick-lg .slick-list {
+        @include media-breakpoint-up(sm) {
+          padding: 0;
+        }
+        @include media-breakpoint-up(md) {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .slick-slider {
+    .slick-list {
+      @include media-breakpoint-down(md) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      @include media-breakpoint-up(md) {
+        margin-left: 0;
+        padding-left: 0;
+      }
+    }
+
+    .slick-slide {
+      height: auto;
+    }
+  }
+
+  .slick-slide {
+    opacity: 1;
+    @include transition($transition-base);
+    &[aria-hidden='true'] {
+      opacity: map-get($gpn-theme-blog-cards-carousel, 'slick-slide-hidden-opacity');
+    }
+  }
+
+  .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    position: unset;
+    padding: 0;
+    margin: 0;
+    bottom: px-to-rem(40);
+    @include gpn-spacing([ 'margin-top'], 'md');
+
+    @include media-breakpoint-up(md) {
+      margin-left: map-get($gpn-theme-blog-cards-carousel, 'slick-dots-lg-offset');
+    }
+
+    @include media-breakpoint-up(sm) {
+      bottom: -20%;
+      left: 50%;
+    }
+    li {
+      display: flex;
+      @include gpn-spacing([ 'padding'], 'xs');
+      cursor: pointer;
+      width: auto;
+      height: auto;
+      margin: 0;
+      button {
+        width: map-get($gpn-theme-blog-cards-carousel, 'slick-unselected-button-size');
+        height: map-get($gpn-theme-blog-cards-carousel, 'slick-unselected-button-size');
+        border-radius: 50%;
+        background-color: $gpn-theme-gray;
+        transition: width 0.3s ease, background-color 0.3s ease;
+        cursor: pointer;
+        border: none;
+        &::before {
+          opacity: 0;
+        }
+
+        &:hover,
+        &:active {
+          &::before {
+            opacity: 0;
+          }
+        }
+      }
+    }
+    li.slick-active {
+      padding: map-get($gpn-theme-blog-cards-carousel, 'slick-active-button-padding');
+      button {
+        width: map-get($gpn-theme-blog-cards-carousel, 'slick-selected-button-width');
+        height: map-get($gpn-theme-blog-cards-carousel, 'slick-selected-button-height');
+        border-radius: map-get($gpn-theme-blog-cards-carousel, 'slick-dot-active-border-radius');
+        background-color: map-get($gpn-theme-testimonial, 'base-color');
+        &::before {
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+  @import '@styles/styles/image-transform/styles';
+  @import '@styles/styles/blog-cards-carousel/themes';
+}

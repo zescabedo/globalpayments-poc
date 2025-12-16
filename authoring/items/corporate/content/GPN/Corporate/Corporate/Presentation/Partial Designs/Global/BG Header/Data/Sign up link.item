@@ -1,0 +1,605 @@
+----item----
+version: 1
+id: {B49C9B7C-2683-4566-85F9-46D0B53737E1}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Partial Designs/Global/BG Header/Data/Sign up link
+parent: {8E742B7A-6263-4DBB-90C0-8C4A64E3BCEF}
+name: Sign up link
+master: {00000000-0000-0000-0000-000000000000}
+template: {E24E0789-A058-48BF-ABB6-C69C0E60B6B7}
+templatekey: Link
+
+----version----
+language: en-150
+version: 1
+revision: a059c224-74b4-41d8-aae8-634f3f76eb89
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 201
+
+<link text="Support" linktype="external" url="/modals/buildguide-support?theme=dark-theme&amp;type=fullscreen" anchor="" class="btn btn-sm btn-outline-primary-1 overlay-source float-right" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a059c224-74b4-41d8-aae8-634f3f76eb89
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230210T062240Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-AU
+version: 1
+revision: 0be5f274-0a39-49e9-9559-d70a391e7a09
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 201
+
+<link text="Support" linktype="external" url="/modals/buildguide-support?theme=dark-theme&amp;type=fullscreen" anchor="" class="btn btn-sm btn-outline-primary-1 overlay-source float-right" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0be5f274-0a39-49e9-9559-d70a391e7a09
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230817T100820Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-BM
+version: 1
+revision: 72e18778-fc30-4bc3-902d-8c0ce35157cc
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 201
+
+<link text="Support" linktype="external" url="/modals/buildguide-support?theme=dark-theme&amp;type=fullscreen" anchor="" class="btn btn-sm btn-outline-primary-1 overlay-source float-right" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+72e18778-fc30-4bc3-902d-8c0ce35157cc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T153143Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-CA
+version: 1
+revision: e8309d8a-6a2f-41e9-bfb6-76d7785142cc
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 140
+
+<link text="Sign up" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{2F54F4B7-E49C-4844-89BB-46271F6D61EE}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e8309d8a-6a2f-41e9-bfb6-76d7785142cc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065736Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-GB
+version: 1
+revision: 0b5843dd-a996-471e-9562-eaeb2fd28389
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 140
+
+<link text="Sign up" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{2F54F4B7-E49C-4844-89BB-46271F6D61EE}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+0b5843dd-a996-471e-9562-eaeb2fd28389
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T072029Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-HK
+version: 1
+revision: fb5111a6-92e8-4545-9c02-74ae736de3fd
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 140
+
+<link text="Sign up" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{2F54F4B7-E49C-4844-89BB-46271F6D61EE}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fb5111a6-92e8-4545-9c02-74ae736de3fd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T072939Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-MT
+version: 1
+revision: f63ef8c6-0655-4de8-ba0d-05b368d65f14
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 201
+
+<link text="Support" linktype="external" url="/modals/buildguide-support?theme=dark-theme&amp;type=fullscreen" anchor="" class="btn btn-sm btn-outline-primary-1 overlay-source float-right" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f63ef8c6-0655-4de8-ba0d-05b368d65f14
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230516T153143Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: en-US
+version: 1
+revision: 3e387c2f-6a0b-4438-84b2-1fd3da34d24d
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 201
+
+<link text="Support" linktype="external" url="/modals/buildguide-support?theme=dark-theme&amp;type=fullscreen" anchor="" class="btn btn-sm btn-outline-primary-1 overlay-source float-right" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3e387c2f-6a0b-4438-84b2-1fd3da34d24d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220429T175329Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: es-ES
+version: 1
+revision: 4ebeda1a-f98b-4cce-8748-dc98c2815a48
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 140
+
+<link text="Sign up" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{2F54F4B7-E49C-4844-89BB-46271F6D61EE}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4ebeda1a-f98b-4cce-8748-dc98c2815a48
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211117T195919Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Kevin_Mellenberg
+----version----
+language: fr-CA
+version: 1
+revision: 74161dbb-9615-4414-b00c-89febbea7108
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 144
+
+<link text="Inscription" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{2F54F4B7-E49C-4844-89BB-46271F6D61EE}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+74161dbb-9615-4414-b00c-89febbea7108
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211101T014805Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 15
+
+sitecore\tf-kim
+----version----
+language: hu-HU
+version: 1
+revision: da4dccf7-ef76-4db2-ac83-4fa47ced7984
+
+----field----
+field: {DD05144A-BD66-4EA3-956A-4B7104DAABA3}
+name: Link
+key: link
+content-length: 201
+
+<link text="Support" linktype="external" url="/modals/buildguide-support?theme=dark-theme&amp;type=fullscreen" anchor="" class="btn btn-sm btn-outline-primary-1 overlay-source float-right" target="" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210305T002449Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+da4dccf7-ef76-4db2-ac83-4fa47ced7984
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220712T045916Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

@@ -1,0 +1,167 @@
+----item----
+version: 1
+id: {BCB296EE-2CF1-4B1E-A6FC-5EF6FC890FB3}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Video Plus/Static Autoplay Loop/VIdeo
+parent: {08758FD2-411C-4D22-9CF3-6E934FD96C45}
+name: VIdeo
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 1009
+
+{{
+        $v = get_general_link_info i_datasource "MP4VideoLink"
+        $vUrl = ''
+        if($v)
+            $vUrl = $v.url
+        end
+        $i_url = ""
+        if(i_datasource.VideoPoster && i_datasource.VideoPoster.target)
+            $i_url = i_datasource.VideoPoster.target.media_url
+        end
+     }}
+<section class="video-wrap static-autoplay">
+<div class="tint"></div>
+  <video playsinline muted loop autoplay class="video-background h-100 video_static"  style="height: 101%!important;" poster="{{ $i_url }}" title="Decorative video">
+    {{ if !o_pagemode.is_experience_editor_editing }}
+      <source src="{{ $vUrl }}" type="video/webm">
+      <source src="{{ $vUrl }}" type="video/mp4">
+    {{ end }}
+  </video>
+</section>
+<style>
+.video-wrap { height: 100%!important; }
+.video_static{
+    width: 100%;
+    object-fit: cover;
+}
+
+.on-page-editor #video_static, .on-page-editor .video-wrap {
+    max-height: 900px;
+}
+
+.video-plus .tint{
+z-index: 0;
+}
+</style>
+----field----
+field: {7B5B7E8D-E579-44AA-8174-D4594DB0C2F9}
+name: CssClass
+key: cssclass
+content-length: 15
+
+static-autoplay
+----version----
+language: en-CA
+version: 1
+revision: 9b336596-557d-4cad-99c2-6d9b137b1481
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210709T050228Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210709T050228Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9b336596-557d-4cad-99c2-6d9b137b1481
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220518T083113Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 20
+
+sitecore\Mohit_Kumar
+----version----
+language: fr-CA
+version: 1
+revision: 64fdfc10-b175-45df-a398-c9c15be8c1a9
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20210709T050228Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210709T050228Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+64fdfc10-b175-45df-a398-c9c15be8c1a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080338Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

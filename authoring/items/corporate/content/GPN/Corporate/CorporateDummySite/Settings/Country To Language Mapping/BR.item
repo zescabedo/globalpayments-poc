@@ -1,0 +1,180 @@
+----item----
+version: 1
+id: {604FC55A-5177-4F22-BD7D-BFD7A0D2ADA4}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Country To Language Mapping/BR
+parent: {F7F4E757-99F7-483A-A9AE-6A947D19BEE3}
+name: BR
+master: {00000000-0000-0000-0000-000000000000}
+template: {E1E5D16F-A23E-4405-9A66-AF65985C434C}
+templatekey: Country To Language Mapping Item
+
+----field----
+field: {E8EDCAD1-288B-4582-94FE-ED9AC1E311C9}
+name: CountryName
+key: countryname
+content-length: 6
+
+Brazil
+----field----
+field: {C1A51F0B-1337-4B9D-9498-E9F485E5000A}
+name: CountryIsoCode
+key: countryisocode
+content-length: 2
+
+BR
+----field----
+field: {B56E2C2B-D50E-47BF-A23C-B50AD19828F7}
+name: PrimaryLanguage
+key: primarylanguage
+content-length: 38
+
+{FB28A6D2-5FF9-4E4D-BA29-AE5959B5A939}
+----field----
+field: {03E6509B-501A-4414-92C0-98C3130B8BA3}
+name: SecondaryLanguage
+key: secondarylanguage
+content-length: 38
+
+{0E45A583-2F05-4FB9-A97A-5227E557859B}
+----version----
+language: en-CA
+version: 1
+revision: cb257dbc-a4ea-4ab5-9f05-f2b1558ff501
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T035840Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cb257dbc-a4ea-4ab5-9f05-f2b1558ff501
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084117Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: 3ed626e0-9ac1-4e2f-a586-b4de57e0103c
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T035840Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3ed626e0-9ac1-4e2f-a586-b4de57e0103c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210319T035856Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\tf-mark
+----version----
+language: fr-CA
+version: 1
+revision: e1a55710-9651-4c28-9961-7a98737febc3
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T035840Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\tf-mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e1a55710-9651-4c28-9961-7a98737febc3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084116Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

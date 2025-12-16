@@ -1,0 +1,56 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "corporate",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/GPN/Corporate",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "layout",
+        "path": "/sitecore/layout/Renderings/Project/GPN/GPNWeb",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "placeholder-settings",
+        "path": "/sitecore/layout/Placeholder Settings/Project/GPN/Corporate",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "content",
+        "path": "/sitecore/content/GPN/Corporate",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/media library/Project/Global Payments/Corporate",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "themes",
+        "path": "/sitecore/media library/Themes/GPN/Corporate",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "system-settings",
+        "path": "/sitecore/system/Settings/Project/GPN/Corporate",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "forms",
+        "path": "/sitecore/Forms/GPN/Corporate",
+        "scope": "ItemAndDescendants", 
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

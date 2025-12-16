@@ -1,0 +1,31 @@
+@use 'sass:list';
+@import '@styles/globalVariables.scss';
+
+@function px-to-rem($px-value, $base: $gpn-theme-base-font-size) {
+  @return $px-value / $base + rem;
+}
+
+@function gpn-spacing-size($breakpoint, $size) {
+  $breakpointSizes: map-get($gpn-theme-spacing-sizes, $breakpoint);
+  $value: map-get($breakpointSizes, $size);
+  @return $value;
+}
+
+// Helper functions for dealing with theme colours
+@function is-dark-theme-colour($themeColour) {
+  $darkThemeColoursConfigured: map-get($gpn-theme-colourtheme-lightdark-mapping, 'dark');
+  @return list.index($darkThemeColoursConfigured, $themeColour);
+}
+
+@function is-light-theme-colour($themeColour) {
+  $darkThemeColoursConfigured: map-get($gpn-theme-colourtheme-lightdark-mapping, 'light');
+  @return list.index($darkThemeColoursConfigured, $themeColour);
+}
+
+@function get-theme-colour-for($theme, $themeDetails) {
+  @if (is-dark-theme-colour($theme)) {
+    @return map-get($themeDetails, 'text-on-dark-theme');
+  } @else {
+    @return map-get($themeDetails, 'text-on-light-theme');
+  }
+}

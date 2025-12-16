@@ -1,0 +1,207 @@
+----item----
+version: 1
+id: {C72BE6A5-9C40-4906-B764-0F76DAB6BB89}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Rendering Variants/SearchResultsExtension/PIF Editors Pick/Scriban
+parent: {88203CBC-4EFD-4FB0-BC99-337F784570A5}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 5190
+
+{{- 
+
+    # Content type, tags and business size
+    $articleUrl = i_item.url
+    $articleId = i_item.id
+    $contentType = sc_translate i_item.template_name
+    $contentTypeUrl = get_pif_content_type_listing_url i_item
+
+    $externalLink = get_general_link_info i_item "ExternalLink"
+    if $externalLink != null && $externalLink.url != ""
+        $articleUrl = $externalLink.url
+    end
+
+    $articleTopics = sc_followmany i_item "GPIBlogCategories" | array.limit 2
+    $topics = []
+    for $articleTopic in $articleTopics
+        $tag = sc_raw $articleTopic "Title"
+        $tagUrl = $articleTopic.url
+        $topics = $topics | array.add { title: $tag, url: $tagUrl}
+    end
+
+    $businessSize = ""
+    $businessSizeUrl = ""
+    $firstBusinessSize = sc_follow i_item "BusinessSize"
+    if $firstBusinessSize
+        $businessSize = sc_raw $firstBusinessSize "Title"
+        $businessSizeUrl = $firstBusinessSize.url
+    end
+    $showPifTags = false
+    if $businessSize != "" || $tag != "" 
+        $showPifTags = true
+    end
+
+
+    # Title, publish date, minutes to read
+    $title = sc_raw i_item "Blog Title"
+    $publishedDate = ""
+    $publishedDate = sc_field i_item "BlogPublishedDate" | date.parse | date.to_string "%A, %B %e, %Y" 
+
+    $minutesRead = i_item.BlogReadTime | string.strip
+    if $minutesRead == ""
+        $minutesRead = "4"
+    end
+
+    # images
+    $logoUrl = i_item.Logo.media_url
+    $featuredImageUrl = sc_fullmediaurl i_item 'BlogFeaturedImage' { Width: 770 }
+    $alt = i_item.BlogFeaturedImage.media_alt
+    $overrideCardImage = sc_fullmediaurl i_item 'CardImageOverride' { Width: 770 }
+    if ($overrideCardImage | string.size) > 0
+        $featuredImageUrl = $overrideCardImage
+        $alt = i_item.CardImageOverride.media_alt
+    end
+    $hasFeaturedImage = ($featuredImageUrl | string.size) > 0
+    if ($alt | string.size == 0) 
+        $alt = "Card image for '" + $title + "' " + ($contentType | string.downcase)
+    end
+    
+    
+    # Author Details
+    $hasAuthor = false
+    $authorName = ""
+    $authorPosition = ""
+    $authorImageUrl = ""
+    $authorDetails = sc_follow i_item "BlogAuthor"
+    $author = sc_field i_item "BlogPublishedDate"
+
+    if $authorDetails 
+        $authorName = sc_raw $authorDetails "Title"
+        $authorPosition = sc_raw $authorDetails "Author Job Title"
+        $authorImageUrl = $authorDetails.AuthorImage.media_url
+        $authorImageUrl = sc_fullmediaurl $authorDetails 'AuthorImage' { Width: 80 }
+        $hasAuthor = true
+    end
+    
+-}}
+
+
+<div class="pif-editors-pick-result pif-clickable-card">
+    <div class="card-image-container">
+        {{ if $hasFeaturedImage }}
+            <div class="image-container">
+                <img class="pif-hero-image" width="770" src="{{ $featuredImageUrl }}" alt="{{ $alt }}" />
+            </div>
+        {{ else }}
+            <h2 class="pif-title h3-style">{{ $title }}</h2>
+            <div class="content-type-details">
+                <span class="p-sm published-date">{{ $publishedDate }}</span>
+                {{ if $minutesRead }}
+                    {{ if $minutesRead != "" }}
+                        <span class="p-sm read-time">{{ $minutesRead }} {{ sc_translate "minute read"  }}</span>
+                    {{ end }}
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+    <div class="editors-pick-title h6-style">{{ sc_translate "Editor's pick" }} </div>
+    <div class="pif-article-details">
+    <a href="{{ $contentTypeUrl }}" class="pif-content-type btn btn-xs btn-outline-primary-1">{{ $contentType }}</a>
+    {{ if $showPifTags }}
+        <div class="pif-tags">
+            <ul>
+            {{ if $topics | array.size > 0 }}
+                {{ for $topic in $topics }}
+                    <li><a href="{{ $topic.url }}">{{ $topic.title }}</a></li>
+                {{ end }}
+            {{ end }}
+            {{ if $businessSize }}
+                {{ if $businessSize != "" }}
+                    <li><a href="{{ $businessSizeUrl }}">{{ $businessSize }}</a>
+                {{ end }}
+            {{ end }}
+            </ul>
+        </div>
+    {{ end }}
+    </div>
+    <div class="editors-pick-details">
+        {{ if $logoUrl && ($logoUrl | string.size) > 0 }}
+            <img class="logo" src="{{ $logoUrl }}" />
+        {{ end }}
+
+        {{ if $hasFeaturedImage }}
+            <h2 class="pif-title h3-style">{{ $title }}</h2>
+        {{ end }}
+        <div class="content-type-details">
+            <span class="p-sm published-date">{{ $publishedDate }}</span>
+            {{ if $minutesRead }}
+                {{ if $minutesRead != "" }}
+                    <span class="p-sm read-time">{{ $minutesRead }} {{ sc_translate "minute read"  }}</span>
+                {{ end }}
+            {{ end }}
+        </div>
+        <a class="pif-article-link link-arrow-primary-1-after-smallarrow" href="{{ $articleUrl }}" data-content-type="{{ $contentType }}" data-article-id="{{ $articleId }}">{{ sc_translate "Read article" }} <span class="pif-card-link-overlay"></span></a>
+    </div>
+</div>
+
+----field----
+field: {7B5B7E8D-E579-44AA-8174-D4594DB0C2F9}
+name: CssClass
+key: cssclass
+content-length: 23
+
+pif-editors-pick-result
+----version----
+language: en-US
+version: 1
+revision: cd2ed7aa-fd03-469a-8f03-37aa42f56a8a
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230412T064118Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cd2ed7aa-fd03-469a-8f03-37aa42f56a8a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240822T050827Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

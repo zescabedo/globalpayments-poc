@@ -1,0 +1,29 @@
+.component .uptick-card {
+  overflow: hidden;
+  a {
+    text-decoration: none !important;
+  }
+  .card-content {
+      .card-image {
+          @include uptick-card-image;
+          @include uptick-card-img-hover;
+      }
+      .card-details {
+        @include uptick-card-details;
+    
+      .card-name {
+        @include uptick-card-title;
+        @include uptick-card-title-hover;
+      }
+      .card-description {
+        @include uptick-card-description;
+      }
+      .card-tags {
+        @include uptick-taxonomy-tags;
+      }
+      .article-meta {
+        @include uptick-article-meta;
+      }
+    }
+  }
+}

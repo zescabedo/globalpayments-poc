@@ -1,0 +1,734 @@
+----item----
+version: 1
+id: {7B85159E-8782-4C16-AF4B-3A85CA454C6A}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Navigation Plus/Default/Header
+parent: {50FD163D-62E3-4FB0-9935-EBF8CC010E68}
+name: Header
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 33539
+
+{{ if (o_model.relative_level == 1) }}
+<ul class="clearfix ul-level-{{ o_model.relative_level }}" role="menubar">
+    {{  $counter = 0
+        for i_level1 in o_model.children }}
+        {{
+            $first_item = i_level1.page_item
+            $item_class_id = sc_follow $first_item "NavigationClassUpdated"
+            $item_navclass_id = sc_follow $first_item "NavigationClass"
+            $item_class = ''
+            $l1_classes = i_level1.css_classes | array.join " "
+
+            if $item_class_id != null
+                 $item_class = sc_follow $first_item "NavigationClassUpdated" | sc_raw "Value"
+            else if $item_navclass_id != null
+                 $item_class = sc_follow $first_item "NavigationClass" | sc_raw "Value"
+            end
+
+            if $item_class != '' && !o_pagemode.is_experience_editor_editing
+              $l1_classes = $l1_classes | string.append " "
+              $l1_classes = $l1_classes | string.append $item_class
+           end
+
+           $counter = $counter + 1
+           $ph_link = "header-nav-content_" + $counter
+        }}
+    <li class='{{$l1_classes}} rel-level{{ o_model.relative_level }} test' role="presentation">
+        <div class="navigation-title">
+            {{
+                $a = get_general_link_info i_level1.page_item "NavigationLink"
+
+                $l1_title = i_level1.page_item.HeaderTitle
+                if(!$l1_title || $l1_title == "")
+                    $l1_title = i_level1.page_item.NavigationTitle
+                end
+
+                $aProps = ''
+                if $a
+                    if $a.url && $a.url != "" && !o_pagemode.is_experience_editor_editing
+                        $aProps = "href='" + $a.url + "' title='" + $a.title + "' target='" + $a.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a.gatext + "'"
+                    else
+                        $aProps = "title='" + $a.title + "' data-ea-zone='Header' data-ea-type='parent tab click' data-ea-link='" + $l1_title.raw + "'"
+                    end
+                end
+            }}
+            <a {{ $aProps }} role="menuitem" aria-haspopup="{{i_level1.children.size > 0}}">{{ $l1_title }}</a>
+        </div>
+        {{ if i_level1.children.size > 0 }}
+        {{#Level 2 - Start}}
+        {{ if (o_pagemode.is_experience_editor_editing) }}
+            <ul class="clearfix nav-submenu" role="menu">
+        {{ else }}
+            <ul class="clearfix nav-submenu" role="menu" aria-label="{{$l1_title}}">
+        {{ end }}
+        <div class="component container full-width">
+            <div class="component-content">
+                <div class="container">
+                <div class="row {{$item_class}}">
+                    {{if $item_class == "nav-5col-links"}}
+                    {{ for i_level2 in i_level1.children
+                        if for.index > 4; break; end;
+                    }}
+                    <div class="col bg-white navigation-title">
+                        {{
+                            $a2 = get_general_link_info i_level2.page_item "NavigationLink"
+
+                            $p_title = i_level2.page_item.HeaderTitle
+                            if(!$p_title || $p_title == "")
+                                $p_title = i_level2.page_item.NavigationTitle
+                            end
+
+                            $a2Props = ''
+                            if $a2 && $a2.url && $a2.url != "" && !o_pagemode.is_experience_editor_editing
+                                $a2Props = "href='" + $a2.url + "' title='" + $a2.title + "' target='" + $a2.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a2.gatext + "'"
+                            end
+                            
+                        }}
+                        <h5 class="subnav-title primary-underline"><a {{ $a2Props }}>{{$p_title}}</a></h5>
+                        {{i_level2.page_item.HeaderSummary}}
+                        <ul role="presentation">
+                            <li class="rel-level2" role="presentation">
+                                <ul>
+                                    {{#Level3 - Start}}
+                                    {{ for i_level3 in i_level2.children
+                                    }}
+                                    <li class="{{i_level3.css_classes | array.join " "}}" role="none">
+                                        <div class="navigation-title">
+                                            {{
+											$a3 = get_general_link_info i_level3.page_item "NavigationLink"
+											$p3_title = i_level3.page_item.NavigationTitle
+                                            if(!$p3_title || $p3_title == "")
+                                                $p3_title = i_level3.page_item.NavigationTitle
+                                            end
+											$a3Props = ''
+                                            $desc_class = 'no-desc'
+                                            $head_summary = i_level3.page_item.HeaderSummary
+                                            childrenCount = i_level3.children | array.size
+                                            if (($head_summary && $head_summary != "") || (childrenCount > 0))
+                                            $desc_class = 'desc'
+                                            end
+
+                                            if $a3 && $a3.url && $a3.url != "" && !o_pagemode.is_experience_editor_editing
+                                                $a3Props = "href='" + $a3.url + "' class='" + $desc_class + "' title='" + $p3_title + "' target='" + $a3.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a3.gatext + "'"
+                                            else
+                                                $a3Props = "class='" + $desc_class + "'"
+                                            end
+                                            
+                                            }}
+                                            <a role="menuitem" {{ $a3Props }}>{{$p3_title}}</a>
+                                            {{$head_summary = i_level3.page_item.HeaderSummary}}
+                                            {{if ($head_summary && $head_summary != "")}}
+                                            <p class="field-headersummary">{{$head_summary}}</p>
+                                            {{ else }}
+                                            <div class="l3-spacer"></div>
+                                            {{ end }}
+                                            <ul>
+                                            {{#Level4 - Start}}
+                                                {{ for i_level4 in i_level3.children
+                                                }}
+                                                    <li class="{{i_level4.css_classes | array.join " "}}" role="none">
+                                                        <div class="navigation-title">
+                                                            {{
+											                $a4 = get_general_link_info i_level4.page_item "NavigationLink"
+											                $p4_title = i_level4.page_item.NavigationTitle
+                                                            if(!$p4_title || $p4_title == "")
+                                                                $p4_title = i_level4.page_item.NavigationTitle
+                                                            end
+											                $a4Props = ''
+                                                            if $a4 && $a4.url && $a4.url != "" && !o_pagemode.is_experience_editor_editing
+                                                                $a4Props = "href='" + $a4.url + "' title='" + $p4_title + "' target='" + $a4.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a4.gatext + "'"
+                                                            end
+                                                            }}
+                                                            <a role="menuitem" {{ $a4Props }}>{{$p4_title}}</a>
+                                                            {{$head_summary = i_level4.page_item.HeaderSummary}}
+                                                            {{if ($head_summary && $head_summary != "")}}
+                                                            <p class="field-headersummary">{{$head_summary}}</p>
+                                                            {{ else }}
+                                                            <div class="l3-spacer"></div>
+                                                            {{ end }}
+                                                        </div>
+                                                    </li>
+                                                {{ end }}
+                                            {{#Level4 - End}}
+                                        </ul>
+                                        </div>
+                                    </li>
+                                    {{ end }}
+                                    {{#Level3 - End}}
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    {{ end }}
+                    {{ else if $item_class == "nav-rte-3col-feature" }}
+                    {{$l1_HeaderContent = sc_raw i_level1.page_item "HeaderContent"}}
+                    <div class="component rich-text rich-text-header-navigation col-12 col-lg-3">
+                        <div class="component-content">
+                            {{ 
+                               $hc = sc_raw i_level1.page_item "HeaderContent"
+                               expand_rte_links $hc 
+                            }}
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 bg-white">
+                        <div class="row">
+                        {{ for i_level2 in i_level1.children
+                            if for.index > 4; break; end;
+                        }}
+                        <div class="col bg-white navigation-title">
+                            {{
+                                $a2 = get_general_link_info i_level2.page_item "NavigationLink"
+                            
+                                $p_title = i_level2.page_item.HeaderTitle
+                                if(!$p_title || $p_title == "")
+                                    $p_title = i_level2.page_item.NavigationTitle
+                                end
+                            
+                                $a2Props = ''
+                                if $a2 && $a2.url && $a2.url != "" && !o_pagemode.is_experience_editor_editing
+                                    $a2Props = "href='" + $a2.url + "' title='" + $a2.title + "' target='" + $a2.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a2.gatext + "'"
+                                end
+                                
+                            }}
+                            <h5 class="subnav-title primary-underline"><a {{ $a2Props }}>{{$p_title}}</a></h5>
+                            {{i_level2.page_item.HeaderSummary}}
+                            <ul role="presentation">
+                                <li class="rel-level2" role="presentation">
+                                    <ul>
+                                        {{#Level3 - Start}}
+                                        {{ for i_level3 in i_level2.children
+                                        }}
+                                        <li class="{{i_level3.css_classes | array.join " "}}" role="none">
+                                            <div class="navigation-title">
+                                                {{
+					    						$a3 = get_general_link_info i_level3.page_item "NavigationLink"
+					    						$p3_title = i_level3.page_item.NavigationTitle
+                                                if(!$p3_title || $p3_title == "")
+                                                    $p3_title = i_level3.page_item.NavigationTitle
+                                                end
+					    						$a3Props = ''
+                                                $desc_class = 'no-desc'
+                                                $head_summary = i_level3.page_item.HeaderSummary
+                                                childrenCount = i_level3.children | array.size
+                                                if (($head_summary && $head_summary != "") || (childrenCount > 0))
+                                                $desc_class = 'desc'
+                                                end
+                                            
+                                                if $a3 && $a3.url && $a3.url != "" && !o_pagemode.is_experience_editor_editing
+                                                    $a3Props = "href='" + $a3.url + "' class='" + $desc_class + "' title='" + $p3_title + "' target='" + $a3.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a3.gatext + "'"
+                                                else
+                                                    $a3Props = "class='" + $desc_class + "'"
+                                                end
+                                                
+                                                }}
+                                                <a role="menuitem" {{ $a3Props }}>{{$p3_title}}</a>
+                                                {{$head_summary = i_level3.page_item.HeaderSummary}}
+                                                {{if ($head_summary && $head_summary != "")}}
+                                                <p class="field-headersummary">{{$head_summary}}</p>
+                                                {{ else }}
+                                                <div class="l3-spacer"></div>
+                                                {{ end }}
+                                                <ul>
+                                                {{#Level4 - Start}}
+                                                    {{ for i_level4 in i_level3.children
+                                                    }}
+                                                        <li class="{{i_level4.css_classes | array.join " "}}" role="none">
+                                                            <div class="navigation-title">
+                                                                {{
+					    						                $a4 = get_general_link_info i_level4.page_item "NavigationLink"
+					    						                $p4_title = i_level4.page_item.NavigationTitle
+                                                                if(!$p4_title || $p4_title == "")
+                                                                    $p4_title = i_level4.page_item.NavigationTitle
+                                                                end
+					    						                $a4Props = ''
+                                                                if $a4 && $a4.url && $a4.url != "" && !o_pagemode.is_experience_editor_editing
+                                                                    $a4Props = "href='" + $a4.url + "' title='" + $p4_title + "' target='" + $a4.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a4.gatext + "'"
+                                                                end
+                                                                }}
+                                                                <a role="menuitem" {{ $a4Props }}>{{$p4_title}}</a>
+                                                                {{$head_summary = i_level4.page_item.HeaderSummary}}
+                                                                {{if ($head_summary && $head_summary != "")}}
+                                                                <p class="field-headersummary">{{$head_summary}}</p>
+                                                                {{ else }}
+                                                                <div class="l3-spacer"></div>
+                                                                {{ end }}
+                                                            </div>
+                                                        </li>
+                                                    {{ end }}
+                                                {{#Level4 - End}}
+                                            </ul>
+                                            </div>
+                                        </li>
+                                        {{ end }}
+                                        {{#Level3 - End}}
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        {{ end }}
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3" style="border-left: 1px solid #ECECEC;height: 100%;padding-left: 50px;">
+                        {{sc_placeholder $ph_link}}
+                    </div>
+                    {{else if $item_class == "nav-5x7-links-feature"}}
+                    <div class="col-5">
+                    <div class="row">
+                    {{ for i_level2 in i_level1.children
+                        if for.index > 1; break; end;
+                    }}
+                    <div class="col bg-white navigation-title">
+                        {{
+                            $a2 = get_general_link_info i_level2.page_item "NavigationLink"
+
+                            $p_title = i_level2.page_item.HeaderTitle
+                            if(!$p_title || $p_title == "")
+                                $p_title = i_level2.page_item.NavigationTitle
+                            end
+
+                            $a2Props = ''
+                            if $a2 && $a2.url && $a2.url != "" && !o_pagemode.is_experience_editor_editing
+                                $a2Props = "href='" + $a2.url + "' title='" + $a2.title + "' target='" + $a2.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a2.gatext + "'"
+                            end
+                            
+                        }}
+                        <h5 class="subnav-title primary-underline"><a {{ $a2Props }}>{{$p_title}}</a></h5>
+                        {{i_level2.page_item.HeaderSummary}}
+                        <ul role="presentation">
+                            <li class="rel-level2" role="presentation">
+                                <ul>
+                                    {{#Level3 - Start}}
+                                    {{ for i_level3 in i_level2.children
+                                    }}
+                                    <li class="{{i_level3.css_classes | array.join " "}}" role="none">
+                                        <div class="navigation-title">
+                                            {{
+											$a3 = get_general_link_info i_level3.page_item "NavigationLink"
+											$p3_title = i_level3.page_item.NavigationTitle
+                                            if(!$p3_title || $p3_title == "")
+                                                $p3_title = i_level3.page_item.NavigationTitle
+                                            end
+											$a3Props = ''
+                                            $desc_class = 'no-desc'
+                                            $head_summary = i_level3.page_item.HeaderSummary
+                                            childrenCount = i_level3.children | array.size
+                                            if (($head_summary && $head_summary != "") || (childrenCount > 0))
+                                            $desc_class = 'desc'
+                                            end
+
+                                            if $a3 && $a3.url && $a3.url != "" && !o_pagemode.is_experience_editor_editing
+                                                $a3Props = "href='" + $a3.url + "' class='" + $desc_class + "' title='" + $p3_title + "' target='" + $a3.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a3.gatext + "'"
+                                            else
+                                                $a3Props = "class='" + $desc_class + "'"
+                                            end
+                                            
+                                            }}
+                                            <a role="menuitem" {{ $a3Props }}>{{$p3_title}}</a>
+                                            {{$head_summary = i_level3.page_item.HeaderSummary}}
+                                            {{if ($head_summary && $head_summary != "")}}
+                                            <p class="field-headersummary">{{$head_summary}}</p>
+                                            {{ else }}
+                                            <div class="l3-spacer"></div>
+                                            {{ end }}
+                                            <ul>
+                                            {{#Level4 - Start}}
+                                                {{ for i_level4 in i_level3.children
+                                                }}
+                                                    <li class="{{i_level4.css_classes | array.join " "}}" role="none">
+                                                        <div class="navigation-title">
+                                                            {{
+											                $a4 = get_general_link_info i_level4.page_item "NavigationLink"
+											                $p4_title = i_level4.page_item.NavigationTitle
+                                                            if(!$p4_title || $p4_title == "")
+                                                                $p4_title = i_level4.page_item.NavigationTitle
+                                                            end
+											                $a4Props = ''
+                                                            if $a4 && $a4.url && $a4.url != "" && !o_pagemode.is_experience_editor_editing
+                                                                $a4Props = "href='" + $a4.url + "' title='" + $p4_title + "' target='" + $a4.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a4.gatext + "'"
+                                                            end
+                                                            }}
+                                                            <a role="menuitem" {{ $a4Props }}>{{$p4_title}}</a>
+                                                            {{$head_summary = i_level4.page_item.HeaderSummary}}
+                                                            {{if ($head_summary && $head_summary != "")}}
+                                                            <p class="field-headersummary">{{$head_summary}}</p>
+                                                            {{ else }}
+                                                            <div class="l3-spacer"></div>
+                                                            {{ end }}
+                                                        </div>
+                                                    </li>
+                                                {{ end }}
+                                            {{#Level4 - End}}
+                                        </ul>
+                                        </div>
+                                    </li>
+                                    {{ end }}
+                                    {{#Level3 - End}}
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    {{ end }}
+                    </div>
+                    </div>
+                    <div class="offset-1 col-6" style="border-left: 1px solid #ECECEC;height: 100%;padding-left: 50px;">
+                        {{sc_placeholder $ph_link}}
+                    </div>
+                    {{else if $item_class == "nav-4col-links-stdout"}}
+                    {{ for i_level2 in i_level1.children
+                        if for.index > 4; break; end;
+                    }}
+                    <div class="col-12 col-md-3 bg-white navigation-title">
+                        {{
+                            $a2 = get_general_link_info i_level2.page_item "NavigationLink"
+
+                            $p_title = i_level2.page_item.HeaderTitle
+                            if(!$p_title || $p_title == "")
+                                $p_title = i_level2.page_item.NavigationTitle
+                            end
+
+                            $a2Props = ''
+                            if $a2 && $a2.url && $a2.url != "" && !o_pagemode.is_experience_editor_editing
+                                $a2Props = "href='" + $a2.url + "' title='" + $a2.title + "' target='" + $a2.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a2.gatext + "'"
+                            end
+                            
+                        }}
+                        <h5 class="subnav-title primary-underline"><a {{ $a2Props }}>{{$p_title}}</a></h5>
+                        {{i_level2.page_item.HeaderSummary}}
+                        <ul role="presentation">
+                            <li class="rel-level2" role="presentation">
+                                <ul>
+                                    {{#Level3 - Start}}
+                                    {{ for i_level3 in i_level2.children
+                                    }}
+                                    <li class="{{i_level3.css_classes | array.join " "}}" role="none">
+                                        <div class="navigation-title">
+                                            {{
+                                            
+											
+											
+											$a3 = get_general_link_info i_level3.page_item "NavigationLink"
+                                            
+											$p3_title = i_level3.page_item.NavigationTitle
+                                            if(!$p3_title || $p3_title == "")
+                                                $p3_title = i_level3.page_item.NavigationTitle
+                                            end
+											
+											$a3Props = ''
+                                            if $a3 && $a3.url && $a3.url != "" && !o_pagemode.is_experience_editor_editing
+                                                $a3Props = "href='" + $a3.url + "' title='" + $p3_title + "' target='" + $a3.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a3.gatext + "'"
+                                            end
+                                            
+
+                                            }}
+                                            <a role="menuitem" {{ $a3Props }}>{{$p3_title}}</a>
+                                            {{$head_summary = i_level3.page_item.HeaderSummary}}
+                                            {{if ($head_summary && $head_summary != "")}}
+                                            <p class="field-headersummary">{{$head_summary}}</p>
+                                            {{ else }}
+                                            <div class="l3-spacer"></div>
+                                            {{ end }}
+                                        </div>
+                                    </li>
+                                    {{ end }}
+                                    {{#Level3 - End}}
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    {{ end }}
+					{{$l1_HeaderContent = sc_raw i_level1.page_item "HeaderContent"}}
+                    {{if($l1_HeaderContent && $l1_HeaderContent != "") }}      
+                    <div class="component rich-text rich-text-header-navigation col-12 col-md-3 content-item">
+                        <div class="component-content">
+                            {{ 
+                               $hc = sc_raw i_level1.page_item "HeaderContent"
+                               expand_rte_links $hc 
+                            }}
+                        </div>
+                    </div>
+					{{end}}
+                    {{else}}
+					{{$l1_HeaderContent = sc_raw i_level1.page_item "HeaderContent"}}
+                    {{if($l1_HeaderContent && $l1_HeaderContent != "") }}
+                    <div class="component rich-text rich-text-header-navigation col-12 col-lg-3">
+                        <div class="component-content">
+                            {{ 
+                               $hc = sc_raw i_level1.page_item "HeaderContent"
+                               expand_rte_links $hc 
+                            }}
+                        </div>
+                    </div>
+					{{end}}
+                    <div class="col-12 col-lg-6 bg-white">
+                        <div class="row">
+                        {{ for i_level2 in i_level1.children
+                        }}
+                        {{#Level2 - Section Start}}
+                            {{ if (o_pagemode.is_experience_editor_editing) }}
+                                <div class="col-4">
+                            {{ else }}
+                                <div class="{{i_level2.page_item.SectionCssClass}}">
+                            {{ end }}
+                                <ul role="presentation">
+                                <li class="rel-level2" role="presentation">
+                                    <ul role="presentation">
+                                        {{#Level3 - Start}}
+                                        {{ for i_level3 in i_level2.children
+                                        }}
+                                            <li class="{{i_level3.css_classes | array.join " "}}" role="presentation">
+                                                <div class="navigation-title">
+                                                    {{
+                                                        $a4 = get_general_link_info i_level3.page_item "NavigationLink"
+                                                        $a4Props = ''
+                                                        if $a4 && $a4.url && $a4.url != "" && !o_pagemode.is_experience_editor_editing
+                                                            $a4Props = "href='" + $a4.url + "' title='" + $a4.title + "' target='" + $a4.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a4.gatext + "'"
+                                                        end
+                                                        $p4_title = i_level3.page_item.HeaderTitle
+                                                        if(!$p4_title || $p4_title == "")
+                                                        $p4_title = i_level3.page_item.NavigationTitle
+                                                        end
+
+                                                    }}
+                                                    <a role="menuitem" {{ $a4Props }}>{{$p4_title}}</a>
+                                                    {{$head_summary = i_level3.page_item.HeaderSummary}}
+                                                    {{if ($head_summary && $head_summary != "")}}
+                                                    <p class="field-headersummary">{{$head_summary}}</p>
+                                                    {{ end }}
+                                                </div>
+                                            </li>
+                                        {{ end }}
+                                    {{#Level3 - End}}
+                                </ul>
+                                </li>
+                            </ul>
+                            </div>
+                        {{#Level2 - Section End}}
+                        {{ end }}
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3" style="border-left: 1px solid #ECECEC;height: 100%;padding-left: 50px;">
+                        {{sc_placeholder $ph_link}}
+                    </div>
+                    {{ end }}
+                </div>
+                </div>
+            </div>
+        </div>
+        </ul>
+        {{#Level2 - End}}
+        {{ end }}
+    </li>
+    {{ end }}
+   
+</ul>
+<a class="btn btn-sm btn-outline-primary-1 overlay-source float-right modal-trigger d-none" data-overlay-target="/modals/signup-homepage" title="Signup Homepage" rel="nofollow" data-ea-zone="Header" data-ea-type="click" data-ea-link="/ | modal trigger | " hidden>Sign up</a>
+{{ end }}
+----version----
+language: en-CA
+version: 1
+revision: 9aa79375-6aba-4d19-8729-388bce2a5213
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210303T192801Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9aa79375-6aba-4d19-8729-388bce2a5213
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230426T162030Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-CA
+version: 2
+revision: 509a1a34-a563-4336-9e3d-6abe70d530d3
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20230628T120901Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230628T120901Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+509a1a34-a563-4336-9e3d-6abe70d530d3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T120918Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----version----
+language: fr-CA
+version: 1
+revision: f28da213-2347-4839-a7db-84ff92486068
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210303T192801Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f28da213-2347-4839-a7db-84ff92486068
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230413T084359Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 2
+revision: 71512150-8917-4683-a6aa-1da5143abece
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20230628T121107Z
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230628T121107Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 21
+
+sitecore\Neeraj_Yadav
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+71512150-8917-4683-a6aa-1da5143abece
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230628T121107Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 21
+
+sitecore\Neeraj_Yadav

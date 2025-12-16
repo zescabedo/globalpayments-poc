@@ -1,0 +1,295 @@
+.card-carousel {
+  background-color: map-get($gpn-theme-card-carousel, card-carousel-background);
+  overflow-x: hidden;
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'xxxl');
+  .container-title {
+    margin-bottom: map-get($gpn-theme-card-carousel, card-carousel-container-title-margin-bottom);
+    font-weight: map-get($gpn-theme-card-carousel, card-carousel-container-title-font-weight);
+    @include media-breakpoint-up(md) {
+      margin-bottom: map-get(
+        $gpn-theme-card-carousel,
+        md-card-carousel-container-title-margin-bottom
+      );
+    }
+  }
+
+  .card-container {
+    overflow: visible;
+    .slide-card {
+      position: relative;
+      width: map-get($gpn-theme-card-carousel, card-carousel-slide-card) !important;
+      margin-right: map-get($gpn-theme-card-carousel, card-carousel-slide-card-margin-right);
+      flex-shrink: 0;
+
+      @include media-breakpoint-up(md) {
+        margin-bottom: map-get($gpn-theme-card-carousel, md-card-carousel-slide-card-margin-bottom);
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-bottom: map-get($gpn-theme-card-carousel, lg-card-carousel-slide-card-margin-bottom);
+      }
+
+      .image-wrapper {
+        width: map-get($gpn-theme-card-carousel, card-carousel-full-width);
+        height: map-get($gpn-theme-card-carousel, card-carousel-image-wrapper-height);
+        border-radius: map-get($gpn-theme-card-carousel, card-carousel-image-border-radius);
+        overflow: hidden;
+
+        .card-image {
+          width: map-get($gpn-theme-card-carousel, card-carousel-full-width);
+          height: map-get($gpn-theme-card-carousel, card-carousel-full-width);
+          object-fit: cover;
+          transition: transform 0.5s ease;
+        }
+
+        &:hover .card-image {
+          transform: scale(1.05);
+        }
+      }
+      .card-desc {
+        position: relative;
+        margin-right: map-get($gpn-theme-card-carousel, card-carousel-description-margin-right);
+        .card-title {
+          position: absolute;
+          bottom: 0;
+          width: map-get($gpn-theme-card-carousel, card-carousel-full-width);
+          height: map-get($gpn-theme-card-carousel, card-carousel-title-height);
+          display: flex;
+          align-items: center;
+          padding-top: map-get($gpn-theme-card-carousel, card-carousel-title-padding-top);
+          padding-bottom: map-get($gpn-theme-card-carousel, card-carousel-title-padding-bottom);
+          padding-right: map-get($gpn-theme-card-carousel, card-carousel-title-padding-right);
+          padding-left: map-get($gpn-theme-card-carousel, card-carousel-title-padding-left);
+          border-radius: map-get($gpn-theme-card-carousel, card-carousel-title-border-radius);
+          border-bottom-left-radius: map-get(
+            $gpn-theme-card-carousel,
+            card-carousel-title-border-bottom-left-radius
+          );
+          border-top-left-radius: 0;
+          color: map-get($gpn-theme-card-carousel, card-carousel-title-color);
+          .title-text {
+            @extend %h-sm;
+          }
+          .card-icon {
+            position: absolute;
+            width: map-get($gpn-theme-card-carousel, card-carousel-icon-size);
+            height: map-get($gpn-theme-card-carousel, card-carousel-icon-size);
+            right: map-get($gpn-theme-card-carousel, card-carousel-icon-right);
+            top: map-get($gpn-theme-card-carousel, card-carousel-icon-top-percent);
+            opacity: 0;
+            transform: translateX(20px);
+            transition: all 0.4s ease;
+          }
+        }
+      }
+
+      &:hover .card-title .card-icon {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .slick-slider {
+      .slick-slide {
+        width: auto !important;
+        &:nth-child(even) {
+          .card-desc {
+            .card-title {
+              background-color: map-get(
+                $gpn-theme-card-carousel,
+                card-carousel-title-dark-background
+              );
+            }
+          }
+        }
+        &:nth-child(odd) {
+          .card-desc {
+            .card-title {
+              background-color: map-get($gpn-theme-card-carousel, card-carousel-title-background);
+            }
+          }
+        }
+      }
+      .slick-list {
+        overflow: visible !important;
+      }
+      .slick-dots {
+        li {
+          button {
+            &:before {
+              color: map-get($gpn-theme-card-carousel, card-carousel-slick-dot-color);
+              opacity: inherit;
+              width: map-get($gpn-theme-card-carousel, card-carousel-slick-dot-width);
+              height: map-get($gpn-theme-card-carousel, card-carousel-slick-dot-height);
+            }
+          }
+
+          &.slick-active {
+            width: map-get($gpn-theme-card-carousel, card-carousel-slick-dot-active-width);
+            height: map-get($gpn-theme-card-carousel, card-carousel-slick-dot-active-height);
+
+            button {
+              width: map-get($gpn-theme-card-carousel, card-carousel-full-width);
+              height: map-get($gpn-theme-card-carousel, card-carousel-full-width);
+              padding: 0;
+              background: transparent;
+              border: none;
+              position: relative;
+
+              &:before {
+                content: '';
+                width: map-get($gpn-theme-card-carousel, card-carousel-slick-dot-active-width);
+                height: map-get($gpn-theme-card-carousel, card-carousel-slick-dot-active-height);
+                background-color: map-get(
+                  $gpn-theme-card-carousel,
+                  card-carousel-slick-dot-active-background
+                );
+                border-radius: 9999px;
+                position: absolute;
+                top: map-get($gpn-theme-card-carousel, card-carousel-half-width);
+                left: map-get($gpn-theme-card-carousel, card-carousel-half-width);
+                transform: translate(-50%, -50%);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .custom-arrow {
+      position: absolute;
+      bottom: map-get($gpn-theme-card-carousel, card-carousel-arrow-position-bottom);
+      right: 0;
+      z-index: 1;
+      cursor: pointer;
+      border-radius: map-get($gpn-theme-card-carousel, card-carousel-half-width);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: map-get($gpn-theme-card-carousel, card-carousel-arrow-size);
+      height: map-get($gpn-theme-card-carousel, card-carousel-arrow-size);
+      border: map-get($gpn-theme-card-carousel, card-carousel-arrow-border);
+      color: map-get($gpn-theme-card-carousel, card-carousel-arrow-color);
+      @include media-breakpoint-up(md) {
+        display: none;
+      }
+      @include media-breakpoint-up(lg) {
+        display: flex;
+      }
+
+      &.prev {
+        right: map-get($gpn-theme-card-carousel, card-carousel-arrow-prev-right);
+        .left-arrow {
+          width: map-get($gpn-theme-card-carousel, card-carousel-arrow-icon-size);
+          height: map-get($gpn-theme-card-carousel, card-carousel-arrow-icon-size);
+          background-image: map-get(
+            $gpn-theme-card-carousel,
+            'card-carousel-enable-left-arrow-icon'
+          );
+          background-position: center;
+          &.disabled {
+            background-image: map-get(
+              $gpn-theme-card-carousel,
+              'card-carousel-disable-left-arrow-icon'
+            );
+          }
+        }
+      }
+      &.next {
+        .right-arrow {
+          width: map-get($gpn-theme-card-carousel, card-carousel-arrow-icon-size);
+          height: map-get($gpn-theme-card-carousel, card-carousel-arrow-icon-size);
+          background-image: map-get(
+            $gpn-theme-card-carousel,
+            'card-carousel-enable-right-arrow-icon'
+          );
+          background-position: center;
+          &.disabled {
+            background-image: map-get(
+              $gpn-theme-card-carousel,
+              'card-carousel-disable-right-arrow-icon'
+            );
+          }
+        }
+      }
+      &.disabled {
+        pointer-events: none;
+        color: $gpn-theme-grey-400;
+        border-color: $gpn-theme-grey-400;
+      }
+    }
+    button {
+      background-color: transparent;
+    }
+    .static-card-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+
+      @include media-breakpoint-up(md) {
+        align-items: center;
+        justify-content: center;
+      }
+
+      @include media-breakpoint-up(lg) {
+        align-items: baseline;
+        justify-content: left;
+        flex-wrap: nowrap;
+      }
+    }
+
+    .card-list {
+      padding-left: 0;
+      a {
+        color: map-get($gpn-theme-card-carousel, card-carousel-card-list-color);
+        text-decoration: none;
+      }
+      li {
+        border-bottom: map-get($gpn-theme-card-carousel, card-carousel-card-list-border);
+        list-style: none;
+        padding: map-get($gpn-theme-card-carousel, card-carousel-card-list-padding-y) 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .mobile-card-title {
+          font-weight: map-get(
+            $gpn-theme-card-carousel,
+            card-carousel-container-mobile-title-font-weight
+          );
+          @extend %h-xxs;
+        }
+        .card-img {
+          width: map-get($gpn-theme-card-carousel, card-carousel-card-img-size);
+          height: map-get($gpn-theme-card-carousel, card-carousel-card-img-size);
+          background-color: map-get($gpn-theme-card-carousel, card-carousel-card-img-background);
+          border-radius: map-get($gpn-theme-card-carousel, card-carousel-half-width);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .card-arrow {
+            background-image: map-get($gpn-theme-card-carousel, 'card-carousel-mobile-arrow');
+            background-position: center;
+            width: map-get($gpn-theme-card-carousel, card-carousel-card-img-icon-size);
+            height: map-get($gpn-theme-card-carousel, card-carousel-card-img-icon-size);
+          }
+        }
+      }
+    }
+  }
+}
+
+.editing-mode {
+  .card-carousel {
+    .container {
+      min-width: map-get($gpn-theme-card-carousel, card-carousel-full-width);
+      .image-wrapper {
+        .sc-image-wrapper {
+          img {
+            width: map-get($gpn-theme-card-carousel, card-carousel-slide-card);
+            height: map-get($gpn-theme-card-carousel, card-carousel-full-width);
+          }
+        }
+      }
+    }
+  }
+}

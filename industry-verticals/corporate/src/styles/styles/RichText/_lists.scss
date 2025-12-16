@@ -1,0 +1,46 @@
+.bulleted-list,
+.check-marked-list {
+  @include gpn-spacing([ 'margin-top', 'margin-bottom'], 'xs');
+}
+
+.bulleted-list {
+  li {
+    list-style: disc;
+    @include gpn-spacing([ 'margin-bottom'], 'xs');
+  }
+}
+
+.numbered-list {
+  li {
+    list-style: decimal;
+    @include gpn-spacing([ 'margin-bottom'], 'xs');
+  }
+}
+
+.check-marked-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  li {
+    position: relative;
+    margin-bottom: gpn-spacing-size('sm', 'xxs');
+    &::before {
+      content: '';
+      background: $gpn-theme-icon-rte-list-arrow no-repeat center center;
+      position: absolute;
+      width: px-to-rem(16);
+      height: px-to-rem(16);
+      margin-left: calc(-1 * gpn-spacing-size('sm', 'md'));
+      margin-top: gpn-spacing-size('sm', 'xxxx');
+      top: gpn-spacing-size('sm', 'xxxx');
+    }
+  }
+}
+
+.arrows-list {
+  padding-left: 0;
+
+  li a {
+    padding: 0;
+  }
+}

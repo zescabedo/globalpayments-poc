@@ -1,0 +1,209 @@
+----item----
+version: 1
+id: {5B92BEA8-21AC-4B4E-9984-24179B633CE7}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Rendering Variants/Search Results/PIF Large Card with Image/Scriban
+parent: {4C5AE5A7-CD9B-4CD7-94CB-1BC719CBFD7B}
+name: Scriban
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 5673
+
+{{- 
+
+    # Content type, tags and business size
+    $articleUrl = i_item.url
+    $articleId = i_item.id
+    $contentType = sc_translate i_item.template_name
+    $contentTypeUrl = get_pif_content_type_listing_url i_item
+    
+    $externalLink = get_general_link_info i_item "ExternalLink"
+    if $externalLink != null && $externalLink.url != ""
+        $articleUrl = $externalLink.url
+    end
+
+    $allArticleTopics = sc_followmany i_item "GPIBlogCategories"
+    $articleTopics = $allArticleTopics | array.limit 2
+    $topics = []
+    for $articleTopic in $articleTopics
+        $tag = sc_raw $articleTopic "Title"
+        $tagUrl = $articleTopic.url
+        $topics = $topics | array.add { title: $tag, url: $tagUrl}
+    end
+
+    # build topics and audiences (business size) list for output
+    $allTopics = [];
+    for $t in $allArticleTopics 
+        $tag = sc_raw $t "Title"
+        $tagUrl = $t.url
+        $topic = "{ \"name\": \"" + $tag + "\", \"url\": \"" + $tagUrl + "\"}"
+        $allTopics = $allTopics | array.add $topic
+    end
+    $allTopicsDataString = "[" + ($allTopics | array.join ",") + "]"
+
+    $audiences = [];
+    for $b in (sc_followmany i_item "BusinessSize")
+        $tag = sc_raw $b "Title"
+        $tagUrl = $b.url
+        $audience = "{ \"name\": \"" + $tag + "\", \"url\": \"" + $tagUrl + "\"}"
+        $audiences = $audiences | array.add $audience
+    end
+    $audiencesDataString = "[" + ($audiences | array.join ",") + "]"
+
+    $allTagsDataString = "{ \"topics\": " + $allTopicsDataString  + ", \"audiences\": " + $audiencesDataString + " }"
+
+    $businessSize = ""
+    $businessSizeUrl = ""
+    $firstBusinessSize = sc_follow i_item "BusinessSize"
+    if $firstBusinessSize
+        $businessSize = sc_raw $firstBusinessSize "Title"
+        $businessSizeUrl = $firstBusinessSize.url
+    end
+    $showPifTags = false
+    if $businessSize != "" || $tag != "" 
+        $showPifTags = true
+    end
+
+
+    # Title, publish date, minutes to read
+    $title = sc_raw i_item "Blog Title"
+    $summary = sc_raw i_item "BlogSummary"
+
+    # images
+    $featuredImageUrl = sc_fullmediaurl i_item 'BlogFeaturedImage' { Width: 670 }
+    $alt = i_item.BlogFeaturedImage.media_alt
+    $overrideCardImage = sc_fullmediaurl i_item 'CardImageOverride' { Width: 670 }
+    if ($overrideCardImage | string.size) > 0
+        $featuredImageUrl = $overrideCardImage
+        $alt = i_item.CardImageOverride.media_alt
+    end
+    $hasFeaturedImage = ($featuredImageUrl | string.size) > 0
+    if ($alt | string.size == 0) 
+        $alt = "Card image for '" + $title + "' " + ($contentType | string.downcase)
+    end
+    
+
+
+    # Do we need to show extra details on specific content types?
+    $templateId = i_item.template_id
+
+    # "56162FEF059241978F7625AA1D104583" # article
+    # "EA60BED9C95C454897B6B71414876AAD" # Case study 
+    # "93A3D02A51034787A6FB2B55309BD8B6" # Ebook
+    # "1703F5EAEEE248DEB946A6CE48B8A05F" # Infographic
+    # "8A1EB947C92B4FFB9CDDF7AEBFA4DFF8" # Webinar
+
+    $playTimeImageUrl = ""
+    $playTime = ""
+    $showPlayTime = false
+
+    if $templateId == "047FEF2F71364EFFADA34FBCF40AD801" # Podcast
+        $playTime = i_item.BlogReadTime
+        $playTimeImageUrl = "/Theme/dist/corporate/images/icons/sound-primary-1.svg"
+        $showPlayTime = true
+    end
+    if $templateId == "B32113FE56AF4B06975771051D6A0DE7" # Video
+        $playTime = i_item.BlogReadTime
+        $playTimeImageUrl = "/Theme/dist/corporate/images/icons/clapper-primary-1.svg"
+        $showPlayTime = true
+    end
+   
+-}}
+
+<div class="pif-large-image-card-search-result pif-clickable-card">
+    <div class="image-container">
+        {{ if $hasFeaturedImage }}
+            <img class="pif-article-image" wudth="670" src="{{ $featuredImageUrl }}" alt="{{ $alt }}" />
+        {{ else }}
+            <h3 class="pif-title h5-style">{{ $title }}</h3>
+        {{ end }}
+    </div>
+    <div class="pif-article-details-container">
+    <div class="pif-article-details">
+        <a href="{{ $contentTypeUrl }}" class="pif-content-type btn btn-xs btn-outline-primary-1">{{ $contentType }}</a>
+            {{ if $showPifTags }}
+                <div class="pif-tags" data-all-tags='{{ $allTagsDataString }}'>
+                    <ul>
+                    {{ if $topics | array.size > 0 }}
+                        {{ for $topic in $topics }}
+                            <li><a href="{{ $topic.url }}">{{ $topic.title }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                    {{ if $businessSize }}
+                    {{ if $businessSize != "" }}
+                            <li><a href="{{ $businessSizeUrl }}">{{ $businessSize }}</a>
+                        {{ end }}
+                    {{ end }}
+                    </ul>
+                </div>
+            {{ end }}
+        </div>
+        {{ if $showPlayTime && $playTime != "" }}
+            <div class="playing-time">
+                <img src="{{ $playTimeImageUrl }}" />
+                <span class="play-time">{{ $playTime }} {{ sc_translate "Minutes "}}</span>
+            </div>
+        {{ end }}
+    </div>
+    {{ if $hasFeaturedImage }}
+        <h3 class="pif-title h5-style">{{ $title }}</h3>
+    {{ end }}
+    {{ if $summary != "" }}
+        <div class="pif-description">{{ $summary }}</div>
+    {{ end }}
+    <a href="{{ $articleUrl }}" class="pif-card-link-overlay" name="Link to {{ $contentType | string.downcase }}" data-content-type="{{ $contentType }}" data-article-id="{{ $articleId }}" aria-label="{{ $title }}"></a>
+</div>
+
+----version----
+language: en-US
+version: 1
+revision: 6b48de44-331a-45f5-8fe2-5af41eab9588
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230418T004422Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6b48de44-331a-45f5-8fe2-5af41eab9588
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20240916T070326Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

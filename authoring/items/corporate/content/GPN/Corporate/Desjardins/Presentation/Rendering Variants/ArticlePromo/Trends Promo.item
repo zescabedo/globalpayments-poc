@@ -1,0 +1,25 @@
+----item----
+version: 1
+id: {D0CBF90A-C547-40FE-8740-64CFC9AE2565}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/ArticlePromo/Trends Promo
+parent: {F2C1471E-6883-4B4A-B4FE-F210C7E28F7E}
+name: Trends Promo
+master: {00000000-0000-0000-0000-000000000000}
+template: {FB3E3034-33F8-4CE8-BE98-DD05010F4C22}
+templatekey: Variant Definition
+
+----field----
+field: {90294353-706A-431C-B855-CD245824D9FA}
+name: LinkField
+key: linkfield
+content-length: 16
+
+ArticlePromoLink
+----field----
+field: {E1D5ADBA-8348-4127-9BB6-455936653839}
+name: CssClass
+key: cssclass
+content-length: 18
+
+promo trends-promo

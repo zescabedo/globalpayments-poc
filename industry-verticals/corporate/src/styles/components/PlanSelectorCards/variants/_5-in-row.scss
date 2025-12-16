@@ -1,0 +1,11 @@
+&.five-in-row {
+  .plan-card {
+    @include media-breakpoint-up(md) {
+      @include make-col(4);
+    }
+
+    @include media-breakpoint-up(lg) {
+      @include make-col(2);
+    }
+  }
+}

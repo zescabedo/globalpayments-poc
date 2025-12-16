@@ -1,0 +1,23 @@
+&.two-in-row {
+
+  .card-list-items {
+    @include make-row();
+    gap: gpn-spacing-size('sm', 'sm');
+    flex-wrap: wrap;
+
+    .uptick-card {
+      flex: unset;
+
+      @include media-breakpoint-up(md) {
+        flex: 0 0 calc(50% - 1.2rem);
+        max-width: calc(50% - 1.2rem);
+      }
+
+      .card-content {
+        .card-image {
+          display: none;
+        }
+      }
+    }
+  }
+}

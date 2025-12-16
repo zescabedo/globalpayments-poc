@@ -1,0 +1,138 @@
+.component.card-list.article {
+    @include make-col(12);
+    // @include gpn-spacing(['padding-top', 'padding-bottom'], 'xxl'); // TBD padding-top and padding-bottom is 60px in figma
+
+    // Padding values overwritten to 60px
+    padding-top: gpn-spacing-size('lg', 'xxl'); //TBD 60px in Figma
+    padding-bottom: gpn-spacing-size('lg', 'xxl'); //TBD 60px in Figma
+
+    @include media-breakpoint-up(md) {
+        padding-top: gpn-spacing-size('md', 'lg'); //TBD 20px in Figma
+        padding-bottom: gpn-spacing-size('md', 'lg'); //TBD 20px in Figma
+    }
+
+    @include media-breakpoint-up(lg) {
+        padding-top: gpn-spacing-size('lg', 'xxl'); //TBD 60px in Figma
+        padding-bottom: gpn-spacing-size('lg', 'xxl'); //TBD 60px in Figma
+    }
+
+    .row {
+        align-items: center;
+        justify-content: center;
+
+        .title-row {
+            @include make-col(12);
+
+            text-align: left;
+            margin-bottom: gpn-spacing-size('sm', 'xl');
+            display: flex;
+            flex-direction: column;
+            gap: gpn-spacing-size('sm', 'sm');
+
+            @include media-breakpoint-up(md) {
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: gpn-spacing-size('sm', 'lg'); // TBD margin-bottom value is 34px in Figma
+            }
+
+            @include media-breakpoint-up(lg) {
+                margin-bottom: gpn-spacing-size('lg', 'xl'); // TBD margin-bottom value is 47px in Figma
+            }
+
+            .title,
+            .title strong {
+                @extend %h-lg;
+                color:$gpn-theme-black;
+                font-weight: $gpn-theme-font-weight-light; // Font weight overwritten
+            }
+
+            .btn-cta-tertiary {
+                white-space: nowrap;
+                color: $gpn-theme-base;
+                height: fit-content;
+                margin-top: auto;
+                line-height: 1.6rem;
+                cursor: pointer;
+                &::after {
+                    background-image: $gpn-theme-icon-arrow-base-w;
+                }
+            }
+        }
+    }
+
+    .card-list-items {
+        @include make-row();
+        align-items: flex-start;
+        gap: gpn-spacing-size('sm', 'xl');
+
+        @include media-breakpoint-up(md) {
+            gap: gpn-spacing-size('sm', 'lg');
+        }
+
+        @include media-breakpoint-up(lg) {
+            flex-wrap: nowrap;
+            @include make-col(12);
+            gap: gpn-spacing-size('lg', 'sm');
+        }
+
+        .uptick-card {
+            display: flex;
+            flex-direction: column;
+            @include gpn-spacing('gap', 'lg');
+            @include make-col(12);
+            padding: 0;
+
+            @include media-breakpoint-up(lg) {
+                flex: 1 1 0;
+            }
+
+            .card-content {
+                display: flex;
+                flex-direction: column;
+
+                @include media-breakpoint-up(md) {
+                    flex-direction: row;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    flex-direction: column;
+                }
+
+                .card-image {
+                    @include make-col(12);
+                    margin-bottom: gpn-spacing-size('sm', 'sm');
+                    width: 100%;
+
+                    @include media-breakpoint-up(md) {
+                        @include make-col(4);
+                        margin-right: gpn-spacing-size('sm', 'sm');
+                        margin-bottom: 0;
+                    }
+
+                    @include media-breakpoint-up(lg) {
+                        @include make-col(12);
+                        margin-right: 0;
+                        margin-bottom: gpn-spacing-size('sm', 'sm');
+                    }
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .card-details {
+                    .card-description{
+                        display: none;
+                    }
+
+                    .card-name {
+                        margin-bottom: 1.2rem; // TBD margin-bottom value is 12px in Figma
+                        @include media-breakpoint-up(lg) {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

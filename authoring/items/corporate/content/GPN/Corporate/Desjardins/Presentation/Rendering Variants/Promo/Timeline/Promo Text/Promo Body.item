@@ -1,0 +1,25 @@
+----item----
+version: 1
+id: {16C36287-32BE-4005-877E-675D5C5BE46B}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Promo/Timeline/Promo Text/Promo Body
+parent: {B3761C08-D750-4CA8-84D4-2366B5354790}
+name: Promo Body
+master: {00000000-0000-0000-0000-000000000000}
+template: {ACA5C9A3-CDA0-49B6-893F-1D4A7CB595B0}
+templatekey: VariantSection
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 38
+
+{CD8C1F58-A666-461A-8C91-34C121A235BA}

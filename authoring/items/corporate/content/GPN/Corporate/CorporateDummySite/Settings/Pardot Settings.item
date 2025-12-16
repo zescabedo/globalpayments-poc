@@ -1,0 +1,166 @@
+----item----
+version: 1
+id: {0CED2B63-A575-44F2-A233-B11DCE35F56D}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Pardot Settings
+parent: {E7294D16-3C2E-4BCF-847E-049C787869AA}
+name: Pardot Settings
+master: {00000000-0000-0000-0000-000000000000}
+template: {5A6A23CD-4B54-4AC8-BE99-DB3A123707C5}
+templatekey: Pardot Settings
+
+----field----
+field: {4A566A99-0164-4B4A-935B-4123373E51E4}
+name: Pardot Submit Failure Notification Email
+key: pardot submit failure notification email
+content-length: 88
+
+yogendra.bartwal@shreepartners.com;suneeth@triggerfish.com.au;yogendra.bartwal@gmail.com
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+950
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 184
+
+ar|sitecore\GP Corp Analytics|pe|+item:create|+item:read|+item:rename|+item:delete|+item:write|+item:admin|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|+item:admin|
+----version----
+language: en
+version: 1
+revision: 30d77326-ae43-4850-9b4b-e5a941442bad
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210127T023006Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+30d77326-ae43-4850-9b4b-e5a941442bad
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211015T124705Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-CA
+version: 1
+revision: 633210b1-1bfe-41a8-9e27-ff9c11db1662
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 25
+
+sitecore\Yogendra_Bartwal
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20211018T074415Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 25
+
+sitecore\Yogendra_Bartwal
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+633210b1-1bfe-41a8-9e27-ff9c11db1662
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211125T073934Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Yogendra_Bartwal
+----version----
+language: en-US
+version: 1
+revision: 5de60a1b-ea5e-4d36-8e71-bcbfe4084946
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 21
+
+sitecore\shaunbaddock
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210208T162358Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 21
+
+sitecore\shaunbaddock
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5de60a1b-ea5e-4d36-8e71-bcbfe4084946
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211125T073934Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Yogendra_Bartwal

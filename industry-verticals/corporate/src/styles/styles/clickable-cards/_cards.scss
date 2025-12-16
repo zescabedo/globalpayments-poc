@@ -1,0 +1,51 @@
+.ec-clickable-card {
+  position: relative;
+  
+  .ec-card-link-overlay {
+    z-index: $gpn-theme-zindex-clickable-card-base;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    a {
+      height: 100%;
+      width: 100%;
+      display: block;
+    }
+    
+    &::after {
+      position: absolute;
+      inset: 0;
+      content: ' ';
+    }
+  }
+  
+  &:hover {
+    cursor: pointer;
+  }
+
+  a:not([class*='ec-card-link-overlay']) {
+    z-index: $gpn-theme-zindex-clickable-card-show;
+    position: relative;
+  }
+}
+
+.editing-mode {
+  .ec-clickable-card {
+    position: static;
+    
+    .ec-card-link-overlay {
+      display: none;
+      
+      &::after {
+        display: none;
+      }
+    }
+    
+    a:not([class*='ec-card-link-overlay']) {
+      position: static;
+    }
+  }
+}

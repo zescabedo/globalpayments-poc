@@ -1,0 +1,247 @@
+----item----
+version: 1
+id: {67ACBF4D-88D9-47FE-8A40-CFC39F241679}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Corporate Mobile Nav/Default-Backup/Header
+parent: {F0F9E609-544F-44A1-87CD-F0A044AA7435}
+name: Header
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 6533
+
+{{ if (o_model.relative_level == 1) }}
+<ul class="clearfix" role="menubar">
+    {{ for i_level1 in o_model.children }}
+    <li class="{{i_level1.css_classes | array.join " "}} rel-level{{ o_model.relative_level }}" role="presentation">
+        <div class="navigation-title chevron-primary-1-next-sm">
+            {{
+                $a = get_general_link_info i_level1.page_item "NavigationLink"
+
+                $l1_title = i_level1.page_item.HeaderTitle
+                if(!$l1_title || $l1_title == "")
+                    $l1_title = i_level1.page_item.NavigationTitle
+                end
+                
+                $aProps = ''
+                if $a
+                    if $a.url && $a.url != ""
+                        $aProps = "href='" + $a.url + "' title='" + $a.title + "' target='" + $a.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a.gatext + "'"
+                    else
+                        $aProps = "title='" + $a.title + "' data-ea-zone='Header' data-ea-type='parent tab click' data-ea-link='" + $l1_title.raw + "'"
+                    end
+                end
+            }}
+            <a {{ $aProps }} role="menuitem" aria-haspopup="{{i_level1.children.size > 0}}">{{ $l1_title }}</a>
+        </div>
+        {{ if i_level1.children.size > 0 }}
+        {{#Level 2 - Start}}
+        <ul class="clearfix" role="menu" aria-label="{{$l1_title}}">
+            <div class="head">
+                <div class="arrow-primary-1-prev-sm-rel back-arrow"></div>
+                <h5 class="subnav-title"><span class="primary-underline">{{ $l1_title }}</span></h5>
+                <div class="close-nav"></div>
+            </div>
+            {{
+                 $first_item = i_level1.page_item
+                 $item_class_id = sc_follow $first_item "NavigationClass"
+                 $item_class = ""
+                 if($item_class_id)
+                    $item_class = sc_follow $first_item "NavigationClass" | sc_field "Value"
+                 end
+            }}
+            {{if $item_class == "nav-4col-links-stdout"}}
+            {{#Level2 - Start}}
+            {{ for i_level2 in i_level1.children
+            }}
+            <div class="col-12 navigation-title">
+                {{
+                    $a2 = get_general_link_info i_level2.page_item "NavigationLink"
+                    $a2Props = ''
+                    if $a2 && $a2.url && $a2.url != ""
+                        $a2Props = "href='" + $a2.url + "' title='" + $a2.title + "' target='" + $a2.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a2.gatext + "'"
+                    end
+                    $p_title = i_level2.page_item.HeaderTitle
+                    if(!$p_title || $p_title == "")
+                        $p_title = i_level2.page_item.NavigationTitle
+                    end
+                }}
+                <h5 class="subnav-title primary-underline"><a role="menuitem" {{ $a2Props }}>{{$p_title}}</a></h5>
+                {{i_level2.page_item.HeaderSummary}}
+            </div>
+            <ul class="clearfix" role="menu">
+                {{#Level3 - Start}}
+                {{ for i_level3 in i_level2.children
+                }}
+                <li class="{{i_level3.css_classes | array.join " "}} rel-level3" role="presentation">
+                    <div class="navigation-title chevron-primary-1-next-sm">
+                        {{
+                        $a3 = get_general_link_info i_level3.page_item "NavigationLink"
+                        $a3Props = ''
+                        if $a3 && $a3.url && $a3.url != ""
+                            $a3Props = "href='" + $a3.url + "' title='" + $a3.title + "' target='" + $a3.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a3.gatext + "'"
+                        end
+                        $p3_title = i_level3.page_item.NavigationTitle
+                        if(!$p3_title || $p3_title == "")
+                            $p3_title = i_level3.page_item.NavigationTitle
+                        end
+
+                        }}
+                        <a role="menuitem" {{ $a3Props }}>{{$p3_title}}</a>
+                    </div>
+                </li>
+                {{ end }}
+                {{#Level3 - End}}
+            </ul>
+            {{end}}
+            <div class="component rich-text col-12 content-item">
+                <div class="component-content">
+                    {{ 
+                               $hc = sc_raw i_level1.page_item "HeaderContent"
+                               expand_rte_links $hc 
+                            }}
+                </div>
+            </div>
+            {{else}}
+            <div class="component rich-text col-12">
+                <div class="component-content">
+                    {{ 
+                               $hc = sc_raw i_level1.page_item "HeaderContent"
+                               expand_rte_links $hc 
+                            }}
+                </div>
+            </div>
+            {{#Level3 - Start}}
+            {{ for i_level3 in i_level1.children
+            }}
+            <li class="{{i_level3.css_classes | array.join " "}} rel-level2" role="presentation">
+                <div class="navigation-title chevron-primary-1-next-sm primary-underline">
+                    {{
+                        $a4 = get_general_link_info i_level3.page_item "NavigationLink"
+                        $a4Props = ''
+                        if $a4 && $a4.url && $a4.url != ""
+                            $a4Props = "href='" + $a4.url + "' title='" + $a4.title + "' target='" + $a4.target + "'" + "data-ea-zone='Header' data-ea-type='click' data-ea-link='" + $a4.gatext + "'"
+                        end
+                        $p4_title = i_level3.page_item.HeaderTitle
+                        if(!$p4_title || $p4_title == "")
+                        $p4_title = i_level3.page_item.NavigationTitle
+                        end
+
+                    }}
+                    <a role="menuitem" {{ $a4Props }}>{{$p4_title}}</a>
+                </div>
+            </li>
+            {{ end }}
+            {{#Level3 - End}}
+            {{end}}
+            {{#Level2 - End}}
+        </ul>
+        {{ end }}
+        {{#Level2 - End}}
+    </li>
+    {{ end }}
+    <div class="nav-foot">
+        <div class="divider-neutral-3"></div>
+        {{sc_placeholder "header-nav-foot"}}
+    </div>
+</ul>
+{{ end }}
+----version----
+language: en-CA
+version: 1
+revision: 4a4d9de9-5aa1-4cc9-9931-3351d04b4af5
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210304T102630Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4a4d9de9-5aa1-4cc9-9931-3351d04b4af5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065654Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: bacda22e-b689-4926-8cea-d390eb6507b1
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210304T102630Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bacda22e-b689-4926-8cea-d390eb6507b1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080211Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

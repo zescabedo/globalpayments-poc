@@ -1,0 +1,76 @@
+----item----
+version: 1
+id: {251A6012-9AE6-4435-8961-F72C0B61D1C2}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Scriban Includes/Helper functions/Format Id
+parent: {26D3711D-AE30-4AAA-81F0-C68E8956461A}
+name: Format Id
+master: {00000000-0000-0000-0000-000000000000}
+template: {CB401771-43AB-4F1E-B711-8C5EA7C37BE1}
+templatekey: Scriban Include
+
+----field----
+field: {241300DA-5F88-498D-B4DD-BBBE04178DE6}
+name: Key
+key: key
+content-length: 18
+
+format-id-function
+----field----
+field: {E3CDCF5B-6FD6-48B1-A02F-797D3BCD50D8}
+name: Template
+key: template
+content-length: 115
+
+{{
+func format_id
+  ret $0 | string.remove "-" | string.remove "{" | string.remove "}" | string.downcase
+end
+}}
+----version----
+language: en-US
+version: 1
+revision: 77cb1a3c-6315-41ae-a7b7-50cb44a689bd
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20231031T050314Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+77cb1a3c-6315-41ae-a7b7-50cb44a689bd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231031T050912Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,215 @@
+----item----
+version: 1
+id: {70D674E8-822C-4BFD-B3E0-044BBE9C5638}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Corporation JSON-LD Schema/Offer Catalogue/Business and Payment Solutions/Payroll and HR Solutions
+parent: {9E23319E-8869-458E-B7BD-C52EFE8D808F}
+name: Payroll and HR Solutions
+master: {00000000-0000-0000-0000-000000000000}
+template: {90AD152E-33E8-4336-9152-74A84713063D}
+templatekey: Offer
+
+----version----
+language: en-CA
+version: 1
+revision: acafa01e-ec50-4e6b-a67f-2198bd4cf0d9
+
+----field----
+field: {5860238F-23B8-4FBA-A53D-77505D13C4F5}
+name: Name
+key: name
+content-length: 24
+
+Payroll and HR Solutions
+----field----
+field: {AEEFFC5A-D801-441E-9A54-CF4689F046B8}
+name: Description
+key: description
+content-length: 242
+
+Your all-in-one payroll and HR solution. Cover your bases now—and in the future. Whether your business is big, small, or somewhere in between, customize your payroll and HR needs as you grow through our Heartland web-based workforce solution.
+----field----
+field: {C67BE693-BF7E-4ECC-82BC-89E02FB2BB46}
+name: Page
+key: page
+content-length: 57
+
+https://www.globalpayments.com/business-solutions/payroll
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T014704Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+acafa01e-ec50-4e6b-a67f-2198bd4cf0d9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084224Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: edeef4b4-5e25-4b29-af18-1b459f3ed900
+
+----field----
+field: {5860238F-23B8-4FBA-A53D-77505D13C4F5}
+name: Name
+key: name
+content-length: 24
+
+Payroll and HR Solutions
+----field----
+field: {AEEFFC5A-D801-441E-9A54-CF4689F046B8}
+name: Description
+key: description
+content-length: 242
+
+Your all-in-one payroll and HR solution. Cover your bases now—and in the future. Whether your business is big, small, or somewhere in between, customize your payroll and HR needs as you grow through our Heartland web-based workforce solution.
+----field----
+field: {C67BE693-BF7E-4ECC-82BC-89E02FB2BB46}
+name: Page
+key: page
+content-length: 57
+
+https://www.globalpayments.com/business-solutions/payroll
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T014704Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+edeef4b4-5e25-4b29-af18-1b459f3ed900
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210310T154340Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 25
+
+sitecore\Zachary_Chahalis
+----version----
+language: fr-CA
+version: 1
+revision: cff64ebf-0def-4504-8bb4-f158986f645b
+
+----field----
+field: {5860238F-23B8-4FBA-A53D-77505D13C4F5}
+name: Name
+key: name
+content-length: 24
+
+Payroll and HR Solutions
+----field----
+field: {AEEFFC5A-D801-441E-9A54-CF4689F046B8}
+name: Description
+key: description
+content-length: 242
+
+Your all-in-one payroll and HR solution. Cover your bases now—and in the future. Whether your business is big, small, or somewhere in between, customize your payroll and HR needs as you grow through our Heartland web-based workforce solution.
+----field----
+field: {C67BE693-BF7E-4ECC-82BC-89E02FB2BB46}
+name: Page
+key: page
+content-length: 57
+
+https://www.globalpayments.com/business-solutions/payroll
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T014704Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cff64ebf-0def-4504-8bb4-f158986f645b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084223Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

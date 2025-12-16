@@ -1,0 +1,384 @@
+/**
+ * Global Payments Featured Hero Component Styles
+ * 
+ * Aligned with Global Payments design system Featured Hero component
+ * Reference: https://design.globalpayments.com/?path=/story/components-heroes-id32id15mediaherocomposite-featuredhero--default
+ */
+
+.component.featured-hero-video,
+.component.bg-white {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  
+  // Background color variants
+  &.bg-white {
+    background-color: var(--gpn-theme-white-255, #{$gpn-white});
+    color: var(--gpn-theme-black-950, #{$gpn-black-950});
+  }
+  
+  &.featured-bg-faint {
+    background-color: var(--gpn-theme-grey-110, #{$gpn-grey-110});
+  }
+  
+  &.featured-bg-light {
+    background-color: var(--gpn-theme-light, #{$gpn-theme-light});
+  }
+  
+  &.featured-bg-bright {
+    background-color: var(--gpn-theme-light, #{$gpn-theme-light});
+  }
+  
+  &.featured-bg-base {
+    background-color: var(--gpn-theme-base, #{$gpn-blue-500});
+    color: var(--gpn-theme-white-255, #{$gpn-white});
+  }
+  
+  &.featured-bg-dark {
+    background-color: var(--gpn-theme-dark, #{$gpn-blue-600});
+    color: var(--gpn-theme-white-255, #{$gpn-white});
+  }
+  
+  &.featured-bg-subtle {
+    background-color: var(--gpn-theme-grey-120, #{$gpn-grey-120});
+  }
+  
+  &.featured-bg-medium {
+    background-color: var(--gpn-theme-grey-200, #{$gpn-grey-200});
+  }
+}
+
+// Circle Pattern Background Container
+.circle-pattern {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+  // Responsive background images using CSS variables
+  --bg-image-desktop: none;
+  --bg-image-tablet: none;
+  --bg-image-mobile: none;
+  --mediaSize: auto;
+  
+  background-image: var(--bg-image-desktop);
+  
+  // Blue circle pattern overlay (matching Storybook design)
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+      radial-gradient(circle at 10% 20%, rgba(38, 42, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 90% 30%, rgba(38, 42, 255, 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 20% 80%, rgba(38, 42, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 70%, rgba(38, 42, 255, 0.08) 0%, transparent 50%);
+    background-size: 400px 400px, 300px 300px, 350px 350px, 280px 280px;
+    background-position: top left, top right, bottom left, bottom right;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  // Curved line patterns
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+      radial-gradient(ellipse 800px 200px at 0% 20%, transparent 40%, rgba(38, 42, 255, 0.05) 41%, rgba(38, 42, 255, 0.05) 42%, transparent 43%),
+      radial-gradient(ellipse 700px 180px at 100% 30%, transparent 40%, rgba(38, 42, 255, 0.05) 41%, rgba(38, 42, 255, 0.05) 42%, transparent 43%);
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 1;
+  }
+  
+  @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+    background-image: var(--bg-image-tablet);
+    min-height: 500px;
+  }
+  
+  @media (max-width: 768px) {
+    background-image: var(--bg-image-mobile);
+    
+    &::before {
+      background-size: 250px 250px, 200px 200px, 220px 220px, 180px 180px;
+    }
+  }
+  
+  // Container spacing
+  .container {
+    position: relative;
+    z-index: 2;
+    padding-top: var(--gpn-spacing-xxl-desktop, #{$gpn-spacing-xxl-desktop});
+    padding-bottom: var(--gpn-spacing-xxl-desktop, #{$gpn-spacing-xxl-desktop});
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+      padding-top: var(--gpn-spacing-xl-mobile, #{$gpn-spacing-xl-mobile});
+      padding-bottom: var(--gpn-spacing-xl-mobile, #{$gpn-spacing-xl-mobile});
+    }
+    
+    // Ensure rows are stacked vertically
+    .row {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+    }
+  }
+  
+  // Full bleed container for background effects
+  .full-bleed-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    pointer-events: none;
+  }
+}
+
+// Hero Text Block
+.hero-text-block {
+  max-width: 720px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
+  
+  // Use design system typography classes directly
+  .display-lg {
+    margin-bottom: var(--gpn-spacing-md-desktop, #{$gpn-spacing-md-desktop});
+    color: inherit;
+    text-align: center;
+    
+    @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+      margin-bottom: var(--gpn-spacing-md-mobile, #{$gpn-spacing-md-mobile});
+    }
+  }
+  
+  .label-md {
+    margin-bottom: var(--gpn-spacing-lg-desktop, #{$gpn-spacing-lg-desktop});
+    color: inherit;
+    opacity: 0.9;
+    text-align: center;
+    
+    @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+      margin-bottom: var(--gpn-spacing-lg-mobile, #{$gpn-spacing-lg-mobile});
+    }
+  }
+  
+  .body-md {
+    margin-bottom: var(--gpn-spacing-lg-desktop, #{$gpn-spacing-lg-desktop});
+    color: inherit;
+    text-align: center;
+    
+    @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+      margin-bottom: var(--gpn-spacing-lg-mobile, #{$gpn-spacing-lg-mobile});
+    }
+    
+    // Rich text content styling
+    p {
+      margin-bottom: var(--gpn-spacing-sm-desktop, #{$gpn-spacing-sm-desktop});
+      text-align: center;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  
+  // CTA List
+  .cta-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--gpn-spacing-sm-desktop, #{$gpn-spacing-sm-desktop});
+    margin-top: var(--gpn-spacing-lg-desktop, #{$gpn-spacing-lg-desktop});
+    
+    @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+      gap: var(--gpn-spacing-sm-mobile, #{$gpn-spacing-sm-mobile});
+      margin-top: var(--gpn-spacing-lg-mobile, #{$gpn-spacing-lg-mobile});
+    }
+    
+    &.all {
+      // Additional styles for "all" variant
+    }
+    
+    .link-inner {
+      display: inline-block;
+    }
+  }
+}
+
+// Hero Media Block
+.hero-media-block {
+  position: relative;
+  z-index: 2;
+  margin-top: var(--gpn-spacing-xl-desktop, #{$gpn-spacing-xl-desktop});
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+    margin-top: var(--gpn-spacing-lg-mobile, #{$gpn-spacing-lg-mobile});
+  }
+  
+  &.square-corners {
+    .hero-image {
+      border-radius: 0;
+    }
+  }
+  
+  .hero-media {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    picture {
+      display: block;
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .gp-img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      border-radius: 0.4rem;
+    }
+    
+    .hero-image {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+    }
+    
+    // Video styles
+    .hero-video {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; // 16:9 aspect ratio
+      height: 0;
+      overflow: hidden;
+      
+      .hero-video-iframe,
+      .hero-video-element {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+      
+      .hero-vidyard {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+// Global Payments Button Styles (matching Storybook)
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 2.4rem;
+  font-size: var(--gpn-body-md-size, #{$gpn-body-md-size});
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0.4rem;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid transparent;
+  cursor: pointer;
+  
+  &:focus {
+    outline: 2px solid var(--gpn-theme-blue-500, #{$gpn-blue-500});
+    outline-offset: 2px;
+  }
+  
+  .link-inner {
+    display: inline-block;
+  }
+}
+
+.btn-cta-primary {
+  background-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+  color: var(--gpn-theme-white-255, #{$gpn-white});
+  border-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+  
+  &:hover {
+    background-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+    border-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(38, 42, 255, 0.3);
+  }
+}
+
+.btn-cta-secondary {
+  background-color: transparent;
+  color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+  border-color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+  
+  &:hover {
+    background-color: var(--gpn-theme-grey-110, #{$gpn-grey-110});
+    color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+    border-color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+  }
+}
+
+.btn-cta-tertiary {
+  background-color: transparent;
+  color: var(--gpn-theme-blue-500, #{$gpn-blue-500});
+  border-color: transparent;
+  
+  &:hover {
+    background-color: var(--gpn-theme-grey-110, #{$gpn-grey-110});
+    color: var(--gpn-theme-blue-600, #{$gpn-blue-600});
+  }
+}
+
+// Responsive adjustments
+@media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+  .hero-text-block {
+    max-width: 100%;
+  }
+  
+  .hero-media-block {
+    margin-top: var(--gpn-spacing-lg-mobile, #{$gpn-spacing-lg-mobile});
+  }
+  
+  .cta-list {
+    flex-direction: column;
+    
+    .btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+

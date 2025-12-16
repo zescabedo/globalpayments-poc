@@ -1,0 +1,194 @@
+----item----
+version: 1
+id: {F937E02C-2F8B-4B8A-8E24-F80E3B54CD5D}
+database: master
+path: /sitecore/content/GPN/Corporate/CorporateDummySite/Settings/Corporation JSON-LD Schema/People/Jeffrey S Sloan
+parent: {40FDBC5E-4B52-4880-A704-725831E654E3}
+name: Jeffrey S Sloan
+master: {00000000-0000-0000-0000-000000000000}
+template: {301FD783-A1D5-45D4-A8BF-A74D74AE2D61}
+templatekey: Person
+
+----version----
+language: en-CA
+version: 1
+revision: 300ea5a9-ab60-4d89-886e-0e07a2a38d3a
+
+----field----
+field: {364C5247-E948-4178-9338-190E9D49DEB3}
+name: Name
+key: name
+content-length: 16
+
+Jeffrey S. Sloan
+----field----
+field: {327D383E-1E0E-4294-AF41-6BEEB966659E}
+name: Job Title
+key: job title
+content-length: 3
+
+CEO
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T044351Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+300ea5a9-ab60-4d89-886e-0e07a2a38d3a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084418Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: 55deef8c-9750-4fdc-b79d-013dae1619b9
+
+----field----
+field: {364C5247-E948-4178-9338-190E9D49DEB3}
+name: Name
+key: name
+content-length: 16
+
+Jeffrey S. Sloan
+----field----
+field: {327D383E-1E0E-4294-AF41-6BEEB966659E}
+name: Job Title
+key: job title
+content-length: 3
+
+CEO
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T044351Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+55deef8c-9750-4fdc-b79d-013dae1619b9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210114T062722Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: fr-CA
+version: 1
+revision: d82ab1ac-5fec-4ba9-a84a-7b0d7632b5db
+
+----field----
+field: {364C5247-E948-4178-9338-190E9D49DEB3}
+name: Name
+key: name
+content-length: 16
+
+Jeffrey S. Sloan
+----field----
+field: {327D383E-1E0E-4294-AF41-6BEEB966659E}
+name: Job Title
+key: job title
+content-length: 3
+
+CEO
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20201222T044351Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d82ab1ac-5fec-4ba9-a84a-7b0d7632b5db
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T084417Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

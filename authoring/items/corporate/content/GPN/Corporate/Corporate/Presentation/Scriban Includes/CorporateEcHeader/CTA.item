@@ -1,0 +1,99 @@
+----item----
+version: 1
+id: {E7D85B61-1BB7-4967-B79D-A993B7E7DCB7}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Presentation/Scriban Includes/CorporateEcHeader/CTA
+parent: {4D91E463-6B61-4985-BB5F-D5D661A20D5D}
+name: CTA
+master: {00000000-0000-0000-0000-000000000000}
+template: {CB401771-43AB-4F1E-B711-8C5EA7C37BE1}
+templatekey: Scriban Include
+
+----field----
+field: {241300DA-5F88-498D-B4DD-BBBE04178DE6}
+name: Key
+key: key
+content-length: 23
+
+ec-corporate-header-cta
+----field----
+field: {E3CDCF5B-6FD6-48B1-A02F-797D3BCD50D8}
+name: Template
+key: template
+content-length: 877
+
+{{ 
+
+    $page = $1.page
+    $linkField = $1.linkField
+    $item = $1.item
+
+    # get sign up modal if it exists on the page
+    $a = get_general_link_info $page "Signup Modal"
+    $atext = ""
+	if($a!= null)
+        if($a.description == "")
+	        $b = get_general_link_info $item $linkField
+	        $atext = $b.text
+        else
+	        $atext = $a.text	
+        end
+	end
+
+    # if it doesn't, then get the general one from the header datasource
+    if !$a || !$a.url || $a.url == ""
+        $a = get_general_link_info $item $linkField
+	    $atext = $a.text
+    end
+}}
+
+<a class="btn btn-sm btn-cta-secondary overlay-source float-right" data-overlay-target="{{$a.url}}?theme=split-base-white-theme&type=fullscreen" title="{{ $a.title }}" rel="nofollow" data-ea-zone="Header" data-ea-type="click" data-ea-link="{{ $a.gatext }}">
+{{ $atext }}
+</a>
+----version----
+language: en-US
+version: 1
+revision: 7028c31d-78c8-4407-af3a-e6dbe6d8240a
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20231110T053017Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7028c31d-78c8-4407-af3a-e6dbe6d8240a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20250403T064913Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

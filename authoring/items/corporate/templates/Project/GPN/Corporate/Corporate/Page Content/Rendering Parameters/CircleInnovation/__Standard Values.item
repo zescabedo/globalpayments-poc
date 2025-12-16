@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {FD74C057-2CCD-41C8-AC8F-3D018A1966DA}
+database: master
+path: /sitecore/templates/Project/GPN/Corporate/Corporate/Page Content/Rendering Parameters/CircleInnovation/__Standard Values
+parent: {5E74720B-F0E8-4764-B024-A09ED6FBEAB9}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {5E74720B-F0E8-4764-B024-A09ED6FBEAB9}
+templatekey: CircleInnovation
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 5e32d2aa-6fc8-4c21-ba8a-65923fa52eab
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120629T104300
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5e32d2aa-6fc8-4c21-ba8a-65923fa52eab
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210312T110436Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

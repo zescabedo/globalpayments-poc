@@ -1,0 +1,95 @@
+.product-cards-component {
+  text-align: left;
+  @include gpn-spacing([ 'padding-top', 'padding-bottom'], 'lg');
+
+  .product-card-row {
+    justify-content: center;
+
+    .product-card {
+      &:has(a) {
+        text-decoration: none;
+        &:hover {
+          cursor: pointer;
+          .product-card-image {
+            transform: map-get($gpn-theme-product-card, 'animation-transform');
+            transition: map-get($gpn-theme-product-card, 'animation-transition');
+          }
+        }
+      }
+      .media-section {
+        overflow: hidden;
+        width: 100%;
+      }
+      &.bg-base {
+        .product-card-title {
+          color: $gpn-theme-white;
+        }
+      }
+    }
+    .product-card-wrapper {
+      &.two-in-row {
+        margin-bottom: gpn-spacing-size('sm', 'sm');
+
+        @include make-col(12);
+
+        @include media-breakpoint-up(md) {
+          @include make-col(6);
+        }
+
+        @include media-breakpoint-up(lg) {
+          @include make-col(4);
+
+          &:nth-child(odd) {
+            @include make-col-offset(2);
+          }
+
+          &:nth-child(even) {
+            margin-right: auto;
+          }
+        }
+      }
+
+      &.three-in-row {
+        margin-bottom: gpn-spacing-size('sm', 'sm');
+        @include make-col(12);
+        @include media-breakpoint-up(md) {
+          @include make-col(6);
+        }
+        @include media-breakpoint-up(lg) {
+          @include make-col(4);
+        }
+      }
+      &.four-in-row {
+        margin-bottom: gpn-spacing-size('sm', 'sm');
+        @include make-col(12);
+        @include media-breakpoint-up(md) {
+          @include make-col(6);
+        }
+        @include media-breakpoint-up(lg) {
+          @include make-col(3);
+        }
+      }
+    }
+  }
+
+  .product-card-text-section {
+    @include gpn-spacing([ 'padding'], 'sm');
+
+    .product-card-title {
+      color: $gpn-theme-base;
+      @extend %h-xs;
+      @include gpn-spacing([ 'margin-bottom'], 'xs');
+    }
+    .product-card-tag {
+      @extend %p-sm;
+      @include gpn-spacing([ 'margin-bottom'], 'xs');
+    }
+  }
+
+  img {
+    width: 100%;
+    height: map-get($gpn-theme-product-card, 'image-height');
+  }
+
+  @import '../../styles/clickable-cards/background';
+}

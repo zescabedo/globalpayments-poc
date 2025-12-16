@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {AFAA1C75-3ABA-4EA0-A371-DEAC069E839E}
+database: master
+path: /sitecore/content/GPN/Corporate/Corporate/Settings/Site RTE Stylesheets Folder/Corporate RTE Stylesheet
+parent: {E623E8C9-E8A2-4F4B-801C-E6598432E3A8}
+name: Corporate RTE Stylesheet
+master: {00000000-0000-0000-0000-000000000000}
+template: {AE7F0561-BE95-4D26-8B45-2E00A548C4D4}
+templatekey: Site RTE Stylesheet
+
+----version----
+language: en
+version: 1
+revision: 03bb3fbb-5d4d-4a15-89dc-7be58507fb67
+
+----field----
+field: {2EE1A1AE-D29B-47BB-B3EF-831B8A6E3971}
+name: Stylesheet
+key: stylesheet
+content-length: 51
+
+\Theme\dist\corporate-editing\corporate.editor.json
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210201T080608Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+03bb3fbb-5d4d-4a15-89dc-7be58507fb67
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210201T080623Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: en-US
+version: 1
+revision: c6019c93-1cd5-4f85-a1fa-58492b6dde50
+
+----field----
+field: {2EE1A1AE-D29B-47BB-B3EF-831B8A6E3971}
+name: Stylesheet
+key: stylesheet
+content-length: 51
+
+\Theme\dist\corporate-editing\corporate.editor.json
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210129T113350Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c6019c93-1cd5-4f85-a1fa-58492b6dde50
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210129T113429Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

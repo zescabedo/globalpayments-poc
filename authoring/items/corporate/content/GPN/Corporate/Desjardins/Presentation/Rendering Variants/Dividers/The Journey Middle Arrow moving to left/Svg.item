@@ -1,0 +1,117 @@
+----item----
+version: 1
+id: {6AF46C7C-CA52-45FF-91A3-E7BABE55E349}
+database: master
+path: /sitecore/content/GPN/Corporate/Desjardins/Presentation/Rendering Variants/Dividers/The Journey Middle Arrow moving to left/Svg
+parent: {2145D54E-8BD5-4374-BCCC-10D0E330CD8B}
+name: Svg
+master: {00000000-0000-0000-0000-000000000000}
+template: {8FCD3CFE-8B3B-423E-8176-6A7C72CB43FC}
+templatekey: Scriban
+
+----field----
+field: {936E68B4-5346-4ADB-9B77-79771D0B40DC}
+name: Template
+key: template
+content-length: 455
+
+<div class="revealDividersOnScroll" data-type="crl-curve" data-reverse="true">
+    <svg width="530" height="155" viewbox="0 0 530 155" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="line" d="M530 2h-72.5c-22.091 0-40 17.9086-40 40v31h-369c-22.0914 0-40 17.9086-40 40v33" stroke="#003C71" stroke-width="2.5"/>
+        <path class="arrow" d="M17.3164 138l-8.65832 16.392L-.00030327 138H17.3164z" fill="#003C71"/>
+    </svg>
+</div>
+----version----
+language: en-CA
+version: 1
+revision: 62caaa5d-2406-42e4-883c-dac213c58920
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T060854Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\tf-marko
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+62caaa5d-2406-42e4-883c-dac213c58920
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T065926Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth
+----version----
+language: fr-CA
+version: 1
+revision: 71b4327a-afae-4c14-b18a-9a6be6309620
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 19
+
+sitecore\tf-suneeth
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210319T060854Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\tf-marko
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+71b4327a-afae-4c14-b18a-9a6be6309620
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20211026T080347Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 19
+
+sitecore\tf-suneeth

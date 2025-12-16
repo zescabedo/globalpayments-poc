@@ -1,0 +1,94 @@
+.uptick-taxonomy-tags {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  @include gpn-spacing('gap', 'xxs');
+}
+
+.uptick-tag {
+  @extend .p-xs;
+  cursor: pointer;
+  text-transform: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-style: solid;
+  white-space: nowrap;
+  line-height: normal !important;
+  font-weight: $gpn-theme-font-weight-medium !important;
+  padding: map-get($gpn-theme-tags, 'tag-padding');
+  border-radius: map-get($gpn-theme-tags, 'tag-border-radius');
+  transition: map-get($gpn-theme-tags, 'text-animation-transition');
+  border-width: map-get($gpn-theme-tags, 'tag-border-width');
+  background: transparent;
+
+  &.lg {
+    @extend .title-xxs;
+    line-height: normal !important;
+    padding: map-get($gpn-theme-tags, 'tag-lg-padding');
+  }
+
+  &.default {
+    color: map-get($gpn-theme-tags, 'default-lg-color');
+    border-color: map-get($gpn-theme-tags, 'default-lg-color');
+
+    &:not(.lg) {
+      color: map-get($gpn-theme-tags, 'default-color');
+      border-color: map-get($gpn-theme-tags, 'default-color');
+    }
+
+    &:not(:disabled):hover {
+      background-color: map-get($gpn-theme-tags, 'default-hover-bg-color');
+      border-color: map-get($gpn-theme-tags, 'default-hover-bg-color');
+      color: map-get($gpn-theme-tags, 'default-hover-color');
+    }
+  }
+
+  &.featured {
+    color: map-get($gpn-theme-tags, 'featured-color');
+    border-color: map-get($gpn-theme-tags, 'featured-border-color');
+
+    &:not(:disabled):hover {
+      background-color: map-get($gpn-theme-tags, 'featured-hover-bg-color');
+      border-color: map-get($gpn-theme-tags, 'featured-hover-bg-color');
+    }
+  }
+
+  &.selected {
+    background-color: map-get($gpn-theme-tags, 'selected-bg-color');
+    border-color: map-get($gpn-theme-tags, 'selected-bg-color');
+  }
+
+  &:disabled {
+    border-color: map-get($gpn-theme-tags, 'disabled-bg-color');
+    color: map-get($gpn-theme-tags, 'disabled-color');
+    background-color: map-get($gpn-theme-tags, 'disabled-bg-color');
+    cursor: default;
+  }
+
+  &.dark-mode {
+    &.featured {
+      color: map-get($gpn-theme-tags, 'dark-featured-color');
+      border-color: map-get($gpn-theme-tags, 'dark-featured-color');
+
+      &:hover {
+        background-color: map-get($gpn-theme-tags, 'dark-featured-hover-bg-color');
+        border-color: map-get($gpn-theme-tags, 'dark-featured-hover-bg-color');
+      }
+    }
+
+    &.default {
+      color: map-get($gpn-theme-tags, 'dark-default-color');
+      border-color: map-get($gpn-theme-tags, 'dark-default-color');
+
+      &:hover {
+        background-color: map-get($gpn-theme-tags, 'dark-default-hover-bg-color');
+        border-color: map-get($gpn-theme-tags, 'dark-default-hover-bg-color');
+        color: map-get($gpn-theme-tags, 'dark-default-hover-color');
+      }
+    }
+  }
+}
