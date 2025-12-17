@@ -89,13 +89,27 @@ export const Default = (props: HeroProps): JSX.Element => {
   const headingLevel = titleHeadingLevel || '1';
   const HeadingTag = `h${headingLevel}` as 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
+  // Default background image (transparent logo on white background)
+  const defaultBackgroundImage = '/hero-background.png';
+
   // Build background image CSS variables for circle-pattern
+  // Always set default background, then override if field values are provided
   const backgroundStyle: React.CSSProperties & {
     '--bg-image-desktop'?: string;
     '--bg-image-tablet'?: string;
     '--bg-image-mobile'?: string;
     '--mediaSize'?: string;
-  } = {};
+  } = {
+    '--bg-image-desktop': `url(${defaultBackgroundImage})`,
+    '--bg-image-tablet': `url(${defaultBackgroundImage})`,
+    '--bg-image-mobile': `url(${defaultBackgroundImage})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    minHeight: '100%',
+  };
+  
+  // Override with field values if provided
   if (backgroundDesktop?.value?.src) {
     backgroundStyle['--bg-image-desktop'] = `url(${backgroundDesktop.value.src})`;
   }
@@ -105,6 +119,7 @@ export const Default = (props: HeroProps): JSX.Element => {
   if (backgroundMobile?.value?.src) {
     backgroundStyle['--bg-image-mobile'] = `url(${backgroundMobile.value.src})`;
   }
+  
   if (mediaSize) {
     backgroundStyle['--mediaSize'] = mediaSize;
   }

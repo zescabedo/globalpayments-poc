@@ -62,6 +62,13 @@ const nextConfig = {
         hostname: 'starter-*.**',
         port: '',
       },
+      // Local development: allow Sitecore media served from prosperabank.dev
+      {
+        protocol: 'https',
+        hostname: 'prosperabank.dev',
+        port: '',
+        pathname: '/-/**',
+      },
     ],
   },
 
