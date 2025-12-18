@@ -1,12 +1,12 @@
 ﻿---
-ID: "6b8e8ac0-4114-413b-b961-a86d53421b90"
+ID: "063f75b0-4b53-4e2d-b10a-1104c45ef82b"
 Parent: "bb81a942-713a-4da1-ab8e-e6d504899ed3"
 Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
-Path: /sitecore/content/Financial/ProsperaFinancial/Data/Promos/Promo CTA/Promo CTA 1
+Path: /sitecore/content/Financial/ProsperaFinancial/Data/Promos/Promo CTA/Payment Solutions CTA
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "cb33e371-17f2-4ade-baca-ec1abe768b22"
+  Value: "fe9ae80e-d22b-47bd-9d8a-d49bc6b02b15"
 - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
   Hint: Image
   Value: |
@@ -21,37 +21,34 @@ Languages:
       Value: <r />
     - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
       Hint: Title
-      Value: Closing the wealth gap
+      Value: Payment solutions that fuel every transation
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251030T165636Z
     - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
       Hint: Eyebrow
       Value: 
-    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
-      Hint: Link2
-      Value: 
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: |
-        <link class="" id="{FB9B938E-DF02-46E7-9354-613D29E0B4AC}" querystring="" anchor="" target="" title="" linktype="internal" text="Read more" url="/Financial/ProsperaBank/Home/articles/closing-the-wealth-gap" />
+        <link id="{FB9B938E-DF02-46E7-9354-613D29E0B4AC}" text="Explore our payment solutions" title="" querystring="" anchor="" target="" linktype="internal"/>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "160575d1-a370-45ec-ac05-30fd210258c5"
+      Value: "bcb4c62e-e7e6-420a-9041-8431ab781dda"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
       Hint: Text
-      Value: Actionable advice to help create equitable pathways for income growth.
+      Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251218T024037Z
+      Value: 20251218T024100Z
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: 
@@ -65,12 +62,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251030T165636Z
-    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
-      Hint: Eyebrow
-      Value: 
-    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
-      Hint: Link2
-      Value: 
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: |
@@ -92,9 +83,6 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251030T165658Z
-    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
-      Hint: Subtitle
-      Value: 
 - Language: "ja-JP"
   Versions:
   - Version: 1
@@ -105,12 +93,6 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20251030T165636Z
-    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
-      Hint: Eyebrow
-      Value: 
-    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
-      Hint: Link2
-      Value: 
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: |
@@ -132,6 +114,3 @@ Languages:
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
       Value: 20251030T165658Z
-    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
-      Hint: Subtitle
-      Value: 

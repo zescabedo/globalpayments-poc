@@ -5,7 +5,7 @@ import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sd
 
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
-import { useCallback, useRef, useState, useEffect, useMemo } from 'react';
+import { useCallback, useRef, useState, useEffect, useMemo, useLayoutEffect } from 'react';
 import React from 'react';
 import { Placeholder, RichText, NextImage, Link, Text, useSitecore, withDatasourceCheck, CdpHelper, Image as Image_8a80e63291fea86e0744df19113dc44bec187216 } from '@sitecore-content-sdk/nextjs';
 import PreviewSearchWidget from 'src/components/Search/PreviewSearch/PreviewSearch';
@@ -19,6 +19,7 @@ import nextConfig from 'next.config';
 import { pageView } from '@sitecore-cloudsdk/events/browser';
 import config from 'sitecore.config';
 import { useI18n } from 'next-localization';
+import { NextImage as NextImage_64f34146b1e27d4ac6646f60f764f79b35311f76 } from 'src/lib/image-components';
 import { Presence, ArticleCard, PreviewSearch } from '@sitecore-search/ui';
 import { FilterEqual, WidgetDataType, usePreviewSearch, widget, PageController } from '@sitecore-search/react';
 import Spinner from 'src/components/Search/components/Spinner/Spinner';
@@ -32,6 +33,8 @@ import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import { ParallaxBanner, useParallax, Parallax } from 'react-scroll-parallax';
 import { IconAccent } from 'components/NonSitecore/IconAccent';
+import { ScrollRevealText } from 'src/components/NonSitecore/ScrollRevealText';
+import { useScrollProgress } from 'src/hooks/useScrollProgress';
 
 const importMap = [
   {
@@ -54,6 +57,7 @@ const importMap = [
       { name: 'useState', value: useState },
       { name: 'useEffect', value: useEffect },
       { name: 'useMemo', value: useMemo },
+      { name: 'useLayoutEffect', value: useLayoutEffect },
       { name: 'default', value: React },
     ]
   },
@@ -135,6 +139,12 @@ const importMap = [
     module: 'next-localization',
     exports: [
       { name: 'useI18n', value: useI18n },
+    ]
+  },
+  {
+    module: 'src/lib/image-components',
+    exports: [
+      { name: 'NextImage', value: NextImage_64f34146b1e27d4ac6646f60f764f79b35311f76 },
     ]
   },
   {
@@ -230,6 +240,18 @@ const importMap = [
     module: 'components/NonSitecore/IconAccent',
     exports: [
       { name: 'IconAccent', value: IconAccent },
+    ]
+  },
+  {
+    module: 'src/components/NonSitecore/ScrollRevealText',
+    exports: [
+      { name: 'ScrollRevealText', value: ScrollRevealText },
+    ]
+  },
+  {
+    module: 'src/hooks/useScrollProgress',
+    exports: [
+      { name: 'useScrollProgress', value: useScrollProgress },
     ]
   }
 ];

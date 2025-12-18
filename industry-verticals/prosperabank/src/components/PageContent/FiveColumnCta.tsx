@@ -6,8 +6,8 @@ import {
   Link,
   Text,
   useSitecore,
-  NextImage,
 } from '@sitecore-content-sdk/nextjs';
+import { NextImage } from 'src/lib/image-components';
 import useVisibility from 'src/hooks/useVisibility';
 
 interface Fields {

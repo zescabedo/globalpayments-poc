@@ -55,6 +55,8 @@ import * as ArticleList from 'src/components/PageContent/ArticleList';
 import * as ArticleDetails from 'src/components/PageContent/ArticleDetails';
 import * as AppPromo from 'src/components/PageContent/AppPromo';
 import * as Accordion from 'src/components/PageContent/Accordion';
+import * as ScrollRevealTexttest from 'src/components/NonSitecore/ScrollRevealText.test';
+import * as ScrollRevealText from 'src/components/NonSitecore/ScrollRevealText';
 import * as ParallaxBackgroundImage from 'src/components/NonSitecore/ParallaxBackgroundImage';
 import * as IconAccent from 'src/components/NonSitecore/IconAccent';
 import * as DottedAccent from 'src/components/NonSitecore/DottedAccent';
@@ -121,6 +123,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ArticleDetails', { ...ArticleDetails }],
   ['AppPromo', { ...AppPromo }],
   ['Accordion', { ...Accordion }],
+  ['ScrollRevealText', { ...ScrollRevealTexttest, ...ScrollRevealText }],
   ['ParallaxBackgroundImage', { ...ParallaxBackgroundImage }],
   ['IconAccent', { ...IconAccent }],
   ['DottedAccent', { ...DottedAccent }],

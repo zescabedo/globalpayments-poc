@@ -386,4 +386,53 @@
       }
     }
   }
+
+  // Large Text Hero Variant (static, no animations)
+  &.large-scrolling-animation {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--gpn-spacing-xxl-desktop, #{$gpn-spacing-xxl-desktop}) 0;
+    background: #fff;
+    overflow: visible;
+
+    @media (max-width: #{$gpn-breakpoint-tablet - 1px}) {
+      padding: var(--gpn-spacing-xl-mobile, #{$gpn-spacing-xl-mobile}) 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+      }
+    }
+
+    .hero-text-block {
+      width: 100%;
+      text-align: center;
+
+      .hero-heading {
+        font-size: clamp(3rem, 8vw, 8rem);
+        font-weight: 900;
+        line-height: 1.2;
+        margin: 0;
+        padding: 0;
+        color: #2729FF;
+        word-wrap: break-word;
+        hyphens: auto;
+
+        @include respond-to(mobile-large) {
+          font-size: clamp(2rem, 10vw, 4rem);
+        }
+      }
+    }
+  }
 }

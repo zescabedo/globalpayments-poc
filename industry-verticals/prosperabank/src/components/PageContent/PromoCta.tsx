@@ -9,8 +9,8 @@ import {
   LinkField,
   useSitecore,
   Placeholder,
-  NextImage,
 } from '@sitecore-content-sdk/nextjs';
+import { NextImage } from 'src/lib/image-components';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 import useVisibility from 'src/hooks/useVisibility';
 import { ComponentProps } from 'lib/component-props';

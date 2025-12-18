@@ -1,5 +1,6 @@
 import React, { JSX } from 'react';
-import { Field, ImageField, NextImage, Text, useSitecore } from '@sitecore-content-sdk/nextjs';
+import { Field, ImageField, Text, useSitecore } from '@sitecore-content-sdk/nextjs';
+import { NextImage } from 'src/lib/image-components';
 import { CountUp } from 'components/NonSitecore/CountUp';
 import { DottedAccent } from 'components/NonSitecore/DottedAccent';
 

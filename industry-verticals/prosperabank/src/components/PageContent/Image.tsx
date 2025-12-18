@@ -3,12 +3,12 @@ import React, { CSSProperties } from 'react';
 import {
   Field,
   ImageField,
-  NextImage as ContentSdkImage,
   Link as ContentSdkLink,
   LinkField,
   Text,
   useSitecore,
 } from '@sitecore-content-sdk/nextjs';
+import { NextImage as ContentSdkImage } from 'src/lib/image-components';
 import { ComponentProps } from 'lib/component-props';
 
 interface ImageFields {
@@ -41,7 +41,7 @@ export const Banner: React.FC<ImageProps> = ({ params, fields }) => {
   const { page } = useSitecore();
   const { styles, RenderingIdentifier: id } = params;
 
-  const backgroundStyle = fields?.Image?.value?.src
+  const backgroundStyle = fields.Image?.value?.src
     ? ({ backgroundImage: `url('${fields.Image.value.src}')` } as CSSProperties)
     : {};
 
