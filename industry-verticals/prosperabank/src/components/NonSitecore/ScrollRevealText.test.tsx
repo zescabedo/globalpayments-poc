@@ -19,7 +19,7 @@ import React, { useState, useEffect, CSSProperties } from 'react';
  * This component uses a simple timer to animate the reveal
  * Tests that NO background boxes or blocks appear
  */
-export const MinimalScrollRevealTest = (): JSX.Element => {
+export const MinimalScrollRevealTest = (): React.JSX.Element => {
   const [progress, setProgress] = useState(0);
 
   // Animate progress from 0 to 1 over 5 seconds
@@ -92,7 +92,7 @@ export const MinimalScrollRevealTest = (): JSX.Element => {
  * Static test - shows three versions side by side
  * Verifies that NO background boxes appear at any progress level
  */
-export const StaticScrollRevealTest = (): JSX.Element => {
+export const StaticScrollRevealTest = (): React.JSX.Element => {
   const gradientStyle = (progress: number): CSSProperties & {
     MozBackgroundClip?: string;
     MozTextFillColor?: string;
@@ -167,6 +167,7 @@ export const StaticScrollRevealTest = (): JSX.Element => {
 };
 
 export default MinimalScrollRevealTest;
+
 
 
 

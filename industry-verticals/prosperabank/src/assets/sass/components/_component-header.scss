@@ -26,8 +26,9 @@
   }
 
   .container {
-    max-width: 100%; // Full width to match Global Payments approach
-    padding: 0; // Remove default container padding since we handle it above
+    max-width: 1344px; // Matching Global Payments exactly
+    margin: 0 auto;
+    padding: 0 12px; // Matching Global Payments exactly
   }
 
   .row {
@@ -45,11 +46,27 @@
     }
   }
 
-  // Logo container
+  // Logo container - matching Global Payments
   .col-auto {
     flex: 0 0 auto;
     padding-right: 0;
     padding-left: 0; // Remove Bootstrap's default col padding to align with hero
+    
+    // Logo image sizing - matching Global Payments exactly
+    img {
+      width: 235px;
+      height: 36px;
+      max-width: 235px;
+      max-height: 36px;
+      object-fit: contain;
+      
+      @media (max-width: 767px) {
+        width: 180px;
+        height: 28px;
+        max-width: 180px;
+        max-height: 28px;
+      }
+    }
     
     // On mobile/tablet/small desktop, logo doesn't need to push right
     @media (width < 1400px) {
@@ -116,10 +133,19 @@
   // Logo image styling - matches Global Payments logo size
   .col-auto img,
   .col-auto .image-component img {
-    max-height: 32px;
-    width: auto;
+    width: 235px; // Matching Global Payments exactly
+    height: 36px; // Matching Global Payments exactly
+    max-width: 235px;
+    max-height: 36px;
     display: block;
     object-fit: contain;
+    
+    @media (max-width: 767px) {
+      width: 180px;
+      height: 28px;
+      max-width: 180px;
+      max-height: 28px;
+    }
 
     @media (width < 768px) {
       max-height: 28px;
@@ -283,14 +309,17 @@
   }
 
   .header-gp__logo-image {
-    height: auto;
-    max-width: 100%;
-    width: auto;
+    width: 235px; // Matching Global Payments exactly
+    height: 36px; // Matching Global Payments exactly
+    max-width: 235px;
     max-height: 36px;
+    object-fit: contain;
 
     @media (max-width: 767px) {
+      width: 180px;
+      height: 28px;
       max-width: 180px;
-      max-height: 32px;
+      max-height: 28px;
     }
   }
 

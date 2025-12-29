@@ -200,18 +200,19 @@
 
   .level0,
   .level1 {
-    // Regular navigation items (not button)
+    // Regular navigation items (not button) - matching Global Payments exactly
     &:not(.button-nav-item) {
       > .navigation-title > a {
-        font-size: 1rem;
+        font-size: 16px; // Matching Global Payments exactly
         font-weight: 400;
-        color: #0C0C0C;
+        color: rgb(0, 0, 0); // Matching Global Payments exactly
         text-decoration: none;
-        padding: 0.75rem 1.25rem;
+        padding: 5px 16px; // Matching Global Payments exactly (0px 16px horizontal, 5px vertical)
         display: inline-block;
-        transition: color 0.3s ease;
+        transition: color 0.2s ease;
         border: none;
         background: transparent;
+        line-height: 1.5;
 
         &:hover {
           color: #2536f0;

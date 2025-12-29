@@ -1,47 +1,67 @@
-import { ImageField, Placeholder } from '@sitecore-content-sdk/nextjs';
+import { ImageField, LinkField, Placeholder, Link } from '@sitecore-content-sdk/nextjs';
 import { NextImage } from 'src/lib/image-components';
 import { ComponentProps } from 'lib/component-props';
 import React, { JSX } from 'react';
 
-export const Default = (props: ComponentProps): JSX.Element => {
-  const id = props.params.RenderingIdentifier;
-
-  return (
-    <div className={`component header ${props.params.styles?.trimEnd()}`} id={id ? id : undefined}>
-      <div className={`container container-${props.params?.ContainerWidth?.toLowerCase()}-fluid`}>
-        <div className="row align-items-center">
-          <div className="col-auto">
-            <Placeholder name="header-left" rendering={props.rendering} />
-          </div>
-          <div className="col">
-            <Placeholder name="header-right" rendering={props.rendering} />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export type WithImageProps = ComponentProps & {
-  fields: {
-    LogoImage: ImageField;
+export type HeaderProps = ComponentProps & {
+  fields?: {
+    LogoImage?: ImageField;
+    LogoLink?: LinkField;
+    ButtonText?: { value?: string };
   };
 };
 
-export const WithLogoImage = (props: WithImageProps): JSX.Element => {
+/**
+ * Default Header component
+ * Supports:
+ * - Logo via placeholder (drag and drop Image component)
+ * - Logo via datasource field (LogoImage)
+ * - Logo link via datasource field (LogoLink)
+ * - Navigation via placeholder (drag and drop Navigation component)
+ * - Button text via datasource field (ButtonText)
+ */
+export const Default = (props: HeaderProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
-  const sxaStyles = `${props.params?.styles || ''}`;
+  const styles = props.params?.styles?.trimEnd() || '';
+  const containerWidth = props.params?.ContainerWidth?.toLowerCase() || 'container';
+
+  // Check if logo is provided via datasource field
+  const hasLogoField = props.fields?.LogoImage?.value?.src;
+  const logoLink = props.fields?.LogoLink;
+  const buttonText = props.fields?.ButtonText?.value;
 
   return (
-    <div className={`component header ${sxaStyles}`} id={id ? id : undefined}>
-      <div className={`container container-${props.params?.ContainerWidth?.toLowerCase()}-fluid`}>
+    <div className={`component header ${styles}`} id={id ? id : undefined}>
+      <div className={`container container-${containerWidth}-fluid`}>
         <div className="row align-items-center">
+          {/* Logo Section */}
           <div className="col-auto">
-            <NextImage field={props.fields.LogoImage} width={200} height={50} />
+            {hasLogoField && props.fields?.LogoImage ? (
+              // Logo from datasource field - matching Global Payments sizing (235px x 36px)
+              logoLink?.value?.href ? (
+                <Link field={logoLink}>
+                  <NextImage field={props.fields.LogoImage} width={235} height={36} />
+                </Link>
+              ) : (
+                <NextImage field={props.fields.LogoImage} width={235} height={36} />
+              )
+            ) : (
+              // Logo placeholder - allows drag and drop of Image component
+              <Placeholder name="header-logo" rendering={props.rendering} />
+            )}
           </div>
+
+          {/* Navigation Section */}
           <div className="col">
-            <Placeholder name="header-right" rendering={props.rendering} />
+            <Placeholder name="header-navigation" rendering={props.rendering} />
           </div>
+
+          {/* Button Section (if provided) */}
+          {buttonText && (
+            <div className="col-auto">
+              <button className="btn btn-primary">{buttonText}</button>
+            </div>
+          )}
         </div>
       </div>
     </div>
