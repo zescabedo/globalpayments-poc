@@ -80,33 +80,20 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{C494869C-A931-4F42-8BDF-ACA32462F2B3}">
-              <p:d />
-            </r>
+              uid="{C494869C-A931-4F42-8BDF-ACA32462F2B3}"
+              s:par="FieldNames=%7BD695FAFC-1591-4377-A909-4CEE28CCEF0C%7D&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters&amp;DynamicPlaceholderId=6&amp;ContainerWidth" />
             <r
-              uid="{F0E320AC-2866-4B80-9F56-9E9F35675441}">
-              <p:d />
-            </r>
+              uid="{F0E320AC-2866-4B80-9F56-9E9F35675441}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=7" />
             <r
-              uid="{7C9E1BAD-A136-4711-9220-AB61F227F432}">
-              <p:d />
-            </r>
+              uid="{7C9E1BAD-A136-4711-9220-AB61F227F432}"
+              s:par="FieldNames=%7B6E196E11-DF2D-4720-B9C0-E2BFBA276FEC%7D&amp;Flattened&amp;RenderingIdentifier&amp;Styles&amp;AddRoot=0&amp;Filter=%7BD063E9D1-C7B5-4B1E-B31E-69886C9C59F5%7D&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;CSSStyles&amp;SerializerFieldNames&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;LevelTo=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;NavigationRoot=%7BB2A38FB8-2E85-4D58-AFE5-C12BECCBEE3A%7D" />
             <r
-              uid="{EA7CE71D-6802-4C62-879A-B9CE687E1C77}"
-              p:after="r[@uid='{1F32BF4D-B8E0-45B6-88A5-06755C8AD3E5}']" />
+              uid="{D0291F80-D41E-4573-9ABD-E186694B5C04}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=8" />
             <r
-              uid="{3E5087AC-1D5D-4F86-831B-9FE1B1291040}"
-              p:after="r[@uid='{EA7CE71D-6802-4C62-879A-B9CE687E1C77}']"
-              s:ds=""
-              s:id="{81317D3B-F929-426A-83EC-421982F8F1E6}"
-              s:par="FieldNames=%7bD695FAFC-1591-4377-A909-4CEE28CCEF0C%7d&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=10&amp;ContainerWidth"
-              s:ph="headless-header" />
-            <r
-              uid="{2300F459-F1A7-470D-A352-168E16A05CFB}"
-              p:after="*[1=2]"
-              s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
-              s:par="FieldNames=%7b6E196E11-DF2D-4720-B9C0-E2BFBA276FEC%7d&amp;Flattened=0&amp;RenderingIdentifier&amp;Styles&amp;AddRoot=0&amp;Filter&amp;LevelFrom=%7b1BB88840-5FB3-4353-AD8D-81136F6FF75A%7d&amp;CSSStyles&amp;SerializerFieldNames&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;LevelTo=%7bA59325BB-5A27-46F9-8110-9D499715F3BE%7d&amp;NavigationRoot"
-              s:ph="/headless-header/header-navigation-0-10" />
+              uid="{1F32BF4D-B8E0-45B6-88A5-06755C8AD3E5}"
+              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=9" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"

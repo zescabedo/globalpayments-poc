@@ -47,13 +47,13 @@ export const Default = (props: HeaderProps): JSX.Element => {
               )
             ) : (
               // Logo placeholder - allows drag and drop of Image component
-              <Placeholder name="header-logo" rendering={props.rendering} />
+              <Placeholder name="header-left" rendering={props.rendering} />
             )}
           </div>
 
           {/* Navigation Section */}
           <div className="col">
-            <Placeholder name="header-navigation" rendering={props.rendering} />
+            <Placeholder name="header-right" rendering={props.rendering} />
           </div>
 
           {/* Button Section (if provided) */}

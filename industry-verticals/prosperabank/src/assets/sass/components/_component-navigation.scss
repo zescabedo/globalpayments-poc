@@ -196,6 +196,18 @@
     .level1 {
       display: flex;
     }
+
+    // Hide submenu children by default on desktop
+    .level0.submenu > ul,
+    .level1.submenu > ul {
+      display: none !important;
+    }
+
+    // Show submenu children on hover
+    .level0.submenu:hover > ul,
+    .level1.submenu:hover > ul {
+      display: block !important;
+    }
   }
 
   .level0,
@@ -259,6 +271,25 @@
       &:hover > .navigation-title > a::after {
         transform: rotate(180deg);
       }
+
+      // Hide children by default, show on hover - using !important to override other rules
+      > ul {
+        display: none !important;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        background-color: #ffffff;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        padding: 0.75rem 0;
+        min-width: 200px;
+        margin-top: 0.5rem;
+      }
+
+      &:hover > ul {
+        display: block !important;
+      }
     }
 
     > .navigation-title {
@@ -267,7 +298,8 @@
       }
     }
 
-    > ul {
+    // Only apply these styles to direct children ul that are NOT in a submenu
+    &:not(.submenu) > ul {
       background-color: #ffffff;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       border-radius: 0.5rem;
@@ -285,6 +317,28 @@
           background-color: #f8f9fa;
           color: #2536f0;
         }
+      }
+    }
+  }
+
+  // Ensure submenu children are styled correctly
+  li.submenu > ul {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 0.75rem 0;
+    min-width: 200px;
+
+    a {
+      font-size: 0.938rem;
+      padding: 0.625rem 1.5rem;
+      display: block;
+      color: #0C0C0C;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: #f8f9fa;
+        color: #2536f0;
       }
     }
   }
