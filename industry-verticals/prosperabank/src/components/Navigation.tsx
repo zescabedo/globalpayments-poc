@@ -15,6 +15,7 @@ interface Fields {
   Querystring: string;
   Children: Array<Fields>;
   Styles: string[];
+  NavigationFilter?: unknown;
 }
 
 type NavigationProps = {
@@ -45,6 +46,39 @@ const getLinkField = (props: NavigationProps): LinkField => ({
     querystring: props.fields.Querystring,
   },
 });
+
+// NavigationFilter GUID that indicates item should be hidden
+const NAVIGATION_FILTER_GUID = 'D063E9D1-C7B5-4B1E-B31E-69886C9C59F5';
+
+/**
+ * Checks if NavigationFilter field is set to the filter GUID, indicating the item should be hidden
+ */
+const isNavigationFiltered = (item: Fields | Record<string, unknown>): boolean => {
+  if (!item || typeof item !== 'object') {
+    return false;
+  }
+
+  const navigationFilter = (item as Record<string, unknown>).NavigationFilter;
+  if (!navigationFilter) {
+    return false;
+  }
+
+  // Handle various formats: direct GUID, object with value, object with jsonValue, string
+  let filterValue: unknown = navigationFilter;
+  
+  if (typeof navigationFilter === 'object' && navigationFilter !== null) {
+    const filterObj = navigationFilter as Record<string, unknown>;
+    if ('jsonValue' in filterObj && filterObj.jsonValue && typeof filterObj.jsonValue === 'object') {
+      filterValue = (filterObj.jsonValue as Record<string, unknown>).value;
+    } else if ('value' in filterObj) {
+      filterValue = filterObj.value;
+    }
+  }
+
+  // Check if the value matches the filter GUID (with or without braces, case insensitive)
+  const filterString = String(filterValue || '').toUpperCase().replace(/[{}]/g, '');
+  return filterString === NAVIGATION_FILTER_GUID.toUpperCase();
+};
 
 export const Default = (props: NavigationProps): JSX.Element => {
   const [isPreviewSearchOpen, setIsPreviewSearchOpen] = useState(false);
@@ -108,7 +142,7 @@ export const Default = (props: NavigationProps): JSX.Element => {
   };
 
   const list = Object.values(props.fields)
-    .filter((element) => element)
+    .filter((element) => element && !isNavigationFiltered(element))
     .map((element: Fields, key: number) => (
       <NavigationList
         key={`${key}${element.Id}`}
@@ -175,14 +209,16 @@ const NavigationList = (props: NavigationProps) => {
 
   let children: JSX.Element[] = [];
   if (props.fields.Children && props.fields.Children.length) {
-    children = props.fields.Children.map((element: Fields, index: number) => (
-      <NavigationList
-        key={`${index}${element.Id}`}
-        fields={element}
-        handleClick={props.handleClick}
-        relativeLevel={props.relativeLevel + 1}
-      />
-    ));
+    children = props.fields.Children
+      .filter((element: Fields) => !isNavigationFiltered(element))
+      .map((element: Fields, index: number) => (
+        <NavigationList
+          key={`${index}${element.Id}`}
+          fields={element}
+          handleClick={props.handleClick}
+          relativeLevel={props.relativeLevel + 1}
+        />
+      ));
   }
 
   return (
