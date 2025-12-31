@@ -45,14 +45,18 @@
   
   // Size variants matching Storybook
   &.btn-sm {
-    padding: 14px 20px;
-    font-size: 16px; // 1.6rem
-    line-height: 1.5;
-    min-height: auto;
+    padding: 14px 20px; // Matches Global Payments exactly
+    font-size: 16px; // Matches Global Payments exactly
+    font-weight: 500; // Matches Global Payments exactly
+    line-height: 16px; // Matches Global Payments exactly (not 1.5)
+    height: 48px; // Matches Global Payments exactly
+    min-height: 48px; // Ensure minimum height
     
     @media (max-width: 767px) {
       padding: 12px 18px; // Slightly smaller on mobile
       font-size: 15px;
+      height: 44px;
+      min-height: 44px;
     }
   }
   
@@ -238,6 +242,18 @@
 // CTA Button variants (matching Storybook CTA buttons)
 .btn-cta-primary {
   @extend .btn-base;
+  background-color: #262AFF; // Global Payments primary blue - matches example page
+  border-color: #262AFF;
+  
+  &:hover:not(:disabled) {
+    background-color: #1e2bc4; // Darker blue on hover
+    border-color: #1e2bc4;
+  }
+  
+  &:active:not(:disabled) {
+    background-color: #1721a8; // Even darker for active state
+    border-color: #1721a8;
+  }
 }
 
 .btn-cta-secondary {

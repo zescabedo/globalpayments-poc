@@ -1,0 +1,91 @@
+/**
+ * Category Button Styles
+ * 
+ * Reusable button style for category/tag links
+ * Matches Global Payments design system
+ * All buttons look the same by default (white background, dark text, gray border)
+ * On hover, buttons alternate between blue (#262AFF) and orange (#FDA052)
+ * 
+ * Usage:
+ * <div className="category-buttons">
+ *   <a href="/path" className="category-button category-button-hover-blue">Category Name</a>
+ *   <a href="/path" className="category-button category-button-hover-orange">Category Name</a>
+ * </div>
+ */
+
+// Category button group container
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+
+  .category-button {
+    margin: 0;
+  }
+}
+
+// Base category button styles - all buttons look the same by default
+.category-button {
+  display: inline-block;
+  font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 4px 16px;
+  border-radius: 32px; // Pill-shaped (more rounded)
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  line-height: 16px;
+  white-space: nowrap;
+  // Default state: white background, dark text, gray border
+  background-color: #FFFFFF;
+  color: #0C0C0C;
+  border: 2px solid #E0E0E0;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 2px solid #262AFF;
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 11px;
+    padding: 3px 14px;
+    line-height: 14px;
+  }
+}
+
+// Hover state: Blue (#262AFF) - for even-indexed buttons (0, 2, 4, ...)
+.category-button-hover-blue {
+  &:hover {
+    background-color: #262AFF;
+    color: #FFFFFF;
+    border-color: #262AFF;
+  }
+
+  &:active {
+    background-color: #1e2bc4;
+    border-color: #1e2bc4;
+    color: #FFFFFF;
+  }
+}
+
+// Hover state: Orange (#FDA052) - for odd-indexed buttons (1, 3, 5, ...)
+.category-button-hover-orange {
+  &:hover {
+    background-color: #FDA052;
+    color: #FFFFFF;
+    border-color: #FDA052;
+  }
+
+  &:active {
+    background-color: #e8903a;
+    border-color: #e8903a;
+    color: #FFFFFF;
+  }
+}
+

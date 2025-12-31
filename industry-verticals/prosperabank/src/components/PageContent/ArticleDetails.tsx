@@ -7,10 +7,25 @@ import {
   RichText,
   RichTextField,
   NextImage,
+  Link,
+  LinkField,
+  useSitecore,
 } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 import Head from 'next/head';
+
+interface CategoryItem {
+  id?: string;
+  name?: string;
+  url?: {
+    path?: string;
+  };
+  fields?: {
+    Title?: Field<string>;
+  };
+  displayName?: string;
+}
 
 interface Fields {
   Title: Field<string>;
@@ -21,6 +36,8 @@ interface Fields {
   Name: Field<string>;
   Photo: ImageField;
   Position: Field<string>;
+  Button?: LinkField;
+  Category?: CategoryItem[] | Field<string>;
 }
 
 export type PageBackgroundProps = ComponentProps & {
@@ -29,6 +46,8 @@ export type PageBackgroundProps = ComponentProps & {
 
 export const Default = (props: PageBackgroundProps): JSX.Element => {
   const id = props.params?.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
   return (
     <>
       <Head>
@@ -52,25 +71,78 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
           <div className="background-content component-spaced container rounded-corners">
             <div className="p-3 p-sm-5">
               <div className="article-content">
-                <div className="row row-gap-4 gx-5">
+                <div className="row row-gap-4 gx-5 align-items-start">
                   <div className="col-12 col-lg-6">
-                    <NextImage
-                      field={props.fields.Thumbnail}
-                      className="article-img img-fluid"
-                      width={600}
-                      height={400}
-                    />
+                    <div className="article-thumbnail-wrapper">
+                      <NextImage
+                        field={props.fields.Thumbnail}
+                        className="article-img img-fluid"
+                        width={600}
+                        height={400}
+                      />
+                    </div>
                   </div>
                   <div className="col-12 col-lg-6">
-                    <div className="row">
-                      <Placeholder name="article-meta" rendering={props.rendering} />
+                    <div className="article-header-content">
+                      {(() => {
+                        const categories = props.fields.Category;
+                        if (!categories) return null;
+                        
+                        // Handle array of category items
+                        if (Array.isArray(categories) && categories.length > 0) {
+                          return (
+                            <div className="category-buttons">
+                              {categories.map((category, index) => {
+                                const categoryName = category.fields?.Title?.value || category.name || category.displayName || '';
+                                const categoryUrl = category.url?.path || '#';
+                                const categoryId = category.id || `category-${index}`;
+                                // Alternate hover colors: even index = blue, odd index = orange
+                                const hoverColorClass = index % 2 === 0 ? 'category-button-hover-blue' : 'category-button-hover-orange';
+                                
+                                return (
+                                  <a
+                                    key={categoryId}
+                                    href={categoryUrl}
+                                    className={`category-button ${hoverColorClass}`}
+                                  >
+                                    {categoryName}
+                                  </a>
+                                );
+                              })}
+                            </div>
+                          );
+                        }
+                        
+                        // Show in editing mode even if empty
+                        if (isPageEditing) {
+                          return (
+                            <div className="category-buttons">
+                              <span className="category-button category-button-hover-blue">Category</span>
+                            </div>
+                          );
+                        }
+                        
+                        return null;
+                      })()}
+                      <h1 className="article-title">
+                        <Text field={props.fields.Title} />
+                      </h1>
+                      {(isPageEditing || props.fields.Excerpt?.value) && (
+                        <p className="article-excerpt">
+                          <Text field={props.fields.Excerpt} />
+                        </p>
+                      )}
+                      {(isPageEditing || (props.fields.Button?.value?.href && props.fields.Button?.value?.text)) && props.fields.Button && (
+                        <div className="article-button-wrapper mt-4">
+                          <Link field={props.fields.Button} className="btn btn-cta-primary btn-sm">
+                            {props.fields.Button?.value?.text || 'Button'}
+                          </Link>
+                        </div>
+                      )}
+                      <div className="row mt-4">
+                        <Placeholder name="article-meta" rendering={props.rendering} />
+                      </div>
                     </div>
-                    <h1 className="article-title">
-                      <Text field={props.fields.Title} />
-                    </h1>
-                    <p className="article-excerpt">
-                      <Text field={props.fields.Excerpt} />
-                    </p>
                   </div>
                 </div>
                 <div className="article-content-body mt-5">

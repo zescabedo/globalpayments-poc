@@ -13,9 +13,10 @@
 // Set base typography on body
 body {
   font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.8rem; // 18px - matches Storybook
-  line-height: 1.5;
-  color: #0C0C0C; // rgb(12, 12, 12) - matches Storybook body color
+  font-size: 18px; // Matches Global Payments exactly
+  font-weight: 400;
+  line-height: 27px; // Matches Global Payments exactly (1.5 * 18px)
+  color: #0C0C0C; // rgb(12, 12, 12) - matches Global Payments
 }
 
 // Display Styles

@@ -4,68 +4,32 @@
   @extend .bg-transparent;
   @extend .pt-5;
 
-  ol {
-    @extend .p-0;
-  }
-
-  li {
-    @extend .d-inline-block;
+  .breadcrumb-back {
+    display: inline-flex;
+    align-items: center;
     font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    text-decoration: none;
+    line-height: 1.5;
 
-    a,
-    span {
-      @extend .d-inline-block;
-      font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      color: #262AFF; // Storybook primary blue for links
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 14px;
+      height: 12px;
+      margin-right: 8px;
+      background-image: url('../../icons/arrow-left-back-icon-dark.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      vertical-align: middle;
+    }
+
+    &:hover {
+      color: #262AFF;
       text-decoration: none;
-
-      &::before {
-        @extend .d-block;
-        @extend .fw-bold;
-        @extend .overflow-hidden;
-        @extend .invisible;
-
-        height: 0;
-        content: attr(title);
-        padding-left: 5px;
-        padding-right: 3px;
-      }
-
-      &:hover {
-        @extend .fw-bold;
-      }
-    }
-
-    &:not(:first-of-type)::before {
-      @extend .fw-normal;
-      @extend .d-inline;
-      @include fa-icon;
-
-      content: $fa-var-chevron-right;
-      vertical-align: middle;
-      font-size: 1.5em;
-      padding-right: 15px;
-    }
-
-    &:first-of-type::before {
-      @extend .fw-normal;
-      @extend .d-inline;
-      @include fa-icon;
-
-      content: $fa-var-home;
-      vertical-align: middle;
-      font-size: 2em;
-      padding-right: 15px;
-    }
-
-    &:first-of-type {
-      a {
-        display: none !important;
-      }
-    }
-
-    &:last-child {
-      @extend .fw-bold;
     }
   }
 }

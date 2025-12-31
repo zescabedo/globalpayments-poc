@@ -47,41 +47,27 @@ const Breadcrumb = (props: BreadcrumbProps): JSX.Element => {
     return <div></div>;
   }
 
-  const propItem = props.fields.data.item;
   const propItemAncestors = props.fields.data.item.ancestors;
-  const breadcrumbs = [];
-
   const sxaStyles = `${props.params?.styles || ''}`;
 
-  const pageItems = {
-    title: getBreadcrumbTitle(propItem),
-    url: getBreadcrumbUrl(propItem),
-    className: 'active',
-  };
+  // Get the first ancestor (immediate parent) for the "Back to" link
+  const previousPage = propItemAncestors && propItemAncestors.length > 0 
+    ? propItemAncestors[propItemAncestors.length - 1] 
+    : null;
 
-  breadcrumbs.push(pageItems);
-
-  if (propItemAncestors) {
-    propItemAncestors.map((parent) => {
-      breadcrumbs.push({
-        title: getBreadcrumbTitle(parent),
-        url: getBreadcrumbUrl(parent),
-        className: 'inactive',
-      });
-    });
+  // If there's no previous page, don't render anything
+  if (!previousPage) {
+    return <div></div>;
   }
 
-  const breadcrumbListItems = breadcrumbs.reverse().map((bc, index) => (
-    <li key={index} className={bc.className}>
-      <a title={bc.title} href={bc.url}>
-        {bc.title}
-      </a>
-    </li>
-  ));
+  const previousPageTitle = getBreadcrumbTitle(previousPage);
+  const previousPageUrl = getBreadcrumbUrl(previousPage);
 
   return (
     <nav className={`breadcrumb ${sxaStyles}`} aria-label="breadcrumbs">
-      <ol className="list">{breadcrumbListItems}</ol>
+      <a href={previousPageUrl} className="breadcrumb-back">
+        Back to {previousPageTitle}
+      </a>
     </nav>
   );
 };

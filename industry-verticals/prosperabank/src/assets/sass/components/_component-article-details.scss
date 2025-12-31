@@ -1,9 +1,23 @@
 .article-details {
   .article-content {
-    .article-img {
-      // border-radius: calc(var(--roundness) * 2) applied globally
+    .article-thumbnail-wrapper {
+      overflow: hidden;
+      border-radius: calc(var(--roundness) * 2);
       width: 100%;
-      height: auto;
+      
+      .article-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: calc(var(--roundness) * 2) !important;
+        display: block;
+      }
+    }
+
+    .article-header-content {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
     }
 
     .author-card {
@@ -11,20 +25,58 @@
     }
 
     .article-title {
-      font-size: 2rem;
+      font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 48px; // 3rem - matches Global Payments exactly
+      font-weight: 900; // Black weight - matches Global Payments
+      line-height: 60px; // 1.25 - matches Global Payments
+      color: #000000; // rgb(0, 0, 0) - matches Global Payments
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+
+      @include respond-to(tablet) {
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      @include respond-to(mobile-large) {
+        font-size: 32px;
+        line-height: 40px;
+      }
     }
 
     .article-excerpt {
-      font-size: 1.5rem;
-      color: var(--text-colored);
-      line-height: 1.3;
-      margin-top: 0.5rem;
+      font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 20px; // 1.25rem - matches Global Payments exactly
+      font-weight: 400;
+      line-height: 32px; // 1.6 - matches Global Payments
+      color: #0C0C0C; // rgb(12, 12, 12) - matches Global Payments
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .article-button-wrapper {
+      margin-top: 1.5rem;
+
+      .btn {
+        display: inline-block;
+      }
     }
 
     .article-content-body {
-      font-size: 125%;
-      max-width: 50rem;
-      margin: 0 auto;
+      font-family: 'GPCommerce', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 20px; // Matches Global Payments exactly
+      font-weight: 400;
+      line-height: 32px; // Matches Global Payments
+      color: #0C0C0C; // rgb(12, 12, 12) - matches Global Payments
+      max-width: 100%; // Use full container width instead of limiting to 50rem
+      width: 100%;
+
+      // Ensure all paragraphs and text elements inherit the correct size
+      p {
+        font-size: 20px;
+        line-height: 32px;
+        color: #0C0C0C;
+      }
 
       a {
         color: var(--text-colored);
