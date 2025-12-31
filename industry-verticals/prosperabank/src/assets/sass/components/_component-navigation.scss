@@ -80,10 +80,11 @@
       display: flex;
       align-items: center;
       gap: 0;
-      justify-content: center;
+      justify-content: flex-end; // Right-aligned
       flex: 1;
     }
   }
+
 
   // Mobile screens (< 768px) - Hamburger only, no Contact us button in header
   @media (width < 768px) {
@@ -820,25 +821,32 @@
     }
   }
 
-  // Wrapper layout for proper centering
+  // Wrapper layout for proper alignment
   .menu-mobile-navigate-wrapper {
     width: 100%;
     display: flex;
+    justify-content: flex-end; // Right-align the wrapper
 
     // Only show full horizontal navigation at 1400px+ (matching Global Payments)
     @media (width >= 1400px) {
+      justify-content: flex-end; // Right-align at desktop
+      margin-left: auto; // Push wrapper to the right
+      
       .component-content {
-        width: 100%;
+        width: auto; // Let content determine width, not 100%
         display: flex;
+        justify-content: flex-end; // Right-align content
 
         > nav {
-          width: 100%;
+          width: auto; // Let nav determine width
           display: flex;
+          justify-content: flex-end; // Right-align nav
 
           > ul {
-            width: 100%;
+            width: auto; // Let list determine width
             display: flex;
             align-items: center;
+            justify-content: flex-end; // Right-align list items
             margin: 0;
             padding: 0;
           }
@@ -861,7 +869,7 @@
           width: 100%;
 
           > nav > ul {
-            justify-content: center;
+            justify-content: flex-end; // Right-aligned
           }
         }
       }

@@ -114,9 +114,9 @@
       min-width: 0; // Allow shrinking for scroll
     }
 
-    // On large desktop, center navigation
+    // On large desktop, right-align navigation
     @media (width >= 1400px) {
-      justify-content: center;
+      justify-content: flex-end; // Right-align navigation
     }
   }
 
@@ -460,7 +460,7 @@
   .header-gp__nav-wrapper {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; // Right-align navigation
     min-width: 0; // Allow shrinking for scroll
     position: relative;
     max-width: 100%; // Prevent expanding beyond container
@@ -494,20 +494,25 @@
       }
     }
 
-    .navigation {
-      position: relative;
-      display: flex;
-      align-items: center;
-      width: 100%;
-      justify-content: center;
-      
-      // At 1024px, navigation fills wrapper but allows children to overflow
-      @media (min-width: 1024px) and (max-width: 1279px) {
-        width: 100% !important; // Fill the scroll container
-        min-width: 0; // Allow shrinking
-        justify-content: flex-start; // Align items to start for scrolling
-        overflow: visible; // Allow children to overflow beyond this element
-      }
+      .navigation {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: flex-end; // Right-align navigation
+        
+        // At 1024px, navigation fills wrapper but allows children to overflow
+        @media (min-width: 1024px) and (max-width: 1279px) {
+          width: 100% !important; // Fill the scroll container
+          min-width: 0; // Allow shrinking
+          justify-content: flex-start; // Align items to start for scrolling
+          overflow: visible; // Allow children to overflow beyond this element
+        }
+        
+        // At 1400px+, right-align navigation
+        @media (width >= 1400px) {
+          justify-content: flex-end; // Right-align at desktop
+        }
 
       // Override Navigation component's default list styles
       .component-content,
@@ -515,7 +520,7 @@
       nav {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end; // Right-align navigation
         
         // At 1024px, allow these to expand for scrolling
         @media (min-width: 1024px) and (max-width: 1279px) {
@@ -523,6 +528,11 @@
           min-width: 100%; // But at least fill container
           justify-content: flex-start !important;
           overflow: visible; // Allow overflow
+        }
+        
+        // At 1400px+, right-align navigation
+        @media (width >= 1400px) {
+          justify-content: flex-end !important; // Right-align at desktop
         }
       }
 
@@ -675,7 +685,7 @@
         > nav {
           display: flex !important;
           width: 100%;
-          justify-content: center;
+          justify-content: flex-end; // Right-align navigation
           
           // At 1024px, allow nav to expand for scrolling
           @media (min-width: 1024px) and (max-width: 1279px) {
@@ -685,6 +695,11 @@
             justify-content: flex-start !important;
             overflow: visible !important; // Allow overflow
             position: relative !important;
+          }
+          
+          // At 1400px+, right-align navigation
+          @media (width >= 1400px) {
+            justify-content: flex-end !important; // Right-align at desktop
           }
         }
         
@@ -748,7 +763,7 @@
         > nav {
           display: flex !important;
           width: 100%;
-          justify-content: center;
+          justify-content: flex-end; // Right-align navigation
           position: relative;
           
           // At 1024px, allow nav to expand for scrolling
@@ -757,6 +772,11 @@
             min-width: 100%;
             justify-content: flex-start !important;
             overflow: visible; // Allow overflow
+          }
+          
+          // At 1400px+, right-align navigation
+          @media (width >= 1400px) {
+            justify-content: flex-end !important; // Right-align at desktop
           }
         }
       }
@@ -768,14 +788,14 @@
         display: flex !important;
         flex-direction: row !important;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end; // Right-align navigation
         gap: 2rem;
         list-style: none;
         margin: 0;
         padding: 0;
         flex-wrap: nowrap;
         width: 100%;
-        text-align: center;
+        text-align: right; // Right-align text
         
         // At 1024px, allow list to be wider for scrolling
         @media (min-width: 1024px) and (max-width: 1279px) {
@@ -783,6 +803,12 @@
           min-width: 100%; // But at least fill container
           justify-content: flex-start !important;
           flex-shrink: 0; // Prevent shrinking
+        }
+        
+        // At 1400px+, right-align navigation
+        @media (width >= 1400px) {
+          justify-content: flex-end !important; // Right-align at desktop
+          text-align: right !important;
         }
       }
 
