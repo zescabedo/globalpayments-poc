@@ -7,25 +7,25 @@ SharedFields:
 - ID: "23f621dd-d403-49df-93f6-391a1757feb3"
   Hint: Image4
   Value: |
-    <image mediaid="ef4c0417-cc75-4483-ba8e-1dbe32dd7487" alt="four-col-promo-4" height="" width="" hspace="" vspace="" />
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/63746-HomePageHero-2000x800?v=92aec90e" dam-id="w8uVM2yTTdO7oAH0h9qJOg" width="2000" height="800" alt="four-col-promo-4.webp" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63746/thumbnail" />
 - ID: "84c2cd69-b897-4e4a-a336-66d3222fe1b5"
   Hint: Image1
   Value: |
-    <image mediaid="4986f57f-1293-4b48-86bb-1281b6a31573" alt="four-col-promo-1" height="" width="" hspace="" vspace="" />
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/63745-HomepagePromoCTAs-1100x740?v=473dda45" dam-id="RLwoK20NQwuvzcfbrjY0LA" width="1100" height="740" alt="four-col-promo-1.webp" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63745/thumbnail" />
 - ID: "954a7e15-cdad-4e9c-8949-ab0ee63200c6"
   Hint: Image3
   Value: |
-    <image mediaid="a66b93b7-7a89-47a4-a44f-492c4381b75e" alt="four-col-promo-3" height="" width="" hspace="" vspace="" />
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/63742-HomePageHero-2000x800?v=f572e537" dam-id="mKAYKNoITd6uWsdwnx5EYA" width="2000" height="800" alt="four-col-promo-3.webp" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63742/thumbnail" />
 - ID: "a98fc4bc-b088-4296-aa32-fba35f964ebd"
   Hint: Image2
   Value: |
-    <image mediaid="032b60ed-5aa8-4da5-a142-c96693c88d17" alt="four-col-promo-2" height="" width="" hspace="" vspace="" />
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/63741-HomePageHero-2000x800?v=606f4250" dam-id="WxDYO25PSa6wPnN4FmmgPA" width="2000" height="800" alt="four-col-promo-2.webp" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63741/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 150
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d85bb399-f0a3-4d51-b14b-7f3ef4f11ce1"
+  Value: "fde5d12b-52f2-460f-9a99-544039f9c208"
 Languages:
 - Language: en
   Versions:
@@ -55,7 +55,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bf9d3f0b-b66a-414e-9124-c3516f8558af"
+      Value: "6d3b7d28-9a4f-4277-b74f-b2f84dd58d1e"
     - ID: "8f23bb30-a050-47b3-bc66-6ca478213eef"
       Hint: Text3
       Value: For evaluation and recommendations
@@ -86,7 +86,7 @@ Languages:
       Value: Explore our network of branch offices and ATMS
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260102T221254Z
+      Value: 20260105T210246Z
     - ID: "df548755-6a31-445f-bb84-c704698d6048"
       Hint: Link2
       Value: |
