@@ -6,11 +6,11 @@ Path: /sitecore/content/Financial/GlobalPayments/Data/Promos/Promo CTA/Payment S
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "fe9ae80e-d22b-47bd-9d8a-d49bc6b02b15"
+  Value: "f9fc8635-3db1-4045-b640-0bd8eed576b9"
 - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
   Hint: Image
   Value: |
-    <image mediaid="a4112a71-3945-4dbe-ba2f-d9b451fc71d4" />
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/852cea293d174d4f823fe69b7b2b0ab1?v=d254cebe" dam-id="2WTkYi5vTValf4Bjb-4Vag" width="1828" height="1172" alt="PaymentSolutions.png" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63672/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -31,18 +31,21 @@ Languages:
     - ID: "326f3fb4-ff4f-423c-87c6-2cc15a8eed22"
       Hint: Video
       Value: |
-        <Image src="https://starter-verticals.sitecoresandbox.cloud/api/public/content/c7aaa856865c4c70b8dcc68772f93e28?v=24ecc0fb" dam-id="A7-u7P1ZTpmidH6EyCunUA" width="1184" height="736" alt="TheLuminaSofa.mp4" dam-content-type="Video" thumbnailsrc="https://starter-verticals.sitecoresandbox.cloud/api/gateway/66637/thumbnail" />
+        <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/0e991d63bcc441c0a653f77566173ab5?v=96eab29d" dam-id="RLp1n7QxTISbK1R17JWlwg" width="1100" height="720" alt="takepaymentsanytime.mp4" dam-content-type="Video" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63457/thumbnail" />
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: 
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: |
-        <link id="{FB9B938E-DF02-46E7-9354-613D29E0B4AC}" text="Explore our payment solutions" title="" querystring="" anchor="" target="" linktype="internal"/>
+        <link linktype="internal" id="738793d82cb946b38f54eb7f6032fcc3" anchor="" querystring="" target="" class="" text="Explore our payment solutions" title=""/>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f077e9b1-5d67-4c73-a371-846f820aef4b"
+      Value: "ac55c2ae-1bc8-44cc-a73b-76eed281043c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -52,7 +55,7 @@ Languages:
       Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260102T154757Z
+      Value: 20260105T204424Z
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: 

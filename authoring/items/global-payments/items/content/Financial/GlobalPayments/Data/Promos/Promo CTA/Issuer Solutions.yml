@@ -6,11 +6,11 @@ Path: /sitecore/content/Financial/GlobalPayments/Data/Promos/Promo CTA/Issuer So
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "63a102ec-8f05-44c2-ab30-52cf172d1b30"
+  Value: "977f27fc-6263-476e-abda-37c13c25d858"
 - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
   Hint: Image
   Value: |
-    <image mediaid="3a95ac3e-a1b3-4efa-abc6-5800e66c7539" />
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/2749d195a4814bcf8a809fa5870d9179?v=7541e3a2" dam-id="eu0-sqQJS-i-Snot45AMlQ" width="1100" height="604" alt="IssuerSolutions.png" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63690/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -28,17 +28,24 @@ Languages:
     - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
       Hint: Eyebrow
       Value: 
+    - ID: "326f3fb4-ff4f-423c-87c6-2cc15a8eed22"
+      Hint: Video
+      Value: |
+        <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/e287517ed071470bbf83bdef3ca7adf6?v=c6c2a34c" dam-id="0yvpgJ9KTfun-uQ6E80yQg" width="1280" height="720" alt="upgradeyourpaymentstack.mp4" dam-content-type="Video" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63467/thumbnail" />
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: 
     - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
       Hint: Link
       Value: |
-        <link id="{FB9B938E-DF02-46E7-9354-613D29E0B4AC}" text="Discover our issuer solutions" title="" querystring="" anchor="" target="" linktype="internal"/>
+        <link linktype="internal" id="aadf2d2c7e4b45e68b64afd3d21a42bf" anchor="" querystring="" target="" class="" text="More Detail" title=""/>
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4f1635b1-dde4-4f07-a871-961ca7a34cc3"
+      Value: "2693c315-a2ce-43e5-b1a8-fb0a71f4d058"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -48,7 +55,7 @@ Languages:
       Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251218T024229Z
+      Value: 20260105T203807Z
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: 

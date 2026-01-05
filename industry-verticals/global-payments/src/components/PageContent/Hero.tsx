@@ -227,15 +227,13 @@ export const Default = (props: HeroProps): JSX.Element => {
               <div className={`hero-media-block ${imageSquareCorners ? 'square-corners' : ''}`}>
                 <div className="hero-media">
                   {mainImage?.value?.src && (
-                    <picture>
-                      <NextImage
-                        field={mainImage}
-                        className="gp-img hero-image"
-                        width={700}
-                        height={700}
-                        alt={typeof mainImage.value?.alt === 'string' ? mainImage.value.alt : 'Hero image'}
-                      />
-                    </picture>
+                    <NextImage
+                      field={mainImage}
+                      className="gp-img hero-image"
+                      width={700}
+                      height={700}
+                      alt={typeof mainImage.value?.alt === 'string' ? mainImage.value.alt : 'Hero image'}
+                    />
                   )}
                   
                   {/* Video support */}

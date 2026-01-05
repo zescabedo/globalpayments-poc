@@ -1,4 +1,4 @@
-import React, { JSX } from 'react';
+import React, { JSX, useRef, useEffect } from 'react';
 import {
   Field,
   ImageField,
@@ -105,6 +105,7 @@ const MediaContent = ({
   isPageEditing,
   width = 900,
   height = 900,
+  isVisible = true,
 }: {
   video?: ImageField;
   image?: ImageField;
@@ -112,9 +113,41 @@ const MediaContent = ({
   isPageEditing: boolean;
   width?: number;
   height?: number;
+  isVisible?: boolean;
 }): JSX.Element => {
+  const videoRef = useRef<HTMLVideoElement>(null);
   const videoSrc = video?.value?.src;
   const hasVideo = videoSrc && !isPageEditing;
+  
+  // Play video when it becomes visible (for fade-section animations)
+  useEffect(() => {
+    if (hasVideo && videoRef.current && isVisible) {
+      const videoElement = videoRef.current;
+      
+      // Function to attempt playing the video
+      const attemptPlay = () => {
+        if (videoElement && videoElement.paused) {
+          videoElement.play().catch((error) => {
+            // Autoplay was prevented, which is fine - user interaction may be required
+            console.debug('Video autoplay prevented:', error);
+          });
+        }
+      };
+      
+      // Wait for video to be loaded, then try to play
+      if (videoElement.readyState >= 2) {
+        // Video is already loaded
+        attemptPlay();
+      } else {
+        // Wait for video to load, then play
+        const handleCanPlay = () => {
+          attemptPlay();
+          videoElement.removeEventListener('canplaythrough', handleCanPlay);
+        };
+        videoElement.addEventListener('canplaythrough', handleCanPlay);
+      }
+    }
+  }, [hasVideo, isVisible, videoSrc]);
   
   if (hasVideo) {
     // Determine video type from file extension
@@ -122,6 +155,7 @@ const MediaContent = ({
     
     return (
       <video
+        ref={videoRef}
         className={className}
         autoPlay
         loop
@@ -239,6 +273,7 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
                   isPageEditing={isPageEditing}
                   width={900}
                   height={900}
+                  isVisible={isVisible}
                 />
                 {(props.fields?.LayeredImage?.value?.src || props.fields?.LayeredVideo?.value?.src) && (
                   <MediaContent
@@ -248,6 +283,7 @@ export const Default = (props: PromoCtaProps): JSX.Element => {
                     isPageEditing={isPageEditing}
                     width={900}
                     height={900}
+                    isVisible={isVisible}
                   />
                 )}
               </div>
@@ -344,6 +380,7 @@ export const Horizontal = (props: PromoCtaProps): JSX.Element => {
                   isPageEditing={isPageEditing}
                   width={900}
                   height={900}
+                  isVisible={isVisible}
                 />
                 {(props.fields?.LayeredImage?.value?.src || props.fields?.LayeredVideo?.value?.src) && (
                   <MediaContent
@@ -353,6 +390,7 @@ export const Horizontal = (props: PromoCtaProps): JSX.Element => {
                     isPageEditing={isPageEditing}
                     width={900}
                     height={900}
+                    isVisible={isVisible}
                   />
                 )}
               </div>
@@ -429,6 +467,7 @@ export const WithPlaceholderColumn = (props: PromoCtaProps): JSX.Element => {
                   isPageEditing={isPageEditing}
                   width={900}
                   height={900}
+                  isVisible={isVisible}
                 />
                 <DottedAccent className="dotted-accent-bottom" />
               </div>

@@ -6,11 +6,11 @@ Path: /sitecore/content/Financial/GlobalPayments/Data/Promos/Promo CTA/Visibilit
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "d62ae097-5a73-4880-b940-b7ef4a4de044"
+  Value: "7671c42e-8923-427f-83bb-25fc81b2a733"
 - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
   Hint: Image
   Value: |
-    <image mediaid="8bdfe60b-1d49-456e-9cd2-f4567b613a9a" />
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/bf7d300318df4e93a2ab908f00a5c113?v=259fbc86" dam-id="cB_gH3YaTk-Gqb65LM17JQ" width="692" height="897" alt="image.png" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63424/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -44,11 +44,11 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bb5f3bba-d040-4ca1-a2a6-f74c88fdd67c"
+      Value: "57de7883-d59c-4229-8969-973c42a46e70"
     - ID: "a16005a9-e08e-4b56-979a-1f388929bd84"
       Hint: LayeredImage
       Value: |
-        <image mediaid="4a2d2463-948e-421d-9fa6-025e69eff657" />
+        <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/7557f82ceeb34ae088afb980bc8dfc63?v=e7dcb6d4" dam-id="XRzRVIfqQtCsFes0EiQoIw" width="446" height="323" alt="messages-base-soft-ui.png" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63423/thumbnail" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -59,7 +59,7 @@ Languages:
         <div class="ck-content"><p>... say they could act on problems the same day if only they trusted their data. The appetite for speed is there — visibility is what’s missing.</p></div>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260102T222740Z
+      Value: 20260105T205359Z
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: 

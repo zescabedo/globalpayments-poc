@@ -16,17 +16,17 @@ SharedFields:
 - ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
   Hint: Thumbnail
   Value: |
-    <image mediaid="bcd9a34a-fa5e-455c-9735-c3bcee6d6d03" alt="Restaurant Segment two chefs posing for a photo" />
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/2ed5fdd748a5404f93257c74d7a7d529?v=85da39fa" dam-id="S7vbhQP-Q2OBebFOFyoNvw" width="1100" height="734" alt="restaurant_segment_ceros_hero.jpeg" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63418/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 200
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{C12B8394-B4C6-47ED-9470-CB46E184B03A}" />
+    <image mediaid="{8ACDC931-F5F2-4D49-9FAA-1CE289BC3D5A}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "233662e6-cfec-4d09-ab04-b858a2c3c6df"
+  Value: "84a60544-f810-4ea7-8e39-8fb841564ffd"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -83,7 +83,7 @@ Languages:
               p:after="*[1=2]"
               s:ds="b9cb98be-e3f8-4e59-b415-3dc2b87ff5dc"
               s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B7D65F757-6E64-417A-9ED9-56868717574D%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B7D65F757-6E64-417A-9ED9-56868717574D%7D&amp;Styles=%7C%7B4B8334C4-1AAF-4833-9E14-E40E48412DDF%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=4"
               s:ph="/headless-main/sxa-article-content/background-page-content-0-1" />
           </d>
         </r>
@@ -109,7 +109,7 @@ Languages:
         <link linktype="internal" id="d26af0f1-5e54-41f0-b026-c96d4d2beea3" anchor="" querystring="" target="" class="" text="Download the report" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f1047513-53b9-4de3-a20e-a475406651d7"
+      Value: "c23504f7-942f-44ef-b35d-178b746e102c"
     - ID: "b50fd793-8c46-4adf-b5e7-fe949d0852b6"
       Hint: Category
       Value: |
@@ -121,7 +121,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260102T222827Z
+      Value: 20260105T205325Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: The hidden costs draining restaurant profits

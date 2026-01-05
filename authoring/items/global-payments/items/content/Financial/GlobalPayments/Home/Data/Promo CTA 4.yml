@@ -6,11 +6,11 @@ Path: /sitecore/content/Financial/GlobalPayments/Home/Data/Promo CTA 4
 SharedFields:
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "f002cd1a-0539-4173-91ec-535bebaeaaed"
+  Value: "4318ec5d-fe9b-4736-8c63-615de2781642"
 - ID: "e495efd3-5c43-45fc-af43-796a6b503716"
   Hint: Image
   Value: |
-    <image mediaid="1a743fa1-0102-4e78-bd52-eeb34967bc59" />
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/3de6775d0aac467c978620eab664dff8?v=7df1ac29" dam-id="dDwhH4a7RJ2FzB0eTNrXQQ" width="2422" height="1399" alt="power-the-future.png" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63419/thumbnail" />
 Languages:
 - Language: en
   Versions:
@@ -45,7 +45,7 @@ Languages:
         sitecore\zach.escabedo@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "410e8e51-0987-4bcd-beda-55c2a2200def"
+      Value: "653758b4-cb9a-488f-96e6-b640eb747cb5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -55,7 +55,7 @@ Languages:
       Value: <p>Faster payments, smoother operations, exceptional customer experiences. It’s all in Genius — a point of sale system built to boost revenue for small businesses, enterprises and everything in between.</p>
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T195556Z
+      Value: 20260105T171414Z
     - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
       Hint: Subtitle
       Value: 
