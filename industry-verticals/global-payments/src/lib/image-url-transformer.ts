@@ -11,7 +11,7 @@ export function transformImageField(field: ImageField): ImageField {
   // Replace global-payments.dev with actual XM Cloud instance
   const transformedSrc = field.value.src.replace(
     'https://global-payments.dev',
-    'https://xmc-sitecoresaafe06-globalpaymec222-prod8b6b.sitecorecloud.io'
+    'https://xmc-globalpayme583f-globalpayme5281-globalpayme1d82.sitecorecloud.io'
   );
 
   return {

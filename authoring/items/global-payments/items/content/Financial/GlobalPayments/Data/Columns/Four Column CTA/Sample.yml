@@ -1,0 +1,56 @@
+﻿---
+ID: "aa651b9b-a829-4b2a-9a92-5156d5fc811e"
+Parent: "93007373-fc81-4fd2-9efe-df45862a48d4"
+Template: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+Path: /sitecore/content/Financial/GlobalPayments/Data/Columns/Four Column CTA/Sample
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "b4784e86-bb59-4240-be20-d343820ce784"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260102T162501Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "79e8604a-1e39-4ab7-b062-789c60fe5645"
+      Hint: Stat4
+      Value: 54
+    - ID: "875b9379-c6fe-4147-8b94-4b2076f7cd9c"
+      Hint: Stat2
+      Value: 50
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33786210-05af-4b14-af04-3171a5a37c67"
+    - ID: "96abf921-4ade-4db1-955d-3f3be1854a4c"
+      Hint: Title
+      Value: Lorem Ipsum
+    - ID: "af17b09a-65a8-4a35-a921-8e666dc9ed86"
+      Hint: Stat3
+      Value: 43
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260102T221254Z
+    - ID: "ec6caffa-5719-48df-b0d1-71cbe3dc260f"
+      Hint: Stat1
+      Value: 97

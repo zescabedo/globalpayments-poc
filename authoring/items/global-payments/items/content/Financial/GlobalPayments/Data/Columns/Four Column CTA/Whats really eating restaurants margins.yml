@@ -1,0 +1,84 @@
+﻿---
+ID: "43daaed1-b2d5-4c6e-a708-4b2e11616b04"
+Parent: "93007373-fc81-4fd2-9efe-df45862a48d4"
+Template: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+Path: /sitecore/content/Financial/GlobalPayments/Data/Columns/Four Column CTA/Whats really eating restaurants margins
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "62812d85-ebd6-494d-9114-e35153793b3d"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c20b1bdb-bac6-402b-bb91-fb7aa6926f1d"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: What's really eating restaurants margins
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "07f3e30f-8075-4c1b-912e-e27fffeda904"
+      Hint: Text1
+      Value: "of operators say they track food costs in real time — but most mean end-of-day or weekly reports"
+    - ID: "256528b0-4d93-44a1-85c9-0cd544091a3f"
+      Hint: Text4
+      Value: say they’d cut food and waste costs if they had better visibility
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260102T191908Z
+    - ID: "34f50b54-e781-493a-85c0-8e9af1969d64"
+      Hint: Title3
+      Value: limited reporting across tech stack
+    - ID: "4e62adbe-4082-45fe-9e77-66ef0945fb18"
+      Hint: Title4
+      Value: say they’d cut food and waste costs if they had better visibility
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "79e8604a-1e39-4ab7-b062-789c60fe5645"
+      Hint: Stat4
+      Value: 54
+    - ID: "875b9379-c6fe-4147-8b94-4b2076f7cd9c"
+      Hint: Stat2
+      Value: 50
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "71bfe0c5-19a1-47e9-9aa0-ef5d9d034c53"
+    - ID: "8f23bb30-a050-47b3-bc66-6ca478213eef"
+      Hint: Text3
+      Value: report limited or partial integrations across their tech stack
+    - ID: "94e8b735-889e-44f3-a980-c7c8143bae19"
+      Hint: Title2
+      Value: manual pulls
+    - ID: "96abf921-4ade-4db1-955d-3f3be1854a4c"
+      Hint: Title
+      Value: The alarming reality
+    - ID: "af17b09a-65a8-4a35-a921-8e666dc9ed86"
+      Hint: Stat3
+      Value: 43
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "be5597c5-a55d-4a6a-bf53-7fe1a7bf4bdc"
+      Hint: Title1
+      Value: operators
+    - ID: "c24d6ca7-49ab-4f08-9dae-e5a844d79139"
+      Hint: Text2
+      Value: still rely on manual data pulls between systems
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260102T221254Z
+    - ID: "ec6caffa-5719-48df-b0d1-71cbe3dc260f"
+      Hint: Stat1
+      Value: 97

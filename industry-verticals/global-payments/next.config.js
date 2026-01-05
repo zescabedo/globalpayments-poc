@@ -74,7 +74,7 @@ const nextConfig = {
       // Your specific XM Cloud instance
       {
         protocol: 'https',
-        hostname: 'xmc-sitecoresaafe06-globalpaymec222-prod8b6b.sitecorecloud.io',
+        hostname: 'xmc-globalpayme583f-globalpayme5281-globalpayme1d82.sitecorecloud.io',
         port: '',
       },
       // Local development: allow Sitecore media served from global-payments.dev (if using local containers)
@@ -123,7 +123,7 @@ const nextConfig = {
       // Proxy global-payments.dev media requests to XM Cloud
       {
         source: '/-/:path*',
-        destination: 'https://xmc-sitecoresaafe06-globalpaymec222-prod8b6b.sitecorecloud.io/-/:path*',
+        destination: 'https://xmc-globalpayme583f-globalpayme5281-globalpayme1d82.sitecorecloud.io/-/:path*',
       },
       // healthz check
       {

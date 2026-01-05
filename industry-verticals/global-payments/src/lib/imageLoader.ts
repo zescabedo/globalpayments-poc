@@ -13,7 +13,7 @@ export default function imageLoader({ src, width, quality }: ImageLoaderProps): 
   // Transform global-payments.dev to actual XM Cloud hostname
   const transformedSrc = src.replace(
     'https://global-payments.dev',
-    'https://xmc-sitecoresaafe06-globalpaymec222-prod8b6b.sitecorecloud.io'
+    'https://xmc-globalpayme583f-globalpayme5281-globalpayme1d82.sitecorecloud.io'
   );
 
   // If the URL already has query parameters (Sitecore optimized images), return as-is
