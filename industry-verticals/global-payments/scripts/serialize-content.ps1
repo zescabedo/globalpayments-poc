@@ -1,4 +1,4 @@
-# Serialize Content Script for ProsperaBank
+# Serialize Content Script for Global Payments
 # This script serializes content items from Sitecore to YAML files
 
 param(
@@ -14,7 +14,7 @@ function Write-Success { Write-Host $args -ForegroundColor Green }
 function Write-Warning { Write-Host $args -ForegroundColor Yellow }
 function Write-Error { Write-Host $args -ForegroundColor Red }
 
-Write-Success "ProsperaBank Content Serialization"
+Write-Success "Global Payments Content Serialization"
 Write-Host "=================================="
 Write-Host ""
 
@@ -40,20 +40,20 @@ try {
 # Determine action
 if ($Status) {
     Write-Warning "Checking serialization status..."
-    dotnet sitecore ser status --include prosperabank
+    dotnet sitecore ser status --include global-payments
     exit 0
 }
 
 if ($Push) {
-    Write-Warning "Pushing ProsperaBank content to Sitecore..."
+    Write-Warning "Pushing Global Payments content to Sitecore..."
     Write-Host "This will push all serialized content items to Sitecore"
     Write-Host ""
     
-    if (dotnet sitecore ser push --include prosperabank) {
+    if (dotnet sitecore ser push --include global-payments) {
         Write-Success "✓ Content push completed successfully!"
         Write-Host ""
         Write-Host "Content has been pushed to Sitecore from:"
-        Write-Host "  authoring/items/prosperabank/items/"
+        Write-Host "  authoring/items/global-payments/items/"
     } else {
         Write-Error "✗ Content push failed"
         exit 1
@@ -79,17 +79,17 @@ try {
 Write-Success "Connected to Sitecore"
 Write-Host ""
 
-# Serialize prosperabank module
-Write-Warning "Serializing ProsperaBank content..."
-Write-Host "This will pull all content items defined in prosperabank.module.json"
+# Serialize global-payments module
+Write-Warning "Serializing Global Payments content..."
+Write-Host "This will pull all content items defined in global-payments.module.json"
 Write-Host ""
 
-if (dotnet sitecore ser pull --include prosperabank) {
+if (dotnet sitecore ser pull --include global-payments) {
     Write-Host ""
     Write-Success "✓ Content serialization completed successfully!"
     Write-Host ""
     Write-Host "Serialized content is located at:"
-    Write-Host "  authoring/items/prosperabank/items/"
+    Write-Host "  authoring/items/global-payments/items/"
     Write-Host ""
     Write-Host "To push content back to Sitecore, run:"
     Write-Host "  .\scripts\serialize-content.ps1 -Push"

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Serialize Content Script for ProsperaBank
+# Serialize Content Script for Global Payments
 # This script serializes content items from Sitecore to YAML files
 
 set -e
@@ -11,11 +11,11 @@ YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
-echo -e "${GREEN}ProsperaBank Content Serialization${NC}"
+echo -e "${GREEN}Global Payments Content Serialization${NC}"
 echo "=================================="
 echo ""
 
-# Get the repository root (assuming script is in prosperabank/scripts/)
+# Get the repository root (assuming script is in global-payments/scripts/)
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$REPO_ROOT"
 
@@ -47,20 +47,20 @@ fi
 echo -e "${GREEN}Connected to Sitecore${NC}"
 echo ""
 
-# Serialize prosperabank module
-echo -e "${YELLOW}Serializing ProsperaBank content...${NC}"
-echo "This will pull all content items defined in prosperabank.module.json"
+# Serialize global-payments module
+echo -e "${YELLOW}Serializing Global Payments content...${NC}"
+echo "This will pull all content items defined in global-payments.module.json"
 echo ""
 
-if dotnet sitecore ser pull --include prosperabank; then
+if dotnet sitecore ser pull --include global-payments; then
     echo ""
     echo -e "${GREEN}✓ Content serialization completed successfully!${NC}"
     echo ""
     echo "Serialized content is located at:"
-    echo "  authoring/items/prosperabank/items/"
+    echo "  authoring/items/global-payments/items/"
     echo ""
     echo "To push content back to Sitecore, run:"
-    echo "  dotnet sitecore ser push --include prosperabank"
+    echo "  dotnet sitecore ser push --include global-payments"
 else
     echo ""
     echo -e "${RED}✗ Content serialization failed${NC}"

@@ -1,8 +1,8 @@
 {
   "renderingHosts": {
     
-    "prosperabank": {
-      "path": "./industry-verticals/prosperabank",
+    "global-payments": {
+      "path": "./industry-verticals/global-payments",
       "nodeVersion": "22.11.0",
       "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
       "enabled": true,
@@ -12,7 +12,7 @@
     }
   },
   "deployItems": {
-    "modules": ["Project.IndustryVerticles", "forge", "skywings", "gridwell", "vitalis", "prosperabank", "Project.click-click-launch"]
+    "modules": ["Project.IndustryVerticles", "forge", "skywings", "gridwell", "vitalis", "global-payments", "Project.click-click-launch"]
   },
   "postActions": {
     "actions": {

@@ -1,6 +1,6 @@
 /**
  * Custom Next.js Image Loader
- * Automatically transforms prosperabank.dev URLs to the correct XM Cloud instance
+ * Automatically transforms global-payments.dev URLs to the correct XM Cloud instance
  * This runs globally for ALL images in the application
  * 
  * Sitecore images already have optimization parameters in the URL, so we return them as-is
@@ -10,9 +10,9 @@
 import { ImageLoaderProps } from 'next/image';
 
 export default function imageLoader({ src, width, quality }: ImageLoaderProps): string {
-  // Transform prosperabank.dev to actual XM Cloud hostname
+  // Transform global-payments.dev to actual XM Cloud hostname
   const transformedSrc = src.replace(
-    'https://prosperabank.dev',
+    'https://global-payments.dev',
     'https://xmc-sitecoresaafe06-globalpaymec222-prod8b6b.sitecorecloud.io'
   );
 

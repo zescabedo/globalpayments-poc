@@ -46,7 +46,7 @@ const nextConfig = {
   // can be served from the Next.js Image Optimization API
   // see https://nextjs.org/docs/app/api-reference/components/image#remotepatterns
   images: {
-    // Custom loader to transform prosperabank.dev URLs globally
+    // Custom loader to transform global-payments.dev URLs globally
     loader: 'custom',
     loaderFile: './src/lib/imageLoader.ts',
     remotePatterns: [
@@ -77,10 +77,10 @@ const nextConfig = {
         hostname: 'xmc-sitecoresaafe06-globalpaymec222-prod8b6b.sitecorecloud.io',
         port: '',
       },
-      // Local development: allow Sitecore media served from prosperabank.dev (if using local containers)
+      // Local development: allow Sitecore media served from global-payments.dev (if using local containers)
       {
         protocol: 'https',
-        hostname: 'prosperabank.dev',
+        hostname: 'global-payments.dev',
         port: '',
         pathname: '/-/**',
       },
@@ -120,7 +120,7 @@ const nextConfig = {
 
   async rewrites() {
     return [
-      // Proxy prosperabank.dev media requests to XM Cloud
+      // Proxy global-payments.dev media requests to XM Cloud
       {
         source: '/-/:path*',
         destination: 'https://xmc-sitecoresaafe06-globalpaymec222-prod8b6b.sitecorecloud.io/-/:path*',
