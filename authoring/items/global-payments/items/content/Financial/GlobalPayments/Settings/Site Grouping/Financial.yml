@@ -24,7 +24,7 @@ SharedFields:
   Value: 1
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: prosperabank.dev
+  Value: "globalpayments-poc.vercel.app"
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
   Value: "en=play-finance&fr=play-finance&ar-EG=play-finance&zh-CN=play-finance&de-CH=play-finance&is-IS=play-finance&it-CH=play-finance&ja-JP=play-finance&th-TH=play-finance"
@@ -36,10 +36,10 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8415daf6-243b-4f0f-9a29-09a6f7489cba"
+  Value: "2f19d9ae-c8e4-447f-9485-1e57df7ec349"
 - ID: "e5b5ccb5-17a1-429d-bd3e-6122b3216e52"
   Hint: TargetHostName
-  Value: prosperabank.dev
+  Value: "globalpayments-poc.vercel.app"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: "global-payments"
@@ -60,11 +60,11 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1db35822-8ee6-4fa7-b823-4563c25c2b5e"
+      Value: "7a6bba1b-c88c-468a-9923-9b9efeab9632"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260105T151410Z
+      Value: 20260105T224454Z

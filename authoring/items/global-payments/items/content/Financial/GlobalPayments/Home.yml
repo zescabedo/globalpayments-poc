@@ -322,7 +322,38 @@ Languages:
               s:ds="ef90ce9e-79a9-4d7d-b926-3f3127873be3"
               s:id="{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}"
               s:par="FieldNames=%7BA6053DA5-FCE4-4FFA-82F9-04625E1128AA%7D&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=33"
-              s:ph="headless-main" />
+              s:ph="headless-main">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{561BBF3A-9D0A-4435-9EF8-0F2D0F67595E}"
+                    s:name="63ab06f6cf5c4323a280964463e0d6a6">
+                    <conditions>
+                      <condition
+                        uid="14DEAB734F12440E959AF5E1D88AC298"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="63ab06f6cf5c4323a280964463e0d6a6" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{3E6F9720-DE08-4384-8643-80F6BB44F24E}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="c22737aa-afd8-43b2-a885-0e8acb1217dd" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="1F88DB3374934A9599F51B0529FFF07D"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{E9B8901C-76E9-4468-91C8-AFED599030D4}"
               p:after="r[@uid='{20386F98-F28A-4CB0-8FAE-03DDDA7433B5}']"
@@ -335,7 +366,7 @@ Languages:
               p:after="r[@uid='{E9B8901C-76E9-4468-91C8-AFED599030D4}']"
               s:ds="063f75b0-4b53-4e2d-b10a-1104c45ef82b"
               s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
-              s:par="FieldNames=%7B7D65F757-6E64-417A-9ED9-56868717574D%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B96542870-8A0D-48D0-A440-FA4F7B9B9625%7D%7C%7B7B072563-1F10-4500-8963-F2FE013CF51A%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=34"
+              s:par="FieldNames=%7B7D65F757-6E64-417A-9ED9-56868717574D%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B7B072563-1F10-4500-8963-F2FE013CF51A%7D%7C%7B96542870-8A0D-48D0-A440-FA4F7B9B9625%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=34"
               s:ph="headless-main" />
             <r
               uid="{25BB4BC0-3380-4F77-A814-53B159F07537}"
@@ -398,7 +429,7 @@ Languages:
         sitecore\kaitlyn.folsom@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "39350bb5-db54-4422-89df-54e94514fe43"
+      Value: "51159026-576b-4703-95d1-971a7fa7e851"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -408,7 +439,7 @@ Languages:
       Value: Global Payments
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260105T202257Z
+      Value: 20260109T224129Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

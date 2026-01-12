@@ -80,6 +80,10 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
+              uid="{EA7CE71D-6802-4C62-879A-B9CE687E1C77}">
+              <p:d />
+            </r>
+            <r
               uid="{C494869C-A931-4F42-8BDF-ACA32462F2B3}">
               <p:d />
             </r>
@@ -88,21 +92,8 @@ Languages:
               <p:d />
             </r>
             <r
-              uid="{7C9E1BAD-A136-4711-9220-AB61F227F432}">
-              <p:d />
-            </r>
-            <r
-              uid="{D0291F80-D41E-4573-9ABD-E186694B5C04}"
-              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=8" />
-            <r
-              uid="{1F32BF4D-B8E0-45B6-88A5-06755C8AD3E5}"
-              s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=9" />
-            <r
-              uid="{EA7CE71D-6802-4C62-879A-B9CE687E1C77}"
-              p:after="r[@uid='{1F32BF4D-B8E0-45B6-88A5-06755C8AD3E5}']" />
-            <r
               uid="{22F1B271-01FD-4FFB-BE1B-396D37EAD3F4}"
-              p:after="r[@uid='{EA7CE71D-6802-4C62-879A-B9CE687E1C77}']"
+              p:before="*"
               s:ds="local:/Data/Header"
               s:id="{81317D3B-F929-426A-83EC-421982F8F1E6}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;ContainerWidth&amp;FieldNames=%7BD695FAFC-1591-4377-A909-4CEE28CCEF0C%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=10"
@@ -119,6 +110,18 @@ Languages:
               s:id="{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B6E196E11-DF2D-4720-B9C0-E2BFBA276FEC%7D&amp;Styles&amp;NavigationRoot&amp;LevelFrom=%7B1BB88840-5FB3-4353-AD8D-81136F6FF75A%7D&amp;LevelTo=%7BA59325BB-5A27-46F9-8110-9D499715F3BE%7D&amp;Filter&amp;Flattened&amp;AddRoot&amp;SerializerFieldNames&amp;RenderingIdentifier&amp;CSSStyles"
               s:ph="/headless-header/header-right-0-10" />
+            <r
+              uid="{7C9E1BAD-A136-4711-9220-AB61F227F432}">
+              <p:d />
+            </r>
+            <r
+              uid="{D0291F80-D41E-4573-9ABD-E186694B5C04}">
+              <p:d />
+            </r>
+            <r
+              uid="{1F32BF4D-B8E0-45B6-88A5-06755C8AD3E5}">
+              <p:d />
+            </r>
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -130,14 +133,14 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6e24e1ce-fc31-4ae0-b286-80122ba5c5c2"
+      Value: "cdaf5b00-b409-46bc-97df-017d2c9023fe"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251230T002608Z
+      Value: 20260109T224129Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

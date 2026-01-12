@@ -1,0 +1,57 @@
+﻿---
+ID: "3f1e6c21-6cf8-4e94-98eb-cdbecf718879"
+Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: /sitecore/content/Financial/GlobalPayments/Home/insights/6 key takeways from our 2025 Retail Inventory Report
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{5C5FDAA2-782D-4BE7-89C8-8275CC0BE6E8}"
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/63795-HomePageHero-2000x800?v=04eba1cd" dam-id="OLkHxW3XRc2Ymgf2jHQK-g" width="2000" height="800" alt="img-hero.png" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63795/thumbnail" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1062F9F3-B737-465B-BCE9-99E33976F912}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "aa147dfa-6c4d-41a0-b406-08869eddc78f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260108T154202Z
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: We surveyed 200 small retail businesses to find out how they're managing stock, where things go sideways and what improves inventory visibility.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 6 key takeways from our 2025 Retail Inventory Report
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df120ffc-5bf8-4ec4-9909-1dd25ef7ebe4"
+    - ID: "b50fd793-8c46-4adf-b5e7-fe949d0852b6"
+      Hint: Category
+      Value: "{E6384F23-3E4F-47D0-B4D7-BAC4869AC5FB}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260108T165600Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: 6 key takeways from our 2025 Retail Inventory Report
