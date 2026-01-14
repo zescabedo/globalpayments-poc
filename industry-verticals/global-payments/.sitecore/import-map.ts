@@ -34,6 +34,7 @@ import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, T
 import { ParallaxBanner, useParallax, Parallax } from 'react-scroll-parallax';
 import { IconAccent } from 'components/NonSitecore/IconAccent';
 import { ScrollRevealText } from 'src/components/NonSitecore/ScrollRevealText';
+import GatedResourceModal from 'components/NonSitecore/GatedResourceModal';
 import { useScrollProgress } from 'src/hooks/useScrollProgress';
 
 const importMap = [
@@ -246,6 +247,12 @@ const importMap = [
     module: 'src/components/NonSitecore/ScrollRevealText',
     exports: [
       { name: 'ScrollRevealText', value: ScrollRevealText },
+    ]
+  },
+  {
+    module: 'components/NonSitecore/GatedResourceModal',
+    exports: [
+      { name: 'default', value: GatedResourceModal },
     ]
   },
   {

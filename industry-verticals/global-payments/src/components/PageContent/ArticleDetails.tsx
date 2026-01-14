@@ -1,4 +1,4 @@
-import React, { JSX } from 'react';
+import React, { JSX, useState } from 'react';
 import {
   Field,
   ImageField,
@@ -14,6 +14,7 @@ import {
 import { ComponentProps } from 'lib/component-props';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
 import Head from 'next/head';
+import GatedResourceModal from 'components/NonSitecore/GatedResourceModal';
 
 interface CategoryItem {
   id?: string;
@@ -37,6 +38,7 @@ interface Fields {
   Photo?: ImageField;
   Position?: Field<string>;
   Button?: LinkField;
+  IsGatedLink?: Field<boolean>;
   Category?: CategoryItem[] | Field<string>;
 }
 
@@ -51,11 +53,66 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
   
   // Safe field access with fallbacks
   const { fields } = props || {};
-  const { Title, Excerpt, Thumbnail, BackgroundImage, Content, Button, Category } = fields || {};
+  const { Title, Excerpt, Thumbnail, BackgroundImage, Content, Button, Category, IsGatedLink } = fields || {};
+  const [showGatedModal, setShowGatedModal] = useState(false);
   
   // Check if "no-background" style is selected
   const sxaStyles = `${props.params?.styles || ''}`;
   const hasNoBackground = sxaStyles.includes('no-background');
+
+  const downloadFile = async (url: string) => {
+    try {
+      // Fetch the file as a blob to force download
+      const response = await fetch(url);
+      const blob = await response.blob();
+      
+      // Create a blob URL
+      const blobUrl = window.URL.createObjectURL(blob);
+      
+      // Extract filename from URL or use a default
+      const urlParts = url.split('/');
+      const filename = urlParts[urlParts.length - 1] || 'download';
+      
+      // Create a temporary anchor element to trigger download
+      const link = document.createElement('a');
+      link.href = blobUrl;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      
+      // Cleanup
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(blobUrl);
+    } catch (error) {
+      console.error('Download failed:', error);
+      // Fallback to opening in new tab if download fails
+      window.open(url, '_blank');
+    }
+  };
+
+  const onGatedClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    const gatedToken = localStorage.getItem('gatedResourceToken');
+
+    if (!gatedToken && IsGatedLink?.value) {
+      event.preventDefault();
+      setShowGatedModal(true);
+    } else {
+      event.preventDefault();
+      if (Button?.value?.href) {
+        downloadFile(Button.value.href);
+      }
+    }
+  };
+
+  const onCloseModal = () => {
+    const gatedToken = localStorage.getItem('gatedResourceToken');
+
+    if (gatedToken && Button?.value?.href) {
+      downloadFile(Button.value.href);
+    }
+
+    setShowGatedModal(false);
+  };
   
   return (
     <>
@@ -149,9 +206,10 @@ export const Default = (props: PageBackgroundProps): JSX.Element => {
                       )}
                       {(isPageEditing || (Button?.value?.href && Button?.value?.text)) && Button && (
                         <div className="article-button-wrapper mt-4">
-                          <Link field={Button} className="btn btn-cta-primary btn-sm">
+                          <Link field={Button} className="btn btn-cta-primary btn-sm" onClick={onGatedClick}>
                             {Button?.value?.text || 'Button'}
                           </Link>
+                          <GatedResourceModal isOpen={showGatedModal} onClose={onCloseModal} />
                         </div>
                       )}
                       <div className="row mt-4">
