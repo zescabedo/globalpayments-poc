@@ -1,0 +1,53 @@
+﻿---
+ID: "4bf4d311-4897-4fc7-9147-af6093e71053"
+Parent: "8c2d6765-91be-4bd8-a0b3-4f81256e75a6"
+Template: "aad350f5-9331-4d71-a942-e3643653c028"
+Path: "/sitecore/content/Financial/GlobalPayments/Home/authors/Amanda-Stierwalt-Green"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9506EC6C-9951-4DF8-9FBF-1919DA6B531B}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "a7599f61-faf2-40d1-96fe-d3e6d9dd1548"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Amanda Stierwalt-Green"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260113T182325Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Amanda-Stierwalt-Green"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "251a8988-744a-4bf1-a987-b5df30bf615a"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Amanda Stierwalt-Green is a Manager of Product Management at Global Payments, where she combines her deep expertise in retail with a passion for understanding the unique needs of business owners to manage partnerships, integrations, and product. As a former retail small business owner, Amanda draws on her firsthand experience to approach product development with empathy, always prioritizing the end user in her decisions. Amanda is dedicated to fostering meaningful connections with business owners and partners to deliver impactful products tailored to their needs.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: "Amanda Stierwalt-Green"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260113T182340Z

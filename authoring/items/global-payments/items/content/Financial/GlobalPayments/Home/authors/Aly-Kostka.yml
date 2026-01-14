@@ -1,0 +1,56 @@
+﻿---
+ID: "2ae7fa62-1885-47a3-bb7f-a752df852fe4"
+Parent: "8c2d6765-91be-4bd8-a0b3-4f81256e75a6"
+Template: "aad350f5-9331-4d71-a942-e3643653c028"
+Path: "/sitecore/content/Financial/GlobalPayments/Home/authors/Aly-Kostka"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4C7096CD-B46B-4180-B487-E7D45D6663FE}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "56c71c34-ddd8-4ba7-bf36-39f0badb774e"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Aly Kostka
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260113T163848Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Aly-Kostka"
+    - ID: "524c9c82-80d5-4d65-b7e3-4dd0e365b762"
+      Hint: Position
+      Value: 
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bfb753e5-3a2f-483e-91a8-785c05d5a275"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: |
+        <div class="ck-content"><p>Aly Kostka is Head of Consumer Insights at Global Payments, where she leads research to uncover merchant needs and market trends. She brings a background in commercialization, marketing strategy and client success, giving her a well-rounded perspective on how technology and customer experience intersect. Aly is passionate about translating insights into strategies that drive innovation in the payments and point-of-sale space.</p></div>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Aly Kostka
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260113T163857Z

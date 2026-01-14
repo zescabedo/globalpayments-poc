@@ -1,0 +1,89 @@
+﻿---
+ID: "e03076ca-6aea-4957-b14e-24e079641666"
+Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: "/sitecore/content/Financial/GlobalPayments/Home/insights/why-drop-shipping-is-broken-and-how-to-fix-it-with-conduit-ceo-rohan-shah1"
+SharedFields:
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <image mediaid="{BED66BDF-CB89-42B7-91C4-CA499A29786A}" alt="" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FCBEE9A9-1A07-4F9D-BEE4-9AF06A521A20}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7bd31195-e770-4fe2-b3be-44f04d305a9a"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "d17f95e5-0ac4-4082-9db1-a0e4811f53a8"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Why drop shipping is broken and how to fix it, with Conduit CEO Rohan Shah
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p><strong>Consolidating the world's inventory: how Rohan Shah is revolutionizing drop shipping (and you can too)</strong></p><p>In a world where Amazon dominates e-commerce with seemingly endless product selection and lightning-fast delivery, smaller retailers face an uphill battle. But what if they could access the same high-quality, branded inventory without the logistical nightmares?</p><p>That's exactly what entrepreneur Rohan Shah is working to accomplish by tackling one of retail's most persistent challenges: connecting decentralized inventory with modern sales channels. He has built companies at the intersection of retail and infrastructure, with a new venture, Conduit Commerce, fixing what most retailers don’t realize is broken.</p><p>In <a href="https://www.youtube.com/watch?v=qTp8h2wCpFA">this episode of Beyond the Register</a>, Rohan unpacks the biggest blind spot in modern retail: your supply chain. We’ll dive into how you access, manage and fulfill inventory without blowing your margins.</p><p><img height="427" alt="Video call between two men smiling" width="640" src="-/media/BED66BDFCB8942B791C4CA499A29786A.ashx" /></p><p><strong>The drop shipping paradox: great concept, poor execution</strong></p><p>"Drop shipping is a really amazing idea because it allows the seller to focus on customer acquisition, sales, marketing, and support," explains Shah. "It abstracts away that whole layer of procuring products and figuring out how to get those products from point A to point B."</p><p>The concept makes perfect sense. Retailers shouldn't need to predict exactly which products customers will want or tie up capital in inventory that might not sell. Instead, they should be able to focus on what they do best: creating exceptional shopping experiences and building customer relationships.</p><p>But there's a glaring problem with drop shipping as it exists today.</p><p>"The products that you're able to drop ship are really low-quality, unbranded, commoditized Chinese products," said Shah. "They're not the high-quality branded products that you and I would interface with on a day-to-day basis."</p><p>This creates a fundamental disconnect. The furniture in your home, the electronics you use daily, the clothing you wear — these quality, branded items aren't typically available through drop shipping channels. Instead, retailers must either stock these products themselves (requiring significant capital investment) or miss out on sales opportunities.</p><p><strong>The hidden inventory network</strong></p><p>What many don't realize is that high-quality, branded inventory is readily available across the United States — just not in an easily accessible format for most retailers.</p><p>"Wholesale distributors are really the backbone of the CPG economy in today's world, especially in the U.S.," Shah explained. "These wholesale distributors have massive amounts of really high-quality branded inventory sitting in their warehouses all across the U.S."</p><p>These distributors operate on thin margins and high volume, optimizing for throughput and flow rate. Their primary goal is moving products quickly, which aligns perfectly with retailers' needs. So why aren't more retailers tapping into this network for drop shipping?</p><p><strong>The data problem behind inventory chaos</strong></p><p>The answer, according to Shah, is fundamentally a data problem.</p><p>"The systems that these large-scale suppliers and wholesale distributors are using to keep tabs of inventory are really old and antiquated," he says. "There are these legacy Enterprise Resource Planning (ERPs) systems — NetSuite, SAP, Oracle, Microsoft Dynamics — that are really good at what they were meant to do when they were first adopted: keeping tabs on inventory and helping with internal operational workflows."</p><p>What these systems aren't good at is exposing that data to third parties and trading partners who need it. The current solution? Electronic Data Interchange (EDI) — a technology developed before the internet existed.</p><p>"It's the [worst] flat file swap protocol that you can imagine, probably built in the 60s and 70s and hasn't really evolved much since then," Shah says.</p><p><strong>Building an API-first inventory network</strong></p><p><a href="https://www.conduitcommerce.com/retailers">Shah's solution</a> is creating what he calls "an API-first network of all this inventory" that makes it seamless for any source of demand to tap into any source of supply.</p><p>"If you think about any of the networks that exist in today's world in a modern, technologically forward way — all of these are being done via modern API infrastructure," Shah explained.</p><p>His company is building this same type of network for inventory, normalizing data from disparate systems and making it accessible through modern APIs.</p><p><strong>Lessons on competing with Amazon</strong></p><p>For mid-sized retailers wondering how they can possibly compete with Amazon's logistics machine, Shah breaks it down into four key components:</p><ul><li><p><strong>Inventory availability:</strong> "It's nearly impossible for a retailer to predict all the products a customer will want or to stock all those products," Shah explained. His solution creates an "endless aisle" of virtual inventory retailers can offer without carrying the stock.</p></li><li><p><strong>Competitive pricing:</strong> "Amazon takes a 30% haircut on every dollar you're making," Shah points out. By connecting directly with distributors, retailers can access wholesale pricing plus reasonable fulfillment costs, giving them room to undercut large marketplaces while maintaining margins.</p></li><li><p><strong>Fast delivery:</strong> With inventory positioned in strategic locations throughout the US, retailers can offer 1-3 day delivery to compete with Amazon's speed. "It's not difficult logistically to get that item to a doorstep within one, two, three days," Shah notes.</p></li><li><p><strong>Customer experience:</strong> By focusing on their unique brand and customer service — areas where they can differentiate — retailers can create compelling alternatives to the Amazon experience.</p></li></ul><p><strong>Entrepreneurial wisdom: start building, stop talking</strong></p><p>When asked what advice he'd give his younger self, Shah emphasizes the importance of founder-market fit.</p><p>"I think it has to be clear why you are the one to build what you're building," he says. "I see a lot of people who maybe spent a bunch of time at Facebook and then decide, 'I'm going to go build a healthcare company.' Building a company sounds very simple from a bird's eye view, but the nuance is: why are you the person to build that company?"</p><p>His second piece of advice is equally straightforward: "I don't think you can really learn just by listening to opinions. I think you just gotta dive into the trenches and start doing [things]. That's when real insights come."</p><p>For first-time founders, Shah recommends focusing on areas where you have structural advantages and then moving forward relentlessly, being willing to pivot based on real-world feedback.</p><p>"Just start moving forward relentlessly, one step at a time. And along the way, be OK to pivot and be OK to adapt to what you're hearing on the ground. Move really quickly and ship really fast," he said.</p><p><strong>Resources mentioned</strong></p><ul><li><p><a href="http://conduitcommerce.com/">Conduit Commerce</a></p></li><li><p><a href="https://www.linkedin.com/in/rohanyshah/">Rohan’s LinkedIn Profile</a></p></li></ul><p><strong>Explore more fresh ideas to grow your business</strong></p><p>We’ve explored why traditional drop-shipping falls short and how innovators like Rohan Shah are rewriting the playbook for modern retail. But this is just the beginning.</p><p>If you found these insights valuable, there’s more where that came from. Check out the Beyond the Register podcast for more conversations that challenge the status quo and deliver actionable insights for business owners like you. <a href="https://open.spotify.com/show/50j0BPYfJdfijajlTEW51l?si=AfKIiKDvRSKmqvPrNAdxSg">Listen to Beyond The Register on Spotify</a> or <a href="https://podcasts.apple.com/us/podcast/beyond-the-register-with-jeramey-watts/id1858128123">Apple Podcasts</a>, and <a href="https://anchor.fm/s/10c5c34bc/podcast/rss">subscribe to Beyond the Register’s RSS Feed today</a>.</p>
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{1333C7A2-2A6C-4310-AE74-8D5DE936F8B3}">
+              <p:d />
+            </r>
+            <r
+              uid="{6D7B6486-914D-46B7-BB47-F7FB5D8B886B}"
+              s:ds="local:/Data/Author Page 2"
+              s:id="{9D7DE58D-9DA4-43D8-8371-3C728A582ADC}"
+              s:par="FieldNames=Default&amp;GridParameters=col-12&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=1&amp;RenderingIdentifier=6d7b6486-914d-46b7-bb47-f7fb5d8b886b"
+              s:ph="/headless-main/sxa-article-content/article-meta-0-1" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260113T181957Z
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value:  
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Why drop shipping is broken (and how to fix it), with Conduit CEO Rohan Shah
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "68a51339-24c1-4080-b4bd-5b64061ef844"
+      Hint: Button
+      Value: |
+        <link text="Watch the Episode" linktype="external" url="https://www.youtube.com/watch?v=qTp8h2wCpFA" target="_blank" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "835b3079-7fc6-4249-9a44-7f3baaffda88"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260113T182815Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Why drop shipping is broken (and how to fix it), with Conduit CEO Rohan Shah

@@ -327,19 +327,35 @@ Languages:
                 <ruleset
                   s:pet="true">
                   <rule
-                    uid="{561BBF3A-9D0A-4435-9EF8-0F2D0F67595E}"
-                    s:name="63ab06f6cf5c4323a280964463e0d6a6">
+                    uid="{3B49F157-021A-4952-BD78-BE12B3B78127}"
+                    s:name="f6438f4d76df4ca7a119a86ddfb88e10">
                     <conditions>
                       <condition
-                        uid="14DEAB734F12440E959AF5E1D88AC298"
+                        uid="2751C9A8F63C4881B24399DA8389F932"
                         s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
-                        s:VariantName="63ab06f6cf5c4323a280964463e0d6a6" />
+                        s:VariantName="f6438f4d76df4ca7a119a86ddfb88e10" />
                     </conditions>
                     <actions>
                       <action
-                        uid="{3E6F9720-DE08-4384-8643-80F6BB44F24E}"
+                        uid="{8419D66A-010F-4529-ADF7-055738092E39}"
                         s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
-                        s:DataSource="c22737aa-afd8-43b2-a885-0e8acb1217dd" />
+                        s:DataSource="c08ae500-0c0c-4377-a41c-8362c8edbc9b" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{E20D066C-7E44-4585-B7FE-47ECB8F64F6B}"
+                    s:name="21c0d0721e93448c9f108a357f0c9081">
+                    <conditions>
+                      <condition
+                        uid="AD56FA1E08174BDCBB1C276D576CD9C7"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="21c0d0721e93448c9f108a357f0c9081" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{B92EDEEA-E08C-4FD7-BDA4-9DE4C2F4DE18}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="ac848573-621e-41a0-aee7-5c90575657bf" />
                     </actions>
                   </rule>
                   <rule
@@ -429,7 +445,7 @@ Languages:
         sitecore\kaitlyn.folsom@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "51159026-576b-4703-95d1-971a7fa7e851"
+      Value: "d4bcf7b0-e9da-41ae-82e2-b6a0bb5c8b1b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -439,7 +455,7 @@ Languages:
       Value: Global Payments
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260109T224129Z
+      Value: 20260114T143015Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

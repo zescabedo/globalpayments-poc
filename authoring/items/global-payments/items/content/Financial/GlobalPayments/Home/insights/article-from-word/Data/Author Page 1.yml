@@ -1,0 +1,45 @@
+﻿---
+ID: "fbf053b0-5a30-4a15-89c0-ac53e00d64a0"
+Parent: "418db927-3fe4-4778-a91d-a987f873bed3"
+Template: "aad350f5-9331-4d71-a942-e3643653c028"
+Path: "/sitecore/content/Financial/GlobalPayments/Home/insights/article-from-word/Data/Author Page 1"
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{B25AC5BB-C91B-4041-942A-8DF0CA735552}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260113T164841Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Author Page 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5a7b3a2-a461-40ef-a806-7da33c637737"
+    - ID: "97b19c3f-9341-48ac-be54-22e1caaa1d48"
+      Hint: Bio
+      Value: <p>Amy is a senior copywriter at Global Payments, where she’s passionate about helping small business owners, educators and nonprofits navigate technology. When she's not writing, you can find her on a yoga mat, a hiking trail or at the beach.</p>
+    - ID: "996749ca-6a47-463d-a759-7db65676f179"
+      Hint: Name
+      Value: Amy Pizzolatto
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\6mqLPO5vGUln49ZgTyHoLvNnGvJXsFSd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260113T164842Z

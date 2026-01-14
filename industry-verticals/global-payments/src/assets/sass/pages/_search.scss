@@ -1,0 +1,128 @@
+.search-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff;
+
+  &__container {
+    width: 100%;
+    max-width: 688px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    &-svg {
+      max-height: 92px;
+      max-width: 272px;
+      height: auto;
+      width: auto;
+    }
+  }
+
+  &__form {
+    width: 100%;
+  }
+
+  &__input-container {
+    width: 100%;
+  }
+
+  &__input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 26px;
+    box-shadow: 0px 3px 10px 0px rgba(31, 31, 31, 0.08);
+    padding: 0 8px 0 0;
+    min-height: 50px;
+    transition: box-shadow 0.2s;
+
+    &:hover {
+      box-shadow: 0 2px 8px 1px rgba(64, 60, 67, 0.24);
+    }
+
+    &:focus-within {
+      box-shadow: 0 2px 8px 1px rgba(64, 60, 67, 0.24);
+      border-color: transparent;
+    }
+  }
+
+  &__search-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 13px 0 14px;
+    color: #9aa0a6;
+    height: 50px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Google Sans', Arial, sans-serif;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.87);
+    resize: none;
+    padding: 14px 0;
+    min-height: 22px;
+    max-height: 200px;
+    overflow-y: auto;
+
+    &::placeholder {
+      color: #5e5e5e;
+    }
+  }
+
+  &__suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 0 4px 6px rgba(32, 33, 36, 0.28);
+    margin-top: -1px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+
+  &__suggestion {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #212121;
+    border-bottom: 1px solid #e8eaed;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover,
+    &.active {
+      background-color: #f3f5f6;
+    }
+  }
+}
