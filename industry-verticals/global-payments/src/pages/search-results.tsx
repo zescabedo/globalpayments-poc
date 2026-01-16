@@ -15,6 +15,7 @@ interface SidebarAd {
   snippet: string;
   source: string;
   url?: string;
+  imageUrl?: string;
 }
 
 const SearchResultsPage = (): JSX.Element => {
@@ -32,25 +33,11 @@ const SearchResultsPage = (): JSX.Element => {
   // Mock search results - in a real app, these would come from an API
   const mockResults: SearchResult[] = [
     {
-      title: 'Genius POS by Global Payments - Point of Sale Platform',
-      url: 'https://www.globalpayments.com/genius-pos',
+      title: 'Global Payments: Payment Solutions and Software',
+      url: 'https://globalpayments-poc.vercel.app/',
       snippet:
-        'Genius POS by Global Payments is a versatile, cloud-based Point of Sale platform offering integrated payment processing, software, and business management tools for retail, restaurants, and enterprises...',
+        'Global Payments delivers flexible, future-ready payment processing solutions, software and systems that fuel the growth of businesses and organizations of ...',
       displayUrl: 'globalpayments.com › genius-pos',
-    },
-    {
-      title: 'Genius Retail POS System - Payment Solution',
-      url: 'https://www.globalpayments.com/genius-retail',
-      snippet:
-        "That's Genius. GENIUS FOR RETAIL. Running a retail business is tough — getting the right tech shouldn't be. Genius is our retail point of sale system designed to streamline operations...",
-      displayUrl: 'globalpayments.com › genius-retail',
-    },
-    {
-      title: 'Genius for Enterprise - POS Solution',
-      url: 'https://www.globalpayments.com/genius-enterprise',
-      snippet:
-        'Global Payments Announces the Launch of its Genius™ for Enterprise POS Solution. All the functionality enterprise POS customers demand with the flexibility to scale...',
-      displayUrl: 'globalpayments.com › genius-enterprise',
     },
   ];
 
@@ -58,23 +45,41 @@ const SearchResultsPage = (): JSX.Element => {
     {
       title: 'Genius Retail POS System and Payment Solution',
       snippet:
-        "That's Genius. GENIUS FOR RETAIL. Running a retail business is tough — getting the right tech shouldn't be. Genius is our retail p...",
+        "That's Genius. GENIUS FOR RETAIL. Running a retail business is tough...",
       source: 'Global Payments',
       url: '/?utm_campaign=genius-retail',
+      imageUrl:
+        'https://globalpayments.sitecoresandbox.cloud/api/public/content/57080575e7a24a27a2b7d45f4690306e?v=c515e41a',
     },
     {
-      title: 'Global Payments Launches New Genius™ POS Platform',
+      title: 'Global Payments Launches New Genius™ POS Platform for Restaurants',
       snippet:
-        'The new Genius platform enables global expansion and vertical specialization at scale, allowing Global Payments to rapidly launch ...',
+        'The new Genius platform enables global expansion and vertical specialization...',
       source: 'Global Payments',
       url: '/?utm_campaign=genius-restaurants',
+      imageUrl:
+        'https://globalpayments.sitecoresandbox.cloud/api/public/content/e4b5ed3217e245179561971a82eccc6d?v=a86a0b63',
     },
     {
-      title: 'Global Payments Announces the Launch of its Genius™ for ...',
+      title: 'Global Payments: Payment Solutions and Software',
       snippet:
-        'Global Payments Announces the Launch of its Genius™ for Enterprise POS Solution * All the functionality enterprise POS customers d...',
+        'Global Payments delivers flexible, future-ready payment processing solutions, software and systems that fuel the growth of businesses and organizations of ...',
       source: 'Global Payments',
+      url: 'https://globalpayments-poc.vercel.app/',
+      imageUrl:
+        'https://globalpayments.sitecoresandbox.cloud/api/public/content/2ed5fdd748a5404f93257c74d7a7d529?v=85da39fa',
     },
+  ];
+
+  const tabs = [
+    { label: 'AI Mode', active: false },
+    { label: 'All', active: true },
+    { label: 'Images', active: false },
+    { label: 'Shopping', active: false },
+    { label: 'Videos', active: false },
+    { label: 'News', active: false },
+    { label: 'Short videos', active: false },
+    { label: 'More', active: false },
   ];
 
   useEffect(() => {
@@ -258,6 +263,23 @@ const SearchResultsPage = (): JSX.Element => {
               </div>
             </form>
           </div>
+          <div className="search-results-page__tabs">
+            <nav className="search-results-page__tabs-nav" aria-label="Search filters">
+              <ul className="search-results-page__tabs-list">
+                {tabs.map((tab) => (
+                  <li
+                    key={tab.label}
+                    className={`search-results-page__tab ${tab.active ? 'is-active' : ''}`}
+                  >
+                    <span>{tab.label}</span>
+                  </li>
+                ))}
+              </ul>
+              <button className="search-results-page__tools" type="button">
+                Tools
+              </button>
+            </nav>
+          </div>
         </header>
 
         <main className="search-results-page__main" id="main">
@@ -272,51 +294,141 @@ const SearchResultsPage = (): JSX.Element => {
               </div>
 
               {/* AI Overview Section */}
-              {query && query.toLowerCase().includes('genius pos') && (
+              {query &&
+                (query.toLowerCase().includes('genius pos') ||
+                  (query.toLowerCase().includes('point of sale') &&
+                    query.toLowerCase().includes('restaurant'))) && (
                 <div className="search-results-page__ai-overview">
                   <div className="search-results-page__ai-header">
-                    <h2 className="search-results-page__ai-title">AI Overview</h2>
+                    <div className="search-results-page__ai-title-wrap">
+                      <span className="search-results-page__ai-spark" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="img">
+                          <path
+                            d="M12 2l2.2 6.1L20 10l-5.8 1.9L12 18l-2.2-6.1L4 10l5.8-1.9L12 2z"
+                            fill="currentColor"
+                          />
+                        </svg>
+                      </span>
+                      <h2 className="search-results-page__ai-title">AI Overview</h2>
+                    </div>
+                    <button
+                      className="search-results-page__ai-menu"
+                      type="button"
+                      aria-label="More options"
+                    >
+                      <span aria-hidden="true">⋮</span>
+                    </button>
                   </div>
                   <div className="search-results-page__ai-content">
                     <p>
-                      Genius POS by Global Payments is a versatile, cloud-based Point of Sale
-                      platform offering integrated payment processing, software, and business
-                      management tools for retail, restaurants, and enterprises, enabling features
-                      like inventory, customer management, and omnichannel sales (in-store, online,
-                      mobile) to streamline operations and enhance customer experience globally.
-                      It&apos;s designed to be scalable for businesses of all sizes, from small shops to
-                      large chains, providing a unified command center for payments and operations.
+                      For growing restaurants needing global payments, top POS systems include
+                      Global Payments (built for scale across 62 countries, supporting QSR to
+                      enterprise), Lightspeed (strong analytics, e-commerce/delivery integrations),
+                      and TouchBistro (popular management platform), with Square offering broad
+                      usability but potential per-device costs; key features for growth are
+                      scalability, robust reporting, and multi-currency support.
                     </p>
                     <div className="search-results-page__ai-features">
                       <h3 className="search-results-page__ai-features-title">
-                        Key Features & Capabilities
+                        Top Picks for Growth & Global Reach
                       </h3>
                       <ul className="search-results-page__ai-features-list">
                         <li>
-                          <strong>Omnichannel Sales:</strong> Supports in-store (countertop,
-                          handheld), online (virtual terminal, payment links), and mobile payments.
+                          <strong>Global Payments (Genius):</strong> Designed for all restaurant
+                          types (QSR, casual, fine dining) and capable of handling global operations,
+                          offering features like self-ordering kiosks, KDS, and delivery dispatch
+                          across 62 countries.
                         </li>
                         <li>
-                          <strong>Integrated Payments:</strong> Handles credit, debit, gift, and
-                          contactless payments seamlessly.
+                          <strong>Lightspeed Restaurant:</strong> Excellent for scaling, providing
+                          deep analytics, inventory management, and seamless integration with
+                          e-commerce and delivery platforms, crucial for multi-location growth.
                         </li>
                         <li>
-                          <strong>Retail Management:</strong> Includes inventory tracking, customer
-                          data analytics, promotions, and back-office management.
+                          <strong>TouchBistro:</strong> A popular choice for restaurant management,
+                          known for its comprehensive features that support growing businesses.
                         </li>
                         <li>
-                          <strong>Restaurant Management:</strong> Offers table management, kitchen
-                          communication, and scan-to-order/pay.
-                        </li>
-                        <li>
-                          <strong>Enterprise-Ready:</strong> Built for scale with features for large
-                          organizations, including food service and specialized sectors.
-                        </li>
-                        <li>
-                          <strong>Global Expansion:</strong> Enables rapid deployment across
-                          different countries with localized requirements.
+                          <strong>Square:</strong> A modern, cloud-based system favored by many,
+                          though be mindful of potential added costs for multiple devices as you
+                          expand.
                         </li>
                       </ul>
+                    </div>
+                    <div className="search-results-page__ai-link">
+                      <a
+                        href="https://globalpayments-poc.vercel.app/?utm_campaign=genius-restaurants"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Learn more about Genius POS
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              )}
+              {query &&
+                (query.toLowerCase().includes('genius pos') ||
+                  (query.toLowerCase().includes('point of sale') &&
+                    query.toLowerCase().includes('restaurant'))) && (
+                <div className="search-results-page__ai-actions">
+                  <button className="search-results-page__ai-deeper" type="button">
+                    Dive deeper in AI Mode
+                  </button>
+                  <div className="search-results-page__ai-footer">
+                    <span>AI responses may include mistakes.</span>
+                    <a href="https://support.google.com/websearch" target="_blank" rel="noreferrer">
+                      Learn more
+                    </a>
+                    <div className="search-results-page__ai-feedback">
+                      <button type="button" aria-label="Copy">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path
+                            d="M8 7h9a2 2 0 0 1 2 2v9H8a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                          />
+                          <path
+                            d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                          />
+                        </svg>
+                      </button>
+                      <button type="button" aria-label="Thumbs down">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path
+                            d="M10 14H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                          />
+                          <path
+                            d="M10 14l1.5 6a2 2 0 0 0 3.9-.7L14 14h3a2 2 0 0 0 2-2l-1-6a2 2 0 0 0-2-2H10"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                          />
+                        </svg>
+                      </button>
+                      <button type="button" aria-label="Thumbs up">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path
+                            d="M10 10H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h4"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                          />
+                          <path
+                            d="M10 10l1.5-6a2 2 0 0 1 3.9.7L14 10h3a2 2 0 0 1 2 2l-1 6a2 2 0 0 1-2 2H10"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                          />
+                        </svg>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -345,22 +457,54 @@ const SearchResultsPage = (): JSX.Element => {
 
             {/* Right Sidebar with Ads */}
             <aside className="search-results-page__sidebar">
-              <div className="search-results-page__sidebar-ads">
+              <div className="search-results-page__sidebar-card">
                 {sidebarAds.map((ad, index) => (
-                  <div key={index} className="search-results-page__sidebar-ad">
-                    <h4 className="search-results-page__sidebar-ad-title">
-                      {ad.url ? (
-                        <Link href={ad.url}>
+                  <div
+                    key={index}
+                    className={`search-results-page__sidebar-item ${
+                      index === 0 ? 'is-featured' : ''
+                    }`}
+                  >
+                    <div className="search-results-page__sidebar-item-main">
+                      <div className="search-results-page__sidebar-item-meta">
+                        <span className="search-results-page__sidebar-item-source">
+                          {ad.source}
+                        </span>
+                        <button
+                          className="search-results-page__sidebar-item-menu"
+                          type="button"
+                          aria-label="More options"
+                        >
+                          ⋮
+                        </button>
+                      </div>
+                      <h4 className="search-results-page__sidebar-item-title">
+                        {ad.url ? (
+                        <a href={ad.url} target="_blank" rel="noopener noreferrer">
                           {ad.title}
-                        </Link>
-                      ) : (
-                        ad.title
-                      )}
-                    </h4>
-                    <p className="search-results-page__sidebar-ad-snippet">{ad.snippet}</p>
-                    <div className="search-results-page__sidebar-ad-source">{ad.source}</div>
+                        </a>
+                        ) : (
+                          ad.title
+                        )}
+                      </h4>
+                      <p className="search-results-page__sidebar-item-snippet">{ad.snippet}</p>
+                    </div>
+                    {ad.imageUrl && (
+                      <div className="search-results-page__sidebar-item-image">
+                        {ad.url ? (
+                          <a href={ad.url} target="_blank" rel="noopener noreferrer">
+                            <img src={ad.imageUrl} alt={ad.title} />
+                          </a>
+                        ) : (
+                          <img src={ad.imageUrl} alt={ad.title} />
+                        )}
+                      </div>
+                    )}
                   </div>
                 ))}
+                <button className="search-results-page__sidebar-show-all" type="button">
+                  Show all
+                </button>
               </div>
             </aside>
           </div>

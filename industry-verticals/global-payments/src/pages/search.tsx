@@ -11,7 +11,7 @@ const SearchPage = (): JSX.Element => {
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const suggestionsRef = useRef<HTMLUListElement>(null);
 
-  const suggestionsData = ['Global Payments Genius POS'];
+  const suggestionsData = ['Best point of sale system for growing restaurants'];
 
   useEffect(() => {
     if (inputRef.current) {
@@ -107,7 +107,45 @@ const SearchPage = (): JSX.Element => {
         <meta name="description" content="Search page" />
       </Head>
       <div className="search-page">
-        <div className="search-page__container">
+        <header className="search-page__header">
+          <nav className="search-page__nav search-page__nav--left" aria-label="Primary">
+            <a href="https://globalpayments-poc.vercel.app/" target="_blank" rel="noreferrer">
+              Home Page
+            </a>
+            <a href="https://globalpayments-poc.vercel.app/?utm_campaign=genius-retail" target="_blank" rel="noreferrer">
+              Retail
+            </a>
+            <a href="https://globalpayments-poc.vercel.app/?utm_campaign=genius-restaurants" target="_blank" rel="noreferrer">
+              Restaurants
+            </a>
+          </nav>
+          <nav className="search-page__nav search-page__nav--right" aria-label="Secondary">
+            <a href="https://xmapps.sitecorecloud.io/strategy/overview?tenantName=globalpayme583f-globalpayme5281-globalpayme1d82&organization=org_xRvyOVIhrfN7vQzW" target="_blank" rel="noreferrer">
+              SitecoreAI
+            </a>
+            <a href="https://pages.sitecorecloud.io/editor?organization=org_xRvyOVIhrfN7vQzW&tenantName=globalpayme583f-globalpayme5281-globalpayme1d82&sc_site=Financial&sc_itemid=b2a38fb8-2e85-4d58-afe5-c12beccbee3a&sc_lang=en&sc_version=1" target="_blank" rel="noreferrer">
+              Pages Editor
+            </a>
+            <button className="search-page__apps" type="button" aria-label="Google apps">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M5 5h3v3H5V5zm0 5.5h3v3H5v-3zm0 5.5h3v3H5v-3zM10.5 5h3v3h-3V5zm0 5.5h3v3h-3v-3zm0 5.5h3v3h-3v-3zM16 5h3v3h-3V5zm0 5.5h3v3h-3v-3zm0 5.5h3v3h-3v-3z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+            <a
+              className="search-page__signin"
+              href="https://accounts.google.com/ServiceLogin"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sign in
+            </a>
+          </nav>
+        </header>
+
+        <main className="search-page__main">
           <div className="search-page__logo">
             <svg
               className="search-page__logo-svg"
@@ -168,6 +206,24 @@ const SearchPage = (): JSX.Element => {
                   rows={1}
                   autoFocus
                 />
+                <div className="search-page__input-actions">
+                  <button type="button" aria-label="Search by voice">
+                    <svg viewBox="0 -960 960 960" aria-hidden="true">
+                      <path d="M480-400q-50 0-85-35t-35-85v-240q0-50 35-85t85-35q50 0 85 35t35 85v240q0 50-35 85t-85 35Zm-40 280v-123q-104-14-172-93t-68-184h80q0 83 58.5 141.5T480-320q83 0 141.5-58.5T680-520h80q0 105-68 184t-172 93v123h-80Z" />
+                    </svg>
+                  </button>
+                  <button type="button" aria-label="Search by image">
+                    <svg viewBox="0 -960 960 960" aria-hidden="true">
+                      <path d="M480-320q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35Zm240 160q-33 0-56.5-23.5T640-240q0-33 23.5-56.5T720-320q33 0 56.5 23.5T800-240q0 33-23.5 56.5T720-160Zm-440 40q-66 0-113-47t-47-113v-80h80v80q0 33 23.5 56.5T280-200h200v80H280Zm480-320v-160q0-33-23.5-56.5T680-680H280q-33 0-56.5 23.5T200-600v120h-80v-120q0-66 47-113t113-47h80l40-80h160l40 80h80q66 0 113 47t47 113v160h-80Z" />
+                    </svg>
+                  </button>
+                  <button className="search-page__ai-mode" type="button" aria-label="AI Mode">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M12 2l2.2 6.1L20 10l-5.8 1.9L12 18l-2.2-6.1L4 10l5.8-1.9L12 2z" />
+                    </svg>
+                    <span>AI Mode</span>
+                  </button>
+                </div>
                 {showSuggestions && suggestions.length > 0 && (
                   <ul
                     ref={suggestionsRef}
@@ -192,8 +248,39 @@ const SearchPage = (): JSX.Element => {
                 )}
               </div>
             </div>
+            <div className="search-page__actions">
+              <button className="search-page__action" type="submit">
+                Google Search
+              </button>
+              <button className="search-page__action" type="button">
+                I&apos;m Feeling Lucky
+              </button>
+            </div>
           </form>
-        </div>
+        </main>
+
+        <footer className="search-page__footer">
+          <div className="search-page__footer-links">
+            <a href="https://www.google.com/intl/en_us/ads/" target="_blank" rel="noreferrer">
+              Advertising
+            </a>
+            <a href="https://www.google.com/services/" target="_blank" rel="noreferrer">
+              Business
+            </a>
+            <a href="https://google.com/search/howsearchworks/" target="_blank" rel="noreferrer">
+              How Search works
+            </a>
+          </div>
+          <div className="search-page__footer-links">
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer">
+              Privacy
+            </a>
+            <a href="https://policies.google.com/terms" target="_blank" rel="noreferrer">
+              Terms
+            </a>
+            <button type="button">Settings</button>
+          </div>
+        </footer>
       </div>
     </>
   );

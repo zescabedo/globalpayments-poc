@@ -1,0 +1,65 @@
+﻿---
+ID: "fdd2cc30-4e7f-472a-a37b-9605439499e9"
+Parent: "bb81a942-713a-4da1-ab8e-e6d504899ed3"
+Template: "c0943942-ae0f-4205-86fa-84884cce4a53"
+Path: /sitecore/content/Financial/GlobalPayments/Data/Promos/Promo CTA/Genius POS for retail
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "767d6ba2-da86-4348-80bb-517e29b35dc8"
+- ID: "e495efd3-5c43-45fc-af43-796a6b503716"
+  Hint: Image
+  Value: |
+    <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/be4a4162cb924d20947cc561c77ab61d?v=7da23d23" dam-id="IqDQiy0wRRu81Tg-JEPrgQ" width="1100" height="734" alt="vid-hero.mp4" dam-content-type="Image" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63923/thumbnail" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f82a687-0683-426f-b12a-4b2100a6a481"
+      Hint: Title
+      Value: "Ready to elevate your retail business? Discover Genius"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260116T025751Z
+    - ID: "2fbad11a-8129-4c7e-aacc-6973619327a1"
+      Hint: Eyebrow
+      Value: Genius POS Solutions for Retailers
+    - ID: "326f3fb4-ff4f-423c-87c6-2cc15a8eed22"
+      Hint: Video
+      Value: |
+        <Image src="https://globalpayments.sitecoresandbox.cloud/api/public/content/6d88247978f5448a923673eddc7f643d?v=81c83c81" dam-id="IqDQiy0wRRu81Tg-JEPrgQ" width="960" height="640" alt="vid-hero.mp4" dam-content-type="Video" thumbnailsrc="https://globalpayments.sitecoresandbox.cloud/api/gateway/63923/thumbnail" />
+    - ID: "32f3e9b1-c441-4285-a063-0897453f37e2"
+      Hint: Link2
+      Value: 
+    - ID: "507ba267-78fc-42f1-ac96-a1cb769b6de6"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="https://example.com" text="Start Optimizing Today" anchor=""/>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "113392b1-0e6c-41b3-ac34-c849c461448b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "cc0cb595-ce5c-413e-b413-3a7176347f28"
+      Hint: Text
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260116T032306Z
+    - ID: "e4f11fe1-3b24-42e4-8cea-9ed7fda32bab"
+      Hint: Subtitle
+      Value: Experience a transformation in how you do business with Genius, the fast and reliable POS system designed to scale as your retail business grows, while enhancing revenue and customer satisfaction.

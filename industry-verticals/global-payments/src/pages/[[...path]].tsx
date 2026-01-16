@@ -36,6 +36,33 @@ const SitecorePage = ({ notFound, componentProps, page }: SitecorePageProps): JS
   );
 };
 
+const normalizePathSegment = (segment: string) => segment.toLowerCase();
+
+const normalizeStaticPath = (path: StaticPath): StaticPath => {
+  const params = path.params ?? {};
+  const normalizedParams = { ...params };
+  const rawSegments = params.path;
+
+  if (Array.isArray(rawSegments)) {
+    normalizedParams.path = rawSegments.map(normalizePathSegment);
+  }
+
+  return {
+    ...path,
+    params: normalizedParams,
+  };
+};
+
+const getStaticPathKey = (path: StaticPath): string => {
+  const params = path.params ?? {};
+  const rawSegments = params.path;
+  const normalizedSegments = Array.isArray(rawSegments)
+    ? rawSegments.map(normalizePathSegment)
+    : [];
+
+  return [path.locale || '', ...normalizedSegments].join('/');
+};
+
 // This function gets called at build and export time to determine
 // pages for SSG ("paths", as tokenized array).
 export const getStaticPaths: GetStaticPaths = async (context) => {
@@ -52,10 +79,21 @@ export const getStaticPaths: GetStaticPaths = async (context) => {
 
   if (process.env.NODE_ENV !== 'development' && scConfig.generateStaticPaths) {
     try {
-      paths = await client.getPagePaths(
+      const rawPaths = await client.getPagePaths(
         sites.map((site: SiteInfo) => site.name),
         context?.locales || []
       );
+      const seenPaths = new Set<string>();
+      paths = rawPaths
+        .map(normalizeStaticPath)
+        .filter((path) => {
+          const key = getStaticPathKey(path);
+          if (seenPaths.has(key)) {
+            return false;
+          }
+          seenPaths.add(key);
+          return true;
+        });
     } catch (error) {
       console.log('Error occurred while fetching static paths');
       console.log(error);
