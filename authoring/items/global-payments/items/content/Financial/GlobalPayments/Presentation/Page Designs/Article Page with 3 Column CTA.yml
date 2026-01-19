@@ -1,0 +1,38 @@
+﻿---
+ID: "94483723-539f-49ca-be00-f67711a0c74f"
+Parent: "4702d241-fc74-430a-95ab-73566612cb34"
+Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
+Path: /sitecore/content/Financial/GlobalPayments/Presentation/Page Designs/Article Page with 3 Column CTA
+SharedFields:
+- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
+  Hint: PartialDesigns
+  Value: "3db7d8c4-d4ef-4af1-bd48-a0f25c3d7872|6b39f54f-4e7e-4aa9-ad6e-155c93ed7c50|2fa09ecc-e4f8-4a1e-aa8c-43768ec36b5b"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9577FF23-7437-4375-9962-C6FE1D39C171}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "0c669a5f-575f-47da-b6ac-26c731035beb"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260119T165348Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed48c8c3-9ecf-4829-b357-039a47dbd845"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\zach.escabedo@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260119T165935Z

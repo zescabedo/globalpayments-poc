@@ -6,7 +6,10 @@ Path: /sitecore/content/Financial/GlobalPayments/Home/insights
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: "{F83CCEFD-FC41-4A60-9882-8F7EA5CF41A8}"
+  Value: |
+    {F83CCEFD-FC41-4A60-9882-8F7EA5CF41A8}
+    {35C612D4-04E6-490E-8529-AA9DA1CEC819}
+    {82EAF25E-2B13-4C0A-8B6D-04872F84C2B4}
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
   Value: "{E9B6C600-C6E8-4867-BCB7-8B0DC5F19840}"
@@ -19,7 +22,7 @@ SharedFields:
     <image mediaid="{ED1E298D-51D9-41F8-81BD-235BC6D87A8B}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "09d45dae-4234-4ac7-bb48-3be0a8f8de7c"
+  Value: "f05d6ead-97a1-4eb7-bf12-d1770eee641a"
 - ID: "df6dc0ca-f8ee-493a-a920-f2b710f08452"
   Hint: BackgroundImage
   Value: 
@@ -85,14 +88,14 @@ Languages:
         sitecore\david.stremic@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f72337b-354c-464c-aefa-b7f545157226"
+      Value: "c22c318f-7c58-4f63-b837-e78f1b6567f9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\zach.escabedo@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260108T154029Z
+      Value: 20260119T171054Z
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
