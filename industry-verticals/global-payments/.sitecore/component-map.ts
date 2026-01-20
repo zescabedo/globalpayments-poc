@@ -59,6 +59,7 @@ import * as ScrollRevealTexttest from 'src/components/NonSitecore/ScrollRevealTe
 import * as ScrollRevealText from 'src/components/NonSitecore/ScrollRevealText';
 import * as ParallaxBackgroundImage from 'src/components/NonSitecore/ParallaxBackgroundImage';
 import * as IconAccent from 'src/components/NonSitecore/IconAccent';
+import * as GatedResourceModal from 'src/components/NonSitecore/GatedResourceModal';
 import * as DottedAccent from 'src/components/NonSitecore/DottedAccent';
 import * as CountUp from 'src/components/NonSitecore/CountUp';
 import * as Header from 'src/components/Navigation/Header';
@@ -126,6 +127,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ScrollRevealText', { ...ScrollRevealTexttest, ...ScrollRevealText }],
   ['ParallaxBackgroundImage', { ...ParallaxBackgroundImage }],
   ['IconAccent', { ...IconAccent }],
+  ['GatedResourceModal', { ...GatedResourceModal }],
   ['DottedAccent', { ...DottedAccent }],
   ['CountUp', { ...CountUp }],
   ['Header', { ...Header }],

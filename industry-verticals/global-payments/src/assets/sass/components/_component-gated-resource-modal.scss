@@ -1,0 +1,253 @@
+/*
+  ============================
+  GATED RESOURCE MODAL STYLES
+  ============================
+ 
+  ORDER: General, Title, Description, Form, Button, Submission
+*/
+
+/* ============================
+   CSS VARIABLES
+   ============================ */
+:root {
+  /* General */
+  --bx-overlay-colour: rgba(28, 28, 28, 0.40);
+  --bx-background-colour: #F9F7F4;
+  --bx-general-font: 'Manrope', sans-serif;
+  --bx-modal-width: 640px;
+  --bx-modal-radius: 16px;
+  --bx-modal-padding: 36px;
+
+  /* Title */
+  --bx-title-font: 'Manrope', sans-serif;
+  --bx-title-text-colour: #1C1C1C;
+  --bx-title-text-size: 28px;
+
+  /* Description */
+  --bx-description-font: 'Manrope', sans-serif;
+  --bx-description-text-colour: rgba(28, 28, 28, 0.80);
+  --bx-description-text-size: 18px;
+
+  /* Form */
+  --bx-form-font: 'Manrope', sans-serif;
+  --bx-input-background-colour: #FFFFFF;
+  --bx-input-border-colour: #2536f0;
+  --bx-input-focus-colour: #2536f0;
+  --bx-input-text-size: 16px;
+  --bx-desktop-label-width: 110px;
+
+  /* Button */
+  --bx-button-font: 'Manrope', sans-serif;
+  --bx-button-colour: #2536f0;
+  --bx-button-hover-colour: #2536f0;
+  --bx-button-text-colour: #FFFFFF;
+  --bx-button-text-size: 16px;
+
+  /* Submission */
+  --bx-submission-font: 'Manrope', sans-serif;
+  --bx-error-text-colour: #8B0000;
+}
+
+/* ============================
+   BASE & LAYOUT
+   ============================ */
+#bx-modal_overlay {
+  font-family: var(--bx-general-font) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: none;                    /* JS will set to flex */
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  background: var(--bx-overlay-colour);
+}
+
+.bx-modal_content {
+  background: var(--bx-background-colour);
+  width: var(--bx-modal-width);
+  max-width: calc(100vw - 32px);
+  border-radius: var(--bx-modal-radius);
+  padding: var(--bx-modal-padding);
+  position: relative;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.18);
+}
+
+/* ============================
+   TYPOGRAPHY BY AREA
+   ============================ */
+
+/* Title */
+.bx-title {
+  font-family: var(--bx-title-font) !important;
+  color: var(--bx-title-text-colour);
+  font-size: var(--bx-title-text-size);
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 14px;
+}
+
+/* Description */
+.bx-description {
+  font-family: var(--bx-description-font) !important;
+  color: var(--bx-description-text-colour);
+  font-size: var(--bx-description-text-size);
+  line-height: 1.5;
+  max-width: 720px;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+/* Form */
+.bx-form {
+  font-family: var(--bx-form-font) !important;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+  justify-items: center;
+}
+
+/* Grid rows for inputs */
+.bx-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+
+  @media (min-width: 768px) {
+    /* first .bx-row has two columns (first/last name), next .bx-row keeps single column for email */
+    &:first-of-type {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+/* Inputs (no visible labels) */
+.bx-input {
+  font-family: var(--bx-form-font) !important;
+  width: 100%;
+  background: var(--bx-input-background-colour);
+  border: 2px solid var(--bx-input-border-colour);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: var(--bx-input-text-size);
+  color: #1C1C1C;
+
+  &::placeholder {
+    color: rgba(28, 28, 28, 0.55);
+    font-family: var(--bx-form-font) !important;
+  }
+
+  &:focus {
+    border-color: var(--bx-input-focus-colour);
+    outline: 2px solid var(--bx-input-focus-colour);
+  }
+}
+
+/* Button */
+.bx-modal_button {
+  font-family: var(--bx-button-font) !important;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--bx-button-text-colour);
+  background-color: var(--bx-button-colour);
+  padding: 16px 22px;
+  font-size: var(--bx-button-text-size);
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: var(--bx-button-hover-colour);
+  }
+}
+
+/* Submission (error + consent) */
+.bx-error,
+.bx-consent {
+  font-family: var(--bx-submission-font) !important;
+}
+
+.bx-error {
+  min-height: 18px;
+  font-size: 14px;
+  color: var(--bx-error-text-colour);
+  text-align: center;
+  margin-top: 4px;
+}
+
+.bx-consent {
+  margin-top: 6px;
+  font-size: 14px;
+  color: rgba(28, 28, 28, 0.75);
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.5;
+
+  a {
+    color: var(--bx-button-colour);
+    text-decoration: underline;
+
+    &:hover {
+      color: var(--bx-button-hover-colour);
+    }
+  }
+}
+
+/* Close (text "X" for reliability) */
+.bx-modal__btn-close-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 2px solid rgba(28, 28, 28, 0.85);
+  background: rgba(249, 247, 244, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1;
+  color: rgba(28, 28, 28, 0.85);
+  font-family: var(--bx-general-font) !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    background: rgba(249, 247, 244, 1);
+    border-color: rgba(28, 28, 28, 1);
+  }
+
+  &:focus {
+    outline: 2px solid var(--bx-input-focus-colour);
+    outline-offset: 2px;
+  }
+}
+
+/* Responsive padding tweaks */
+@media (max-width: 560px) {
+  .bx-modal_content {
+    padding: 28px 22px;
+  }
+
+  .bx-title {
+    font-size: calc(var(--bx-title-text-size) - 6px);
+  }
+
+  .bx-description {
+    font-size: calc(var(--bx-description-text-size) - 2px);
+  }
+
+  .bx-modal_button {
+    width: 100%;
+  }
+}
