@@ -98,132 +98,102 @@ function GatedResourceModal({ isOpen, onClose, onSuccess }: GatedResourceModalPr
   if (!isOpen) return null;
 
   return (
-    <div className="overlay-wrapper" onClick={handleBackdropClick}>
-      <div className="overlay">
-        <button
-          className="overlay-close"
-          onClick={onClose}
-          aria-label="Close dialog"
-          type="button"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
-        <div className="row component column-splitter">
-          <div className="col-12 col-lg-12 offset-lg-1">
-            <div className="component container make-fullwidth-sm">
-              <div className="component-content">
-                <div className="component sitecore-form">
-                  <div className="component-content">
-                    <form
-                      onSubmit={handleSubmit}
-                      className="dynform-590d29184e414ca683445f18f149e995 initialized"
-                      noValidate
-                    >
-                      <div className="form-group">
-                        <h1 className="text-primary-1">Tell us about yourself</h1>
-                      </div>
+    <div 
+      id="bx-modal_overlay" 
+      aria-hidden="false" 
+      style={{ display: 'flex' }}
+      onClick={handleBackdropClick}
+    >
+      <div 
+        className="bx-modal_content" 
+        role="dialog" 
+        aria-modal="true" 
+        aria-labelledby="bx-modal_title" 
+        aria-describedby="bx-modal_desc"
+      >
+        {/* Title */}
+        <h3 id="bx-modal_title" className="bx-title">
+          Tell us about yourself
+        </h3>
 
-                      <div className="row">
-                        <div className="form-group col-md-6">
-                          <label htmlFor="firstName" className="">
-                            First Name*
-                          </label>
-                          <input
-                            id="firstName"
-                            name="firstName"
-                            className="form-control"
-                            type="text"
-                            value={formData.firstName}
-                            onChange={handleInputChange}
-                            maxLength={255}
-                            placeholder=""
-                            data-sc-tracking="True"
-                            data-sc-field-name="FirstName"
-                            data-sc-field-key="96323AD10AE14AC6A64F71DF0A4EBC91"
-                          />
-                          {errors.firstName && (
-                            <span className="field-validation-error">
-                              {errors.firstName}
-                            </span>
-                          )}
-                        </div>
+        {/* Description */}
+        <p id="bx-modal_desc" className="bx-description">
+          Share a few details to start the download.
+        </p>
 
-                        <div className="form-group col-md-6">
-                          <label htmlFor="lastName" className="">
-                            Last Name*
-                          </label>
-                          <input
-                            id="lastName"
-                            name="lastName"
-                            className="form-control"
-                            type="text"
-                            value={formData.lastName}
-                            onChange={handleInputChange}
-                            maxLength={255}
-                            placeholder=""
-                            data-sc-tracking="True"
-                            data-sc-field-name="Last Name"
-                            data-sc-field-key="0E70BE0CBE8845D9B8A17446EC1190C0"
-                          />
-                          {errors.lastName && (
-                            <span className="field-validation-error">
-                              {errors.lastName}
-                            </span>
-                          )}
-                        </div>
-                      </div>
-
-                      <div className="row">
-                        <div className="form-group col-md-6">
-                          <label htmlFor="email" className="">
-                            Email*
-                          </label>
-                          <input
-                            id="email"
-                            name="email"
-                            className="form-control"
-                            type="email"
-                            value={formData.email}
-                            onChange={handleInputChange}
-                            maxLength={255}
-                            placeholder="example@example.com"
-                            data-sc-tracking="True"
-                            data-sc-field-name="Email"
-                            data-sc-field-key="266A1EB6154647BC9938758747E182C9"
-                          />
-                          {errors.email && (
-                            <span className="field-validation-error">
-                              {errors.email}
-                            </span>
-                          )}
-                        </div>
-                      </div>
-
-                      <div className="row" style={{ marginTop: '20px' }}>
-                        <div className="form-group col-md-12">
-                          <button type="submit" className="btn btn-primary btn-sm">
-                            Submit
-                          </button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
+        {/* Form */}
+        <form id="bx-email_form" className="bx-form" onSubmit={handleSubmit} noValidate>
+          {/* Row 1: First & Last name (inline on desktop, stacked on mobile) */}
+          <div className="bx-row">
+            <input
+              id="bx-first_name"
+              type="text"
+              name="firstName"
+              autoComplete="given-name"
+              className="bx-input"
+              placeholder="First name"
+              aria-label="First name"
+              aria-required="true"
+              required
+              value={formData.firstName}
+              onChange={handleInputChange}
+            />
+            <input
+              id="bx-last_name"
+              type="text"
+              name="lastName"
+              autoComplete="family-name"
+              className="bx-input"
+              placeholder="Last name"
+              aria-label="Last name"
+              aria-required="true"
+              required
+              value={formData.lastName}
+              onChange={handleInputChange}
+            />
           </div>
-        </div>
+
+          {/* Row 2: Email */}
+          <div className="bx-row">
+            <input
+              id="bx-email_input"
+              type="email"
+              name="email"
+              autoComplete="email"
+              className="bx-input"
+              placeholder="Email address"
+              aria-label="Email address"
+              aria-required="true"
+              required
+              value={formData.email}
+              onChange={handleInputChange}
+            />
+          </div>
+
+          <button id="bx-submit_btn" type="submit" className="bx-modal_button">
+            Get a quote today!
+          </button>
+
+          <div id="bx-error" className="bx-error" role="alert" aria-live="polite">
+            {errors.firstName && <div>{errors.firstName}</div>}
+            {errors.lastName && <div>{errors.lastName}</div>}
+            {errors.email && <div>{errors.email}</div>}
+          </div>
+
+          <p className="bx-consent">
+            By subscribing, you agree to our <a href="/privacy" target="_blank" rel="noopener">Privacy Policy</a>. You can unsubscribe anytime.
+          </p>
+        </form>
+
+        {/* Close (simple text "X" to avoid pseudo-element issues) */}
+        <button 
+          type="button" 
+          className="bx-modal__btn-close-icon" 
+          aria-label="Close"
+          onClick={onClose}
+        >
+          X
+        </button>
       </div>
     </div>
   );
