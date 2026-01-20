@@ -171,7 +171,7 @@ function GatedResourceModal({ isOpen, onClose, onSuccess }: GatedResourceModalPr
           </div>
 
           <button id="bx-submit_btn" type="submit" className="bx-modal_button">
-            Get a quote today!
+            Download the report!
           </button>
 
           <div id="bx-error" className="bx-error" role="alert" aria-live="polite">
